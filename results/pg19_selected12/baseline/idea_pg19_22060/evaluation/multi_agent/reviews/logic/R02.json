@@ -1,0 +1,184 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体构建了拉尔夫与珀西从莽撞少年到冷酷战士的成长弧光，但在跨集逻辑、资源状态和因果链路上存在多处严重断裂。主要问题包括：关键道具（地图、勋章、名单）的归属与出现缺乏合理转移过程；角色状态（如拉尔夫的烧伤、坦普的生死）前后矛盾；以及多处“危机解决”依赖未铺垫的新规则或巧合（如检查站口令、假证件）。此外，部分情节存在重复（如多次检查站/关卡突破），且伏笔（如蒂姆的死亡、修女的牺牲）回收略显仓促。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "拉尔夫在沼泽中“救下”的上尉勋章，在后续剧情中突然成为证明其叛徒身份的关键证据，但拉尔夫本人对此毫不知情，且勋章来源与“救下”行为在逻辑上无法自洽（拉尔夫昏迷，无时间救人或获取勋章）。",
+      "reason": "S级：关键道具（勋章）已明确由一方（拉尔夫）控制，后文无转移过程却由另一方（游击队负责人）用于推动主线（指控叛徒）。且拉尔夫在17集昏迷，18集醒来后对勋章来源解释为“救下的上尉”，但17集珀西发现勋章时拉尔夫仍在昏迷，且无“救下”过程描写，属于硬性矛盾。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-2",
+        "quote": "珀西（手指微微颤抖，将布料翻转过来，指腹擦过上面凝固的血迹，一枚冰冷的金属勋章滑落掌心）：一枚上尉勋章？",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-1",
+        "contrast_quote": "游击队负责人VO：收到了。“外籍间谍携带叛徒证据，私通被处决的上尉”。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "坦普少校在第35集明确被描写为断后并爆炸身亡，但在第36集及后续多集中（如37、38、49、50集）又以活人身份出现并指挥作战，无假死或替身解释。",
+      "reason": "S级：角色已被明确写实确认死亡（35-2坦普拉开引信，爆炸吞没通道口），后续无假死、复活、替身、倒叙等解释却以活人参与关键剧情。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "坦普少校（拉开引信，回头看了一眼）：走啊！△ 巨大的爆炸声从入口炸响，冲击波夹杂着烈焰吞没了通道口。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "拉尔夫（扫视着众人绝望的眼神，声音沙哑却稳定）：闭嘴！只要这台机器还响着，我们就没输。珀西，带人往左翼开火，制造侧翼突围的假象。（注：此处虽未直接出现坦普，但37集坦普再次出现指挥，且35集后无复活交代）"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第24集拉尔夫通过检查站时，依靠检查官“没收到换岗通知”的失误和拉尔夫的挑衅成功过关，属于依靠反派降智/失误化解危机。",
+      "reason": "B级：核心危机依靠未铺垫的新规则（检查官失误）、天降救援或反派降智化解并改变主线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "普军检查官：（愣了一瞬，随即眼神闪烁不定）等等……是“钉子”吧？……该死的换岗表……我都还没收到通知……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第44集蒂姆死后，拉尔夫身上突然多出一张“指挥部后门结构图”，声称是蒂姆引爆前塞进通风管的，但前文无蒂姆获取该图或塞入过程的铺垫，且拉尔夫在爆炸中幸存并立即获得该图，逻辑牵强。",
+      "reason": "A级：来源有模糊铺垫，但获取、转移或保存状态缺少关键支撑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "珀西（从拉尔夫被撕破的衣领处，掏出一张沾满血水和火药渣的手绘地图，递给拉尔夫）：那是他引爆前塞进通风管的。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第50集珀西准确预测普军重炮将在十分钟后覆盖高坡，并指出撤退路线是直线靶子，但前文未交代其如何获取普军炮击计划或进行如此精确的弹道计算，属于知识来源缺失。",
+      "reason": "A级：角色依靠未交代来源的专业知识、隐秘情报或技能完成关键判断与行动。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "珀西：（猛地抬头，眼神锐利如刀，死死盯着副官）胡话？如果不按这个点位部署，普军的重炮将在十分钟后覆盖这片高坡。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "剧本中多次出现“拉尔夫/珀西通过检查站/关卡”的情节，且模式高度相似（出示证件/威胁/利用对方弱点），如第24集、第42集、第53集，造成有效剧情停滞。",
+      "reason": "A级：两个重要事件重复，或一个重要事件被多次复述；虽有少量措辞、场景或反应差异，核心信息和结果仍相同。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "拉尔夫：（深吸一口气，脑海中闪过蒂姆的警告，嘴角闪过一丝不易察觉的轻蔑）今天的早班，可不是那种傻瓜都能记住的词。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-2",
+        "contrast_quote": "拉尔夫：（停下脚步，轻蔑地扫了一眼哨兵，嘴角勾起一丝残忍的笑）封锁？我是来检查封锁线有没有漏洞的。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E007",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "后果无回响",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第57集修女为掩护兄弟俩牺牲，但后续剧情中（58-60集）对其牺牲的社会、组织或主线格局反应较弱，仅作为情感转折点，未对游击队或法军产生实质性影响。",
+      "reason": "B级：回响偏弱，但不影响主线理解。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "修女（在烈火前的剪影中平静地回头，声音穿透火光）：活下去……替我记着……",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-1",
+        "contrast_quote": "拉尔夫：（声音沙哑而冰冷）都看清楚了。这不是游戏，也不是为了向坦普那个死鬼交代。这是普军指挥部的后门结构图。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E008",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "拉尔夫从莽撞冲动到冷酷理性的转变过程有较为清晰的事件驱动（如老杰克之死、老李之死、修女之死），因果链基本成立。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-3",
+        "quote": "拉尔夫（看着珀西冰冷的背影，沉默许久）：你变成了什么怪物？",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-3",
+        "contrast_quote": "拉尔夫（擦拭军刀的动作停顿，声音如大旱后的枯井般冷硬）：从今天起，没有兄弟，只有目标。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角托伊内特·里夫的人物弧光清晰且深刻，从极端的理性防御到最终的情感接纳，转变过程有充分的事件驱动（如海伦的遭遇、父亲的压迫、斯通夫人的阴谋）和内在逻辑支撑。配角海伦和露丝的功能明确，分别代表了“被压迫的共情”和“混乱中的真实”，与主角形成了有效的互动和张力。反派斯通夫人和父亲雷夫先生虽然动机相对单一（控制欲/利益），但通过具体的压迫行为（如公开羞辱、经济威胁）成功建立了威胁感。人物关系（尤其是托伊内特与海伦、露丝的关系）贯穿全剧，情感绑定逐步加深，成为推动主线的重要动力。整体人物质量显著高于常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如潜入、对峙）大多承担不同功能，通过新变量（如从物理潜入到心理博弈）形成有效变奏。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "托伊内特贴着墙根滑行，指尖划过冰冷的气压传感器外壳，确认无反应。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手代表不同资源、价值立场与压力类型（斯通夫人的制度压迫、父亲的资本控制、露丝的情感/规则冲突），迫使主角采用不同策略。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "雷夫先生：在这个家里，只有所有权，没有债权。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "她惊恐地捂住嘴，眼泪夺眶而出。她引以为傲的理性、计算、自我保护，原来全是斯通夫人教案中预设好的参数。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "托伊内特·里夫（14岁）拖着重型行李箱滚轮碾过地面的声音，清脆而突兀。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-2",
+        "quote": "托伊内特：我不完美，但我真实；我不控制，但我负责。这就是我想建立的秩序。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-3",
+        "quote": "托伊内特举起手，轻轻回应挥手。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "托伊内特猛地回头。走廊尽头，一双眼睛冷冷地注视着这边——是保安米勒，他正站在阴影里，手指搭在对讲机上。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "托伊内特·里夫穿着熨帖的校服，手中紧握着那块未合上的数据板，屏幕还停留在昨晚未完成的分析模型上。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "普雷斯顿：不要计算风向，去感受它。当你不再试图控制周围的一切时，你才会真正融入其中。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "普雷斯顿小姐（低声，对着空气）：即便在黑暗里，也要有人记得光的样子。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-2",
+        "quote": "校董会主席（起身，重重坐下）：鉴于斯通女士严重违反职业道德，煽动社区分裂并涉嫌故意破坏设施。即日起，终止你的所有聘用关系。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角托伊内特·里夫具有完整且深刻的人物弧光，从极端的理性防御到情感接纳，转变过程有充分的事件驱动和内在逻辑支撑。",
+      "reason": "起点缺陷（过度理性/情感隔离）明确，关键转折（第11集发现沉默即顺从、第26集海伦的崩溃、第39集普雷斯顿的质问）均有强驱动事件逼出主动选择（撕毁地图、放弃录音、烧毁协议），并产生不可逆后果（失去安全感、承担风险、获得自由），显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "托伊内特（声音低微，带着沙哑）：我一直以为……只要掌控足够的变量，我就能掌控命运。我害怕如果停止计算……我就什么都不是。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "托伊内特不再记录，不再防御，只是存在。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "reason": "内在矛盾（理性vs情感、控制vs信任）在多个关键节点（第10集沉默、第26集旁观海伦、第47集伪造评估）通过两难选择、脆弱暴露（第12集崩溃、第51集被揭露）和犯错承担后果（第52集被孤立）被充分戏剧化，显著提高了人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "托伊内特缓缓放下了举着手机的左手。她没有按下载入键，而是将右手掌心的纸团攥得更紧。尖锐的纸角刺破皮肤，渗出一滴殷红的血珠，顺着掌纹滑落。",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "露丝：如果你为了钱撒谎，为了所谓的“控制”而伪造真实，那你就是在向她证明——你是对的。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "reason": "海伦代表“被压迫的共情”，露丝代表“混乱中的真实”，普雷斯顿代表“制度的守护者”，斯通夫人代表“制度的压迫者”，父亲代表“资本的控制者”。各角色功能明确，推动主线，反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-2",
+        "quote": "托伊内特：（没有抬头，眼神聚焦在零件的连接点上，声音极低，几乎被秒表的滴答声掩盖）别怕。",
+        "contrast_episode": "第27集",
+        "contrast_scene": "27-2",
+        "contrast_quote": "斯通夫人：（站起身，绕过桌子，语气突然变得温和而诱导）露丝，学校不需要只会尖叫的受害者，也不需要只会记录数据的旁观者。学校需要的是能发现裂缝的“审计员”。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系存在至少两类明确张力来源，能够稳定支撑主线或重要副线。",
+      "reason": "托伊内特与海伦的关系存在“阶级差异”和“情感依赖”两类张力；托伊内特与露丝的关系存在“规则vs混乱”和“信任vs利用”两类张力；托伊内特与父亲的关系存在“控制vs自由”和“物化vs人性”两类张力。这些张力稳定支撑主线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "海伦：（冷笑一声，抱起双臂）不对？之前你沉默的时候，怎么没觉得不对？那时候你也站在阴影里，和斯通夫人没什么两样。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-2",
+        "contrast_quote": "海伦：（低声，带着哽咽的笑意）谢谢。这次，我们是一伙的了。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。",
+      "reason": "托伊内特与海伦的关系从“冷漠旁观”（第9集）到“主动帮助”（第14集）再到“共同对抗”（第48集），有清晰起点、关键里程碑（第14集帮助复原模型）和阶段变化（第48结盟），增强了主线情感投入。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "托伊内特合上笔记本，掩盖住那个墨水黑点。她的眼神不再平静，目光在海伦佝偻的背影和讲台上斯通夫人挺拔的侧影之间游移。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-2",
+        "contrast_quote": "托伊内特：（苦笑，将那张写着“谎言作为防御机制”的笔记片扔回地上）完美是我的牢笼。而你……把我拉出来了。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派斯通夫人和父亲雷夫先生的动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "reason": "斯通夫人的动机（控制欲/秩序）和父亲的动机（利益/控制）可识别，但缺乏更深层的创伤或价值冲突支撑，主要依赖口头设定（如“只有功能是有价值的”）。与主角的对照（理性vs控制）和升级过程（从制度压迫到资本控制）存在，但关键压迫场面（如第22集搜身、第51集揭露邮件）虽有效，但整体反派塑造的深度和复杂性略逊于主角。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "雷夫先生：保持这种效率。记住，在这个家里，只有功能是有价值的。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "斯通夫人OS（贴近耳畔，只有托伊内特能听见）：你父亲很生气，里夫小姐。希望你的‘诚实’，值得他付出的代价。"
+      }
+    }
+  ]
+}

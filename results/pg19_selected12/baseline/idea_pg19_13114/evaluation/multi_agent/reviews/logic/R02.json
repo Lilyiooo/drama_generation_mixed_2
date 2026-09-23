@@ -1,0 +1,118 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体构建了完整的因果闭环，核心反转（画作造假、朱利安操控、伊莱亚斯觉醒）均有前文铺垫，逻辑自洽性较高。主要问题集中在：1. 第42-47集存在严重的“直播揭露”情节重复，同一事件被反复演绎且细节冲突（如激光笔使用、警察介入时机）；2. 第48集克拉拉恢复“已格式化”手机数据的逻辑存在技术硬伤；3. 第51集录音笔来源缺乏前文铺垫。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "第42集至第47集，伊莱亚斯在直播中揭露画作造假的情节被重复了至少4次，且每次细节略有不同但核心事件完全一致，导致剧情严重停滞。",
+      "reason": "第42集（独立学者指出划痕，伊莱亚斯沉默）、第44集（伊莱亚斯试图用激光笔但被朱利安制止）、第45集（伊莱亚斯用激光笔画圈揭露）、第46集（再次用激光笔画圈揭露）、第47集（再次用激光笔画圈揭露并被捕）。同一关键事件（直播揭露）被反复复演，占据多个节点，符合S级“两个关键事件被多次重复并占据多个节点”的定义。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "伊莱亚斯（无视耳麦中的叫喊，盯着红光）：这不是瑕疵。这是裂痕。是这道裂痕，让光透了进来。",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-1",
+        "contrast_quote": "伊莱亚斯（手腕猛然发力，激光笔在瑕疵处缓缓划出一个巨大的红圈）：看清楚，这才是它真正的样子。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第48集克拉拉声称从被朱利安格式化的手机中恢复了云备份数据，但前文未交代克拉拉拥有访问伊莱亚斯iCloud账号的权限或技术手段，且“格式化物理内存”通常不影响云端同步，逻辑解释牵强。",
+      "reason": "克拉拉作为前妻，在伊莱亚斯被囚禁期间，如何获取其手机云端密码或进行数据恢复缺乏铺垫。虽然“云备份”是常见逻辑，但前文第25集明确提到伊莱亚斯被没收所有电子设备并切断通讯，克拉拉此时能直接调取“最近删除”中的高清照片并生成报告，属于A级“依靠未交代来源的专业知识...完成关键判断”。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "克拉拉（滑动屏幕，将一张高清照片投在玻璃前的反光板上）：朱利安格式化的是物理内存，但你在第9集用备用机抓拍的三张照片，已经上传到了iCloud的“最近删除”里。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-1",
+        "contrast_quote": "技术人员A（职业冷淡）：交出您的手机、智能手表和所有个人电子设备，索恩先生。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第51集克拉拉拿出朱利安承认伪造并威胁维克多的录音笔，但前文未交代该录音笔的来源、获取过程或朱利安为何会留下如此明显的把柄。",
+      "reason": "录音笔是定罪朱利安的关键证据，但其在第51集突然出现在克拉拉手中，前文无铺垫。朱利安作为高智商反派，主动将“铁证”交给维克多且未销毁，动机和逻辑链条缺失，属于A级“来源有模糊铺垫，但获取、转移或保存状态缺少关键支撑”。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "克拉拉（从怀中掏出那支录音笔，扔在维克多脚边）：那是朱利安承认伪造并威胁保持沉默的铁证。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "朱利安（转身，按下遥控器红色的唯一按键）：既然他们想要，就什么都别给他们。启动“灭烛”协议。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "伊莱亚斯从共犯到觉醒的转变过程层层铺垫，从第1集的自我欺骗到第35集刻下求救信号，再到第45集的爆发，因果逻辑严密。",
+      "reason": "主角的心理变化有清晰的事件驱动（克拉拉离开、朱利安威胁、大卫遇袭等），关键转折（刻划痕、直播揭露）均有前文伏笔（第35集刻痕、第40集心理预演），符合A级“主要转折因果清晰，前因充分支撑后果”。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "伊莱亚斯（OS）：就是现在。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-1",
+        "contrast_quote": "伊莱亚斯（眼神骤然锐利，死死咬住朱利安在侧幕惊恐的脸）：在这里。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第42集与第44-47集的时间线存在轻微重叠和倒置感。第42集已发生“独立学者指出划痕”并导致混乱，但第44-47集又回到“直播演讲”阶段，且第42集的混乱似乎未对后续直播产生实质性影响（如安保加强、流程中断），导致时间推进感模糊。",
+      "reason": "第42集结尾警察已介入，但第44集开头伊莱亚斯仍在进行演讲，且朱利安仍在耳麦中指挥，暗示第42集的混乱被“重置”或忽略。虽不影响主线理解，但局部时间细节不一致，属于B级。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "警察（大声）：警方介入！任何人不得离开现场！",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "伊莱亚斯（对着麦克风，声音干涩）：艺术……是历史的伤痕。"
+      }
+    }
+  ]
+}

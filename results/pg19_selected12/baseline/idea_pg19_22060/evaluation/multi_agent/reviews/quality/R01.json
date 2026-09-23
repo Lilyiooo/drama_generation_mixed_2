@@ -1,0 +1,284 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极强的戏剧张力和情感深度。主角拉尔夫经历了从冲动莽撞到冷酷决绝的显著弧光，其内在矛盾（英雄主义与生存法则的冲突）通过多次两难选择（如救俘虏、炸桥、杀逃兵）被充分戏剧化。配角珀西作为“理智与冷酷”的镜像，与拉尔夫形成了极具张力的核心关系。反派坦普少校和蒂姆·多伊尔的功能性明确，前者代表了体制的冷酷与无奈，后者提供了情报与黑色幽默。整体人物配置合理，关系演进清晰，情感绑定深厚。主要问题在于部分配角（如蒂姆）在后期剧情中略显工具化，以及个别场景（如第39集处决逃兵）中拉尔夫的冷酷转变稍显突兀，缺乏更细腻的内心挣扎铺垫。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如突围、伏击、谈判）大多承担不同功能，通过新变量（如沼泽、修道院、检查站）和关系变化（如坦普的背叛、蒂姆的牺牲）形成有效变奏。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "拉尔夫：（嘴角带血，露出狰狞的笑）那就让他们尝尝地狱的味道。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（普军、游击队内部叛徒、法军高层）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（如武力突围、情报渗透、政治博弈）。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "坦普少校：（冷笑一声，刀刃并未移开分毫）少校可不是那种容易死在脏臭老鼠洞里的人。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从教堂地下室发现叛徒线索，到被游击队背叛，再到独立行动，层层递进。",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-3",
+        "quote": "珀西：（站起身，将蜡块放在石板的一角，眼神直指拉尔夫）如果这个接应点的坐标被改了……你以为之前的行动为什么总是被打草惊蛇？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。第1集通过母亲驱逐和暴雨逃亡，迅速确立了主角的困境和生存目标。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "母亲：（猛地转身，眼神决绝）区别在于，他们有权杀人。而你们，只是待宰的羔羊。带着你们的东西，滚。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从被背叛到独立复仇，情绪张力持续累积，高潮部分（修道院爆炸、峡谷伏击）有力。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "坦普少校：（转身，面向入口处冲进来的黑影，举起最后一把步枪）告诉你们那个混蛋妈妈，我们没做逃兵。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。拉尔夫的愤怒、绝望、冷酷等情绪变化有迹可循，最终在战争结束时得到释放。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-2",
+        "quote": "拉尔夫（看着溃退的敌人，眼神中最后一丝戾气消散，变得极度疲惫）：解脱？还是毁灭？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如叛徒身份、坦普生死、最终复仇等悬念贯穿全剧。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "坦普少校VO：重复……最后一次广播。针对代号为“双生狼”的特务拉尔夫·格雷、珀西·格雷及其从犯蒂姆·多伊尔……予以定性为叛变分子。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。前期铺垫充分，中期冲突密集，后期收束有力。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "坦普少校：（冷笑，手指轻轻敲击着刀背）那是死局。一旦进去，就是瓮中之鳖。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水情节，每集均有推进主线或深化人物。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "珀西：（盯着烟盒被刻意擦过的边缘）不是有人想让我们看到。是有人故意把它丢在这里，指引我们去下一个陷阱。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。如蒂姆的情报线、修女的庇护线均与主线紧密相连。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "修女：（突然转身，双手举起那盏沉重如铁的巨大陈年铜烛台）快滚！带着我的情报走！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从求生到复仇再到解脱，主线清晰且有力。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-3",
+        "quote": "拉尔夫（在珀西的注视下缓缓蹲下，摘下胸前象征游击队身份的破旧徽章，一同扔进海浪中）：干净了。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "拉尔夫的弧光完整且深刻，从冲动少年到冷酷复仇者，每次变化均有强驱动事件和不可逆后果。",
+      "reason": "起点缺陷（冲动、渴望认可）明确；关键转折（救俘虏导致老杰克死、炸桥牺牲老李、杀逃兵）均由强驱动事件逼出主动选择并产生不可逆后果（被游击队背叛、与珀西关系紧张、彻底冷酷）；终点变化（扔掉徽章和枪）显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "拉尔夫：（双眼充血，理智断线，猛地探头出灌木）住手！！",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-3",
+        "contrast_quote": "拉尔夫（在珀西的注视下缓缓蹲下，摘下胸前象征游击队身份的破旧徽章，一同扔进海浪中）：干净了。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "拉尔夫的内在矛盾（英雄主义与生存法则）在多个关键节点被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "reason": "内在矛盾在救俘虏（第3集）、炸桥（第7集）、杀逃兵（第39集）等关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。例如第39集处决逃兵时，拉尔夫的冷酷与珀西的质疑形成强烈对比，展现其内心的挣扎与最终选择。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "拉尔夫：（面无表情地松开扳机，缓缓退后半步，任由硝烟散开）清理尸体，带走物资。原地停留超过十秒者，视为叛徒。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-2",
+        "contrast_quote": "珀西：（头也不回地看向远方阴霾的苍穹）我不恨你拉尔夫。我只怕你有一天，连开枪的手都不会发抖。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "reason": "拉尔夫（行动与情感）、珀西（理智与冷酷）、坦普（体制与背叛）、蒂姆（情报与牺牲）功能明确，推动主线。反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "珀西：（冷冷地直视拉尔夫）他是个爱尔兰人，少爷。他最擅长的就是死得其所。现在，我们要带着他的命去把普鲁士人的心脏挖出来。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "拉尔夫与珀西的核心关系同时存在身份立场、目标利益、情感依赖、秘密误会和价值冲突等多类张力，移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "兄弟关系既是情感依赖（彼此救赎），又是价值冲突（英雄主义 vs 生存法则），还有秘密误会（如第17集勋章事件）。张力来源多样且相互咬合，支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-3",
+        "quote": "拉尔夫（在翻滚中死死盯着珀西，眼神从绝望转为仇恨）：是你……你是故意的！",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "珀西：（伸出手，覆盖在拉尔夫颤抖的手背上）不。即使你死在我前面，我也不会恨你。但我绝不让你死。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "拉尔夫与珀西的关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "起点（共同逃亡）、里程碑（炸桥冲突、勋章误会、共同复仇）、终点（扔掉徽章和枪，彼此为家）清晰。关系推进与主线情节紧密相连，形成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-3",
+        "quote": "拉尔夫（反紧紧握住珀西的手掌，两人相视一笑）：那就把彼此当成家。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "蒂姆·多伊尔在后期剧情中略显工具化，主要围绕帮助主角或解释信息运转，个人目标、mini 弧光或独立情感价值不足。",
+      "reason": "蒂姆在前期提供情报和黑色幽默，功能有效。但后期（如第44集牺牲）主要服务于主角的复仇动机，缺乏更独立的个人目标或情感深度。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "珀西：（冷冷地直视拉尔夫）他是个爱尔兰人，少爷。他最擅长的就是死得其所。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "拉尔夫在第39集处决逃兵时的冷酷转变稍显突兀，缺乏更细腻的内心挣扎铺垫。",
+      "reason": "虽然拉尔夫的冷酷有前期铺垫（如炸桥、杀哨兵），但第39集处决逃兵时，其内心挣扎的描写较少，更多是通过珀西的质疑和士兵的反应来体现，略显单薄。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "拉尔夫：（面无表情地松开扳机，缓缓退后半步，任由硝烟散开）清理尸体，带走物资。原地停留超过十秒者，视为叛徒。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

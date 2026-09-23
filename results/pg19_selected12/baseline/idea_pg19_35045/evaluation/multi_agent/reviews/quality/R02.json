@@ -1,0 +1,306 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R02",
+  "rationale": "本剧本在人物塑造上具有极高的辨识度和强烈的风格化特征，主角弗洛拉通过“清洁/秩序”与“暴力/控制”的极端结合，构建了独特的人物弧光。配角哈里与露丝分别承担了“混乱/反抗”与“创伤/逃避”的功能，与主角形成有效的戏剧张力。反派莎拉与乔少校在前期作为压迫者，后期通过“标本化”与“控制欲”的暴露，完成了与主角价值观的对照。人物关系从利益捆绑走向情感撕裂，最终在废墟中重建，逻辑链条完整。主要问题在于部分配角（如乔少校）在后期存在功能重复与降智倾向，以及部分台词在表达人物内心时略显直白。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "剧本中“清洁”与“混乱”的冲突模式贯穿始终，但每次冲突的载体（地板、账单、信件、木椅）和后果（驱逐、破产、PTSD、互助）均有显著升级，形成了有效的变奏。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "哈里：你只在乎把它毁掉。就像你毁掉了那扇门。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "阻力来源从房东（生存压力）、莎拉（阶层/道德审判）、乔少校（控制/庇护）到社区（集体排斥），代表了不同的资源与价值立场，迫使主角采取不同的应对策略。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "乔·本森少校：这是保护。嫁给我，你就是本森家的主母。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "场景从封闭的破败客厅逐渐扩展到花园、码头、广场，最后到互助中心，空间的变化对应着人物关系和生存状态的递进。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "△ 喧闹的广场中央，黑兹利互助中心挂着崭新的招牌，阳光刺破云层。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇通过房东撕毁租约和哈里的暴力行为，迅速建立了生存危机和人物间的紧张关系，核心问题（如何活下去）明确。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "房东（当着一家三人面，用力撕碎手中的租约）"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中后段通过哈里的失踪、莎拉的倒台和互助中心的建立，完成了从个人生存到集体救赎的升级，情绪积累充分。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-1",
+        "quote": "弗洛拉（用长勺搅动锅中浓汤，高声对围拢的人群）：这汤是用哈里捡回来的烂菜帮子熬的，苦，但是能暖胃。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪从压抑、绝望到愤怒、爆发，最后归于平静的坚韧，关键节点（如哈里自爆、弗洛拉拒绝求婚）均有铺垫。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "哈里（猛地将那份被弗洛拉藏起的“抢劫计划草图”抛向半空，任由其随风飘散）"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "每集结尾通常留有悬念（如哈里的去向、莎拉的反击、乔的求婚），且在下集得到回应或升级，期待链稳定。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "哈里：既然这里不需要我，那我就去一个比地狱更脏的地方看看。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "信息释放节奏良好，背景设定（如莎拉的过去、乔的秘密）通过关键道具（袖扣、信件）逐步揭示，没有明显的信息过载。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "弗洛拉（凑近观察，瞳孔微缩）：这花……死了都能这么硬气。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大部分集数都有明确的新增量（如新冲突、新信息、关系变化），必要的过渡场景（如清洁、木工）也服务于人物塑造。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "哈里：斧头是用来征服的，刨子是用来交朋友的。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（如玛莎的互助、乔的庄园）在关键节点反哺主线，如玛莎提供情报，乔提供庇护或对抗，与主线形成互文。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "矿工（苦笑，用胳膊肘指了指排风口）：莎拉那疯婆子的手下，正要把人拖去城郊废弃码头。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线从“生存”到“复仇”再到“重建”，阶段目标清晰，每次兑现（如莎拉倒台、互助中心建立）都改变了局面。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-2",
+        "quote": "弗洛拉（举起手中的设计图，目光扫过每一张粗糙而鲜活的脸）：莎拉故居的改造方案，我已经提交给长老会了。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R02-E001",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角弗洛拉具有完整的人物弧光，从“秩序即生存”到“秩序即暴力”再到“秩序即包容”。",
+      "reason": "起点缺陷（过度依赖清洁作为防御机制）明确，关键转折（哈里被驱逐、拒绝乔的求婚）由强驱动事件逼出主动选择，终点变化（建立互助中心）有证据支撑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "弗洛拉（转身，将手中的抹布扔进角落的脏水盆里，发出“扑通”一声死寂的闷响）：也许吧。但这块地板上的脚印，我会让它留在那儿。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "弗洛拉（面无表情地捡起抹布，蹲下擦拭地面）：我不需要伺候，我只需要秩序。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E002",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角弗洛拉具有明确的内在矛盾，通过两难选择和犯错承担后果被戏剧化。",
+      "reason": "内在矛盾（保护家人 vs. 维持秩序）在多个关键节点（如驱逐哈里、拒绝求婚）通过两难选择被充分戏剧化，且付出了情感代价。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "弗洛拉（转身，一把揪住哈里的衣领，将他狠狠推向大门）：滚出去！",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-2",
+        "contrast_quote": "弗洛拉（喃喃自语）：是我害了他。是我亲手把他剪掉了。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E003",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派乔·本森少校在后期存在功能重复与降智倾向。",
+      "reason": "乔少校在前期作为压迫者和庇护者，后期多次求婚被拒，动机停留在单一的控制欲，且在与弗洛拉的交锋中显得过于被动和情绪化，缺乏足够的威胁升级。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "乔·本森少校：这是保护。嫁给我，你就是本森家的主母。开发商不敢动我的不动产，长老会也得对我客客气气。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-2",
+        "contrast_quote": "乔·本森少校：你疯了！那是价值连城的钻石！"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E004",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（弗洛拉与哈里）存在至少两类明确张力来源，能够稳定支撑主线。",
+      "reason": "弗洛拉与哈里的关系同时存在“秩序 vs. 混乱”的价值冲突和“保护 vs. 控制”的情感依赖，移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "哈里：你只在乎把它毁掉。就像你毁掉了那扇门。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "哈里（哽咽难言，终于低下高贵的头颅，重重地痛哭出声）：对不起……妈，对不起……"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E005",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（弗洛拉与露丝）有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。",
+      "reason": "弗洛拉与露丝的关系从“控制与逃避”到“理解与包容”，关键里程碑（如露丝接受木勺、弗洛拉停止过度清洁）有明确回收。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "露丝（手指紧紧握住那把粗糙的木勺，将其贴在胸口）：它没有眼睛……它不会审判我……",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-1",
+        "contrast_quote": "露丝（尖叫，声音嘶哑）：别过来！那是我的！那是我的命！"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E006",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定。",
+      "reason": "弗洛拉的台词充满“清洁/秩序”隐喻，哈里的台词充满“暴力/混乱”意象，露丝的台词充满“恐惧/逃避”色彩，人物间表达差异清楚，增强角色辨识度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "弗洛拉：灰尘并没有死。它们在空气里悬浮，然后慢慢沉淀。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "哈里：沉淀在下面，等着被再次踩烂。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E007",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "reason": "部分台词（如弗洛拉的OS）直接解释人物心理或主题，略显直白，但整体仍服务于人物塑造和情节推进。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-2",
+        "quote": "弗洛拉OS：我赢了。秩序保住了。母亲安息了。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-2",
+        "contrast_quote": "弗洛拉（OS）：可是为什么，这满屋子的干净，闻起来全是血锈味？"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E008",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "世界观设定（如社区审查、阶层压迫）通过关键道具（袖扣、信件）和事件（驱逐、破产）逐步揭示，信息量始终可吸收。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "弗洛拉（对着光线审视）：这不是市井的造作。这种花纹……我在乔少校的书房里见过类似的纹路。",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-2",
+        "contrast_quote": "弗洛拉（低声念出）：给本森……那个年代……这就是你们当年洗白的交易？"
+      }
+    }
+  ]
+}

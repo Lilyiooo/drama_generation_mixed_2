@@ -1,0 +1,135 @@
+{
+  "experiment": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_matched_direct_history_baseline_v1",
+  "generated_at": "2026-09-22T13:51:32.966427+00:00",
+  "comparison": "new upstream structured-hybrid-gate candidate minus matched direct-outline/all-history baseline",
+  "protocol": {
+    "protocol_version": "new-scriptdrama-matched-outline-direct-all-history-v1",
+    "description": "Per-run matched direct episode-outline baseline; every episode receives all prior scripts from its own baseline trajectory verbatim.",
+    "source_experiment": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922",
+    "paired_sources": {
+      "R01": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_structured_hybrid_gate_R01",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_structured_hybrid_gate_R01/generation_assets.json",
+        "generation_assets_sha256": "8736bb9f4c93be1c63aae6ab154674d9db171c1092aea6d6d16fd83b6c2b81db",
+        "world_view_empty": true
+      },
+      "R02": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_structured_hybrid_gate_R02",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_structured_hybrid_gate_R02/generation_assets.json",
+        "generation_assets_sha256": "01fc522255fbe1b16cc4ad404fdb817d4788184ca77821b686ed9520cc7c8850",
+        "world_view_empty": true
+      },
+      "R03": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_structured_hybrid_gate_R03",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_structured_hybrid_gate_R03/generation_assets.json",
+        "generation_assets_sha256": "45791c4d71116f08b3f266ce54b27caa5b7f04f8b38e8901c29e4c137804ccc1",
+        "world_view_empty": true
+      }
+    },
+    "episodes": 60,
+    "runs": [
+      "R01",
+      "R02",
+      "R03"
+    ],
+    "run_seeds": {
+      "R01": 362100,
+      "R02": 362200,
+      "R03": 362300
+    },
+    "model": "Qwen3.6-27B",
+    "generation": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "top_k": 50,
+      "max_tokens": 8192,
+      "enable_thinking": false,
+      "max_context_tokens": 131072
+    },
+    "inputs_each_episode": [
+      "world_view",
+      "role_info",
+      "story_outline",
+      "current_episode_outline",
+      "all_previous_baseline_episode_scripts_verbatim"
+    ],
+    "excluded": [
+      "scene_outline_agent",
+      "narrative_memory",
+      "state_lifecycle_memory",
+      "obligation_memory",
+      "hybrid_retrieval",
+      "strategy_cards",
+      "state_gate",
+      "plot_library_retrieval",
+      "post_generation_rewrite_or_polish"
+    ],
+    "system_prompt_sha256": "1083eb791faddaa1ac144aa01d1c0fc8797908eef30d60119c89695ec147ccfa",
+    "script_format_source": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/service/drama_by_creativity/prompts/script_format.py",
+    "script_format_source_sha256": "36b7c24267498809fc3a2b503271721c9741de118f6cce22f449596268006ea6",
+    "frozen_script_format_sha256": "4222fd9b0ee23ec9fed058bfefb06ed788226a2469797f48915e309119d71028"
+  },
+  "runs": [
+    {
+      "run": "R01",
+      "baseline": {
+        "logic": 65.93,
+        "quality": 76.8
+      },
+      "candidate": {
+        "logic": 81.36,
+        "quality": 86.0
+      },
+      "candidate_minus_baseline": {
+        "logic": 15.43,
+        "quality": 9.2
+      }
+    },
+    {
+      "run": "R02",
+      "baseline": {
+        "logic": 73.07,
+        "quality": 76.3
+      },
+      "candidate": {
+        "logic": 85.29,
+        "quality": 85.1
+      },
+      "candidate_minus_baseline": {
+        "logic": 12.22,
+        "quality": 8.8
+      }
+    },
+    {
+      "run": "R03",
+      "baseline": {
+        "logic": 76.5,
+        "quality": 87.3
+      },
+      "candidate": {
+        "logic": 80.79,
+        "quality": 86.7
+      },
+      "candidate_minus_baseline": {
+        "logic": 4.29,
+        "quality": -0.6
+      }
+    }
+  ],
+  "summary": {
+    "baseline_logic_mean": 71.83333333333333,
+    "baseline_logic_sample_std": 5.392423697497563,
+    "baseline_quality_mean": 80.13333333333333,
+    "baseline_quality_sample_std": 6.211548384528075,
+    "candidate_logic_mean": 82.48,
+    "candidate_logic_sample_std": 2.450163259866576,
+    "candidate_quality_mean": 85.93333333333334,
+    "candidate_quality_sample_std": 0.8020806277010686,
+    "candidate_minus_baseline_logic_mean": 10.646666666666667,
+    "candidate_minus_baseline_logic_sample_std": 5.734233456472917,
+    "candidate_minus_baseline_quality_mean": 5.8,
+    "candidate_minus_baseline_quality_sample_std": 5.546169849544819,
+    "candidate_logic_wins": 3,
+    "candidate_quality_wins": 2
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 86.79,
+      "ledger_subdimension_mean": 87.86,
+      "holistic_subdimension_mean": 85.71,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 87.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.5
+        },
+        "character_state": {
+          "ledger_score": 87.0,
+          "holistic_score": 86.0,
+          "fused_score": 86.5
+        },
+        "knowledge_state": {
+          "ledger_score": 90.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.0
+        },
+        "resource_state": {
+          "ledger_score": 86.0,
+          "holistic_score": 86.0,
+          "fused_score": 86.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 90.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.0
+        },
+        "foreshadowing": {
+          "ledger_score": 91.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.5
+        },
+        "repetition": {
+          "ledger_score": 84.0,
+          "holistic_score": 86.0,
+          "fused_score": 85.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "resource_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "rules_spacetime": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 89.3,
+      "ledger_subdimension_mean": 91.0,
+      "holistic_subdimension_mean": 87.6,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 95.0,
+          "holistic_score": 92.0,
+          "fused_score": 93.5
+        },
+        "hooks": {
+          "ledger_score": 90.0,
+          "holistic_score": 88.0,
+          "fused_score": 89.0
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.0
+        },
+        "episode": {
+          "ledger_score": 90.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.0
+        },
+        "setting": {
+          "ledger_score": 90.0,
+          "holistic_score": 88.0,
+          "fused_score": 89.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如潜入、对峙）通过新变量（如化学墨水、通风管道）和关系变化（从敌对到合作）形成有效变奏，避免了简单重复。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "托伊内特从口袋掏出密封的高浓度乙醇溶剂和微型滴管。她的手指因紧张而轻微痉挛，但眼神冷冽如冰。她必须逆向中和这层感应凝胶。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如潜入、对峙）大多承担不同功能，通过新变量（如从物理潜入到心理博弈）形成有效变奏。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "托伊内特贴着墙根滑行，指尖划过冰冷的气压传感器外壳，确认无反应。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如潜入、对峙）大多承担不同功能，通过新变量（如从物理潜入到心理博弈）形成有效变奏。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "托伊内特贴着墙根滑行，指尖划过冰冷的气压传感器外壳，确认无反应。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手（父亲、斯通夫人、露丝）代表不同资源（资本、权力、情感操控）与压力类型，迫使主角采用不同策略（精算、潜入、共情）。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "雷夫先生：在这个家里，只有所有权，没有债权。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手（父亲、斯通夫人、露丝）代表不同资源、价值立场与压力类型，迫使主角采用不同策略。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "雷夫先生：在这个家里，只有所有权，没有债权。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手代表不同资源、价值立场与压力类型（斯通夫人的制度压迫、父亲的资本控制、露丝的情感/规则冲突），迫使主角采用不同策略。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "雷夫先生：在这个家里，只有所有权，没有债权。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从宿舍的孤立到实验室的冲突，再到听证会的爆发，层层递进。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "托伊内特（举起残页，声音颤抖但坚定）：这是我父亲对我私人日记的“审计”记录。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "托伊内特（举起残页，声音颤抖但坚定）：这是我父亲对我私人日记的“审计”记录。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-2",
+            "quote": "她惊恐地捂住嘴，眼泪夺眶而出。她引以为傲的理性、计算、自我保护，原来全是斯通夫人教案中预设好的参数。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物（托伊内特的理性防御）、情境（阳光银行的无规则）和核心问题（如何适应/反抗），叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "托伊内特·里夫：记录已存档。如果您坚持认为这是“限制”，我建议您在未来的互动中保持距离，以避免进一步的数据污染。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "托伊内特·里夫（14岁）拖着重型行李箱滚轮碾过地面的声音，清脆而突兀。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "托伊内特·里夫（14岁）拖着重型行李箱滚轮碾过地面的声音，清脆而突兀。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标（揭露斯通夫人、保护露丝）和小高潮（听证会、火灾）推进，后段完成充分升级与收束（父亲断绝关系、主角独立）。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-2",
+            "quote": "托伊内特：我不完美，但我真实；我不控制，但我负责。这就是我想建立的秩序。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-2",
+            "quote": "斯通夫人OS（录音中，冷漠而命令式）：绕过保险丝，制造过载。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-2",
+            "quote": "托伊内特：我不完美，但我真实；我不控制，但我负责。这就是我想建立的秩序。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷（如海伦的崩溃、听证会的对峙）有铺垫，高潮兑现主要情绪承诺（主角的觉醒与反抗）。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "托伊内特没有离开。她贴在冰冷的瓷砖墙面上，闭上眼，不再试图去分析海伦的情绪波动曲线，而是第一次，作为一个有血有肉的人，去感受那份隔着墙壁传来的寒冷。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+          "evidence": {
+            "episode": "第59集",
+            "scene": "59-3",
+            "quote": "托伊内特举起手，轻轻回应挥手。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+          "evidence": {
+            "episode": "第59集",
+            "scene": "59-3",
+            "quote": "托伊内特举起手，轻轻回应挥手。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化（悬念、情感、冲突），并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "“你在帮敌人送货。”"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "“你在帮敌人送货。”"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "托伊内特猛地回头。走廊尽头，一双眼睛冷冷地注视着这边——是保安米勒，他正站在阴影里，手指搭在对讲机上。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（如听证会、火灾）能够有意识地增减密度，信息密度与戏剧阶段高度匹配。",
+          "evidence": {
+            "episode": "第54集",
+            "scene": "54-1",
+            "quote": "轰！一声沉闷的爆裂声从舞台深处传来，紧接着是刺鼻的塑料焦糊味。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-1",
+            "quote": "校董会代表：如果不恢复斯通夫人的职位，下季度的捐款就会枯竭。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-1",
+            "quote": "托伊内特·里夫穿着熨帖的校服，手中紧握着那块未合上的数据板，屏幕还停留在昨晚未完成的分析模型上。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，几乎没有无功能段落。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "托伊内特：不再计算。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+          "evidence": {
+            "episode": "第38集",
+            "scene": "38-1",
+            "quote": "普雷斯顿小姐（温和但坚定）：托伊内特，你在逃避。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-2",
+            "quote": "普雷斯顿：不要计算风向，去感受它。当你不再试图控制周围的一切时，你才会真正融入其中。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（如海伦的贫困、露丝的孤立）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线（如海伦提供通风管道图）。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-1",
+            "quote": "海伦：这是斯通夫人办公室的通风管道图。监控每隔周四凌晨两点会重启三十秒，这是盲区。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-1",
+            "quote": "海伦：你疯了。这里每个角落都有传感器，一旦检测到未经授权的生物波动，保安三分钟内就会赶到。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-2",
+            "quote": "普雷斯顿小姐（低声，对着空气）：即便在黑暗里，也要有人记得光的样子。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "校董会主席：鉴于斯通女士严重违反职业道德，煽动社区分裂并涉嫌故意破坏设施。即日起，终止你的所有聘用关系。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "校董会主席（起身，重重坐下）：鉴于斯通女士严重违反职业道德，煽动社区分裂并涉嫌故意破坏设施。即日起，终止你的所有聘用关系。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "校董会主席（起身，重重坐下）：鉴于斯通女士严重违反职业道德，煽动社区分裂并涉嫌故意破坏设施。即日起，终止你的所有聘用关系。"
+          }
+        }
+      ]
+    }
+  ]
+}

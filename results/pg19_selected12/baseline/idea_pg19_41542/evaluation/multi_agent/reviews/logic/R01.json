@@ -1,0 +1,140 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体构建了较为完整的复仇与救赎闭环，核心因果链（罗斯发现假死->潜入调查->获取证据->法庭反转）逻辑自洽，角色动机（保护孩子、复仇）贯穿始终。主要逻辑缺陷集中在：1. 关键道具（录音笔）在火灾中幸存且未损坏的合理性不足；2. 罗斯作为审计员具备高超黑客/反侦察能力缺乏前期铺垫；3. 部分配角（如中年妇女、管家）的行为逻辑存在轻微突兀；4. 第19-21集存在明显的情节重复（拾荒妇女桥段）。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "录音笔在火灾中幸存且功能完好，缺乏物理合理性解释。",
+      "reason": "第9集罗斯在爆炸和浓烟中折返取回录音笔，第10集录音笔外壳滚烫、机身裂开缝隙，但随后仍能播放出清晰坐标并彻底黑屏。虽然外壳受损，但核心存储和播放功能在极端高温和爆炸冲击下保持完好且能输出关键信息，属于“危机解决作弊”或“资源状态”中的轻微不合理，但考虑到是核心麦高芬，定为B级。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "她从焦热的衣堆中抠出沾满烟灰的微型录音笔，立刻塞入胸腔口袋。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "录音笔外壳滚烫，机身裂开一道缝隙... 录音笔VO（失真）：...坐标...锁定... 旧码头...3号...仓库..."
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "罗斯展现出远超“审计员”身份的高阶黑客与反侦察能力，缺乏铺垫。",
+      "reason": "罗斯自称曾是审计员（第4集），但在第5集能进行IP反向污染、挂载伪IP、物理挂载硬盘；第17集能破解加密云盘；第38集能植入逻辑炸弹和元数据篡改。这些技能属于专业黑客/网络安全领域，与“审计员”（财务/合规）职业背景存在较大跨度，且剧中未交代其拥有相关技术背景或学习过程，属于A级知识来源缺失。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "罗斯：我曾是审计员。",
+        "contrast_episode": "第5集",
+        "contrast_scene": "5-1",
+        "contrast_quote": "罗斯（眼神锐利）：我不防。我要反向污染数据流... 我在本地挂载一个伪IP，把病毒包伪装成正常请求发回去。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第19集与第21集关于“拾荒妇女”的情节高度重复。",
+      "reason": "第19集19-1/19-2与第21集21-1/21-2中，罗斯跟踪一名被安保驱赶的拾荒妇女，妇女拥有后勤钥匙/门禁卡，罗斯通过对话获得进入疗养院的机会。两集的核心事件、人物关系、对话逻辑（“迷了路”、“盯着口袋”）几乎完全一致，属于重要事件重复，且未提供新的信息增量或情节升级，仅作为进入疗养院的铺垫，造成剧情停滞。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-1",
+        "quote": "罗斯（自言自语）：不对，她没往大路跑。那个方向是后勤运货的斜坡。",
+        "contrast_episode": "第21集",
+        "contrast_scene": "21-1",
+        "contrast_quote": "罗斯（自言自语）：后勤运货的斜坡……那是唯一的侧翼。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "管家角色立场转换缺乏足够的情感或利益驱动铺垫。",
+      "reason": "管家在第22集被罗斯威胁后，第41集突然主动联系罗斯提供地牢布防图，第42集又试图控制证人。虽然管家声称“两头下注”，但其从被动受害者到主动提供关键情报（地牢位置、干扰器）的转变，中间缺乏具体的利益交换或恐惧升级的过渡场景，显得略微突兀，但尚在可推断范围内（生存本能），定为B级。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "管家（惊恐后退）：你……你动了我……",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "管家（一把扯开领口，展示手腕上若隐若现的伤痕）：只要有人把他弄出来，那份布防图就是你们的。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "罗斯利用“精神病”标签进行反向操作，因果逻辑严密。",
+      "reason": "第37-39集，罗斯被贴上“精神病”标签，第39集她利用这一标签制造混乱逃脱，第52集在法庭上利用声纹比对打破精神鉴定。这一系列操作从被动受害到主动利用社会偏见，因果链条清晰，前因（被污名化）充分支撑后果（利用污名化隐身/反击），具有较好的逻辑设计感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "罗斯：我已经是个疯子了。这才是最好的隐身衣。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "罗斯：那就把这段音频的声纹数据提取出来，和被告席上那个人的比对。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "罗斯从海上豪宅到法庭/互助社区的空间转换缺乏时间交代。",
+      "reason": "第49-50集罗斯在海上豪宅被捕/逃脱，第51集直接出现在法庭。虽然中间可能有时间跳跃，但剧本未明确交代时间跨度（如“三天后”），且考虑到海上豪宅的封闭性和警方控制，从海上到法庭的转移过程略显跳跃，但不影响主线理解，定为B级。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "罗斯（转身看向楼梯口，声音颤抖）：文森特？",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-1",
+        "contrast_quote": "法庭内气氛凝固，旁听席传来压抑的低语。"
+      }
+    }
+  ]
+}

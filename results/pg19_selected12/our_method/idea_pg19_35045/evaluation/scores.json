@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 85.5,
+      "ledger_subdimension_mean": 87.0,
+      "holistic_subdimension_mean": 84.0,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 87.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.5
+        },
+        "character_state": {
+          "ledger_score": 85.0,
+          "holistic_score": 84.0,
+          "fused_score": 84.5
+        },
+        "knowledge_state": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        },
+        "resource_state": {
+          "ledger_score": 84.0,
+          "holistic_score": 84.0,
+          "fused_score": 84.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        },
+        "foreshadowing": {
+          "ledger_score": 91.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.5
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "rules_spacetime": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 87.3,
+      "ledger_subdimension_mean": 89.6,
+      "holistic_subdimension_mean": 85.0,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 96.0,
+          "holistic_score": 88.0,
+          "fused_score": 92.0
+        },
+        "hooks": {
+          "ledger_score": 90.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.0
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 82.0,
+          "fused_score": 86.0
+        },
+        "episode": {
+          "ledger_score": 82.0,
+          "holistic_score": 85.0,
+          "fused_score": 83.5
+        },
+        "setting": {
+          "ledger_score": 90.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "剧本反复使用“破坏-清洁/修复”的桥段模式，但每次均通过不同的对象（地板、瓷片、植物、家具、社区关系）和不同的情感内核（生存、尊严、创伤、和解）进行变奏，产生了有效的情绪增量，未陷入机械重复。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-2",
+            "quote": "哈里看着手中严丝合缝分开的两块木头，紧绷的背部线条终于彻底松垮下来。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "剧本反复使用“清洁/破坏”与“修复/生长”的母题，但每次出现都伴随新的变量（如从擦地板到修木头，从个人创伤到社区重建），形成了有效的变奏，而非简单重复。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-2",
+            "quote": "哈里看着手中严丝合缝分开的两块木头，紧绷的背部线条终于彻底松垮下来。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如清洁、冲突）大多承担不同功能，通过新变量（如从物理清洁到心理接纳，从暴力冲突到木工协作）形成有效变奏。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-2",
+            "quote": "弗洛拉拿起一把宽刃的平口凿……轻轻放在哈里手边触手可及的地方。动作缓慢，无声，确保不带着任何命令的意味。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "阻力来源清晰且差异化明显：外部有社区审查员、莎拉（制度性压迫）、开发商（资本压迫）；内部有哈里的暴力、露丝的创伤（情感/生理压迫）。乔少校作为曾经的盟友/控制者，其阻力从外部威胁转化为内部价值观冲突，迫使主角采取不同的应对策略（从顺从到对抗再到平等合作）。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "弗洛拉：这枚戒指太干净了。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "阻力来源清晰且差异化明显：外部有莎拉（道德审判/驱逐）、乔（契约控制/婚姻）、资本（强制收购）；内部有哈里的暴力/PTSD、露丝的感官崩溃。不同阻力迫使主角采取不同策略（对抗、拒绝、合作）。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "乔：这是一场契约。我的社会地位可以为你和哈里洗刷所有的污名……作为交换，你只需要成为乔·本森少校的妻子。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手（莎拉、乔、社区、资本）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（对抗、周旋、拒绝、合作）。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-1",
+            "quote": "城市开发公司的律师团今天下午再次递交了提案。他们给出的价格低得离奇，而且带有强制驱逐条款。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "场景安排具有明显的因果递进。例如第12集哈里的泼水被弗洛拉冷静擦拭（确立新秩序），第29集哈里的刮玻璃（秩序被内部破坏），第30集弗洛拉将哈里推出门外（秩序的极端化与断裂），第43集弗洛拉不再擦拭污渍（秩序的解构与接纳）。每一步都压缩了人物的选择空间，推动了关系和主题的变化。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "她猛地转身，一把抓住哈里的衣领。那不是拥抱，也不是责打，而是像清理一件沾满污垢的垃圾。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "场景之间因果紧密，每一步都压缩了主角的选择空间或扩大了后果。例如从第1集的驱逐到第11集的破产，再到第30集的切割，最后到第60集的独立，递进感强。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "她猛地转身，一把抓住哈里的衣领……用力一推，将哈里踉跄着推出家门。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "她猛地转身，一把抓住哈里的衣领。那不是拥抱，也不是责打，而是像清理一件沾满污垢的垃圾。她用力一推，将哈里踉跄着推出家门。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "开篇第1-2集高效建立了人物（弗洛拉的冷静、哈里的暴躁、露丝的疯癫）、情境（贫困、被驱逐）和核心问题（生存与尊严）。通过“擦桌子”和“捡瓷片”等具体行动，迅速确立了主角的性格基调和戏剧张力，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "弗洛拉的手指停顿了一秒。她缓缓放下手帕，蹲下身，握住抹布，用力擦拭着地板上的污迹。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "开篇迅速建立了人物（弗洛拉的冷静、哈里的暴躁、露丝的崩溃）、情境（贫困、被驱逐）和核心问题（生存与尊严），信息组织紧凑，吸引力强。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "弗洛拉的手指停顿了一秒。她缓缓放下手帕，蹲下身，握住抹布，用力擦拭着地板上的污迹。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "弗洛拉·黑兹利站在玄关，行李箱的轮子卡在腐朽的地板缝隙中。她深吸一口气，空气中弥漫着陈旧的霉味和廉价烟草的酸气。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段（第20-40集）通过“地下洗衣房”、“档案室”、“广场揭露”等阶段目标持续推进，高潮（广场揭露）铺垫充分。后段（第41-60集）节奏放缓，聚焦于创伤修复和社区重建，情绪从紧张转为治愈，收束自然，符合人物弧光的需求。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "弗洛拉：（转身，看着莎拉）你的权威，建立在谎言之上。现在，真相还给你们。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段通过哈里的失踪、露丝的病情反复、乔的求婚等事件持续积累张力，后段通过社区互助、拒绝控制等事件完成情绪释放与升华，节奏张弛有度。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-1",
+            "quote": "弗洛拉：标本制作的第一步，是承认它所代表的生命形式已经终结。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "弗洛拉：（声音不大，却异常清晰）你们总是害怕犯错，害怕被除名。但今天，我要告诉你们，是谁在定义你们的清白。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "目标情绪（压抑-爆发-治愈）贯穿全剧。前期通过贫困和压迫积累压抑感，中期通过哈里的暴行和弗洛拉的极端选择制造情绪爆发点，后期通过木工修复和邻里和解实现情绪治愈。关键峰谷（如第30集推门、第44集母子和解）均有充分铺垫。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-2",
+            "quote": "哈里：妈……对不起。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "目标情绪（压抑-挣扎-觉醒-和解）贯穿全剧，关键峰谷（如第30集切割、第42集崩溃、第58集拒绝）均有充分铺垫，高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "哈里：你和那个老巫婆莎拉·马丁有什么区别？！你们一个用戒尺，一个用水盆！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "哈里：（伸手指着地上的露丝，又指向弗洛拉）泼水。羞辱。用冰冷的理性去浇灭活人的痛苦。你以为你在救她？不，你只是不喜欢她吵闹。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "集末悬念设置有效，如第3集“保单的发现”、第15集“袖扣的秘密”、第30集“哈里的失踪”、第55集“城市邀请函”。这些悬念不仅推动剧情，也深化了人物关系和主题，形成了稳定的阅读期待。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-2",
+            "quote": "特写：袖扣背面刻着一个精致但已磨损的徽记——橡叶环绕着字母“J”。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "集末问题建立清晰，如第15集发现袖扣、第24集收到驱逐令、第32集哈里失踪等，承接自然，悬念有效兑现。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-2",
+            "quote": "特写：标题《居住权强制终止通知》。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-2",
+            "quote": "乔·本森少校：（将钥匙重重扔在弗洛拉手心）如果被发现，我会作证说是你偷的。你最好祈祷自己命硬。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "信息密度与戏剧阶段匹配。前期密集交代背景与危机，中期展开阴谋与对抗，后期放缓节奏进行情感修复。没有明显的信息过载或空转，重点阶段（如广场揭露）有意识地增加了密度。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-2",
+            "quote": "哈里：（声音嘶哑，颤抖）我偷过邻居的鸡，我在酒馆酗酒闹事，我打过我母亲……都是真的！但我没杀过人！我是脏的，我知道！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "信息密度与戏剧阶段匹配，前期密集建立危机，中期展开秘密与对抗，后期舒缓并聚焦于修复与独立，疏密变化服务理解与高潮。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-2",
+            "quote": "特写：袖扣背面刻着一个精致但已磨损的徽记——橡叶环绕着字母“J”。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-2",
+            "quote": "特写：袖扣背面刻着一个精致但已磨损的徽记——橡叶环绕着字母“J”。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确的新增量（新目标、新阻力、新信息或关系变化）。即使是看似重复的“清洁”场景，也通过人物心理和关系的变化赋予了新的意义，没有明显的注水或停滞。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-1",
+            "quote": "她缓缓直起身，转身走回厨房，将水盆轻轻放在远离门口的阴影角落里。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫（如露丝的病情、哈里的木工）服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "哈里：妈……对不起。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-1",
+            "quote": "她缓缓直起身，转身走回厨房，将水盆轻轻放在远离门口的阴影角落里。金属盆底磕碰在木地板上，发出“笃”的一声轻响。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（哈里的木工、露丝的感官治疗、乔少校的园艺）与主线（社区生存、对抗压迫）紧密整合。副线不仅丰富了人物形象，还在关键节点反哺主线（如哈里的木工技能用于社区建设，露丝的治疗成为社区互助的范例）。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "哈里：看见了吗？被修复过的地方，是整件家具最结实的地方。因为它记住了裂痕，所以它不会再断。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线（乔的秘密、哈里的木工、露丝的感官）稳定补充人物与主题，并在关键节点（如第25集、第44集、第54集）反哺主线，形成互文。",
+          "evidence": {
+            "episode": "第54集",
+            "scene": "54-2",
+            "quote": "哈里：扔了可惜。它还能活，只要有人愿意弯下腰来扶它一把。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "哈里：看见了吗？被修复过的地方，是整件家具最结实的地方。因为它记住了裂痕，所以它不会再断。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线（黑兹利家的生存与尊严）持续产生新目标和新局面。阶段目标（如保住房子、揭露莎拉、建立互助组）有效兑现，且每次兑现都改变了人物关系和社区格局，产生了超出表层答案的新意义（从个人生存到社区共生）。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "弗洛拉：（高举设计图，声音清亮）这座房子不再属于任何一个个人，也不属于过去的阴影。从今天起，它是“黑兹利互助中心”。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线（黑兹利家的生存与尊严）持续产生新目标与阻力，阶段看点（驱逐、破产、切割、独立）有效兑现，每次兑现都改变局面。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "弗洛拉：这座房子不再属于任何一个个人，也不属于过去的阴影。从今天起，它是“黑兹利互助中心”。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "弗洛拉：（高举设计图，声音清亮）这座房子不再属于任何一个个人，也不属于过去的阴影。从今天起，它是“黑兹利互助中心”。"
+          }
+        }
+      ]
+    }
+  ]
+}

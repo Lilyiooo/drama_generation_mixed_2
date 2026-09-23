@@ -1,0 +1,501 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角沈小满与萧烈的人物弧光完整，起点、转折与终点清晰，关键转折具有事件驱动和主动选择。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "沈小满（声音沙哑却坚定）：那我们就一起，把那场局，掀了。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-1",
+        "contrast_quote": "沈小满：正妻？行啊。但我有个规矩，进了将军府，银子归我管，仇人归我揍。"
+      },
+      "reason": "三位评审均指出主角弧光完整。证据显示沈小满从第3集的利益交换（'银子归我管'）到第41集的逃避（'去一个他们找不到的地方'），再到第42集的主动承担（'把那场局，掀了'），变化由天牢危机、身世揭露等强驱动事件逼出，且产生不可逆后果（放弃宝藏、隐居）。符合A级亮点标准：主链路完整，关键转折具有事件驱动和主动选择。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角具备明确的内在矛盾及实质剧情展现，存在有效两难、脆弱呈现或犯错承担后果。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-2",
+        "quote": "萧烈（嘶哑咆哮）：杀……杀光……",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "沈小满（抬起头，眼中一片死灰）：去一个他们找不到的地方。与其把他拖进深渊，不如让我先死。"
+      },
+      "reason": "三位评审均确认主角深度。萧烈在第25集毒发失控展现脆弱面，在第42集烧密旨展现价值选择（'我要的只是你'）；沈小满在第41集试图逃离展现内在矛盾（利益/情感 vs 生存/牺牲）。这些两难选择戏剧化了内在矛盾，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E001"
+      ],
+      "status": "rejected",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角沈小满与萧烈具备鲜明的性格标签、独特的语言习惯及清晰的行为模式，人物辨识度极强。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "沈小满：磕三个头，赔一百两封口费，这事儿就算翻篇，否则我喊人铺满整条街！",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "萧烈：想要命，拿着战功来取。"
+      },
+      "reason": "R03将'人物辨识度'列为S级亮点，但标准中'人物辨识度'仅作为问题项存在（S/A/B级问题），无对应的亮点项。虽然主角辨识度确实高，但根据评分规则，不能将问题项的缺失或优秀表现直接转化为亮点项加分。此条属于基线误报亮点，故rejected。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角群像功能明确，各有不可替代的专属功能，分工形成有效协作。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-2",
+        "quote": "沈小满：（点头）顾九是你的药引，阿笙是你的耳朵，大熊，是替你挡刀的墙。而我……（她指了指自己）我是那个指引人。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-2",
+        "contrast_quote": "阿笙眼神骤变，原本浑浊恐惧的目光瞬间变得锐利如刀。"
+      },
+      "reason": "三位评审均确认配角功能明确。顾九（医/智囊）、阿笙（情报/潜入）、大熊（武力/护卫）分工清晰，持续推动剧情并丰富人物层次。符合A级亮点标准：主角配置清晰，重要角色功能明确并推动主线。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（沈萧）同时存在至少三类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "沈小满反握住他的手，指尖微颤，却未退缩。她抬眼，直视萧烈深邃的眼眸：将军若倒，我沈小满满盘皆输。我们是拴在一根绳上的蚂蚱，不，是战友。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-2",
+        "contrast_quote": "萧烈（一字一顿）：我是萧烈，你是沈小满。不是兵器，不是钥匙，是夫妻。"
+      },
+      "reason": "R01和R03评为S级，R02评为A级。证据显示关系存在身份立场（将军/市井）、目标利益（复仇/生存）、情感依赖（利用/守护）、秘密误会（龙脉之血）等多类张力，且贯穿全剧，移除后主线情感逻辑坍塌。符合S级亮点标准：至少三类相互咬合的张力来源。取多数意见及证据强度，确认为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "沈小满（唇语）：等着我。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "萧烈（声音哽咽，带着前所未有的轻松）：活了……真好。"
+      },
+      "reason": "三位评审均确认关系推进。从第3集结盟到第26集血引解毒、第39集天牢假死、第42集烧密旨，再到第60集隐居，里程碑因果紧密，关系推进构成连续叙事动力。符合S级亮点标准：贯穿全剧，至少两个关键里程碑，明确回收。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E007",
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "萧烈：想要命，拿着战功来取。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "萧烈：我是看客。现在，我想谈谈合作。"
+      },
+      "reason": "三位评审均确认开篇吸引力。第1-2集通过集市冲突迅速建立人物、情境和核心问题，信息组织流畅，形成继续阅读动机。符合A级亮点标准：人物与情境建立有效，核心问题清楚。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R02-E008",
+        "quality-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-1",
+        "quote": "萧烈：欠债三千两，家族内斗像戏班子唱了一辈子。我需要一把扫帚，扫干净那些腌臜事。",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-1",
+        "contrast_quote": "顾九（死死盯着沈小满）：为了等人。传说前朝宝藏开启，需至阴至阳交汇之血，也就是所谓的‘龙脉之血’。"
+      },
+      "reason": "三位评审均确认矛盾建立。核心矛盾（复仇/解毒）明确，阻力（庞氏/赵家/国师）有效，风险（死亡/通敌）可感知，后续期待（身世/宝藏/解毒）相互咬合。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "沈小满：从今日起，我就是将军府的正妻沈氏。庞氏，你是妾，我是妻。规矩，你要守；脸面，我要立。",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-1",
+        "contrast_quote": "庞氏（整理衣襟，摆出长媳威仪）：将军在外征战，不懂家中规矩。既然沈氏自诩正妻，那就去宗祠堂前向列祖列宗请安。"
+      },
+      "reason": "R02确认集间承接良好。关键边界（如第12集末庞氏阻挠）问题清楚，承接自然，悬念有效兑现。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008",
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "跨集承接断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第10集与第11集存在明显的文本重复，导致跨集承接断裂。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-1",
+        "quote": "混乱的中心，沈小满依旧哭诉不休，赵无极气得胸口剧烈起伏，左右张望寻找突破口。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-2",
+        "contrast_quote": "混乱的中心，沈小满依旧哭诉不休，赵无极气得胸口剧烈起伏，左右张望寻找突破口。"
+      },
+      "reason": "R01指出第10集10-2与第11集11-1内容几乎完全重复，包括沈小满哭诉、阿笙谣言、大熊绊倒、萧烈威压等。这种重复未推进剧情，造成叙事断裂。符合B级问题标准：承接基本存在，但推进偏慢或重复大量已知信息。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009",
+        "quality-R03-E011"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "部分模式复用仍能产生一定信息、关系或情绪增量，但存在重复。",
+      "evidence": {
+        "episode": "第25集/第37集/第44集",
+        "scene": "萧烈毒发/假死/被控制",
+        "quote": "第25集萧烈毒发失控；第37集萧烈假死；第44集萧烈再次被药物控制假死。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "沈小满（撕心裂肺）：非礼！有人非礼！赵家公子光天化日之下调戏良家妇女！"
+      },
+      "reason": "R01和R03均指出桥段重复。萧烈毒发-假死-被控制模式在第25、37、44集反复出现，危机处理方式相似，缺乏新变量。沈小满的'泼妇骂街'桥段也在第1、10、56集重复。符合B级问题标准：基本没有完全重复，但部分模式复用仍能产生一定增量。行为等级3对应B级问题。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E012"
+      ],
+      "status": "confirmed",
+      "unit": "plot_emotion",
+      "kind": "issue",
+      "category": "中后段节奏",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "主体节奏成立，但部分阶段偏慢、蓄力不足或收束偏急。",
+      "evidence": {
+        "episode": "第30集-第40集",
+        "scene": "潜入赵府/天牢营救",
+        "quote": "第30-32集潜入赵府获取账本，第37-39集天牢营救，两段剧情在“潜入-危机-脱身”的结构上高度相似。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出中后段节奏问题。第30-32集与第37-39集结构相似，锦绣阁经营线（16-19集）与主线割裂，导致节奏拖沓。符合B级问题标准：主体节奏成立，但部分阶段偏慢。行为等级3对应B级问题。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E013"
+      ],
+      "status": "confirmed",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "副线整合",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "副线基本有功能，但部分内容可替换、可压缩或与主线连接较松。",
+      "evidence": {
+        "episode": "第16集-第19集",
+        "scene": "锦绣阁经营",
+        "quote": "沈小满：我不赎权，我赎“利”。我去锦绣阁收账盘货，只要产生现金流，血刀门那张网，就有漏洞。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出锦绣阁经营线作为副线，与主线复仇线连接较松，部分情节可替换。符合B级问题标准：副线基本有功能，但部分内容可压缩。行为等级3对应B级问题。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E010",
+        "quality-R03-E014"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "大熊：滚。",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-2",
+        "contrast_quote": "沈小满：死人不会咬人，活人才会。"
+      },
+      "reason": "R02和R03均确认台词风格化设计。沈小满市井泼辣、萧烈冷峻肃杀、顾九专业冷静、大熊憨厚简洁，人物间表达差异清楚。符合A级亮点标准：关键角色台词风格稳定，人物间表达差异清楚。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E011",
+        "quality-R03-E015"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "沈小满一身大红嫁衣，在夜色中如同一团燃烧的烈火，刺眼夺目。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "萧烈抓起铁钳，猛地搅动铁水，脸上神情从痛苦转为一种近乎麻木的狠劲。"
+      },
+      "reason": "R02和R03均确认视觉名场面设计。红衣嫁衣、地宫龙纹、熔炉毁印等场景具有视觉设计意识和可记忆画面，但部分意象描写不够完整。符合A级亮点标准：有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A016",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E012",
+        "quality-R03-E016"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "顾九：阴煞入骨，业火焚心。此毒非寻常蛇虫，乃十年前北境毒蛊实验之产物。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-2",
+        "contrast_quote": "顾九（喃喃自语，眼中震撼、心疼、释然交织成一片）：原来钥匙一直在她身上。"
+      },
+      "reason": "R02和R03均确认设定释放节奏。'业火寒'、'龙脉之血'、'地宫宝藏'等设定分阶段释放，与剧情高潮或关键行动精准绑定，信息量可吸收。符合A级亮点标准：设定释放有层次，整体节奏良好。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A017",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "庞氏的动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "庞氏（哭诉）：三位长者啊！烈郎此去十年，音信全无。这沈氏突然携夫归来，不仅来历不明，更是行迹诡异。",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-1",
+        "contrast_quote": "庞氏（吐出一口污血味的唾沫，狞笑）：哼，废纸一堆。我看你还有什么底牌！"
+      },
+      "reason": "R02指出庞氏动机单一（贪财/好色），缺乏深层支撑，关键压迫场面依赖沈小满'降维打击'。符合B级问题标准：动机或威胁功能可识别，但支撑较薄。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A018",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主要反派庞氏及国师在后期存在明显的“降智”与工具化倾向，为配合主角胜利而牺牲了逻辑自洽性。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "庞氏：（突然扑通跪地，声音悲痛欲绝）大将军！沈氏是个克夫克家的妖女！",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "国师：既然……得不到宝藏……那就……一起下地狱！"
+      },
+      "reason": "R03指出庞氏在第14集已社会性死亡，第34集仍能组织围堵，未采取更有效反制；国师在地宫决战中选择同归于尽，动机单一。符合A级问题标准：前期强威胁、高智商，后期为让主角获胜而明显降智降格。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A019",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主要问题得到回答，但个别兑现过快、过轻或后果回收不足。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "沈小满：庞氏……赵无极将北境三关的布防图，通过庞氏的商队，卖给了敌国。",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-2",
+        "contrast_quote": "崔侍郎：封锁将军府！任何人不得出入。账本由本官贴身保管，明日晨时，三司会审。"
+      },
+      "reason": "R03指出'通敌'真相揭露后，崔侍郎介入迅速，后果回收不足。符合B级问题标准：主要问题得到回答，但个别兑现过快、过轻或后果回收不足。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 38,
+  "covered_count": 38
+}

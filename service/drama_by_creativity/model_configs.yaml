@@ -1,0 +1,100 @@
+# 模型配置文件
+# 统一管理所有LLM模型调用配置，方便后续统一调整
+# 修改对应模型的 model 字段即可切换该类任务使用的模型
+
+# ============================================================
+# 生成类模型（按任务类型细分）
+# ============================================================
+
+# 世界观生成模型
+world_view_model:
+  model: "qwen-local"
+  system_prompt: "You are an AI assistant that helps people find information."
+  temperature: 1.0
+  top_p: 1
+  top_k: 50
+  max_length: 64000
+  max_new_tokens: 16384
+
+# 人设生成模型
+role_model:
+  model: "qwen-local"
+  system_prompt: "You are an AI assistant that helps people find information."
+  temperature: 1.0
+  top_p: 1
+  top_k: 50
+  max_length: 64000
+  max_new_tokens: 16384
+
+# 卡点规划生成模型
+plot_point_model:
+  model: "qwen-local"
+  system_prompt: "You are an AI assistant that helps people find information."
+  temperature: 1.0
+  top_p: 1
+  top_k: 50
+  max_length: 64000
+  max_new_tokens: 16384
+
+# 故事大纲生成模型
+story_outline_model:
+  model: "qwen-local"
+  system_prompt: "You are an AI assistant that helps people find information."
+  temperature: 1.0
+  top_p: 1
+  top_k: 50
+  max_length: 64000
+  max_new_tokens: 16384
+
+# 集大纲生成模型
+episode_outline_model:
+  model: "qwen-local"
+  system_prompt: "You are an AI assistant that helps people find information."
+  temperature: 1.0
+  top_p: 1
+  top_k: 50
+  max_length: 64000
+  max_new_tokens: 32768
+
+# Future Map 与分集贡献映射模型
+future_map_model:
+  model: "qwen-local"
+  system_prompt: "You are an AI assistant that helps people find information."
+  temperature: 0.4
+  top_p: 1
+  top_k: 50
+  max_length: 64000
+  max_new_tokens: 32768
+
+# 场次大纲生成模型
+scene_outline_model:
+  model: "qwen-local"
+  system_prompt: "你是专业中文连续短剧编剧与场次结构编辑。先把约束转化为人物当下的欲望、阻力、行动和后果，再设计可拍摄的戏；严格维护前后剧情、人物、关系、信息、物品与环境状态的一致性。"
+  temperature: 1.0
+  top_p: 1
+  top_k: 50
+  max_length: 32000
+  max_new_tokens: 32000
+
+# 剧本生成模型（场次剧情、整集剧本、连贯性润色）
+script_model:
+  model: "qwen-local"
+  system_prompt: "你是专业中文连续短剧编剧。先把约束转化为人物当下的欲望、阻力、行动和后果，再写戏。约束只用于幕后校验，不能被角色当作规则或创作说明复述。人物性格通过具体选择、动作和潜台词流露；对白来自人物关系与眼前情境，并严格维护已经建立的叙事事实和当前状态。"
+  temperature: 1.0
+  top_p: 1
+  top_k: 50
+  max_length: 32000
+  max_new_tokens: 32000
+
+# ============================================================
+# 辅助模型（JSON格式修正、摘要提取等轻量任务）
+# ============================================================
+
+auxiliary_model:
+  model: "qwen-local"
+  system_prompt: "You are an AI assistant that helps people find information."
+  temperature: 0.4
+  top_p: 1
+  top_k: 50
+  max_length: 20000
+  max_new_tokens: 20000

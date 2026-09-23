@@ -1,0 +1,284 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R02",
+  "rationale": "本剧本在人物塑造上具有极高的完成度。主角弗洛拉拥有清晰且独特的“清洁/秩序”行为模式，其人物弧光从“通过控制环境获得安全感”到“接纳混乱与不完美”的转变逻辑严密，证据链完整。配角哈里与露丝的功能性强，哈里的PTSD与木工修复线、露丝的感官创伤与触觉安抚线均有效服务于主题。反派莎拉与乔少校作为“控制/秩序”的两种极端形态，与主角形成有效对照。主要问题在于部分配角（如玛莎、邻居）在后期功能化明显，以及个别场景（如第50集）存在总结性陈述替代动作的问题。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "剧本反复使用“清洁/破坏”与“修复/生长”的母题，但每次出现都伴随新的变量（如从擦地板到修木头，从个人创伤到社区重建），形成了有效的变奏，而非简单重复。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-2",
+        "quote": "哈里看着手中严丝合缝分开的两块木头，紧绷的背部线条终于彻底松垮下来。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "阻力来源清晰且差异化明显：外部有莎拉（道德审判/驱逐）、乔（契约控制/婚姻）、资本（强制收购）；内部有哈里的暴力/PTSD、露丝的感官崩溃。不同阻力迫使主角采取不同策略（对抗、拒绝、合作）。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-2",
+        "quote": "乔：这是一场契约。我的社会地位可以为你和哈里洗刷所有的污名……作为交换，你只需要成为乔·本森少校的妻子。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "场景之间因果紧密，每一步都压缩了主角的选择空间或扩大了后果。例如从第1集的驱逐到第11集的破产，再到第30集的切割，最后到第60集的独立，递进感强。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "她猛地转身，一把抓住哈里的衣领……用力一推，将哈里踉跄着推出家门。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇迅速建立了人物（弗洛拉的冷静、哈里的暴躁、露丝的崩溃）、情境（贫困、被驱逐）和核心问题（生存与尊严），信息组织紧凑，吸引力强。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "弗洛拉的手指停顿了一秒。她缓缓放下手帕，蹲下身，握住抹布，用力擦拭着地板上的污迹。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段通过哈里的失踪、露丝的病情反复、乔的求婚等事件持续积累张力，后段通过社区互助、拒绝控制等事件完成情绪释放与升华，节奏张弛有度。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "弗洛拉：标本制作的第一步，是承认它所代表的生命形式已经终结。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "目标情绪（压抑-挣扎-觉醒-和解）贯穿全剧，关键峰谷（如第30集切割、第42集崩溃、第58集拒绝）均有充分铺垫，高潮兑现了主要情绪承诺。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "哈里：你和那个老巫婆莎拉·马丁有什么区别？！你们一个用戒尺，一个用水盆！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "集末问题建立清晰，如第15集发现袖扣、第24集收到驱逐令、第32集哈里失踪等，承接自然，悬念有效兑现。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "特写：标题《居住权强制终止通知》。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "信息密度与戏剧阶段匹配，前期密集建立危机，中期展开秘密与对抗，后期舒缓并聚焦于修复与独立，疏密变化服务理解与高潮。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "特写：袖扣背面刻着一个精致但已磨损的徽记——橡叶环绕着字母“J”。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫（如露丝的病情、哈里的木工）服务后续结果，无明显注水。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "哈里：妈……对不起。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（乔的秘密、哈里的木工、露丝的感官）稳定补充人物与主题，并在关键节点（如第25集、第44集、第54集）反哺主线，形成互文。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "哈里：扔了可惜。它还能活，只要有人愿意弯下腰来扶它一把。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线（黑兹利家的生存与尊严）持续产生新目标与阻力，阶段看点（驱逐、破产、切割、独立）有效兑现，每次兑现都改变局面。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-2",
+        "quote": "弗洛拉：这座房子不再属于任何一个个人，也不属于过去的阴影。从今天起，它是“黑兹利互助中心”。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R02-E001",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角弗洛拉的人物弧光完整且深刻，从“通过控制环境获得安全感”到“接纳混乱与不完美”的转变逻辑严密，证据链完整。",
+      "reason": "起点缺陷（对秩序的病态依赖）在第1集、第12集等场景中清晰展现；关键转折（第30集切割哈里、第42集崩溃、第58集拒绝乔）均有强驱动事件逼出主动选择并产生不可逆后果；终点变化（第60集建立互助中心）显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "弗洛拉：标本制作的第一步，是承认它所代表的生命形式已经终结。防腐剂能阻止腐烂，让它保持永恒的形态，但也剥夺了它生长的可能。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "弗洛拉的手指停顿了一秒。她缓缓放下手帕，蹲下身，握住抹布，用力擦拭着地板上的污迹。她的手很稳，动作精准而迅速，仿佛在抹去某种耻辱，又像是在清理尸体。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E002",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角弗洛拉的内在矛盾（对秩序的需求 vs 对真实生活的渴望）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "reason": "内在矛盾在第42集（被哈里指责像莎拉）中达到顶点，导致其信念崩塌；在第55-56集（面对城市家政邀请）中再次面临两难，最终通过撕毁邀请函完成自我确认；犯错（第30集切割哈里）带来长期后果（愧疚、寻找），共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "哈里：你和那个老巫婆莎拉·马丁有什么区别？！你们一个用戒尺，一个用水盆！你根本不在乎我们痛不痛，你只在乎你的“秩序”有没有被弄乱！",
+        "contrast_episode": "第56集",
+        "contrast_scene": "56-2",
+        "contrast_quote": "弗洛拉双手猛然发力！“嘶啦！”清脆的撕裂声在安静的午后显得格外刺耳。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E003",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角哈里与露丝功能明确，各有不可替代的专属功能，分工形成有效协作或对冲，持续制造推进力与人物层次。",
+      "reason": "哈里承担“破坏/暴力”与“修复/创造”的双重功能，其木工线（第43-44集、第52集）有效推动家庭和解与社区重建；露丝承担“创伤/感官”功能，其病情反复（第13集、第28集、第51集）持续制造危机并推动主角成长。反派乔与莎拉作为“控制/秩序”的两种极端形态，与主角形成有效对照。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "哈里：妈……对不起。我不该躲着你……不该把你一个人留在那种地方。是我错了。",
+        "contrast_episode": "第54集",
+        "contrast_scene": "54-2",
+        "contrast_quote": "哈里：扔了可惜。它还能活，只要有人愿意弯下腰来扶它一把。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E004",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（弗洛拉-哈里、弗洛拉-露丝）存在至少两类明确张力来源，能够稳定支撑主线或重要副线。",
+      "reason": "弗洛拉-哈里关系存在“控制/反抗”与“保护/愧疚”两类张力，通过第30集切割、第31集发现刻痕、第43集共同修复等事件推进；弗洛拉-露丝关系存在“清洁/创伤”与“依赖/独立”两类张力，通过第13集强制清洁、第44集木勺安抚、第51集大扫除冲突等事件推进。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "字迹潦草、扭曲，透着一种濒临崩溃的绝望——“看着我”、“看着我”、“看着我”。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "露丝的反手动作有些迟缓，抓握无力，但她紧紧抓住了哈里颤抖的手指。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E005",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "弗洛拉-哈里关系从第1集的敌对，到第30集的切割，第31集的愧疚，第43-44集的修复，第60集的托付，里程碑清晰且因果紧密；弗洛拉-露丝关系从第3集的抢夺，到第13集的强制清洁，第44集的木勺安抚，第51集的冲突与和解，第60集的接纳，推进连续且有效。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "哈里：你走吧。去你想去的地方。这里交给我，我守得住。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-2",
+        "contrast_quote": "她猛地转身，一把抓住哈里的衣领……用力一推，将哈里踉跄着推出家门。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E006",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "总结性陈述",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分场景（如第50集）存在总结性陈述替代可见行为与互动的问题，影响画面表现力。",
+      "reason": "第50集结尾处，大量使用“象征着新生与希望”、“家不再是逃避世界的堡垒，而是连接世界的桥梁”等总结性陈述，而非通过具体动作或台词呈现，导致情感表达略显直白，削弱了视觉化质量。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "她知道，家不再是逃避世界的堡垒，而是连接世界的桥梁。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E007",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分配角（如玛莎、邻居）在后期功能化明显，主要围绕帮助主角或解释信息运转，个人目标、mini 弧光或独立情感价值不足。",
+      "reason": "玛莎在第46集、第49集、第51集、第52集中多次出现，主要功能是作为“被帮助者”或“社区态度转变”的符号，缺乏独立的个人目标或情感深度；邻居甲、乙等角色同样功能单一，可轻易合并或删减。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "玛莎：（大声）快！趁太阳好，把这些旧的、脏的都刷掉！只要擦得够白，就没人记得这里发生过什么！",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-1",
+        "contrast_quote": "玛莎（咬牙）：这木头像石头一样硬！它根本不听使唤。"
+      }
+    }
+  ]
+}

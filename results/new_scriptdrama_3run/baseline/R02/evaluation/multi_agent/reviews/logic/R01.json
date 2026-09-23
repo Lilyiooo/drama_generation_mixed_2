@@ -1,0 +1,184 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体逻辑存在严重断裂，核心设定（千机毒、九幽寒玉、天罗组织）前后矛盾，关键道具（寒玉）归属与状态混乱，角色认知状态（失忆与恢复）缺乏合理过渡。主要问题集中在：1. 九幽寒玉的归属在公主、叛徒、继母、苏半夏之间反复横跳且无合理转移过程；2. 陆离的失忆与恢复缺乏医学或剧情支撑，且失忆期间行为与设定冲突；3. 天罗组织与苏半夏母亲的关系揭示过于突兀，缺乏前期铺垫；4. 多处关键转折依赖巧合或角色降智。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "九幽寒玉的归属在剧中多次无逻辑转移，从公主到叛徒再到继母，最后又回到苏半夏手中，缺乏合理的交接或夺取过程。",
+      "reason": "S级：关键道具已明确由一方控制，后文无转移过程却由另一方用于推动主线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "叛徒副将（举起钢刀，狞笑逼近）：九幽寒玉是你爹拼死也没求来的宝物，现在就在我手里。",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-1",
+        "contrast_quote": "公主（轻捻步摇，笑颜如花）：陆将军，这九幽寒玉乃皇室至宝，你那双凡人之手，也配沾染分毫？"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "陆离的千机毒在剧中多次被描述为致命且无法根治，但在第52集通过苏半夏的血和寒玉突然被‘彻底激活’并压制，缺乏合理的医学或剧情支撑。",
+      "reason": "S级：能力已明确被剥夺、封印、耗尽或限制，后文无解除过程却正常使用并扭转危机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-3",
+        "quote": "医神：（从侧面探出头，眼神中满是震撼与不可思议，声音微微颤抖）奇迹……寒玉潜能被彻底激活了！姑娘，他的心跳恢复正常了！",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-2",
+        "contrast_quote": "医神（面色凝重，取出银针）：以毒攻毒，你刚才那一下爆发，毒素已经入骨。我现在查明了，你的血不仅致命，也是这世上唯一的清血解药。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "苏半夏在第47集突然得知自己是天罗组织首领之女，但此前剧中无任何铺垫或暗示，导致这一重大身份反转缺乏可信度。",
+      "reason": "A级：提前获知重要信息，有弱来源暗示但路径不清。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "医神：（抬眼看向苏半夏，眼神复杂而庄重）姑娘，这不仅是天罗的令牌，更是天罗核心成员的身份证明。您母亲，曾是这个组织的第一高手。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "陆离在第53集突然失忆，但剧中未明确说明失忆的原因（如头部受伤或药物作用），且失忆后的行为与之前设定存在矛盾。",
+      "reason": "A级：有触发因，但机制、资源、人物选择或信息来源支撑明显不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-3",
+        "contrast_quote": "陆离：（嘴角溢血，却挤出一个极其勉强的弧度，反手将苏半夏彻底裹入怀中，动作轻柔得像是在触碰珍宝）嗯……这辈子……赖不掉。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "天罗组织与苏半夏母亲的关系在第47集才揭示，但此前剧中无任何关于天罗组织的铺垫或暗示，导致这一重大真相缺乏可信度。",
+      "reason": "A级：只有少量模糊暗示，不足以支撑反转级别。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "骗神：（倒吸一口凉气，声音颤抖）天罗？！姑娘，您该不会跟传说中被灭门的“千面”有关吧？",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "骗神：（手持竹杖，虽戴黑眼罩却精准指向赵屠户咽喉）老朽眼瞎心不瞎，赵老板，您这刀口朝外，是想防贼，还是想防我动您的话本啊？"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "千机毒的设定在剧中多次被打破，如第52集通过苏半夏的血和寒玉被‘彻底激活’并压制，但此前剧中明确说明千机毒无法根治。",
+      "reason": "B级：规则表达不清，使边界情况产生理解障碍，但未形成明确违反。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-3",
+        "quote": "医神：（从侧面探出头，眼神中满是震撼与不可思议，声音微微颤抖）奇迹……寒玉潜能被彻底激活了！姑娘，他的心跳恢复正常了！",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-2",
+        "contrast_quote": "医神（面色凝重，取出银针）：以毒攻毒，你刚才那一下爆发，毒素已经入骨。我现在查明了，你的血不仅致命，也是这世上唯一的清血解药。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E007",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离在第53集失忆后，性格从冷峻、多疑变为天真、依赖，但剧中未提供足够的心理铺垫或情感积累来支撑这一转变。",
+      "reason": "B级：局部行为与设定轻微不吻合，不影响整体稳定性。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "陆离：（路经此地，驻足冷眼看戏，眼神微眯）哼，无理取闹。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E008",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏通过舆论战和商盟策略逐步瓦解继母和王爷的势力，因果链清晰，前因充分支撑后果。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "苏半夏：（冷笑一声，捡起半块残玉在指尖把玩）掉脑袋？我苏半夏从死人堆里爬出来，光脚的不怕穿鞋的！今日我就站在这儿，替全京城百姓问问清楚，这银子去哪了？",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-2",
+        "contrast_quote": "苏半夏（将黑金令牌拍在桌案上，发出一声巨响，对着全场狂呼）：现在我宣布，“半夏商盟”正式成立！从今往后，京城的天，就是我们说了算！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了二战背景下的游击战与逃亡故事，但在逻辑自洽性上存在多处严重断裂。主要问题集中在：1. 角色身份与阵营的反复横跳（坦普少校从敌对到隐居再到指挥，拉尔夫从平民到正规军军官再到游击队指挥官）缺乏合理的过渡与解释；2. 关键道具（如地图、勋章、烟盒）的归属与流转存在明显的逻辑漏洞（如蒂姆的烟盒在11集展示后，12集又出现在森林中，且蒂姆仍在场）；3. 时间线与空间位移的矛盾（如第31-32集在极短时间内转移两个村庄的村民，且普军反应滞后）；4. 伏笔回收的强行与遗忘（如艾琳修女的身份、普军“猎手”的具体战术逻辑前后不一）。此外，部分情节存在重复（如多次类似的突围与牺牲场景），且角色在极端压力下的行为动机有时显得突兀。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "身份阵营断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "坦普少校的身份与阵营状态前后矛盾，缺乏合理过渡。",
+      "reason": "坦普少校在第11-12集被描述为游击队指挥官，但在第20集突然出现在废弃修道院地下墓穴，自称“守墓人”，且对拉尔夫持敌意。随后在第21集又迅速转变为提供情报和武器的盟友。这种从“游击队指挥官”到“隐居守墓人”再到“地下抵抗领袖”的身份转变缺乏事件驱动和情绪铺垫，属于S级身份阵营断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "坦普（低沉而充满敌意）：英国佬，你们的运气在游击队基地大门口就用光了。我是少校，也是这里的守墓人。",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-2",
+        "contrast_quote": "坦普（冷声）：出去吧。别让我后悔。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "银质烟盒的归属与出现位置存在逻辑矛盾。",
+      "reason": "第11集蒂姆在营地展示从巴克处找到的银质烟盒，并暗示其重要性。第12集兄弟俩离开营地后，在森林中捡到同一个烟盒，而蒂姆仍在场。第13集蒂姆手中又拿着该烟盒。烟盒如何在蒂姆持有状态下出现在森林中并被兄弟俩捡到，缺乏解释，属于A级道具归属混乱。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "那是一个银质烟盒，虽然边缘有些变形，但表面的“黑手帮”图腾依然清晰可见。",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-2",
+        "contrast_quote": "蒂姆：临走前，看看这个。我在巴克的睡袋底找到的。普军限价的烟草，印着‘黑手帮’的标记。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第31-32集村民转移的时间线不合理。",
+      "reason": "第31集拉尔夫决定在“半小时”内转移圣克洛德村，随后第32集立即转移到马尔尼村。两个村庄的村民转移、普军的反应以及拉尔夫一行的移动在极短时间内完成，且普军装甲车“提前两小时”抵达，但拉尔夫一行仍能从容转移两个村庄，时间逻辑压缩过度，属于A级时间线矛盾。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "拉尔夫：（看向珀西）半小时。",
+        "contrast_episode": "第32集",
+        "contrast_scene": "32-1",
+        "contrast_quote": "拉尔夫：（咬牙，眼神中闪过一丝痛苦，随即化为冷酷）走！别回头！"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "艾琳修女的身份与背景伏笔未充分回收。",
+      "reason": "第54集珀西提到艾琳修女是“蒂姆·多伊尔派来的”，并展示“曾祖父留下的标记”。但蒂姆在第44集已死亡，且此前未交代其与修女家族的关联。修女在57集牺牲，但其身份、动机及与蒂姆的关系缺乏前文铺垫，属于A级遗忘伏笔。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "珀西：（声音沙哑，用法语）蒂姆·多伊尔派来的。这是你曾祖父留下的标记。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-2",
+        "contrast_quote": "珀西（再次凑近，一字一顿）：他死了！我们是他最后的掩护，不是送葬人！你想让他白死吗？"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "拉尔夫在第39集处决皮埃尔的动机不足。",
+      "reason": "拉尔夫以“软弱就是漏洞”为由处决试图带伤兵逃跑的皮埃尔，但此前并未建立“带伤兵会直接导致全军覆没”的紧迫因果链。该行为更多是为了塑造冷酷形象，缺乏足够的利益、情感或危机驱动，属于A级行动动机缺失。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "拉尔夫（环视众人，声音不大，却字字千钧）：软弱就是漏洞。漏洞就是全军的坟墓。记住这种感觉。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "皮埃尔（嘶吼，声音因恐惧而变形）：他流了太多血！不能留他！我们可以背着他，只要让他跟上……"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "多次出现类似的“牺牲一人掩护众人”情节。",
+      "reason": "马塞尔（第4集）、丙（第7集）、蒂姆（第44集）、艾琳修女（第57集）均出现类似牺牲情节，虽对象不同，但核心信息与结果相同，造成有效剧情停滞，属于B级事件重复。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "珀西（再次凑近，一字一顿）：他死了！我们是他最后的掩护，不是送葬人！你想让他白死吗？",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-2",
+        "contrast_quote": "马塞尔苍白的脸上露出一个讥讽又释然的微笑，嘴唇动了动，无声地说着什么。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E007",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "珀西对普军战术的预判过于精准。",
+      "reason": "珀西多次在拉尔夫冲动前精准预判普军陷阱（如第5集、第13集、第22集），缺乏明确的信息来源或推断路径，属于B级信息提前泄露。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "拉尔夫：这不是中继站，少校。这是一个陷阱。旨在诱杀游击队主力，并合法化对平民的屠杀。",
+        "contrast_episode": "第5集",
+        "contrast_scene": "5-2",
+        "contrast_quote": "珀西：哥哥，那里昨天有新鲜的马蹄印，而且方向很乱。这可能是诱捕区。"
+      }
+    }
+  ]
+}

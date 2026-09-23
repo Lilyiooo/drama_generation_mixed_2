@@ -1,0 +1,184 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体逻辑框架完整，主线清晰，角色动机与能力成长基本自洽。主要逻辑问题集中在：1. 关键道具（九幽寒玉）的获取与使用存在多处时空与因果矛盾（如第36集使用未获取的完整寒玉，第41集才获取）；2. 核心反派（王爷）在前期铺垫不足，后期突然成为绝对主导者，存在“核心规则/反派空降”嫌疑；3. 部分角色（如骗神、武神）的能力边界在剧情需要时出现无铺垫的“神化”或“降智”；4. 第53集陆离失忆后的行为逻辑与第56集恢复记忆的过程存在轻微断裂。整体而言，问题多为A/B级，未出现颠覆主线的S级逻辑硬伤。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "九幽寒玉的获取与使用存在时间线矛盾。第36集医神使用“镶嵌着九幽寒玉的珠钗”为陆离解毒，但此时陆离尚未从公主处获取寒玉（第35集才获取，且第35集明确是公主拔下珠钗塞给陆离，第36集直接使用，中间缺乏陆离将珠钗交给医神或医神如何获得珠钗的明确交接过程，且第41集才出现“另一块九幽寒玉”与残片合璧，暗示第36集使用的可能是残片或珠钗，但第36集描述为“镶嵌着九幽寒玉的珠钗”，与第35集公主拔下珠钗的情节衔接略显仓促，且第41集才明确寒玉分为两块，第36集直接使用完整效果，存在资源状态模糊。",
+      "reason": "A级：重要资源（寒玉）发生转移或使用，但缺少明确的交接、保存或状态说明，导致读者对寒玉的完整性和来源产生疑问。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "医神手持那枚镶嵌着九幽寒玉的珠钗，指尖微颤。他看向苏半夏，眼中闪过一丝决绝，随即深吸一口气，将珠钗尖端猛地抵住陆离眉心。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "公主瞳孔骤缩，看着陆离渗血的眼眶，深知此物一旦落入皇帝手中便是灭顶之灾。她咬牙，迅速拔下鬓边寒玉珠钗，塞入陆广袖之下。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "前置信息缺口",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "核心反派“王爷”在前期铺垫不足。前30集主要反派为继母、赵尚书、公主等，王爷仅在背景中提及（如第41集智囊分析账本时提到“幕后指使者……正是王爷”），但直到第44集才正式成为主要威胁，且其势力范围、具体动机（为何要杀陆父、为何要寒玉）缺乏前期明确铺垫，存在“核心反派空降”嫌疑。",
+      "reason": "A级：信息驱动阶段剧情，却只有模糊背景或事后口述，没有明确触发、告知过程或推断路径。王爷作为最终BOSS，其前期存在感弱，导致后期冲突升级略显突兀。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "智囊（手指点在几行红色朱批上）：更糟糕的是，资金流向显示，这笔钱并非来自国库，而是通过京城几大钱庄洗钱后，秘密汇入西郊废庙的一个私人账户。幕后指使者……正是王爷。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "（全剧前30集未出现王爷具体行动或明确动机，仅在背景中提及）"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "骗神的能力边界模糊。第17集骗神利用“磁吸道具”在混乱中调包冰魄兰，第32集骗神在密室外低声汇报并配合苏半夏进行“显字”实验，第40集骗神在黑市与独眼龙周旋并窃取信纸。骗神的能力从“骗术”逐渐扩展至“情报收集”、“道具使用”甚至“近身格斗”（第50集骗神抛石灰粉），缺乏明确的能力成长或背景交代，存在“能力状态断裂”嫌疑。",
+      "reason": "B级：变化有基本依据，但过程偏薄或节奏过快。骗神的能力扩展虽符合“骗神”人设，但具体技能（如磁吸、石灰粉）缺乏前期铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-3",
+        "quote": "骗神（轻笑，手中磁石一引）：你的，是我的。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "骗神迅速从袖中抛出一把石灰粉，粉尘在火把光芒下骤然扩散，禁军纷纷咳嗽掩面。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "苏半夏对“共生蛊”和“寒玉”的医学/玄学知识来源不明。第20集苏半夏准确判断陆离血液特性，第31集苏半夏提出“装作走投无路，主动递上投名状”的策略，第52集苏半夏利用“以血为引，生死同命”的方法救陆离。苏半夏作为“商妇”或“江湖人”，其掌握如此高深的医学/玄学知识缺乏明确来源交代，存在“知识来源缺失”嫌疑。",
+      "reason": "A级：角色依靠未交代来源的专业知识、隐秘情报或技能完成关键判断与行动。苏半夏的知识水平远超其身份设定，且缺乏前期铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "苏半夏：以血为引，生死同命。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "（苏半夏初始设定为“不要脸皮、不论手段”的江湖人，无医学/玄学背景）"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "苏半夏身世（天罗余孽）的揭底铺垫不足。第47集智囊揭示苏半夏母亲是天罗创始人，骗神、武神、医神均为其亲人。这一重大身份反转虽在第46集通过“木雕小狗”有所暗示，但前期缺乏更明确的伏笔（如苏半夏对天罗的熟悉、骗神等人的异常行为等），导致揭底略显突兀。",
+      "reason": "B级：有明确铺垫，但数量或清晰度不足。木雕小狗是重要伏笔，但前期铺垫较少，导致反转冲击力减弱。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "智囊（深吸一口气，单膝跪地，将残片双手奉上）：晚辈是苏姑娘母亲当年的书童。这位是骗神，姑娘母亲义子；这位是武神，姑娘母亲救命恩人之子；医神则受师命守护姑娘至今。",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-2",
+        "contrast_quote": "医神眼疾手快，捡起包裹，迅速打开。借着火光，他看到里面躺着一枚歪歪扭扭的木雕生肖——一只缺了耳朵的小狗。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第53集陆离失忆后，第54集苏半夏带陆离进宫见皇帝，第55集陆离在庄园生活，第56集陆离恢复记忆。这一时间线中，陆离失忆后的行为（如第54集与皇帝对话）与第56集恢复记忆的过程存在轻微断裂。第54集陆离与皇帝的对话过于成熟，与“心智退回到孩童时期”的设定不符。",
+      "reason": "B级：局部时间细节不一致，修改成本低且不影响主线。陆离失忆后的行为逻辑与设定存在轻微矛盾，但不影响主线理解。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "陆离：你喝酒的样子，很丑。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "医神（摇头，悲痛）：他忘了恩怨，忘了仇恨，甚至忘了如何杀敌。现在的他，心智退回到了孩童时期。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E007",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏与陆离的关系发展因果清晰，从雇佣到夫妻，情感积累充分。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。两人关系发展符合逻辑，情感铺垫到位。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "陆离：你是我的。契约是假的，但我是真的。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "陆离：我是镇国将军。我要买你的命，做我的夫人。为期一年，负责清理门户。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E008",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "陆离从复仇者到守护者的性格转变有事件驱动，情感积累充分。",
+      "reason": "A级：变化有事件驱动，但事件分量明显不足以支撑幅度。陆离的性格转变符合逻辑，情感铺垫到位。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "陆离：我记得了。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "陆离：我身中奇毒，负债百万，继母逼婚。我需要一个人，一个不要脸皮、不论手段的人。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了完整的因果闭环，角色动机（救家）与行动（改装、越狱、突围）逻辑自洽，伏笔（怀表、布防图、霍默遗书）回收完整。主要逻辑瑕疵集中在：1. 关键道具（布防图）的获取与传递过程存在物理空间与时间线的矛盾（珀西在档案室偷图后，克里斯蒂在牢房如何获得并吞下）；2. 霍默死亡真相的揭示依赖“事后信件”，缺乏前文行为逻辑的强支撑（霍默前期行为更像纯粹的复仇者而非潜伏者）；3. 部分危机解决依赖巧合（如霍拉肖恰好出现在排水井下方）。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "布防图的获取与传递过程存在逻辑断裂，珀西在档案室偷图后，克里斯蒂在牢房如何获得并吞下该图缺乏合理解释。",
+      "reason": "第17集珀西在档案室偷出图纸并夹在书中，随后克里斯蒂在牢房外出现并拿走书。但第23集珀西再次进入牢房时，声称带来了“刚画的”地下掩体通风井和卫兵换岗路线，并交给克里斯蒂。这与第17集已获取的图纸重复，且第17集克里斯蒂已吞下图纸（记忆），第23集又获得新图纸，逻辑上存在资源重复与传递路径不清的问题。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "珀西（走到档案架前，迅速抽出一张泛黄的纸张...）这里是艾琳的位置...克里斯蒂（从阴影中走出...）...克里斯蒂（迅速抽出那本厚重的名录...）",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-1",
+        "contrast_quote": "珀西（从袖中抖出一张泛黄纸卷）：地下掩体的通风井和卫兵换岗路线，刚画的。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "霍默“被迫留下保护情报库”的真相揭示缺乏前文行为逻辑支撑，属于事后口述补完。",
+      "reason": "前文霍默的行为（雇佣兵追杀、亲自看守、疯狂复仇）均指向纯粹的仇恨与权力欲。第37集通过遗书揭示其“被迫”和“保护”动机，但前文没有任何细节暗示霍默在暗中保护霍拉肖或情报库（例如故意放水、暗中传递信息等），导致反转依赖单一信件，缺乏行为层面的铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "霍拉肖（快速阅读...）：霍默写……他被迫留下的……？...原来……是那个特务……",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "霍默：...我要看到他在海平面上燃起火光。...不留活口，沉船，让大海吞掉他的骄傲。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍拉肖恰好出现在排水井下方并听到克里斯蒂的声音，属于巧合驱动的转折。",
+      "reason": "霍拉肖通过特工提供的路线进入地下，但剧本未明确说明他为何能精准定位到克里斯蒂所在的通风井下方。虽然特工提供了路线，但“恰好听到”并“恰好能指引”缺乏更严密的时空逻辑支撑，依赖巧合。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "霍拉肖（抬头）：这结构不对……这不是普通排水沟，这是通往地下通风井的入口。...霍拉肖（大喊）：克里斯蒂听我说！走通风管！别停下！",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-2",
+        "contrast_quote": "特工：...这是路线，避开主雷区，从弗雷德里克堡的盲区进入。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍拉肖在重伤（左肩中弹/被击伤）后仍能进行高强度战斗和逃生，恢复过程交代不足。",
+      "reason": "第35集霍拉肖左肩中弹/被击伤，鲜血浸透衣襟。第36集他仍能“利用杠杆原理猛然发力”、“猛地将霍默甩向墙壁”、“扯断电线”。虽然处于紧急状态，但短时间内从重伤到爆发超常体力的过程缺乏医学或生理上的合理铺垫，略显夸张。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "霍拉肖（捂着肩膀，声音嘶哑却不容置疑）：不准开枪！...霍拉肖左肩瞬间鼓起，鲜血瞬间浸透了衣襟",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "霍拉肖（瞳孔骤缩，利用杠杆原理猛然发力）：该死！...霍拉肖猛地将霍默甩向墙壁，顺势扯断了引爆器的电线。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "“贝尔维特号”的伪装策略（奢华掩盖武器）与后续通过贿赂、火灾等手段突破封锁的因果链清晰。",
+      "reason": "第4集详细铺垫了用丝绸、镀金伪装武器的策略，第13集利用水兵贪婪放行，第19集利用火灾制造混乱突围，前后逻辑一致，策略执行与结果对应紧密。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-2",
+        "quote": "霍拉肖：我想让它看起来像个挥霍无度的贵族坟墓。...用红色的天鹅绒，像血一样红，堵住它。",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-1",
+        "contrast_quote": "霍拉肖（突然发力，一脚踹翻溶剂桶）：那就让风带我们走吧。...烧掉的是他的贪婪，推进的才是我们的命！"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "金怀表作为核心道具，从线索指引到最终情感寄托，闭环完整。",
+      "reason": "第1集怀表作为线索出现，第3集确认为精神锚点，第37集压在遗书上，第39集交给克里斯蒂，第51集放入种子，第58集作为时间象征。道具贯穿始终，功能从实用转为象征，逻辑自洽。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "中间人：包括这块怀表？夹层里有你要的“葬礼”邀请函。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-3",
+        "contrast_quote": "霍拉肖（轻抚怀表边缘，声音平缓）：我在听它跳动的声音。这滴答声里，有我们活过的证明。"
+      }
+    }
+  ]
+}

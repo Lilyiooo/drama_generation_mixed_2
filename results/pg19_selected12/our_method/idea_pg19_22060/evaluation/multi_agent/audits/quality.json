@@ -1,0 +1,318 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角拉尔夫具有完整且深刻的人物弧光，从傲慢贵族到冷酷战争机器，转变由强驱动事件逼出主动选择并产生不可逆后果。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "珀西（低声，声音沙哑如砂纸摩擦）：理想死了，拉尔夫。现在，只剩下我们。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "拉尔夫：（后退半步，眼底满是难以置信）这是背叛！"
+      },
+      "reason": "三位评审均指出拉尔夫弧光完整。证据显示：起点（第1集傲慢/贵族身份）-> 转折1（第3集杀人/第10集崩溃）-> 转折2（第36集利用伤员/第42集目睹屠杀）-> 终点（第60集拒绝勋章/虚无）。每次变化均有强驱动事件（死亡、背叛、屠杀）和主动选择（开枪、命令、拒绝），且后果不可逆（失去人性、被孤立）。符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "拉尔夫：（平静地命令）把伤员拖到前面去。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "拉尔夫（颤抖，声音嘶哑）：我杀了他们……是我……是我命令冲锋的……"
+      },
+      "reason": "三位评审均确认人物深度。证据显示拉尔夫面临多次两难（第10集崩溃、第28集利用孩子、第36集牺牲伤员、第39集处决逃兵），并付出沉重代价（失去战友、被唾弃、自我怀疑）。内在矛盾（生存vs道德、复仇vs良知）被充分戏剧化，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "蒂姆（低声，语气罕见地认真）：记住之前的教训。别死得太快。我们需要有人活着去告诉那些混蛋，我们是谁。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出配角功能明确。珀西（理智/道德锚点）、坦普（权威/背叛）、蒂姆（牺牲/智慧）功能清晰且推动主线。虽然部分配角（如游击队员甲乙丙）功能单一，但核心配角（珀西、蒂姆、坦普）的不可替代性较强，整体角色配置合理，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心兄弟关系同时存在身份立场、目标利益、情感依赖和价值冲突等多类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "珀西（嘶哑怒吼）：看着我！看着我的手，拉尔夫！",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-2",
+        "contrast_quote": "拉尔夫死死盯着珀西的眼睛。在绝对的黑暗中，那双眼是唯一的光源。"
+      },
+      "reason": "三位评审均确认兄弟关系张力强。证据显示关系中存在身份立场（哥哥/弟弟）、目标利益（复仇/生存）、情感依赖（信任/背叛）、价值冲突（理想/虚无）等多重张力，且贯穿全剧，直接支撑主线情感逻辑，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心兄弟关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-3",
+        "quote": "拉尔夫看着那个落点，嘴角微微上扬，露出了全剧第一个真正轻松、属于年轻人的微笑。他转过身，主动握住了珀西的手。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "珀西从怀里掏出一块早已湿透、硬如石块的面包屑，默默递到哥哥嘴边。"
+      },
+      "reason": "三位评审均确认关系推进清晰。证据显示关系从依赖（第1集）-> 冲突（第41集）-> 和解/升华（第43集）-> 共同走向虚无（第60集），关键里程碑因果紧密，明确回收，构成连续叙事动力，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分次要配角（如游击队员甲、乙、丙、蒂姆后期）功能单一，主要承担递线索、制造误会或衬托主角功能，个人目标与情感立场不足。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-2",
+        "quote": "游击队员乙（虚弱地抓住拉尔夫的袖子，眼神涣散）：走……别管我们……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01和R03指出部分配角（游击队员甲乙丙、蒂姆后期）功能单一，缺乏独立目标或mini弧光，可轻易合并或删减。证据显示这些角色主要作为“牺牲品”或“背景板”出现，服务于主角黑化或战争残酷性展示，符合B级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "拉尔夫：（拔出贴身携带的折叠小刀，手抖得厉害）剪开它，我们钻过去。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出开篇高效建立人物（拉尔夫/珀西）、情境（战争逃亡）和核心问题（生存/身份），信息组织流畅，无冗余背景介绍，形成强后续期待，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "坦普少校：两个英国老鼠，带着普鲁士人的嫌疑，跑到我的营地来乞讨？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出核心矛盾（生存vs身份）明确，阻力（普军/游击队内部）有效，风险（死亡/背叛）可感知，并形成稳定期待链，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "坦普（猛地咆哮，唾沫飞溅）：闭嘴！现在是外敌当前！这时候搞内部清洗，你就是想让这支队伍散伙，好死得痛快是不是？！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出集末问题（如内奸发现、黑市交易）在下一集得到相称推进，情感投入通过关系变化和牺牲事件持续累积，无结构性断裂，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "珀西（低声，声音沙哑如砂纸摩擦）：理想死了，拉尔夫。现在，只剩下我们。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出拉尔夫（傲慢->冰冷）、珀西（冷静/理性）、蒂姆（戏谑/爱尔兰口音）台词风格差异鲜明，与人物身份和关系高度绑定，增强辨识度，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如第44集峡谷爆炸、第57集修女火墙，意象描写完整且有效。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "修女转身面向涌入的特勤队。她张开双臂，展开破碎的长袍，如同拥抱死亡。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出关键场景（峡谷爆炸、修女火墙）通过色彩、道具、空间组合形成高度可辨识的视觉组织，增强情感冲击力，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E012"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-2",
+        "quote": "拉尔夫拆开信封。镜头特写信纸上的文字：“英法联军不再需要孤儿。你们的安全，高于我的亲情。勿念。”",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出核心设定（英国血统危险性、内奸、母亲态度）分阶段释放，与剧情高潮精准绑定，信息量可吸收，无说明书感，符合A级亮点标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 23,
+  "covered_count": 23
+}

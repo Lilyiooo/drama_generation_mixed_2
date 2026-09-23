@@ -1,0 +1,417 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角亚瑟·彭哈利根具有完整且深刻的人物弧光，从被动受害者转变为主动复仇者，最终回归实业本质。",
+      "evidence": {
+        "episode": "第1集, 第12集, 第57集",
+        "scene": "1-2, 12-1, 57-1",
+        "quote": "第1集：亚瑟（咬牙）：……好吧。我去签协议。 / 第12集：亚瑟：埃莉诺，我已经拿到了通往迷宫核心的钥匙。但我不能公开拿，因为在黑暗里，只有影子才能移动。 / 第57集：亚瑟：我设立这个基金，不是做慈善。是因为我老了，跑不动了。这世界全是吃人的黑洞，我需要你们这一代手里有真家伙的年轻人，去把那些用空话堆出来的虚假帝国给砸烂！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出主角弧光完整。证据显示：起点为盲目信任与被动（第1集签字）；转折为发现真相并决定装疯反击（第7集、第12集）；终点为回归实业并建立基金（第57集）。变化由强驱动事件（被背叛、发现账本）引发主动选择（装疯、取证），且产生不可逆后果（霍克斯入狱、公司重生）。符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "evidence": {
+        "episode": "第22集, 第36集, 第26集",
+        "scene": "22-3, 36-1, 26-1",
+        "quote": "第22集：亚瑟：闭嘴。你们根本不知道，这才是我活过来的第一口空气。 / 第36集：亚瑟：这本账簿是我翻盘的底牌，烧了它，我输得连骨头都不剩。 / 第26集：亚瑟：不是妄想！那是幽灵账户！每多拖一天，维恩的账户就少一百万，霍克斯的口袋就胖一倍！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01和R02评为S，R03评为A。综合证据：亚瑟在“装疯”过程中面临暴露风险（两难，如第22集自残表演）；在销毁底牌时面临失去翻盘机会的恐惧（代价，第36集）；在论坛爆发时面临自我毁灭边缘（脆弱与爆发，第26集）。这些内在矛盾通过具体行动和后果被充分戏剧化，符合S级标准。R03的A级评价低估了第36集销毁账本这一关键两难的深度。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "evidence": {
+        "episode": "第10集, 第15集, 第14集",
+        "scene": "10-1, 15-1, 14-1",
+        "quote": "第10集：老金（点燃一根烟）：行，我让车停在后门。别让我等太久，这夜风刮得人骨头疼。 / 第15集：维恩（冷笑一声）：霍克斯？他在法庭上只会拖泥带水。如果没有了亚瑟这个提线木偶，他就会变成下一个被清算的目标。 / 第14集：老金（冷笑）：你付得起吗？这可是跨国刑侦的价格。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "两位评审均评为A。霍克斯（法律压迫）、维恩（资本威胁）、埃莉诺（情感/智囊）、老金（黑市资源）功能明确且互补。虽然部分配角（如弗罗格）功能单一，但核心配角群像分工清晰，推动了主线发展。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "部分重要配角（如弗罗格、老金、玛丽安）主要承担递线索、制造误会或衬托主角的功能，缺乏个人目标和独立弧光。",
+      "evidence": {
+        "episode": "第4集, 第10集, 第38集",
+        "scene": "4-3, 10-1, 38-2",
+        "quote": "第4集：弗罗格（凑近，露出阴冷的笑容）：如果你现在迈出这扇门，或者拨通任何一个供应商的电话，我就立刻公开你之前签署的违规担保协议。 / 第10集：老金（点燃一根烟）：行，我让车停在后门。别让我等太久，这夜风刮得人骨头疼。 / 第38集：玛丽安（绝望地闭上眼，深吸一口气）：如果我把这些证据交给你，你就得保证我的生命安全。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02评为B，R03评为A。综合来看，弗罗格主要作为执行者和监视者，缺乏独立动机；老金主要提供资源，功能单一；玛丽安主要作为证据提供者，其转变缺乏充分铺垫。这些角色可被合并或删减而不影响主线逻辑，符合A级问题标准（多数重要角色只承担单一功能）。R02的B级评价低估了角色工具人属性的普遍性。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（亚瑟与埃莉诺）同时存在至少三类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第2集, 第7集, 第12集",
+        "scene": "2-2, 7-2, 12-1",
+        "quote": "第2集：埃莉诺（冷冷地盯着那行字）：你现在是在用我们的房子，喂饱一群吃人肉的秃鹫。 / 第7集：埃莉诺（走近一步，目光审视）：所以，你打算继续演下去？ / 第12集：埃莉诺（转过身，眼眶微红但目光如刀）：从明天起，霍克斯派来的那个心理医生，我会让他喝醉睡过去。家里的监控，我也会“不小心”弄坏。这是我的底线。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A，R02评为S。亚瑟与埃莉诺的关系包含：身份立场（夫妻/盟友）、目标利益（复仇/生存）、情感依赖（信任/牺牲）。埃莉诺从冷漠到支持，再到共同行动，关系推进本身构成连续叙事动力。符合S级亮点标准（至少三类张力来源）。R01的A级评价低估了关系对主线情感逻辑的支撑作用。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E006",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。",
+      "evidence": {
+        "episode": "第2集, 第50集, 第59集",
+        "scene": "2-2, 50-3, 59-2",
+        "quote": "第2集：埃莉诺（提起行李袋，转身走向门口）：亚瑟，别再指望我来提醒你。从这一刻起，你只有你自己。 / 第50集：埃莉诺（看着那枚印章，沉默良久后伸出手，郑重接过）：放心吧。只要印章在我手里，彭哈利根就不会再迷路。 / 第59集：埃莉诺（微笑，与他十指紧扣）：那就走吧，亚瑟。外面的订单还在等着我们。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "两位评审均评为A。关系从决裂（第2集）到结盟（第7集、第12集）再到放权与信任（第50集、第59集），有清晰起点、关键里程碑和阶段变化，贯穿全剧，有效支撑主线情感。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E006"
+      ],
+      "status": "rejected",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "亚瑟与反派（霍克斯、维恩）的关系主要停留在利益对抗，缺乏情感深度或复杂张力。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "亚瑟：我是在陈述事实。只有霍克斯倒台，你的供应链才能彻底切断被勒索的软肋。我们共同的敌人是这个吃人的律师。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "该条目声称亚瑟与反派关系缺乏情感绑定。然而，剧本中亚瑟与霍克斯的关系不仅是利益对抗，还包含深刻的价值冲突（法律迷宫 vs 实业本质）和心理博弈（装疯 vs 识破）。第35集亚瑟与维恩的结盟也基于复杂的利益交换和心理操控。因此，该问题不成立，属于基线误报。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰，形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1, 1-2",
+        "quote": "第1集：银行经理（冷漠）：合同第十二条，全额担保。您的时代结束了，先生。 / 第1集：霍克斯（严厉）：保住公司，房子可以再买。你想让彭哈利根帝国毁于一次诉讼吗？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第1集通过银行危机和律师介入，迅速确立了主角的困境和核心矛盾，信息组织流畅，能够稳定形成继续阅读动机。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第1集, 第9集",
+        "scene": "1-1, 9-1",
+        "quote": "第1集：亚瑟（惊慌）：你现在要查封我的私人账户？那是留给孩子上学的钱！ / 第9集：亚瑟（愤怒地嘶吼，在空旷的仓库回荡）：你们在拿我的命，买你们的利息！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "目标（保住公司/复仇）、核心阻力（霍克斯/维恩）、风险代价（失去一切）和首次局面变化（发现账本）高度清楚，多条后续期待相互咬合。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第25集, 第26集",
+        "scene": "25-2, 26-1",
+        "quote": "第25集：埃莉诺（看着亚瑟痛苦的样子，声音微颤）：亚瑟，你必须坚持住，哪怕是用牙咬。 / 第26集：亚瑟（突然捂住耳朵，发出痛苦的惨叫，但嘴里仍在那疯狂输出）：切断！切断不了！物理服务器在列支敦士登！你们在裸奔！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "关键边界持续由人物选择、局面变化或高价值信息自然产生期待；承接及时，兑现带来新的因果、关系和情绪增量。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "evidence": {
+        "episode": "第3集, 第15集",
+        "scene": "3-1, 15-1",
+        "quote": "第3集：霍克斯：在法庭上称为“证据”，而在新闻里，这叫“真相”。 / 第15集：维恩（咆哮）：又是延期！又是该死的管辖权异议！我的现金流还能撑几个星期？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "霍克斯的冷峻、维恩的暴戾、亚瑟的隐忍与爆发、埃莉诺的冷静，语言风格稳定，人物间表达差异清楚，增强角色辨识度。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个位置出现工整对仗或金句连发，重场戏口语颗粒明显不足并影响真实感。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "亚瑟（淡淡地）：霍克斯把法律当成了迷宫，他以为只有最复杂的结构才能困住受害者。但他忘了，迷宫是用来走出来的，而不是用来住在里面的。 / 亚瑟：法律可以是武器，也可以是盾牌。关键在于使用者的初心。霍克斯的初心是贪婪，所以他活成了自己设下的陷阱。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第52集亚瑟的台词存在大量书面警句，如“迷宫是用来走出来的，而不是用来住在里面的”、“法律可以是武器，也可以是盾牌”，缺乏口语停顿和自我修正，读感接近书面警句串联。符合A级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-2",
+        "quote": "亚瑟：商业的本质是价值交换，不是零和博弈。如果我的合作伙伴因为我的苛刻而倒闭，下一个倒霉的就是我。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第51集亚瑟的台词直接解释主题，略显说教，但主体仍与人物目标和场景行动相关。符合B级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009",
+        "quality-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "场景与动作描写质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "描写清晰、画面感强，关键动作和情绪状态可由导演与演员直接执行。",
+      "evidence": {
+        "episode": "第4集, 第8集, 第22集",
+        "scene": "4-1, 8-2, 22-3",
+        "quote": "第4集：△ 暴雨将至，天空灰暗压抑。 / 第8集：△ 亚瑟用肩膀顶开沉重的通道大门，灰尘在光线中飞舞。 / 第22集：△ 亚瑟发疯般端起桌上的青花瓷瓶，狠狠砸向地毯。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "两位评审均评为A。场景描写注重空间、氛围和细节，动作指示明确，画面感强，可由导演与演员直接执行。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010",
+        "quality-R02-E010"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第9集, 第14集, 第40集",
+        "scene": "9-1, 14-1, 40-1",
+        "quote": "第9集：亚瑟（快速解读，念出声）：三、零、五、A……对应维恩公司的流水号。 / 第14集：老金：注册了一家叫“宁芙资本”的公司。 / 第40集：技术员：数据碎片化打包完成。契约原件被拆解成了三百万段乱码，掺杂在集装箱的海运温湿度传感器日志里。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "两位评审均评为A。金融、法律、物流等设定分阶段释放，与剧情高潮或关键行动精准绑定，信息量始终可吸收。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A016",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主要反派霍克斯和维恩的动机单一（贪婪），行为模式重复，缺乏深度和差异化。",
+      "evidence": {
+        "episode": "第30集, 第45集",
+        "scene": "30-1, 45-2",
+        "quote": "第30集：霍克斯：你现在只配给我当狗，连骨头都别想捡！ / 第45集：维恩（颓然松开手，领带被扯得歪斜，身体无力地滑坐回椅子上）：密钥……在离岸信托的备用服务器里。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "霍克斯和维恩的动机均停留在“榨干亚瑟/获利”，缺乏更深层的价值冲突或创伤背景。他们的威胁手段（法律、资金、舆论）高度重叠，且在后期为让主角获胜而明显降智（如霍克斯轻易被录音、维恩轻易被威胁）。符合A级问题标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 26,
+  "covered_count": 26
+}

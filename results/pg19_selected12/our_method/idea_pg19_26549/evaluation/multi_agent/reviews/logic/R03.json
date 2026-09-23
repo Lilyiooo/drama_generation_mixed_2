@@ -1,0 +1,140 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了较为完整的因果闭环，主角托伊内特从“数据化生存”到“情感觉醒”再到“独立反抗”的弧光清晰，关键转折（如火灾、听证会、父亲决裂）均有前文铺垫。主要逻辑瑕疵集中在：1. 第34集与第35集存在严重的场景与台词重复，导致听证会节奏断裂；2. 第51集斯通夫人获取并公开“雷夫先生邮件”的动机与手段（前校工备份）略显牵强，且与第50集斯通夫人已复职的权力状态存在轻微逻辑张力；3. 部分道具（如光谱笔、门禁卡）的获取与使用过程交代稍显简略，但基本符合角色能力设定。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第34集与第35集开头大段重复了听证会斯通夫人质问露丝及托伊内特准备反击的情节，且台词高度雷同。",
+      "reason": "第34集结尾托伊内特已决定反击，第35集开头却重新演绎了斯通夫人质问、露丝失语、托伊内特观察鞋中证据的过程，且斯通夫人台词“露丝·戈登，我们要确立事实...”在两集中几乎完全一致，属于重要事件被多次复述，造成剧情停滞。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "斯通夫人（推了推眼镜，声音平稳却带着金属般的冷硬）：露丝·戈登，我们要确立事实。请看着我的眼睛，回答我的问题。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "斯通夫人（语调平稳，带着金属般的冷硬）：露丝·戈登，我们要确立事实。请看着我的眼睛，回答我的问题。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第51集斯通夫人获取并公开雷夫先生威胁邮件的动机与手段略显突兀。",
+      "reason": "斯通夫人在第50集刚被任命为顾问，第51集即通过“前校工无意中备份”这一巧合获得雷夫先生私密邮件并公之于众。虽然插叙解释了来源，但“前校工”这一角色的出现缺乏前文铺垫，且斯通夫人利用此邮件打击托伊内特的动机（报复）虽可推断，但获取渠道的便利性（校工主动上交）稍显巧合，属于因果链局部跳跃。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-2",
+        "quote": "前校工（声音颤抖，额头满是冷汗）：斯通老师，我真的只是无意中备份的……那天雷夫先生的秘书来清理缓存，我……我想保住我的工作。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第16集托伊内特使用的“改装过的便携式光谱分析笔”来源未交代。",
+      "reason": "托伊内特作为14岁学生，突然拿出一支“改装过的”、“缠绕绝缘胶布”的自制光谱分析笔，且能进行分子结构分析。虽然前文提到她擅长逻辑和记录，但此类专业仪器的获取、制作过程完全缺失，属于知识/资源来源缺失，但考虑到其“天才/极客”人设，可视为弱暗示，定为B级。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "托伊内特从笔袋深处摸出一支改装过的便携式光谱分析笔。笔身粗糙，缠绕着绝缘胶布，显然是她自制的简易工具。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第41集与第42集关于潜入时间的计划存在轻微逻辑跳跃。",
+      "reason": "第41集托伊内特计划“01:15物理潜入”，第42集海伦提供图纸后，托伊内特发现“周三凌晨大型吸尘器作业”是掩护，遂将计划改为“下周三凌晨”。但第43集直接跳至“深夜23:45”制定最终计划，第44集执行时间为“02:12”。虽然时间跨度合理，但第41集提到的“01:15”是供暖开启时间，第43集又强调“2:15”是气流扰动时刻，两处时间点的侧重略有混淆，但未造成根本性悖论。",
+      "confidence": "低",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "托伊内特（对着窗外的夜色）：01:15。物理潜入。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "托伊内特：而2:15分，是供暖系统从高负荷切换到低负荷的时刻。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "托伊内特从“冷漠记录者”到“主动介入者”的转变有充分的事件驱动。",
+      "reason": "第9集海伦受辱、第14集托伊内特首次帮助海伦、第25-26集目睹海伦交易与崩溃，层层递进，使得第31集托伊内特在听证会上公开支持露丝、第55集公开自我剖析的行为转变具有坚实的情感与逻辑基础，符合A级亮点标准。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-2",
+        "quote": "托伊内特：（没有抬头，眼神聚焦在零件的连接点上，声音极低，几乎被秒表的滴答声掩盖）别怕。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-2",
+        "contrast_quote": "托伊内特：我不完美，但我真实；我不控制，但我负责。这就是我想建立的秩序。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "“沉默即顺从”的教案伏笔在第11集、第35集、第36集多次回响并推动剧情。",
+      "reason": "第9集斯通夫人教案中的“沉默是最高级别的顺从确认”在第11集被托伊内特发现并引发心理崩溃，在第35-36集听证会上被托伊内特用作反击斯通夫人逻辑的核心论据，伏笔回收有力，增强了主题深度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "注：沉默不等于中立，而是最高级别的顺从确认。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "托伊内特：这种“共识”，还算是共识吗？当共识建立在对他人的彻底不信任上，建立在有罪推定的预设上，它就变成了暴政。"
+      }
+    }
+  ]
+}

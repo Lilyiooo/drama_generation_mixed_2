@@ -1,0 +1,228 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体逻辑存在严重断裂，主要问题集中在：1. 核心设定（寒酥散与沈晚晴血液）前后矛盾，第24集明确为“人形解药”需外力引导，第52集却变为“血液直接中和毒瘴”；2. 关键道具（尚方宝剑、兵部调令）出现与消失缺乏合理逻辑，第11集凭空出现半把御剑，第14集又出现完整调令；3. 角色能力与身份突变缺乏铺垫，沈晚晴从市井泼妇突然展现前朝皇室身份及高超武功，顾长风从中毒濒死突然恢复内力；4. 时间线与空间位移存在明显矛盾，如第50集禁军“奉旨”出现缺乏前文铺垫，第51-53集矿洞场景时间混乱。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "寒酥散解毒机制前后矛盾，第24集设定为“人形解药”需外力引导，第52集变为血液直接中和毒瘴。",
+      "reason": "S级：前文已明确建立的规则（寒酥散需冰心草或外力引导）被关键事件直接违反却无后果，也没有说明失效原因。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "寒酥散乃慢性剧毒，专损心脉。顾大夫人体内的毒，不仅能中和普通惰性毒素，更兼具极强的攻心之效，这便是所谓的“人形解药”原理。但……",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "一股奇特的波动从两人体内交织而起，沈晚晴的血液渗入顾长风体内，竟与周围的毒瘴产生了剧烈的排斥反应，黑烟被强行逼退，形成了数寸的清明之地。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "尚方宝剑凭空出现，第11集顾长风从怀中抽出半把御剑，前文无来源说明。",
+      "reason": "S级：关键道具、证据、武器或权限已明确由一方控制，后文无转移过程却由另一方用于推动主线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-1",
+        "quote": "顾长风（从怀中抽出一半尚方宝剑，重重插入门缝，剑刃入木三分）：看清楚了！这是陛下亲赐的御剑！动她，就是抗旨！",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-1",
+        "contrast_quote": "他警觉地摸向腰间，剑已不翼而飞。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "兵部调令突然出现，第14集阿四从赵氏衣袋中抽出真实调令，前文无获取路径。",
+      "reason": "S级：决定性证据突然出现并推翻局势或解决谜题，前文没有获取路径、保存地点或来源。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-1",
+        "quote": "阿四（从人缝中挤过，从赵氏衣摆暗袋中抽出一份文书）。阿四（大喊）：姐，好宝贝！是真的兵部调令！",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-2",
+        "contrast_quote": "赵氏不仅把您的兵部调令锁在书房暗格里，连一把钥匙都磨平了。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "顾长风能力突变，第53集突然爆发内力震碎长剑，前文无解除过程。",
+      "reason": "S级：能力已明确被剥夺、封印、耗尽或限制，后文无解除过程却正常使用并扭转危机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "顾长风（内力爆发，震得剑身嗡鸣）：给我断！",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-1",
+        "contrast_quote": "顾长风（OS）：寒酥散……发作了。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "身份阵营断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "沈晚晴身份突变，第44集突然揭示为前朝遗孤，前文无铺垫。",
+      "reason": "S级：身份暴露或阵营背叛已发生并被感知，后文却按未发生推进，关键剧情因此不成立。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "沈晚晴（深吸一口气，声音凄厉且坚定）：吾乃前朝遗孤，受命护北境！此物为证，谁敢伤她身后之人，便是与整个前朝死士为敌！",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "沈晚晴（叉腰蹲地）：三斗米？我说老头，你睁大眼睛看看，这米是陈年的还是新收的？"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "禁军出现时间线矛盾，第50集禁军“奉旨”出现，前文无铺垫。",
+      "reason": "A级：跳跃、压缩或倒置使重要因果明显不合理。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-4",
+        "quote": "禁军统领（高举兵部腰牌，声音如洪钟般炸响）：奉旨捉拿通敌叛国逆贼赵显，众将士听口令，一个都不许放出来！",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-3",
+        "contrast_quote": "沈晚晴：然后，引官兵埋伏在这儿，活捉这头硕鼠，以正国法。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E007",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "赵显死亡因果断裂，第52集矿洞塌陷，第53集又出现赵国公刺伤沈晚晴。",
+      "reason": "A级：有触发因，但机制、资源、人物选择或信息来源支撑明显不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-3",
+        "quote": "就在两人转身欲走的瞬间，头顶穹顶传来巨大的碎石崩裂声，赵显绝望的嘶吼被彻底淹没在即将塌陷的黑暗深渊之中。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "赵国公手持长剑，趁着顾长风神智不清，从侧翼猛然刺出。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E008",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "沈晚晴提前知道顾长风中毒细节，第2集白叔诊断后，沈晚晴立即提出去京城。",
+      "reason": "A级：提前获知重要信息，有弱来源暗示但路径不清。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "白叔：除非……有京城太医院的“冰心草”压制，否则他活不过三天。沈晚晴（眼睛一亮）：京城？那就去京城。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-3",
+        "contrast_quote": "顾长风（OS）：这就是结局吗？十年沙场，竟落得债台高筑、任人宰割的下场。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E009",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "沈晚晴前朝身份揭底无铺垫，第41集卖唱老者暗示，第44集直接揭示。",
+      "reason": "A级：只有少量模糊暗示，不足以支撑反转级别。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "卖唱老者（低语）：真相在血中，别找了。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "沈晚晴（深吸一口气，声音凄厉且坚定）：吾乃前朝遗孤，受命护北境！"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E010",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "债主讨债事件重复，第18-21集多次出现类似场景。",
+      "reason": "B级：一个事件重复，或重复段落新增量不足，删减后不影响主线理解。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-2",
+        "quote": "债主头目（涨红了脸，强装镇定）：混账！什么鬼魂，分明是妖言惑众！咱们已经围了三天，不给钱，今天绝不撤围！",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-1",
+        "contrast_quote": "债主头目（剧烈喘息，眼珠凸起）：夫人……三成就三成，小的去借，去抢！只要您别让他出来索命！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R02",
+  "rationale": "本剧本在人物塑造上呈现出明显的“强功能、弱逻辑”特征。主角沈小满与萧烈的人设标签鲜明（泼辣/隐忍），但人物弧光与深度严重依赖外部事件推动，内在动机（如沈小满的身世、萧烈的复仇）存在大量前后矛盾与逻辑断裂（如“龙脉之血”设定的反复横跳、庞氏与国师/权臣的敌对关系混乱）。配角功能单一，反派降智严重。情节规划上，前期节奏较快，但中后期陷入“撒泼-打脸-解毒-身世揭秘”的循环，缺乏实质性的因果递进，导致情绪曲线平铺直叙，高潮缺乏情感支撑。分集剧本台词存在大量非情境化的说明性表达和过度打磨的金句，视觉化描写虽有一定画面感，但动作指示常缺乏物理逻辑。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 2,
+      "reason": "全剧大量复用“沈小满撒泼/演戏-萧烈武力震慑-反派降智认输”的桥段模式。从青石镇到京城，从赵家到庞氏，从演武场到地宫，事件起因、过程和结果高度同质，仅替换了地点和反派名字，缺乏新的因果变量。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "沈小满（尖叫）：非礼啊！光天化日你也敢动手动脚！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 2,
+      "reason": "主要对手（赵家、庞氏、国师、权臣）在目标（夺权/夺宝）、手段（陷害/武力）和失败方式（被沈小满骂/被萧烈打）上高度同质。反派缺乏独立的行动逻辑，往往沦为主角展示能力的背景板。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "国师（满脸堆笑，高举一卷泛黄书信）：陛下，老臣有一桩谋逆惊天大案，不得不奏！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 3,
+      "reason": "场景基本完成了信息传递和冲突展示的功能，但递进感不稳定。许多场景（如多次解毒、多次对峙）在情绪和局面上没有显著升级，存在重复已知信息的情况。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-2",
+        "quote": "沈小满（冷静如冰，瞥见案头医箱）：顾九留下的银针……找到了！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇通过“救命-聘妻-组队”快速建立了核心人物关系和主要目标（进京复仇/夺权），信息组织紧凑，人物行动驱动叙事，形成了较强的阅读期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "沈小满：（河东狮吼）住手！光天化日，朗朗乾坤，你们是想欺压良善吗？！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 2,
+      "reason": "中后段（20集后）陷入“解毒-身世揭秘-再解毒-再揭秘”的循环，节奏拖沓。高潮部分（地宫决战）缺乏充分的情绪蓄力，主要依赖动作场面而非情感爆发，导致高潮失力。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "顾九：满姑娘，有句话我犹豫许久，如今不得不说了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 3,
+      "reason": "目标情绪（爽感/复仇/爱情）基本贯穿，但曲线较为平直。缺乏深层的情感转折（如信任危机、价值观冲突），主要依靠外部冲突的升级来维持情绪，蓄力和爆发较为常规。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "萧烈（下巴抵在她发顶，声音沙哑且坚定）：你的命，你自己守。我的毒，我自己抗。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 3,
+      "reason": "大部分集末有明确的后续问题（如解毒、身世、复仇），但类型单一（多为“如何打败反派”或“如何解毒”），缺乏多线并行的期待链，兑现往往直接且缺乏余韵。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（从袖中抽出一张泛黄羊皮卷）：这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "情节量分布基本可接受，但部分集数（如16-19集的商业线）与主线（复仇/夺权）连接较松，信息密度在“身世揭秘”部分过于集中，而在“日常互动”部分过于稀疏。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "沈小满（嗤笑一声）：八十万？庞氏那点家底连个零头都凑不齐。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但存在局部注水。例如多次重复的“解毒-毒发”场景，以及沈小满与萧烈之间反复的“误会-解释-和好”循环，缺乏实质性的关系或局面变化。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "沈小满（咬牙忍耐剧痛）：我不怕！你听我说，顾九说过，至亲之血可暂时压制。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 3,
+      "reason": "副线（如绸缎庄经营、旧部赵铁柱）基本有功能，但部分内容可压缩。副线与主线的连接主要依靠“提供资金/情报”或“情感点缀”，缺乏深度的因果联动。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "旧部：（从怀里掏出一张皱巴巴的皇榜，声音发颤）小的不成器，但这几年，小的儿子考上了乡试，成了秀才！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 3,
+      "reason": "主线（复仇/夺权/解毒）基本清楚，阶段目标大多成立，但升级和转折力度不稳定。例如“龙脉之血”的设定多次反转，导致主线逻辑出现断裂，阶段兑现往往依赖巧合或反派降智。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "沈小满：信不信由你。这滴血下去，你所有的算计都得跟着陪葬。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R02-E001",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角沈小满的弧光主要由外部事件（解毒、身世）被动带来，缺乏内在信念的主动转变。",
+      "reason": "沈小满从“市井泼妇”到“将军夫人”再到“前朝遗孤”，身份变化明显，但其核心动机（生存/复仇/保护萧烈）始终未发生根本性转变。她的“成长”更多是能力的展示（撒泼、智斗），而非内在价值观的重塑。关键转折（如决定留下、决定牺牲）缺乏充分的铺垫和主动选择的戏剧化过程。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "沈小满（内心独白）：我是钥匙，也是毒药。他越是依赖我的血，就越是陷得深。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "沈小满：（凑近萧烈，坏笑）榨什么油不重要，重要的是我现在缺个“冤大头”当幌子。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E002",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角萧烈长期只承担“武力担当”和“被保护者”功能，缺乏可见的内在矛盾和选择压力。",
+      "reason": "萧烈在剧中主要作为沈小满的“武力后盾”和“解毒对象”存在。他的内在矛盾（复仇vs.生存）很少通过两难选择或犯错来戏剧化。关键决策（如撕毁密旨、地宫决战）往往显得突兀，缺乏对后果的深刻考量和代价的承担。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "萧烈：我要告诉这天下人，什么宝藏，什么前朝龙脉，在我萧烈眼里，都是狗屁！",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "萧烈：我不需要翻盘，我只需要你死！"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E003",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主要反派（国师、权臣）动机单一，后期明显降智，为让主角获胜而放弃基本逻辑。",
+      "reason": "国师和权臣的动机停留在“夺权/夺宝”，缺乏更深层的利益或价值支撑。在关键节点（如地宫入口、阅兵大典），反派多次做出不合逻辑的决策（如轻易相信沈小满的谎言、在众目睽睽下执行危险仪式），导致威胁感大幅下降。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-4",
+        "quote": "国师（被激怒，强压恐惧）：好，我念！",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "国师：萧烈，你赢不了。前朝势力已然复苏，我不过是在掌控局势。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E004",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "配角（顾九、阿笙、大熊）功能单一，主要围绕帮助主角或解释信息运转，缺乏个人目标。",
+      "reason": "顾九是“解说员”，阿笙是“情报员”，大熊是“打手”。他们的个人目标（如顾九的医术追求、阿笙的野心）很少被展开，更多是服务于主角的叙事需求。多个角色可轻易合并或删减而不影响主线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-2",
+        "quote": "顾九：老夫图的是那味前朝失传的药材。",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-1",
+        "contrast_quote": "顾九：（冷哼一声）治好了病人的腿，病人自然会在酒桌上把听到的瞎话都吐出来。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E005",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角与配角、主角与反派之间的情感绑定主要靠利益与任务推进，缺乏关键行动和代价证明。",
+      "reason": "沈小满与萧烈的关系从“契约”到“夫妻”再到“生死相依”，但情感进阶的证据多为口头表达或简单的肢体接触，缺乏通过具体事件（如牺牲、背叛、误解）来深化信任的过程。与配角的关系也主要停留在“雇佣”层面。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-2",
+        "quote": "萧烈：（伸手，轻轻覆盖在沈小满握着茶杯的手上）那现在呢？",
+        "contrast_episode": "第27集",
+        "contrast_scene": "27-1",
+        "contrast_quote": "萧烈：（手指颤抖，一笔一划，在掌心用力刻划）护。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E006",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境和戏剧问题，形成强后续期待。",
+      "reason": "第1集通过“救命-聘妻”的快速互动，确立了沈小满的泼辣性格和萧烈的落魄处境，并引出了“进京复仇”的核心目标。信息清晰，人物行动驱动叙事，有效激发了读者的阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "沈小满：（伸出一根手指）我要你买我。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E007",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_conflict",
+      "kind": "issue",
+      "category": "核心矛盾清晰度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "核心矛盾（复仇/夺权/解毒）建立迂回，信息效率低，关键要素出现较晚。",
+      "reason": "虽然开篇建立了“进京复仇”的目标，但“龙脉之血”、“业火寒”等关键设定直到中后期才逐步揭示，且多次反转，导致核心矛盾的清晰度受到影响。读者需要自行拼接才能理解主角面临的真正阻力。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（从袖中抽出一张泛黄羊皮卷）：这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E008",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处兑现偏弱、偏迟，主要期待落空，没有产生相称的新信息、关系或局面变化。",
+      "reason": "例如“龙脉之血”的悬念多次被提出又搁置，直到最后才草草解决。地宫决战的兑现主要依赖动作场面，缺乏对前期情感积累的回收，导致高潮的情感冲击力不足。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-3",
+        "quote": "国师（绝望地向着无尽的黑暗坠落）：不——！",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "顾九：满姑娘，有句话我犹豫许久，如今不得不说了。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E009",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个重要场景有明显剧情复述、情绪自我解释或背景硬塞，显著破坏真实感与张力。",
+      "reason": "角色经常通过台词直接解释设定、动机或剧情进展，而非通过行动或互动来展现。例如顾九多次直接解释“业火寒”和“龙脉之血”的机制，沈小满也常直接说明自己的计划。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（目光幽深）：不仅如此，他们正在满城搜捕拥有这种体质的人。烈儿身上的毒，是标记，也是诱饵。",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "顾九：没错。只有你的血能压制烈儿体内的寒气，但这并非简单的抹血引毒，而是需要进行繁复的“换血导引”仪式，将部分龙脉之血融入他的经脉。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E010",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个位置出现工整对仗或金句连发，重场戏口语颗粒明显不足并影响真实感。",
+      "reason": "主角和反派的台词经常呈现为书面警句或金句，缺乏口语的自然停顿、重复和自我修正。例如萧烈和沈小满的对话常常过于工整，缺乏生活气息。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "萧烈：你是余孽，我也是余孽。这大雍的规矩烂透了，咱们一起烂在泥里！",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-3",
+        "contrast_quote": "萧烈（轻声）：那就管一辈子。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E011",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "动作指示模糊或缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "个别关键动作模糊，影响局部表演或分镜。",
+      "reason": "部分关键动作（如大熊的“物理说服”、萧烈的“杀气爆发”）缺乏具体的身体动作和调度描述，主要依赖形容词（如“如山崩般”、“杀气凛然”），难以直接转化为可执行的表演或分镜。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "大熊：哎呀。",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-1",
+        "contrast_quote": "萧烈（低吼）：滚。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E012",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "setting",
+      "kind": "issue",
+      "category": "设定与剧情脱节",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "核心设定（龙脉之血、业火寒）只在极少关键节点推动剧情，多处说明与当前场景绑定弱，可替换性高。",
+      "reason": "“龙脉之血”和“业火寒”的设定多次被提出，但往往在关键时刻被搁置或反转，导致设定与剧情的绑定不紧密。许多情节（如撒泼、打脸）无需这些设定也能成立，设定的驱动力不足。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（从袖中抽出一张泛黄羊皮卷）：这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "顾九：解药有，但不是凡间的药材。而是你的血。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_46798/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 71.57,
+      "ledger_subdimension_mean": 78.86,
+      "holistic_subdimension_mean": 64.29,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 86.0,
+          "holistic_score": 70.0,
+          "fused_score": 78.0
+        },
+        "character_state": {
+          "ledger_score": 66.0,
+          "holistic_score": 40.0,
+          "fused_score": 53.0
+        },
+        "knowledge_state": {
+          "ledger_score": 84.0,
+          "holistic_score": 80.0,
+          "fused_score": 82.0
+        },
+        "resource_state": {
+          "ledger_score": 72.0,
+          "holistic_score": 70.0,
+          "fused_score": 71.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 86.0,
+          "holistic_score": 80.0,
+          "fused_score": 83.0
+        },
+        "foreshadowing": {
+          "ledger_score": 78.0,
+          "holistic_score": 70.0,
+          "fused_score": 74.0
+        },
+        "repetition": {
+          "ledger_score": 80.0,
+          "holistic_score": 40.0,
+          "fused_score": 60.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "character_state": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "rules_spacetime": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "foreshadowing": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 76.3,
+      "ledger_subdimension_mean": 81.0,
+      "holistic_subdimension_mean": 71.6,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 88.0,
+          "holistic_score": 78.0,
+          "fused_score": 83.0
+        },
+        "hooks": {
+          "ledger_score": 80.0,
+          "holistic_score": 72.0,
+          "fused_score": 76.0
+        },
+        "plot": {
+          "ledger_score": 58.0,
+          "holistic_score": 65.0,
+          "fused_score": 61.5
+        },
+        "episode": {
+          "ledger_score": 88.0,
+          "holistic_score": 68.0,
+          "fused_score": 78.0
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 75.0,
+          "fused_score": 83.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 3,
+          "total": 3
+        },
+        "character_support": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "hooks_continuity": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "plot_emotion": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_structure": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 2.33,
+      "minimum": 1,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "第39集和第40集出现了高度重复的“破坏炮台”桥段。第39集迪克和罗杰通过杠杆原理破坏炮台底座，第40集几乎以相同的台词、动作和结果再次重复了这一过程，仅将对手从“士兵A”换为“雇佣兵队长”，缺乏新的信息或关系增量，属于结构性重复。",
+          "evidence": {
+            "episode": "第39集/第40集",
+            "scene": "39-1/40-1",
+            "quote": "第39集：迪克（指着支架底部）：那一块销钉，就是它的脖子。... 第40集：迪克（猛地抓住罗杰的衣领）：那一块销钉，就是它的命门！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 1,
+          "reason": "第39集与第40集关于“推倒火炮”的情节几乎完全重复，台词和动作高度雷同，属于全剧结构性重复。",
+          "evidence": {
+            "episode": "第39集/第40集",
+            "scene": "39-1/40-1",
+            "quote": "迪克：听着，罗杰！那门炮不是铁打的，是木做的！... 罗杰：啊——！我要推下去了！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如迪克利用结构弱点破局）在不同场景（修图腾、拆炮架、破牢房）中承担了不同功能（建立信任、军事胜利、逃生），通过新变量（对象、环境、目的）形成有效变奏，避免了简单重复。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-1",
+            "quote": "迪克（指着支架底部）：那一块销钉，就是它的脖子。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 3,
+      "minimum": 3,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主要对手拉斯克尔（贪婪/法律破坏者）、科瓦（部落利益/政治平衡者）、苏族激进派（宗教/传统）和雇佣兵（暴力执行者）在目标和手段上有所区分。迪克针对不同对手采用了不同的策略（对拉斯克尔用法律/舆论，对科瓦用技艺/利益，对激进派用真相/物理）。虽然部分阶段（如雇佣兵）功能较为单一，但整体阻力体系基本可区分。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-1",
+            "quote": "迪克：杀了我，你就能守住这些烂账本吗？... 科瓦：如果这是真的，拉斯克尔就死定了。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "对手包括法国雇佣兵、苏族激进派、拉斯克尔，功能基本可区分，但后期拉斯克尔的威胁感下降，部分阻力解决方式重复（如利用结构弱点）。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "迪克：结构一旦错位，你就再也没法站直。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "对手体系基本可区分：苏族代表文化/信仰阻力，法国雇佣兵代表暴力/军事阻力，拉斯克尔代表法律/经济阻力。但部分阶段（如峡谷战）中，不同敌人的压迫方式（枪击、陷阱）存在一定功能重复。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-1",
+            "quote": "科瓦（从雾中走出，声音冷冽）：想死的话，他会先送你上路。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 3,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "大多数场景完成了基本任务，如第13-14集修图腾柱建立了信任，第18集梅休反击建立了角色弧光。但部分场景（如第39/40集）存在重复，且第44集与第49集关于梅休死亡的状态存在逻辑断裂，影响了递进的严密性。",
+          "evidence": {
+            "episode": "第14集",
+            "scene": "14-3",
+            "quote": "科瓦（走近触摸）：这……怎么可能？... 迪克（直视科瓦）：这就是修复的力量。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "存在大量重复场景，如第39/40集的火炮场景，第42/45集的牢房场景，导致阶段推进停滞，删除后不影响主线。",
+          "evidence": {
+            "episode": "第42集/第45集",
+            "scene": "42-1/45-2",
+            "quote": "罗杰（嘶哑）：迪克？... 迪克：我没丢下你。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景（如第13-15集修图腾，第39-40集拆炮架）均带来明确的信息（拉斯克尔罪行）、关系（苏族信任）或局面（军事优势）增量，顺序具有明显因果，推动主线从逃亡转向反击。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-1",
+            "quote": "科瓦（看着迪克）：不仅树站住了，人也站住了。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "第1-2集高效建立了迪克“冷血工匠”的人设、地契丢失的核心危机以及罗杰“酒鬼”的初始状态。通过酒馆冲突和后巷救援，迅速确立了人物关系和生存基调，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-2",
+            "quote": "迪克：地契丢了。... 罗杰（瞬间安静）：什么？... 迪克：信使被杀，贾斯珀被囚。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "开篇通过酒馆事件快速建立人物关系和核心目标（地契），信息组织紧凑，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "迪克（咬牙）：贾斯珀呢？... 酒保：失踪了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "第1-2集高效建立了迪克的人物特征（冷静、工匠思维）、核心问题（地契丢失、家人受困）和异常情境（黄石荒野），叙事方向清晰，迅速进入逃亡与求生状态。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "迪克（冷冷）：让出一条路，否则我会拆了这扇门。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 3,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "中段依靠修图腾、峡谷逃亡、梅休牺牲等小高潮推进。后段法庭戏和最终决战完成了升级与收束。但第39-40集的重复导致节奏停滞，且梅休死亡后的逻辑混乱（第44集科瓦提及梅休，第49集梅休又出现）影响了情绪曲线的连贯性。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "科瓦：你的同伴，用命填补了最后的缺口。... 迪克：那是他欠我的。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "中后段存在明显平淡段和重复，如第39/40集、第42/45集，高潮前的蓄力不足，需要重排多个阶段才能修复。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-1",
+            "quote": "迪克：就是现在，跑！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段依靠阶段目标（修图腾、获取地图、挖井）和小高潮（梅休觉醒、罗杰独立）推进，后段完成充分升级（法庭审判、最终决战）与收束（重建、纪念），节奏张弛有序。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-2",
+            "quote": "迪克（被泥水冲退，滑跪在地，却发出一声狂笑）：水！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，从初期的压抑/求生，到中期的信任/牺牲（梅休之死），再到后期的愤怒/复仇，最后回归平静/重建。关键峰谷（如梅休挡刀、迪克血印地契）有铺垫，高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-1",
+            "quote": "梅休（发出无声的呐喊，双眼圆睁）：迪……克……... 迪克（嘶吼声震碎了凝固的烟尘）：梅休！！！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "情绪曲线基本贯穿，但部分高潮（如法庭戏）因反派降智而削弱了预期情绪，蓄力与爆发较常规。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "法官（惊恐地松手）：笔……笔怎么了？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，从初期的压抑/恐惧，到中期的紧张/希望，再到后期的悲壮/释然。关键峰谷（如梅休之死、罗杰被俘）有充分铺垫，高潮兑现了“牺牲与重生”的情绪承诺。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-1",
+            "quote": "迪克（嘶吼声震碎了凝固的烟尘）：梅休！！！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "大部分阶段有继续阅读动机，如地契下落、贾斯珀证词、梅休生死等。但部分期待（如梅休是否死亡）因逻辑矛盾而显得混乱，且第39/40集的重复削弱了期待的新鲜感。",
+          "evidence": {
+            "episode": "第49集",
+            "scene": "49-2",
+            "quote": "梅休（躺在担架深处，气息微弱如游丝）：看……栅栏……... 迪克（缓缓回过头，目光落在梅休死灰般的面孔上，沉默了数秒）：他完成了。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "大部分阶段有继续阅读动机，但部分集末问题建立不清，如第31集罗杰独白，期待类型有限。",
+          "evidence": {
+            "episode": "第31集",
+            "scene": "31-1",
+            "quote": "罗杰（喃喃自语）：跟着风，跟着风……"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定，类型有变化（生存悬念、情感悬念、真相悬念），并在合理时点有效兑现（如地契真伪、梅休生死），形成持续的阅读动力。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-1",
+            "quote": "迪克（捡起地图，展开看了一眼，嘴角微微上扬）：谢了，朋友。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 3,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "总体分布可接受，但第39-40集情节量重复，第44-49集关于梅休死亡的信息分布存在矛盾（先死后活再死），导致结构稳定性有限。",
+          "evidence": {
+            "episode": "第44集/第49集",
+            "scene": "44-1/49-2",
+            "quote": "第44集：科瓦：你的同伴，用命填补了最后的缺口。... 第49集：梅休（躺在担架深处，气息微弱如游丝）：看……栅栏……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "存在明确方向性失衡，如第39/40集、第42/45集的情节重复，导致中段塌陷。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "迪克：听着，罗杰！那门炮不是铁打的，是木头搭的！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（如法庭戏、决战戏）有意识地增加密度，过渡阶段（如赶路、休整）适当疏缓，服务理解与蓄力。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "法官（猛然加力试图签字）：以……以法律之名……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 2.33,
+      "minimum": 1,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "第39集和第40集存在明显的停滞与注水，两集内容高度雷同，均为迪克和罗杰破坏炮台，缺乏新的目标、阻力或结果，删除其中一集对主线影响极小。",
+          "evidence": {
+            "episode": "第39集/第40集",
+            "scene": "39-1/40-1",
+            "quote": "第39集：迪克（拍了拍手上的灰）：他们失去了最大的獠牙。... 第40集：迪克（拍了拍手上的灰）：他们失去了最大的獠牙。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 1,
+          "reason": "大量集数（如39/40, 42/45）没有新目标、阻力或结果，删除后主线几乎不受影响，属于结构性注水。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "罗杰：啊——！我要推下去了！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量（新信息、新关系、新目标），必要铺垫（如梅休的恐惧、罗杰的冲动）服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第31集",
+            "scene": "31-3",
+            "quote": "罗杰（闭眼，猛扑上前）：为了活着！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（苏族内部矛盾、记者/舆论线）稳定补充了人物、信息和冲突。苏族线通过科瓦的转变和图腾修复反哺主线（获得军事支持）；舆论线通过记者和传单在法庭戏中成为关键武器，改变了主线局面。",
+          "evidence": {
+            "episode": "第51集",
+            "scene": "51-1",
+            "quote": "迪克：我们要把它印成传单，塞进每一个卖报摊和酒馆的桌上。... 记者：只要把这张拓印图印出来，那些字就像长了刺一样扎人。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "副线（如苏族内部矛盾、记者线）基本有功能，但部分内容可压缩，与主线连接较松。",
+          "evidence": {
+            "episode": "第51集",
+            "scene": "51-1",
+            "quote": "记者（颤抖着抚摸树皮）：只要把这张拓印图印出来，那些字就像长了刺一样扎人。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线（苏族内部矛盾、记者线索）稳定补充人物、信息、冲突，并在关键节点（科瓦结盟、法庭证据）反哺主线，形成互文。",
+          "evidence": {
+            "episode": "第36集",
+            "scene": "36-2",
+            "quote": "迪克（站起身，抹去脸上的木屑，直指科瓦）：这是谋杀。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线（夺回地契/审判拉斯克尔）持续产生新目标（修图腾、救贾斯珀、找记者、法庭审判）和新阻力（苏族背叛、法国人追杀、法庭陷阱）。阶段看点（梅休牺牲、法庭反转、最终和解）有效兑现，每次兑现都改变了局面。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "法官（惊恐地松手）：笔……笔怎么了？... 迪克（冷冷注视，嘴角微扬）：滑轮轴承错位，物理性卡死。法官大人，这就是秩序的重量。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主线基本清楚，阶段目标大多成立，但升级、转折或兑现力度不稳定，如法庭戏的反派降智。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "法官（绝望挣扎，身体悬空）：救命！我要被这椅子杀死了！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线（夺回地契/正义）持续产生新目标、新阻力、新信息和新局面，阶段看点（生存、结盟、审判）有效兑现，每次兑现都改变局面。",
+          "evidence": {
+            "episode": "第53集",
+            "scene": "53-1",
+            "quote": "法官（瘫软在座椅上，绝望低语）：舆论……民意沸腾了。我签不了这个字了！"
+          }
+        }
+      ]
+    }
+  ]
+}

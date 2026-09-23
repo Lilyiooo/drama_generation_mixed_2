@@ -1,0 +1,648 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角托伊内特具有完整且清晰的人物弧光，从“数据防御”到“情感接纳”的转变由关键事件驱动，主链路完整。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "托伊内特·里夫：去他的风险阻断。去他的免责条款。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "托伊内特·里夫：信任是风险最高的投资，而我，不做亏本买卖。"
+      },
+      "reason": "三位评审均指出主角弧光完整。R01和R02评为A级，R03评为S级。依据标准，S级要求“显著支撑主线情感”且“每次变化都由强驱动事件逼出主动选择并产生不可逆后果”。虽然第39集撕毁协议和第54集火灾救人确实是强驱动，但整体弧光中部分转折（如第10集沉默觉醒）更多是心理层面的被动冲击，且后期工具化倾向（R01指出）削弱了弧光的纯粹性。综合来看，主链路完整，关键转折有事件驱动，符合A级“主链路完整...至少一个关键转折具有事件驱动”的标准，未达到S级“显著高于常规”的完美程度。故确认为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角内在矛盾（理性控制vs情感需求）在多个关键节点被充分戏剧化，具有真实感。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "托伊内特·里夫：我今天要用我的前途，为这所学校买一张诚实的保险。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-1",
+        "contrast_quote": "托伊内特·里夫：如果我签了，我就是背叛了露丝。"
+      },
+      "reason": "三位评审均确认主角深度。R01、R02评为A级，R03评为S级。主角在“保护露丝”与“自保”、“诚实”与“生存”之间的两难选择（如第30集拒签、第49集填真实评估）确实通过具体行动展现，而非仅靠台词。符合A级“有明确内在矛盾及实质剧情展现，至少存在一处有效两难”的标准。R03认为达到S级，但考虑到中后段部分深度展现仍依赖内心独白（OS）而非纯粹的外部行为后果，且R01指出后期有工具化倾向，故维持A级更为稳妥。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角托伊内特具有极高的辨识度，其“量化情感”的行为模式与语言习惯贯穿全剧，形成独特的角色标签。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "托伊内特·里夫：信任是风险最高的投资，而我，不做亏本买卖。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02和R03均评为S级。主角使用数据、概率、投资术语的语言习惯，以及记录、计算的行为模式，在剧中高度稳定且独特，替换成其他角色后关键台词与决策无法成立。符合S级“主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E004",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "配角海伦·伯吉斯在中后段功能出现逻辑断裂，其“贫困困境”与“反抗系统”的动机在特定阶段相互矛盾，且与露丝功能重叠。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "海伦·伯吉斯：是为了活命！只要我看起来足够“不完美”，那些贫困生同情加分就会落在我头上。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-1",
+        "contrast_quote": "海伦·伯吉斯：我的……我的化学实验数据。"
+      },
+      "reason": "三位评审均指出海伦的问题。R01、R02评为A级，R03评为B级。海伦在第25集为生存出卖数据，第48集又要求托伊内特共谋伪造失败，其个人目标（生存）与情感立场（反抗/求救）在剧情推进中缺乏统一的逻辑支撑，导致角色行为可预测性降低，且与露丝的“反抗权威”功能存在重叠。符合A级“多数重要角色只承担...单一功能，缺少个人目标、选择逻辑与情感立场”或“功能重叠”的描述。虽然R03认为仅为局部重复（B级），但考虑到其动机摇摆对主线情感逻辑的干扰及与露丝的功能混淆，A级更为准确。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派斯通夫人在后期威胁感减弱，部分行为依赖“降智”或巧合来推动剧情。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "斯通夫人：这可不是你寻找的证据，这是我放进去的伪造草稿。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-2",
+        "contrast_quote": "托伊内特·里夫：天衣无缝。"
+      },
+      "reason": "R01指出斯通夫人后期因“未锁抽屉”、“时间窗口计算错误”等低级失误被主角反杀，削弱了高智商反派的压迫感。R02和R03未将此列为主要问题，甚至R02认为其塑造良好。但依据剧本，第44集主角潜入时门锁“没有任何阻力地弹开”，以及第29集露丝轻易进入未锁抽屉，确实存在反派降智或设定漏洞。符合B级“动机或威胁功能可识别，但支撑较薄...与主角的对照、升级过程或关键压迫场面不足”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E005"
+      ],
+      "status": "rejected",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "反派斯通夫人动机明确，手段具有压迫感，与主角形成有效的价值对照。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-2",
+        "quote": "斯通夫人OS：恐惧是枷锁，怨恨才是钥匙。露丝以为她在掌控局势，其实她只是一只被上了发条的木偶。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02将此列为亮点。然而，根据“反派塑造”检查项，该类别下仅定义了问题等级（A/B），未定义亮点等级。且R01已指出其后期降智问题（A05）。若强行作为亮点，需证明其“显著高于同题材常规完成度”。鉴于其后期逻辑漏洞，将其列为亮点缺乏充分证据，且与A05的问题项存在冲突。根据规则，同一检查项在问题、基线、亮点中选一种。由于存在明确的B级问题（降智/威胁减弱），不应同时确认为亮点。故拒绝该亮点项，保留问题项A05。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "托伊内特与露丝的关系存在多重张力（价值观冲突、情感依赖、共同目标），有效支撑主线。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "露丝·戈登：那我就陪你在垃圾堆里坐一上午。",
+        "contrast_episode": "第5集",
+        "contrast_scene": "5-1",
+        "contrast_quote": "露丝·戈登：你活得真累啊，托伊内特。"
+      },
+      "reason": "三位评审均确认该关系张力。两人关系同时存在“理性vs冲动”、“控制vs自由”、“利用vs信任”等张力来源，移除该关系会使主线情感逻辑明显坍塌。符合A级“核心关系存在至少两类明确张力来源，能够稳定支撑主线或重要副线”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点与关键里程碑，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "露丝·戈登（在侧后方大喊，声音因用力而嘶哑）：托伊内特！快把那两个孩子弄出来！通风井要塌了！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出托伊内特与露丝/海伦的关系经历了多个里程碑（敌对、试探、生死同盟等），关系变化直接推动了主角的行动与成长。符合A级“核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E007",
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇高效建立核心人物与戏剧问题，信息组织流畅，形成强阅读动机。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "托伊内特·里夫：如果环境是随机的，那我就记录每一个随机变量。只要样本足够大，混沌也会显现出秩序。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均确认开篇吸引力。第1集通过“无规则学校”与“数据强迫症”的冲突，快速确立主角性格、核心矛盾及后续期待，场景经济且功能明确。符合A级“人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "issue",
+      "category": "风险与代价不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主角在中期反抗行动中的风险与代价呈现不足，部分选择缺乏相称的后果。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-3",
+        "quote": "托伊内特·里夫：她看到了我。这不是入侵。",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-1",
+        "contrast_quote": "斯通夫人：我要让她明白，真正的惩罚不需要保安。"
+      },
+      "reason": "R01指出托伊内特多次做出高风险选择（如潜入办公室），但往往未受到实质性惩罚或仅受到轻微挫折（如舆论压力而非直接物理/制度性重创），导致冲突的重要性被削弱。符合B级“风险可推断，但文本缺少明确呈现或情感落点”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008",
+        "quality-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "部分核心悬念（如父亲的真实意图、海伦的背叛）兑现偏弱或依赖巧合，未产生相称的局面变化；且第47集与第50集集间承接断裂，重复处理同一冲突。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "雷夫先生VO：之前的“职业干预协议”即刻取消。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-1",
+        "contrast_quote": "海伦·伯吉斯：托伊内特！"
+      },
+      "reason": "R01指出父亲雷夫先生的“审计”与“切断资金”威胁在后期被轻描淡写地解决（第59集），缺乏对主角命运的实质性冲击；海伦的“背叛”在后期未得到充分回收。R02指出第47集与第50集集间承接断裂，重复处理“露丝激将”冲突，上一集的紧张与选择未获得相称推进。两者均指向连续叙事动力的削弱和兑现的不足。符合A级“多处兑现偏弱、偏迟或只回答表层问题，没有产生相称的新信息、关系或局面变化”以及“多处承接延迟、转向或降格”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009",
+        "quality-R02-E010",
+        "quality-R03-E011"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中后段大量桥段重复，仅替换场景与台词，缺乏新的因果或情绪增量。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "露丝·戈登：像奴隶那样活着，还是像个人那样呼吸。",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-1",
+        "contrast_quote": "露丝·戈登：生存？为了你那点可怜的父亲的资金？"
+      },
+      "reason": "三位评审均指出中后段（特别是第47集与第50集）存在“露丝/海伦指责托伊内特冷漠-托伊内特辩解-托伊内特觉醒”的桥段复用。R01、R02评为A级（行为等级2），R03评为B级（行为等级3，针对第4集重复）。综合来看，第47集与第50集的重复更为严重，且涉及核心冲突的停滞，符合A级“持续套用桥段，只替换人物、地点或表层目标，推进和结果功能高度同质”的标准。行为等级定为2。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010",
+        "quality-R02-E012",
+        "quality-R03-E012"
+      ],
+      "status": "confirmed",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "第45-50集存在明显停滞，大量集数用于重复的人物心理独白和无效对话，主线推进缓慢。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-2",
+        "quote": "托伊内特·里夫：多么完美的闭环。他用钱买断我的痛苦，用分数量化我的尊严。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-2",
+        "contrast_quote": "托伊内特·里夫：您是在用您的理想去撞一堵现实的墙。"
+      },
+      "reason": "三位评审均指出第45-50集（或47-50集）存在停滞。R01、R02评为A级（行为等级2），R03评为B级（行为等级3，针对47-50集局部）。考虑到该阶段主线（对抗斯通）进展有限，大量篇幅用于处理副线（父亲、海伦）的重复冲突，且第47集与第50集几乎完全重复，符合A级“存在持续停滞或重复解释，明显推迟阶段目标和主线结果”的标准。行为等级定为2。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词信息密度异常",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分场景台词信息密度过低，存在大量无效重复与情绪自我解释。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "托伊内特·里夫：我受不了……我真的受不了这种不确定性。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "托伊内特·里夫：我的模型崩断了。"
+      },
+      "reason": "R01指出中后段多处对话反复强调“生存”、“冷漠”、“计算”等概念，缺乏新的信息增量，台词主要服务于情绪渲染而非剧情推进。符合B级“局部信息过低或过高，影响部分场景节奏”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E012"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键场景（如火灾、听证会）具有明确的视觉设计意识，形成可记忆画面。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "托伊内特·里夫：那就让疯子来领路吧！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出第54集火灾场景中“托伊内特背着学生冲过燃烧的门梁，身影在火光映照下如同一尊雕塑”以及第55集“成绩单与扳手并排放在讲台”等描写，具有强烈的视觉冲击力和象征意义。符合A级“有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A016",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E013"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "issue",
+      "category": "设定与剧情脱节",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "“阳光银行”的“无规则/共识”设定在后期与剧情发展存在脱节，部分情节依赖传统规则逻辑。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "校董会主席：鉴于斯通夫人严重违反职业道德，并涉嫌制造安全隐患与社区分裂，校董会一致决定，当场与斯通夫人终止合同。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出剧本前期强调“无规则”，但后期解决冲突（如听证会、校董会决策）仍依赖传统的证据、法律与权力逻辑，设定对剧情的驱动力减弱。符合B级“设定在部分情节中有推动作用，但整体效率偏低；或少量说明外露，大量情节无需该设定也能成立”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A017",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "issue",
+      "category": "核心矛盾清晰度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "中后段核心矛盾（揭露斯通）建立迂回，信息效率低。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "斯通夫人：看到了吗？阳光银行所谓的自由，不过是金钱铺就的游乐场。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出第46-52集反复处理“父亲施压”与“露丝激将”，导致核心矛盾（如何揭露斯通）的推进受阻，关键要素（火灾计划）出现较晚。符合B级“核心矛盾基本明确，但建立迂回、信息效率低或关键要素出现较晚”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A018",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E011"
+      ],
+      "status": "confirmed",
+      "unit": "plot_emotion",
+      "kind": "issue",
+      "category": "中后段节奏",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中后段存在明显平淡段，情绪积累断裂。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "海伦·伯吉斯：闭嘴，里夫。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出第46-52集重复处理同一冲突，导致高潮（火灾）前的蓄力不足，情绪曲线出现明显衰减。符合A级（行为等级2）“存在明显平淡段、前高后低或高潮失力，需要重排多个阶段才能修复”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A019",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E013"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个重要场景存在明显剧情复述与情绪自我解释，破坏真实感。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "托伊内特·里夫OS：系统正在重构。恐惧在消退，而兴奋的阈值在上升。这不再是为了防御，这是为了狩猎。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出主角在关键节点频繁使用OS或台词直接概括内心状态与主题，如“系统正在重构”、“信任不是计算出来的”，替代了可见动作与互动。符合A级“多个重要场景有明显剧情复述、情绪自我解释、背景硬塞或抽象结论，显著破坏真实感与张力”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A020",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E014"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部台词存在过度打磨痕迹，读感接近书面警句串联。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-3",
+        "quote": "托伊内特·里夫：如果没有规则，活着只是一场灾难。露丝·戈登：如果没有冲动，活着才是一场灾难。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出部分重场戏中，角色对话工整对仗，缺少口语颗粒，如“如果没有规则...”与“如果没有冲动...”。符合B级“局部出现过度打磨痕迹，不影响整体”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A021",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E015"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "心理活动或内心独白过多",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处以不可拍心理活动替代可见动作，影响分镜落地。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-2",
+        "quote": "托伊内特OS：任何硬件故障都代表着不可控的变数。如果备用电源失效，监控中心可能离线，或者……触发警报。我不能赌。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出主角频繁使用OS描述内心计算、恐惧或决策过程，如“心率一百二”、“概率模型失效”，缺乏对应的身体动作或表情状态描写。符合A级“多处以非 OS/VO 的“心想、意识到、内心崩溃”等不可拍信息替代可见动作，明显影响分镜落地”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A022",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E016"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，与剧情高潮精准绑定，信息量可吸收。",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-1",
+        "quote": "普雷斯顿小姐：这是阳光银行的“匿名信箱阵列”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出“无规则学校”、“量化情感”、“夜影者”等设定分阶段释放，每个新设定都在观众需要知道的时刻出现，并与关键行动（如潜入、听证）绑定。符合A级“设定释放有层次，整体节奏良好，没有明显信息过载”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A023",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角功能明确且不可替代，露丝、海伦、普雷斯顿分别承担了“冲动/自由”、“生存/妥协”、“理想/引导”的功能，与主角形成有效对冲。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "露丝·戈登（咧嘴一笑）：去化学实验室，把斯通夫人讲台上的粉笔盒换成这个。让她在严肃的授课中呛个半死。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出配角功能明确，露丝、海伦、普雷斯顿分别承担不同功能，与主角形成有效对冲。符合A级“主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A024",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成了多类稳定的后续期待。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-2",
+        "quote": "露丝·戈登（站在远处，冷漠地旁观）：大家快来看啊，我们的“模范生”为了摆脱责任，不惜制造麻烦。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出主角的目标与阻力高度清楚，风险明确，且通过“粉笔灰事件”、“听证会”等节点持续兑现，形成了情感与悬疑的双重期待。符合A级“核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A025",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "斯通夫人（声音平静得令人毛骨悚然）：抓到了。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出集末问题（如第7集的监控室、第18集的传感器报警、第29集的陷阱）均能有效驱动下一集叙事。兑现（如第8集的信箱真相、第34集的录音证据、第55集的火灾真相）带来了新的因果、关系和情绪增量。符合A级“多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积”的标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 41,
+  "covered_count": 41
+}

@@ -1,0 +1,284 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角伯莎的人物弧光完整且深刻，从贵族小姐到革命领袖再到殉道者，其内在信念的转变（从理想主义到冷酷理性再到精神升华）有充分的事件驱动和代价支撑。配角诺米诺埃与伯莎的关系张力极强，从仇恨到爱恋再到决裂，情感逻辑严密。反派伯爵的压迫感与最终的精神崩塌也塑造得较为立体。主要问题在于部分配角（如戈弗雷、拉罗克）的功能性较强，个人弧光略弱，且中后段部分情节（如间谍陷害、法庭辩论）略显套路化，但整体人物质量显著高于常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如逃亡、谈判、战斗）大多承担不同功能，通过新变量（如从物理逃亡到心理博弈，从军事战斗到政治审判）形成有效变奏。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-2",
+        "quote": "伯莎（不退反进，直视拉罗克，声音平静得令人心悸）：我在救您。三天后，伯爵的税吏会带着军队到达码头。如果您那时手里只有空荡的仓库，您不仅是叛徒，更是弃子。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手代表不同资源与压力类型：伯爵代表制度暴力，拉罗克代表利益交换，戈弗雷代表内部激进派，神父代表宗教道德绑架，迫使主角采用不同策略。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "神父（厉声，声音在空旷的广场回荡）：说！为何要将神圣的食物，施舍给魔鬼的爪牙？"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从集市识破间谍到沼泽伏击，再到法庭审判，层层递进。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "伯莎（声音极冷）：停下所有动作。后退十步。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过宴会厅的暴力场景迅速确立伯爵的残暴和伯莎的处境，叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伯爵猛地伸手按住农民的头顶，将其强行按入旁边的红色葡萄酒杯中。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从军事斗争转向政治与思想斗争，高潮（断头台）充分回收前文情感。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "民众合唱（渐强）：潮水退去，骨头归于泥土……灵魂归于大海……但誓言不被遗忘……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。蒂娜之死、诺米诺埃之死、伯莎之死构成情感三部曲，强度逐级增强。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "蒂娜（嘴唇翕动，无声地吐出两个字）：对……不……起……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。悬念从生存、爱情、政治阴谋到最终的思想胜利，相互咬合。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "伯莎（念出解码后的词句，声音干涩）：“药已调包”……“午夜钟声”……“守夜僧侣改换为黑衣死士”。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡紧凑，中期战争与政治斗争密集，后期审判与结局庄重。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "伯莎（嘴唇微动，无声）：权力……源于暴力。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数，每集均有情节推进或人物关系变化。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "伯莎写下：“土地归耕者所有”。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。如蒂娜线、母亲密信线、拉罗克线均有效整合进主线。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "伯莎（指着信纸上的一处标记）：去年母亲死于那场所谓的“高热”，根本不是病。伯爵伪造了医疗记录……"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从逃亡到起义，从军事胜利到政治失败再到思想胜利，主线清晰。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "伯莎（声音渐强，字字铿锵）：若法律仅保护剥削，若秩序仅服务于掠夺，那么它是否还配称为法？还是说，它只是强者手中的鞭子，弱者脚下的枷锁？"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伯莎的人物弧光完整且深刻，起点缺陷（贵族特权、天真理想）、关键转折（蒂娜之死、诺米诺埃决裂、母亲密信）和终点变化（冷酷理性、精神殉道）均有强证据支撑，每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "reason": "符合S级亮点定义：起点缺陷或信念、至少两个关键转折和终点变化均有证据；每次变化都由强驱动事件逼出主动选择并产生不可逆后果，显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "伯莎看着这一幕，嘴角勾起一抹极淡的微笑。她放下手，护身符与腰带残片被她重新收回怀中。她整了整凌乱的衣领，神情庄重如新娘。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伯莎手中的水晶酒杯微微颤抖。她放下酒杯，试图用淑女礼仪掩饰厌恶，轻声说道。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伯莎的内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "reason": "符合S级亮点定义：内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "伯莎没有任何犹豫。她猛地转身，左手如铁钳般掐住仆人的脖子，右手迅速抽出他的烛台。在仆人倒地挣扎的瞬间，伯莎用膝盖顶住他的后背，死死勒住他的颈动脉。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "伯莎猛地抬头，眼中的疲惫被痛苦和愤怒取代。她指着账本，声音嘶哑。伯莎：虚伪？为了拿到这个，我杀了那个为我开门的仆人。你管这叫天真？诺米诺埃，如果我不这么做，你我都会死在伯爵的封锁线里，像老鼠一样！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（伯莎与诺米诺埃）同时存在至少三类相互咬合的张力来源：身份立场（贵族与农奴）、目标利益（理想主义与复仇主义）、情感依赖（爱与恨）、秘密误会（间谍陷害）和价值冲突（秩序与自由）；移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "符合S级亮点定义：核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "诺米诺埃的嘴唇微微翕动。他的喉结滚动了一下，眼神中闪过剧烈的挣扎，但那挣扎迅速被一种更深沉的、近乎绝望的冰冷所掩盖。他看到了周围那些随时可能触发枪支的手指，看到了萨隆绝望的眼神，想到了昨夜那封可能招致灭族之灾的信。",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-2",
+        "contrast_quote": "诺米诺埃低下头，额头抵住伯莎的额头，声音沙哑得如同砂纸磨过岩石。诺米诺埃：我看到了。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑（蒂娜之死、间谍陷害）和明确回收（诺米诺埃之死、伯莎的殉道），关系推进本身构成连续叙事动力。",
+      "reason": "符合S级亮点定义：核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-2",
+        "quote": "诺米诺埃（气若游丝，声音破碎）：活下去……伯莎。",
+        "contrast_episode": "第16集",
+        "contrast_scene": "16-2",
+        "contrast_quote": "诺米诺埃：清理战场。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。萨隆作为精神导师、戈弗雷作为内部激进派代表、拉罗克作为利益交换者，各有不可替代的专属功能。",
+      "reason": "符合A级亮点定义：主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "诺米诺埃（声音低沉，带着压抑的杀意）：他是起义军的父亲。",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "戈弗雷（高举斧头，声音嘶哑）：为了布列塔尼的纯净！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分配角（如拉罗克男爵、老管家）主要围绕帮助、伤害主角或解释信息运转，个人目标、mini 弧光或独立情感价值不足。",
+      "reason": "符合B级问题定义：角色能局部推动剧情，但主要围绕帮助、伤害主角或解释信息运转，个人目标、mini 弧光或独立情感价值不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "老管家（瞳孔放大，绝望地推拒）：不……不……若让老爷知道……我会死。被剥皮……生剖……",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-1",
+        "contrast_quote": "老管家：大人，小人也是出于忠诚……若是纵容这等间谍，拉罗克府的面子……"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主角伯莎的性格基本清晰且部分场景可辨，但专属语言、标志行为或独特决策方式在中后段（如法庭辩论、囚车刻字）略显通用，缺乏更鲜明的个人语言习惯。",
+      "reason": "符合B级问题定义：性格基本清晰且部分场景可辨，但专属语言、标志行为或独特决策方式不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "伯莎（打断，语速平缓却有力）：如果法律仅服务于剥削，它便不再是正义，而是暴力的遮羞布。你所谓的秩序，建立在比你们更强大的暴力恐惧之上。",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-1",
+        "contrast_quote": "伯莎：拉丁文，伯爵，您教过我，这是神与王的语言，用来掩盖人性中无法言说的肮脏。这句“恩典”，在法理上意味着“无需理由的宽恕权”，而在执行上，它意味着君主可以随意剥夺生命而不受任何程序约束。"
+      }
+    }
+  ]
+}

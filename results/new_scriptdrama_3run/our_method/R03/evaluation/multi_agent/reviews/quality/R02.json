@@ -1,0 +1,372 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R02",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角顾长风与沈晚晴的人物弧光完整，从利益捆绑到生死相托，内在信念的转变有充分的事件驱动（如矿洞救援、身份揭露）。配角与反派（赵氏、赵国公、李傲）功能明确，反派动机与威胁感建立扎实。人物关系张力丰富，情感绑定通过具体行动（如沈晚晴挡刀、顾长风护妻）得到有力证明。情节规划方面，桥段递进清晰，情绪节奏张弛有度，主线推进与阶段兑现紧密咬合，副线（如沈晚晴身世、赵氏阴谋）有效反哺主线。分集剧本台词风格化明显，视觉化描写具备较强的可拍摄性，整体质量处于较高水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如智斗、危机）大多承担不同功能，通过新变量（如从市集到战场，从朝堂到矿洞）形成有效变奏。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "沈晚晴：死结不解——江山不固！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（恶邻、马贼、赵氏、赵国公、敌军）代表不同资源与压力类型，迫使主角采用不同策略（示弱、武力、智谋、政治博弈）。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "敌军大使：既然你既不可信，这三千火器，便由我“代为”保管吧！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果，如从进城到夺权再到边境决战。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "顾长风：边关苦寒，百姓流离，臣不愿享清福，只求治理一方！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物（中毒将军、精算女子）、情境（风雪、市集）和核心问题（生存、进京），叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "顾长风：呃……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段依靠阶段目标（夺权、查案）和小高潮（招标会、接风宴）推进，后段完成充分升级（边境决战）与收束（新城建立）。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "顾长风：赵怀义通敌叛国，罪证确凿。交予朝廷，听凭发落。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷（如沈晚晴身份揭露、矿洞生死）有铺垫，高潮兑现主要情绪承诺（信任、牺牲）。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "沈晚晴（气若游丝）：你……终于醒了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定，类型有变化（生存、复仇、身世、政治），并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "卖唱老者：（气声，极低）真相在血中……"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段（如边境决战）有意识地增加密度，铺垫阶段（如新城建设）适当舒缓。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "白叔：（厉声）排好！下一个！咳嗽的站左边，发热的站右边，插队的打断腿！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，无明显注水。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "沈晚晴（看着火光，淡淡道）：从今往后，世间无皇室，只有沈晚晴。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（沈晚晴身世、赵氏阴谋）稳定补充人物、信息、冲突，并在关键节点（矿洞决战）反哺主线。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-2",
+        "quote": "沈晚晴：前朝皇室信物。我是前朝余孽，嫁给你，起初是为了那笔赏金和活路。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点（夺权、查案、决战）有效兑现。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-2",
+        "quote": "皇帝：擢升顾长风为边境新城总督，军政财三权全归总督府，概不干预京畿政务。准其自治！"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R02-E001",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "顾长风从屈辱求生到主动承担，内在信念转变有事件驱动。",
+      "reason": "起点缺陷（中毒、负债）明确，关键转折（矿洞救援、身份揭露）有铺垫，终点变化（新城总督）可识别。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "顾长风：边关苦寒，百姓流离，臣不愿享清福，只求治理一方！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E002",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "沈晚晴内在矛盾（复仇与守护）通过两难选择被戏剧化。",
+      "reason": "明确内在矛盾（前朝余孽身份与守护顾长风），存在有效两难（矿洞挡刀、身份揭露），脆弱呈现（旧伤发作）和犯错承担后果（隐瞒身份导致信任危机）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "沈晚晴（气若游丝）：你……终于醒了。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E003",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角功能明确，反派威胁稳定，群像分配合理。",
+      "reason": "主角配置清晰，重要角色（白叔、阿四、铁蛋）功能明确并推动主线；反派（赵氏、赵国公）威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "阿四：大哥！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E004",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系存在至少两类明确张力来源，能够稳定支撑主线。",
+      "reason": "顾长风与沈晚晴的关系存在身份立场（前朝余孽与当朝将军）、目标利益（复仇与守护）、情感依赖（生死相托）等多类张力来源。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-2",
+        "quote": "沈晚晴：前朝皇室信物。我是前朝余孽，嫁给你，起初是为了那笔赏金和活路。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E005",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。",
+      "reason": "关系从利益捆绑（第1集）到生死相托（第53集），有清晰起点、关键里程碑（矿洞救援）和阶段变化（身份揭露后的信任重建）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "顾长风（眼眶通红，声音颤抖）：晚晴……别说话，我带你回家。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E006",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "reason": "开篇通过风雪、市集等场景高效建立人物（中毒将军、精算女子）和核心问题（生存、进京），信息组织流畅。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "顾长风：呃……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E007",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "核心矛盾（生存、复仇）明确，阻力（赵氏、赵国公）有效，风险（中毒、政治迫害）可感知，形成生存与复仇两类稳定期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "沈晚晴：他是从死人堆里爬出来的将军。如果他活着，我就将军夫人。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E008",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "集末问题（如中毒、身份揭露）清楚，承接自然，主要悬念（赵氏阴谋、沈晚晴身世）有效兑现，情感投入持续累积。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "卖唱老者：（气声，极低）真相在血中……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E009",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "reason": "顾长风台词沉稳、带有军事术语；沈晚晴台词冷冽、带有算计感；阿四台词市井、带有幽默感；铁蛋台词直白、带有孩子气。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "沈晚晴：（冷笑）钱？我们缺钱吗？我们缺的是力气。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E010",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "场景与动作描写质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "描写清晰、画面感强，关键动作和情绪状态可由导演与演员直接执行。",
+      "reason": "场景描写（如矿洞、新城）清晰，动作描写（如滑索、挡刀）精准可执行，情绪状态（如中毒、愤怒）表现力强。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-1",
+        "quote": "沈晚晴（惊呼）：断了！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E011",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "设定（如蚀骨散、前朝皇室、黑石矿洞）分阶段释放，每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "白叔：（猛地抬头，眼神惊骇）将军娘亲当年不是病死，是被人慢性毒杀！而将军体内的‘蚀骨散’，底料竟与当年的毒药同源！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_37724/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 81.21,
+      "ledger_subdimension_mean": 82.43,
+      "holistic_subdimension_mean": 80.0,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 85.0,
+          "holistic_score": 80.0,
+          "fused_score": 82.5
+        },
+        "character_state": {
+          "ledger_score": 78.0,
+          "holistic_score": 84.0,
+          "fused_score": 81.0
+        },
+        "knowledge_state": {
+          "ledger_score": 86.0,
+          "holistic_score": 86.0,
+          "fused_score": 86.0
+        },
+        "resource_state": {
+          "ledger_score": 90.0,
+          "holistic_score": 80.0,
+          "fused_score": 85.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 80.0,
+          "holistic_score": 80.0,
+          "fused_score": 80.0
+        },
+        "foreshadowing": {
+          "ledger_score": 90.0,
+          "holistic_score": 80.0,
+          "fused_score": 85.0
+        },
+        "repetition": {
+          "ledger_score": 68.0,
+          "holistic_score": 70.0,
+          "fused_score": 69.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "repetition": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 76.8,
+      "ledger_subdimension_mean": 79.2,
+      "holistic_subdimension_mean": 74.4,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 62.0,
+          "holistic_score": 74.0,
+          "fused_score": 68.0
+        },
+        "hooks": {
+          "ledger_score": 90.0,
+          "holistic_score": 76.0,
+          "fused_score": 83.0
+        },
+        "plot": {
+          "ledger_score": 78.0,
+          "holistic_score": 68.0,
+          "fused_score": 73.0
+        },
+        "episode": {
+          "ledger_score": 80.0,
+          "holistic_score": 72.0,
+          "fused_score": 76.0
+        },
+        "setting": {
+          "ledger_score": 86.0,
+          "holistic_score": 82.0,
+          "fused_score": 84.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_scenes": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_dialogue": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "setting": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 2,
+      "minimum": 2,
+      "maximum": 2,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "剧本中后期大量重复“埃德蒙通过气味/声音识破谎言->心理施压->配角崩溃/屈服”的桥段。例如第21-24集对汉斯的反复施压，第33-35集对伯爵的反复谈判，第43-46集对奥古斯汀的反复审讯。这些场景在起因、过程和结果上高度同质，仅替换了对象和具体秘密内容，缺乏新的变量或关系升级，属于持续套用桥段。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-1",
+            "quote": "埃德蒙：我在闻你。你的袖口有一股令人作呕的红泥味，那是你祖产边界的泥土。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "剧本中大量场景重复使用“埃德蒙通过感官（气味/声音）识破谎言/阴谋”的桥段，且解决方式高度同质（通过心理施压或信息差操控），缺乏新的变量或升级。例如第8集管家、第21-24集汉斯、第36-38集法庭、第43-46集奥古斯汀，均为“埃德蒙指出对方破绽-对方崩溃-埃德蒙提出交易/威胁-对方屈服”的循环。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-1",
+            "quote": "埃德蒙：我在闻你。你的袖口有一股令人作呕的红泥味，那是你祖产边界的泥土。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "剧本大量重复使用“埃德蒙通过气味/声音识破谎言并施加心理压迫”的桥段。从管家、汉斯、奥古斯汀到外交官，场景结构高度同质：对方紧张/撒谎 -> 埃德蒙指出细节（红泥、心跳、气味） -> 对方崩溃/屈服。这种模式在第8、9、21、22、23、24、36、37、38、39、40、43、44、45、46集反复出现，缺乏新的变量或功能升级，导致叙事疲劳。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-1",
+            "quote": "埃德蒙：我在闻你。你的袖口有一股令人作呕的红泥味，那是你祖产边界的泥土。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 2.67,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主要对手冯·克莱斯特（宰相）、奥古斯汀（神甫）、伯爵（盟友/对手）在功能上有所区分：宰相是最终BOSS，神甫是内部威胁/棋子，伯爵是资源提供者。但阻力升级主要依赖主角的“能力展示”而非对手策略的多样化。对手往往在主角的感官能力面前迅速失效，缺乏有效的反制手段，导致阻力差异化停留在身份层面，手段同质化（均被主角算计）。",
+          "evidence": {
+            "episode": "第32集",
+            "scene": "32-1",
+            "quote": "冯·克莱斯特：你获得了权柄？你只获得了我的疑心。你以为我在乎教会的死敌，我在乎的是我的情报源在哪里。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主要对手（奥古斯汀、冯·克莱斯特、汉斯、伯爵）在功能上有所区分（宗教/政治/贵族/情报），但压迫方式均依赖于“恐惧”和“把柄”，缺乏手段和立场上的显著差异化，导致阻力感趋同。",
+          "evidence": {
+            "episode": "第32集",
+            "scene": "32-1",
+            "quote": "冯·克莱斯特：你获得了权柄？你只获得了我的疑心。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "主要对手（奥古斯汀、冯·克莱斯特、汉斯、管家）在功能上高度重叠，均作为“恐惧的载体”和“被操控的对象”存在。他们的反抗或威胁大多停留在口头或被动反应，缺乏独立的有效行动来改变主角的处境。奥古斯汀作为主要反派，其威胁性主要依赖“阴谋”而非“能力”，且多次被主角轻易化解，缺乏差异化压迫。",
+          "evidence": {
+            "episode": "第32集",
+            "scene": "32-1",
+            "quote": "冯·克莱斯特：你获得了权柄？你只获得了我的疑心。你以为我在乎教会的死敌，我在乎的是我的情报源在哪里。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 2.67,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "大量场景缺乏递进，尤其是中后段的密室谈判和审讯场景。例如第21-24集，汉斯从被威胁到签字，中间穿插了多场几乎相同的对话，没有实质性的局面变化或新信息增量，删除其中几场对主线影响不大。场景之间缺少升级，阶段推进停滞。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "汉斯：清醒？我现在觉得自己像个在死人堆里跳舞的疯子！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "场景大多完成了基本的信息传递或冲突升级任务，但部分场景（如多次的寝室对话）在情绪和关系状态上缺乏显著增量，存在重复解释已知信息的情况。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "汉斯：清醒？我现在觉得自己像个在死人堆里跳舞的疯子！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "场景在局部完成了信息传递和人物关系（胁迫）的推进，但递进感主要依赖“阴谋的升级”而非“人物选择的深化”。许多场景（如多次审讯/对峙）在情绪和结果上趋于停滞，删除部分重复的对峙场景对主线影响不大。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "汉斯：石头？你让我变成石头？这是慢性自杀！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "开篇高效建立了人物（盲人国王）、情境（被囚禁/羞辱）和核心问题（复仇/生存）。第1集通过埃德蒙的感官能力展示，迅速确立了主角的独特性和戏剧张力，叙事方向清晰，能够形成阅读动机。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "埃德蒙：右边第三个人，你袖口夹着怀表，别擦了。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "开篇迅速建立了“盲人国王被囚禁”的异常情境，并通过埃德蒙的感官能力展示了核心冲突（与冯·克莱斯特的对抗），叙事方向清晰，建立了较强的阅读期待。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "埃德蒙：右边第三个人，你袖口夹着怀表，别擦了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "开篇迅速建立了“盲人国王被囚禁”的异常情境，并通过埃德蒙的“全知”能力展示了核心冲突（隐忍与复仇），人物目标（复仇/生存）和核心问题（如何在囚禁中反击）建立清晰，叙事方向明确。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "埃德蒙：石缝里的苔藓受潮了，像极了战壕的味道。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "中后段（约第20集后）存在明显的平淡段和重复段。大量篇幅用于埃德蒙与不同配角的心理博弈，缺乏新目标或有效的情绪积累。高潮（第60集）前的铺垫过于依赖重复的“威胁-屈服”模式，导致观众疲劳，高潮的爆发力因前期缺乏足够的变量积累而显得突兀。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "埃德蒙：我要改变这份罪行的定义。从“现在进行时”的贪污，变成“过去完成时”的历史误判。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "中段依靠不断的“识破-操控”小高潮推进，但情绪曲线较为单一，长期维持在“冷酷-恐惧”的基调，缺乏情感起伏和蓄力，导致后期高潮（第60集）的情感爆发略显突兀。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "埃德蒙：哒。哒。哒。这是第一声尖叫。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "中后段（约20集后）陷入“心理战”的重复循环，缺乏新的外部阻力或情感爆发点。主角的“冷酷”和“操控”成为唯一的情绪驱动，导致情绪曲线单调，缺乏张弛有度的节奏变化，高潮（如第60集）缺乏足够的情感铺垫，显得突兀。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "埃德蒙：哒。哒。哒。这是第一声尖叫。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 2.67,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "目标情绪（惊悚、压抑、复仇快感）基本贯穿，但曲线较为单调。长期维持高压状态，缺乏低谷蓄力或情绪回落，导致关键高潮（如第60集士兵倒戈）的情绪冲击力被前期的重复高压所稀释。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-1",
+            "quote": "艾德里安：真相？那是三十条人命！为了一个卑鄙的档案官，我们扔掉了三十条命！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "目标情绪（权谋的快感、复仇的冷酷）基本贯穿，但缺乏铺垫和变化，关键高潮（如牺牲汉斯）未能产生预期的情感冲击，反而因主角的过度冷静而削弱了情绪张力。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-2",
+            "quote": "埃德蒙：三十换一，这笔账，你算不过来？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "目标情绪（复仇的快感/压抑的释放）长期缺失，被“冷酷的计算”所取代。关键高潮（如牺牲汉斯、操控奥古斯汀）未能产生预期的情感共鸣，反而因主角的过度理性而显得冷漠，情绪积累不足，导致高潮兑现力弱。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-2",
+            "quote": "埃德蒙：三十换一，这笔账，你算不过来？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "大部分集末有继续阅读动机（如埃德蒙的下一步计划、配角的反应），但类型有限，主要依赖“埃德蒙如何再次利用感官/心理战取胜”这一单一悬念。缺乏新阻力、选择或关系变量的引入，期待链较为单一。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-1",
+            "quote": "埃德蒙：自负是盲人的眼睛。只要给他一副金边眼镜，他就会笑着走进绞刑架。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "集末通常留有悬念（如新的阴谋、新的把柄），期待分布稳定，能够驱动读者继续阅读，但期待类型较为单一，主要依赖“埃德蒙如何再次反杀”。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-2",
+            "quote": "埃德蒙：来吧，刻刀在我手上。您怕的不是我刻错字，而是我刻得太深了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "大部分集末有明确的悬念（如阴谋是否得逞、主角是否暴露），但类型单一（多为“主角是否会被发现”或“下一个受害者是谁”），缺乏情感或关系层面的期待变化，驱动力主要依赖信息差。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-1",
+            "quote": "埃德蒙：自负是盲人的眼睛。只要给他一副金边眼镜，他就会笑着走进绞刑架。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 2.67,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "存在明确的方向性失衡。前10集信息密度较高，人物关系建立较快；中后段（20-50集）情节量拥挤，大量重复的心理博弈场景导致信息密度虚高但有效信息低。中段塌陷，缺乏新的主线推进。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "埃德蒙：这不是控制，这是共生。没有我的名义，这契约就是废纸；没有你的产业，我就是废人。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "情节量分布基本均衡，但部分集数（如第9集、第23集）信息密度偏低，主要依靠对话和心理描写推进，缺乏实质性的情节进展。",
+          "evidence": {
+            "episode": "第9集",
+            "scene": "9-1",
+            "quote": "埃德蒙：享受它，直到你爱上它。它比忠诚更长久。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "情节量分布基本均衡，但信息密度在中后段因重复的心理战场景而显得冗余。部分集数（如21-24集）情节推进缓慢，主要依赖对话和心理描写，缺乏实质性的外部事件推动。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "汉斯：我什么都知道了。你那张名单，全是陷阱。我根本就是个死人。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "存在持续停滞或重复解释。例如第21-24集，汉斯与埃德蒙的对话反复围绕“红泥”、“信托书”、“恐惧”展开，没有实质性的剧情推进，明显推迟了主线结果。第33-35集对伯爵的谈判同样存在大量可压缩的重复对话。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "汉斯：我什么都知道了。你那张名单，全是陷阱。我根本就是个死人。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主线总体推进，但局部存在重复的“心理战”场景，如多次对管家、汉斯、奥古斯汀的类似审讯/操控，存在可压缩的重复内容。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "汉斯：我什么都知道了。你那张名单，全是陷阱。我根本就是个死人。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "存在明显的停滞段，特别是20-30集之间，主角与不同配角的对峙场景高度重复，缺乏新的目标或阻力，导致主线推进缓慢。许多场景（如多次审讯管家、汉斯）可以压缩或删除而不影响主线逻辑。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-1",
+            "quote": "汉斯：这伞是用我的名声织成的！一旦签字，我就不再是帝国贵族，而是你的家奴。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 3,
+      "minimum": 3,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "副线（如艾德里安的内心挣扎、伯爵的背叛/忠诚）基本有功能，但部分内容可替换或与主线连接较松。艾德里安的崩溃与恢复主要服务于埃德蒙的“冷酷”人设，缺乏独立的副线价值。",
+          "evidence": {
+            "episode": "第49集",
+            "scene": "49-1",
+            "quote": "艾德里安：那是我的兄弟！不是数字！他们的血还温着呢！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "副线（如艾德里安的愤怒、伯爵的背叛）基本服务于主线，但整合度一般，部分副线（如艾德里安的心理崩溃）未能有效反哺主线，反而显得游离。",
+          "evidence": {
+            "episode": "第49集",
+            "scene": "49-1",
+            "quote": "艾德里安：我要把这勋章吞下去，让它烂在肚子里，陪着他们！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "副线（如艾德里安的愤怒、奥古斯汀的阴谋）基本服务于主线（主角的复仇计划），但整合方式较为生硬，主要通过“主角利用副线人物”来实现，缺乏副线自身的独立发展和对主线的反向影响。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-1",
+            "quote": "埃德蒙：奥古斯汀是我的弃子，也是他们的毒药。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主线（埃德蒙复仇/夺权）基本清楚，阶段目标大多成立（如获取情报、控制棋子、最终广播），但升级、转折或兑现力度不稳定。许多阶段目标通过重复的心理战达成，缺乏足够的戏剧张力。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "埃德蒙VO：听见了吗？这不是审讯，这是一次灵魂的清洗。所有谎言在这节奏中都将无所遁形。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线（埃德蒙复仇/夺权）持续产生新目标和新阻力，阶段看点（如演讲、法庭、广播）有效兑现，推动了局势的变化。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-1",
+            "quote": "埃德蒙：那不是诅咒！那是历史的回声！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主线（复仇/夺权）基本清楚，阶段目标（控制管家、汉斯、奥古斯汀、广播站）大多成立，但兑现力度不稳定，部分阶段（如心理战）缺乏实质性的局面改变，更多是人物关系的单向度恶化。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "埃德蒙VO：听见了吗？这不是审讯，这是一次灵魂的清洗。"
+          }
+        }
+      ]
+    }
+  ]
+}

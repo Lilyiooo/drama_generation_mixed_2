@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_matched_direct_history_baseline_v1/R02/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 73.07,
+      "ledger_subdimension_mean": 81.86,
+      "holistic_subdimension_mean": 64.29,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 87.0,
+          "holistic_score": 70.0,
+          "fused_score": 78.5
+        },
+        "character_state": {
+          "ledger_score": 70.0,
+          "holistic_score": 60.0,
+          "fused_score": 65.0
+        },
+        "knowledge_state": {
+          "ledger_score": 90.0,
+          "holistic_score": 70.0,
+          "fused_score": 80.0
+        },
+        "resource_state": {
+          "ledger_score": 80.0,
+          "holistic_score": 60.0,
+          "fused_score": 70.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 76.0,
+          "holistic_score": 60.0,
+          "fused_score": 68.0
+        },
+        "foreshadowing": {
+          "ledger_score": 80.0,
+          "holistic_score": 70.0,
+          "fused_score": 75.0
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 60.0,
+          "fused_score": 75.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "resource_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "foreshadowing": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 76.3,
+      "ledger_subdimension_mean": 70.8,
+      "holistic_subdimension_mean": 81.8,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 65.0,
+          "holistic_score": 82.0,
+          "fused_score": 73.5
+        },
+        "hooks": {
+          "ledger_score": 75.0,
+          "holistic_score": 85.0,
+          "fused_score": 80.0
+        },
+        "plot": {
+          "ledger_score": 66.0,
+          "holistic_score": 78.0,
+          "fused_score": 72.0
+        },
+        "episode": {
+          "ledger_score": 62.0,
+          "holistic_score": 80.0,
+          "fused_score": 71.0
+        },
+        "setting": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 3,
+          "highlights": 3,
+          "total": 6
+        },
+        "character_support": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_relationship": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "plot_scenes": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "plot_emotion": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_structure": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_dialogue": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "episode_visual": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "setting": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 2,
+      "minimum": 2,
+      "maximum": 2,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "剧本中多次出现“苏半夏撒泼/滚地/抱腿”、“陆离吐血/毒发”、“骗神套话/传谣”等高度同质化的桥段。例如第1集、第9集、第10集、第11集、第33集均出现苏半夏通过撒泼、滚地或抱腿来压制对手的情节，起因、过程与结果功能高度重复，缺乏有效变奏。",
+          "evidence": {
+            "episode": "第9集",
+            "scene": "9-1",
+            "quote": "苏半夏（顺势滚地，扬起灰尘）：大家看看！这就是她伪善的面具！还我将军府！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "中后段大量重复“舆论战”与“撒泼”桥段，如第9集、第14集、第33集、第42集、第44集，均通过散布谣言、当众撒泼、利用百姓情绪来击溃对手，手段与结果高度同质，缺乏新变量。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-1",
+            "quote": "苏半夏（冷笑一声，将显字粉末的瓶子收回袖中）：既然觉得晦气，那就把吃进去的银子，原封不动地还回来。否则，明年的今日，咱们就在这儿办白事。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "剧本中多次出现“苏半夏撒泼/舆论战”与“陆离武力/解毒”的重复模式。例如第9集、第10集、第33集、第44集均使用类似的“当众揭露/撒泼”桥段，且解决方式高度同质化（靠舆论或武力压制），缺乏新的变量或升级。",
+          "evidence": {
+            "episode": "第9集",
+            "scene": "9-1",
+            "quote": "苏半夏（顺势滚地，扬起灰尘）：大家看看！这就是她伪善的面具！还我将军府！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "主要对手（继母、二叔、礼部亲戚、权贵首领、王爷、公主）在目标（夺权/敛财/陷害）和手段（造谣/告状/武力）上高度同质。反派缺乏独立的资源体系或价值立场，多为单一恶意或利益驱动，且后期明显降智，如第33集继母在众目睽睽下被显字粉暴露后毫无应对，第34集公主轻易交出证据。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-2",
+            "quote": "继母（看着自己袖口慢慢浮现出的墨迹，浑身颤抖）：这……这是什么鬼东西！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "继母、二叔、礼部亲戚、权贵首领、王爷等反派在功能上高度重叠，均表现为“贪婪、愚蠢、被主角舆论战轻易击溃”，缺乏不同层次的压迫感与差异化手段。",
+          "evidence": {
+            "episode": "第14集",
+            "scene": "14-1",
+            "quote": "礼部亲戚（冷汗直流，被人群推搡得险些摔倒）：你……你这是道德绑架！你是在拿钱收买人心！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "对手从继母（内部/道德）到债主（经济）再到王爷/天罗（政治/武力），层级有所递进，但具体压迫方式多为“威胁+武力”，差异化主要体现在身份上，手段上缺乏足够的独特性。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "公主（冷哼一声，居高临下）：陆离，交出你的兵权。否则，满朝文武谁敢保你？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 3,
+      "minimum": 3,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "大部分场景能完成基本的信息传递或冲突推进，但部分场景（如第13集集市、第14集拍卖）存在信息重复，且场景之间的因果递进有时依赖巧合（如第15集债主恰好堵门），递进感不稳定。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-1",
+            "quote": "苏半夏（头也不抬，笑得见牙不见眼）：抢银行要坐牢，这叫商业！夫君，过来帮把手，别傻愣着！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "场景基本完成叙事任务，但部分场景（如第55集、第56集）在主角失忆后陷入日常琐碎，缺乏对主线危机的有效递进，导致节奏停滞。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "陆离：这花枝长得太乱，剪了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "场景基本完成叙事任务，但部分场景（如第55集、第58集）在主线冲突未完全解决时突然转向日常或商业扩张，递进感在情感高潮后出现断裂。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "陆离：这花枝长得太乱，剪了。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "开篇第1集通过赵家肉铺事件快速建立苏半夏的“泼辣/生存”人设和陆离的“落魄/毒发”处境，核心问题（还债/解毒/夺权）建立清晰，叙事方向明确，具有较强吸引力。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "开篇通过赵家肉铺事件快速建立苏半夏“撒泼”人设与陆离“落魄将军”处境，核心矛盾（债务、继母、毒）建立高效，吸引力强。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "开篇通过“肉铺撒泼”迅速建立苏半夏的人设，并通过“契约”快速绑定陆离，核心问题（还债/解毒/夺权）建立高效，吸引力强。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 2,
+      "minimum": 2,
+      "maximum": 2,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "中后段（第20集后）存在明显的前高后低和节奏断裂。第21-27集北境线剧情推进缓慢，大量篇幅用于重复的毒发与救治；第28集后突然切换回京城线，且第53集陆离失忆后，剧情基调从权谋复仇突然转为田园治愈，情绪曲线断裂，高潮（第46-47集）后的收束（第54-60集）显得仓促且逻辑脱节。",
+          "evidence": {
+            "episode": "第53集",
+            "scene": "53-1",
+            "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "第53集陆离失忆后，剧情从高强度的权谋斗争突然转向平淡的日常与情感修复，导致前期积累的紧张感断裂，高潮（第57集）缺乏足够的危机铺垫，显得突兀。",
+          "evidence": {
+            "episode": "第53集",
+            "scene": "53-1",
+            "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "中后段（第40集后）节奏过快，从复仇到失忆、再到商盟建立，情绪曲线出现断层。第53集陆离失忆后，前文积累的仇恨情绪被强行重置，导致后续情感爆发缺乏基础。",
+          "evidence": {
+            "episode": "第53集",
+            "scene": "53-1",
+            "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 3,
+      "minimum": 3,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "目标情绪（爽感/复仇/情感）基本贯穿，但蓄力与爆发配合不够精确。例如第33集赏花宴的高潮依赖“显字粉”这一机械降神，情绪爆发缺乏充分铺垫；第56集求婚场景的情绪转折过于突兀，缺乏足够的心理铺垫。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-2",
+            "quote": "苏半夏（慢条斯理地整理着衣摆，眼神冰冷）：不是符咒，是各位大人平日里签下的“投名状”。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "前期“爽感”与“紧张感”交替较好，但后期因失忆设定导致情绪曲线出现断层，最终结局的“圆满”缺乏足够的情感爆发点支撑。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "陆离（转头看向在草地上奔跑的孩子们，嘴角勾起一抹释然的弧度）：就建孤儿院。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "目标情绪（爽感/复仇/温情）基本贯穿，但“失忆”这一转折导致情绪基调从“复仇爽剧”突然转为“治愈甜宠”，缺乏平滑过渡，部分高潮（如第52集救人）的情绪铺垫略显不足。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "苏半夏：（猛地转身，将陆离死死护在身后，眼神中透着一股疯狂的血色）要血？给啊！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 3,
+      "minimum": 3,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "大部分集末有悬念（如第16集去黑市、第22集发现地图），但部分期待兑现较弱或类型单一（多为“谁陷害了陆离”或“苏半夏如何反杀”），缺乏多线咬合的复杂期待链。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-2",
+            "quote": "苏半夏（推开车帘，冷风灌入，吹起衣角，眼神冰冷）：走吧。去拿回咱们的命。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "集末悬念设置基本有效，但中后段部分集数（如第55集）缺乏强烈的后续驱动力，主要依赖情感线而非剧情线推动。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-2",
+            "quote": "苏半夏（埋在陆离胸口，听着他沉稳有力的心跳，在心中暗暗对自己说道：记忆或许会消失，但爱不会。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "集末悬念设置较多，但部分悬念（如天罗身世）在后期被“失忆”和“和解”消解，期待兑现的力度减弱，连续驱动力在中后期有所分散。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "医神：（叹一口气）组织早已隐退多年。但这件信物，足以说明您和骗神、武神、我，甚至智囊，我们都背负着同一个姓氏，同一个宿命的因果。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 3,
+      "minimum": 3,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "信息分布基本可接受，但部分集数（如第13-14集商业战）信息密度过高且重复，而第28-30集过渡集信息量偏低，存在局部失衡。",
+          "evidence": {
+            "episode": "第14集",
+            "scene": "14-1",
+            "quote": "苏比亚：现在出价两千两！最高价两千两的买家在哪？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "前期信息密度高，中后期因失忆导致信息释放节奏放缓，整体分布尚可，但后期略显松散。",
+          "evidence": {
+            "episode": "第54集",
+            "scene": "54-2",
+            "quote": "皇帝（拿起案上的奏折，漫不经心）：隐患？一个没了脾气、没了过去的烂摊子，还能成什么气候？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "前期信息密度高（设定、人物关系），中后期情节量分布不均，部分集数（如第55-58集）情节量偏少，主要依靠对话和日常填充。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-2",
+            "quote": "苏半夏（接过会长递来的令牌，随手抛起又接住，清脆的金属撞击声让所有人一颤）：很好。只要你们听话，这京城最大的肉，我苏半夏带你们一块吃。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "存在持续停滞或重复解释。例如第21-27集北境线中，陆离的毒发与苏半夏的救治反复出现，缺乏新的目标或阻力，明显推迟主线结果；第54-56集失忆后的日常戏份对主线推进贡献有限，存在注水嫌疑。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-1",
+            "quote": "陆离（牙关紧咬，冷汗浸透重衣）：冷……爹，别走……那石头……那是……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "第55集至第56集存在明显的注水嫌疑，通过日常琐事（剪花、喂狗、擦泥）填充篇幅，缺乏对主线（天罗、王爷）的实质推进。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "苏半夏（气极反笑，随手将土里的泥点甩在陆离洁白的袖子上）：行啊陆大奉直大夫，这就是你的“管草”经验？连根都要管死是吧？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主线总体推进，但第55-57集存在明显的“注水”嫌疑，通过日常互动和重复的“打脸”桥段延缓主线（王爷/天罗）的最终解决。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-1",
+            "quote": "继母（轻摇团扇，眼中闪过一丝阴狠）：哎呀，这将军府的摆局，倒是比那戏台上的唱念做打还热闹，就是少了些正室夫人的母仪之气。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 3,
+      "minimum": 3,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "副线（如骗神传谣、医神制药）基本有功能，但部分内容可替换，与主线连接较松。例如第13集二叔的副线对主线影响有限，主要服务于苏半夏的商业战。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-2",
+            "quote": "二叔（咬牙切齿）：她这是在收买人心！把买不起我们奢侈品的人，全都变成了她的粉丝！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "天罗身世副线在后期整合较好，但前期铺垫不足，导致第47集揭示时略显突兀。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "医神：（叹一口气）组织早已隐退多年。但这件信物，足以说明您和骗神、武神、我，甚至智囊，我们都背负着同一个姓氏，同一个宿命的因果。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "副线（如骗神的身世、苏半夏的天罗背景）基本有功能，但在后期与主线的整合略显生硬，主要通过“信物”和“对话”揭示，缺乏行动上的深度联动。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-1",
+            "quote": "苏半夏：（擦去眼泪，眼神从迷茫瞬间变得如刀锋般锐利）她不让我用天罗的身份杀人。那我就用苏半夏的身份，把天罗连根拔起。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 3,
+      "minimum": 3,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主线（还债/解毒/复仇）基本清楚，阶段目标大多成立，但升级、转折或兑现力度不稳定。例如第34集公主被革职的兑现过于轻易，缺乏足够的阻力与代价。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "皇帝特使（带兵破門而入，神色肃然）：圣旨到！公主私通外敌，即刻革去封号，押入宗人府听候发落！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主线（复仇、夺权、解毒）基本推进，但阶段兑现力度不均，部分高潮（如第33集赏花宴）手段重复，缺乏新意。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-2",
+            "quote": "苏半夏（慢条斯理地整理着衣摆，眼神冰冷）：不是符咒，是各位大人平日里签下的“投名状”。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主线（还债/解毒/复仇）基本清楚，阶段目标大多成立，但“解毒”和“复仇”的最终兑现方式（失忆/和解）略显平淡，缺乏足够的戏剧张力。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "陆离（低头看着自己的双手，掌心那股常年不散的阴冷终于消失）：我好像……能感觉到阳光的温度了。"
+          }
+        }
+      ]
+    }
+  ]
+}

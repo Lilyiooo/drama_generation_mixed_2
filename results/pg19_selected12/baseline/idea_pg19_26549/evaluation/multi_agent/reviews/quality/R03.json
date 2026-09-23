@@ -1,0 +1,394 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上具有极高的辨识度与深度，主角托伊内特·里夫通过“量化情感”的独特行为模式与语言习惯，成功构建了极具张力的角色弧光。配角露丝与海伦分别承担了“冲动/自由”与“生存/妥协”的对照功能，反派斯通夫人则通过“恐惧/秩序”的压迫完成了对主角信念的解构。人物关系从利益交换逐步演进为生死同盟，情感绑定扎实。主要问题在于部分配角（如海伦）在中期存在功能重复与动机摇摆，以及个别场景（如第4集）存在对第3集情节的无效重复，导致局部节奏拖沓。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 3,
+      "reason": "整体事件推进有增量，但第4集对第3集“计算情感债务”的情节进行了高度重复的描写，且第47集与第50集在“露丝激将托伊内特拒绝父亲清单”的情节上存在明显的桥段复用，仅替换了部分台词，未产生新的因果或关系增量。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "托伊内特·里夫（拿起游标卡尺，夹住支票）：剥离情感溢价。首先，测量物质载体。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "对手体系层级清晰且差异化明显。父亲代表“资本/物化”阻力，斯通夫人代表“恐惧/秩序”阻力，露丝代表“冲动/自由”阻力。不同对手迫使主角采用不同的应对策略（如用数据对抗父亲，用共情对抗露丝，用真相对抗斯通），有效推动了主角的成长。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "雷夫先生：思考除非能产生收益，否则就是精神垃圾。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景（如听证会、火灾、潜入）均带来了明确的信息、关系或风险增量。场景顺序具有强因果性，例如第18集的潜入直接导致了第19-20集的舆论危机，第53集的发现直接导致了第54集的火灾高潮，结构紧凑。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-3",
+        "quote": "托伊内特·里夫（死死咬住下唇，直到尝到血腥味，才强行掐断传感器电源）：她看到了我。这不是入侵。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇高效建立了主角“量化生存”的核心设定与“无规则学校”的异常情境。第1集通过校长办公室的冲突迅速确立了主角的性格与核心矛盾，叙事方向清晰，能够稳定形成阅读动机。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "托伊内特·里夫（合上笔记本，眼神冰冷）：信任是风险最高的投资，而我，不做亏本买卖。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 3,
+      "reason": "中后段主体节奏成立，但第47集至第50集之间，关于“父亲清单”与“露丝激将”的情节反复拉扯，导致情绪蓄力不足，部分阶段偏慢。直到第53集火灾事件发生，节奏才重新提速并推向高潮。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "露丝·戈登：生存？不，那是斯通夫人心中的“秩序”。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，从初期的焦虑/防御，到中期的愤怒/孤立，再到后期的决绝/释然，关键峰谷（如第10集沉默的代价、第54集火灾救人）均有充分铺垫，高潮有效兑现了“打破量化、拥抱人性”的情绪承诺。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "托伊内特·里夫（顶着落下的燃烧的布条，一把架起两名瑟瑟发抖的学生）：抓紧我！不管前方是什么，我都不会放手！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定，类型有变化（如悬疑、情感、危机）。集末问题（如第7集的监控室、第18集的传感器报警、第29集的陷阱）均能有效驱动下一集叙事，并在合理时点兑现。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-2",
+        "quote": "托伊内特·里夫（死死盯着那盏黑灯，眼神中第一次出现了深深的疑虑与惊悚）：我找不到你，但你肯定在看着我的恐惧……"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "总体分布基本可接受，但第4集与第3集信息密度重复，第47-50集情节量略显拥挤且重复，导致局部稳定性有限。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "托伊内特·里夫（拿起游标卡尺，夹住支票）：剥离情感溢价。首先，测量物质载体。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但第4集存在明显的注水嫌疑，几乎完全重复了第3集的情感计算过程，未提供新的剧情增量，属于可压缩的重复段落。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "托伊内特·里夫（对着镜子，嘴角强行上翘）：肌肉牵引嘴角，幅度十五毫米。眼神接触时长，设定为两秒。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（如海伦的贫困困境、露丝的夜影者行动）稳定补充了人物层次与冲突，并在关键节点（如第25集海伦的交易、第43集夜影者行动）反哺主线，帮助主角完成从旁观者到行动者的转变。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "海伦·伯吉斯（咬紧嘴唇，手指不安地绞在一起）：我的……我的化学实验数据。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线（打破量化生存，建立真实连接）持续产生新目标与新阻力。阶段看点（如听证会、火灾、校董会）有效兑现，每次兑现都改变了主角的局面（从孤立到结盟，从被动到主动）。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "校董会主席（站起身，敲下法槌）：鉴于斯通夫人严重违反职业道德，并涉嫌制造安全隐患与社区分裂，校董会一致决定，当场与斯通夫人终止合同。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角托伊内特·里夫具有极高的辨识度，其“量化情感”的语言习惯与行为模式贯穿全剧，无法被其他角色替换。",
+      "reason": "主角在关键场景中的台词与决策均带有强烈的个人标签（如计算概率、使用游标卡尺、记录行为偏差），即使遮住名字也能通过语言风格辨认。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "托伊内特·里夫（低头疾书，笔尖摩擦纸面发出沙沙声）：对象，普雷斯顿校长。行为，施压没收物品。意图，测试服从性。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角弧光完整且深刻，从“量化防御”到“拥抱脆弱”的转变由强驱动事件逼出，并产生不可逆后果。",
+      "reason": "起点是“信任是风险最高的投资”，转折点是第10集“沉默即共犯”的觉醒与第39集“撕毁免责协议”的选择，终点是第60集“放下钥匙”。每次变化都有明确的事件驱动（海伦的崩溃、普雷斯顿的质问）和后果（失去安全区、获得真实连接）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "托伊内特·里夫（将碎片缓缓撒向空中，看着它们如雪花般飘落在地）：从现在起，我是夜影者的一员。我是海伦的战友。我是露丝的疯子。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "托伊内特·里夫（合上笔记本，眼神冰冷）：信任是风险最高的投资，而我，不做亏本买卖。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾（理性vs人性、控制vs信任）在多个关键节点被充分戏剧化，通过两难选择与犯错承担后果提高了真实感。",
+      "reason": "主角并非始终正确，她在第10集因冷漠导致海伦受创，在第25集因旁观导致海伦交易，在第48集因犹豫导致海伦绝望。这些错误与代价深刻展现了其脆弱面与成长痛感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-2",
+        "quote": "托伊内特·里夫（抓起包里的黑色笔记本，眼神怨毒）：这些数字救不了她！它们只会让我显得更高贵！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角功能明确且不可替代，露丝、海伦、普雷斯顿分别承担了“冲动/自由”、“生存/妥协”、“理想/引导”的功能，与主角形成有效对冲。",
+      "reason": "露丝的不可控性迫使主角打破计算，海伦的贫困困境迫使主角面对现实，普雷斯顿的温和引导迫使主角反思动机。反派斯通夫人则通过“恐惧/秩序”的压迫完成了对主角信念的解构。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "露丝·戈登（咧嘴一笑）：去化学实验室，把斯通夫人讲台上的粉笔盒换成这个。让她在严肃的授课中呛个半死。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "海伦·伯吉斯在中期（第25-26集与第48-49集）存在功能重复，其“贫困交易”与“请求共谋”的情节模式相似，导致角色动机略显摇摆。",
+      "reason": "海伦在第25集为生存出卖数据，在第48集为生存请求托伊内特签字，两次事件的核心逻辑均为“贫困导致的道德妥协”，且托伊内特的反应（冷漠/犹豫）也较为相似，缺乏新的关系增量或角色弧光推进。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "海伦·伯吉斯（从怀中掏出一支笔，递到托伊内特面前，手剧烈地抖着）：互评环节，我们需要互相签字。我需要你在我的表现栏里，填入“缺乏协作”。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-1",
+        "contrast_quote": "海伦·伯吉斯（咬紧嘴唇，手指不安地绞在一起）：我的……我的化学实验数据。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（托伊内特与露丝/海伦）存在多重张力来源（身份立场、目标利益、情感依赖），能够稳定支撑主线情感。",
+      "reason": "托伊内特与露丝的关系从“敌对/操纵”到“盟友/信任”，张力来源于“理性vs冲动”与“控制vs自由”；与海伦的关系从“旁观/冷漠”到“共谋/救赎”，张力来源于“特权vs贫困”与“理性vs生存”。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-1",
+        "quote": "露丝·戈登（将那团废纸扔进旁边的垃圾桶）：忠诚是因为我们在乎彼此，因为那种自由的感觉值得信任。而不是因为你手里有一张破纸。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点与关键里程碑，关系推进本身构成连续叙事动力。",
+      "reason": "托伊内特与露丝的关系经历了“粉笔灰事件”（敌对）、“夜影者交易”（试探）、“火灾救援”（生死同盟）等里程碑；与海伦的关系经历了“旁观”（冷漠）、“交易”（冲突）、“共谋”（信任）等阶段。关系变化直接推动了主角的行动与成长。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "露丝·戈登（在侧后方大喊，声音因用力而嘶哑）：托伊内特！快把那两个孩子弄出来！通风井要塌了！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景建立了核心人物、异常情境与戏剧问题，信息清晰，形成了强后续期待。",
+      "reason": "第1集通过校长办公室的冲突迅速确立了主角“量化生存”的性格与“无规则学校”的设定，并通过“记录行为偏差”的行为模式建立了独特的叙事视角，有效激发了读者对主角如何适应环境的期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "托伊内特·里夫（低声自语）：如果环境是随机的，那我就记录每一个随机变量。只要样本足够大，混沌也会显现出秩序。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E009",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成了多类稳定的后续期待。",
+      "reason": "主角的目标（在混乱中生存/掌控）与阻力（无规则环境、斯通的压迫、父亲的物化）高度清楚。风险（被孤立、被开除、失去资金）明确，且通过“粉笔灰事件”、“听证会”等节点持续兑现，形成了情感与悬疑的双重期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-2",
+        "quote": "露丝·戈登（站在远处，冷漠地旁观）：大家快来看啊，我们的“模范生”为了摆脱责任，不惜制造麻烦。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E010",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "集末问题（如第7集的监控室、第18集的传感器报警、第29集的陷阱）均能有效驱动下一集叙事。兑现（如第8集的信箱真相、第34集的录音证据、第55集的火灾真相）带来了新的因果、关系和情绪增量，形成了稳定递进。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "斯通夫人（声音平静得令人毛骨悚然）：抓到了。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E011",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "第4集对第3集“计算情感债务”的情节进行了高度重复的描写，未产生新的信息或关系增量。",
+      "reason": "第3集已经完成了“父亲贬低-记录情感债务-计算对冲”的情节，第4集再次通过“测量支票-计算尊严值-收支平衡”重复了这一过程，且台词与动作高度相似，属于无效重复。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "托伊内特·里夫（拿起游标卡尺，夹住支票）：剥离情感溢价。首先，测量物质载体。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-2",
+        "contrast_quote": "托伊内特·里夫（拿起游标卡尺，声音冰冷）：首先，剥离情感溢价。支票厚度零点一三毫米，含碳量标准。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E012",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "第47集与第50集在“露丝激将托伊内特拒绝父亲清单”的情节上存在明显的桥段复用，导致局部节奏拖沓。",
+      "reason": "第47集露丝通过激将法让托伊内特意识到“填假分数即背叛”，第50集露丝再次通过几乎相同的台词（“如果你为了那点钱去撒谎……那你就是斯通的同谋”）重复了这一冲突，未产生新的关系变化或剧情推进。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "露丝·戈登（逼近一步，声音冰冷）：活着？如果你为了那点钱去撒谎，去伪造一份完美的自我评估，那你就是斯通的同谋！",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-1",
+        "contrast_quote": "露丝·戈登：生存？不，那是斯通夫人心中的“秩序”。"
+      }
+    }
+  ]
+}

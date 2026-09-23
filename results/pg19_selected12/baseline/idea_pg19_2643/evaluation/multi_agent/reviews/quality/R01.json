@@ -1,0 +1,350 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角亚瑟·彭哈利根的人物弧光完整且极具张力，从被动受害者到主动反击者的转变逻辑严密，通过“装疯”这一核心策略实现了人物深度与戏剧张力的统一。配角与反派（霍克斯、维恩、埃莉诺）功能明确，形成了有效的对抗与支撑网络。情节规划方面，桥段设计精巧，情绪节奏张弛有度，主副线交织紧密，成功构建了长篇叙事的连续期待。分集剧本的台词风格化明显，视觉化描写具备较强的可执行性。整体质量显著高于同题材常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如法庭戏、对峙戏）通过新变量（如证据类型、对手反应、亚瑟的伪装状态）形成有效变奏，避免了简单的重复。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "法官（举起法槌，重重落下）：准了。封存仓库所有权证及底单。并对被告方处以五万法郎的无理异议罚款，以儆效尤。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "霍克斯（法律/程序压迫）、维恩（商业/暴力威胁）、弗罗格（内部背叛/执行）代表了不同的资源与压力类型，迫使主角采取不同策略。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "维恩（冷笑一声）：霍克斯？他在法庭上只会拖泥带水。如果没有了亚瑟这个提线木偶，他就会变成下一个被清算的目标。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从发现账本到利用账本，再到最终法庭对决，层层递进。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "亚瑟（声音嘶哑）：这就是对冲……每一天的延期申请，维恩就付一百万的‘咨询手续费’。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1集即通过银行危机和律师介入，迅速确立了主角的困境和核心矛盾。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "银行经理（冷漠）：合同第十二条，全额担保。您的时代结束了，先生。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标（取证、反制、联合维恩）和小高潮（论坛爆发、数据窃取）推进，后段完成充分升级与收束。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "亚瑟（手抓着衣领，声音嘶哑却异常清晰）：深夜。三点。海神公司的账户流水像呕吐物一样涌出来，你们没有签合同！只有转账记录！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫。从压抑、绝望到愤怒、反击，情绪积累充分，高潮兑现了主要情绪承诺。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "亚瑟（居高临下地俯视他）：为了胜利？不，你只是为了你那填不满的贪婪。现在，你的迷宫塌了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化（悬念、危机、反转），并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "前任助理（压低声音）：演一个彻底放弃的疯子。把自己锁在浴室里，割动脉。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。前期铺垫密集，中期行动密集，后期收束平稳。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "技术员：数据碎片化打包完成。契约原件被拆解成了三百万段乱码，掺杂在集装箱的海运温湿度传感器日志里。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水段落。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "亚瑟（抓起桌上的放大镜，重重压在地图的一块区域上）：如果是诱饵，他就不会把名字起得这么直白。他在炫耀。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（如玛丽安线、老金线）稳定补充人物、信息、冲突，并在关键节点反哺主线（提供证据、协助逃脱）。",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "亚瑟（指了指她身后的控制台）：交出“海神基金”的原始契约以及霍克斯洗钱的具体证据。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-1",
+        "quote": "维恩（缓缓抽出钢笔，笔尖悬在文件上方）：五亿打到你的指定账户，这笔账就一笔勾销？"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角亚瑟·彭哈利根具有完整且深刻的人物弧光，从被动受害者转变为主动反击者。",
+      "reason": "起点缺陷（盲目信任、被动）明确；关键转折（发现账本、决定装疯、联合维恩）均有强驱动事件和主动选择；终点变化（掌控局面、回归实业）不可逆且支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "亚瑟（站起身，一步步逼近埃莉诺，声音颤抖却坚定）：埃莉诺，我已经拿到了通往迷宫核心的钥匙。但我不能公开拿，因为在黑暗里，只有影子才能移动。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "亚瑟（咬牙）：……好吧。我去签协议。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾通过两难选择、脆弱暴露和犯错承担后果被充分戏剧化。",
+      "reason": "亚瑟在“装疯”过程中不断面临暴露风险（两难），在家庭关系中展现脆弱（埃莉诺的质疑），在复仇过程中付出代价（失去自由、尊严），共同提高了人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-3",
+        "quote": "亚瑟（缓缓站直身体，背对着门，低头凝视着手中那滴殷红的血珠，嘴角猛地勾起一丝极度冰冷的弧度）：闭嘴。你们根本不知道，这才是我活过来的第一口空气。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-3",
+        "contrast_quote": "亚瑟OS（颤抖）：她是对的……我现在是一个光杆司令了。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "reason": "霍克斯（法律压迫）、维恩（商业威胁）、埃莉诺（情感支撑/策略协助）、老金（外部资源）功能明确，推动主线发展。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "老金（点燃一根烟）：行，我让车停在后门。别让我等太久，这夜风刮得人骨头疼。",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "维恩（冷笑一声）：霍克斯？他在法庭上只会拖泥带水。如果没有了亚瑟这个提线木偶，他就会变成下一个被清算的目标。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（亚瑟与埃莉诺）存在至少两类明确张力来源，能够稳定支撑主线。",
+      "reason": "亚瑟与埃莉诺的关系从疏离、冲突到信任、合作，存在情感依赖与价值冲突的张力，支撑了主线的情感投入。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-2",
+        "quote": "埃莉诺（走近一步，目光审视）：所以，你打算继续演下去？",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "埃莉诺（冷冷地盯着那行字）：你现在是在用我们的房子，喂饱一群吃人肉的秃鹫。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰，形成强后续期待。",
+      "reason": "第1集通过银行危机和律师介入，迅速确立了主角的困境和核心矛盾，信息组织流畅，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "银行经理（冷漠）：合同第十二条，全额担保。您的时代结束了，先生。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "霍克斯（严厉）：保住公司，房子可以再买。你想让彭哈利根帝国毁于一次诉讼吗？"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "目标（保住公司/复仇）、核心阻力（霍克斯/维恩）、风险代价（失去一切）和首次局面变化（发现账本）高度清楚，多条后续期待相互咬合。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "亚瑟（愤怒地嘶吼，在空旷的仓库回荡）：你们在拿我的命，买你们的利息！",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "亚瑟（惊慌）：你现在要查封我的私人账户？那是留给孩子上学的钱！"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "关键边界持续由人物选择、局面变化或高价值信息自然产生期待；承接及时，兑现带来新的因果、关系和情绪增量。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "亚瑟（突然捂住耳朵，发出痛苦的惨叫，但嘴里仍在那疯狂输出）：切断！切断不了！物理服务器在列支敦士登！你们在裸奔！",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-2",
+        "contrast_quote": "埃莉诺（看着亚瑟痛苦的样子，声音微颤）：亚瑟，你必须坚持住，哪怕是用牙咬。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "reason": "霍克斯的冷峻、维恩的暴戾、亚瑟的隐忍与爆发、埃莉诺的冷静，语言风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-1",
+        "quote": "霍克斯：在法庭上称为“证据”，而在新闻里，这叫“真相”。",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "维恩（咆哮）：又是延期！又是该死的管辖权异议！我的现金流还能撑几个星期？"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "场景与动作描写质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "描写清晰、画面感强，关键动作和情绪状态可由导演与演员直接执行。",
+      "reason": "场景描写具备空间、氛围与关键视觉信息，动作指示精准，如“亚瑟用肩膀顶开沉重的通道大门，灰尘在光线中飞舞”，画面感强。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-2",
+        "quote": "△ 亚瑟用肩膀顶开沉重的通道大门，灰尘在光线中飞舞。",
+        "contrast_episode": "第22集",
+        "contrast_scene": "22-3",
+        "contrast_quote": "△ 亚瑟发疯般端起桌上的青花瓷瓶，狠狠砸向地毯。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "设定（如离岸信托、海神公司、物流数据）分阶段释放，每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "技术员：数据碎片化打包完成。契约原件被拆解成了三百万段乱码，掺杂在集装箱的海运温湿度传感器日志里。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

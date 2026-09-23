@@ -1,0 +1,123 @@
+{
+  "protocol_version": "pg19-selected12-state-hybrid-conservative-gate-v1",
+  "created_at": "2026-09-22T14:44:11.762188+00:00",
+  "source_dataset": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/pg19_k10_length_samples_5x_20260922_062857/selected_chinese_12/pipeline_inputs_zh.jsonl",
+  "sample_count": 12,
+  "episodes_per_sample": 60,
+  "replicates_per_story": 1,
+  "candidate": {
+    "model": "Qwen3.6-27B",
+    "pipeline": "new upstream ScriptDrama",
+    "memory": "StructuredStateMemory hybrid retrieval",
+    "scene_gate": "conservative_v1 enforce",
+    "state_memory_limit": 20,
+    "state_memory_budget_characters": 6000,
+    "plot_retrieval": false,
+    "summary_memory_baseline": false,
+    "full_history_baseline": false,
+    "world_role_source": "provided selected Chinese creativity input"
+  },
+  "evaluation": {
+    "model": "Qwen3.8-27B",
+    "pipeline": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/drama_evaluator_logic_quality",
+    "version": "v24 logic+quality"
+  },
+  "samples": [
+    {
+      "sample_id": "idea_pg19_13114",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/input.json",
+      "input_sha256": "53a3bb4046ed5af7e28e1f96f9574a72f20f2e3b411856b8dfd1d5ec2f44800a",
+      "length_group": "30k_40k",
+      "cluster_id": 2,
+      "topic": "心理惊悚、艺术界"
+    },
+    {
+      "sample_id": "idea_pg19_26549",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/input.json",
+      "input_sha256": "b9934df3e9c0412bc26a36595aa81b5d8557e18b734b8be875d4fb991a31051b",
+      "length_group": "30k_40k",
+      "cluster_id": 6,
+      "topic": "心理剧、成长、制度批判"
+    },
+    {
+      "sample_id": "idea_pg19_2643",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/input.json",
+      "input_sha256": "b8bc3f7465d602d613165345a3e5c90cba89786862c59effc98bbc49dee4f4a6",
+      "length_group": "30k_40k",
+      "cluster_id": 8,
+      "topic": "商战、法律惊悚、讽刺"
+    },
+    {
+      "sample_id": "idea_pg19_35045",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/input.json",
+      "input_sha256": "d8ecd1bf1bc63ffde4efcef9336f9ae14239e3adf16ff798b1a98d97be5c0a01",
+      "length_group": "30k_40k",
+      "cluster_id": 9,
+      "topic": "家庭、现实主义"
+    },
+    {
+      "sample_id": "idea_pg19_34987",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/input.json",
+      "input_sha256": "0af652fb1cc1d9240971d8b36d9fbc4d0b2859cea0fabd0c809027e61ca5be66",
+      "length_group": "60k_80k",
+      "cluster_id": 0,
+      "topic": "历史剧、政治惊悚、悲剧爱情"
+    },
+    {
+      "sample_id": "idea_pg19_18579",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/input.json",
+      "input_sha256": "e62bb8bdc024db9b50d053e400718c5b35d7d66bb677e4173fc96eee57f8205f",
+      "length_group": "60k_80k",
+      "cluster_id": 1,
+      "topic": "历史、冒险、战争"
+    },
+    {
+      "sample_id": "idea_pg19_46798",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/input.json",
+      "input_sha256": "42484986fae97988484db3f30813ab81c6442102c727b34a6cc37923f8c7aae1",
+      "length_group": "60k_80k",
+      "cluster_id": 5,
+      "topic": "历史冒险、生存剧"
+    },
+    {
+      "sample_id": "idea_pg19_38169",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/input.json",
+      "input_sha256": "4d101acd47a43c5d492efa556a8e2937e313849c91c65129e1fad4170f2b2e7a",
+      "length_group": "60k_80k",
+      "cluster_id": 7,
+      "topic": "心理惊悚、悬疑、爱情"
+    },
+    {
+      "sample_id": "idea_pg19_37724",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/input.json",
+      "input_sha256": "d7b7ea26fc9733260896154c85b359afcb4e29c996362c6db4c8132fa30b79c4",
+      "length_group": "90k_120k",
+      "cluster_id": 3,
+      "topic": "历史剧、政治惊悚"
+    },
+    {
+      "sample_id": "idea_pg19_41542",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/input.json",
+      "input_sha256": "cfed70f5630cc45c5f1d8fa4225a421dd458551e2aab281eea0a263d8377df04",
+      "length_group": "90k_120k",
+      "cluster_id": 4,
+      "topic": "家庭、悬疑、心理惊悚"
+    },
+    {
+      "sample_id": "idea_pg19_22060",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/input.json",
+      "input_sha256": "6b343d8c61f9a3b2e59a6effb07fa65a9aa1f64e20d9cd68e1dde81e8e184ec1",
+      "length_group": "90k_120k",
+      "cluster_id": 6,
+      "topic": "历史战争、成长、惊悚"
+    },
+    {
+      "sample_id": "idea_pg19_33244",
+      "input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/input.json",
+      "input_sha256": "a589909f94f8eba2d439e6acbe9349b664aa0505e6ef883948bcd16ea55bf487",
+      "length_group": "90k_120k",
+      "cluster_id": 9,
+      "topic": "社会现实主义、悲剧爱情"
+    }
+  ]
+}

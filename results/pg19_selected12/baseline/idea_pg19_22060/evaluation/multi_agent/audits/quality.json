@@ -1,0 +1,242 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "拉尔夫的人物弧光完整且深刻，从冲动少年到冷酷复仇者，每次变化均有强驱动事件和不可逆后果。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "拉尔夫：（双眼充血，理智断线，猛地探头出灌木）住手！！",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-3",
+        "contrast_quote": "拉尔夫（在珀西的注视下缓缓蹲下，摘下胸前象征游击队身份的破旧徽章，一同扔进海浪中）：干净了。"
+      },
+      "reason": "三位评审均指出拉尔夫弧光完整。证据显示：起点为冲动救俘（第3集）；转折1为炸桥牺牲老李导致兄弟决裂（第7集）；转折2为处决逃兵彻底黑化（第39集）；终点为扔掉徽章与枪，完成心理闭环（第60集）。每个节点均有强驱动事件和不可逆后果，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "拉尔夫的内在矛盾（英雄主义与生存法则）在多个关键节点被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "拉尔夫：（面无表情地松开扳机，缓缓退后半步，任由硝烟散开）清理尸体，带走物资。原地停留超过十秒者，视为叛徒。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "拉尔夫：（眼泪决堤，捂住脸）我害怕。珀西，我真的很害怕。如果明天我们也变成这样冰冷的尸体，你恨我吗？"
+      },
+      "reason": "三位评审均确认拉尔夫内在矛盾深刻。证据显示：第10集展现脆弱与恐惧；第28集利用儿童情报时的道德挣扎（“我的手在抖...是因为恶心”）；第39集处决逃兵时的冷酷与珀西的质疑形成张力。内在矛盾通过两难选择和后果被充分戏剧化，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "珀西：（冷冷地直视拉尔夫）他是个爱尔兰人，少爷。他最擅长的就是死得其所。现在，我们要带着他的命去把普鲁士人的心脏挖出来。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-2",
+        "contrast_quote": "坦普少校（转身，面向入口处冲进来的黑影，举起最后一把步枪）：告诉你们那个混蛋妈妈，我们没做逃兵。"
+      },
+      "reason": "三位评审均认可配角功能明确。珀西作为理智镜像，坦普作为体制代表，蒂姆作为情报与牺牲者，功能清晰且推动主线。反派威胁稳定，群像分配合理。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "拉尔夫与珀西的核心关系同时存在身份立场、目标利益、情感依赖、秘密误会和价值冲突等多类张力，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-3",
+        "quote": "拉尔夫（在翻滚中死死盯着珀西，眼神从绝望转为仇恨）：是你……你是故意的！",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "珀西：因为我们是彼此的肋骨。只要你还喘气，我就得想办法让你活下去；只要我还站着，你就不用一个人面对恐惧。"
+      },
+      "reason": "三位评审均指出兄弟关系张力多元。证据显示：第7集炸桥后的决裂（价值冲突）；第10集的情感依赖（“彼此的肋骨”）；第17集勋章事件引发的秘密误会；第39集处决逃兵时的立场对立。张力来源至少三类且相互咬合，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "拉尔夫与珀西的关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-3",
+        "quote": "拉尔夫（反紧紧握住珀西的手掌，两人相视一笑）：那就把彼此当成家。",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-2",
+        "contrast_quote": "珀西（逼近一步，枪口下垂但眼神如刀）：所以我才要看着你！我不允许你再拿命去赌！"
+      },
+      "reason": "R01和R03均指出关系推进清晰。起点为共同逃亡（第1集）；里程碑包括炸桥决裂（第7集）、勋章误会（第17集）、暗河争吵（第41集）；终点为共同放下（第60集）。关系变化直接驱动主角行为，形成连续叙事动力，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "蒂姆·多伊尔在后期剧情中略显工具化，主要围绕帮助主角或解释信息运转，个人目标、mini 弧光或独立情感价值不足。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "珀西：（冷冷地直视拉尔夫）他是个爱尔兰人，少爷。他最擅长的就是死得其所。现在，我们要带着他的命去把普鲁士人的心脏挖出来。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-2",
+        "contrast_quote": "蒂姆：（目光变得深沉）别让我白白死在这里。如果你们找到了真正的敌人，别忘了替那个总是替你们擦屁股的仆人收尸。"
+      },
+      "reason": "R01和R03均指出蒂姆后期工具化。前期有个人目标（生存、收尸），但后期主要服务于主角复仇动机，缺乏独立弧光。符合B级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "rejected",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "拉尔夫在第39集处决逃兵时的冷酷转变稍显突兀，缺乏更细腻的内心挣扎铺垫。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "拉尔夫：（面无表情地松开扳机，缓缓退后半步，任由硝烟散开）清理尸体，带走物资。原地停留超过十秒者，视为叛徒。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "该条目与A02（人物深度S级亮点）存在逻辑冲突。剧本中第28集（利用儿童）、第36集（牺牲伤员）、第42集（平民被杀）均有大量内心挣扎铺垫，第39集处决逃兵是累积结果而非突兀转变。R01自身在rationale中也承认“内在矛盾...被充分戏剧化”。因此，认为“缺乏铺垫”的判断与文本证据不符，且与已确认的S级亮点矛盾，故拒绝。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "第11集和第12集关于“单飞”和“身份牌”的情节严重重复，属于结构性注水。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "坦普少校（坐在昏暗的木箱上擦拭着匕首，连眼皮都没抬）：单飞？你是嫌死得不够快吗？这周围全是普鲁士的绞肉机。",
+        "contrast_episode": "第12集",
+        "contrast_scene": "12-1",
+        "contrast_quote": "坦普少校：（冷漠地看着拉尔夫递上的申请）独立行动？你们想死在外面？"
+      },
+      "reason": "R02指出第11集和第12集情节重复。对比原文：第11集11-2坦普拒绝单飞并扔出布带；第12集12-1坦普再次面对申请，撕碎身份牌并没收物资。两集核心事件（请求单飞、坦普拒绝/惩罚）高度重叠，且第12集细节（撕牌、没收）是对第11集（扔布带）的重复性强化，缺乏新信息增量，导致节奏停滞。符合A级问题（behavior_rating 2）标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "第44集和第45集关于“蒂姆之死”和“地图”的情节逻辑断裂且重复，进一步加剧了注水感。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "珀西（从拉尔夫被撕破的衣领处，掏出一张沾满血水和火药渣的手绘地图，递给拉尔夫）。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-1",
+        "contrast_quote": "拉尔夫（无视珀西，粗暴地撕开缝线，几张泛黄的纸片滑落掌心）：这是什么？"
+      },
+      "reason": "R02指出第44集和第45集情节重复且逻辑矛盾。对比原文：第44集44-2珀西已从拉尔夫衣领掏出地图并说明是蒂姆塞在通风管的；第45集45-1拉尔夫又从外套里撕出地图，珀西再次解释。同一关键道具（地图）的获取过程在两集内重复描写，且来源描述（衣领 vs 外套/通风管）存在逻辑模糊，情感高潮被重复消费。符合A级问题（behavior_rating 2）标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 19,
+  "covered_count": 19
+}

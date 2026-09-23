@@ -1,0 +1,402 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角迪克具有极高的辨识度，其“木工/结构”的行为模式、冷峻的语言风格及价值选择贯穿全剧，无法被其他角色替换。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "迪克：木头不会撒谎，罗杰。只要找到共振点，就能找到空心处。而地下牢房，通常是最大的空心处。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出迪克通过“木工/结构”意象构建了独特的行为模式（如敲击听音、榫卯修复）和语言风格（简短、命令式、结构隐喻）。证据显示该特征在第2集（凿子救人）、第5集（修复陷阱）、第14集（修复图腾）、第20集（声学探测）、第39集（破坏火炮）等多处关键场景中反复出现并推动剧情，符合S级亮点“稳定的专属性格、语言习惯、行为模式”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "迪克的人物弧光完整且深刻，从冷酷的生存机器转变为重建秩序与信任的领袖，变化由强驱动事件逼出并产生不可逆后果。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-2",
+        "quote": "迪克从自己怀里掏出一块折叠整齐的脏毯子。他走到罗杰身边，蹲下，将毯子盖在罗杰剧烈颤抖的肩上。动作虽轻，却带着不容置疑的力度。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-2",
+        "contrast_quote": "迪克扔掉废掉的刀，扑跪在梅休身边。迪克（颤抖）：梅休！看着我！"
+      },
+      "reason": "评审一致确认迪克存在清晰的起点（冷酷/情感剥离，如第30集逼罗杰去毒雾区）、关键转折（第31集盖毯子显示情感松动，第43集梅休之死引发暴怒与克制，第56集血印契约绑定命运）和终点（第60集重建社区/纪念梅休）。每次变化均有具体事件驱动和不可逆后果，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "迪克的内在矛盾（理性/情感、生存/道德）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "他没有指向敌人，而是毫不犹豫地、狠狠地划向自己的左手手掌！“嘶——”鲜血瞬间涌出，顺着掌纹流淌。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "迪克的内在冲突在第28集（抢梅休仪器导致背叛）、第30集（冷酷对待罗杰）、第43集（梅休牺牲后的悲痛与克制）、第56集（自残血印以绑定证据）等节点得到充分展现。这些选择涉及道德两难和情感代价，显著提高了人物真实感，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色（罗杰、梅休、科瓦、贾斯珀）各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-2",
+        "quote": "三人迅速交换眼神，无需言语，战术默契已然确立。迪克居中，罗杰持弩警戒后方，梅休负责侧翼侦查。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "罗杰代表冲动与成长，梅休代表敏感与牺牲，科瓦代表外部力量与道德审视，贾斯珀代表真相与救赎。各角色功能明确，推动主线发展，符合A级亮点“主角配置清晰，重要角色功能明确并推动主线”的标准。未达S级是因为部分配角（如贾斯珀前期）功能略显单一，但整体协作有效。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分配角（如科瓦、贾斯珀）在特定阶段功能化倾向明显，个人目标和mini弧光不足。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "迪克没有废话，伸手按住贾斯珀颤抖的肩膀，手指迅速探入他破烂的贴身衣物夹层，摸索出一卷被汗水浸透的羊皮纸——那是决定生死的土地地契。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出科瓦后期主要作为外部力量和道德审视者，R03指出贾斯珀前期主要承担“被救者/证据持有者”功能。两者均属于B级问题：角色能局部推动剧情，但个人目标、mini弧光或独立情感价值不足。证据支持该判断，且未造成整体叙事混乱，故定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E005",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（迪克-罗杰、迪克-梅休）同时存在至少三类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "梅休颓然跪倒在泥水中，泪水混合着泥浆流下面颊。他像个被抽去灵魂的傀儡，嘶哑地吼道：‘我不是货物！我不是！’...迪克冷冷地看着地上的碎片，语调平静得令人窒息：‘在黄石，情感是多余的重量。带着它，我们都得死。’",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "迪克-罗杰关系存在身份（表亲/雇主）、目标（生存/尊严）、情感（保护/怨恨）等张力；迪克-梅休关系存在目标（生存/尊严）、情感（信任/背叛）、价值（理性/情感）等张力。这些张力在多个关键场景中充分展现，相互咬合，支撑主线情感逻辑，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R02-E006",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-2",
+        "quote": "梅休发出一声撕心裂肺的嘶吼，不顾一切地扑向迪克，用肩膀猛力撞击迪克的背部，将迪克向前推去。...梅休浑身冰冷...他的手指僵硬地指向走廊尽头的牢房方向，眼神中不再有恐惧或冷漠，只有清澈的决绝。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "迪克转身，从贴身内袋中取出那只磨损严重的黄铜追踪仪。仪表盘玻璃已碎，指针却奇迹般地仍在微微颤动。"
+      },
+      "reason": "迪克-罗杰关系从雇佣/冲突到生死与共再到重建/传承；迪克-梅休关系从雇佣/共生到背叛/决裂再到牺牲/救赎。关系推进有清晰起终点和多个关键里程碑（如恶魔之谷、梅休之死），回收明确，构成连续叙事动力，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008",
+        "quality-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景建立核心人物、异常情境和戏剧问题，信息清晰，形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "迪克：（捡起戒指，指节发白）贾斯珀……跑了吗？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第1集通过信使死亡和地契丢失迅速建立危机，第2集通过迪克的冷静与罗杰的冲动确立人物关系，开篇节奏紧凑，吸引力强。符合A级亮点“人物与情境建立有效，核心问题清楚，信息组织流畅”的标准。未达S级是因为虽然高效，但未显著超过同题材常规完成度（如未形成多层建立或极端经济）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009",
+        "quality-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "迪克：贾斯珀在黄石。我要人，你要命。跟紧我，你就不用再面对那群法国混蛋。这不叫雇佣，这叫共生。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "核心矛盾（寻找地契/贾斯珀，对抗拉斯克尔）明确，阻力（法国雇佣兵、苏族、拉斯克尔）有效，风险（死亡、失去土地）可感知，并形成生存、情感、政治等多类后续期待。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010",
+        "quality-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-1",
+        "quote": "迪克（低声）：记住了，科瓦。这笔账，还没完。",
+        "contrast_episode": "第28集",
+        "contrast_scene": "28-1",
+        "contrast_quote": "迪克突然上前一步，速度快得让梅休来不及反应。他猛地伸出手，一把扯下了梅休胸前的皮套。"
+      },
+      "reason": "集末问题（如科瓦的驱逐、梅休的背叛）在下一集得到相称推进，兑现带来新的局面和情绪增量，连续叙事驱动力强。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011",
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分场景（如法庭戏）存在轻微的说明性表达，角色交流功能局部失效。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "迪克（声音低沉，如凿击木头般笃定）：你的契约建立在掠夺之上。而我的，建立在重建之上。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "迪克在法庭上的台词“你的契约建立在掠夺之上。而我的，建立在重建之上。”略显抽象，带有主题升华腔，但并未完全脱离情境。符合B级问题“局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E012"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分重场戏台词存在过度打磨痕迹，读感接近书面警句串联。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "迪克（声音低沉，如凿击木头般笃定）：你的契约建立在掠夺之上。而我的，建立在重建之上。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "迪克和拉斯克尔的对峙台词工整对仗，缺乏停顿、重复和自我修正，真实感略有不足。符合B级问题“局部出现过度打磨痕迹，不影响整体”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E013",
+        "quality-R02-E011",
+        "quality-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如血印契约、图腾修复等，意象描写完整且有效。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "特写镜头：鲜红的血液与滚烫的蜡油在古老粗糙的羊皮纸纹理中交融、渗透。血液渗入纤维，蜡油凝固边缘，形成了一道惊心动魄的、带有强烈生物印记的红色封印。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "血印契约（第56集）和图腾修复（第14集）等场景具有强烈的视觉冲击力，色彩、道具和动作构图组合有效。符合A级亮点“有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效”的标准。未达S级是因为虽然可记忆，但未形成全剧高度可辨识的视觉组织体系。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E014",
+        "quality-R02-E012"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "梅休：他……他闯入了“恶魔之喉”地带。那是连印第安人都不敢涉足的地方……据说……连风都带着毒素。",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-1",
+        "contrast_quote": "科瓦指着断裂处，生硬的英语夹杂着沉重的手势：“断裂。连接断了。大地在愤怒。”"
+      },
+      "reason": "黄石的环境设定（如恶魔之喉、硫磺洼地）分阶段释放，与剧情高潮和关键行动精准绑定，信息量始终可吸收。符合A级亮点“设定释放有层次，整体节奏良好，没有明显信息过载”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-2",
+        "quote": "迪克：三桶“火水”，换取“沸腾之地”的挖掘权。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-2",
+        "contrast_quote": "拉斯克尔（对着被押解的贾斯珀，语调慵懒）：这就是边疆的真相，威廉姆斯先生。你们那些天真的法理，在骨头断裂的声音面前，苍白得可笑。"
+      },
+      "reason": "迪克（简短、命令式、结构隐喻）、罗杰（情绪化、暴力、成长）、梅休（专业、冷静、背叛）、科瓦（生硬英语、手势、信仰）、拉斯克尔（优雅、法律、伪饰）语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。符合S级亮点标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 35,
+  "covered_count": 35
+}

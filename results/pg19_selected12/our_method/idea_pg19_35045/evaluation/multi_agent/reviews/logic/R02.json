@@ -1,0 +1,118 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体构建了完整的因果闭环，核心人物（弗洛拉、哈里、露丝）的状态变化均有事件驱动，伏笔（袖扣、信件、地图）回收逻辑严密。主要逻辑瑕疵集中在：1. 关键道具（乔少校提供的地图/钥匙）在后续剧情中未再使用，形成“资源闲置”；2. 哈里从“刮玻璃折磨母亲”到“主动自曝罪行”的性格/动机转变缺乏中间过渡，略显突兀；3. 部分时间线细节（如存单抵押与赎回期限）存在轻微矛盾。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "乔少校提供的地下档案馆地图和钥匙在后续剧情中未被使用，属于闲置的关键资源。",
+      "reason": "第26集乔少校明确给出地图和钥匙用于进入档案馆，第36集弗洛拉确实进入了档案馆，但第37集之后，该地图和钥匙再未出现，也未在后续对抗莎拉或处理地产收购中发挥作用，导致该资源线虎头蛇尾。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-2",
+        "quote": "乔·本森少校：（压低声音，语气中带着紧迫与愤怒）你母亲露丝撞破了真相，所以她必须死——在社会层面。……他从抽屉里拿出那把黑铁钥匙，郑重地递到弗洛拉面前。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-2",
+        "contrast_quote": "她根据地图的指引，推开一扇生锈的铁门。……弗洛拉迅速将拓印好的证据折叠，塞进贴身的口袋里。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "哈里从“通过噪音折磨母亲”到“在广场主动自曝罪行”的转变缺乏足够的心理铺垫。",
+      "reason": "第29-30集哈里还在通过刮玻璃、扔铁勺等方式进行破坏和报复，第31集弗洛拉发现他刻字“看着我”显示其内心痛苦，但第39集他直接在广场自曝“偷鸡、酗酒、打母亲”，这种从“被动/破坏性反抗”到“主动/牺牲性自白”的巨大跨度，中间缺乏关键的情感爆发点或决策过程描写，显得动机强度不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "哈里突然从阴影中站起，面无表情地将手中的铁勺高高举起，用尽全身力气掷向对面的墙壁。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-2",
+        "contrast_quote": "哈里：不用拖！我就是你们说的怪物！我是弗洛拉的哥哥，哈里·黑兹利。……我偷过邻居的鸡，我在酒馆酗酒闹事，我打过我母亲……都是真的！"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "存单抵押后的赎回期限与银行强制划扣的时间点存在逻辑冲突。",
+      "reason": "第9集深夜弗洛拉抵押存单救母，第11集（次日或稍后）银行职员称“赎回期限为昨天下午五点……自动扣款失败……强制划扣”。如果第9集是“昨天”，那么第9集深夜抵押时，银行职员说“现在到账”，意味着资金已到位，为何第11集又说“缺乏对应资金”？若第9集是“今天”，则“昨天下午五点”的期限在抵押前已过期，逻辑不通。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "银行职员：现在。……弗洛拉接过单子，走向等待区。",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-1",
+        "contrast_quote": "银行职员：（公事公办）……合约规定赎回期限为昨天下午五点。由于账户缺乏对应资金，自动扣款失败。根据条例第四节，该资产已被强制划扣……"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "弗洛拉从“清洁工”到“反抗者”再到“社区领袖”的转变因果清晰，层层递进。",
+      "reason": "弗洛拉的每一次能力升级或地位提升（获得乔的信任、进入档案馆、建立互助组）都有明确的前置事件（清理荆棘、处理禁忌书籍、修复游乐场）作为支撑，且其动机（保护家人、追求尊严）始终一致，因果链严密。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-2",
+        "quote": "乔·本森少校：你懂得区分什么是该留的，什么是该去的。这在这个社区，比黄金还难得。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "弗洛拉：看，光就在尘埃里。只要我们愿意擦拭。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "“J”字袖扣和信件作为核心线索，贯穿全剧并最终揭示莎拉的秘密，闭环完整。",
+      "reason": "第15集发现袖扣，第16-17集信件暴露，第25集乔少校确认袖扣身份，第27集乔少校利用信件威胁莎拉，第39-40集弗洛拉利用档案证据公开真相。线索从发现、验证到利用，逻辑链条完整，无遗漏。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "特写：袖扣背面刻着一个精致但已磨损的徽记——橡叶环绕着字母“J”。",
+        "contrast_episode": "第27集",
+        "contrast_scene": "27-1",
+        "contrast_quote": "乔·本森少校：（声音低沉，却清晰得令人心悸）三十年前，为了保住马丁家的体面，有人隐瞒了一场高烧致死的真相……"
+      }
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 83.86,
+      "ledger_subdimension_mean": 84.86,
+      "holistic_subdimension_mean": 82.86,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 79.0,
+          "holistic_score": 80.0,
+          "fused_score": 79.5
+        },
+        "character_state": {
+          "ledger_score": 82.0,
+          "holistic_score": 84.0,
+          "fused_score": 83.0
+        },
+        "knowledge_state": {
+          "ledger_score": 86.0,
+          "holistic_score": 86.0,
+          "fused_score": 86.0
+        },
+        "resource_state": {
+          "ledger_score": 84.0,
+          "holistic_score": 80.0,
+          "fused_score": 82.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 82.0,
+          "holistic_score": 80.0,
+          "fused_score": 81.0
+        },
+        "foreshadowing": {
+          "ledger_score": 91.0,
+          "holistic_score": 80.0,
+          "fused_score": 85.5
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 90.0,
+          "fused_score": 90.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 86.6,
+      "ledger_subdimension_mean": 93.2,
+      "holistic_subdimension_mean": 80.0,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 100.0,
+          "holistic_score": 82.0,
+          "fused_score": 91.0
+        },
+        "hooks": {
+          "ledger_score": 93.0,
+          "holistic_score": 85.0,
+          "fused_score": 89.0
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 78.0,
+          "fused_score": 84.0
+        },
+        "episode": {
+          "ledger_score": 92.0,
+          "holistic_score": 75.0,
+          "fused_score": 83.5
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 80.0,
+          "fused_score": 85.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如被系统拒绝、被羞辱）大多承担不同功能，通过新变量（如从债务到诽谤，从社会排斥到物理隔离）形成有效变奏，推进了主角的堕落过程。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-2",
+            "quote": "保安甲（语气冰冷，不带一丝波澜）：退后。低信誉人员禁止进入一级医疗区。出示你的三级以上医疗通行证。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "剧本中多次出现米格尔被系统/社会排斥、羞辱的场景（如第4集银行、第25集街头、第28集超市、第29集医院），但每次排斥的层级、手段和后果都在升级（从信用冻结到社会性死亡再到医疗剥夺），且每次事件都直接推动了主角心理防线的进一步崩溃，形成了有效的变奏与递进。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-2",
+            "quote": "保安甲（语气冰冷，不带一丝波澜）：退后。低信誉人员禁止进入一级医疗区。出示你的三级以上医疗通行证。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "剧本中多次出现米格尔被系统/贵族羞辱、逼迫签字、失去尊严的场景（如第4集银行、第5集律师、第13集沙龙、第25集街头、第27集直播、第44集医院），但每次事件都引入了新的变量（如从经济债务到名誉污点，再到物理隔离和生命威胁），且每次结果都不可逆地改变了主角的处境和心态，形成了有效的递进与升级，而非简单的重复。",
+          "evidence": {
+            "episode": "第27集",
+            "scene": "27-2",
+            "quote": "米格尔：我愿意……自愿降低我的声誉等级。以我之名，谢罪。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手（系统/银行、萨瓦德拉、胡莉亚、门多萨）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（乞求、出卖、逃避、毁灭）。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "门多萨面无表情，眼神中没有一丝愧疚，只有为了自保而清除障碍的冷酷。他拇指按下开关。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "阻力来源清晰且差异化明显：萨瓦德拉代表绝对的权力与资本压迫，系统/算法代表冰冷的规则与程序暴力，胡莉亚代表内部的背叛与欲望腐蚀，门多萨代表底层互害与信任崩塌。不同阻力迫使主角采取了不同的应对策略（妥协、欺骗、出卖、毁灭）。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "门多萨面无表情，眼神中没有一丝愧疚，只有为了自保而清除障碍的冷酷。他拇指按下开关。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "阻力来源具有清晰的层级和差异化。萨瓦德拉代表绝对的权力与系统性暴力（法律、算法、贵族特权）；胡莉亚代表内部的背叛与欲望的腐蚀；马克西米娜代表道德的审判与情感的羁绊；门多萨代表底层互害与信任的崩塌。不同对手迫使主角采取不同的应对策略（隐忍、妥协、黑化、复仇）。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "门多萨面无表情，眼神中没有一丝愧疚，只有为了自保而清除障碍的冷酷。他拇指按下开关。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从公寓的封闭空间到沙龙的公开羞辱，再到医院的生死抉择，层层递进。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-1",
+            "quote": "侍者（语调平缓却充满压迫感）：米格尔先生。萨瓦德拉唐的宽恕是有规格的。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "场景安排具有强烈的因果递进感。例如第16集黑网吧接单、第17集被锁门外、第18集伪造证据开门、第19集餐桌试探、第20集发现真相，这一连串场景紧密咬合，每一步都压缩了主角的道德空间，扩大了后果，删除任何一环都会破坏主角黑化的逻辑链条。",
+          "evidence": {
+            "episode": "第18集",
+            "scene": "18-2",
+            "quote": "米格尔机械地伸出手，轻轻揽住胡莉亚的肩膀，又看向马克西米娜。马克西米娜脸上因获救而绽放出一种毫无杂质的、近乎圣洁的感激笑容"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "场景安排具有明显的因果递进。例如第16集黑网吧接单（道德底线突破）直接导致第17集被锁门外（经济后果），进而导致第18集伪造证据（进一步黑化）和第19集家庭关系出现裂痕（情感后果）。每个场景都压缩了主角的选择空间，扩大了后果。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-1",
+            "quote": "律师（按下确认键）：理由已驳回。资产清零。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1-2集迅速建立了米格尔的困境（债务、贫困）和核心矛盾（尊严与生存），叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "HR主管（OS）：签字，米格尔先生。合同期十年，绩效挂钩声誉币浮动。违约者，即刻清退并列入信用黑名单。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "开篇高效建立了人物（米格尔的尊严与贫困）、情境（信用社会）和核心问题（债务危机）。第1集签约、第2集门多萨借钱、第3集发现担保，节奏紧凑，迅速将主角推入绝境，形成了强烈的阅读期待。",
+          "evidence": {
+            "episode": "第2集",
+            "scene": "2-2",
+            "quote": "门多萨（猛地抬头，抓住米格尔的裤腿，力气大得惊人）：债……赌局的债。那个混蛋，萨瓦德拉唐的狗腿子。他们说三天，只有三天！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "开篇（第1-2集）高效建立了人物（米格尔的尊严感、马克西米娜的顺从、门多萨的麻烦制造者形象）、情境（信用社会、贫富差距）和核心问题（债务危机）。第2集末门多萨闯入并逼迫签字，迅速将主角推入困境，形成了强烈的阅读期待。",
+          "evidence": {
+            "episode": "第2集",
+            "scene": "2-2",
+            "quote": "门多萨（用一种近乎圣洁的悲哀语调）：看啊，这就是出卖朋友的下场。米格尔，你是城里最有前途的编辑，你是光。你只需要签个字，以你的名义做担保。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进（如写黑稿、被逐出家门），后段完成充分升级与收束（如自杀式袭击、真相揭露），节奏紧凑。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-1",
+            "quote": "米格尔的眼神冰冷而专注，仿佛在撰写一部自己的墓志铭。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中后段依靠阶段目标（救妻、复仇）和小高潮（沙龙羞辱、直播认罪、医院拒诊）持续推进。后段完成了充分的升级（从个人破产到社会性死亡再到物理毁灭），高潮（钟楼爆炸）与收束（真相被掩盖但余音留存）有力。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "强酸瓶精准地砸在投影仪底部的金属接口上。玻璃碎裂的瞬间，没有预想的静音。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中后段（第13-40集）持续依靠阶段目标（救胡莉亚、救马克西米娜）和小高潮（沙龙羞辱、直播认罪、妻子病危）推进。后段（第41-55集）完成了充分的升级（从个人悲剧到社会性死亡，再到物理毁灭与复仇），高潮（第55集广场爆炸）与结尾（第56-60集余波）回收了前文埋下的伏笔（强酸、录音、真相）。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "米格尔猛地拉动绳索。咔哒一声脆响，滑轮卡扣脱开。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。从压抑、屈辱到绝望、愤怒，最后到毁灭性的释放，情绪曲线完整。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "米格尔的嘴角扯出一丝惨烈而解脱的微笑。那是马克西米娜曾拥有的微笑。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "目标情绪（压抑、屈辱、绝望、毁灭）贯穿全剧。关键峰谷（如第21集马克西米娜扔戒指、第42集胡莉亚被剥衣、第52集马克西米娜死亡）均有充分铺垫，高潮兑现了主角彻底毁灭体制与自我的情绪承诺。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-2",
+            "quote": "马克西米娜（冷淡）：我不想听任何解释，米格尔。我们之间，已经完了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "目标情绪（压抑、屈辱、绝望、复仇）贯穿全剧。关键峰谷有铺垫：第21集马克西米娜扔戒指（情感低谷），第27集直播认罪（社会性死亡低谷），第44集割腕求药（绝望顶点），第55集爆炸复仇（情绪爆发）。高潮兑现了主要的情绪承诺，即主角用毁灭换取尊严的终结。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-2",
+            "quote": "米格尔不顾一切地转身，将锋利的玻璃刃狠狠划向自己充血的左手腕。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如门多萨的生死、马克西米娜的病情、胡莉亚的背叛等悬念持续驱动叙事。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-2",
+            "quote": "老汤姆（气声，颤抖）：闭嘴！你想死吗？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定，类型有变化（生存危机、道德困境、复仇计划）。集末悬念（如第16集接单、第20集发现草稿、第36集强酸瓶）有效驱动了下一集的剧情，并在合理时点兑现。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "她将这张平整的纸，静静地放在了书桌正中央显眼的位置，像是在摆放一副墓碑，又像是在递交一份离婚协议。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定，类型有变化（经济危机、家庭破裂、道德困境、生存威胁）。例如第10集胡莉亚接受萨瓦德拉名片（期待：她会做什么？），第12集管家上门（期待：米格尔如何抉择？），第23集马克西米娜拿强酸（期待：她会做什么？）。这些期待在合理时点有效兑现，并产生新局面。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-2",
+            "quote": "这是工业强酸。是末世前遗留下的、能摧毁一切有机物的终极手段。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期铺垫充分，中期冲突密集，后期高潮集中，信息分布合理。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "马克西米娜的目光扫过第一行，身体瞬间僵住。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情节量总体均衡，重点阶段（如黑化过程、复仇准备）有意识地增加了密度，而过渡阶段（如第37集寻找门多萨）则服务于情绪蓄力。信息分布与戏剧阶段高度匹配。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-2",
+            "quote": "老汤姆（气声，颤抖）：闭嘴！你想死吗？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情节量总体均衡，重点阶段（如第13-15集沙龙、第27集直播、第41-43集宴会厅）有意识地增加了密度和冲突强度。铺垫阶段（如第1-2集、第7-8集）节奏稍缓，但服务于人物关系和背景建立。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-2",
+            "quote": "胡莉亚出现了。黑色的丝绸高定礼服紧贴着她的身躯，随着她的步伐呈现出流动的光泽，像是一层深不见底的夜幕。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。没有明显的无功能段落，每个阶段都改变了人物选择、关系、信息或局面。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "马克西米娜（声音冷硬，没有起伏）：这是你用尊严换来的钱。从现在起，你将永远背着它。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确的新增量（新阻力、新信息、新选择）。必要铺垫（如第1集签约、第2集借钱）服务后续结果，几乎没有无功能段落。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "HR主管（OS）：签字，米格尔先生。合同期十年，绩效挂钩声誉币浮动。违约者，即刻清退并列入信用黑名单。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确的新增量（新事件、新信息、新关系变化）。例如第37集米格尔寻找门多萨（确认朋友死亡，切断最后的情感联系），第38集萨瓦德拉再次逼迫写黑稿（进一步黑化）。没有明显的无功能段落或重复解释。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-2",
+            "quote": "老汤姆：他没了。从系统里，从记忆里，都没了。为了你自己，别再找他。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（胡莉亚线）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。胡莉亚的背叛与堕落直接加剧了米格尔的孤立无援，推动了主线的高潮。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-2",
+            "quote": "胡莉亚：（机械般地重复，声音冰冷）检测到单方强制解除申请。因关联方债务违约及信誉污染，无需对方确认。是否继续？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线（胡莉亚的堕落、门多萨的消失）稳定补充了人物层次和主题（底层互害、欲望腐蚀），并在关键节点（第34集胡莉亚切割、第47集门多萨电击）反哺主线，加速了主角的彻底黑化。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-2",
+            "quote": "胡莉亚：（机械般地重复，声音冰冷）检测到单方强制解除申请。因关联方债务违约及信誉污染，无需对方确认。是否继续？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线（胡莉亚的堕落、门多萨的消失、马克西米娜的觉醒）稳定补充了人物层次和主题深度，并在关键节点反哺主线。胡莉亚的背叛直接导致米格尔社会性死亡（第25集），马克西米娜的强酸成为米格尔复仇的工具（第55集），门多萨的死亡切断了米格尔最后的退路（第47集）。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-2",
+            "quote": "新闻广播（VO）：紧急通告。平民女子胡莉亚因涉嫌盗窃萨瓦德拉家族一级文物被捕。经社会信用算法深度溯源，其监护人米格尔·[姓氏]存在长期财务造假及包庇嫌疑。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从生存到尊严，再到复仇，主线目标清晰且不断升级。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-2",
+            "quote": "米格尔OS：如果救赎不存在……那就让这一切烧成灰。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线（米格尔的尊严毁灭与复仇）持续产生新目标、新阻力、新信息和新局面。阶段看点（如第27集直播认罪、第41集宴会厅羞辱）有效兑现，每次兑现都改变了主角的局面并产生了超出表层答案的新意义（从个人破产到社会性死亡）。",
+          "evidence": {
+            "episode": "第27集",
+            "scene": "27-2",
+            "quote": "米格尔：我愿意……自愿降低我的声誉等级。以我之名，谢罪。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线（米格尔在信用社会中的生存与尊严挣扎）持续产生新目标、新阻力、新信息和新局面。阶段看点有效兑现：从经济债务（第4集）到名誉污点（第25集），再到社会性死亡（第27集），最后到物理毁灭与复仇（第55集）。每次兑现都改变了局面并产生了新的意义。",
+          "evidence": {
+            "episode": "第27集",
+            "scene": "27-2",
+            "quote": "演播厅顶部的全息屏幕实时显示着数据。原本绿色的数字“70”开始疯狂跳动，红色数字取而代之，断崖式下跌：50……30……10……"
+          }
+        }
+      ]
+    }
+  ]
+}

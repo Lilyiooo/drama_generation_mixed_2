@@ -1,0 +1,362 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E003",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第35集沈晚晴使用的显影粉末来源及准备过程交代不足，存在便利性。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "他将热水直接浇在散落一地的茶渣和碎片上，同时撒入一把早已备好的白色粉末。……在热水与粉末的催化下，茶盏底部的残渣瞬间泛起暗红色的光泽，竟在地面上勾勒出一个清晰的图案——那是赵氏家族的徽记，旁侧还隐约显现出“黑石”二字。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-2",
+        "contrast_quote": "沈晚晴指尖飞速捏起一撮白色显影粉，借着整理桌布的动作，迅速涂抹在赵氏茶盏的底部外侧。……这粉末与赵国公书房特有的火漆印碎屑混合，遇热茶汤便会显现出暗红色的家族徽记——那是阿四第31集留下的痕迹，足以暗示赵氏与书房泄密案有关。"
+      },
+      "reason": "合并R01-E001, R02-E003, R03-E002。R01评为A级认为来源不明，但第33集明确描写了沈晚晴提前涂抹显影粉的动作，且解释了原理（与火漆碎屑混合遇热显影），因此‘来源不明’和‘天降证据’的判断不成立。然而，第35集白叔‘早已备好’的粉末与第33集沈晚晴涂抹的粉末在操作逻辑上略有跳跃（是同一批还是新拿的？），且显影效果过于完美，属于B级的‘出现略便利，但可由前后文基本推断’。故纠正为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002"
+      ],
+      "status": "rejected",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "顾长风持有的‘兵部调令’原件转移过程缺失。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-1",
+        "quote": "阿四动作极轻，将调令递到顾长风手中，无声地指了指调令上的印章，确认无误。",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-2",
+        "contrast_quote": "阿四伸手一把抄起，迅速塞入怀中，动作快如闪电。"
+      },
+      "reason": "R01认为第14集顾长风在中毒虚弱状态下接过调令且未引起赵氏注意的过程交代简略。但第13集阿四已偷出调令，第14集阿四在混乱中（赵氏被老兵围住、顾长风展示尚方宝剑残片震慑众人时）将调令递给顾长风，这一过程在剧本中有明确描写（‘阿四动作极轻，将调令递到顾长风手中’）。顾长风作为将军，在关键时刻接过关键道具符合逻辑，且赵氏此时已被控制/震慑，并非‘就在现场且刚被制服’还能随意搜查顾长风。该情节逻辑自洽，不构成A级道具归属混乱。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "沈晚晴在敌营宴席上的行为过于激进，与前期谨慎人设存在轻微偏差。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "沈晚晴突然出手，一把夺过茶盏。赵氏惊呼：“你干什么！”",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "沈晚晴面不改色，慢条斯理地从袖中探出一把碎银，手腕一抖，数十枚铜钱混杂着几块碎银，如雨点般洒在守军脚下的尘土中。"
+      },
+      "reason": "R01指出沈晚晴在众目睽睽下抢夺茶盏并泼洒自证的行为略显鲁莽。虽然第33-34集铺垫了假死和显影计划，但第35集沈晚晴‘突然出手’抢夺茶盏的动作确实比前文铺垫的‘等待时机’更具攻击性，且缺乏对御史中立性的绝对确认，属于B级的‘局部行为与设定轻微不吻合，不影响整体稳定性’。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "阿四追踪并拦截军医的过程在时间和空间上过于巧合，缺乏合理的追踪逻辑。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-2",
+        "quote": "就在此时，一只野猫突然窜出，扑向一只老鼠。军医下意识皱眉侧目。阿四抓住这零点几秒的机会，身形如同一道灰色闪电，侧身贴近军医，右腿猛地扫向军医下盘。",
+        "contrast_episode": "第22集",
+        "contrast_scene": "22-2",
+        "contrast_quote": "军医走得极快，且警觉性极高。他穿过几条街，在一个无人的巷口突然停下，迅速将信塞入怀中，继续前行。"
+      },
+      "reason": "R01指出阿四作为普通家仆（虽有身手）在军医警觉性极高的情况下，仅靠野猫干扰就成功抢夺信件并逃脱，过程过于顺利。这属于B级的‘位移偏快或路线交代不足，但仍在合理推断范围’，因为阿四在前文已展现过一定的潜行和战斗能力（如第13集潜入书房），但此处确实略显巧合。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R02-E006",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "顾长风中毒与解毒、沈晚晴身份揭露的因果链条完整，逻辑闭环良好。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "白叔：（猛地抬头，眼神惊骇）将军娘亲当年不是病死，是被人慢性毒杀！而将军体内的‘蚀骨散’，底料竟与当年的毒药同源！",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-1",
+        "contrast_quote": "沈晚晴（声音颤抖却坚定）：喝下去！这是前朝皇室的血，是生机！"
+      },
+      "reason": "合并R01-E005, R02-E006, R03-E005。三位评审均指出剧本在因果链设计上表现良好，尤其是顾长风的中毒/解毒与沈晚晴身份揭露之间的逻辑关联紧密，伏笔回收有力。这属于A级亮点：主要转折因果清晰，前因充分支撑后果。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "沈晚晴的‘前朝皇室’身份伏笔铺设自然，层层递进，最终合理回收。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "卖唱老者：（气声，极低）真相在血中……",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "杀手A惨笑，声音颤抖：你是……前朝皇室！除了你，没人能用这套‘流云剑法’！"
+      },
+      "reason": "R01指出沈晚晴身份伏笔通过铜钱、剑法等细节层层递进，最终在战场和朝堂得到合理回收。这属于A级亮点：主要转折因果清晰，前因充分支撑后果。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "沈晚晴对‘改良寒酥’药性的了解过于精准，缺乏合理的知识获取渠道。",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-2",
+        "quote": "沈晚晴（手指轻轻敲击桌面，节奏急促却有序）：也就是说，在宴席上，无论用多精细的验毒手段，都查不出端倪。一旦顾长风饮下，神仙难救。",
+        "contrast_episode": "第32集",
+        "contrast_scene": "32-2",
+        "contrast_quote": "白叔（眉头紧锁，额头上渗出汗水）：棘手。这‘改良寒酥’不仅无色无味，且遇银不变色。它入体后不显于外，只在脏腑间游走，三个时辰后才会导致经脉寸断，外表看着如同暴毙，实则是毒性攻心。"
+      },
+      "reason": "R01指出沈晚晴作为非医学背景角色，能迅速理解并制定基于药理学细节的精密计划，其知识储备来源略显模糊。虽然白叔是医生，但沈晚晴的决策速度和精准度确实超出了普通人的认知范围，属于B级的‘职业或经历提供弱暗示，但不足以支撑其具体能力’。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第36集与第37集开头大段重复，剧情停滞。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "赵氏（嘶哑尖叫）：伪造！全是伪造！这茶盏是你抢过去的，这粉末是你撒的，你沈晚晴为了救你那个相公，竟敢罔顾律法，用妖术污蔑赵家清誉！……沈晚晴（高声）：这是十日前，阿四从赵国公书房夹层中取出的原件副本。……嬷嬷（语无伦次，崩溃大喊）：不……不是陷害！是夫人给的！……",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "赵氏（嘶哑尖叫）：伪造！全是伪造！这茶盏是你抢过去的，这粉末是你撒的，你沈晚晴为了救你那个相公，竟敢罔顾律法，用妖术污蔑赵家清誉！……沈晚晴（高声）：这是十日前，阿四从赵国公书房夹层中取出的原件副本。……嬷嬷（语无伦次，崩溃大喊）：不……不是陷害！是夫人给的！……"
+      },
+      "reason": "合并R02-E001, R03-E001。第36集结尾与第37集开头几乎完全复演了赵氏尖叫、沈晚晴展示信纸、御史比对、嬷嬷被抓及招供的全过程。虽然第37集后续有顾长风暴起的新情节，但前段重复占据了大量篇幅，且核心信息在第36集已完全达成，第37集重复部分未提供新增信息，属于典型的集末与下一集开头重复及事件重复。这属于A级：两个重要事件重复，或一个重要事件被多次复述；虽有少量措辞、场景或反应差异，核心信息和结果仍相同。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第48集出现角色名字笔误，顾长风被误写为吴长风。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "吴长风：他卖的不只是兵权，是大夏的百年基业。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-1",
+        "contrast_quote": "顾长风（声音沙哑）：好一个忠臣良将。至死护着的，不是大夏的江山，是赵某的篡位之路。"
+      },
+      "reason": "R02指出第48集出现角色名字笔误，顾长风被误写为吴长风。这属于B级：重要身份称谓或关系标签不一致，影响人物关系、组织位置或权力边界理解。虽然不影响主线逻辑，但属于明显的文本逻辑瑕疵。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第50集信使喊话内容存在逻辑矛盾。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-3",
+        "quote": "信使（高吼）：兵部尚书赵怀义通敌！顾长风持有铁证！奉旨捉拿逆贼！",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-2",
+        "contrast_quote": "阿四：副将赵勇。他弃阵逃京，渡河时遭流矢击中，被我扣了。……赵勇死了，说明赵怀义以为后路已断，轻敌了。"
+      },
+      "reason": "R02指出第50集信使喊话内容存在逻辑矛盾。信使称‘顾长风持有铁证’却奉旨‘捉拿逆贼’，逻辑上不通。如果顾长风持有铁证，朝廷应嘉奖或保护，而非捉拿。此处可能是想表达‘顾长风涉嫌通敌’或‘顾长风被诬陷’，但台词表述导致因果断裂，观众会困惑为何持有铁证反而被捉拿。这属于B级：因果基本成立，仅有局部跳跃或铺垫偏薄。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "核心规则空降",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第52集沈晚晴的“前朝皇室之血”作为解毒引子，规则建立过于突兀。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "沈晚晴（声音颤抖却坚定）：喝下去！这是前朝皇室的血，是生机！……奇迹发生了。顾长风胸口的黑气仿佛遇到了克星，剧烈翻腾起来。",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-2",
+        "contrast_quote": "白叔顺势接话：这毒素在将军体内积蓄十年，只要找到引子，剧毒便可化为反噬之源。……沈晚晴：白叔验过，你的血能‘中和’寒酥。你不是待宰的羔羊，你是唯一的解药。"
+      },
+      "reason": "R02指出第52集沈晚晴的‘前朝皇室之血’作为解毒引子，规则建立过于突兀。前文仅提到顾长风的血能中和寒酥，并未提及沈晚晴的血有特殊功效。虽然沈晚晴的前朝身份在第45集揭露，但‘皇室之血可解毒’这一关键规则在解决核心危机时才首次出现并生效，缺乏前文铺垫。这属于B级：有铺垫但数量、清晰度或递进不足。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源突增失衡",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第51集顾长风在矿洞深处使用高爆雷缺乏铺垫。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "他从怀中掏出三枚高爆雷，毫不犹豫地拍入岩柱裂缝，掏出火折，点燃引信。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出第51集顾长风在矿洞核心反应室掏出三枚高爆雷炸塌岩柱。前文虽提到赵国公有火器，但顾长风作为被贬的督粮官，在逃亡途中如何获得并携带高爆雷，缺乏明确的获取路径或前文铺垫。这属于B级：增长较快或交代偏薄，但规模仍合理。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "顾长风在中毒濒死状态下多次展现超常体能。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "顾长风冷哼一声，体内暂封的毒素竟被这股守护的怒意激发，化作一股刚猛无匹的真气。……“咔嚓！”伴随着一声清脆的碎裂声，赵国公手中的精钢长剑寸寸崩裂，碎片四溅。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-1",
+        "contrast_quote": "顾长风猛地跪倒在地，双手抓挠着地面，指甲崩断，鲜血淋漓。……那股吞噬理智的狂暴力量，被这一口血暂时封印在体内。"
+      },
+      "reason": "R03指出顾长风身中‘蚀骨散’和‘寒酥’，多次被描述为‘气若游丝’、‘经脉寸断’、‘无法站立’，但在第47集、第53集等关键战斗中，却能单手提起赵国公、瞬间爆发真气震碎长剑。虽然可解释为情绪激发，但频率过高且强度过大，削弱了中毒设定的严肃性。这属于B级：变化有基本依据，但过程偏薄或节奏过快。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A014",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "highlight",
+      "category": "时空逻辑设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "黑石矿洞决战的空间调度与时间线清晰。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "铁蛋深吸一口气，屏住呼吸，手指稳稳扣动扳机。……“嗖！”破空声尖锐刺耳。箭矢如流星划破晨雾，精准地射中青铜环扣的连接销。……“咔哒。”机关失效，原本即将触发的爆炸声戛然而止。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出黑石矿洞决战的空间调度与时间线清晰。从滑索渡河、排水沟潜入、铜锣诱敌到最终崩塌，空间转换合理，时间线紧凑。阿四、铁蛋、白叔等配角在关键节点的行动与主线紧密配合，无时空矛盾。这属于A级亮点：主要时间节点、地点转换和规则边界清晰，无明显矛盾。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 19,
+  "covered_count": 19
+}

@@ -1,0 +1,350 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角罗斯的人物弧光完整且深刻，从求生者到复仇者再到社会行动者的转变逻辑严密，内在矛盾（母性与复仇、生存与道德）被充分戏剧化。配角格特鲁德、文森特及反派爱德华、多莉均具有鲜明的辨识度和不可替代的功能。人物关系（罗斯与格特鲁德、罗斯与文森特）张力十足，情感绑定通过具体事件（火灾、囚禁、审判）得到有力证明。在情节规划方面，桥段设计精巧，情绪节奏张弛有度，主线推进与阶段兑现高效。主要问题在于部分集数（如第11-13集）存在局部节奏拖沓和重复性动作描写，以及个别场景（如第45集）反派动机在极端压力下略显工具化，但整体瑕不掩瑜，属于高质量剧本。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如潜入、追踪、逃脱）大多承担不同功能，通过新变量（如从公寓到下水道，从下水道到夜总会，从夜总会到海上豪宅）和结果升级形成有效变奏。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯迅速滑入客厅角落的阴影中... 她转身冲向厨房，从碗柜底层摸出一个自制的小型金属罐"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手代表不同资源、价值立场与压力类型。多莉代表家族名誉与法律压迫，爱德华代表资本与科技控制，黑帮代表暴力与混乱，迫使主角采用不同策略（伪装、黑客、物理对抗）。",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-1",
+        "quote": "爱德华：我不关心他的感受，我只关心资产的完整性。文森特现在是家族最大的不稳定因素。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从发现文森特假死到潜入夜总会获取证据，再到潜入疗养院，每一步都压缩人物选择或扩大后果。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "罗斯的手剧烈颤抖。她死死盯着那个手腕，嘴唇无声地开合，似乎在咀嚼两个词：“不可能。”"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。第1集通过逃亡迅速建立罗斯的生存状态和核心冲突。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯：姨妈？这么早？ 多莉（混响，语调甜美却带着疏离的寒意）：罗斯，亲爱的。早餐吃了吗？外面有些小误会，我想你可能还没醒。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从第30集开始，节奏加快，高潮逐级增强。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "罗斯：玛莎，启动干扰。我要那艘船在海里看起来像一块死木头。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。从绝望到愤怒，再到决绝，最后到平静，情绪曲线完整。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "罗斯僵住了。颤抖的手指轻轻抚过孩子的脸颊，温热、柔软、鲜活。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。每集结尾都留有悬念，如第1集结尾罗斯进入隧道，第2集结尾罗斯决定复仇。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "她抱起婴儿，转身向报刊亭更深的阴影处走去，背影决绝。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡节奏快，中期调查节奏适中，后期高潮节奏紧凑。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-1",
+        "quote": "罗斯死死捂住自己的嘴，指甲深深陷入掌心。胃部一阵翻江倒海，强烈的呕吐感涌上喉头。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但局部有可压缩的重复、过渡或低增量集数。例如第11-13集在码头的调查过程略显拖沓，部分动作描写重复。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "罗斯深吸一口气，压抑住体内因烧伤和寒冷而灼痛的肌肉。她从大衣内侧口袋中摸索出一物，动作极轻，避免发出任何金属碰撞的噪音。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。格特鲁德的副线（保护婴儿、提供庇护）与主线紧密相连，最终在审判和结局中发挥作用。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "格特鲁德（低语，声音沙哑）：既然上面无路可走，那就下地狱去。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从寻找文森特到揭露爱德华罪行，再到建立基金，主线推进清晰。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "罗斯：既然他喜欢用金钱杀人，那我就让他用金钱救人。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角罗斯的人物弧光完整且深刻，从求生者到复仇者再到社会行动者的转变逻辑严密。",
+      "reason": "起点缺陷（失去家庭、被追杀）、关键转折（发现文森特假死、潜入夜总会、火灾中救录音笔、审判）和终点变化（建立基金、帮助他人）均有证据。每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "罗斯：既然他喜欢用金钱杀人，那我就让他用金钱救人。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角罗斯的内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "reason": "内在矛盾（母性与复仇、生存与道德）在多个关键节点（如第44集面对婴儿照片、第45集面对母亲录音、第56集面对文森特的PTSD）被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "罗斯的眼神从瞬间的崩溃凝固为一种极度危险的冰冷。她猛地捏碎手机屏幕，将其塞回最内层贴身口袋，紧贴心脏位置。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角格特鲁德、文森特及反派爱德华、多莉均具有鲜明的辨识度和不可替代的功能。",
+      "reason": "角色层级清晰，重要角色各有不可替代的专属功能。格特鲁德提供庇护和情感支持，文森特提供关键信息和情感锚点，爱德华和多莉分别代表资本和家族压迫，分工形成有效协作或对冲。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "格特鲁德（低语，声音沙哑）：既然上面无路可走，那就下地狱去。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（罗斯与格特鲁德、罗斯与文森特）同时存在至少三类相互咬合的张力来源。",
+      "reason": "罗斯与格特鲁德的关系存在身份立场（逃亡者与庇护者）、目标利益（复仇与生存）、情感依赖（信任与牺牲）等张力来源。罗斯与文森特的关系存在情感依赖、秘密误会（文森特被囚禁）和价值冲突（复仇与救赎）等张力来源。移除这些关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "格特鲁德：我不需要烈士，我需要能活着把人救出来的战友。如果你死了，这把钥匙就是一块废铁。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收。",
+      "reason": "罗斯与格特鲁德的关系从第3集相遇，到第34集格特鲁德提供关键信物，再到第54集格特鲁德在法院外等待，关系推进本身构成连续叙事动力。罗斯与文森特的关系从第2集发现假死，到第27集在ICU重逢，再到第50集在甲板上团聚，关系推进清晰且有明确回收。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "格特鲁德穿着一件洗得发白的灰色风衣，静静伫立。她没有欢呼，也没有拥抱，只是看到罗斯走出来时，眼中闪过一丝欣慰的光芒。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "reason": "第1集通过罗斯的逃亡迅速建立核心人物和异常情境，信息组织流畅，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯：姨妈？这么早？ 多莉（混响，语调甜美却带着疏离的寒意）：罗斯，亲爱的。早餐吃了吗？外面有些小误会，我想你可能还没醒。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "核心矛盾（罗斯与爱德华家族的对抗）明确，阻力（多莉、爱德华、黑帮）有效，风险（失去生命、失去孩子）可感知，并形成复仇和生存两类稳定的后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "她确认了：死者不是文森特。这是一个骗局。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "每集结尾都留有悬念，如第1集结尾罗斯进入隧道，第2集结尾罗斯决定复仇，第3集结尾罗斯进入酒馆，承接自然，情感投入持续累积。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "她抱起婴儿，跨过散落的砖块，深一脚浅一脚地走出报刊亭。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "局部有可压缩的重复、过渡或低增量集数。",
+      "reason": "第11-13集在码头的调查过程略显拖沓，部分动作描写重复，如罗斯多次在集装箱间穿行、多次躲避杀手，可压缩。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "罗斯深吸一口气，压抑住体内因烧伤和寒冷而灼痛的肌肉。她从大衣内侧口袋中摸索出一物，动作极轻，避免发出任何金属碰撞的噪音。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派爱德华在极端压力下动机略显工具化。",
+      "reason": "爱德华在第45集面对罗斯的录音时，动机从复杂的资本控制简化为单纯的威胁和恐吓，略显工具化。但其前期动机（资产完整性、家族利益）支撑较厚，整体仍可识别。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "爱德华（画外音）：（语气得意）没错。就是你杀了你的母亲？不，是我。我看着她在那张病床上像狗一样死去。至于那个婴儿……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

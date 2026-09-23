@@ -1,0 +1,15 @@
+{
+  "pipeline": "dimension_ledger_multi_agent",
+  "version": "logic-quality-ledger-v2.4-shared-module-baseline-20260921",
+  "script_path": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_matched_direct_history_baseline_v1/R03/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "script_sha256": "8342900ce70d8d7e7fb2d7e0f34d6bf0bf08b800f4489697aba9c12b09747c5e",
+  "model": "Qwen3.8-27B",
+  "reviewers_per_dimension": 3,
+  "context_mode": "direct",
+  "direct_char_limit": 300000,
+  "chunk_chars": 100000,
+  "standard_sha256": {
+    "logic": "bd4d3de9e65830d8f95b8a02dd74fa31d20ed5eb6cd4da375462b3aa4afbca94",
+    "quality": "97622ca16d3c4af4baefef8ed577b554c14aa7df7f718150ac27712e3a6eefff"
+  }
+}

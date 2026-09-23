@@ -1,0 +1,328 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角伊莱亚斯与梅莉安的人物弧光完整且深刻，从初期的保护/被保护、控制/被控制，逐步演变为基于共同创伤和道德困境的平等战友关系。人物深度通过多次两难选择（如伊莱亚斯利用无辜者制造混乱、梅莉安发现真相后的决裂与和解）得到充分戏剧化。配角西拉斯功能明确，反派首领虽着墨不多但压迫感强。人物关系张力充足，情感绑定通过具体事件（如地下室共患难、最终牺牲）得到有力证明。主要问题在于部分配角（如村民、管家）功能略显单一，以及反派首领在后期部分场景中动机和威胁的呈现稍显套路化。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如梅莉安受神经干扰、伊莱亚斯战斗）大多承担不同功能，通过新变量（如干扰源变化、敌人升级）形成有效变奏。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "梅莉安猛地捂住双耳，身体剧烈痉挛，瞳孔因强光刺激而涣散。她视线前方的虚空中，无数扭曲的银色星形光斑疯狂旋转，仿佛要将她的意识撕裂。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（无人机、守卫、首领）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（物理破坏、战术规避、心理对抗）。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "三个拇指大小的黑色圆盘状无人机从头顶的阴影中无声滑出，悬停在伊莱亚斯面前三米处。它们的旋翼几乎静止，却散发着危险的低频震动。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "首领（VO）：梅莉安的母亲，萨拉。她死于意外？不。她死于你的一次“必要牺牲”。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯：（眼神一凛，放下枪）"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "首领拇指按下。滋——！蓝紫色的高压电弧如毒蛇般从首领袖口窜出，瞬间击中伊莱亚斯的后颈脊椎。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "伊莱亚斯张开双臂，整个人猛地扑在喷口上，双手死死扣住断裂的金属边缘，身体紧贴滚烫的管道，用人肉作为唯一的缓冲垫。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "梅莉安：他给的是诱饵坐标。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "一份名为“净化协议”的文件自动展开：显示全镇供水系统注入微量神经抑制物，配合特定频率灯光即可诱发集体幻觉或暴动。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "梅莉安（极轻地，对昏迷的西拉斯）：现在不需要警察，只需要一个能让我们活下去的人。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-2",
+        "quote": "梅莉安（喃喃自语）：他不是帮不了……他是选择了沉默。他用父母的命，换了我的命。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "梅莉安：我不属于这里。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "伊莱亚斯的人物弧光完整且深刻，从冷酷的保护者/控制者转变为有道德反思的战友，变化由强驱动事件逼出主动选择并产生不可逆后果。",
+      "reason": "起点缺陷（冷酷、控制欲强）、关键转折（第22集利用无辜者、第35集真相揭露、第52集牺牲）均有证据，每次变化都由强驱动事件逼出主动选择并产生不可逆后果，显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "伊莱亚斯（面无表情，甚至没有擦拭地图上的污渍）：如果不引爆混乱，黎明时分毒气阀门会自动锁定。那时死的不是几个人，是全镇的人。梅莉安，这是算术题。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "伊莱亚斯张开双臂，整个人猛地扑在喷口上，双手死死扣住断裂的金属边缘，身体紧贴滚烫的管道，用人肉作为唯一的缓冲垫。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "伊莱亚斯的内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "reason": "内在矛盾（保护欲与冷酷手段、愧疚与复仇）在多个关键节点通过两难（第22集、第35集）、脆弱暴露（第35集崩溃）、犯错与承担后果（第52集牺牲）被充分戏剧化。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "伊莱亚斯猛地抬起头，眼神空洞且充满恐惧。他没有看梅莉安，反而痛苦地蹲下身，双手死死抱住头，手指深深插入凌乱的发际线，指缝间溢出压抑到极致的呜咽。",
+        "contrast_episode": "第22集",
+        "contrast_scene": "22-1",
+        "contrast_quote": "伊莱亚斯（逼近一步，压抑着怒火）：我有选择吗？看着梅莉安的大脑被格式化？看着更多人像第4集那具‘银色’尸体一样被处理掉？"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "梅莉安的人物弧光完整，从被动受害者转变为主动决策者，变化由强驱动事件逼出主动选择并产生不可逆后果。",
+      "reason": "起点缺陷（被动、依赖）、关键转折（第11集偷取设备、第30集独立行动、第44集捏碎令牌）均有证据，每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "梅莉安（嘴角勾起一丝苦涩而疯狂的冷笑）：既然你们想玩游戏……那就看看谁才是真正的猎手。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "梅莉安：我不属于这里。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "梅莉安的内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "reason": "内在矛盾（对伊莱亚斯的依赖与愤怒、自我厌恶与求生欲）在多个关键节点通过两难（第30集管家抉择）、脆弱暴露（第21集崩溃）、犯错与承担后果（第57集发现真相）被充分戏剧化。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "梅莉安握刀的手指微微松开了一些。杀戮易，抉择难。如果杀了他，就证明了“兄弟会”塑造的那个疯狂、冷血的梅莉安是正确的；如果放过他，不仅风险巨大，更是对队友的一种潜在背叛。",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-2",
+        "contrast_quote": "梅莉安（喃喃自语）：他不是帮不了……他是选择了沉默。他用父母的命，换了我的命。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "reason": "主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。西拉斯作为技术支援和道德对照，功能明确。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-2",
+        "quote": "西拉斯：（目光冷静，甚至带着一丝冷酷的专业感）你想让她变成植物人，还是让她睡一觉？这是我从档案室偷出来的神经阻断剂。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派首领动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "reason": "反派首领动机（控制、净化）可识别，但支撑较薄，主要依赖口头设定（如第35集揭露真相）；与主角的对照、升级过程或关键压迫场面不足，后期部分场景略显套路化。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "首领（VO）：你以为切断信号，烧毁图纸，就能改写过去？你总是这么天真，就像当年在“白桦林”行动里那样。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "伊莱亚斯与梅莉安的关系同时存在身份立场（保护者/被保护者）、目标利益（生存/自由）、情感依赖（愧疚/愤怒）、秘密误会（真相揭露）和价值冲突（冷酷/人性）等多类张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "梅莉安（冷笑）：所以，第15集的“平等战友”，只是为了让我提供数据？数据用完了，我又变回那个需要被关在笼子里的小白鼠了？",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "梅莉安：（反手死死扣住他的手腕，指甲几乎陷入他的皮肉，直视他的眼睛）我不关心过去你是谁，也不在乎那些见鬼的代码！我只关心现在你是谁！"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "伊莱亚斯与梅莉安的关系贯穿全剧，有清晰起终点（从控制到平等）、至少两个因果紧密的关键里程碑（第11集偷取设备、第35集真相揭露、第52集牺牲）和明确回收，关系推进本身构成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "梅莉安（嘴角勾起一丝苦涩而疯狂的冷笑）：既然你们想玩游戏……那就看看谁才是真正的猎手。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "伊莱亚斯张开双臂，整个人猛地扑在喷口上，双手死死扣住断裂的金属边缘，身体紧贴滚烫的管道，用人肉作为唯一的缓冲垫。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "情感绑定",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角相关重要关系整体通过具体事件进阶到信任、依赖、亏欠、保护、牺牲或价值认同。",
+      "reason": "伊莱亚斯与梅莉安的关系通过具体事件（如地下室共患难、最终牺牲）进阶到信任、依赖、亏欠、保护、牺牲或价值认同。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "伊莱亚斯张开双臂，整个人猛地扑在喷口上，双手死死扣住断裂的金属边缘，身体紧贴滚烫的管道，用人肉作为唯一的缓冲垫。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

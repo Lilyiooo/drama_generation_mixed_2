@@ -1,0 +1,369 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角埃德蒙具有极高的辨识度，其“盲人”设定被转化为独特的感知系统（听觉/嗅觉）和权力工具，语言习惯（冷静、讽刺、精准）和行为模式（盲杖敲击、气味分析）贯穿全剧，替换成其他角色后关键台词与决策无法成立。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "埃德蒙：石头不会说话，但味道会。伯爵大人，你的雪茄太甜，盖过了铁锈的血腥气。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出主角辨识度极高。证据显示埃德蒙的感官替代（嗅觉/听觉）不仅是生理特征，更是核心叙事手段和人物标识。其语言风格（冷静、隐喻、命令式）和行为模式（盲杖节奏、气味判断）在全剧中高度一致且独特，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "埃德蒙的人物弧光完整，从被动防御（第1-3集）到主动操控（第8-12集），再到道德困境（第47-50集）与最终的精神升华（第56-60集），每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "埃德蒙（声音无悲无喜）：血渍洗不掉。但热度没了。记住这种感觉，艾德里安。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。"
+      },
+      "reason": "三位评审均确认主角弧光清晰且完整。起点（被动防御）、转折（主动操控、道德困境）和终点（精神升华/象征化）均有明确证据。关键转折如第47集艾德里安事件和第60集广场对峙，均由强驱动事件引发，并产生不可逆后果，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "埃德蒙的内在矛盾（冷酷与仁慈、权力与道德）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，如第47集艾德里安事件中的道德困境，以及第56集面对难民时的自我反思。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "埃德蒙：（轻笑，笑声干涩）所以我错了。我一直试图用法律去解释战争，用荣耀去抚慰创伤。但法律对断肢没有意义，荣耀填不饱肚子。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01和R02评为S级，R03评为A级。审核认为S级成立。埃德蒙的内在矛盾（秩序/人性、复仇/救赎）在第47-50集（艾德里安事件）和第56集（难民场景）中通过两难选择和脆弱暴露被充分戏剧化。他并非始终正确，而是承受了巨大的道德代价（如牺牲旧部、被艾德里安质疑），符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能。奥古斯汀代表宗教/道德审判，冯·克莱斯特代表世俗/政治清洗，汉斯代表旧贵族/经济利益，艾德里安代表道德困境与情感纽带，分工形成有效协作或对冲。",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-2",
+        "quote": "冯·克莱斯特：这不是魔法，这是愚蠢。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出角色功能明确且分工合理。奥古斯汀、冯·克莱斯特、汉斯、艾德里安分别代表不同维度的阻力或支持，推动主线发展。虽然部分配角（如伯爵、管家）功能稍显单一，但核心角色群像均衡，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005"
+      ],
+      "status": "rejected",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "奥古斯汀的反派塑造具有层次感，从伪善的宗教审判者到崩溃的投机者，动机（权力、信仰、生存）可追溯，且与主角的对照、升级过程或关键压迫场面充分。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "奥古斯汀（气声，极低极轻）：Corpus moritur, animus renascitur……（肉身死亡，灵魂复生……）",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "该条目在“人物质量”标准中属于“配角与角色功能”下的“反派塑造”检查项。然而，标准中“反派塑造”仅定义了问题等级（A/B），未定义亮点等级。且“角色功能整体质量”（A04）已涵盖了反派威胁稳定和群像分配合理的内容。单独为反派塑造建立亮点台账项属于重复计分或标准外推，故拒绝。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E005",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "埃德蒙与艾德里安的关系同时存在至少三类相互咬合的张力来源：身份立场（国王与臣子）、目标利益（政治胜利与道德底线）、情感依赖（信任与背叛），移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "艾德里安（嘶吼，声音哽咽）：那是人！陛下，那是活生生的人！你让我们把他们送进火坑，看着他们烧成灰，这就是你想要的胜利？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均确认核心关系（埃德蒙-艾德里安）存在多类张力。身份（君臣）、利益（政治vs道德）、情感（信任vs背叛）相互咬合，且该关系是主线情感投入的关键，移除将导致逻辑坍塌，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R02-E006",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "埃德蒙与艾德里安的关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑（第25集艾德里安被捕、第47集艾德里安违背命令）和明确回收（第50集冰水勋章、第56集广场对峙），关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "埃德蒙（声音无悲无喜）：血渍洗不掉。但热度没了。记住这种感觉，艾德里安。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-2",
+        "contrast_quote": "埃德蒙：（低声，贴耳耳语）忍耐。记住我是谁。"
+      },
+      "reason": "R01和R02评为S级，R03评为A级（针对奥古斯汀关系）。审核认为埃德蒙-艾德里安关系的推进符合S级标准。关系贯穿全剧，有清晰起点（第2集）、关键里程碑（第25集被捕、第47集背叛）和明确回收（第50集冰水勋章、第60集广场对峙），推进过程构成连续叙事动力。R03关于奥古斯汀关系的A级评价虽成立，但埃德蒙-艾德里安关系的S级评价证据更充分且为核心关系，故合并为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分配角（如伯爵、管家）功能单一，主要围绕帮助或伤害主角运转，缺乏个人目标与独立情感价值。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "伯爵（跪倒在地，额头抵着冰冷的水渍石板）：陛下明鉴！这是为了……为了支持陛下复辟的必要手段！我愿意承担所有风险！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出伯爵和管家等配角功能单一，主要服务于主线推进，缺乏独立弧光。证据显示伯爵主要作为埃德蒙的工具/棋子，管家主要作为被操控对象。虽然他们推动了剧情，但个人目标和情感深度不足，符合B级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境和戏剧问题，信息清晰，形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出开篇高效建立了人物（盲人国王）、情境（囚禁/监视）和核心问题（生存/反击）。第1集通过盲杖敲击、气味识别等细节迅速确立人物特征和悬念，信息组织流畅，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "奥古斯汀：来人。守住门口。没有我的命令，任何人不得进入，任何人不得离开。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出核心矛盾（埃德蒙 vs 教会/宰相）建立清晰，阻力（奥古斯汀的监视、冯·克莱斯特的封锁）有效，风险（死亡、流放）可感知。后续期待（如何反击、如何生存）稳定且多样，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "埃德蒙：（嘴角上扬，眼神冰冷）因为我需要一位‘虔诚’的朋友，在我开口的那一刻，告诉我，这声音是否足够……震慑人心。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出集末悬念（如第3集奥古斯汀的威胁、第13集演讲陷阱）在下一集得到及时承接和兑现。情感投入持续累积，没有断裂，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "埃德蒙：（低声自语，声音极轻，仅自可闻）……恐惧是有重量的。但当它被定义为‘宽恕’时，它就成了臣服的血肉。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出主要角色语言差异鲜明。埃德蒙的语言冷静、简短、充满隐喻；奥古斯汀的语言虚伪、宗教化；艾德里安的语言激烈、情感化。语言风格与人物身份、性格高度一致，且对话节奏有效推动张力，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E012"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如盲杖敲击、气味可视化（通过反应）、冰水勋章等，在关键场景形成高度可辨识的视觉组织。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "埃德蒙将手抽出，水面在指缝间滴落。他捡起那枚湿漉漉的勋章，水珠顺着复杂的纹路滑落，滴在地板上，声音清晰可闻。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出剧本中多次出现具有视觉冲击力的名场面，如盲杖敲击、冰水勋章等。这些场景通过动作、声音、光影等元素，形成了高度可辨识的视觉组织，增强了画面表现力，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E013"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定（盲人感官、旧王朝记忆、政治博弈）分阶段释放，与剧情高潮或关键行动精准绑定，信息量始终可吸收。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "埃德蒙：（声音不大，却字字清晰）“吾等立誓，不为权杖折腰，不为利刃低头。吾之双手，仅用于守护无辜者之安宁……”",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出设定（如埃德蒙的感官能力、旧王朝誓词）并非一次性抛出，而是随着剧情推进逐步释放，并与关键行动绑定。信息释放节奏良好，符合A级亮点标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 26,
+  "covered_count": 26
+}

@@ -1,0 +1,184 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体构建了悬疑惊悚框架，但在执行层面存在严重的逻辑断裂。主要问题集中在：1. 核心道具（星形令牌/薄片）的物理属性与功能前后矛盾，且存在“已销毁/已使用”后复现的硬伤；2. 关键剧情节点（如第16集与第25集）出现大段台词与情节的完全重复，导致叙事停滞；3. 角色状态（如西拉斯的重伤恢复、伊莱亚斯的生死状态）在集与集之间缺乏合理的过渡或解释；4. 反派首领的动机与行为逻辑在后期出现降智或强行反转。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "星形令牌/薄片在前期已被明确使用、损坏或销毁，但在后续剧情中多次无解释地复现或恢复功能。",
+      "reason": "第50集明确描述薄片“成了废铁”、“耗尽”，第55集描述为“碎片”、“黯淡无光”、“不再散发磁场”，第57集甚至称之前用的是“仿制品”。然而第58集梅莉安又拿出“那枚冰冷的星形薄片”塞入枕头，第59集伊莱亚斯又摸到枕下的薄片，第60集伊莱亚斯手中仍有“银色的星形薄片”且男子称其能闹出大动静。关键道具的状态在“废铁/碎片/仿制品”与“有效密钥/完整薄片”之间反复横跳，严重破坏逻辑自洽。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "伊莱亚斯（看着手中黯淡焦黑的薄片）：它成了废铁。但它帮我们买到了这三十秒。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-2",
+        "contrast_quote": "伊莱亚斯OS：（心中一震）那个薄片……还在。△ 他迅速将它塞入贴身内袋"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "第16集与第25集第1场内容几乎完全重复，包括台词、场景和人物反应。",
+      "reason": "第16-1场与第25-1场在台词上高度重合，如“摩斯电码解开了。坐标是地下军械库”、“二十四小时，就在午夜零点”、“不，梅莉安。你留下”等。这种大段落的完全复述属于严重的叙事停滞，且未提供新的信息或视角，直接导致剧情逻辑断裂和观众体验受损。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "伊莱亚斯：摩斯电码解开了。坐标是地下军械库。梅莉安（盯着屏幕）：还有这个倒计时无意义的闪烁？伊莱亚斯：那是定时器。二十四小时，就在午夜零点。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-1",
+        "contrast_quote": "伊莱亚斯：摩斯电码解开了。坐标是地下军械库。梅莉安（盯着屏幕）：还有这个倒计时无意义的闪烁？伊莱亚斯：那是定时器。二十四小时，就在午夜零点。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "西拉斯在第24集被导弹爆炸冲击波掀飞并断了两根肋骨，但在第25集及后续多集中迅速恢复并参与高强度行动，缺乏合理的医疗过渡。",
+      "reason": "第24-2集西拉斯被爆炸波及，第24-3集自述“肋骨断了两根”。第25-1集他已能站立、插话并参与战术讨论。第25-2集他还能从战术背心掏无线电并详细汇报情报。虽然第25-1集提到他“扶着断裂的肋骨靠在桌边”，但随后几集（如第28集、第31集）他已能进行潜行、攀爬、射击等高强度动作，且未交代具体的治疗过程或时间跨度，恢复速度过快，不符合重伤逻辑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-3",
+        "quote": "西拉斯（喘息）：肋骨断了两根……但我争取到了时间。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-2",
+        "contrast_quote": "西拉斯（对着无线电急促喘息）：电梯门是被焊死的，我踹开了。现在我在顶层。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第44集梅莉安通过“咬破嘴唇”和“扯下无形枷锁”切断控制，缺乏物理或逻辑支撑，属于典型的“危机解决作弊”。",
+      "reason": "前文多次强调兄弟会使用的是高科技神经干扰、声波武器和生物芯片控制。第44集中，梅莉安仅通过主观意志（咬破嘴唇、喊出“断吧”）就切断了首领的控制链接，且描述为“从某种无形枷锁中扯下”，这种唯心主义的解决方式与前文建立的硬科幻/惊悚规则冲突，且直接导致反派失败，缺乏铺垫。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "△ 梅莉安没有摔碎令牌，而是用力将其从某种无形枷锁中扯下。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-2",
+        "contrast_quote": "伊莱亚斯（撕开中继器外壳）：是为了重塑。让你成为他们的新傀儡。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第20集伊莱亚斯准确知道梅莉安的生日作为密码，且声称这是“他们唯一的盲点”，但前文未交代伊莱亚斯如何获取此信息或为何兄弟会会犯此低级错误。",
+      "reason": "伊莱亚斯作为前特工，知道侄女生日合理，但兄弟会作为高科技犯罪组织，使用受害者生日作为核心控制室密码且被伊莱亚斯轻易利用，缺乏合理性铺垫。更关键的是，伊莱亚斯在输入前就断定“这是唯一的机会”，暗示他早已知晓密码机制，但前文未展示他如何破解或获知这一关键情报，属于信息来源缺失。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "伊莱亚斯：密码就在你的生日里。这是他们唯一的盲点。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伊莱亚斯（冷眼）：把伞收了。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第38集梅莉安称“我们已经在这迷宫里绕了三天了”，但前文剧情推进速度极快，且第37集刚出发，时间跨度不合理。",
+      "reason": "第37集伊莱亚斯带队出发，第38集即进入深层矿道。从出发到“绕了三天”缺乏时间流逝的交代，且前文多集剧情集中在同一夜或短时间内，突然插入“三天”的时间跳跃与整体紧凑的惊悚节奏不符，且未解释这三天内角色的生存状态。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "梅莉安：别吓唬我。我们已经在这迷宫里绕了三天了。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "伊莱亚斯（跨入车厢，回头看了一眼）：启动引擎。十分钟后，这里是战场。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E007",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第57集揭示梅莉安父母是“知情者联盟”成员并掩盖罪行，这一重大反转缺乏前文铺垫。",
+      "reason": "前文梅莉安的父母仅在第1集提及“母亲临终前”，第30集管家提及“父母被扣在矿坑”。第57集突然通过诊所账单揭示父母不仅知情，还协助兄弟会掩盖伊莱亚斯的罪行，这一信息量巨大且改变了人物关系基调，但前文没有任何关于父母与兄弟会合作或伊莱亚斯对此有怀疑的铺垫，显得突兀。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "梅莉安（声音哽咽）：他那天去执行任务，我父母不仅看见了他在杀人，甚至向“兄弟会”隐瞒了他的行踪。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "梅莉安（举起信封）：这是母亲临终前让我交给你的。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E008",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "伊莱亚斯在第59集突然决定离开并表现出“安宁”，与其长期以来的复仇和守护动机转变过快。",
+      "reason": "伊莱亚斯全剧核心动机是复仇和保护梅莉安。第58集刚发现“兄弟会没死透”的新威胁，第59集他却表示“风暴已经平息”、“我要去南部小镇”、“这是一种安宁”。这种从高度警惕到突然放下的心态转变，缺乏足够的情感缓冲或事件驱动，显得动机断裂。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "伊莱亚斯：风暴已经平息，我不该继续占着这风暴眼的位子。我要去南部小镇。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-2",
+        "contrast_quote": "伊莱亚斯（眼神中透出深深的疲惫）：到这座庄园彻底沦为“兄弟会”的活体实验室。"
+      }
+    }
+  ]
+}

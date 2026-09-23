@@ -1,0 +1,644 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角苏半夏的内在信念变化缺乏足够的驱动事件，主要依赖外部处境（如陆离失忆）改变行为模式。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "苏半夏（死死攥着陆离的衣袖，指节发白）：忘了也好。忘了那些脏东西，说不定能活得长久点。",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "苏半夏：（拿起桌上的令牌和长命锁，紧紧攥在掌心）既然他们是冲着这个来的，那我就带着这个，杀回去。"
+      },
+      "reason": "R01指出苏半夏内在矛盾戏剧化不足，R03指出其弧光依赖外部事件（失忆）。两者均指向主角内在转变缺乏主动选择与心理铺垫，属于同一检查项“人物弧光不足”。证据显示第53集后苏半夏态度转变主要因陆离失忆这一外部事件，而非内在信念的主动重构，符合A级标准（变化可识别，但主要由外部结果被动带来）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角人物弧光主链路完整，从被动/生存到主动/掌控的转变有事件驱动。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "苏半夏（将黑金令牌拍在桌案上，发出一声巨响，对着全场狂呼）：现在我宣布，“半夏商盟”正式成立！从今往后，京城的天，就是我们说了算！",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！"
+      },
+      "reason": "R01评价陆离弧光，R02评价苏半夏弧光。两者均确认主角弧光完整。苏半夏从第1集撒泼求生到第58集商盟盟主，陆离从落魄将军到主动反击，均有明确起点、转折和终点。符合A级亮点标准（主链路完整，关键转折具有事件驱动）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏的内在矛盾（狠辣与深情）通过关键选择被戏剧化。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "苏半夏：（拿起桌上的令牌和长命锁，紧紧攥在掌心）既然他们是冲着这个来的，那我就带着这个，杀回去。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出苏半夏在第16集和第47集通过关键选择展现了脆弱面与主动选择。第47集面对身世真相选择“不逃了”并主动反击，体现了内在矛盾的戏剧化。符合A级亮点标准（有明确内在矛盾及实质剧情展现）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离的语言习惯与行为模式在失忆前后缺乏足够的区分度，部分台词可替换。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "陆离（缓缓凑近，额头抵住苏半夏的额头，声音低沉而坚定）：从今往后，这军中的风浪，家中的风雨，还有那该死的毒，我陆离一人扛。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出陆离在失忆前后语言风格区分度不足，部分场景像标准“深情男主”模板。虽然陆离有“冷峻”标签，但在情感表达上缺乏独特的语言习惯或行为模式，导致辨识度在B级（性格基本清晰，但专属语言、标志行为不足）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离的内在矛盾（毒/血/身份）虽有展现，但缺乏两难选择的深度戏剧化。",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-3",
+        "quote": "陆离：（绝望地闭上眼）你养我十年，我让你陪葬。不如我现在划了，落得个清净。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出陆离的“毒”设定主要作为剧情工具，缺乏通过具体两难选择深度展现内在恐惧与自我厌恶。第19集虽有自杀倾向，但更多是情绪宣泄，未形成持续的两难抉择压力。符合B级问题标准（有局部内在冲突，但出现少、代价弱）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏的语言风格与行为模式极具辨识度，形成强烈的角色标签。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "苏半夏（冷声道）：只要她敢露头，我就拧断她的脖子。这才是真正的撒泼美学。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出苏半夏的“撒泼”、“商业头脑”与“狠辣”形成鲜明对比，台词和行为具有高度可辨识性。符合A级亮点标准（关键角色台词风格稳定，人物间表达差异清楚）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主要反派（继母、王爷、公主）动机单一，后期明显降智。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "继母（瘫软在地，语无伦次）：这……这是什么鬼东西！",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-1",
+        "contrast_quote": "公主（难以置信地瞪大双眼，手中的珠钗滑落）：你……你们竟敢谋逆！"
+      },
+      "reason": "R01和R02均指出反派动机单薄、后期降智。继母、王爷等反派在关键节点（如第33集、第34集）行为逻辑断裂，缺乏有效反击，威胁功能失效。符合A级问题标准（前期强威胁，后期为让主角获胜而明显降智降格）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E004",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "配角（骗神、医神、武神、智囊）功能高度重叠，缺乏个人目标与独立弧光。",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-1",
+        "quote": "骗神：（摇着破蒲扇，阴阳怪气）哎哟，先生这话大不敬！将军府的门槛都被那些债主踩出坑了，您倒在这儿泼脏水？",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-1",
+        "contrast_quote": "骗神（身穿青色长衫，头戴乌纱帽，手拿教鞭，俨然一副城管模样）：退后！排队！别乱挤！"
+      },
+      "reason": "R02和R03均指出配角功能单一，主要作为“工具人”或“解说员”，缺乏独立动机和成长。骗神、医神等角色在多个场景中行为模式同质，可替换性强。符合A级问题标准（多数重要角色只承担单一功能，缺少个人目标、选择逻辑与情感立场）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角（骗神、医神、武神、智囊）功能明确，分工清晰，推动主线。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "骗神：（身着破烂黑衣，正匍匐在沙地上，对着苏半夏竖起三根手指）姑娘，确认那是斥候帐吗？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出配角分工清晰，各有不可替代的专属功能（情报、医疗、武力、后勤），形成有效协作。虽然存在功能重叠问题（见A08），但在整体配置上，主角配置清晰，重要角色功能明确并推动主线。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏与陆离的核心关系存在明确张力来源（利益、情感、秘密），支撑主线。",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-3",
+        "quote": "苏半夏（猛地扑上去，一把死死扣住陆离的手腕，两人重重跌坐在地）陆离，你给我清醒点！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均确认核心关系存在多重张力（身份立场、目标利益、情感依赖、秘密共享）。第19集陆离欲自杀被苏半夏阻止，体现了情感依赖与价值冲突的咬合。符合A级亮点标准（核心关系存在至少两类明确张力来源）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "苏半夏与陆离的情感绑定在前期依赖利益（契约），中后期虽有心意，但缺乏关键行动与代价证明深层绑定。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "苏半夏：（猛地转身，将陆离死死护在身后，眼神中透着一股疯狂的血色）要血？给啊！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出两人关系推进较快，情感积累略显不足，部分关键节点缺乏长期铺垫。虽然第52集有牺牲行为，但整体情感绑定仍依赖利益与任务推动，进阶证据少。符合B级问题标准（至少一段关系有绑定雏形，但进阶证据少、铺垫不足）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇高效建立人物、情境与核心问题，形成阅读动机。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01和R02均确认开篇通过赵家肉铺事件快速建立苏半夏人设和陆离处境，核心问题（还债/解毒/夺权）建立清晰，信息组织流畅。符合A级亮点标准（人物与情境建立有效，核心问题清楚）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "issue",
+      "category": "阻力与对立关系不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主要阻力来源（继母、王爷）能力与行动不足以支撑预期强度，首次交锋未改变局面。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "继母（彻底瘫坐在地上，绝望地尖叫）：啊！来人！开门！快给他开门！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01和R02均指出反派阻力不足，首次交锋缺乏力度。继母在第9-10集被苏半夏轻易压制，缺乏有效反制手段，冲突结构驱动后续的能力不足。符合A级问题标准（阻力存在，但能力、立场、资源或行动不足以支撑预期强度）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "核心悬念（如天罗真相、陆离身世）兑现偏弱，缺乏相称的新信息或局面变化。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "医神（抬眼看向苏半夏，眼神复杂而庄重）：姑娘，这不仅是天罗的令牌，更是天罗核心成员的身份证明。您母亲，曾是这个组织的第一高手。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出天罗真相、陆离身世等核心悬念在后期通过医神解释和闪回快速兑现，缺乏足够的铺垫与因果积累。第47集医神直接告知苏半夏母亲身份，兑现过快且后果回收不足。符合A级问题标准（多处兑现偏弱、偏迟或只回答表层问题）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "情感投入度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "中后段情感投入度因失忆设定而减弱。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（摸索着握住苏半夏粗糙的手）：虽然不知道发生了什么，但我知道，不能让你受一点点伤，也不能让你离开我的视线。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出第53集陆离失忆后，观众对主线危机的关注度下降，情感投入主要转向“甜宠”日常，导致前期积累的紧张感与危机感被稀释。符合B级问题标准（已有基本情感连接，但重要选择的代价、关系回收或情绪持续性不足）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A016",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009",
+        "quality-R02-E010"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "多次出现“苏半夏撒泼/滚地/抱腿”等高度同质化桥段，缺乏有效变奏。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "苏半夏（顺势滚地，扬起灰尘）：大家看看！这就是她伪善的面具！还我将军府！",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "苏半夏：（一把死死抱住继母的绣花腿，仰头凄厉哭喊）我不起来！我今天就是赖在这里了！"
+      },
+      "reason": "R01和R02均指出剧本中多次出现“苏半夏撒泼/滚地/抱腿”、“舆论战”等高度同质化的桥段。第1集、第9集、第10集、第11集、第33集、第42集、第44集均使用类似手段，起因、过程与结果功能高度重复，缺乏新变量。符合等级2（持续套用桥段，只替换人物、地点或表层目标，推进和结果功能高度同质）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A017",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "对手与阻力的差异化",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "主要对手在目标、手段、压迫方式上高度同质，缺乏差异化。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "二叔（咬牙切齿）：她这是在收买人心！把买不起我们奢侈品的人，全都变成了她的粉丝！",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-1",
+        "contrast_quote": "礼部亲戚：苏半夏！你公然在此倒卖赃物，扰乱京城市场秩序，今日我必代表礼部将你拿下！"
+      },
+      "reason": "R01指出继母、二叔、礼部亲戚、权贵首领、王爷、公主等对手在目标（夺权/敛财/陷害）和手段（造谣/告状/武力）上高度同质，差异停留在名称与外观，明显降低新鲜感和升级感。符合等级2（同类阻力频繁复用，差异停留在名称与外观）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A018",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011",
+        "quality-R02-E011"
+      ],
+      "status": "confirmed",
+      "unit": "plot_emotion",
+      "kind": "issue",
+      "category": "中后段节奏",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中后段存在明显平淡段与高潮失力，情绪曲线断裂。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-2",
+        "contrast_quote": "苏半夏（颤抖着手捡起那挂饰，瞳孔骤缩）：这是……母亲留给我的长命锁？"
+      },
+      "reason": "R01和R02均指出中后段（第20集后/第40集后）存在明显的前高后低和节奏断裂。第21-27集北境线剧情推进缓慢，第53集陆离失忆后剧情基调突然转为田园治愈，情绪曲线断裂，高潮后的收束显得仓促且逻辑脱节。符合等级2（存在明显平淡段、前高后低或高潮失力，需要重排多个阶段才能修复）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A019",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E012",
+        "quality-R02-E012"
+      ],
+      "status": "confirmed",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "存在持续停滞或重复解释，明显推迟阶段目标和主线结果。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "陆离（牙关紧咬，冷汗浸透重衣）：冷……爹，别走……那石头……那是……",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "陆离：这花枝长得太乱，剪了。"
+      },
+      "reason": "R01和R02均指出第21-27集北境线中陆离毒发与救治反复出现，缺乏新目标或阻力；第54-56集失忆后的日常戏份对主线推进贡献有限，存在注水嫌疑。符合等级2（存在持续停滞或重复解释，明显推迟阶段目标和主线结果）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A020",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E013"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处台词呈总结腔、说明文腔，脱离人物目标与场景行动。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-2",
+        "quote": "苏半夏（转身，眼神锐利而通透）：陆离，这京城就是个绞肉机。你不利用人心，就会被人心嚼碎了咽下去。",
+        "contrast_episode": "第22集",
+        "contrast_scene": "22-2",
+        "contrast_quote": "陆离（摇头，声音低沉）：因为天罗组织不想让它现世。这个组织受雇于当朝王爷。他们一直在暗中清洗知道真相的人。"
+      },
+      "reason": "R01指出多个重要场景有明显剧情复述、情绪自我解释或背景硬塞。第14集苏半夏解释“反差杀人诛心”，第22集陆离解释“天罗组织”，第47集医神解释“天罗令牌”，均显著破坏真实感与张力。符合A级问题标准（多个重要场景有明显剧情复述、情绪自我解释、背景硬塞或抽象结论）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A021",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E014"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个位置出现工整对仗或金句连发，重场戏口语颗粒不足。",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-3",
+        "quote": "苏半夏（死死抱住他的肩膀，用额头抵着他的额头，粗声粗气地吼）伤害我？你以为老子怕那点破毒吗？你是将军，我是夫人，你的命是我的，你死也得问问我答不答应！",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-1",
+        "contrast_quote": "苏半夏（一字一顿，强行插入陆离的梦魇）：听着，你现在杀不了任何人。你连自己都杀不了。"
+      },
+      "reason": "R01指出核心交锋几乎句句完整如金句，存在多处角色间复现对仗。第19集“你是将军，我是夫人，你的命是我的”，第24集“你的刀断了，你的剑锈了”，第38集“因为你曾想跪着活，我却偏要站着死”，读感接近书面警句串联，影响真实感。符合A级问题标准（多个位置出现工整对仗或金句连发，重场戏口语颗粒明显不足）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A022",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E013"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词人物辨识度低",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "配角台词风格相近，缺乏辨识度。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-1",
+        "quote": "骗神（挥动教鞭）：本官乃是京城“公平交易厅”特聘专员，谁敢插队，挨顿板子！",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "骗神（立正）得令！保证让那婆娘出门都被扔烂菜叶。"
+      },
+      "reason": "R02指出骗神、医神、武神、智囊的台词多为“插科打诨”或“冷静分析”，缺乏各自独特的语言习惯，遮掉角色名后难以辨认。符合B级问题标准（个别角色台词与人设、身份或情境略有脱节，但未造成整体混同）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A023",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E015",
+        "quality-R02-E014"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "心理活动或内心独白过多",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处以非OS/VO的“心想、意识到”等不可拍信息替代可见动作。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "陆离：（心中微动，低声自语）好手段。兵不血刃，攻心为上。",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-1",
+        "contrast_quote": "陆离：（目光深深看向苏半夏，心中巨震）你的底牌，果然还有很多。"
+      },
+      "reason": "R01指出多处出现“心中微动”、“心中巨震”、“心中某处塌陷”等不可拍心理活动。R02指出部分场景使用OS/VO替代可见动作。两者均指向视觉化描写中不可拍信息过多，影响分镜落地。符合A级问题标准（多处以非OS/VO的“心想、意识到、内心崩溃”等不可拍信息替代可见动作）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A024",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E016"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "上帝视角或作者议论",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处出现命运评述或观众解释，破坏可拍性。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "△ 远处长街风声呼啸，似在为即将到来的风暴埋下伏笔。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-3",
+        "contrast_quote": "△ 烛火摇曳，两人的影子在墙上融为一体，仿佛在预示着风暴前夕的最后宁静。"
+      },
+      "reason": "R01指出多处出现“似在为即将到来的风暴埋下伏笔”、“仿佛在预示着风暴前夕的最后宁静”等越界叙述，破坏可拍性。符合A级问题标准（多处出现命运评述、观众解释或“谁也没想到”等越界叙述）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A025",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E015"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "issue",
+      "category": "设定与剧情脱节",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "“天罗”设定在前期铺垫不足，后期揭示略显突兀。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "医神：（叹一口气）组织早已隐退多年。但这件信物，足以说明您和骗神、武神、我，甚至智囊，我们都背负着同一个姓氏，同一个宿命的因果。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出“天罗”作为核心设定，在第47集才正式揭示，前期缺乏足够的线索与铺垫，导致观众在理解苏半夏身世时缺乏情感共鸣。符合B级问题标准（设定在部分情节中有推动作用，但整体效率偏低；或少量说明外露，大量情节无需该设定也能成立）。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 37,
+  "covered_count": 37
+}

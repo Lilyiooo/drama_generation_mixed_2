@@ -1,0 +1,292 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角米格尔的人物弧光完整且极具张力，起点缺陷（对尊严的执念/脆弱）、关键转折（担保、写黑稿、直播认罪、割腕、复仇）和终点变化（毁灭性复仇/自我毁灭）均有证据，每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "米格尔OS：如果救赎不存在……那就让这一切烧成灰。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "米格尔盯着那串数字，瞳孔微微放大。那不仅仅是钱，那是尊严，是他在乡村被轻蔑的眼神中夺回的筹码。"
+      },
+      "reason": "三位评审均指出主角弧光符合S级亮点标准。证据显示：起点为对尊严的过度维护（第1集）；转折包括第2集担保、第16集写黑稿、第27集直播认罪、第44集割腕、第55集复仇，每个节点均有强驱动事件（债务、生存、亲情）和主动选择，且后果不可逆（社会性死亡、道德崩塌、肉体毁灭）。符合S级锚点：起点缺陷、至少两个关键转折、终点变化均有证据，且由强驱动事件逼出主动选择并产生不可逆后果。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角米格尔的内在矛盾（尊严与生存、亲情与道德）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "米格尔闭上了眼睛。在那一刻，他仿佛听到了自己良知的脊梁骨折断的声音，清脆而绝望。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-2",
+        "contrast_quote": "米格尔（对着镜头咆哮）：我看见你了，萨瓦德拉！你想看我的尊严？我把它烧了！你想看我的血？我给你！"
+      },
+      "reason": "三位评审均确认人物深度符合S级亮点。证据显示主角在多个节点（第16集写黑稿时的良知挣扎、第30集出卖情报救妻、第44集割腕求药）面临两难选择，暴露脆弱面（呕吐、哭泣、幻觉），并承担了沉重后果（道德沦丧、社会性死亡）。符合S级锚点：内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能。马克西米娜承担道德锚点与情感羁绊，胡莉亚承担欲望反面与内部背叛，萨瓦德拉承担系统性压迫，门多萨承担底层互害与信任崩塌。分工形成有效协作或对冲。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "马克西米娜（声音冷硬，没有起伏）：这是你用尊严换来的钱。从现在起，你将永远背着它。",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-2",
+        "contrast_quote": "胡莉亚：（机械般地重复，声音冰冷）检测到单方强制解除申请。因关联方债务违约及信誉污染，无需对方确认。是否继续？"
+      },
+      "reason": "三位评审均确认角色功能符合A级亮点。证据显示各配角功能明确且不可替代：马克西米娜作为道德审判者（第23集熔戒指）、胡莉亚作为欲望与背叛的具象（第34集切割亲属）、萨瓦德拉作为系统性暴力代表（第45集删除监护权）、门多萨作为底层互害警示（第47集电击）。符合A级锚点：主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（米格尔与马克西米娜、米格尔与胡莉亚）同时存在至少三类相互咬合的张力来源（身份立场、目标利益、情感依赖、秘密误会和价值冲突），移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-2",
+        "quote": "马克西米娜（冷笑）：用另一个人的名誉流血，来保全我们的体面？这就是你誓死守护的尊严吗，米格尔？",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-2",
+        "contrast_quote": "胡莉亚：（冷笑，带着居高临下的轻蔑）一家人？你在医院门口跪着像个乞丐的时候，想过这层关系吗？你在出卖灵魂的时候，想过这会玷污我的血统吗？"
+      },
+      "reason": "R01和R03评为S级，R02评为A级。经审核，核心关系确实存在多类张力：1. 价值冲突（尊严vs生存，第21集）；2. 情感依赖与背叛（亲情vs利益，第34集）；3. 身份立场（受害者vs加害者/共犯，第25集）。这些张力相互咬合，直接驱动主线剧情（离婚、切割、复仇）。符合S级锚点：核心关系同时存在至少三类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。采纳S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "马克西米娜（轻声）：只要书在，家就在。米格尔，我们不需要像公爵府那样大，只要干净就好。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-1",
+        "contrast_quote": "马克西米娜：（气声）尊严……源于内心……而非数值。"
+      },
+      "reason": "R01和R03评为S级，R02评为A级。经审核，米格尔与马克西米娜的关系贯穿全剧：起点（第1集建立家庭理想）、里程碑1（第21集扔戒指/离婚）、里程碑2（第36集托付强酸/尊严）、终点（第52集死亡/遗言）。关系推进直接驱动主角黑化与复仇。符合S级锚点：核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。采纳S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "HR主管（OS）：签字，米格尔先生。合同期十年，绩效挂钩声誉币浮动。违约者，即刻清退并列入信用黑名单。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。第1-2集迅速建立了米格尔的困境（债务、贫困）和核心矛盾（尊严与生存），叙事方向清晰，信息组织流畅。符合A级锚点：人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "门多萨（用一种近乎圣洁的悲哀语调）：看啊，这就是出卖朋友的下场。米格尔，你是城里最有前途的编辑，你是光。你只需要签个字，以你的名义做担保。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。核心矛盾（债务危机）明确，阻力（萨瓦德拉/系统）有效，风险（社会性死亡）可感知，并形成生存与道德两类期待。符合A级锚点：核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-1",
+        "quote": "米格尔（迅速将信纸折好，塞进上衣口袋，心跳如雷）：那是门多萨……那是给阿祖尔的借款收据。我想着，既然他那么惨，先给他一个名义上的凭证，让他安安心心去办事。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。集间承接自然，悬念（担保后果）有效兑现，情感投入持续累积。符合A级锚点：多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "萨瓦德拉（轻笑）：我看过很多温顺的猎物，她们太完美，完美得像塑料。但你不同。你的眼睛里有一种未被驯服的野性，那是贫穷留给你的最后一点瑕疵，也是最迷人的地方。",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-1",
+        "contrast_quote": "马克西米娜（声音冷硬，没有起伏）：这是你用尊严换来的钱。从现在起，你将永远背着它。"
+      },
+      "reason": "R01评为A级。萨瓦德拉的台词充满隐喻与压迫感，马克西米娜的台词冷硬直接，米格尔的台词从温和到破碎，风格差异明显。符合A级锚点：关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "【特写】高温瞬间引发剧烈的化学反应。白色的纸张遇热焦黑、卷曲，冒出刺鼻的黄绿色青烟。液态金属迅速冷却，凝固成一块丑陋、扭曲的金属疙瘩，将那些曾经不可一世的谎言与罪证死死封印其中。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。第23集熔戒指与草稿的场景具有强烈的视觉冲击力，色彩（黄绿青烟、银白金属）与动作（凝固、封印）描写清晰，形成可记忆画面。符合A级锚点：有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "银行职员（全息）：根据《紧急救济法案》第7条修正案：当被担保人状态连续24小时未更新定位或信用交互时，系统自动判定为“恶意逃废债”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。设定（信用系统、声誉币）随剧情推进逐步释放，如第4集通过银行职员台词解释规则，第29集通过医院拒诊展示医疗分配，节奏良好，无信息过载。符合A级锚点：设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 21,
+  "covered_count": 21
+}

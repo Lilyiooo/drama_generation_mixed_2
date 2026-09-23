@@ -1,0 +1,292 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角亚瑟·彭哈利根具有完整且深刻的人物弧光，从被动受害者转变为主动复仇者，最终成为理性重建者。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "亚瑟（声音平静得可怕）：现在，我们都裸奔了。霍克斯想杀谁就杀谁。没人能证明我们谁更脏，也没人能证明我们谁更清。秘密没了，亚瑟·彭哈利根和塞拉斯·维恩，只剩下两个想活下去的死人。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "以前我觉得，要把他从商业世界上抹去才算胜利。现在我发现，让他活着，但必须按照我的规则呼吸，这才是真正的掌控。"
+      },
+      "reason": "三位评审均指出主角弧光完整。证据显示：起点为被动依赖法律（第1-2集）；关键转折1为第7集晚宴泼酒觉醒，从被动转为主动搜集证据；关键转折2为第36集销毁账本，以自毁式决绝换取盟友信任，产生不可逆后果（失去底牌）；终点为第53-54集建立新规则，从复仇者转变为掌控者。符合S级锚点：起点缺陷明确，至少两个关键转折由强驱动事件逼出主动选择并产生不可逆后果，终点变化显著支撑主线情感。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "亚瑟：他不配。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-1",
+        "contrast_quote": "亚瑟的瞳孔剧烈收缩，身体像被抽去骨头的蛇一样瘫软下去。那冰冷的液体顺着血管蔓延，像是把冰块直接倒进了胸腔。"
+      },
+      "reason": "三位评审均确认主角深度。证据显示：内在矛盾体现在复仇与道德、生存与尊严之间。第36集销毁唯一底牌是极端两难；第43集丢弃弗罗格硬盘（赃物/证据）体现道德选择与克制；第25集被注射镇静剂展现脆弱面；第13集被迫签署股权转移体现犯错与代价。这些节点共同提高了人物真实感，符合S级锚点：内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "维恩：（冷笑）杠杆？在这个节骨眼上，你不过是替我挡子弹的盾牌。现在猎物已经自投罗网，我还需要盾牌吗？",
+        "contrast_episode": "第12集",
+        "contrast_scene": "12-2",
+        "contrast_quote": "埃莉诺：我一直在算账。你以为我在保护那个家，其实我在保护剩下的筹码。"
+      },
+      "reason": "R01评为S，R02/R03评为A。审核认为A级更准确。虽然霍克斯（法律暴力）、维恩（资本暴力）、弗罗格（内部监控/背叛）、埃莉诺（情报/情感支撑）功能明确且推动主线，反派威胁稳定，但群像中部分角色（如弗罗格后期功能减弱，玛丽安主要作为证人工具）的独立弧光或情感价值相对有限，未达到S级“配角、反派和群像持续制造推进力与人物层次”的高标准。符合A级锚点：主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（亚瑟与埃莉诺）存在至少两类明确张力来源，能够稳定支撑主线。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "埃莉诺（抽回手，整理了一下披肩）：如果你死了，我就烧掉这房子，连灰都不剩。如果你赢了……分我一半。别让我失望，亚瑟。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "埃莉诺（冷冷地看着他，眼中的光芒逐渐熄灭）：你把筹码交出去的时候，就应该知道它再也拿不回来了。"
+      },
+      "reason": "R01评为S，R02/R03评为A。审核认为A级更准确。亚瑟与埃莉诺的关系确实存在身份立场（夫妻vs合伙人）、目标利益（复仇vs生存/筹码）、情感依赖（冷漠vs同盟）等多重张力。但S级要求“至少三类相互咬合的张力来源”且“移除该关系会使主线情感逻辑明显坍塌”。虽然关系重要，但埃莉诺更多是作为“理性制衡者”和“情报提供者”的功能性角色，情感层面的深度挖掘（如夫妻间的情感修复或更深层的价值冲突）相对克制，主要服务于剧情推进。符合A级锚点：核心关系存在至少两类明确张力来源，能够稳定支撑主线。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个关键里程碑和明确回收。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "亚瑟（摔碎手中的酒杯，玻璃渣飞溅）：出去！我现在不想看到你！",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-2",
+        "contrast_quote": "埃莉诺（笑着帮他整理了一下衣领）：你是真的变了一个人，亚瑟。"
+      },
+      "reason": "三位评审均评为A。证据显示：关系从第2集的疏离/冲突，到第12集的同盟/分赃协议，再到第25集的生死共担/默契，最后到第53-54集的平等合作/重建。有清晰的起点、里程碑和终点。符合A级锚点：核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。未达S级是因为关系推进虽紧密，但更多是功能性的同盟深化，缺乏更复杂的情感波折或不可逆的情感创伤修复过程。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "银行经理：现在，您公司账户的可用余额是——零。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A。第1集通过银行冻结账户迅速建立危机，第2集通过律师介入和媒体曝光确立核心矛盾。人物与情境建立有效，核心问题清楚。符合A级锚点：人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。未达S级是因为虽然高效，但“高度经济”和“强后续期待”的极致程度略逊于顶级标杆，属于优秀但非顶尖的开篇。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "旁听席传来一阵窃窃私语，邻座一名记者手中的报纸头条赫然可见——《帝国崩塌前夜》。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A。目标（保公司/复仇）、核心阻力（霍克斯/维恩）、风险代价（破产/坐牢）和首次局面变化（账户冻结/媒体曝光）高度清楚。多条后续期待（法律困境、生存危机、复仇计划）相互咬合。符合A级锚点：核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-3",
+        "quote": "亚瑟（低声自语，声音在空寂的走廊里显得格外清晰）：四十五万……好，朱利安，既然你要玩，我们就换个玩法。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A。关键边界（如第7集末的觉醒）由人物选择自然产生期待，承接及时，兑现带来新的因果和情绪增量。符合A级锚点：多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "朱利安·霍克斯（身体前倾，声音低沉而充满诱惑）：这是保护伞。只要信托成立，债权人就无法直接触碰到你的私人住所。这是高端客户的标准操作，亚瑟。",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "维恩：（缓缓转身，面容冷酷，眼神如濒死的狼）安静？弗罗格先生，沉默不是顺从，是暴风雨前的窒息。我的耐心，和我的现金流一样，已经见底了。"
+      },
+      "reason": "R01评为S。霍克斯的法律术语与傲慢、亚瑟的从崩溃到冷静、埃莉诺的冷静与算计、维恩的暴力与贪婪等语言风格稳定且差异清楚。例如霍克斯的“结构性风险隔离失效”与维恩的“现金流见底”形成鲜明对比。符合S级锚点：主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "亚瑟将账簿翻到中间，随意撕下两页碎片，扔在地上。然后，他将整本厚重的账簿塞入碎纸机的入口。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A。第7集晚宴泼酒、第36集碎纸机销毁账本、第50集粉碎印章等场景，有明确的色彩、道具、空间或动作构图组合，形成高度可辨识的视觉组织。符合A级锚点：有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。未达S级是因为虽然有几个名场面，但全剧整体的视觉组织（如色彩体系、道具符号的系统性运用）尚未达到S级“完整可拍描写在关键场景形成高度可辨识的视觉组织”的极致程度。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "匿名分析师：他们不再依赖摄像头了。那个心率手环是医疗级的，能读取肌肉微颤和皮肤电反应。配合门口压力传感器的步态数据，他们构建了一个‘清醒模型’。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A。法律、金融、监控等设定分阶段释放，每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定。例如第24集的心率手环设定直接服务于后续的论坛戏份。符合A级锚点：设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 21,
+  "covered_count": 21
+}

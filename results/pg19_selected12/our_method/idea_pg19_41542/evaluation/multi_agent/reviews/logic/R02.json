@@ -1,0 +1,228 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体构建了高烈度的悬疑复仇主线，但在执行层面存在多处严重的逻辑断裂与状态矛盾。主要问题集中在：1. 关键道具（袖扣、工牌、录音笔）的归属与物理状态前后矛盾，导致证据链失效；2. 角色能力与资源获取缺乏合理铺垫（如罗斯的暗网黑客能力、格特鲁德的越狱能力）；3. 时间线与空间位移存在明显悖论（如第24集的时间倒流、第44集对陷阱的误判）；4. 核心反派动机与行为逻辑不自洽（如爱德华故意保留工牌的心理动机缺乏支撑）。此外，部分伏笔（如多莉的后续、长兄的下落）未形成闭环。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "关键道具“金质袖扣”的归属与物理状态前后矛盾，导致第12集的关键剧情不成立。",
+      "reason": "第4集罗斯将袖扣交给格特鲁德并留在酒馆；第12集罗斯却从口袋中掏出该袖扣展示给会计，且描述为“S型划痕”（第2集确认为文森特疤痕特征，但第4集描述为蔷薇徽记，此处描述亦冲突）。若袖扣在第4集已转移，罗斯在第12集无法持有；若未转移，第4集剧情无效。且第13集罗斯又捡起袖扣，暗示其曾丢失，但第12集已使用过。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "一枚银灰色的金属袖扣被轻轻放在会计脚前的金属地板上。微弱的光线透过潮湿的玻璃窗棂洒落，袖扣上的“S”型划痕在黑暗中闪过一丝冷冽的寒光。",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-1",
+        "contrast_quote": "罗斯意识到伪装已无意义。她深吸一口气，不再遮掩，伸手从大衣内衬撕裂处，完整地扯出那枚袖扣，递到格特鲁德面前。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "“伪造工牌”的物理位置与角色认知严重矛盾，导致第29集与第31集剧情逻辑断裂。",
+      "reason": "第28集罗斯明确将工牌塞入文森特枕头下；第29集罗斯却从自己口袋中摸出该工牌，并描述为“被顺手揣走”；第31集文森特又从枕头下摸出工牌。同一物品不可能同时存在于罗斯口袋和文森特枕头下，且罗斯在第29集的行为（揣走）与第28集的行为（留下）直接冲突。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-3",
+        "quote": "她的手颤抖着伸进贴近胸口的口袋，摸到了那枚在第28集塞入文森特枕头下却被她顺手揣走的伪造工牌。",
+        "contrast_episode": "第28集",
+        "contrast_scene": "28-1",
+        "contrast_quote": "她的手指向枕头右侧内侧探去，动作迅疾决绝，将工牌深深塞入枕套与枕芯的最深处。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "第24集存在严重的时间倒流悖论，事件顺序无法成立。",
+      "reason": "第24-1场景标注时间为“凌晨05:30”，罗斯记录冲突爆发时间为“05:42”；紧接着第24-2场景标注时间为“凌晨06:00”，但剧情描述罗斯在06:00进入疗养院，而第25-1场景标注时间为“凌晨06:15”，罗斯已在内部。然而，第23-2场景（罗斯放置U盘）标注时间为“凌晨06:45”，第24-1场景（罗斯观察冲突）却发生在05:30-05:42。这意味着罗斯在05:30观察到了06:45之后才可能引发的冲突（或冲突本身时间线混乱），且第24集内部时间从05:30跳到06:00，但第23集结尾罗斯刚离开钟表店（06:45），时间线完全错乱。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "制高点废墟 凌晨05:30 ... 罗斯放下望远镜，从怀里掏出一个被雨水打湿一半的笔记本。她用笔尖颤抖着记录下时间。 05:42。冲突爆发。",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-2",
+        "contrast_quote": "老城区·废弃钟表店后院 凌晨06:45 ... 罗斯转身融入夜色，背影在月光下拉得极长，孤独而决绝。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "罗斯具备高阶黑客与暗网操作能力，但缺乏来源铺垫。",
+      "reason": "罗斯设定为会计师/家庭主妇，但在第5集、第16集、第33集、第37集多次展示复杂的网络攻击、暗网通信、数据伪造和破解技能。虽然第4集展示了会计能力，但黑客技能（如绕过生物识别、修改Exif、暗网代理路由）远超普通会计范畴，且无相关背景交代。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "地址栏输入一串乱码邮箱，通过暗网代理路由。",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-2",
+        "contrast_quote": "她的眼神变了。那种逃亡者的慌乱消失，取而代之的是会计师特有的、近乎机械的冷静。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "格特鲁德从被警方逮捕到出现在法院门口缺乏合理的逃脱过程。",
+      "reason": "第46集格特鲁德被特警强行塞进警车带走；第54集她直接出现在法院正门台阶，且状态平静。中间缺乏越狱、保释或警方放人的剧情交代，属于“天降救援”或“能力突变”。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "台阶底部，格特鲁德穿着一件洗得发白的灰色风衣，静静伫立。",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-2",
+        "contrast_quote": "特警给了格特鲁德头部一记闷响，将她强行塞进警车。车门重重关上，隔绝了她的视线，也隔绝了罗斯最后的希望。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "罗斯对第44集“婴儿被绑架”陷阱的判断逻辑存在漏洞，且与后续行动矛盾。",
+      "reason": "罗斯通过阴影判断照片拍摄于格特鲁德安全屋，从而认定是陷阱。但第45集爱德华在废弃仓库播放婴儿哭声，并声称婴儿在“地下室”（格特鲁德安全屋代号）。如果罗斯已判断出照片是陷阱（即婴儿未真被绑架），她为何还要前往仓库？且第45集她通过遥测数据确认婴儿体征正常，这与她之前的判断一致，但第44集她“捏碎手机”并“刻下死令”的行为暗示她认为情况危急，逻辑上应直接去救或报警，而非去仓库听录音。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "她知道这是陷阱。爱德华知道她是母亲，所以他抓住了这个最大的痛点。他在赌罗斯会为了孩子放弃理智。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-1",
+        "contrast_quote": "爱德华（画外音）：……那个孩子现在很安全，甚至比在你身边活得更久。因为他会继承我的‘永生计划’。他在地下室。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E007",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "“长兄”角色在关键剧情后消失，未形成闭环。",
+      "reason": "第23集罗斯放置U盘诱导长兄；第24集长兄与爱德华冲突；第32集爱德华提及长兄动作幼稚；第57集长兄打电话威胁罗斯。但在第54集审判及后续结局中，长兄未受法律制裁或明确交代下落，其作为家族重要成员和潜在反派，结局悬空。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-2",
+        "quote": "家族长兄OS：小婶子，听说你在动爱德华留给我们的“遗产”？",
+        "contrast_episode": "第54集",
+        "contrast_scene": "54-1",
+        "contrast_quote": "法官：被告人爱德华·索恩，犯故意杀人罪... 被告人多莉... 本庭当庭决定，撤销取保候审，立即收押。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E008",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "罗斯从海上豪宅到废弃仓库的位移耗时过短且缺乏合理交通工具交代。",
+      "reason": "第44集罗斯在海上豪宅附近，第45集她在废弃仓库。虽然第44集结尾她驾驶小船冲向海岸线，但第45集开头她已站在仓库内，中间缺乏登陆、寻找仓库、进入的具体过程，且风暴天气下小船航行速度受限，位移略显仓促。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "生锈的卷帘门发出刺耳的摩擦声，被一只手缓缓推开一道缝隙。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-2",
+        "contrast_quote": "小船像离弦之箭般冲出风暴最剧烈的区域，消失在海岸线的迷雾中。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E009",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "爱德华在第31集故意保留工牌并放置于文森特床头的动机缺乏心理支撑。",
+      "reason": "爱德华作为冷酷的反派，此前多次试图销毁证据或消灭证人。第31集他不仅不销毁工牌，反而将其洗净放在文森特视线平齐处，声称要观察“求生本能”。这一行为与其一贯的“清障”策略相悖，且缺乏足够的情感或战略动机解释，显得突兀。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-2",
+        "quote": "爱德华：把它洗一洗。然后放在他的床头柜上。",
+        "contrast_episode": "第8集",
+        "contrast_scene": "8-1",
+        "contrast_quote": "爱德华：我不关心他的感受，我只关心资产的完整性。文森特现在是家族最大的不稳定因素。我们需要一个彻底的“清障”方案。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E010",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第1-2集罗斯利用通风管道和排水系统逃离的因果链设计清晰，动作逻辑严密。",
+      "reason": "从门锁被灌胶、使用烟雾弹、角磨机切割管道到滑入排水系统，每一步都有前置条件（工具准备、环境观察）和后果（受伤、婴儿安抚），因果链条完整，增强了紧张感和可信度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯眼神如冰，手稳如铁，精准地锯断排油烟机下方连接主通风道的白色PVC管道接口。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

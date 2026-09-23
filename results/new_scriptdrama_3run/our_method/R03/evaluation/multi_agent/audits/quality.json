@@ -1,0 +1,353 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角顾长风与沈晚晴的人物弧光完整，起点缺陷、关键转折与终点变化均有强证据支撑，变化由强驱动事件逼出主动选择并产生不可逆后果。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-3",
+        "quote": "沈晚晴：将军，这京城的水，比战场深得多。你想活，就得学会用脑子，而不是只会流血的脖子。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-2",
+        "contrast_quote": "顾长风：臣递上的，是大雍的北墙。"
+      },
+      "reason": "合并R01/R02/R03关于主角弧光的亮点意见。R01和R03评为S级，R02评为A级。经审核，剧本中顾长风从‘只会流血的脖子’（第1集）到‘撕诏求自治’（第55集），沈晚晴从‘利益算计’（第1集）到‘烧毁皇室信物/密信’（第56集），均有明确的事件驱动（中毒、矿洞生死、身份揭露）和不可逆后果（放弃复仇/权力，选择家庭/自治）。符合S级亮点锚点：起点缺陷、至少两个关键转折、终点变化均有证据，且显著支撑主线情感。取最高合理等级S。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-2",
+        "quote": "沈晚晴：（强忍剧痛，声音嘶哑却如铁石击打）你想报仇，就得活着。死了，你只是个孤魂野鬼，谁也不会记住你。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-1",
+        "contrast_quote": "沈晚晴：（颤抖，气声，带着哭腔）别……别碰我……求你……滚开……"
+      },
+      "reason": "合并R01/R02/R03关于主角深度的亮点意见。R01和R03评为S级，R02评为A级。证据显示顾长风的‘杀意vs理智’（第25集挥剑被阻）、沈晚晴的‘复仇vs守护’（第42集旧伤爆发、第53集挡刀）均在关键节点通过两难选择和脆弱暴露得到充分展现。符合S级亮点锚点：内在矛盾在多个关键节点被充分戏剧化。取最高合理等级S。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲；配角、反派和群像持续制造推进力与人物层次。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "铁蛋：（吼叫）盾牌举起来！那是为了保命，不是拿来当扇子扇风！再来！",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-1",
+        "contrast_quote": "白叔：（猛地抬头，眼神惊骇）将军娘亲当年不是病死，是被人慢性毒杀！而将军体内的‘蚀骨散’，底料竟与当年的毒药同源！"
+      },
+      "reason": "合并R01/R02/R03关于配角功能的亮点意见。三位评审均评为A级。白叔（医疗/智囊）、阿四（情报/执行）、铁蛋（武力/喜剧）功能明确，反派赵氏与赵国公威胁稳定。虽然R03指出了后期阿四铁蛋功能略有重叠（见A08），但整体角色配置仍符合A级亮点锚点：主角配置清晰，重要角色功能明确并推动主线。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-2",
+        "quote": "沈晚晴：前朝皇室信物。我是前朝余孽，嫁给你，起初是为了那笔赏金和活路。后来……是不想输，也不想看着你死在赵怀义手里。",
+        "contrast_episode": "第5集",
+        "contrast_scene": "5-1",
+        "contrast_quote": "沈晚晴（慢条斯理地朗读，语调平淡却字字诛心）：第一条，顾长风自愿成为沈晚晴附属人力。"
+      },
+      "reason": "合并R01/R02/R03关于关系张力的亮点意见。R01和R03评为S级，R02评为A级。顾沈关系包含利益（债务/赏金）、身份（将军/前朝余孽）、情感（屈辱/依赖）、秘密（身世/背叛）等多重张力，且相互咬合（如身份揭露直接导致情感危机与信任重建）。符合S级亮点锚点：核心关系同时存在至少三类相互咬合的张力来源。取最高合理等级S。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "顾长风：（声音低沉，却透着坚定）这块铁，是我当年断掉的那半截刀。刀断了，命保住了。铁还在，情也在。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-3",
+        "contrast_quote": "沈晚晴：拖回去。扔柴房。"
+      },
+      "reason": "合并R01/R02/R03关于关系推进的亮点意见。R01和R03评为S级，R02评为A级。关系从利益捆绑（第1-5集）到生死相托（第44-52集）再到家庭建立（第56-60集），里程碑清晰（假死、矿洞救援、婚礼），回收明确。符合S级亮点锚点：核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收。取最高合理等级S。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E006",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "顾长风身披残破的玄铁重甲，甲片锈蚀，露出的内衬被冻得发硬。他面色灰败如纸，嘴唇干裂出血，正死死咬住嘴唇，试图用疼痛强行压制体内翻涌的毒气。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01/R02/R03关于开篇吸引力的亮点意见。三位评审均评为A级。开篇通过风雪中毒、市集冲突、柴房救治等场景，高效建立人物与情境，核心问题（生存、进京）清楚。符合A级亮点锚点：人物与情境建立有效，核心问题清楚，信息组织流畅。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R02-E007",
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "白叔（点头）：嗯，而且只有皇室或重臣能调配。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01/R02/R03关于矛盾建立的亮点意见。三位评审均评为A级。核心矛盾（生存、复仇、夺权）明确，阻力（毒性、赵氏、赵国公）有效，风险（死亡、流放）可感知。符合A级亮点锚点：核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色配置合理性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部功能重叠，阿四与铁蛋在后期部分场景中功能边界模糊。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-1",
+        "quote": "阿四蹲在悬崖边的粗木桩旁，手指飞快翻飞，将备用的麻绳与新断的主缆缠绕打结。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "阿四从侧面滑索落下，稳稳落地，甩手将几枚铁索抛入旁边的排水口，卡死退路。"
+      },
+      "reason": "仅R03提出此问题。审核发现第49-50集阿四和铁蛋确实都承担了执行/武力功能，且多次同时出现执行类似任务（如滑索、封路），导致角色辨识度略有下降。但整体配置仍可读，属于局部功能重叠。符合B级问题锚点：配置基本可读，但局部功能重叠、角色略冗余或分工不够清楚。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008",
+        "quality-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-2",
+        "quote": "沈晚晴：（低声，咬牙切齿）长风，忍着点。好戏开场了。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01/R02关于集间承接的亮点意见。两位评审均评为A级。集末问题（如中毒、假死、矿洞危机）清楚，承接自然，悬念（身世、复仇）有效兑现。符合A级亮点锚点：多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第36-37集存在剧情重复，导致部分悬念兑现过快或后果回收不足。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "嬷嬷（语无伦次，崩溃大喊）：不……不是陷害！是夫人给的！那天夜里，夫人把一个小瓶子交给我，说是‘改良寒酥’，要我下在顾将军的酒杯里！",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-1",
+        "contrast_quote": "嬷嬷（语无伦次，崩溃大喊）：不……不是陷害！是夫人给的！那天夜里，夫人把一个小瓶子交给我，说是‘改良寒酥’，要我下在顾将军的酒杯里！"
+      },
+      "reason": "仅R03提出此问题。审核发现第36集和第37集开头确实存在几乎完全重复的情节（赵氏尖叫、沈晚晴甩信、嬷嬷招供），导致该阶段冲突兑现缺乏增量，显得冗余。符合B级问题锚点：主要问题得到回答，但个别兑现过快、过轻或后果回收不足。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009",
+        "quality-R02-E009",
+        "quality-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "沈晚晴：（冷笑）钱？我们缺钱吗？我们缺的是力气。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-1",
+        "contrast_quote": "顾长风：（声音低沉，却透着坚定）这块铁，是我当年断掉的那半截刀。刀断了，命保住了。铁还在，情也在。"
+      },
+      "reason": "合并R01/R02/R03关于台词风格的亮点意见。R01和R02评为A级，R03评为S级。审核发现顾长风（冷峻、决绝）、沈晚晴（精明、狠厉）、阿四（市井、忠诚）、铁蛋（粗犷、直率）台词风格稳定，差异清楚。虽然R03认为达到S级（主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定），但考虑到部分台词仍偏向功能性而非高度风格化（如阿四的OS），A级更为稳妥。符合A级亮点锚点：关键角色台词风格稳定，人物间表达差异清楚。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010",
+        "quality-R02-E010",
+        "quality-R03-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如第59集铁戒指与第60集围裙煮粥。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "顾长风：（声音低沉，却透着坚定）这块铁，是我当年断掉的那半截刀。刀断了，命保住了。铁还在，情也在。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-1",
+        "contrast_quote": "围裙上歪歪扭扭地绣着“相夫教子”四个大字，针脚粗糙，显然是沈晚晴那针法。"
+      },
+      "reason": "合并R01/R02/R03关于视觉设计的亮点意见。三位评审均评为A级。第59集“断刀铁戒指”与第60集“相夫教子围裙”形成强烈视觉对比，象征人物从战争到和平的转变，画面感强。符合A级亮点锚点：有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011",
+        "quality-R02-E011",
+        "quality-R03-E012"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "白叔：（猛地抬头，眼神惊骇）将军娘亲当年不是病死，是被人慢性毒杀！而将军体内的‘蚀骨散’，底料竟与当年的毒药同源！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01/R02/R03关于设定释放的亮点意见。三位评审均评为A级。设定（蚀骨散、寒酥、前朝皇室）分阶段释放，与剧情高潮（中毒、查案、身份揭露）精准绑定，信息量可吸收。符合A级亮点锚点：设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 34,
+  "covered_count": 34
+}

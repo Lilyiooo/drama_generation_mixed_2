@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 82.79,
+      "ledger_subdimension_mean": 81.57,
+      "holistic_subdimension_mean": 84.0,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 85.0,
+          "holistic_score": 84.0,
+          "fused_score": 84.5
+        },
+        "character_state": {
+          "ledger_score": 70.0,
+          "holistic_score": 84.0,
+          "fused_score": 77.0
+        },
+        "knowledge_state": {
+          "ledger_score": 80.0,
+          "holistic_score": 84.0,
+          "fused_score": 82.0
+        },
+        "resource_state": {
+          "ledger_score": 84.0,
+          "holistic_score": 84.0,
+          "fused_score": 84.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 80.0,
+          "holistic_score": 84.0,
+          "fused_score": 82.0
+        },
+        "foreshadowing": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        },
+        "repetition": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 3,
+          "highlights": 1,
+          "total": 4
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "rules_spacetime": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "foreshadowing": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 90.9,
+      "ledger_subdimension_mean": 92.8,
+      "holistic_subdimension_mean": 89.0,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 96.0,
+          "holistic_score": 88.0,
+          "fused_score": 92.0
+        },
+        "hooks": {
+          "ledger_score": 93.0,
+          "holistic_score": 92.0,
+          "fused_score": 92.5
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.0
+        },
+        "episode": {
+          "ledger_score": 94.0,
+          "holistic_score": 91.0,
+          "fused_score": 92.5
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 88.0,
+          "fused_score": 89.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 3,
+          "total": 3
+        },
+        "character_support": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如埃德蒙通过气味/声音识破谎言）大多承担不同功能，通过新变量（管家、汉斯、奥古斯汀）和结果升级（从心理施压到政治清洗）形成有效变奏。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "埃德蒙：凑近点。别用眼睛看，用鼻子闻。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如埃德蒙通过气味/声音识破谎言）大多承担不同功能，通过新变量（管家、汉斯、奥古斯汀）和结果升级（从心理施压到政治清洗）形成有效变奏。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "埃德蒙：凑近点。别用眼睛看，用鼻子闻。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "剧本中多次出现“埃德蒙通过感官（嗅觉/听觉）识破谎言/陷阱”的桥段（如第4集识破伯爵、第6集识破冯·霍恩、第21集识破汉斯、第39集识破毒酒）。虽然模式相似，但每次识破的对象、手段（气味/声音/触觉）及后果（收买/处刑/反杀/揭露）均不同，且随着剧情推进，埃德蒙的主动性增强，从被动防御转为主动设局（如第29集伪造名单），形成了有效的变奏与升级。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-2",
+            "quote": "埃德蒙（平静得令人毛骨悚然）：大人，这水中为何有着死亡的气息？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：奥古斯汀代表宗教/道德审判，冯·克莱斯特代表世俗/政治清洗，汉斯代表旧贵族/经济利益，迫使主角采用不同策略（心理战、法律战、经济战）。",
+          "evidence": {
+            "episode": "第32集",
+            "scene": "32-2",
+            "quote": "冯·克莱斯特：这不是魔法，这是愚蠢。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：奥古斯汀代表宗教/道德审判，冯·克莱斯特代表世俗/政治清洗，汉斯代表旧贵族/经济利益，迫使主角采用不同策略（心理战、法律战、经济战）。",
+          "evidence": {
+            "episode": "第32集",
+            "scene": "32-2",
+            "quote": "冯·克莱斯特：这不是魔法，这是愚蠢。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "对手体系层级清晰。奥古斯汀代表宗教/精神压迫，手段阴险（下毒、陷害、心理折磨）；冯·克莱斯特代表世俗/政治压迫，手段冷酷（经济封锁、军事镇压、清洗）；艾德里安代表内部/道德阻力，通过良知冲突对主角形成反噬。不同对手迫使埃德蒙采用不同策略（对奥古斯汀用心理战，对冯·克莱斯特用政治博弈，对艾德里安用情感/道德压制）。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-1",
+            "quote": "冯·克莱斯特：既然他的灵魂在演讲中找到了避难所，那我们就让他的肉体回归现实。冻结所有皇室津贴。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从第8集管家试探到第11集管家崩溃，再到第12集管家臣服，层层递进。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-3",
+            "quote": "管家：（带着哭腔，对着空气磕头，额头撞击石板发出闷响）陛下……您都知道了……您不杀我……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从第8集管家试探到第11集管家崩溃，再到第12集管家臣服，层层递进。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-3",
+            "quote": "管家：（带着哭腔，对着空气磕头，额头撞击石板发出闷响）陛下……您都知道了……您不杀我……"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "场景递进逻辑严密。从北塔密室（封闭空间，心理博弈）到内殿大厅（半公开，权力展示）再到地下/外部（开放/危险，行动执行），空间变化对应着埃德蒙掌控力的提升。每个关键场景（如第15集演讲、第37集审判、第60集广场）都带来了信息、关系或局面的显著增量，且因果链条紧密。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-1",
+            "quote": "埃德蒙：（低沉，颗粒感极强）我……曾仰望……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过埃德蒙的入场和冯·克莱斯特的羞辱，迅速确立了“盲人国王”的异常情境和核心冲突。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-2",
+            "quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过埃德蒙的入场和冯·克莱斯特的羞辱，迅速确立了“盲人国王 vs 新秩序”的核心冲突和压抑/反抗的情绪基调。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-2",
+            "quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "开篇（第1-3集）高效建立了人物（盲人国王）、情境（囚禁/监视）和核心问题（如何在失明状态下生存并反击）。通过盲杖敲击、气味识别等细节，迅速确立了埃德蒙的独特能力和性格，叙事方向清晰，悬念（奥古斯汀的威胁、艾德里安的身份）建立有效。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从政治博弈到道德困境，再到最终广场对峙，节奏张弛有度。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-2",
+            "quote": "艾德里安闭上眼睛，泪水无声地从眼角滑落，混合着脸上的灰尘。他却强行将枪口压低，没有开火。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进（如演讲、审判、广播站行动），后段完成充分升级与收束（广场对峙）。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "埃德蒙（透过麦克风）：不。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中后段（第17集后）节奏紧凑，通过经济封锁、舆论战、军事行动等多条线索交织，持续产生新的阻力和高潮。第47集艾德里安事件作为情感低谷/转折点，有效蓄力了后续埃德蒙的道德困境与最终决绝，高潮（第60集）回收了前文所有伏笔（誓词、枪口、灵魂），情绪曲线完整。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-2",
+            "quote": "艾德里安（声音沙哑，几乎破碎）：旺。烧得很干净。连骨头都没剩下。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。埃德蒙的冷酷与艾德里安的痛苦形成强烈对比，最终在广场对峙中达到情感高潮。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-1",
+            "quote": "埃德蒙（声音无悲无喜）：血渍洗不掉。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。从压抑到爆发，从冷酷到悲悯，情绪变化与情节升级配合良好。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "埃德蒙：（声音不大，却字字清晰）“吾等立誓，不为权杖折腰，不为利刃低头。吾之双手，仅用于守护无辜者之安宁……”"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "目标情绪（压抑、紧张、复仇、悲壮）贯穿全剧。关键峰谷（如第15集演讲的悲壮、第37集审判的冷静、第60集广场的肃穆）均有充分铺垫。埃德蒙的“冷静”与周围环境的“混乱/恐惧”形成强烈对比，有效强化了情绪张力。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "埃德蒙：（声音不大，却字字清晰）“吾等立誓，不为权杖折腰，不为利刃低头。吾之双手，仅用于守护无辜者之安宁……”"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。每一集末都留有悬念（如管家的求救信、奥古斯汀的名单），且后续集数有效回应。",
+          "evidence": {
+            "episode": "第10集",
+            "scene": "10-2",
+            "quote": "埃德蒙：（低声）去吧。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如第13集演讲陷阱的期待在第15-16集兑现，第25集艾德里安被捕的期待在第26-28集通过反间计兑现。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-1",
+            "quote": "埃德蒙：（声音降低，却更具穿透力，每一个字都像冰棱落下）暴政速朽，如风过耳。这，才是我听到的真理。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "集末悬念设置有效。如第3集奥古斯汀的威胁、第13集演讲陷阱、第25集艾德里安被捕、第30集奥古斯汀的恐慌、第54集伯爵之死等，均能驱动读者继续阅读。期待类型多样（生存、复仇、道德、政治），且兑现及时。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-1",
+            "quote": "奥古斯汀（牙齿打颤，声音嘶哑）：“别……别看着我……”"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期侧重心理博弈，中期侧重政治清洗，后期侧重道德与行动，信息分布合理。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-1",
+            "quote": "冯·克莱斯特：既然他的灵魂在演讲中找到了避难所，那我们就让他的肉体回归现实。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期侧重心理博弈，中期侧重政治操作，后期侧重行动与高潮，密度变化服务理解、蓄力、高潮和回收。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-1",
+            "quote": "埃德蒙：“记住，维克多。这份名单不是为了揭露真相，而是为了制造内战。我要奥古斯汀相信，他的每一位亲信背后，都有一双正在注视的眼睛。”"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "信息密度与戏剧阶段匹配。前期侧重人物关系与心理博弈，信息释放较慢但细腻；中期侧重政治斗争与行动，信息密度增加；后期侧重高潮与收束，信息集中爆发。没有明显的注水或塌陷。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-1",
+            "quote": "埃德蒙：“记住，维克多。这份名单不是为了揭露真相，而是为了制造内战。我要奥古斯汀相信，他的每一位亲信背后，都有一双正在注视的眼睛。”"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数，每集都推动主线或人物关系。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-1",
+            "quote": "埃德蒙：记住，维克多。这份名单不是为了揭露真相，而是为了制造内战。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数，每集都推动主线或深化人物关系。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-2",
+            "quote": "艾德里安闭上眼睛，泪水无声地从眼角滑落，混合着脸上的灰尘。他却强行将枪口压低，没有开火。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确的新增量（新盟友、新敌人、新策略、新危机）。过渡场景（如第12集、第24集）虽短，但服务于人物心理状态或关系确立，无明显注水。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-1",
+            "quote": "埃德蒙：记住，记忆需要守护者，但不需要旁观者。滚。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。艾德里安的副线（道德困境）最终反哺主线（广场对峙），奥古斯汀的副线（宗教审判）也服务于主线。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-2",
+            "quote": "艾德里安（嘶吼，声音哽咽）：那是人！陛下，那是活生生的人！你让我们把他们送进火坑，看着他们烧成灰，这就是你想要的胜利？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。如汉斯家族的副线最终成为埃德蒙的经济/情报网络的一部分，奥古斯汀的宗教审判副线成为主线政治斗争的武器。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "埃德蒙：你需要我做你的护身符。而作为交换，你要做我的影子。你替我去触碰那些见不得光的角落，而我，替你在阳光下编织谎言。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线（艾德里安的道德困境、奥古斯汀的崩溃、伯爵的背叛/死亡）均与主线（埃德蒙的复国/复仇）紧密联动。艾德里安线不仅丰富了人物关系，更直接影响了埃德蒙的道德立场和最终行动；奥古斯汀线提供了主要反派压力；伯爵线提供了资源与牺牲。副线回收有效改变了主线局面。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-2",
+            "quote": "艾德里安（嘶吼，声音哽咽）：那是人！陛下，那是活生生的人！你让我们把他们送进火坑，看着他们烧成灰，这就是你想要的胜利？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从生存到反击，再到最终胜利，主线推进清晰。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "埃德蒙：（声音不大，却字字清晰）“吾等立誓，不为权杖折腰，不为利刃低头。吾之双手，仅用于守护无辜者之安宁……”"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从生存到反击，从反击到掌控，从掌控到道德考验，最终到精神胜利，主线推进严密。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "冯·克莱斯特颓然松开手，望远镜从指尖滑落，“啪”地一声摔在石板上，镜片碎裂，玻璃渣四溅。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线（埃德蒙从囚徒到领袖的转变）持续产生新目标（生存、反击、复国）和新阻力（教会、宰相、内部道德）。阶段看点（演讲、审判、广场）有效兑现，且每次兑现都改变了局面（获得支持、削弱敌人、确立合法性）。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "冯·克莱斯特：（对着随身通讯器，声音颤抖却极力维持威严）开火！我命令你们开火！那是叛乱！"
+          }
+        }
+      ]
+    }
+  ]
+}

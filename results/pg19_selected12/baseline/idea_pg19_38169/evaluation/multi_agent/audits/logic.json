@@ -1,0 +1,439 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "星形令牌/薄片在前期已被明确描述为“废铁”、“耗尽”或“埋掉”，但在后续剧情中多次无解释地复现或恢复功能，且存在“仿制品”与“原件”的混乱指代。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "伊莱亚斯（看着手中黯淡焦黑的薄片）：它成了废铁。但它帮我们买到了这三十秒。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-2",
+        "contrast_quote": "伊莱亚斯OS：（心中一震）那个薄片……还在。△ 他迅速将它塞入贴身内袋"
+      },
+      "reason": "合并R01、R02、R03关于令牌状态矛盾的条目。证据确凿：第50集明确称“废铁”，第55集称“碎片”、“彻底埋葬”，第57集称之前用的是“仿制品”而新发现的是“原件”，但第58-60集伊莱亚斯手中仍有“银色星形薄片”且被男子称为能“闹出大动静”。关键道具物理状态与功能前后硬性矛盾，严重影响主线逻辑，定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E003",
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "第16集第1场与第25集第1场内容几乎完全重复，包括台词、场景和人物反应，造成严重叙事停滞。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "伊莱亚斯：摩斯电码解开了。坐标是地下军械库。梅莉安（盯着屏幕）：还有这个倒计时无意义的闪烁？伊莱亚斯：那是定时器。二十四小时，就在午夜零点。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-1",
+        "contrast_quote": "伊莱亚斯：摩斯电码解开了。坐标是地下军械库。梅莉安（盯着屏幕）：还有这个倒计时无意义的闪烁？伊莱亚斯：那是定时器。二十四小时，就在午夜零点。"
+      },
+      "reason": "合并R01、R02、R03关于重复的条目。对比原文，第16-1场与第25-1场的台词逐字重复，场景设定（书房、电脑屏幕、三人讨论）完全一致，且未提供新的信息或视角变化。这属于典型的“两个重要事件重复”且占据关键节点，导致剧情逻辑断裂和观众体验受损，符合S级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R02-E002",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "西拉斯在第24集肋骨断裂、肺部受损等重伤状态，在后续多集中未经合理医疗过渡便迅速恢复并参与高强度战斗。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-3",
+        "quote": "西拉斯（喘息）：肋骨断了两根……但我争取到了时间。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-2",
+        "contrast_quote": "西拉斯（对着无线电急促喘息）：电梯门是被焊死的，我踹开了。现在我在顶层。"
+      },
+      "reason": "合并R01、R02、R03关于西拉斯伤情的条目。第24集明确“肋骨断了两根”，第33集甚至提到“肋骨刺破肺”。但在第25集、第28集、第31集等后续剧情中，西拉斯能站立、攀爬、射击、搏斗，虽有个别集数（如25-1）提到“扶着断裂的肋骨”，但整体恢复速度过快，缺乏持续的痛苦描写或医疗介入，不符合重伤逻辑。属于A级（重伤未经治疗完全恢复）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第44集梅莉安通过“咬破嘴唇”和“扯下无形枷锁”切断精神控制，缺乏物理或逻辑支撑，属于典型的“危机解决作弊”。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "△ 梅莉安没有摔碎令牌，而是用力将其从某种无形枷锁中扯下。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-2",
+        "contrast_quote": "伊莱亚斯（撕开中继器外壳）：是为了重塑。让你成为他们的新傀儡。"
+      },
+      "reason": "合并R01、R03关于梅莉安解除控制的条目。前文建立的是高科技神经干扰、声波武器等硬科幻/惊悚规则，第44集仅靠主观意志（咬破嘴唇、喊出“断吧”）和抽象动作（扯下无形枷锁）就切断了控制，缺乏铺垫的物理机制或规则解释。根据标准，“危机解决作弊”上限为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第20集伊莱亚斯准确知道梅莉安的生日作为密码，且声称这是“他们唯一的盲点”，但前文未交代伊莱亚斯如何获知此信息或为何兄弟会会犯此低级错误。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "伊莱亚斯：密码就在你的生日里。这是他们唯一的盲点。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伊莱亚斯（冷眼）：把伞收了。"
+      },
+      "reason": "R01指出伊莱亚斯在输入前就断定密码机制，暗示他早已知晓，但前文未展示他如何破解或获知这一关键情报。虽然伊莱亚斯是前特工且是梅莉安舅舅，知道生日合理，但“兄弟会用受害者生日做核心密码”且“被轻易利用”缺乏合理性铺垫，属于知识来源缺失。根据标准，本项最高为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第38集梅莉安称“我们已经在这迷宫里绕了三天了”，但前文剧情推进速度极快，且第37集刚出发，时间跨度不合理。",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "梅莉安：别吓唬我。我们已经在这迷宫里绕了三天了。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "伊莱亚斯（跨入车厢，回头看了一眼）：启动引擎。十分钟后，这里是战场。"
+      },
+      "reason": "R01指出第37集刚出发，第38集即进入深层矿道，突然插入“三天”的时间跳跃与整体紧凑的惊悚节奏不符，且未解释这三天内角色的生存状态。属于局部时间细节不一致，修改成本低且不影响主线，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第57集揭示梅莉安父母是“知情者联盟”成员并掩盖罪行，这一重大反转缺乏前文铺垫。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "梅莉安（声音哽咽）：他那天去执行任务，我父母不仅看见了他在杀人，甚至向“兄弟会”隐瞒了他的行踪。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "梅莉安（举起信封）：这是母亲临终前让我交给你的。"
+      },
+      "reason": "R01指出前文梅莉安的父母仅在第1集提及“母亲临终前”，第30集管家提及“父母被扣在矿坑”。第57集突然通过诊所账单揭示父母不仅知情，还协助兄弟会掩盖伊莱亚斯的罪行，这一信息量巨大且改变了人物关系基调，但前文没有任何关于父母与兄弟会合作或伊莱亚斯对此有怀疑的铺垫，显得突兀。属于B级（有明确铺垫但数量或清晰度不足，此处铺垫极弱，接近A，但考虑到是次要人物背景反转，定为B）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "伊莱亚斯在第59集突然决定离开并表现出“安宁”，与其长期以来的复仇和守护动机转变过快。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "伊莱亚斯：风暴已经平息，我不该继续占着这风暴眼的位子。我要去南部小镇。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-2",
+        "contrast_quote": "伊莱亚斯（眼神中透出深深的疲惫）：到这座庄园彻底沦为“兄弟会”的活体实验室。"
+      },
+      "reason": "R01指出伊莱亚斯全剧核心动机是复仇和保护梅莉安。第58集刚发现“兄弟会没死透”的新威胁，第59集他却表示“风暴已经平息”、“我要去南部小镇”、“这是一种安宁”。这种从高度警惕到突然放下的心态转变，缺乏足够的情感缓冲或事件驱动，显得动机断裂。属于B级（局部行为与设定轻微不吻合，不影响整体稳定性，但此处转折较突兀，定为B）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "临时补丁",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "首领在地下控制室被压死/击败后，第58集又出现“首领”编写的自动逻辑或余党威胁，缺乏合理过渡，属于临时补丁。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "△ 一根巨大的钢梁扭曲着落下，精准地将首领彻底压在瓦砾之下。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-2",
+        "contrast_quote": "伊莱亚斯（冷笑，眼神空洞）：除非那个“首领”早就死在那底下，现在控制这台机器的，是他编写的自动逻辑。"
+      },
+      "reason": "R02指出第54集首领被钢梁压住，第55集确认死亡。但第58集伊莱亚斯称“首领早就死在那底下，现在控制这台机器的，是他编写的自动逻辑”，这一解释过于牵强，且前文未铺垫首领有如此高级的AI编程能力，属于临时补丁。根据标准，临时规则影响阶段剧情，缺少前后统一的设定支撑，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E005"
+      ],
+      "status": "rejected",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "梅莉安在第20集突然想起“面具男是叔叔”，但前文无铺垫，且与第30集管家揭示的“父母被扣”信息冲突。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "梅莉安（痛苦地抱住头）：那个面具男……那是我的叔叔。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-2",
+        "contrast_quote": "老管家（压低声音）：他们没死。被扣在废弃矿坑的牢笼里。"
+      },
+      "reason": "R02认为第20集梅莉安认出面具男是叔叔缺乏铺垫，且与第30集信息冲突。但第20集梅莉安是在地下实验室入口经历强烈闪回（闻到消毒水和铁锈味）后想起的，这属于创伤后应激或记忆恢复的叙事手段，并非“信息提前泄露”（即角色在没有接触线索的情况下提前知道核心真相）。此外，第30集管家揭示父母被扣，与面具男身份无直接逻辑冲突。因此，该条目对“信息提前泄露”的定义使用不当，且证据不足以支持“冲突”的判断，故rejected。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006"
+      ],
+      "status": "rejected",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "伊莱亚斯在肺部严重受损、濒死状态下，多次完成高难度位移和战斗。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-1",
+        "quote": "首领（轻蔑地笑）：别挣扎了。那枚星形令牌插进去后，系统已经锁死了通风管道。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-1",
+        "contrast_quote": "伊莱亚斯（嘶吼）：给我……停下！"
+      },
+      "reason": "R02认为伊莱亚斯在肺部严重受损、濒死状态下多次完成高难度位移和战斗，属于空间位移矛盾。但“空间位移矛盾”指的是角色在既定时间与世界规则下完成不可能位移（如瞬移、超光速等）。伊莱亚斯在重伤状态下坚持战斗属于“生命状态断裂”或“能力状态断裂”的范畴，而非空间位移问题。此外，剧本中伊莱亚斯确实有“肺部像纸一样脆”、“血已经黑了”等描写，但他通过意志力、蒸汽弹射等手段生存，虽夸张但属于动作片常见套路，不构成“空间位移矛盾”。因此，该条目分类错误，故rejected。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第1集提到的“戴面具的人”和“家族诅咒”在后续剧情中未得到充分解释或闭环。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "梅莉安：一个戴面具的人。他说这是家族的诅咒。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "男子（轻笑，指间把玩着一枚同款薄片，将其翻转）：是吗？那你为什么还在擦它？"
+      },
+      "reason": "R02指出面具男的身份在第20集被梅莉安误认为叔叔，但后续未再深入挖掘其具体身份与“诅咒”的关联，仅作为背景威胁存在，核心悬念未完全闭合。第60集出现的“男子”虽把玩同款薄片，但未明确其是否为面具男或“诅咒”的源头，属于次要伏笔回收不足，只影响完整感，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "星形令牌的持有者在不同场次间频繁无逻辑转移，且存在“一人持有两枚”或“凭空出现”的情况。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "梅莉安（颤抖着掏出贴身收存的星形贴片）：给我的……",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-2",
+        "contrast_quote": "梅莉安（颤抖着从颈间摘下那枚星形令牌）：舅舅……"
+      },
+      "reason": "R03指出星形令牌的持有者在不同场次间频繁无逻辑转移。第2集梅莉安掏出“星形贴片”，第17集梅莉安从颈间摘下“星形令牌”，第28集梅莉安又摘下“星形令牌”给伊莱亚斯，第37集伊莱亚斯从战术背心内袋摸出“星形令牌”给梅莉安，第40集伊莱亚斯从口袋摸出“星形令牌”，第44集伊莱亚斯从战术背心掏出“星形令牌”扔向屏幕，第47集伊莱亚斯从口袋摸出“星形薄片”，第48集伊莱亚斯从战术背心内袋摸出“星形薄片”，第49集梅莉安从贴身口袋掏出“星形令牌”，第50集伊莱亚斯从肺叶旁取出“星形薄片”，第51集梅莉安手中攥着“星形令牌”，第55集西拉斯捡起“星形令牌碎片”，第57集梅莉安从诊所夹层发现“星形薄片原件”，第58集梅莉安将“星形薄片”塞入枕头，第59集伊莱亚斯从枕下摸出“星形薄片”，第60集伊莱亚斯手中摩挲“星形薄片”。道具的形态（令牌/贴片/薄片/碎片/原件/仿制品）和持有者（梅莉安/伊莱亚斯/西拉斯）在不同场次间频繁变化，且缺乏清晰的交接过程，导致观众对关键道具的掌控权产生困惑。属于A级（重要资源转移缺少交接过程）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A014",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "星形令牌的功能在不同场景中随意变化（短路、开锁、生物密钥、棱镜），缺乏统一的世界观规则。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-3",
+        "quote": "梅莉安：因为我脖子上的护身符，其实是一块棱镜。",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-3",
+        "contrast_quote": "伊莱亚斯（冷笑）：那是它唯一的用途。短路主阀，我们要在那之前完成。"
+      },
+      "reason": "R03指出星形令牌的功能在不同场景中随意变化。第17集称“短路主阀”，第20集称“棱镜”反射光线，第21集称“虹膜里有兄弟会的底层代码”（虽非令牌直接功能，但相关），第37集称“磁场还在，那是切断最后一道物理防线的钥匙”，第40集称“终结一切的钥匙”，第47集称“物理覆盖电路”，第49集称“强磁场薄片”、“短路逻辑电路”，第50集称“强磁场薄片”、“跟里面的芯片打架”。功能描述前后不一，缺乏统一的世界观规则，导致边界情况产生理解障碍，但未形成明确违反（因每次都有不同解释），定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A015",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第30集梅莉安通过管家得知父母被扣，但前文从未提及父母下落，且管家作为内应的动机与行为逻辑薄弱。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "老管家（压低声音）：他们没死。被扣在废弃矿坑的牢笼里。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出第30集梅莉安通过管家得知父母被扣，但前文从未提及父母下落，且管家作为内应的动机与行为逻辑薄弱。前文第1集提及“母亲临终前”，第30集管家揭示父母被扣，属于来源交代偏薄，但前后文可拼合（管家被胁迫），不影响主线理解，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A016",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第30集提到的“父母被扣在废弃矿坑”这一重大悬念，在后续剧情中完全消失，未再提及或解决。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "老管家（压低声音）：他们没死。被扣在废弃矿坑的牢笼里。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出第30集提到的“父母被扣在废弃矿坑”这一重大悬念，在后续剧情中完全消失，未再提及或解决。第30集管家明确告知父母被扣在废弃矿坑，梅莉安也拿到了路线图，但后续剧情中未再提及梅莉安去救父母或父母的下落，属于重要伏笔回收不充分，阶段剧情虎头蛇尾，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A017",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "前期（1-10集）对梅莉安神经干扰的铺垫较为扎实，从幻听、幻视到物理设备（中继器）的发现，因果链清晰。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "伊莱亚斯（撕开中继器外壳）：是为了重塑。让你成为他们的新傀儡。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指出前期（1-10集）对梅莉安神经干扰的铺垫较为扎实，从幻听、幻视到物理设备（中继器）的发现，因果链清晰。第1集梅莉安出现幻听，第3集伊莱亚斯发现中继器并解释其功能，第7集灯光闪烁传递摩斯电码，第8集梅莉安在干扰下自残，第9集配电室爆炸，第10集伊莱亚斯拆解中继器并解释其原理。主要转折因果清晰，前因充分支撑后果，定为A级亮点。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 24,
+  "covered_count": 24
+}

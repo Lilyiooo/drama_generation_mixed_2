@@ -1,0 +1,297 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伊莱亚斯具有完整且深刻的人物弧光，起点缺陷（傲慢、贪婪）、关键转折（被迫签字、囚禁、觉醒）和终点变化（放弃权威、追求真实）均有强证据支持。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-2",
+        "quote": "他写道：“诚实是建立长期信任的唯一捷径。提供材料清单，解释创作意图，甚至公开成本结构。在信息透明的时代，‘神秘感’往往是中间商牟利的工具，而‘透明’才是艺术家最坚固的护甲。”",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伊莱亚斯·索恩（语气恢复自信，甚至带着一丝傲慢）：看见了吗？光线才是最好的显影剂。在正确的温度下，真相才会显现。"
+      },
+      "reason": "三位评审均指出主角弧光完整。证据显示：起点为傲慢与自欺（第1集篡改数据）；转折1为道德崩塌（第10集签字、第12集洗钱）；转折2为绝望与反抗萌芽（第20集发现真相、第35集刻划痕）；终点为重建诚实与平等（第59集指导艺术家、第60集接受不完美）。变化由强驱动事件（朱利安胁迫、真相揭露）逼出主动选择（签字、刻痕、公开揭露），并产生不可逆后果（失去职业、家庭破裂、最终救赎）。符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伊莱亚斯的内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "他用拇指和食指紧紧捏住SIM卡，缓缓施加力量。咔嚓。一声清脆且刺耳的碎裂声在空旷的玄关响起，如同骨骼断裂。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-2",
+        "contrast_quote": "如果砸了终端，朱利安会认为他在销毁关键证据... 保护她。哪怕是以背叛自己的方式。"
+      },
+      "reason": "主角的内在矛盾（职业操守vs生存、对妻子的爱vs自保）贯穿全剧。第13集捏碎SIM卡是极端的脆弱暴露与两难选择（切断联系以自保/保护妻子）；第33集试图发送证据又因保护妻子而放弃，体现了深层的价值冲突；第12集篡改账目是犯错并承担后果（成为共犯）。这些节点充分戏剧化了人物的复杂性，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲；配角、反派和群像持续制造推进力与人物层次。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-2",
+        "quote": "维克多（深吸一口气，眼泪顺着指缝滴落）：合成树脂混合氧化铁粉……还要加一种特殊的酸液腐蚀底层……那是……那是现代工艺，根本不可能存在于一百年前……",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "克拉拉：（颤抖着按下快门，连拍三张）找到了。伊莱亚斯，我找到了。"
+      },
+      "reason": "朱利安（反派/控制者）、克拉拉（盟友/调查者）、维克多（共犯/证人）功能明确且不可替代。朱利安提供持续压迫，克拉拉提供外部视角与关键证据，维克多提供内部崩溃与证词。R03评为S级，但考虑到配角（如马库斯、阿德里安）的弧光相对较弱，主要依赖功能推动，A级更为稳妥，符合“主角配置清晰，重要角色功能明确并推动主线”的A级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（伊莱亚斯与朱利安、伊莱亚斯与克拉拉）同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-2",
+        "quote": "克拉拉（眼神逐渐冷却，恐惧褪去，取而代之的是深沉的失望）：原来这就是你所谓的“大局”。在你的大局里，没有道德，只有输赢。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-2",
+        "contrast_quote": "朱利安（OS）：你以为她在救人？不，她在被问询。警方认为她是你的财务联络人，是你洗钱网络的关键节点。因为你的“不配合”，他们冻结了她的所有资产，并准备将她移交国际刑警。"
+      },
+      "reason": "伊莱亚斯与克拉拉的关系包含情感依赖（夫妻）、价值冲突（谎言vs真相）、秘密误会（克拉拉发现报告）；伊莱亚斯与朱利安的关系包含身份立场（受害者vs控制者）、目标利益（生存vs毁灭）、情感依赖（恐惧vs顺从）。这些张力相互咬合，支撑了主线的情感逻辑。符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "克拉拉：这能帮我争取到两周的缓冲期。谢谢。",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-1",
+        "contrast_quote": "克拉拉（冷漠）：索恩先生，您的表演昨晚已经很精彩了。至于安保，那是警察的事，不是妻子的责任。"
+      },
+      "reason": "伊莱亚斯与克拉拉的关系从信任（第1-3集）到破裂（第4-9集），再到敌对/利用（第22-30集），最后到和解/平等合作（第48-58集）。关键里程碑包括克拉拉发现报告、离开、调查、最终在法院外确认。关系推进清晰，阶段变化明显。R03评为S级，但考虑到关系推进主要服务于主线剧情，且部分转折（如克拉拉突然开始调查）的铺垫稍显急促，A级更为准确，符合“核心关系有清晰起点、至少一个关键里程碑和阶段变化”的A级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯·索恩（喃喃自语）：如果……如果是环境因素导致的氧化异常呢？他拧动了旋钮。灯光由刺眼的冷白光（5600K）逐渐过渡到柔和的暖黄光（3200K）。在暖黄的包裹下，那道诡异的平滑感隐去了，裂纹显得更加深邃、古老，仿佛岁月自然的吻痕。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第1集通过鉴定场景迅速建立主角的困境（发现画作异常）与道德困境（篡改数据），核心问题（画作真伪与主角的职业生涯）清楚，信息组织流畅。R03评为S级，但考虑到开篇主要依赖单一场景和主角的内心挣扎，缺乏更强烈的外部冲突或悬念钩子，A级更为稳妥，符合“人物与情境建立有效，核心问题清楚”的A级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E007",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "朱利安·维恩（打断，声音骤然压低）：完美不是真相的副产品，伊莱亚斯。完美是共识。朱利安忽然注意到伊莱亚斯左手边手机屏幕亮了一下，上面显示着银行发来的“余额不足”警告。朱利安嘴角的笑意加深，带着一种捕食者的怜悯。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "核心矛盾（画作真伪与主角的职业生涯）明确，阻力（朱利安的控制、董事会的压力）有效，风险（身败名裂、失去家庭）可感知，并形成后续期待（主角如何自保、克拉拉的反应）。R03评为S级，但考虑到矛盾建立主要依赖主角的内心挣扎和外部压力，缺乏更强烈的冲突爆发点，A级更为准确，符合“核心矛盾明确，阻力有效，风险可感知”的A级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E008",
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "董事会秘书（OS）：伊莱亚斯博士，紧急变更。由于社交媒体热度超出预期，赞助商和全球媒体强烈要求，揭幕仪式提前至三天后的下午两点。地点不变，直播通道已就绪。请确认最终鉴定报告已在昨晚提交。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "集末问题（如主角的妥协、克拉拉的离开）在下一集得到相称推进，悬念（画作真伪、主角的反击）有效兑现，情感投入（主角的绝望、克拉拉的坚定）持续累积。R03评为S级，但考虑到部分集间承接主要依赖外部事件推动，缺乏更强烈的情感或逻辑递进，A级更为稳妥，符合“多数关键边界问题清楚，承接自然”的A级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E009",
+        "quality-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "朱利安（OS）：你以为她在救人？不，她在被问询。警方认为她是你的财务联络人，是你洗钱网络的关键节点。因为你的“不配合”，他们冻结了她的所有资产，并准备将她移交国际刑警。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "朱利安的台词优雅而冷酷，充满控制欲；伊莱亚斯的台词从傲慢到崩溃再到坚定，变化明显；克拉拉的台词冷静而坚定，体现其独立与智慧。R03评为S级，但考虑到部分台词（如朱利安的OS）略显说教，缺乏更自然的口语颗粒，A级更为准确，符合“关键角色台词风格稳定，人物间表达差异清楚”的A级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E010",
+        "quality-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-1",
+        "quote": "一道鲜红、凝实的激光束瞬间穿过舞台弥漫的尘埃，无视了画作正面华丽的色彩与构图，径直穿透画框底部的缝隙，死死钉在背板那处显眼的十字划痕上。红点周围粗糙的伪造笔触在红光照射下无所遁形。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第46集激光笔照射十字划痕的场景，色彩（红光）、道具（激光笔）、空间（展厅）和动作构图组合明确，形成高度可辨识的视觉组织。R03评为S级，但考虑到该场景主要依赖单一视觉元素（激光），缺乏更复杂的色彩、道具或空间组合，A级更为稳妥，符合“有视觉设计意识和可记忆画面”的A级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E011"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "他按下开关，一束幽蓝的紫外光在空气中划出一道轨迹。光束首先扫过画布边缘的基底，那是典型的19世纪亚麻布与动物胶混合层，在UV灯下呈现出暗淡、均匀的棕黄色荧光，符合年代特征。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "设定（如紫外光检测、CMYK网点）分阶段释放，每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定，信息量始终可吸收。符合A级亮点标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 26,
+  "covered_count": 26
+}

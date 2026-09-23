@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 80.57,
+      "ledger_subdimension_mean": 76.29,
+      "holistic_subdimension_mean": 84.86,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 82.0,
+          "holistic_score": 84.0,
+          "fused_score": 83.0
+        },
+        "character_state": {
+          "ledger_score": 70.0,
+          "holistic_score": 84.0,
+          "fused_score": 77.0
+        },
+        "knowledge_state": {
+          "ledger_score": 78.0,
+          "holistic_score": 84.0,
+          "fused_score": 81.0
+        },
+        "resource_state": {
+          "ledger_score": 70.0,
+          "holistic_score": 84.0,
+          "fused_score": 77.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 74.0,
+          "holistic_score": 84.0,
+          "fused_score": 79.0
+        },
+        "foreshadowing": {
+          "ledger_score": 74.0,
+          "holistic_score": 84.0,
+          "fused_score": 79.0
+        },
+        "repetition": {
+          "ledger_score": 86.0,
+          "holistic_score": 90.0,
+          "fused_score": 88.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 2,
+          "highlights": 2,
+          "total": 4
+        },
+        "character_state": {
+          "issues": 4,
+          "highlights": 0,
+          "total": 4
+        },
+        "knowledge_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "resource_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "rules_spacetime": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "foreshadowing": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 89.0,
+      "ledger_subdimension_mean": 91.6,
+      "holistic_subdimension_mean": 86.4,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 96.0,
+          "holistic_score": 88.0,
+          "fused_score": 92.0
+        },
+        "hooks": {
+          "ledger_score": 93.0,
+          "holistic_score": 92.0,
+          "fused_score": 92.5
+        },
+        "plot": {
+          "ledger_score": 86.0,
+          "holistic_score": 86.0,
+          "fused_score": 86.0
+        },
+        "episode": {
+          "ledger_score": 92.0,
+          "holistic_score": 84.0,
+          "fused_score": 88.0
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 82.0,
+          "fused_score": 86.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如潜入、追踪、逃脱）大多承担不同功能，通过新变量（如从公寓到下水道，从下水道到夜总会，从夜总会到海上豪宅）和结果升级形成有效变奏。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "罗斯迅速滑入客厅角落的阴影中... 她转身冲向厨房，从碗柜底层摸出一个自制的小型金属罐"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（潜入、追踪、逃脱）大多承担不同功能，通过新变量（如从物理潜入到网络战，再到法律战）形成有效变奏。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-1",
+            "quote": "罗斯深吸一口气，将电击器对准门锁电路接口，狠狠按下。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如潜入、追踪、逃脱）大多承担不同功能，通过新变量（如从物理潜入到网络战，再到舆论战）和关系变化形成有效变奏。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "她看了一眼近在咫尺的排水格栅，那是通往真相和救赎的唯一路径；又看了一眼手机屏幕上那张令人心碎的照片，那是她作为母亲的软肋。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手代表不同资源、价值立场与压力类型。多莉代表家族名誉与法律压迫，爱德华代表资本与科技控制，黑帮代表暴力与混乱，迫使主角采用不同策略（伪装、黑客、物理对抗）。",
+          "evidence": {
+            "episode": "第8集",
+            "scene": "8-1",
+            "quote": "爱德华：我不关心他的感受，我只关心资产的完整性。文森特现在是家族最大的不稳定因素。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手（多莉的家族势力、爱德华的暴力/科技控制、法律/社会偏见）代表不同资源与压力类型，迫使主角采用不同策略（伪装、黑客、舆论/法律）。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "首席精神科医生：（并未正眼瞧罗斯，翻看着文件）爱德华家族的诉求很明确。我们需要评估这位女性的认知功能是否受损..."
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：多莉代表家族名誉与法律/精神污名化，爱德华代表暴力与资本，黑帮代表底层混乱，迫使主角采用不同策略（伪装、黑客、舆论）。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "多莉：（眼眶瞬间红了，声音带着哭腔）妹妹，你怎么能这样说？我是为了你好。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从发现文森特假死到潜入夜总会获取证据，再到潜入疗养院，每一步都压缩人物选择或扩大后果。",
+          "evidence": {
+            "episode": "第2集",
+            "scene": "2-2",
+            "quote": "罗斯的手剧烈颤抖。她死死盯着那个手腕，嘴唇无声地开合，似乎在咀嚼两个词：“不可能。”"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从发现文森特假死到潜入疗养院，再到最终审判，每一步都压缩选择或扩大后果。",
+          "evidence": {
+            "episode": "第27集",
+            "scene": "27-1",
+            "quote": "罗斯的瞳孔剧烈收缩。手中的推车把手被捏得咯吱作响，指节因用力过度而泛白。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从酒馆地下室到红天鹅，再到圣心疗养院，场景升级伴随主角处境与目标的深化。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-1",
+            "quote": "她进入了内部。瞬间的世界截然不同。这里没有霉味，只有浓烈到令人作呕的消毒水气息。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。第1集通过逃亡迅速建立罗斯的生存状态和核心冲突。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "罗斯：姨妈？这么早？ 多莉（混响，语调甜美却带着疏离的寒意）：罗斯，亲爱的。早餐吃了吗？外面有些小误会，我想你可能还没醒。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物（罗斯的冷静与母性）、情境（被追杀）、核心问题（文森特假死/家族阴谋）和目标情绪（紧张/悬疑），叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "罗斯眼神如冰，手稳如铁，精准地锯断排油烟机下方连接主通风道的白色PVC管道接口。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过逃亡与婴儿危机迅速建立主角的生存压力与保护欲，第2集通过报纸发现核心悬念。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "罗斯猛地拔掉保险销，将烟雾罐抛向客厅中央的地毯。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从第30集开始，节奏加快，高潮逐级增强。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-1",
+            "quote": "罗斯：玛莎，启动干扰。我要那艘船在海里看起来像一块死木头。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标（获取证据、潜入、反击）和小高潮（火灾、海上豪宅对峙）推进，后段完成充分升级（审判、社会行动）与收束。",
+          "evidence": {
+            "episode": "第49集",
+            "scene": "49-2",
+            "quote": "爱德华猛地按下按钮。远处海面传来一声沉闷的闷响..."
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从潜入疗养院到舆论战，再到法庭审判，节奏紧凑且情绪积累充分。",
+          "evidence": {
+            "episode": "第46集",
+            "scene": "46-1",
+            "quote": "罗斯：（看着屏幕，嘴角勾起一丝冷笑）让他看看，真正的地狱不是地牢，而是舆论。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。从绝望到愤怒，再到决绝，最后到平静，情绪曲线完整。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-2",
+            "quote": "罗斯僵住了。颤抖的手指轻轻抚过孩子的脸颊，温热、柔软、鲜活。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷（火灾、囚禁、审判）有铺垫，高潮兑现主要情绪承诺（复仇的快感与代价，最终的释然）。",
+          "evidence": {
+            "episode": "第54集",
+            "scene": "54-2",
+            "quote": "罗斯抬起头，阳光穿过树叶的缝隙，斑驳地洒在她脸上。她没有笑，但紧绷了数个日夜的肩膀，终于松弛下来。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。主角的愤怒、绝望、决绝与最终的释然均有充分铺垫。",
+          "evidence": {
+            "episode": "第59集",
+            "scene": "59-2",
+            "quote": "这不是失去的痛苦，而是长期高压之下，弹簧骤然断裂的虚脱与释放。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。每集结尾都留有悬念，如第1集结尾罗斯进入隧道，第2集结尾罗斯决定复仇。",
+          "evidence": {
+            "episode": "第2集",
+            "scene": "2-2",
+            "quote": "她抱起婴儿，转身向报刊亭更深的阴影处走去，背影决绝。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化（悬疑、动作、情感、法律），并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第31集",
+            "scene": "31-2",
+            "quote": "爱德华：（低声自语）让我们看看，是谁在救谁。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如婴儿安全、文森特下落、爱德华罪行揭露等悬念相互咬合。",
+          "evidence": {
+            "episode": "第31集",
+            "scene": "31-1",
+            "quote": "文森特的手指在枕套内侧摸索。粗糙的布料摩擦着掌心，最终，指尖触碰到了一块坚硬的、边缘锐利的塑料片。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡节奏快，中期调查节奏适中，后期高潮节奏紧凑。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-1",
+            "quote": "罗斯死死捂住自己的嘴，指甲深深陷入掌心。胃部一阵翻江倒海，强烈的呕吐感涌上喉头。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（潜入、高潮对峙、审判）能够有意识地增减密度，信息释放与戏剧阶段匹配。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-2",
+            "quote": "屏幕上跳出的不是流水账，而是一连串复杂的医学图表、脑波频谱分析和神经元连接示意图。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡密集，中期潜入与布局节奏放缓以积累张力，后期高潮密集。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "罗斯：内斗导致换岗间隔拉长了四十秒。足够了。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主线总体推进，但局部有可压缩的重复、过渡或低增量集数。例如第11-13集在码头的调查过程略显拖沓，部分动作描写重复。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-1",
+            "quote": "罗斯深吸一口气，压抑住体内因烧伤和寒冷而灼痛的肌肉。她从大衣内侧口袋中摸索出一物，动作极轻，避免发出任何金属碰撞的噪音。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，几乎没有无功能段落。",
+          "evidence": {
+            "episode": "第36集",
+            "scene": "36-1",
+            "quote": "格特鲁德：（盯着罗斯的眼睛）我不需要烈士，我需要能活着把人救出来的战友。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数，每集均推动主线或深化人物。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-2",
+            "quote": "罗斯：我可以把这几百页的非法洗钱记录发给检察院，条件是，我要你们进入那个圈子，拍下来，记下来。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。格特鲁德的副线（保护婴儿、提供庇护）与主线紧密相连，最终在审判和结局中发挥作用。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "格特鲁德（低语，声音沙哑）：既然上面无路可走，那就下地狱去。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线（社会互助/基金建立）稳定补充人物（罗斯的成长）、信息（爱德华的后续影响）、冲突（长兄的威胁），并在关键节点反哺主线（提供法律/社会支持）。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-1",
+            "quote": "罗斯：从今往后，爱德华留下的不再是毒药，而是盾牌。我们不再是等着被清理的垃圾，我们是守护者。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。如格特鲁德的庇护、底层互助网络的建设，均为主角复仇与最终救赎提供支撑。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "格特鲁德：现在我觉得，活着是为了不让别人在黑暗里死掉。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从寻找文森特到揭露爱德华罪行，再到建立基金，主线推进清晰。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-1",
+            "quote": "罗斯：既然他喜欢用金钱杀人，那我就让他用金钱救人。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现（从假死真相到永生计划，再到法律审判）。",
+          "evidence": {
+            "episode": "第54集",
+            "scene": "54-1",
+            "quote": "法官：被告人爱德华·索恩，犯故意杀人罪、非法拘禁罪及巨额洗钱罪。证据确凿，情节特别恶劣，社会危害极大。判处无期徒刑..."
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从寻找文森特到揭露爱德华罪行，再到法律审判，主线清晰且兑现有力。",
+          "evidence": {
+            "episode": "第54集",
+            "scene": "54-1",
+            "quote": "法官：被告人爱德华·索恩，犯故意杀人罪、非法拘禁罪及巨额洗钱罪。证据确凿，情节特别恶劣，社会危害极大。判处无期徒刑，剥夺政治权利终身，不得假释。"
+          }
+        }
+      ]
+    }
+  ]
+}

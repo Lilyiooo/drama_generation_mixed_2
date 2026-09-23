@@ -1,0 +1,182 @@
+{
+  "protocol_version": "pg19-selected12-state-hybrid-conservative-gate-v1",
+  "generated_at": "2026-09-23T07:25:04.868069+00:00",
+  "completed": 12,
+  "expected": 12,
+  "overall": {
+    "logic": {
+      "count": 12,
+      "mean": 82.85833333333333,
+      "sample_std": 2.7698730963163256,
+      "min": 78.21,
+      "max": 86.79
+    },
+    "quality": {
+      "count": 12,
+      "mean": 88.43333333333334,
+      "sample_std": 1.2448682539517895,
+      "min": 86.6,
+      "max": 90.9
+    }
+  },
+  "by_length_group": {
+    "30k_40k": {
+      "logic": {
+        "count": 4,
+        "mean": 85.485,
+        "sample_std": 1.2161277345191475,
+        "min": 83.86,
+        "max": 86.79
+      },
+      "quality": {
+        "count": 4,
+        "mean": 88.9,
+        "sample_std": 1.11952370824978,
+        "min": 87.3,
+        "max": 89.9
+      }
+    },
+    "60k_80k": {
+      "logic": {
+        "count": 4,
+        "mean": 81.7325,
+        "sample_std": 2.545471469099586,
+        "min": 78.86,
+        "max": 85.0
+      },
+      "quality": {
+        "count": 4,
+        "mean": 88.0,
+        "sample_std": 0.19999999999999574,
+        "min": 87.7,
+        "max": 88.1
+      }
+    },
+    "90k_120k": {
+      "logic": {
+        "count": 4,
+        "mean": 81.3575,
+        "sample_std": 2.506090913487914,
+        "min": 78.21,
+        "max": 83.86
+      },
+      "quality": {
+        "count": 4,
+        "mean": 88.4,
+        "sample_std": 1.961292091114092,
+        "min": 86.6,
+        "max": 90.9
+      }
+    }
+  },
+  "samples": [
+    {
+      "sample_id": "idea_pg19_13114",
+      "length_group": "30k_40k",
+      "cluster_id": 2,
+      "topic": "心理惊悚、艺术界",
+      "logic": 83.86,
+      "quality": 89.1,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_26549",
+      "length_group": "30k_40k",
+      "cluster_id": 6,
+      "topic": "心理剧、成长、制度批判",
+      "logic": 86.79,
+      "quality": 89.3,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_2643",
+      "length_group": "30k_40k",
+      "cluster_id": 8,
+      "topic": "商战、法律惊悚、讽刺",
+      "logic": 85.79,
+      "quality": 89.9,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_35045",
+      "length_group": "30k_40k",
+      "cluster_id": 9,
+      "topic": "家庭、现实主义",
+      "logic": 85.5,
+      "quality": 87.3,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_34987",
+      "length_group": "60k_80k",
+      "cluster_id": 0,
+      "topic": "历史剧、政治惊悚、悲剧爱情",
+      "logic": 82.0,
+      "quality": 88.1,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_18579",
+      "length_group": "60k_80k",
+      "cluster_id": 1,
+      "topic": "历史、冒险、战争",
+      "logic": 81.07,
+      "quality": 88.1,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_46798",
+      "length_group": "60k_80k",
+      "cluster_id": 5,
+      "topic": "历史冒险、生存剧",
+      "logic": 78.86,
+      "quality": 88.1,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_38169",
+      "length_group": "60k_80k",
+      "cluster_id": 7,
+      "topic": "心理惊悚、悬疑、爱情",
+      "logic": 85.0,
+      "quality": 87.7,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_37724",
+      "length_group": "90k_120k",
+      "cluster_id": 3,
+      "topic": "历史剧、政治惊悚",
+      "logic": 82.79,
+      "quality": 90.9,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_41542",
+      "length_group": "90k_120k",
+      "cluster_id": 4,
+      "topic": "家庭、悬疑、心理惊悚",
+      "logic": 80.57,
+      "quality": 89.0,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_22060",
+      "length_group": "90k_120k",
+      "cluster_id": 6,
+      "topic": "历史战争、成长、惊悚",
+      "logic": 78.21,
+      "quality": 87.1,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_33244",
+      "length_group": "90k_120k",
+      "cluster_id": 9,
+      "topic": "社会现实主义、悲剧爱情",
+      "logic": 83.86,
+      "quality": 86.6,
+      "score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    }
+  ]
+}

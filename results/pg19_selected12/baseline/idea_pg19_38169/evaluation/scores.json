@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_38169/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 70.21,
+      "ledger_subdimension_mean": 79.0,
+      "holistic_subdimension_mean": 61.43,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 81.0,
+          "holistic_score": 70.0,
+          "fused_score": 75.5
+        },
+        "character_state": {
+          "ledger_score": 80.0,
+          "holistic_score": 60.0,
+          "fused_score": 70.0
+        },
+        "knowledge_state": {
+          "ledger_score": 80.0,
+          "holistic_score": 80.0,
+          "fused_score": 80.0
+        },
+        "resource_state": {
+          "ledger_score": 74.0,
+          "holistic_score": 50.0,
+          "fused_score": 62.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 82.0,
+          "holistic_score": 60.0,
+          "fused_score": 71.0
+        },
+        "foreshadowing": {
+          "ledger_score": 76.0,
+          "holistic_score": 70.0,
+          "fused_score": 73.0
+        },
+        "repetition": {
+          "ledger_score": 80.0,
+          "holistic_score": 40.0,
+          "fused_score": 60.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "resource_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "foreshadowing": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 68.7,
+      "ledger_subdimension_mean": 71.4,
+      "holistic_subdimension_mean": 66.0,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 42.0,
+          "holistic_score": 72.0,
+          "fused_score": 57.0
+        },
+        "hooks": {
+          "ledger_score": 83.0,
+          "holistic_score": 68.0,
+          "fused_score": 75.5
+        },
+        "plot": {
+          "ledger_score": 72.0,
+          "holistic_score": 55.0,
+          "fused_score": 63.5
+        },
+        "episode": {
+          "ledger_score": 74.0,
+          "holistic_score": 65.0,
+          "fused_score": 69.5
+        },
+        "setting": {
+          "ledger_score": 86.0,
+          "holistic_score": 70.0,
+          "fused_score": 78.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 4,
+          "highlights": 0,
+          "total": 4
+        },
+        "character_support": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_emotion": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_structure": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_dialogue": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "episode_visual": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "setting": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 1.67,
+      "minimum": 1,
+      "maximum": 2,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "中后段（第40-54集）大量重复“地下通道-毒气泄漏-阀门卡死-主角受伤-配角救援”的桥段，仅替换地点或角色，缺乏新增量。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "伊莱亚斯（嘶吼）：别呼吸！捂紧口鼻！... 伊莱亚斯（猛扑向中央巨阀，双手死扣金属）：给我……滚回去！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "剧本中多次出现“梅莉安头痛/幻觉-伊莱亚斯安抚/强制-西拉斯质疑”的重复模式，且“地下毒气室-阀门-星形令牌解锁”的情节在多个集数中反复出现，缺乏新意。",
+          "evidence": {
+            "episode": "第5集",
+            "scene": "5-2",
+            "quote": "伊莱亚斯（厉喝）：你喝了多少？...梅莉安（惊恐）：只是水..."
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 1,
+          "reason": "全剧大量重复使用摩斯电码、星形令牌、毒气室、神经干扰等桥段，且起因、过程、结果高度同质，缺乏新增量。",
+          "evidence": {
+            "episode": "第16集/第25集",
+            "scene": "16-1/25-1",
+            "quote": "摩斯电码解开了。坐标是地下军械库。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主要对手“兄弟会”及首领形象较为单一，主要依靠声波、毒气和无人机进行压迫，缺乏不同维度的阻力类型。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-1",
+            "quote": "首领：（冷漠）那这就是你的死刑。发射。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "反派“兄弟会”及其首领缺乏具体形象，主要通过广播、幻象和无人机进行攻击，手段单一，缺乏与主角的智力或情感博弈。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "首领VO：伊莱亚斯，你看起来像个迷路的老狗。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "主要对手“兄弟会”及其首领缺乏具体形象，阻力主要依赖单一的神经干扰和毒气，手段单一，缺乏差异化。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "首领VO：伊莱亚斯，你看起来像个迷路的老狗。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 2,
+      "minimum": 2,
+      "maximum": 2,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "场景之间缺乏有效的因果递进，多次在“书房讨论-地下行动-失败/受伤-书房讨论”中循环，导致叙事停滞。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-1",
+            "quote": "伊莱亚斯：摩斯电码解开了。坐标是地下军械库。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "场景之间缺乏有效的递进，大量场景停留在“发现线索-陷入危机-暂时脱险”的循环中，未能推动主线或人物关系的实质性变化。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-2",
+            "quote": "伊莱亚斯（蹲身触碰划痕，眼神冷厉）：就在几小时前。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "场景之间缺乏有效递进，多次在庄园书房、地下控制室之间反复横跳，信息增量低，导致叙事停滞。",
+          "evidence": {
+            "episode": "第20集/第32集",
+            "scene": "20-3/32-1",
+            "quote": "地下数据中枢 夜 人物：伊莱亚斯·索恩、梅莉安、西拉斯·瓦恩"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "开篇通过梅莉安被追杀、伊莱亚斯冷漠接待、尸体发现等事件，快速建立了悬疑与危机感，人物关系和核心问题建立有效。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯（冷眼）：把伞收了。... 伊莱亚斯（目光滞留信封上褪色的星形火漆）：……进来。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "开篇通过梅莉安的遭遇和伊莱亚斯的冷漠态度，基本建立了人物关系和核心冲突，但节奏略显拖沓。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯（冷眼）：把伞收了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "开篇通过梅莉安被追杀和伊莱亚斯的冷漠建立基本情境，但核心问题（神经干扰）的建立稍显缓慢。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯（冷眼）：把伞收了。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 2,
+      "minimum": 2,
+      "maximum": 2,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "中后段（第40集后）节奏严重拖沓，高潮部分（毒气室决战）反复拉锯，缺乏紧张感的升级，导致观众疲劳。",
+          "evidence": {
+            "episode": "第53集",
+            "scene": "53-1",
+            "quote": "西拉斯：伊莱亚斯！别松手，电源切断了！... 伊莱亚斯（双手死死扣住巨阀，剧痛嘶吼）：没完！手动阀门卡死了！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "中后段节奏混乱，大量重复的危机场景导致情绪疲劳，高潮戏份缺乏足够的铺垫和爆发力。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "伊莱亚斯（怒吼）：去死吧！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "中后段存在明显的平淡段，大量篇幅用于重复的地下探索和毒气危机，高潮缺乏足够的蓄力。",
+          "evidence": {
+            "episode": "第40集-第50集",
+            "scene": "40-1",
+            "quote": "地下核心走廊 夜 人物：伊莱亚斯·索恩、梅莉安、西拉斯·瓦恩"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "整体情绪曲线有起伏，但关键高潮（如伊莱亚斯牺牲、梅莉安觉醒）的情绪铺垫不足，爆发力较弱。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "伊莱亚斯OS：好重……但我终于……赢了……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "目标情绪（恐惧、救赎）缺乏清晰的曲线，多次在紧张与平淡之间跳跃，未能形成有效的情绪积累。",
+          "evidence": {
+            "episode": "第36集",
+            "scene": "36-1",
+            "quote": "伊莱亚斯（僵硬地伸出双手，缓缓将梅莉安拥入怀中）：对不起。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "目标情绪（恐惧、救赎）长期缺失铺垫，关键高潮（如伊莱亚斯牺牲）缺乏情感积累，导致情绪断裂。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "伊莱亚斯OS：好重……但我终于……赢了……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "集末悬念设置基本有效，但部分悬念（如首领身份、令牌功能）回收缓慢或存在逻辑漏洞。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "男子（轻笑，指间把玩着一枚同款薄片，将其翻转）：是吗？那你为什么还在擦它？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "集末悬念设置较为单一，多为“敌人出现”或“危机升级”，缺乏多样化的期待点。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-3",
+            "quote": "西拉斯（孤零零地站在走廊尽头，握紧拳头）：祝你好运……蠢货。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "期待分布断档，多处集末问题（如摩斯电码）在下一集被重复或降格处理，连续叙事驱动力不足。",
+          "evidence": {
+            "episode": "第19集/第25集",
+            "scene": "19-1/25-1",
+            "quote": "是摩斯电码。短、短、长。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 2,
+      "minimum": 2,
+      "maximum": 2,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "前密后疏，中后段大量篇幅用于重复的地下逃生和毒气危机，信息密度低，导致结构失衡。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-1",
+            "quote": "伊莱亚斯（剧烈咳嗽，鲜血顺着嘴角滴落）：咳……门被锁死了，液压杆过热熔断。必须手动切断深层总阀！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "情节量分布不均，前期信息密集，后期大量重复和注水，导致整体结构失衡。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-1",
+            "quote": "伊莱亚斯：摩斯电码解开了。坐标是地下军械库。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "情节量分布失衡，前段信息密集，后段大量重复地下探索，中段塌陷明显。",
+          "evidence": {
+            "episode": "第30集-第40集",
+            "scene": "30-1",
+            "quote": "庄园走廊 夜 人物：梅莉安、伊莱亚斯·索恩"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 1.67,
+      "minimum": 1,
+      "maximum": 2,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "第40-54集存在明显的注水现象，多次重复“阀门卡死-主角受伤-配角救援”的情节，缺乏新的剧情推进。",
+          "evidence": {
+            "episode": "第51集",
+            "scene": "51-1",
+            "quote": "伊莱亚斯（嘶吼）：给我……停下！... 梅莉安（在黑暗中摸索着爬到伊莱亚斯身边）：舅舅……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "存在大量停滞和注水情节，如多次重复的“梅莉安头痛-伊莱亚斯安抚”场景，缺乏新的信息或进展。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "梅莉安（蜷缩在角落，嘶吼）：停下！求求你们停下！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 1,
+          "reason": "大量集数（如第40-50集）没有新目标或结果，删除后主线几乎不受影响，存在严重注水。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-1",
+            "quote": "地下核心控制室 夜 人物：伊莱亚斯·索恩、梅莉安、西拉斯·瓦恩"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "副线（如西拉斯的调查、村民的觉醒）基本服务于主线，但整合度不高，部分副线情节（如诊所档案）与主线连接较松。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-1",
+            "quote": "梅莉安（接过最底下一张）：这笔迹……是父亲的。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "副线（如西拉斯的调查、村民的觉醒）与主线整合不足，未能有效推动主线或丰富人物形象。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-2",
+            "quote": "村民甲（画外，惊恐）：他在撒谎！他在施法！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "副线（如西拉斯的调查、村民的觉醒）与主线连接松散，多次中断主线，回收较弱。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-2",
+            "quote": "社区广场 / 庄园走廊 夜 人物：伊莱亚斯·索恩、梅莉安、村民甲"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主线目标（摧毁兄弟会、保护梅莉安）基本清楚，但阶段兑现力度不稳定，部分关键转折（如首领死亡）处理仓促。",
+          "evidence": {
+            "episode": "第54集",
+            "scene": "54-2",
+            "quote": "△ 一根巨大的钢梁扭曲着落下，精准地将首领彻底压在瓦砾之下。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "主线推进缓慢，阶段目标兑现不足，多次陷入“危机-脱险”的循环，缺乏实质性的进展。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "伊莱亚斯（咆哮）：我说过，她不是容器！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "主线可识别，但多个阶段缺少新阻力或结果，阶段目标拖延且兑现不足，如“切断毒气”反复出现却未有效解决。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-1",
+            "quote": "地下阀门室 夜 人物：伊莱亚斯·索恩、梅莉安、西拉斯·瓦恩"
+          }
+        }
+      ]
+    }
+  ]
+}

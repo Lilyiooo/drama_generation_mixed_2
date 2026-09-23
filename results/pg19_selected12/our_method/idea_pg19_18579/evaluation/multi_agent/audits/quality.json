@@ -1,0 +1,324 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角霍拉肖的人物弧光完整且深刻，从仇恨驱动到宽恕与重建的转变有充分的事件支撑。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "霍拉肖：（极轻，近乎呢喃）安息吧，霍默。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "霍拉肖眼中的震惊逐渐转化为一种深沉的、几乎凝固的愤怒。"
+      },
+      "reason": "三位评审均指出霍拉肖弧光完整。证据显示：起点为对弟弟背叛的仇恨（第1集）；关键转折为发现遗书真相（第37集）及霍默之死；终点为宽恕与重建（第47集祭奠、第54集启航）。变化由强驱动事件（遗书揭示、死亡）逼出主动选择（放下仇恨、捐赠财产），并产生不可逆后果（身份转变、家庭和解）。符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角霍拉肖具有明确的内在矛盾及实质剧情展现，存在有效两难、脆弱呈现或犯错承担后果。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-2",
+        "quote": "霍拉肖：为了艾琳，为了活着回去。代价必须有人付。你，接受这个计划吗？",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "霍拉肖：走吧。"
+      },
+      "reason": "霍拉肖面临救子与保全家族财富/尊严的两难（第2集卖金、第28集炸船计划），以及在复仇与宽恕间的挣扎（第37集）。这些内在矛盾通过具体行动（牺牲财产、承受伤痛、最终宽恕）戏剧化。符合A级亮点标准（有明确内在矛盾及实质展现）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角珀西的角色功能明确并推动主线，反派威胁稳定，群像分配合理。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "珀西：我要疯了我。这里只有死亡和谎言。我要离开，克里斯蒂，我必须离开。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "珀西（提高音量，目光灼灼）：在造船厂的炉火旁，我学会了如何焊接钢铁。但更重要的是，我学会了如何看待钢铁上的裂痕。"
+      },
+      "reason": "珀西从恐惧的看守转变为决绝的共犯，再到战后的建设者，其“叛徒之子”身份提供了独特的视角和张力。他的行动（提供地图、协助越狱）直接推动主线。反派霍默的威胁从家族内部延伸到政治层面，稳定且具压迫感。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "霍拉肖与霍默的兄弟关系同时存在身份立场、目标利益、情感依赖、秘密误会和价值冲突等多类张力，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "霍默：看看你现在的样子。像个被追捕的老鼠，缩在阴影里。而你曾经是这个家族的王。父亲的眼睛，从来都只看着我。是你窃取了属于我的荣耀，霍拉肖。你带着你的北方佬旗帜，偷走了帕斯福德的名字。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02评为S级，R01/R03评为A级。审核认为S级成立：该关系包含身份（兄弟/叛徒）、利益（财产/政治）、情感（亲情/仇恨）、秘密（名单/动机）等多重咬合张力。霍默的动机揭示（保护名单）反转了之前的仇恨逻辑，使关系成为主线情感核心。移除该关系，主角的救赎主题和最终和解将失去根基。符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（霍拉肖与克里斯蒂、霍拉肖与霍默）有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-2",
+        "quote": "霍拉肖：（厉声）哭够了吗？",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "霍拉肖：它现在不是武器，也不是信号器。它是帕斯福德家度过黑夜的证据。"
+      },
+      "reason": "父子关系从隔阂（第1集）到生死与共（第27集汇合）再到传承与和解（第41集镜子、第55集贝壳），推进清晰。兄弟关系从仇恨到真相揭示再到祭奠，阶段变化明确。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "霍拉肖嘴唇微动，无声地念诵着家族世代相传的暗语口诀：“铁砧之下……鹰折翼……”",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第1集通过怀表秘密和密信迅速建立霍拉肖的动机（救子）和危机（弟弟背叛），信息组织紧凑，行动（卖金、改船）迅速展开，形成强期待。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "霍拉肖：我的儿子在编号409监狱，女儿在橡树庄园。我没有什么可失去的了，马尔科姆。除了这条命，和这笔钱所代表的最后机会。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "核心矛盾（救子 vs 家族背叛/封锁）明确，阻力（皮尔森、霍默、自然/军事封锁）有效，风险（死亡、家族毁灭）可感知。生存危机和情感冲突两类期待稳定。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008",
+        "quality-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-2",
+        "quote": "在画面边缘的黑暗中，几个模糊的黑影正悄无声息地靠近，那是维克托的“夜枭”快艇，如同幽灵般切入夜色。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "集末钩子（如第10集伏击、第24集父子错过）建立有效，承接自然，主要悬念（霍默动机、越狱成功）有效兑现，情感投入随剧情推进持续累积。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009",
+        "quality-R02-E009",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "霍拉肖VO：仇恨是锁，宽恕是钥匙。而现在……",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "珀西（提高音量，目光灼灼）：在造船厂的炉火旁，我学会了如何焊接钢铁。但更重要的是，我学会了如何看待钢铁上的裂痕。裂痕并不是终结，它是光进入的地方，是我们修补、重塑、进而变得更强的起点。"
+      },
+      "reason": "R01评为“台词过度打磨”，R02/R03评为“非情境化说明性表达”。审核认为“非情境化说明性表达”更准确，因为第54集VO和第53集演讲确实存在主题升华腔，略显书面化，但属于局部现象，不影响整体真实感。符合B级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010",
+        "quality-R02-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-2",
+        "quote": "轰——！！！巨大的火球从浓雾中炸裂开来，橘红色的烈焰瞬间吞噬了天空与海面。冲击波即使隔着两百码，也将“夜莺号”狠狠抛起，三人几乎翻倒。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "剧本中有多个视觉名场面（如第29集爆炸、第47集墓前祭奠），具有高度可辨识的视觉组织，但部分意象描写（如“光进入的地方”）略显抽象，整体视觉设计意识强但局部意象不完整。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011",
+        "quality-R02-E011"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "灰隼：你有一件事可以做。绕过主防线，有一条废弃的地下排水系统直通主监狱下方。那是皮尔森防御网的盲区，也是他们不敢久留的死角。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "设定（如莫比尔湾地理、邦联/联邦冲突、家族历史）分阶段释放，与剧情高潮或关键行动绑定，信息量可吸收，无明显过载。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "角色能局部推动剧情，但主要围绕帮助、伤害主角或解释信息运转，个人目标、mini 弧光或独立情感价值不足。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "艾琳：你曾在墓前放下仇恨，告诉我心已启航。但如果你把我拴在陆地上，那只是另一种形式的囚禁。",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-1",
+        "contrast_quote": "马尔科姆（踩着摇晃的楼梯冲上甲板，大声吼叫）：船长！如果不切断那些装饰，它们会把船舷玻璃彻底撞碎！火炮支架会暴露！"
+      },
+      "reason": "艾琳和马尔科姆在后期功能化倾向明显，主要作为情感支撑或助手出现，缺乏独立的个人目标和情感弧光。符合B级问题标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 29,
+  "covered_count": 29
+}

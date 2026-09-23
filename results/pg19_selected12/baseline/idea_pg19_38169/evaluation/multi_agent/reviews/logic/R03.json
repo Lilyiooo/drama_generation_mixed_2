@@ -1,0 +1,206 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了悬疑惊悚框架，但在执行层面存在严重的逻辑断裂。主要问题集中在：1. 核心道具（星形令牌/薄片）的物理属性与功能前后矛盾，且存在“已销毁/已使用”后复现的硬伤；2. 关键情节（如第25集）出现大段重复，导致剧情停滞；3. 角色状态（如西拉斯重伤）与后续行动能力不匹配；4. 反派首领的生死与位置在后期出现混乱。此外，部分危机解决依赖巧合或临时规则，缺乏铺垫。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "星形令牌/薄片在前期已被明确使用、损坏或丢弃，后期却多次以完整或可用状态出现，且功能解释混乱。",
+      "reason": "S级：关键道具状态前后硬性矛盾，直接影响主线解谜与高潮战斗的合理性。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "伊莱亚斯（看着手中黯淡焦黑的薄片）：它成了废铁。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-1",
+        "contrast_quote": "梅莉安（突然从地上爬起，手中紧紧攥着那枚星形令牌）：它……在发烫……"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "星形令牌的持有者在不同场次间频繁无逻辑转移，且存在“一人持有两枚”或“凭空出现”的情况。",
+      "reason": "A级：重要资源转移缺少交接过程，导致观众对关键道具的掌控权产生困惑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "梅莉安（颤抖着掏出贴身收存的星形贴片）：给我的……",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-2",
+        "contrast_quote": "梅莉安（颤抖着从颈间摘下那枚星形令牌）：舅舅……"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "第25集内容与第16集高度重复，包括台词、场景和冲突点，造成严重剧情停滞。",
+      "reason": "S级：两个关键事件（计划制定与信任危机）被大段重复，且占据整集篇幅，无新增信息。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "伊莱亚斯：摩斯电码解开了。坐标是地下军械库。",
+        "contrast_episode": "第16集",
+        "contrast_scene": "16-1",
+        "contrast_quote": "伊莱亚斯：摩斯电码解开了。坐标是地下军械库。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "西拉斯在第24集被导弹爆炸冲击，肋骨断裂，但在第25-28集迅速恢复并参与高强度战术行动，缺乏医疗过渡。",
+      "reason": "A级：重伤未经治疗或时间说明便完全恢复，影响角色状态可信度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "西拉斯（喘息）：肋骨断了两根……但我争取到了时间。",
+        "contrast_episode": "第28集",
+        "contrast_scene": "28-1",
+        "contrast_quote": "西拉斯：（将便携式干扰器挂在腰间，检查频段）信号覆盖半径五百米，只能坚持十分钟。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第44集梅莉安通过“咬破嘴唇”和“扔令牌”切断精神控制，缺乏前文铺垫，属于临时补丁式解决。",
+      "reason": "A级：核心危机依靠未铺垫的新规则（疼痛唤醒意识）化解，机制支撑不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "◎ 梅莉安猛地闭眼，用力咬破嘴唇，鲜红的血珠渗出。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "星形令牌的功能在不同场景中随意变化（短路、开锁、生物密钥、棱镜），缺乏统一的世界观规则。",
+      "reason": "B级：规则表达不清，边界情况产生理解障碍，但未形成明确违反（因每次都有不同解释）。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-3",
+        "quote": "梅莉安：因为我脖子上的护身符，其实是一块棱镜。",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-3",
+        "contrast_quote": "伊莱亚斯（冷笑）：那是它唯一的用途。短路主阀，我们要在那之前完成。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E007",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第30集梅莉安通过管家得知父母被扣，但前文从未提及父母下落，且管家作为内应的动机与行为逻辑薄弱。",
+      "reason": "B级：来源交代偏薄，但前后文可拼合（管家被胁迫），不影响主线理解。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "老管家（压低声音）：他们没死。被扣在废弃矿坑的牢笼里。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E008",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第30集提到的“父母被扣在废弃矿坑”这一重大悬念，在后续剧情中完全消失，未再提及或解决。",
+      "reason": "A级：重要伏笔回收不充分，阶段剧情虎头蛇尾。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "老管家（压低声音）：他们没死。被扣在废弃矿坑的牢笼里。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E009",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "前期（1-10集）对梅莉安神经干扰的铺垫较为扎实，从幻听、幻视到物理设备（中继器）的发现，因果链清晰。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "伊莱亚斯（撕开中继器外壳）：是为了重塑。让你成为他们的新傀儡。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001"
+      ],
+      "status": "rejected",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱/资源消耗矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "金怀表的功能设定前后矛盾，从‘单向信标’变为‘情报载体’，且物理状态（夹层）描述不一致。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "霍拉肖：不需要。它是单向的信标，指引我回家。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-1",
+        "contrast_quote": "霍拉肖（快速阅读，眉头逐渐纠结，声音带着难以置信）：霍默写……他被迫留下的……？"
+      },
+      "reason": "评审意见存在事实错误。1. 第37集霍拉肖阅读的是霍默手中的信件，而非怀表内的内容，怀表在此处仅作为情感寄托被压在信上，并未承担‘情报载体’功能。2. 第1集明确提到怀表夹层有邀请函，第3集霍拉肖称其为‘信标’（指引方向/精神锚点），第51集将种子放入夹层，第58集作为时间象征。怀表的功能从‘线索/信物’到‘精神象征’再到‘容器’（装种子）是连贯的，并未出现‘导航设备’与‘存储证据’的硬性逻辑冲突。‘单向信标’在此语境下更偏向于精神指引或特定路线的暗示，而非高科技导航仪，不构成逻辑断裂。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "霍默‘被迫背叛以保护家人/情报’的真相缺乏前期铺垫，依赖死后信件强行反转。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "霍拉肖（快速阅读，眉头逐渐纠结，声音带着难以置信）：霍默写……他被迫留下的……？",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "霍默：我要你们今晚出海，带上那些从走私犯那搞来的简易鱼雷。"
+      },
+      "reason": "三位评审均指出此问题。前文（如第9-10集、第18集、第34集）霍默的行为表现出极端的贪婪、复仇欲和主动攻击性（雇佣兵、鱼雷袭击、挟持人质），缺乏‘被迫卧底’或‘暗中保护’的行为线索（如故意放水、暗中传递信息等）。第37集通过遗书揭示其‘守护者’身份，属于典型的‘事后口述补完’，缺乏行为层面的铺垫，导致反转突兀，削弱了前期反派塑造的可信度。符合A级‘揭底无铺垫’标准：只有少量模糊暗示（如第20集特工提到情报金库，但未暗示霍默是保护者），不足以支撑反转级别。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "珀西从‘恐惧服从’到‘主动背叛/合作’的心理转变节奏过快，缺乏足够的中间过渡。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "珀西（咬着牙，将托盘推入铁栏缝隙）：拿去。如果这上面有陷阱，我会第一个把父亲拖下水。",
+        "contrast_episode": "第6集",
+        "contrast_scene": "6-1",
+        "contrast_quote": "珀西：我不敢说不害怕，但我理解这是命令。"
+      },
+      "reason": "第6-7集珀西表现为恐惧与服从，第16集目睹父亲杀人后动摇，第17集即主动交出布防图。虽然第16集提供了触发点，但从‘恐惧’到‘主动策划越狱并交出核心机密’的转变仅用了一集，且中间缺乏珀西内心挣扎、试探或逐步建立信任的详细过程，主要依赖克里斯蒂的言语诱导。符合B级‘性格动机突变’标准：局部行为与设定轻微不吻合，不影响整体稳定性，但过渡偏薄。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍拉肖在下水道听到克里斯蒂声音并指引其方向，但两人最终未汇合，且克里斯蒂对声音来源的确认缺乏逻辑支撑。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "霍拉肖（大喊）：克里斯蒂听我说！走通风管！别停下！",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-2",
+        "contrast_quote": "克里斯蒂（回头看了一眼，迅速拉下破斗笠）：前面路断了，往左！上屋顶！"
+      },
+      "reason": "第24集霍拉肖在排水井大喊指引方向，克里斯蒂听到后坚信是父亲并据此改变路线。然而，第25集两人并未在约定地点汇合，而是各自逃生后在码头才相遇。克里斯蒂在极度混乱和恐惧中，仅凭模糊的声音就完全信任并改变既定逃生路线，这一决策缺乏足够的验证过程，且后续剧情未解释为何声音指引未能直接导致汇合，存在逻辑跳跃。符合B级‘关键转折因果断裂’标准：因果基本成立，仅有局部跳跃或铺垫偏薄。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "highlight",
+      "category": "时空逻辑设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "莫比尔湾的地理空间调度（海上、下水道、堡垒内部）清晰，时间线紧凑，无明显矛盾。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "霍拉肖（抬头）：这结构不对……这不是普通排水沟，这是通往地下通风井的入口。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "剧本在复杂的空间转换（如从海上到下水道，再到堡垒内部）中保持了较好的逻辑连贯性。例如，第21-24集霍拉肖通过下水道接近监狱，与第23-25集克里斯蒂从内部逃出的时间线基本吻合（虽未完全同步，但符合‘擦肩而过’的戏剧设定）。规则（如封锁线、声呐、伪装）的使用前后一致。符合A级‘时空逻辑设计质量’标准：主要时间节点、地点转换和规则边界清晰，无明显矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006",
+        "logic-R02-E004",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色（霍拉肖、克里斯蒂）的行动动机（救家人）贯穿始终，关键转折（如烧毁海关、引爆信号塔）均有明确的前因后果。",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-1",
+        "quote": "霍拉肖（冷漠地）：在战争中，仁慈就是慢性毒药。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "霍拉肖的每一步行动（卖债券、改装船、贿赂、杀人）都直接服务于‘救回艾琳和克里斯蒂’这一核心目标，动机链条完整。克里斯蒂的越狱行动也基于对珀西的利用和对地形的熟悉，逻辑自洽。‘贝尔维特号’的伪装策略与后续突破封锁的因果链清晰。符合A级‘因果链设计质量’标准：主要转折因果清晰，前因充分支撑后果。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "霍拉肖船上的“联邦情报金库”来源不明，且霍拉肖对其内容缺乏基本认知。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "特工：我们想要的是那艘船上的金库，确切地说，是里面的内容。... 特工：那个黑匣子里，藏着邦联海军高层吞掉军饷的证据！",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-1",
+        "contrast_quote": "霍拉肖：我没要塞，我只需要一艘船和快钱。"
+      },
+      "reason": "第20集特工声称船上有“联邦特工的情报金库”，但前文（第2集）霍拉肖仅提及卖债券换钱，未提及藏匿联邦机密。霍拉肖作为船长，对自己船上藏有足以颠覆政权的“重磅炸弹”毫不知情，且特工要求用“救女儿的救命钱”（现金）购买路线，逻辑上霍拉肖应更倾向于直接交出金库或质疑特工身份，而非支付现金。符合A级‘证据线索断裂’标准：来源有模糊铺垫，但获取、转移或保存状态缺少关键支撑。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E003"
+      ],
+      "status": "rejected",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "珀西对霍拉肖的称呼在越狱前后出现不一致。",
+      "evidence": {
+        "episode": "",
+        "scene": "",
+        "quote": "",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "评审意见在reason中自我修正并承认‘证据链较弱，移除’，且最终结论为‘无明确矛盾’。证据字段为空，无法构成有效台账项。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "布防图的获取与传递过程存在逻辑断裂，珀西在档案室偷图后，克里斯蒂在牢房如何获得并吞下该图缺乏合理解释。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "珀西（走到档案架前，迅速抽出一张泛黄的纸张...）这里是艾琳的位置...克里斯蒂（从阴影中走出...）...克里斯蒂（迅速抽出那本厚重的名录...）",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-1",
+        "contrast_quote": "珀西（从袖中抖出一张泛黄纸卷）：地下掩体的通风井和卫兵换岗路线，刚画的。"
+      },
+      "reason": "第17集珀西在档案室偷出图纸并夹在书中，随后克里斯蒂在牢房外出现并拿走书。但第23集珀西再次进入牢房时，声称带来了“刚画的”地下掩体通风井和卫兵换岗路线，并交给克里斯蒂。这与第17集已获取的图纸重复，且第17集克里斯蒂已吞下图纸（记忆），第23集又获得新图纸，逻辑上存在资源重复与传递路径不清的问题。符合A级‘道具归属混乱’标准：重要资源发生转移，但缺少交接、盗取、赠予或夺取过程。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍拉肖在重伤（左肩中弹/被击伤）后仍能进行高强度战斗和逃生，恢复过程交代不足。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "霍拉肖（捂着肩膀，声音嘶哑却不容置疑）：不准开枪！...霍拉肖左肩瞬间鼓起，鲜血瞬间浸透了衣襟",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "霍拉肖（瞳孔骤缩，利用杠杆原理猛然发力）：该死！...霍拉肖猛地将霍默甩向墙壁，顺势扯断了引爆器的电线。"
+      },
+      "reason": "第35集霍拉肖左肩中弹/被击伤，鲜血浸透衣襟。第36集他仍能“利用杠杆原理猛然发力”、“猛地将霍默甩向墙壁”、“扯断电线”。虽然处于紧急状态，但短时间内从重伤到爆发超常体力的过程缺乏医学或生理上的合理铺垫，略显夸张。符合B级‘能力状态断裂’标准：变化有基本依据，但过程偏薄或节奏过快。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "金怀表作为核心道具，从线索指引到最终情感寄托，闭环完整。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "中间人：包括这块怀表？夹层里有你要的“葬礼”邀请函。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-3",
+        "contrast_quote": "霍拉肖（轻抚怀表边缘，声音平缓）：我在听它跳动的声音。这滴答声里，有我们活过的证明。"
+      },
+      "reason": "第1集怀表作为线索出现，第3集确认为精神锚点，第37集压在遗书上，第39集交给克里斯蒂，第51集放入种子，第58集作为时间象征。道具贯穿始终，功能从实用转为象征，逻辑自洽。符合A级‘伏笔闭环’标准：主要伏笔回收充分，阶段剧情完整。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 16,
+  "covered_count": 16
+}

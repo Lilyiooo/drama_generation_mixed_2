@@ -1,0 +1,343 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "银质烟盒的归属与出现逻辑混乱。第11集蒂姆展示后，第12集拉尔夫/珀西在森林中捡到同一烟盒，第13集蒂姆又拿着该烟盒，缺乏明确交接或归还过程。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "蒂姆：临走前，看看这个。我在巴克的睡袋底找到的。普军限价的烟草，印着‘黑手帮’的标记。",
+        "contrast_episode": "第12集",
+        "contrast_scene": "12-2",
+        "contrast_quote": "珀西弯腰捡起，吹去上面的泥土。那是一个银质烟盒……拉尔夫接过烟盒……他的脑海中瞬间闪过第11集结束时蒂姆展示的那个烟盒的画面。"
+      },
+      "reason": "三位评审均指出烟盒流转逻辑问题。第11集蒂姆展示并暗示其重要性，第12集兄弟俩在森林捡到同一烟盒（蒂姆在场），第13集蒂姆又持有该烟盒。虽然第12集拉尔夫意识到“不是偶然遗失”，但剧本未交代蒂姆如何再次获得或归还烟盒，属于A级道具归属混乱（重要资源转移缺少过程）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "拉尔夫的左轮手枪子弹数量前后矛盾。第2集获得3发，第3集射击1发，第14集称剩3发，第15集称剩3发，第16集称剩3发。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "蒂姆·多伊尔从腰间解下一把磨损严重的左轮手枪，弹巢里只有三发黑油油的子弹。",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-2",
+        "contrast_quote": "拉尔夫（看着四周，绝望地喃喃）：我们完了。这把枪里只剩三发子弹。"
+      },
+      "reason": "第2集明确只有3发子弹，第3集拉尔夫射击哨兵A消耗1发，应剩2发。但第14集拉尔夫说“只剩三发子弹”，第15集再次提到“仅剩三发子弹”，第16集又提到“仅剩三发子弹”。中间未交代补充子弹的过程，且第3集后未再提及装填。属于A级资源消耗矛盾（恢复有弱暗示但缺少过程）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "坦普少校在第35集明确死亡，但在第58集又出现在酒窖指挥部。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "坦普少校：（声音变得柔和，近乎叹息）拉尔夫。别回头。活下去。……拉尔夫闭上眼，两行清泪滑过尘土飞扬的脸颊。他用力挥动手臂，将引爆器抛向身后的转角处。……身后传来一声惊天动地的轰鸣。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-1",
+        "contrast_quote": "酒窖内死一般的寂静。坦普少校坐在满是污渍的木桌旁，手指间夹着半截熄灭的雪茄。"
+      },
+      "reason": "第35集坦普少校腹部中弹，将引爆器交给拉尔夫后，转身面对敌人，拉尔夫引爆后坦普被埋在废墟中，暗示死亡。但第58集坦普少校完好无损地出现在酒窖，且未解释其如何幸存或逃脱。属于S级生命状态断裂（角色已被明确写实确认死亡，后续无假死、复活、替身、倒叙等解释却以活人参与关键剧情）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E007",
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "珀西多次展现高超的战术素养和专业知识，但缺乏来源铺垫。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-2",
+        "quote": "珀西：不是死路。是回声壁。……骑兵只会冲向声音最大的地方。只要让他们以为这里有大队伏兵……",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "珀西：（推了推眼镜，毫无感情地陈述）按照计算，生存概率提升百分之四十。代价是，我们要放弃部分侧翼高地，作为诱饵。"
+      },
+      "reason": "珀西在第4集利用回声壁误导骑兵，第8集发现石板暗号，第14集调配化学武器，第24集伪造证件，第50集进行弹道计算。作为一个18岁的少年，其专业能力远超常人，且未交代其背景或学习过程。属于A级知识来源缺失（角色依靠未交代来源的专业知识、隐秘情报或技能完成关键判断与行动）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "拉尔夫在第24集和第53集流利使用德语，但前文未交代其语言能力。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "拉尔夫用生硬且带着明显英国口音的法语继续辩解，试图展现某种文明人的礼仪。",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-2",
+        "contrast_quote": "拉尔夫：（德语，语速生硬但语调强硬）让开，中士。我要是没记错，你是昨天才接手这个哨位吧？"
+      },
+      "reason": "第1集拉尔夫使用生硬法语，第2集使用生硬法语。但第24集拉尔夫用流利且带有官僚式厌烦的德语与普军检查官对话，第53集又用流利德语与哨兵对话。中间未交代其学习德语的过程或背景。属于A级关键转折因果断裂（有触发因，但机制、资源、人物选择或信息来源支撑明显不足）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第16集拉尔夫昏迷中喊出“别杀他”，第17集闪回显示他保护一个正规军上尉，但该上尉的身份和拉尔夫与其关系缺乏前置铺垫。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "拉尔夫（喃喃自语）：结束了……",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-2",
+        "contrast_quote": "【闪回】△ 拉尔夫在点燃沼气前，曾对着一个从烟雾中爬出的黑影嘶吼：“别杀他！带他走！”"
+      },
+      "reason": "第16集拉尔夫在沼泽中点燃沼气前，对着一个黑影嘶吼“别杀他！带他走！”，第17集闪回确认该黑影是正规军上尉。但前文未交代拉尔夫与该上尉的接触、关系或保护动机，导致这一关键情节缺乏因果支撑。属于A级揭底无铺垫（只有少量模糊暗示，不足以支撑反转级别）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007",
+        "logic-R02-E003",
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第31-32集平民转移的时间与空间逻辑不合理。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "拉尔夫：（看向珀西）半小时。",
+        "contrast_episode": "第32集",
+        "contrast_scene": "32-1",
+        "contrast_quote": "普军的装甲车比情报预计的提前了两个小时抵达。"
+      },
+      "reason": "第31集拉尔夫计划在“半小时”内将圣克洛德村的村民转移至修道院防空洞。然而，第32集显示他们又前往马尔尼村进行类似转移，且普军装甲车“提前了两个小时”抵达。在如此短的时间内，使用牛车（速度慢）转移两个村庄的大量平民，并避开普军严密监控，缺乏合理的时间与空间调度支撑。属于A级时间线矛盾（跳跃、压缩或倒置使重要因果明显不合理）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E008",
+        "logic-R02-E005",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "拉尔夫在第39集处决皮埃尔的动机不足。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "拉尔夫（环视众人，声音不大，却字字千钧）：软弱就是漏洞。漏洞就是全军的坟墓。记住这种感觉。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "皮埃尔（嘶吼，声音因恐惧而变形）：他流了太多血！不能留他！我们可以背着他，只要让他跟上……"
+      },
+      "reason": "拉尔夫以“软弱就是漏洞”为由处决试图带伤兵逃跑的皮埃尔，但此前并未建立“带伤兵会直接导致全军覆没”的紧迫因果链。该行为更多是为了塑造冷酷形象，缺乏足够的利益、情感或危机驱动。属于A级行动动机缺失（表层动机可识别，但强度、代价感知或积累不足以支撑重大行动或抉择）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第22集拉尔夫识破坦普的陷阱，并策划调虎离山，因果逻辑清晰。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "拉尔夫：这不是中继站，少校。这是一个陷阱。旨在诱杀游击队主力，并合法化对平民的屠杀。",
+        "contrast_episode": "第22集",
+        "contrast_scene": "22-2",
+        "contrast_quote": "拉尔夫：（站起身，拍了拍身上的灰尘，握紧手中的匕首）我们去找出真正的源头。"
+      },
+      "reason": "拉尔夫通过地图细节识破陷阱，并与珀西共同策划调虎离山，这一转折有充分的前因（地图分析）和后果（成功转移普军注意力），因果链设计合理。属于A级因果链设计质量（主要转折因果清晰，前因充分支撑后果）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第45集蒂姆的尸体夹层中藏有普军指挥部地图，但蒂姆如何获得并隐藏该地图缺乏交代。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "从夹层中滑落出几张折叠得整整齐齐的纸张。外层包裹着厚实的防水油布，内层纸张竟完好无损，未被火舌舔舐。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "蒂姆（低声，语气罕见地认真）：记住之前的教训。别死得太快。我们需要有人活着去告诉那些混蛋，我们是谁。"
+      },
+      "reason": "蒂姆在第44集牺牲，第45集其尸体夹层中发现普军指挥部地图。虽然可以推断蒂姆生前获取，但前文未交代其获取途径或隐藏动机，导致这一关键证据的出现略显便利。属于B级证据线索断裂（出现略便利，但可由前后文基本推断）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "身份阵营断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "坦普少校的身份与阵营状态前后矛盾，缺乏合理过渡。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "我是少校，也是这里的守墓人。你们带着普军的鼻子闯进来，想让我陪葬吗？",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-2",
+        "contrast_quote": "坦普少校坐在地图桌后，深陷的眼窝中透着疲惫与冷漠。"
+      },
+      "reason": "坦普少校在第11-12集被描述为游击队指挥官，但在第20集突然出现在废弃修道院地下墓穴，自称“守墓人”，且对拉尔夫持敌意。随后在第21集又迅速转变为提供情报和武器的盟友。这种从“游击队指挥官”到“隐居守墓人”再到“秘密盟友”的身份转变缺乏明确的事件驱动和解释，导致角色阵营状态断裂。属于S级身份阵营断裂（身份暴露或阵营背叛已发生并被感知，后文却按未发生推进，关键剧情因此不成立）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E004",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "艾琳修女的身份与背景伏笔未充分回收。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "珀西：（声音沙哑，用法语）蒂姆·多伊尔派来的。这是你曾祖父留下的标记。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "在第54集，珀西提到艾琳修女是“蒂姆·多伊尔派来的”，并展示“你曾祖父留下的标记”。这一设定暗示修女与蒂姆及拉尔夫家族有深厚联系，但在后续剧情中，修女仅作为提供武器和掩护的角色出现，其身份背景、与蒂姆的具体关系以及“曾祖父标记”的含义均未进一步展开或解释，导致伏笔悬空。属于A级遗忘伏笔（重要伏笔回收不充分，阶段剧情虎头蛇尾）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006",
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "多次出现类似的“牺牲一人以保全大局”的情节，缺乏新意。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "拉尔夫（疯狂挣扎，拳头如雨点般砸向珀西的手臂和肩膀）：放开我！他还在里面！我能听见……！",
+        "contrast_episode": "第7集",
+        "contrast_scene": "7-2",
+        "contrast_quote": "拉尔夫（嘶吼，挣脱不了）：我要回去！我们要救他！"
+      },
+      "reason": "马塞尔（第4集）、丙（第7集）、蒂姆（第44集）、艾琳修女（第57集）均出现类似牺牲情节，虽对象不同，但核心信息与结果相同，造成有效剧情停滞。属于B级事件重复（一个事件重复，或重复段落新增量不足，删减后不影响主线理解）。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 24,
+  "covered_count": 24
+}

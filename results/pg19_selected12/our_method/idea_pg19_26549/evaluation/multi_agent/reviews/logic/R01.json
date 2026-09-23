@@ -1,0 +1,118 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体构建了较为完整的因果闭环，主角托伊内特从“数据化生存”到“情感觉醒”再到“独立反抗”的弧光清晰，关键转折（如火灾、听证会、父亲决裂）均有前文铺垫。主要逻辑瑕疵集中在：1. 第34集与第35集存在严重的场景与台词重复，导致听证会节奏断裂；2. 第51集斯通夫人获取并公开“雷夫先生邮件”的动机与手段（前校工备份）略显牵强，且与第50集斯通夫人已复职的权力状态存在轻微逻辑张力；3. 部分道具（如光谱笔、门禁卡）的获取与使用过程交代稍显简略，但基本符合角色能力设定。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第34集与第35集开头大段重复了听证会斯通夫人质问露丝及托伊内特准备反击的情节，且台词高度雷同。",
+      "reason": "第34集结尾托伊内特已决定反击，第35集开头却重新演绎了斯通夫人质问、露丝失语、托伊内特观察鞋中证据的过程，且斯通夫人台词“露丝·戈登，我们要确立事实...”在两集中几乎完全一致，属于重要事件被多次复述，造成剧情停滞。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "斯通夫人（推了推眼镜，声音平稳却带着金属般的冷硬）：露丝·戈登，我们要确立事实。请看着我的眼睛，回答我的问题。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "斯通夫人（语调平稳，带着金属般的冷硬）：露丝·戈登，我们要确立事实。请看着我的眼睛，回答我的问题。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第51集斯通夫人获取并公开雷夫先生威胁邮件的动机与手段略显突兀。",
+      "reason": "斯通夫人在第50集刚被任命为顾问，第51集即通过“前校工无意中备份”这一巧合获取雷夫先生私密邮件并公开，虽然后文有插叙解释，但“前校工”这一角色的出现缺乏前文铺垫，且其“无意中备份”并主动交给斯通夫人的行为动机（保住工作）在高压环境下显得不够充分，属于因果链局部跳跃。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-2",
+        "quote": "前校工（声音颤抖，额头满是冷汗）：斯通老师，我真的只是无意中备份的……那天雷夫先生的秘书来清理缓存，我……我想保住我的工作。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第16集托伊内特使用的“改装过的便携式光谱分析笔”来源未交代。",
+      "reason": "托伊内特作为14岁学生，突然拿出一支“改装过的”、“缠绕绝缘胶布”的自制光谱分析笔，前文未提及她有相关制作过程或获取渠道，虽符合其“极客”人设，但作为关键破案道具，其来源缺失属于轻微逻辑漏洞。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "托伊内特从笔袋深处摸出一支改装过的便携式光谱分析笔。笔身粗糙，缠绕着绝缘胶布，显然是她自制的简易工具。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第41-44集潜入实验室获取证据的因果链严密，利用温变染料、能耗曲线和监控盲区层层递进。",
+      "reason": "托伊内特通过海伦提供的线索（温变染料、监控重启时间）结合数据分析（能耗曲线），推导出潜入的最佳时机和路径，逻辑自洽，且为后续火灾事件中的证据反转提供了坚实基础。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "托伊内特（盯着屏幕上的数据峰值，眼神锐利）：没有洗掉。这是高敏温变染料，只有在特定温度和酸碱度下才会显影。斯通夫人以为倒掉就消失了，但她忘了化学反应是不可逆的标记。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "托伊内特从“冷漠记录者”到“主动介入者”的转变有充分的情感积累和事件驱动。",
+      "reason": "第9集海伦受辱、第14集托伊内特首次帮助海伦、第25-26集目睹海伦被迫交易及崩溃，这些事件逐步瓦解了托伊内特的“理性防御”，使其在第31集听证会上主动站出来保护露丝，性格转变自然且符合逻辑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "托伊内特缓缓放下了举着手机的左手。她没有按下载入键，而是将右手掌心的纸团攥得更紧。尖锐的纸角刺破皮肤，渗出一滴殷红的血珠，顺着掌纹滑落。疼痛让她从麻木中惊醒。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

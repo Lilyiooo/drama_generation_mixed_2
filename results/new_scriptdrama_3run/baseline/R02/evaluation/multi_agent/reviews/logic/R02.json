@@ -1,0 +1,162 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体逻辑存在严重断裂，核心设定（千机毒、九幽寒玉、天罗组织）前后矛盾，关键剧情依赖“天降神兵”或“规则自毁”推进。主要问题包括：1. 陆离中毒与解毒逻辑混乱，从“无药可救”到“寒玉激活”再到“心无羁绊毒散”，缺乏统一规则；2. 苏半夏身世反转（天罗之女）缺乏前期铺垫，且与“骗神等是天罗余孽”的设定冲突；3. 关键道具（九幽寒玉）归属与状态多次矛盾（在公主处、在王爷处、在祠堂、在岩缝）；4. 陆离失忆后性格突变，从铁血将军变为“宠妻狂魔”，缺乏心理过渡；5. 多处危机解决依赖未铺垫的新能力或巧合（如显字粉、假死药、舆论战）。亮点在于部分舆论战设计具有因果逻辑，但整体被严重逻辑漏洞抵消。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "千机毒的设定前后矛盾，从“无药可救”到“寒玉激活”再到“心无羁绊毒散”，规则被随意修改。",
+      "reason": "S级：前文已明确建立千机毒“无解”、“需九幽寒玉”的规则，后文却通过“心无羁绊”等模糊概念直接消除，无后果且无说明失效原因。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "医神（在一边把着陆离的脉，脸色瞬间变得震惊无比）：姑娘，奇怪，将军这手下的脉搏，跳得平稳有力，千机毒那股阴寒之气……彻底散了？",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-2",
+        "contrast_quote": "医神（面色凝重，取出银针）：以毒攻毒，你刚才那一下爆发，毒素已经入骨。我现在查明了，你的血不仅致命，也是这世上唯一的清血解药。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "九幽寒玉的归属和状态多次矛盾，位置跳跃无逻辑。",
+      "reason": "S级：关键道具九幽寒玉在公主处、王爷处、祠堂、岩缝等多处出现，无转移过程，直接用于推动主线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "公主（轻捻步摇，笑颜如花）：陆将军，这九幽寒玉乃皇室至宝，你那双凡人之手，也配沾染分毫？",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "陆离：（举起残片，对着豆大的烛火，眼中闪过惊骇与绝望）这是……九幽寒玉？父亲的遗物？"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "陆离失忆后性格根本逆转，从铁血将军变为“宠妻狂魔”，缺乏心理铺垫。",
+      "reason": "S级：核心性格在无重大变故、心理铺垫或情感积累时根本逆转，失忆后行为与之前设定严重不符。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "陆离：（冷声）继母，这府里的每一块砖都是父亲用命换来的，凭你也配赶我？"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "苏半夏是天罗之女的真相完全无铺垫，且与“骗神等是天罗余孽”的设定冲突。",
+      "reason": "S级：重大真相、核心身份反转完全无铺垫并改变主线逻辑，且与前期设定矛盾。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "医神：（抬眼看向苏半夏，眼神复杂而庄重）姑娘，这不仅是天罗的令牌，更是天罗核心成员的身份证明。您母亲，曾是这个组织的第一高手。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "多次危机依靠未铺垫的新规则或巧合化解，如显字粉、假死药等。",
+      "reason": "B级：核心危机依靠未铺垫的新规则、新能力、新证据、天降救援或反派降智化解并改变主线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "苏半夏（舔了舔嘴唇，意味深长地看着在场的几位权贵）：医神调制的“显字粉末”，遇汗则显，遇酒则固。刚才替各位敬酒时，妾身可是“不小心”洒了几滴呢。",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-1",
+        "contrast_quote": "医神（点头）：那是我的秘药，能让人在几个时辰内彻底伪装，连我都差点信了。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "苏半夏多次提前知道核心真相并据此推动主线，如天罗线索、王爷阴谋等。",
+      "reason": "A级：提前获知重要信息，有弱来源暗示但路径不清。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "苏半夏（低声惊呼）：这是……什么？",
+        "contrast_episode": "第22集",
+        "contrast_scene": "22-1",
+        "contrast_quote": "陆离（痛苦地哀嚎，汗水顺着脸颊滴落）：别……别看……那是祸害……会掉脑袋的……"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E007",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "部分舆论战设计具有因果逻辑，如利用百姓同情心、制造道德困境等。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "苏半夏（顺势滚地，扬起灰尘）：大家看看！这就是她伪善的面具！还我将军府！",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-1",
+        "contrast_quote": "百姓戊（高举拳头，群情激愤）：还我将军府！陆将军没有罪！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "protocol_version": "pg19-selected12-matched-outline-direct-all-history-v1",
+  "description": "Per-run matched direct episode-outline baseline; every episode receives all prior scripts from its own baseline trajectory verbatim.",
+  "source_experiment": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922",
+  "paired_sources": {
+    "idea_pg19_13114": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/candidate/generation_assets.json",
+      "generation_assets_sha256": "08d51d9649cbdb5345ead24d774d0a48e2590af47053fdb5c07cf3c388414ecb",
+      "world_view_empty": false
+    },
+    "idea_pg19_26549": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/generation_assets.json",
+      "generation_assets_sha256": "dcc94052c8b71c07a00d5840156d045a25f8eb08c63a7ddd4bb66ea1a5462bff",
+      "world_view_empty": false
+    },
+    "idea_pg19_2643": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/candidate/generation_assets.json",
+      "generation_assets_sha256": "0726615b6cddce776be62d90e23cf5b32e1cfad662358dcea4198ee4f04f2305",
+      "world_view_empty": false
+    },
+    "idea_pg19_35045": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/candidate/generation_assets.json",
+      "generation_assets_sha256": "a017012bdd05b7b813326d98db35bc032eace1ff69e0db7f1e06a2f663580a69",
+      "world_view_empty": false
+    },
+    "idea_pg19_34987": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/candidate/generation_assets.json",
+      "generation_assets_sha256": "6bc707b3365bae820735736e195e34112e0e13bf4cad6ca752dd8879674c7989",
+      "world_view_empty": false
+    },
+    "idea_pg19_18579": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/candidate/generation_assets.json",
+      "generation_assets_sha256": "4f0c653068310f281f3632e9e8ad29d1a9ee8dca685039aeb76511cca6e50eef",
+      "world_view_empty": false
+    },
+    "idea_pg19_46798": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/candidate/generation_assets.json",
+      "generation_assets_sha256": "cb47c88c4fb0b8e917abb768b39a383d71f93ea12ee0eb12bec4cc980858406b",
+      "world_view_empty": false
+    },
+    "idea_pg19_38169": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/candidate/generation_assets.json",
+      "generation_assets_sha256": "5cbe775881cacac6106388056766d4a1ec73765761568d18c125f1e1397088d0",
+      "world_view_empty": false
+    },
+    "idea_pg19_37724": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/candidate/generation_assets.json",
+      "generation_assets_sha256": "7b351b8180819b24dcd90c010d78d6035ffec672725e4e72598f40c137ac86e2",
+      "world_view_empty": false
+    },
+    "idea_pg19_41542": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/candidate/generation_assets.json",
+      "generation_assets_sha256": "dc906f06b5d42b69409c0b300257e8f60215a4d5371bd14821ed49bcaddf49f0",
+      "world_view_empty": false
+    },
+    "idea_pg19_22060": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/candidate/generation_assets.json",
+      "generation_assets_sha256": "c024067e937e127e45c3abe75dd81faf7172fcd63041bda9bc6605ec0fa21449",
+      "world_view_empty": false
+    },
+    "idea_pg19_33244": {
+      "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/candidate",
+      "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/candidate/generation_assets.json",
+      "generation_assets_sha256": "a27f03c0d1f3412737ca99aaa1bece0c5c5c90ed95f449e09fa27934cabb997a",
+      "world_view_empty": false
+    }
+  },
+  "episodes": 60,
+  "runs": [
+    "idea_pg19_13114",
+    "idea_pg19_26549",
+    "idea_pg19_2643",
+    "idea_pg19_35045",
+    "idea_pg19_34987",
+    "idea_pg19_18579",
+    "idea_pg19_46798",
+    "idea_pg19_38169",
+    "idea_pg19_37724",
+    "idea_pg19_41542",
+    "idea_pg19_22060",
+    "idea_pg19_33244"
+  ],
+  "run_seeds": {
+    "idea_pg19_13114": 882013,
+    "idea_pg19_26549": 735956,
+    "idea_pg19_2643": 795206,
+    "idea_pg19_35045": 835891,
+    "idea_pg19_34987": 818111,
+    "idea_pg19_18579": 825146,
+    "idea_pg19_46798": 777159,
+    "idea_pg19_38169": 867827,
+    "idea_pg19_37724": 804744,
+    "idea_pg19_41542": 820474,
+    "idea_pg19_22060": 754885,
+    "idea_pg19_33244": 702050
+  },
+  "model": "Qwen3.6-27B",
+  "generation": {
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "max_tokens": 8192,
+    "enable_thinking": false,
+    "max_context_tokens": 131072
+  },
+  "inputs_each_episode": [
+    "world_view",
+    "role_info",
+    "story_outline",
+    "current_episode_outline",
+    "all_previous_baseline_episode_scripts_verbatim"
+  ],
+  "excluded": [
+    "scene_outline_agent",
+    "narrative_memory",
+    "state_lifecycle_memory",
+    "obligation_memory",
+    "hybrid_retrieval",
+    "strategy_cards",
+    "state_gate",
+    "plot_library_retrieval",
+    "post_generation_rewrite_or_polish"
+  ],
+  "system_prompt_sha256": "1083eb791faddaa1ac144aa01d1c0fc8797908eef30d60119c89695ec147ccfa",
+  "script_format_source": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/service/drama_by_creativity/prompts/script_format.py",
+  "script_format_source_sha256": "36b7c24267498809fc3a2b503271721c9741de118f6cce22f449596268006ea6",
+  "frozen_script_format_sha256": "4222fd9b0ee23ec9fed058bfefb06ed788226a2469797f48915e309119d71028"
+}

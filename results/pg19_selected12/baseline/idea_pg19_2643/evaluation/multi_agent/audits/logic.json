@@ -1,0 +1,339 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "亚瑟在被严密监控/软禁状态下，获取关键财务数据（港口记录）及录音的过程缺乏合理的技术或物理路径支撑，存在“机械降神”嫌疑。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "手机、电脑、平板，全部封存。从现在起，除了必要的医疗联络，您与外界的所有数据通道已物理断绝。",
+        "contrast_episode": "第32集",
+        "contrast_scene": "32-3",
+        "contrast_quote": "埃莉诺（电话音）：打开你们的家用网络加密端口，我要进公司服务器下载这半年的港口进出记录。"
+      },
+      "reason": "合并R01-E001与R01-E005。第20集明确亚瑟被切断所有电子通讯并处于24小时武装监控。第32集亚瑟逃脱后，仅凭埃莉诺远程打开“家用网络加密端口”即可进入公司服务器下载核心数据。虽然第31集有“假自杀”制造空档，但第32集亚瑟是在医院逃脱后在废弃物流点操作，此时安保正在追捕（32-2），且公司服务器通常有IP限制或物理隔离。剧本未交代亚瑟如何绕过公司内网安全机制（如防火墙、IP追踪），也未说明“家用网络端口”为何能直接访问公司核心数据库。这一关键证据的获取过程过于便利，缺乏技术铺垫，属于A级证据线索断裂。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "关系突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "维恩从敌对状态迅速转变为配合亚瑟陷害霍克斯，缺乏足够的利益权衡与心理铺垫，站队转变过于仓促。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "维恩（冷笑，逼近一步，逼近）：联手？让我相信一个输家？亚瑟，这不过是你的另一个陷阱，等我咬了霍克斯，你立刻反手把我埋了。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "维恩：给我。这是你最后能做的理性操作，亚瑟。"
+      },
+      "reason": "合并R01-E002与R02-E004。维恩前期表现为极度贪婪且冷酷，视亚瑟为猎物（第15集、第27集）。第35-36集，亚瑟仅凭部分证据（霍克斯吞钱）和口头承诺，维恩便同意销毁账本并配合法庭作证。考虑到维恩自身的法律风险（洗钱共犯）及霍克斯的威胁，他更可能的选择是销毁证据自保或反咬一口。剧本中维恩的决策过程缺乏对其自身生存危机的深度刻画，仅用“理性操作”一笔带过，属于A级关系突变，缺乏足够的事件驱动和情绪积累。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "关键证据“皮革账簿”被物理销毁后，后续庭审中仍依赖其内容或类似“原始契约”定罪，证据链衔接存在逻辑矛盾。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "亚瑟双手举起厚重的皮革账簿，狠狠塞入碎纸机的进料口。",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "亚瑟（在被告席上发出神经质的低笑，眼神却异常清明）：不知道？那这份盖着朱利安戒指印章的原始契约，怎么解释？"
+      },
+      "reason": "合并R01-E003与R03-E004。第36集亚瑟将作为核心证据的“皮革账簿”投入碎纸机销毁。第37集埃莉诺确认“账本已经被我们烧了”。但在第41集庭审中，亚瑟出示“盖着朱利安戒指印章的原始契约”，且玛丽安出示的是“被拆解重组后打印并塑封的信托契约复印件”。虽然第40集提到数据通过集装箱传输，但第41集亚瑟直接拿出“原始契约”（暗示纸质原件或高保真件）作为核心证据，与“原件已毁”的前提冲突。若账簿是“铁证”，销毁它反而削弱了证据链的完整性，除非有明确说明账簿内容已被数字化备份且维恩只认“原件销毁”这一行为。此处逻辑闭环稍弱，属于A级资源消耗矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "亚瑟在交出公章和财务密钥后，仍能直接指挥公司物流部门执行A级隔离程序，权限来源不明。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "亚瑟：去，立刻启动A级隔离程序。把四号库划为“高风险”区域，贴上黄色的生物危害封条，所有权限收回。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-3",
+        "contrast_quote": "亚瑟将刻着公司logo的铜印和钥匙放入弗罗格手中的铁盒。"
+      },
+      "reason": "第1集亚瑟将公章和财务密钥交给弗罗格，第4集通讯被切断。但在第34集，亚瑟能直接命令物流主管启动A级隔离程序并伪造质检报告。虽然亚瑟是名义老板，但在前文设定中，他的所有行动都被监控且权限被剥夺，此处突然拥有调动核心物流资源的权力，缺乏中间的过程交代（如利用旧关系、黑客手段或弗罗格失控），属于A级道具/权限归属混乱。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E002"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "亚瑟在论坛演讲中准确说出“列支敦士登”和“海神公司”等核心机密，信息来源解释薄弱。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "亚瑟：切断！切断不了！物理服务器在列支敦士登！你们在裸奔！",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-1",
+        "contrast_quote": "老金：查到了。第一跳开曼，第二跳列支敦士登... 亚瑟：列支敦士登？那是干什么的？"
+      },
+      "reason": "第26集亚瑟在台上突然说出“物理服务器在列支敦士登”和“海神公司”。虽然前文第14集老金提到过列支敦士登，但亚瑟当时并未完全掌握该信息（老金说查不到名字）。第23集前任助理只提供了“资产空转”的时间点，未提供具体地点。亚瑟在极度紧张且被注射镇静剂的状态下，能精准抛出这两个关键地理/公司名词，且霍克斯对此感到震惊（“我根本没对他透露过那个词”），暗示亚瑟有未交代的窃听或推理过程，属于A级信息提前泄露，路径不清。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E003"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "亚瑟从医院逃脱后，短时间内出现在港口并操作服务器，随后又回到家中被监控，时空逻辑存在跳跃。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-3",
+        "quote": "安保队长（不耐烦地晃了晃手电筒）：亚瑟先生，医疗社工刚才报告说您失踪了八小时。您这算哪门子的“居家软禁”？",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-2",
+        "contrast_quote": "亚瑟（戴着耳机，低声对着隐藏麦克风）：埃莉诺，我进去了。坐标确认，维恩的保镖进去了两个，霍克斯的车刚停。"
+      },
+      "reason": "第32集亚瑟从医院逃脱，第33集他在港口操作服务器，第33集末尾（33-3）他出现在家中主卧，手腕戴着手环，被安保队长发现“失踪八小时”。然而，第33集开头（33-1/33-2）他还在港口。从港口回家并恢复“被监控”状态，且安保队长似乎对他“失踪八小时”感到惊讶（暗示他之前一直在家），这与前文他刚逃脱医院、在港口行动的时间线冲突。如果他在港口，安保应已报警或封锁，而非仅仅在家门口等待他回来。属于A级空间位移/时间线矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "角色尼古拉斯·弗罗格的性别与称谓前后存在硬性矛盾。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-3",
+        "quote": "弗罗格手里举着她，脸上充满了谄媚的焦急。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-3",
+        "contrast_quote": "弗罗格（推了推眼镜，咳嗽两声）：亚瑟，现在不是谈房地产的时候。"
+      },
+      "reason": "前文多次使用男性代词“他”及男性化描述（如“瘦削但有力的手”），但在第17集突然使用女性代词“她”，属于核心人物身份设定的硬性冲突，影响人物关系理解。属于A级人物身份矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "反派塞拉斯·维恩的名字在关键对峙场景中发生突变。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "维克多……维恩！我们是有协议的……救我……",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "塞拉斯·维恩办公室 日 人物：塞拉斯·维恩、尼古拉斯·弗罗格"
+      },
+      "reason": "在霍克斯被捕的关键时刻，亚瑟称呼维恩为“维克多”，而全剧其他所有场景均使用“塞拉斯”或“维恩”。这种核心反派名字的突然变更属于明显的逻辑/设定错误。属于A级人物身份矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "证人玛丽安的身份设定前后矛盾（前妻 vs 保管员/朋友）。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-3",
+        "quote": "你把我最好的朋友介绍成你的客户……你明明告诉我那是为了掩盖我们的婚事！",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "名字是叫埃丝特·沃克。十年前被霍克斯以精神衰弱为借口扫地出门……你是说……他抛弃的前妻？"
+      },
+      "reason": "第37集明确设定玛丽安（埃丝特）是霍克斯的前妻，且霍克斯利用她洗钱；但在第41集法庭上，玛丽安自称是“保管员”，并指控霍克斯将她的“朋友”介绍成客户，且提到“掩盖我们的婚事”（暗示未成婚或关系不同）。身份关系从“前妻”变为“被利用的保管员/朋友”，逻辑断裂。属于A级人物身份矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍克斯在明知亚瑟已“精神失常”且被软禁的情况下，仍频繁亲自前往宅邸施加压力并签署文件，缺乏对自身风险的有效规避。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "霍克斯（逼近一步，语气冰冷）：医生说你处于崩溃边缘，这是为了保证明天的论坛顺利进行。",
+        "contrast_episode": "第29集",
+        "contrast_scene": "29-1",
+        "contrast_quote": "霍克斯（逼近一步，咆哮）：我在给你机会！弗罗格已经断联，如果你不想像条狗一样死在街头，就给我把字签了！"
+      },
+      "reason": "霍克斯作为精明的律师，在亚瑟表现出极端不稳定（如砸东西、自残）时，理应通过远程手段或代理人处理事务，以避免被亚瑟抓住把柄或发生不可控事件。但他多次亲自到场（如第25集注射镇静剂、第29集逼签文件），且行为鲁莽（如被亚瑟泼酒、被亚瑟当面威胁），这不符合其“谨慎、控制欲强”的人设，更像是为了推动剧情而强行降低智商。属于B级行动动机缺失/性格轻微不吻合。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "核心规则空降",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "利用集装箱温湿度传感器日志传输加密数据的技术手段缺乏铺垫。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "契约原件被拆解成了三百万段乱码，掺杂在集装箱的海运温湿度传感器日志里。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第40集亚瑟通过“常规工业废料”的集装箱传感器日志传输300万段乱码数据，且安保人员未察觉。这一高科技黑客手段在前期（亚瑟被断网、监控严密）毫无铺垫，属于为解决“如何传出证据”这一困境而临时发明的“新规则/新能力”，虽未直接改变胜负（胜负已定），但作为关键证据传递方式显得过于便利和突兀。属于B级核心规则空降/临时补丁。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006",
+        "logic-R02-E005",
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "“海神”空壳公司与洗钱路径的伏笔铺设与回收逻辑清晰，形成了完整的证据链闭环。",
+      "evidence": {
+        "episode": "第6集",
+        "scene": "6-1",
+        "quote": "亚瑟（指着其中一行数字）：这一项“咨询服务费”高达两百万，付给了一家名叫“海神”的空壳公司？",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-1",
+        "contrast_quote": "亚瑟（步步紧逼，指着屏幕）：看清楚了！资金支付的时间，与这个货柜在公海坐标停泊时间，完美重合误差不到三秒！"
+      },
+      "reason": "合并R01-E006, R02-E005, R03-E007。从第6集首次提及“海神”公司，到第9集账本揭示其洗钱本质，再到第33集老船长提供线索，第40集通过物流数据隐藏证据，最后第42集庭审中通过GPS轨迹与资金流向的重合完成定罪。这一线索贯穿全剧，逻辑自洽，且回收方式（利用物流数据反制金融欺诈）符合主角实业家身份，具有说服力。属于A级伏笔闭环亮点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007",
+        "logic-R02-E006",
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "亚瑟从“被动受害者”到“主动猎手”的性格转变有充分的事件驱动和心理铺垫。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "亚瑟（猛地抬头，眼神锐利）：不。他是蠢，因为他把信任交给了魔鬼。但我不同，我知道我要去哪里，也知道谁在跟我做局。",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-1",
+        "contrast_quote": "亚瑟（手抓着衣领，声音嘶哑却异常清晰）：深夜。三点。海神公司的账户流水像呕吐物一样涌出来，你们没有签合同！只有转账记录！"
+      },
+      "reason": "合并R01-E007, R02-E006, R03-E006。亚瑟的转变并非突兀，而是经历了“被剥夺权力（第1集）”、“被舆论抹黑（第3集）”、“被物理隔离（第20集）”、“发现真相（第9集）”、“策划反击（第12集）”等多个阶段。每一次打击都加深了他的仇恨与冷静，最终在论坛上的爆发（第26集）是长期压抑后的合理释放，符合人物弧光逻辑。属于A级因果链设计质量亮点。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 20,
+  "covered_count": 20
+}

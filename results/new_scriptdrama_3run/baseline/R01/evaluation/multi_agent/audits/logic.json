@@ -1,0 +1,542 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "萧烈从被确认为“废人”（毒入骨髓、无法行动）到阅兵大典及后续战斗中展现超强战斗力，缺乏合理的恢复或解除限制过程，关键转折因果断裂。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "权臣心腹（蹲下身，用折扇挑起萧烈的下巴，确认瞳孔无焦距后，眼神中闪过一丝轻蔑）：呵，果然废了。",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-1",
+        "contrast_quote": "萧烈：（双眼赤红，身形如电，手中长刀反手挥出）杀！"
+      },
+      "reason": "合并R01-E001与R03-E002。第44集明确萧烈被确认为“废人”，毒入骨髓。第45-47集萧烈在受刑/控制状态下仍能精准操作机关并爆发战力。虽然第44集提到“麻痹针”和“真正的压制汤药”，但这仅解释了为何能装废人，并未解释为何“毒入骨髓”的废人状态能瞬间恢复至“身形如电”的巅峰战力，且第50集地宫战斗中萧烈在毒发剧痛中仍能“一拳砸碎巨石”，能力状态与前置“废人”设定严重冲突，属于S级关键转折因果断裂。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "沈小满的武力值前后矛盾，从前期依赖智谋/撒泼/大熊武力，到后期（第59集）在怀孕状态下使用晾衣杆轻松击败三名刺客，缺乏能力升级或身份揭示的合理支撑。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "沈小满（假装脚下一滑）：啊！公子你长得太快，吓到我啦！",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-2",
+        "contrast_quote": "沈小满：（站起身，单手握着晾衣杆，指着刺客）想要我的命，先问问这杆子答不答应！"
+      },
+      "reason": "确认R01-E002。前期沈小满主要依靠撒泼、智谋和大熊/萧烈武力解决问题（如第10集、第18集）。第59集沈小满在怀孕状态下，使用晾衣杆轻松击败三名刺客，且身法灵活毫无孕期笨重。这一能力突变缺乏前文铺垫（如隐藏高手身份、特殊训练等），属于能力状态断裂。虽然第25集有沈小满用银针封穴的情节，但那是辅助治疗，且动作幅度小，与第59集的高强度格斗不符。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "核心规则空降",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "“摄魂箫”与“地宫机关/自毁机制”作为解决核心危机的新规则，前文毫无铺垫，临时发明且用完即消失。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "权臣眼神示意，几名乐师同时吹响手中漆黑如墨的“摄魂箫”。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-3",
+        "contrast_quote": "国师（惊恐万分）：不可能！这阵法不会触发自毁……啊！"
+      },
+      "reason": "合并R01-E003与R03-E009。第45集首次出现“摄魂箫”控制萧烈，第46集出现“地宫机关”被萧烈脚步触发，第50集出现“地宫自毁”机制。这些规则在之前60集中从未提及，且直接用于解决权臣危机和开启宝藏/消灭国师，属于新规则首次出现便解决核心危机，前文毫无铺垫。R03-E009将其定为A级，但考虑到“摄魂箫”直接控制主角并推动主线，且“地宫自毁”直接导致反派死亡，影响范围极大，符合S级“新规则首次出现便解决核心危机...前文毫无铺垫”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E003"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "沈小满“前朝皇室血脉”身份及“龙脉之血”设定，在前期缺乏足够铺垫，后期强行揭示并改变主线逻辑。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "沈小满：（河东狮吼）住手！光天化日，朗朗乾坤，你们是想欺压良善吗？！",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "沈小满：（看着那胎记，惊恐又迷茫）这……这是什么……"
+      },
+      "reason": "合并R01-E004与R02-E003。第20集顾九首次提及“龙脉之血”，但此前沈小满仅被描述为“撒泼”、“市井”女子。第26集、第40集、第41集多次强调其身份，但前期（1-19集）几乎无相关暗示（如胎记、特殊体质等）。这一重大身份反转完全无铺垫，且直接导致后续所有剧情（解毒、宝藏、权臣追杀）的逻辑基础，属于重大真相完全无铺垫并改变主线逻辑。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R02-E008",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "地宫坍塌导致国师死亡，属于天降救援/反派降智，缺乏合理机制支撑。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-3",
+        "quote": "国师（绝望地向着无尽的黑暗坠落）：不——！△ 身后传来震天动地的崩塌声，地宫被彻底掩埋，只余下空荡的废墟。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01-E005, R02-E008, R03-E004。第50集沈小满滴血触发地宫自毁，国师跌落深渊。这一危机解决依靠未铺垫的“地宫自毁”机制，且国师作为核心反派，在拥有强大势力和护卫的情况下，轻易被地宫坍塌杀死，属于核心危机依靠未铺垫的新规则化解并改变主线。根据标准，“危机解决作弊”上限为B级。虽然R03-E004将其归为“关键转折因果断裂”S级，但更贴切的分类是“危机解决作弊”或“核心规则空降”（已在A03中处理规则空降问题）。此处单独列出作弊行为，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "萧烈从“复仇”到“放弃权力、回乡种地”的转变，缺乏足够的情感积累和事件驱动。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "萧烈：我要你以“正妻”之名，撕烂他们的假面。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "萧烈（眼神平静）：大印在，就是靶子。化了它，才是自由。"
+      },
+      "reason": "确认R01-E006。前期萧烈核心动机是复仇和夺回将军府。第52集后，萧烈突然放弃权力，选择回乡种地。虽然第42集有“撕密旨”的情节，但这一重大人生目标转变缺乏足够的心理铺垫和情感积累，属于核心性格或长期目标在无重大变故、心理铺垫或情感积累时根本逆转。定为A级，因为有事件驱动（撕密旨、解毒），但分量不足以支撑如此彻底的转变。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007",
+        "logic-R02-E005",
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "庞氏与赵家、国师的勾结证据（账本），在前期缺乏获取路径和保存地点的铺垫，且转移过程混乱。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "萧烈（紧盯着桌上账本）：顾九，缝好就退下。这账本里的秘密，比我的命重要。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-1",
+        "contrast_quote": "阿笙：（屏息凝神，手指灵活地拨弄着暗格机关）咔哒。"
+      },
+      "reason": "合并R01-E007, R02-E005, R03-E007。第33集萧烈从赵府账本中发现庞氏通敌证据，第34集沈小满手持账本对抗官兵。这些关键证据（账本、防务图）在前期（1-32集）缺乏明确的获取路径、保存地点或来源铺垫。第31集阿笙潜入赵府密室获取账本，但前文未铺垫阿笙如何获得赵府内部情报，也未解释为何赵府侍卫未及时发现。属于决定性证据突然出现并推翻局势，前文没有获取路径、保存地点或来源。定为A级，因为有模糊铺垫（阿笙的情报能力），但获取、转移或保存状态缺少关键支撑。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "后果无回响",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "庞氏、赵家公子等反派在后期剧情中消失，缺乏社会、组织或主线格局反应。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "庞氏（绝望嘶吼）：你们逼我！好……好！我签！",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "萧烈：你就是我杀父仇人，国师！"
+      },
+      "reason": "确认R01-E008。庞氏在第15集被驱逐，赵家公子在第22集认栽，但后续剧情（23-60集）中，这两人及其势力几乎完全消失，没有对主线格局产生持续影响。属于重大身份暴露、组织背叛或核心冲突结论发生后，没有社会、组织、关系或主线格局反应。定为A级，因为庞氏和赵家是前期主要反派，其消失对主线格局有影响，但并非核心悬念（如国师、宝藏），故未达S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E009",
+        "logic-R02-E009",
+        "logic-R03-E011"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "沈小满利用“撒泼”和“智谋”解决商业和社交危机的因果链清晰，前因充分支撑后果。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "沈小满（尖叫）：非礼啊！光天化日你也敢动手动脚！",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-1",
+        "contrast_quote": "赵家公子（脸色惨白，手抖得厉害）：你……你少吓唬人！"
+      },
+      "reason": "合并R01-E009, R02-E009, R03-E011。第10集、第17集、第18集等，沈小满通过撒泼、造谣、武力威慑等手段解决赵家、黑风煞帮等危机，因果链清晰，前因（撒泼、智谋）充分支撑后果（危机解决），属于主要转折因果清晰，前因充分支撑后果。定为A级亮点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "业火寒的解法设定前后矛盾，从'特定血脉之血'变为'普通血引'，再变回'龙脉之血'，最后靠婴儿阳气解决，核心规则被多次违反且无解释。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "顾九（看向沈小满）：除非，找到特定血脉之人的血液引导……",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-1",
+        "contrast_quote": "沈小满（咬牙忍耐剧痛）：我不怕！你听我说，顾九说过，至亲之血可暂时压制。"
+      },
+      "reason": "合并R02-E001与R03-E001。第4集顾九说'除非，找到特定血脉之人的血液引导'，第26集沈小满用普通血引成功压制，第41集顾九又说'只有你的血能压制'，第60集靠婴儿阳气彻底解决。前文已明确建立的规则（业火寒需龙脉之血）被关键事件直接违反却无后果，也没有说明失效原因。属于S级规则自毁。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "大熊的能力状态前后矛盾，从'前朝暗卫统领'变为'装疯卖傻的粗汉'，再变为'能徒手碎精钢的怪物'，能力边界不清。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-1",
+        "quote": "沈小满（轻笑，走到萧烈身侧）：赔什么？这是定金。大熊，别装了。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "大熊：（憨笑）嘿嘿，打手的。"
+      },
+      "reason": "确认R02-E002。第7集沈小满说'他是前朝暗卫统领，杀人如麻，只是不想再沾血，才装疯卖傻'，但第1集大熊只是'打手的'，第18集大熊轻松击败黑狗，第47集大熊能挡住巨石，能力忽强忽弱。虽然第7集揭示了身份，但第1集的表现与“暗卫统领”不符，且后续能力表现不稳定，属于能力状态断裂。定为S级，因为大熊是核心战力，其能力边界不清影响主线战斗逻辑。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "地宫宝藏和国师身份的关键转折缺乏因果支撑，国师从幕后黑手变为地宫守护者，动机和身份转变突兀。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "国师：萧烈，你父亲当年没死在战场上，他死在了贪婪上。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "国师（声音陡然拔高，尖细刺耳）：萧烈私通敌国，密谋造反！证据确凿，罪不容诛！"
+      },
+      "reason": "确认R02-E004。第36集国师指控萧烈通敌，第50集国师在地宫与萧烈对峙，说'你父亲当年没死在战场上，他死在了贪婪上'，但前文未铺垫国师与萧烈父亲的恩怨，也未解释国师为何守护地宫。属于主线关键结果缺少可追溯的直接触发因，前后因果链无法连通。定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "萧烈多次重伤/中毒后无合理恢复过程，从'业火寒发作'到'能战斗'再到'彻底解毒'，状态变化缺乏医学支撑。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "顾九（神情凝重，指尖银针寒光一闪）：京城地气燥热，和你的业火寒冲突了。",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-1",
+        "contrast_quote": "萧烈（自阴影中一步踏出）。"
+      },
+      "reason": "确认R02-E006。第9集萧烈毒发，第11集能正常行动，第25集毒发失控，第26集用血引压制，第37集在天牢受刑，第38集装死，第45集能战斗，第60集彻底解毒，状态变化频繁且无合理过渡。属于重伤、濒死、昏迷或囚禁等强限制未经治疗、逃脱或时间说明便完全恢复。定为A级，因为虽然状态变化频繁，但每次都有部分解释（如银针、血引），未达S级“直接推翻剧情”的程度。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A014",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "从青石镇到京城再到江南的时间跨度与事件密度不符，12年守活寡、10年毒、8年旧部等时间线混乱。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "庞氏：（嚎啕大哭）苍天啊！老娘当家十二年，含辛茹苦守空房！",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-2",
+        "contrast_quote": "萧烈：（声音嘶哑）铁柱？你……你没死？"
+      },
+      "reason": "确认R02-E007。第12集庞氏说'老娘当家十二年'，第20集顾九说'十年前的边关禁药名册'，第58集旧部说'都过了八年了'，时间线前后矛盾。属于跳跃、压缩或倒置使重要因果明显不合理。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A015",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E010"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "沈小满对京城局势和权贵弱点的了解缺乏合理来源，多次精准预判对手行为。",
+      "evidence": {
+        "episode": "第6集",
+        "scene": "6-1",
+        "quote": "阿笙（指了指还在打瞌睡的隔壁酒客）：刚才闲聊时，酒客甲抱怨酒贵，酒客乙叹气米贵。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "沈小满（身体前倾）：这不是彩头，这是公子欠我的账本封面颜色。"
+      },
+      "reason": "确认R02-E010。第6集阿笙提供情报，但沈小满对赵家、庞氏、黑风煞帮的了解过于精准，缺乏前期铺垫。属于来源交代偏薄，但前后文可拼合或很快补充。定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A016",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "秘密暴露错位",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "沈小满的前朝皇室身份/龙脉之血秘密在多处已公开或半公开，但后文仍按未完全公开推进，导致角色反应与行动不一致。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-1",
+        "quote": "沈小满（突然撕开侧腰衣摆，露出生得诡异且狰狞的龙形胎记）：看清楚了！",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "沈小满（面不改色，手中紧握一枚泛着幽光的玉简）：欺君？大人说笑了。这可是前朝遗留的剧毒之物，我这是替官府清理隐患。"
+      },
+      "reason": "确认R03-E003。第26集顾九明确告诉萧烈'那是被诅咒的皇室图腾'，第40集沈小满在禁书区暴露龙形胎记，第49集沈小满当众撕开衣摆露出龙形胎记给死士看，第50集国师也已知晓。但第53集沈小满仍对皇帝特使隐瞒身份，称玉简是'剧毒之物'，第54集仍要销毁地图残片以防'有心人捡全'。属于秘密已公开却按未公开推进，关键剧情因此不成立。定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A017",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "前朝宝藏、龙脉地图等核心悬念到结尾仍无交代，且被随意销毁，影响主线理解。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（从袖中抽出一张泛黄羊皮卷）：这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。",
+        "contrast_episode": "第54集",
+        "contrast_scene": "54-1",
+        "contrast_quote": "沈小满：都听好了，这活儿要是做不好，连底裤都不给你们留！"
+      },
+      "reason": "确认R03-E005。第20集顾九说'龙脉之血是打开前朝国库宝藏的唯一钥匙'，第33集庞氏账本提到'前朝龙脉之血'，第40集沈小满在禁书区寻找'前朝皇室秘档'。但第53集沈小满将玉简扔进熔炉销毁，第54集将地图残片砸成粉末扬灰，宝藏内容、地图指向、前朝历史等核心悬念均无交代。属于核心悬念、关键道具、身份或历史事件到结尾仍无交代，并影响主线理解。定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A018",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "身份阵营断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "庞氏的身份和立场在前后文中发生突变，从将军府主母变为通敌叛国者，但转变过程缺乏足够事件与情绪驱动。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "庞氏（绝望嘶吼）：你们逼我！好……好！我签！",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-1",
+        "contrast_quote": "萧烈：庞氏不只是吞了军饷，她在向敌国传递边境防线的布防图。"
+      },
+      "reason": "确认R03-E006。第12集庞氏还是'守活寡'的继母，第13集被揭露私通外男，第33集突然变成'向敌国传递边境防线的布防图'的通敌者。从私德有亏到通敌叛国的转变缺乏铺垫，且庞氏在第15集已交出管家之印并被逐出主院，第33集仍能获取并传递防务图，逻辑不成立。属于身份或阵营变化缺少足够事件与情绪驱动。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A019",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "权臣在阅兵大典上发动兵变的动机和准备过程铺垫不足，关键行动基础不成立。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-3",
+        "quote": "沈小满（望向远方那座巍峨的城阙，声音轻得像烟，却冷得像冰）：阅兵大典。他要制造一场兵变，用那个舞台上的血腥，来掩盖自己的贪婪。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-1",
+        "contrast_quote": "权臣：听闻镇北将军是个死人，今日孤倒要看看，死人会不会跳舞。"
+      },
+      "reason": "确认R03-E008。第43集沈小满说'他要制造一场兵变'，第45集权臣在阅兵大典上直接用摄魂箫控制萧烈，第47集死士围攻。但权臣此前并无明显兵力调动、密谋策划的铺垫，兵变行动突然且缺乏合理动机积累。属于表层动机可识别，但强度、代价感知或积累不足以支撑重大行动。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A020",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "沈小满从'只想赚钱'到'为萧烈牺牲一切'的性格转变虽有事件驱动，但部分转变过程偏薄。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "沈小满（抓起桌上的印章，狠狠砸在砚台上）：我要走。在他们发现我之前，走得越远越好。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-1",
+        "contrast_quote": "沈小满（崩溃大哭，死死抱住萧烈的腰）：那你……你别死……"
+      },
+      "reason": "确认R03-E010。第1集沈小满说'图的是钱财'，第5集说'我只是不想再被人踩在泥里'，第20集开始为萧烈冒险，第26集用血引救萧烈，第41集想离开，第42集被萧烈说服留下。转变有事件驱动，但第41集到第42集的转变过程偏薄，仅靠萧烈撕密旨和拥抱就完成从'想走'到'留下'的转变。属于局部行为与设定轻微不吻合，不影响整体稳定性。定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A021",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E012"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "沈小满'撒泼'策略在多个场景中重复使用，核心信息和结果相同，造成有效剧情停滞。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "沈小满：（尖叫）我是青石镇沈家沈大娘！你们收保护费，还要砍人？",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "沈小满（冷笑走近）：为了将军府？你是为了你那外头的野男人，还有你自己那吞金兽的私库吧。"
+      },
+      "reason": "确认R03-E012。第1集沈小满在集市撒泼救萧烈，第2集在集市撒泼讹钱，第10集在赏梅宴撒泼，第13集在宗祠撒泼，第14集在宗祠前院撒泼，第15集在正院撒泼。虽然对象和场景不同，但核心策略（撒泼+威胁+收钱/收印）重复，新增量不足。属于一个事件重复，或重复段落新增量不足，删减后不影响主线理解。定为B级。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 31,
+  "covered_count": 31
+}

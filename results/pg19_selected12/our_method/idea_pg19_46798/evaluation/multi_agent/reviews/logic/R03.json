@@ -1,0 +1,228 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了以‘木工技艺’为核心解决手段的冒险逻辑，因果链条在微观战斗和生存场景中较为严密（如利用结构力学破局）。但在宏观叙事上存在多处严重的逻辑断裂：1. 角色状态与认知矛盾（如梅休的死亡与复活、罗杰的武器来源）；2. 关键道具与证据的归属混乱（地契、地图、追踪仪的反复出现与消失）；3. 时间线与空间位移的不合理（如从黄石到法官营地的距离与时间）；4. 伏笔回收的生硬（如记者线索的突然引入）。这些问题削弱了剧本的可信度，需重点修复。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "梅休在第43集被刺穿腹部，第44集确认死亡，但在第49集又从包裹中‘复活’并指引方向。",
+      "reason": "S级：角色已被明确写实确认死亡（第44集‘双眼失去了光泽，只剩死亡的空洞’），后续无假死、复活、替身、倒叙等解释却以活人参与关键剧情（第49集‘梅休的手指突然抽动...指向侧方’）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "梅休的手指最后抽搐了一下，像是试图抓住什么，然后彻底松弛，头无力地歪向一侧。双眼失去了光泽，只剩死亡的空洞。",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-2",
+        "contrast_quote": "就在这一刻，梅休的手指突然抽动。那只原本无力垂落的手，艰难地、颤抖地抬起，指向侧方那片漆黑、布满诡异瘴气的荆棘密林。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "罗杰的火枪在第11集落入泥浆，第12集被科瓦折断扔进泥浆，但在第17集、第20集、第22集等后续多集中罗杰仍持有并使用火枪或猎弩。",
+      "reason": "S级：关键道具、证据、武器或权限已明确由一方控制（科瓦折断并丢弃），后文无转移过程却由另一方（罗杰）用于推动主线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "科瓦捡起地上的火枪，用力折断枪管，发出清脆的断裂声。...他将折断的枪管扔进泥浆",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-1",
+        "contrast_quote": "罗杰走在最前...他下意识地伸手摸向腰间，触感却是空荡荡的皮带。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "梅休的六分仪/指南针在第28集被迪克强行夺走交给猎人，第29集梅休砸碎备用指南针，但第48集迪克又从尸体上捡到‘梅休生前苦苦追寻’的追踪仪，且第60集迪克取出‘磨损严重的黄铜追踪仪’。",
+      "reason": "A级：重要资源发生转移，但缺少交接、盗取、赠予或夺取过程。梅休的仪器去向不明，且迪克持有的仪器来源矛盾。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "迪克突然上前一步...他猛地伸出手，一把扯下了梅休胸前的皮套。...迪克走到猎人面前，将仪器重重地拍在猎人满是泥土的手掌上。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-1",
+        "contrast_quote": "一枚精致的黄铜追踪仪从死者指尖滑落。...这是梅休生前苦苦追寻、最终却因它而丢失性命并导致悲剧的物品。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第50集贾斯珀突然提到‘记者’和‘后山真相’，此前全剧无任何关于记者、报社或后山矿区的铺垫。",
+      "reason": "A级：有触发因（贾斯珀呓语），但机制、资源、人物选择或信息来源支撑明显不足。记者这一关键角色和地点完全空降。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "贾斯珀（嘶哑，语无伦次）：油墨……还没干……他在撒谎……那个记者……他把真相……藏起来了……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第49集深夜三人进入荆棘林，第50集黎明前到达法官营地。考虑到之前长途跋涉、受伤、负重，且荆棘林为‘无人敢入的诅咒之地’，时间跨度不合理。",
+      "reason": "A级：跳跃、压缩或倒置使重要因果明显不合理。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "迪克转身，扛起贾斯珀。科瓦持刀开路，三人毫不犹豫地冲入那片禁忌的荆棘林。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "法官临时营地外围 黎明前"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第16集迪克通过科瓦的‘上游有风’判断出埋伏，但科瓦作为苏族副首领，其语言习惯和意图的解读过于巧合，且迪克此前与科瓦并无深入交流基础。",
+      "reason": "B级：来源交代偏薄，但前后文可拼合或很快补充。",
+      "confidence": "低",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "此时是初秋，黄石谷地风向恒定，上游绝不可能无端起雾。而且，科瓦说的“上游有风”，在苏语语境中常指代“埋伏”或“杀机”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E007",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第33集年迈苏族战俘突然出现并指认贾斯珀，此前无任何关于战俘存在或贾斯珀与苏族有旧怨的铺垫。",
+      "reason": "A级：只有少量模糊暗示，不足以支撑反转级别。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "迪克在一块背风的巨石后停下脚步，示意队伍停止。他将搀扶着的年迈苏族战俘轻轻放下。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E008",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第39-40集迪克利用结构力学破坏火炮，导致炮膛炸裂，因果逻辑严密，符合角色技能设定。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-3",
+        "quote": "迪克同时将撬棍插入销钉下方，利用杠杆原理向上狠命一撬。...左侧炮腿内侧的榫头崩裂，巨大的炮身发出危险的倾斜",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "炮架底部那根昨夜被迪克精心计算的朽木榫头，在巨大的后坐力下瞬间崩碎。...炮弹在炮膛内炸膛。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E009",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "迪克在第35集用凿子凿开花岗岩岩层，虽然之前有铺垫其力量，但凿开坚硬花岗岩仍略显夸张，且未交代凿子材质或特殊工艺。",
+      "reason": "B级：变化有基本依据，但过程偏薄或节奏过快。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "迪克连续猛击。一下，两下，三下。他的手掌磨破，鲜血顺着凿柄流下，渗入石缝。...岩层终于崩开一道口子。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E010",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "迪克多次使用‘敲击回声判断结构’这一手段（第3集、第20集、第35集、第36集），虽对象不同，但核心动作和结果模式高度相似，缺乏新意。",
+      "reason": "B级：一个事件重复，或重复段落新增量不足，删减后不影响主线理解。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "迪克将凿子尖端轻轻插入漆黑的泥土中，然后举起凿子柄，敲击侧面。...声音沉闷且带有明显的空洞回响",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-2",
+        "contrast_quote": "迪克将耳朵紧紧贴在靠近木箱的一截传音管上，右手持凿子，轻轻敲击琴弦。...一声悠长、空洞的回响从墙壁深处传来"
+      }
+    }
+  ]
+}

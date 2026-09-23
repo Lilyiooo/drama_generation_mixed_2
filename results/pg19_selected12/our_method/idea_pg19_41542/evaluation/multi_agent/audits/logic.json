@@ -1,0 +1,489 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "金质袖扣的归属与物理状态前后矛盾，导致第12集罗斯展示袖扣的情节缺乏物理基础。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "一枚银灰色的金属袖扣被轻轻放在会计脚前的金属地板上。",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-1",
+        "contrast_quote": "罗斯意识到伪装已无意义。她深吸一口气，不再遮掩，伸手从大衣内衬撕裂处，完整地扯出那枚袖扣，递到格特鲁德面前。"
+      },
+      "reason": "合并R01、R02、R03关于袖扣归属的指控。第4集罗斯将袖扣交给格特鲁德并说“替我算账”，暗示袖扣留在酒馆或作为信物。第12集罗斯从口袋中掏出袖扣展示，中间无回收情节。第13集罗斯又捡起地上的袖扣，说明第12集她放下后未收回，但第12集她是主动拿出，逻辑上她应持有。若第12集她拿出后收回，第13集就不该在地上。道具流转存在硬性矛盾，影响关键剧情（证明文森特存活/位置）的成立，定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "伪造工牌在罗斯与文森特之间的转移过程缺失，导致第31集文森特发现工牌的情节缺乏物理基础。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-3",
+        "quote": "摸到了那枚在第28集塞入文森特枕头下却被她顺手揣走的伪造工牌。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-1",
+        "contrast_quote": "指尖触碰到了一块坚硬的、边缘锐利的塑料片。……那是一张蓝色的塑料工牌。"
+      },
+      "reason": "合并R01、R02关于工牌归属的指控。第28集罗斯将工牌塞入文森特枕头下。第29集罗斯逃离时“摸到了那枚在第28集塞入文森特枕头下却被她顺手揣走的伪造工牌”，明确说明工牌回到了罗斯手中。然而，第31集文森特在枕头里又摸到了工牌。如果第29集罗斯带走了，第31集文森特怎么还能摸到？除非罗斯又放回去了，但剧本未交代。且第29集罗斯是在逃离过程中摸到的，说明她当时持有，之后未再提及放回。同一物品不可能同时存在于罗斯口袋和文森特枕头下，且罗斯在第29集的行为（揣走）与第28集的行为（留下）直接冲突，导致第31集剧情不成立，定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "罗斯具备高超的黑客、数据伪造及生物识别破解能力，但缺乏合理来源铺垫。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "她一边观察进度条，一边在键盘上输入老陈的生日、女儿名字以及常见的财务密码组合。……【生物特征模拟匹配成功 / 权限验证通过】",
+        "contrast_episode": "第16集",
+        "contrast_scene": "16-1",
+        "contrast_quote": "地址栏输入一串乱码邮箱，通过暗网代理路由。"
+      },
+      "reason": "合并R01、R02关于罗斯黑客能力的指控。罗斯设定为会计师/家庭主妇。第16集她能进行像素级图像拼接、暗网代理路由；第33集她能使用离线破解软件、构建三维指纹模型、输入生日女儿名破解生物识别。这些技能远超普通会计师范畴，且前文未交代其受过相关训练或拥有此类工具。第33集破解U盘时，仅凭“老陈的生日、女儿名字”就成功匹配生物特征，逻辑过于简化。属于知识/技能来源不明，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E003"
+      ],
+      "status": "needs_arbitration",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第23-24集罗斯放置U盘与观察冲突的时间顺序存在矛盾，或位移耗时不合理。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "05:42。冲突爆发。安保重心转移。",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-2",
+        "contrast_quote": "老城区·废弃钟表店后院 凌晨06:45 ... 罗斯转身融入夜色，背影在月光下拉得极长，孤独而决绝。"
+      },
+      "reason": "R02认为存在S级时间倒流悖论：第23集罗斯06:45放置U盘，第24集罗斯05:30-05:42观察冲突，时间线错乱。R01认为A级空间位移矛盾：第24集罗斯从制高点到B2入口耗时18分钟，略显巧合。若R02观点成立，则第24集观察冲突发生在第23集放置U盘之前，逻辑完全崩塌，应为S级。若R01观点成立，则仅为位移稍快，为A级。需裁定第23集与第24集的时间先后关系及罗斯的具体行动轨迹。",
+      "arbitration_question": "第23集罗斯放置U盘的时间（06:45）是否晚于第24集罗斯观察冲突的时间（05:42）？如果是，则存在严重时间线矛盾（S级）；如果不是，则需解释罗斯如何在短时间内完成位移（A级）。"
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第44-45集罗斯在海上豪宅与陆上废弃仓库之间的极速往返，违反物理常识或耗时过短。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "小船像离弦之箭般冲出风暴最剧烈的区域，消失在海岸线的迷雾中。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-1",
+        "contrast_quote": "废弃仓库大厅 夜 罗斯……生锈的卷帘门发出刺耳的摩擦声，被一只手缓缓推开一道缝隙。"
+      },
+      "reason": "合并R01、R02关于空间位移的指控。第44集罗斯在海上豪宅附近，第45集她在废弃仓库。虽然第44集结尾她驾驶小船冲向海岸线，但第45集开头她已站在仓库内，中间缺乏登陆、寻找仓库、进入的具体过程，且风暴天气下小船航行速度受限，位移略显仓促。但考虑到剧本中常有此类快速转场，且未明确标注具体耗时，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "“永生计划”作为核心反派动机，前期铺垫不足，后期突然改变主线性质。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "文档中描述了一种通过高精度电极侵入大脑皮层，将人类意识数据化并上传至云端的技术方案。",
+        "contrast_episode": "第8集",
+        "contrast_scene": "8-1",
+        "contrast_quote": "最新的神经阻断剂能暂时切断海马体与前额叶的连接。简单来说，就是制造选择性失忆。"
+      },
+      "reason": "前30集主要围绕财务犯罪、谋杀、囚禁展开。第32集罗斯从U盘中发现“永生计划”和“实验体V-S-04”，第33集详细展示意识提取技术。这一设定将故事从复仇剧转变为科幻惊悚剧，但前期几乎没有关于意识上传、神经实验的暗示。第8集爱德华提到“神经阻断剂”和“选择性失忆”，可视为微弱铺垫，但不足以支撑后期“意识数据化”的宏大设定。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "格特鲁德突然展现出强大的黑道资源与情报网络，缺乏前期铺垫。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "格特鲁德：这是老陈生前藏起来的机械应急钥。能绕过一楼大厅的主锁进入核心走廊，但进不去手术室的生物门。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "格特鲁德前期设定为酒馆老板，第34集她拿出“黑道搬运工”的信物（井盖螺丝），第35集她提供“老陈生前藏起来的机械应急钥”。这些资源与她前期“下城区酒馆老板”的身份有一定差距，虽然第34集提到“年轻时作为黑道搬运工”，但具体如何获得老陈的钥匙、如何维持信物网络，交代偏薄。定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第49集罗斯用红酒瓶砸坏起爆器，导致爆炸失败，因果机制过于巧合。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "罗斯眼神冰冷，没有咆哮。她挣脱爱德华的控制，顺势抓起地上的红酒瓶，狠狠敲击在起爆器的金属外壳上。……起爆器的红光剧烈闪烁，随后彻底熄灭。倒计时无声停止。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "起爆器是精密电子设备，用红酒瓶敲击外壳导致短路并彻底失效，且倒计时停止，这一过程缺乏技术合理性。虽然可以解释为短路，但“彻底报废”且“不再爆炸”的确定性结果，依赖于罗斯的精准打击和设备的脆弱性，属于“危机解决作弊”的B级表现。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "罗斯多次使用“烟雾/化学制剂”制造混乱并逃离，情节模式重复。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "她环顾四周，抓起地上半桶未燃尽的化学溶剂，用力泼撒在火场中央。……白色浓烟混合着恶臭瞬间爆发，形成一道厚重的烟雾屏障。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-2",
+        "contrast_quote": "罗斯事先扔在地上的几块浸透化学液体的抹布遇水反应，瞬间升腾起浓烈、刺鼻的白色烟雾。"
+      },
+      "reason": "第1集使用烟雾弹和角磨机；第9集使用化学溶剂制造烟雾屏障；第45集使用化学液体抹布遇水反应制造烟雾。虽然每次具体手段不同，但“制造烟雾/混乱->利用盲区行动/逃离”的核心模式重复出现，且缺乏新的信息增量或关系变化，属于B级事件重复。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "格特鲁德从被警方逮捕到出现在法院门口缺乏合理的逃脱过程。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "台阶底部，格特鲁德穿着一件洗得发白的灰色风衣，静静伫立。",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-2",
+        "contrast_quote": "特警给了格特鲁德头部一记闷响，将她强行塞进警车。车门重重关上，隔绝了她的视线，也隔绝了罗斯最后的希望。"
+      },
+      "reason": "第46集格特鲁德被特警强行塞进警车带走；第54集她直接出现在法院正门台阶，且状态平静。中间缺乏越狱、保释或警方放人的剧情交代，属于“天降救援”或“能力突变”。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第44集罗斯判断婴儿照片为陷阱的依据不足，且爱德华的威胁逻辑与前文监控能力矛盾。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "她的目光停留在婴儿脸颊侧面的阴影上。那是一道锐利、边缘清晰的三角形暗影。",
+        "contrast_episode": "第6集",
+        "contrast_scene": "6-2",
+        "contrast_quote": "罗斯迅速拔出折叠刀，手起刀落，将芯片挑出。鲜血混着芯片掉落在地。蓝光还在闪烁，信号仍在发送。"
+      },
+      "reason": "合并R02、R03关于第44集陷阱判断的指控。第44集罗斯通过照片阴影判断婴儿在格特鲁德安全屋，从而识破陷阱。但前文未交代爱德华有能力实时拍摄并传输婴儿照片。第6集罗斯已销毁婴儿追踪器，第7-10集婴儿由格特鲁德照顾，未再提及爱德华对婴儿的监控手段。第44集爱德华发送照片时，罗斯'看了一眼近在咫尺的排水格栅'，暗示她正潜入海上豪宅，但爱德华如何知道罗斯的位置并发送照片？前文未交代爱德华对罗斯的实时定位能力。此外，第44集罗斯判断'如果格特鲁德那边真的出了事呢？如果这只是一个精心设计的心理博弈，而另一个真正的危机正在后方爆发呢？'，但前文未铺垫'后方危机'的具体内容，导致罗斯的决策缺乏充分依据。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "“长兄”角色在关键剧情后消失，未形成闭环。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-2",
+        "quote": "家族长兄OS：小婶子，听说你在动爱德华留给我们的“遗产”？",
+        "contrast_episode": "第54集",
+        "contrast_scene": "54-1",
+        "contrast_quote": "法官：被告人爱德华·索恩，犯故意杀人罪... 被告人多莉... 本庭当庭决定，撤销取保候审，立即收押。"
+      },
+      "reason": "第23集罗斯放置U盘诱导长兄；第24集长兄与爱德华冲突；第32集爱德华提及长兄动作幼稚；第57集长兄打电话威胁罗斯。但在第54集审判及后续结局中，长兄未受法律制裁或明确交代下落，其作为家族重要成员和潜在反派，结局悬空。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "爱德华在第31集故意保留工牌并放置于文森特床头的动机缺乏心理支撑。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-2",
+        "quote": "爱德华：把它洗一洗。然后放在他的床头柜上。",
+        "contrast_episode": "第8集",
+        "contrast_scene": "8-1",
+        "contrast_quote": "爱德华：我不关心他的感受，我只关心资产的完整性。文森特现在是家族最大的不稳定因素。我们需要一个彻底的“清障”方案。"
+      },
+      "reason": "爱德华作为冷酷的反派，此前多次试图销毁证据或消灭证人。第31集他不仅不销毁工牌，反而将其洗净放在文森特视线平齐处，声称要观察“求生本能”。这一行为与其一贯的“清障”策略相悖，且缺乏足够的情感或战略动机解释，显得突兀。定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A014",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E010"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第1-2集罗斯利用通风管道和排水系统逃离的因果链设计清晰，动作逻辑严密。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯眼神如冰，手稳如铁，精准地锯断排油烟机下方连接主通风道的白色PVC管道接口。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "从门锁被灌胶、使用烟雾弹、角磨机切割管道到滑入排水系统，每一步都有前置条件（工具准备、环境观察）和后果（受伤、婴儿安抚），因果链条完整，增强了紧张感和可信度。定为A级亮点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A015",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "已知事实遗忘",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "罗斯对婴儿被植入追踪器的事实反应滞后，且后续行动未体现对该威胁的持续警惕。",
+      "evidence": {
+        "episode": "第6集",
+        "scene": "6-2",
+        "quote": "罗斯瞳孔骤缩，血液瞬间凝固。那不是普通的尿布，是一个物理追踪器。多莉不仅追踪了网络，甚至通过替换物资，对婴儿进行了全天候的实时定位。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "屏幕下方弹出一条短信：“坐标已发送。独自前来。否则，永远见不到他。”"
+      },
+      "reason": "第6集罗斯发现婴儿尿不湿中有物理追踪器，并明确意识到'多莉不仅追踪了网络，甚至通过替换物资，对婴儿进行了全天候的实时定位'。然而，在第7-10集罗斯多次携带婴儿行动（如第7集交给格特鲁德、第10集电话确认孩子安全）时，未再提及追踪器是否被移除或如何规避。第6集罗斯已销毁芯片，但第7集格特鲁德接走婴儿时，未交代婴儿是否仍携带其他追踪设备或罗斯是否检查过。更关键的是，第44集爱德华利用婴儿照片威胁罗斯，若追踪器已销毁，爱德华如何能实时获取婴儿照片？前文未交代爱德华有其他监控手段，导致第44集的威胁缺乏前置逻辑支撑。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A016",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "身份阵营断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "文森特对罗斯留下的工牌认知存在断裂，第31集文森特看到工牌时的反应与前文设定不符。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "看到这个名字的瞬间，文森特原本涣散的瞳孔猛然聚光。",
+        "contrast_episode": "第8集",
+        "contrast_scene": "8-1",
+        "contrast_quote": "私人医生（点头，拿起一支装满透明液体的注射器）：理解。最新的神经阻断剂能暂时切断海马体与前额叶的连接。简单来说，就是制造选择性失忆。一旦他忘记那些遗嘱变更和资金流向，他就只是一具听话的空壳。"
+      },
+      "reason": "第28集罗斯将伪造的'高级护理员'工牌塞入文森特枕头下，作为'你还活着，别放弃'的锚点。第31集文森特在药物作用下短暂清醒，看到工牌上'罗斯'的名字后，'原本涣散的瞳孔猛然聚光'，并试图呼喊。然而，前文（第8集）爱德华已对文森特实施'选择性失忆'手术，目标是让他'忘记那些遗嘱变更和资金流向'，甚至'忘记自己是“谁”'。若文森特已失忆，他不应能识别'罗斯'这个名字并产生强烈情感反应。第31集文森特的反应暗示他仍保留对罗斯的记忆，这与第8集爱德华'制造选择性失忆'的目标矛盾。此外，第31集爱德华看到工牌后说'我要看看，当一个人意识到自己从未被放弃时，他的求生本能能爆发出多大的力量'，暗示文森特应能理解工牌含义，但这与失忆设定冲突。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A017",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "爱德华的'永生计划'与'焦土计划'在时间线和执行逻辑上存在自毁。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-3",
+        "quote": "爱德华：既然游戏已经曝光，那就彻底掀翻棋盘。启动“焦土计划”。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-2",
+        "contrast_quote": "爱德华：真是感人。看来我的“焦土计划”还得加点料。"
+      },
+      "reason": "第32集爱德华启动'永生计划'二期预处理方案，第33集罗斯发现'永生计划'文档，日期为'昨晚'，意味着爱德华已批准最终阶段实验。然而，第46集爱德华在舆论压力下启动'焦土计划'，将文森特转移到地下室备用服务器室，并准备销毁数据。第47集爱德华在直升机上准备离开，但第48集罗斯潜入B3服务器室时，文森特仍被固定在手术台上，且爱德华亲自出现。若爱德华已启动'焦土计划'并准备销毁数据，他不应在B3服务器室与罗斯对峙，而应专注于销毁证据和逃离。此外，第49集文森特将账本塞入滑槽，爱德华'目眦欲裂'，但前文未交代账本在B3服务器室的具体位置，导致文森特能迅速取出账本缺乏铺垫。定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A018",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第14集罗斯从老金处获得的'地下二层A区'情报未在后文有效回收。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-1",
+        "quote": "罗斯：地下二层A区……",
+        "contrast_episode": "第22集",
+        "contrast_scene": "22-2",
+        "contrast_quote": "罗斯站在通往B2物资通道的锈蚀铁门前。"
+      },
+      "reason": "第14集罗斯从老金处获得圣心疗养院地下结构图，并锁定'地下二层A区'。然而，后文罗斯潜入疗养院时（第21-28集），主要依赖从保安处夺来的图纸和铜钥匙，未再提及老金提供的'地下二层A区'情报。第22集罗斯进入B2层，第25集进入ICU区域，但未交代'地下二层A区'与B2层或ICU区域的关系。该伏笔未对主线剧情产生实质影响，属于次要伏笔回收不足。定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A019",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第16-17集罗斯通过伪造邮件引发黑帮与爱德华手下内斗，因果链清晰且有效推动剧情。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "她敲击键盘，撰写一封匿名邮件。",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-1",
+        "contrast_quote": "爱德华：（转身，眼神如寒冰般刺向空气）他们不想要西墙，他们想要我的注意力。"
+      },
+      "reason": "第16集罗斯在网吧拼接真实流水与伪造账户信息，发送匿名邮件给爱德华，暗示黑帮私吞现金。第17集爱德华在监控中心判断这是'声东击西'，但黑帮仍包围西围墙，导致爱德华安保重心转移。这一因果链设计合理，罗斯的行动直接导致爱德华防线出现漏洞，为后续潜入提供机会。定为A级亮点。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 26,
+  "covered_count": 26
+}

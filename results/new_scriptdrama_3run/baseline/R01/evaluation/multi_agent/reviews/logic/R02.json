@@ -1,0 +1,228 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体逻辑存在严重断裂，核心设定（业火寒、龙脉之血、前朝宝藏）在前后文中反复矛盾，角色能力与状态频繁跳变。主要问题集中在：1. 核心规则自毁（毒的解法从特定血脉变为普通血引，再变回龙脉血，最后靠婴儿阳气解决）；2. 角色状态断裂（萧烈多次重伤/中毒后无合理恢复，大熊能力忽强忽弱）；3. 伏笔强行回收（地宫宝藏、国师身份、权臣关系缺乏铺垫且结局草率）；4. 时间线矛盾（从青石镇到京城再到江南的时间跨度与事件密度不符）。亮点在于部分因果链设计（如沈小满利用舆论和债务反杀庞氏）较为清晰，但整体逻辑自洽性较差。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "业火寒的解法设定前后矛盾，从'特定血脉之血'变为'普通血引'，再变回'龙脉之血'，最后靠婴儿阳气解决，核心规则被多次违反且无解释。",
+      "reason": "S级：前文已明确建立的规则（业火寒需龙脉之血）被关键事件直接违反却无后果，也没有说明失效原因。第4集顾九说'除非，找到特定血脉之人的血液引导'，第26集沈小满用普通血引成功压制，第41集顾九又说'只有你的血能压制'，第60集靠婴儿阳气彻底解决。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "顾九（看向沈小满）：除非，找到特定血脉之人的血液引导……",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-1",
+        "contrast_quote": "沈小满（咬牙忍耐剧痛）：我不怕！你听我说，顾九说过，至亲之血可暂时压制。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "大熊的能力状态前后矛盾，从'前朝暗卫统领'变为'装疯卖傻的粗汉'，再变为'能徒手碎精钢的怪物'，能力边界不清。",
+      "reason": "S级：能力已明确被剥夺、封印、耗尽或限制，后文无解除过程却正常使用并扭转危机。第7集沈小满说'他是前朝暗卫统领，杀人如麻，只是不想再沾血，才装疯卖傻'，但第1集大熊只是'打手的'，第18集大熊轻松击败黑狗，第47集大熊能挡住巨石，能力忽强忽弱。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-1",
+        "quote": "沈小满（轻笑，走到萧烈身侧）：赔什么？这是定金。大熊，别装了。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "大熊：（憨笑）嘿嘿，打手的。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "沈小满的前朝皇室身份和龙脉之血设定完全无铺垫，直到第20集才突然揭示，且与主线逻辑脱节。",
+      "reason": "S级：重大真相、核心身份反转或历史解释完全无铺垫并改变主线逻辑。前19集沈小满只是'青石镇沈家沈大娘'，第20集顾九突然说'你身上的秘密，可能比你想的更沉重'，第26集顾九说'那是被诅咒的皇室图腾'，第40集沈小满手臂浮现龙形胎记，身份反转缺乏前期铺垫。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（目光幽深）：不仅如此，他们正在满城搜捕拥有这种体质的人。烈儿身上的毒，是标记，也是诱饵。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "沈小满：（尖叫）我是青石镇沈家沈大娘！你们收保护费，还要砍人？"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "地宫宝藏和国师身份的关键转折缺乏因果支撑，国师从幕后黑手变为地宫守护者，动机和身份转变突兀。",
+      "reason": "S级：主线关键结果缺少可追溯的直接触发因，前后因果链无法连通。第36集国师指控萧烈通敌，第50集国师在地宫与萧烈对峙，说'你父亲当年没死在战场上，他死在了贪婪上'，但前文未铺垫国师与萧烈父亲的恩怨，也未解释国师为何守护地宫。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "国师：萧烈，你父亲当年没死在战场上，他死在了贪婪上。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "国师（声音陡然拔高，尖细刺耳）：萧烈私通敌国，密谋造反！证据确凿，罪不容诛！"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "赵家账本和庞氏通敌证据的获取路径不清，阿笙如何潜入赵府密室并获取账本缺乏合理支撑。",
+      "reason": "A级：来源有模糊铺垫，但获取、转移或保存状态缺少关键支撑。第30集老宅院（阿笙）潜入赵府，第31集阿笙触发警报后逃脱，但前文未铺垫阿笙如何获得赵府内部情报，也未解释为何赵府侍卫未及时发现。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "阿笙：（屏息凝神，手指灵活地拨弄着暗格机关）咔哒。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-2",
+        "contrast_quote": "老宅院：（佝偻着背，一瘸一拐推门而入）多谢兄弟，多谢兄弟。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "萧烈多次重伤/中毒后无合理恢复过程，从'业火寒发作'到'能战斗'再到'彻底解毒'，状态变化缺乏医学支撑。",
+      "reason": "A级：重伤、濒死、昏迷或囚禁等强限制未经治疗、逃脱或时间说明便完全恢复。第9集萧烈毒发，第11集能正常行动，第25集毒发失控，第26集用血引压制，第37集在天牢受刑，第38集装死，第45集能战斗，第60集彻底解毒，状态变化频繁且无合理过渡。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "顾九（神情凝重，指尖银针寒光一闪）：京城地气燥热，和你的业火寒冲突了。",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-1",
+        "contrast_quote": "萧烈（自阴影中一步踏出）。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E007",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "从青石镇到京城再到江南的时间跨度与事件密度不符，12年守活寡、10年毒、8年旧部等时间线混乱。",
+      "reason": "A级：跳跃、压缩或倒置使重要因果明显不合理。第12集庞氏说'老娘当家十二年'，第20集顾九说'十年前的边关禁药名册'，第58集旧部说'都过了八年了'，时间线前后矛盾。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "庞氏：（嚎啕大哭）苍天啊！老娘当家十二年，含辛茹苦守空房！",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-2",
+        "contrast_quote": "萧烈：（声音嘶哑）铁柱？你……你没死？"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E008",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "强行回收",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "地宫宝藏的结局草率，沈小满用血滴在机关上导致地宫坍塌，国师死亡，宝藏消失，缺乏合理铺垫和逻辑支撑。",
+      "reason": "A级：方向成立，但过程生硬、证据不足或解释过度集中。第50集沈小满'猛地咬破指尖，鲜血精准地滴落在机关阵图的核心枢纽之上'，导致地宫坍塌，但前文未铺垫机关的触发条件，也未解释为何血能触发坍塌。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "沈小满：萧烈，信我一次！",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-4",
+        "contrast_quote": "沈小满：钥匙在国师的嘴里。你念咒语，门自己会开。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E009",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "沈小满利用舆论和债务反杀庞氏的因果链设计较为清晰，从收集证据到公开曝光再到庞氏崩溃，逻辑连贯。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。第13集沈小满在宗祠揭露庞氏私通和贪墨，第14集用铜管扩音公开曝光，第15集庞氏被迫签字，因果链完整。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-1",
+        "quote": "沈小满：（高声朗读）“今日午后，西厢房……切勿声张……给足了银两……”",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "庞氏（绝望嘶吼）：你们逼我！好……好！我签！"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E010",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "沈小满对京城局势和权贵弱点的了解缺乏合理来源，多次精准预判对手行为。",
+      "reason": "B级：来源交代偏薄，但前后文可拼合或很快补充。第6集阿笙提供情报，但沈小满对赵家、庞氏、黑风煞帮的了解过于精准，缺乏前期铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第6集",
+        "scene": "6-1",
+        "quote": "阿笙（指了指还在打瞌睡的隔壁酒客）：刚才闲聊时，酒客甲抱怨酒贵，酒客乙叹气米贵。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "沈小满（身体前倾）：这不是彩头，这是公子欠我的账本封面颜色。"
+      }
+    }
+  ]
+}

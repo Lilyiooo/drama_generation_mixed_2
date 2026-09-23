@@ -1,0 +1,206 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体逻辑存在严重断裂，核心设定（业火寒、龙脉之血、前朝宝藏）在前期铺垫不足，后期强行回收并导致角色行为逻辑崩坏。主要问题集中在：1. 关键转折因果断裂，如萧烈从“废人”到“战神”的恢复缺乏合理过程；2. 角色状态与能力矛盾，沈小满的武力值忽高忽低，萧烈的毒发与解毒机制前后不一；3. 伏笔闭环失败，庞氏、赵家、国师等反派动机与结局处理草率，存在大量未解释的悬念；4. 时空与规则自毁，如地宫机关、摄魂箫等设定临时发明且无后续约束。亮点在于部分商业冲突设计（如沈小满的撒泼策略）具有连贯性，但整体逻辑自洽性较低。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "萧烈从“废人”状态到阅兵大典上展现超强战斗力，缺乏合理的恢复或解除限制过程。",
+      "reason": "第44集明确萧烈被权臣心腹确认为“废人”，毒入骨髓，无法行动。第45-46集在阅兵大典上，萧烈在摄魂箫控制下仍能精准踩中机关、传递信号，并在第47集爆发超强战力。这一转折缺乏对“废人”状态解除或毒发机制变化的铺垫，属于关键结果缺少可追溯的直接触发因。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "权臣心腹（蹲下身，用折扇挑起萧烈的下巴，确认瞳孔无焦距后，眼神中闪过一丝轻蔑）：呵，果然废了。",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "萧烈：（冷笑）装？既然你们喜欢送死，我萧烈便成全你们。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "沈小满的武力值前后矛盾，从“撒泼”到“单挑刺客”缺乏能力升级或身份揭示的合理支撑。",
+      "reason": "前期沈小满主要依靠撒泼、智谋和大熊/萧烈武力解决问题（如第10集、第18集）。第59集沈小满在怀孕状态下，使用晾衣杆轻松击败三名刺客，且身法灵活毫无孕期笨重。这一能力突变缺乏前文铺垫（如隐藏高手身份、特殊训练等），属于能力已明确被限制（怀孕、非武者）后无解除过程却正常使用并扭转危机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "沈小满（假装脚下一滑）：啊！公子你长得太快，吓到我啦！",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-2",
+        "contrast_quote": "沈小满：（站起身，单手握着晾衣杆，指着刺客）想要我的命，先问问这杆子答不答应！"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "核心规则空降",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "“摄魂箫”与“地宫机关”作为解决核心危机的新规则，前文毫无铺垫，临时发明且用完即消失。",
+      "reason": "第45集首次出现“摄魂箫”控制萧烈，第46集出现“地宫机关”被萧烈脚步触发。这些规则在之前60集中从未提及，且直接用于解决权臣危机和开启宝藏，属于新规则首次出现便解决核心危机，前文毫无铺垫。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "权臣眼神示意，几名乐师同时吹响手中漆黑如墨的“摄魂箫”。",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-2",
+        "contrast_quote": "萧烈（OS：就是现在！）△ 阵法地面发出轻微的“咔哒”声，被萧烈巧妙的脚步掩盖在箫声中。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "沈小满“前朝皇室血脉”身份及“龙脉之血”设定，在前期缺乏足够铺垫，后期强行揭示并改变主线逻辑。",
+      "reason": "第20集顾九首次提及“龙脉之血”，但此前沈小满仅被描述为“撒泼”、“市井”女子。第26集、第40集、第41集多次强调其身份，但前期（1-19集）几乎无相关暗示（如胎记、特殊体质等）。这一重大身份反转完全无铺垫，且直接导致后续所有剧情（解毒、宝藏、权臣追杀）的逻辑基础，属于重大真相完全无铺垫并改变主线逻辑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "沈小满：（河东狮吼）住手！光天化日，朗朗乾坤，你们是想欺压良善吗？！",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "沈小满：（看着那胎记，惊恐又迷茫）这……这是什么……"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "地宫坍塌导致国师死亡，属于天降救援/反派降智，缺乏合理机制支撑。",
+      "reason": "第50集沈小满滴血触发地宫自毁，国师跌落深渊。这一危机解决依靠未铺垫的“地宫自毁”机制，且国师作为核心反派，在拥有强大势力和护卫的情况下，轻易被地宫坍塌杀死，属于核心危机依靠未铺垫的新规则化解并改变主线。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-3",
+        "quote": "国师（绝望地向着无尽的黑暗坠落）：不——！△ 身后传来震天动地的崩塌声，地宫被彻底掩埋，只余下空荡的废墟。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "萧烈从“复仇”到“放弃权力、回乡种地”的转变，缺乏足够的情感积累和事件驱动。",
+      "reason": "前期萧烈核心动机是复仇和夺回将军府（第2集、第11集等）。第52集后，萧烈突然放弃权力，选择回乡种地。虽然第42集有“撕密旨”的情节，但这一重大人生目标转变缺乏足够的心理铺垫和情感积累，属于核心性格或长期目标在无重大变故、心理铺垫或情感积累时根本逆转。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "萧烈：我要你以“正妻”之名，撕烂他们的假面。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "萧烈（眼神平静）：大印在，就是靶子。化了它，才是自由。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E007",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "庞氏与赵家、国师的勾结证据，在前期缺乏获取路径和保存地点的铺垫。",
+      "reason": "第33集萧烈从赵府账本中发现庞氏通敌证据，第34集沈小满手持账本对抗官兵。这些关键证据（账本、防务图）在前期（1-32集）缺乏明确的获取路径、保存地点或来源铺垫，属于决定性证据突然出现并推翻局势，前文没有获取路径、保存地点或来源。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "萧烈（紧盯着桌上账本）：顾九，缝好就退下。这账本里的秘密，比我的命重要。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E008",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "庞氏、赵家公子等反派在后期剧情中消失，缺乏社会、组织或主线格局反应。",
+      "reason": "庞氏在第15集被驱逐，赵家公子在第22集认栽，但后续剧情（23-60集）中，这两人及其势力几乎完全消失，没有对主线格局产生持续影响。属于重大身份暴露、组织背叛或核心冲突结论发生后，没有社会、组织、关系或主线格局反应。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "庞氏（绝望嘶吼）：你们逼我！好……好！我签！",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "萧烈：你就是我杀父仇人，国师！"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E009",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "沈小满利用“撒泼”和“智谋”解决商业和社交危机的因果链清晰，前因充分支撑后果。",
+      "reason": "第10集、第17集、第18集等，沈小满通过撒泼、造谣、武力威慑等手段解决赵家、黑风煞帮等危机，因果链清晰，前因（撒泼、智谋）充分支撑后果（危机解决），属于主要转折因果清晰，前因充分支撑后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "沈小满（尖叫）：非礼啊！光天化日你也敢动手动脚！",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-1",
+        "contrast_quote": "赵家公子（脸色惨白，手抖得厉害）：你……你少吓唬人！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的戏剧张力和情感深度。主角伯莎的人物弧光完整且极具说服力，从贵族小姐到革命领袖再到殉道者，其内在信念的转变通过一系列两难选择和惨痛代价（如蒂娜之死、诺米诺埃之死）被充分戏剧化。配角诺米诺埃的仇恨驱动与暴力倾向形成了与主角的强烈对照，反派伯爵的压迫性也通过具体事件（如盐税、绞刑）得到了有效支撑。人物关系（尤其是伯莎与诺米诺埃）贯穿全剧，情感绑定紧密，张力来源多样。在情节规划方面，桥段设计具有递进性，情绪节奏起伏明显，高潮部分（审判与处决）有效回收了前文的情感积累。主要问题在于部分配角（如激进派首领）功能略显单一，以及个别场景（如第32集村民群像）的台词存在一定程度的同质化和说教感，但整体质量显著高于常规完成度。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如逃亡、谈判、战斗）大多承担不同功能，通过新变量（如从物理逃亡到政治谈判，从个人复仇到制度建立）形成有效变奏。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "伯爵密令明日凌晨突袭您的货仓。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手代表不同资源与压力类型：伯爵代表暴力与政治权力，激进派代表内部意识形态冲突，村民代表底层生存逻辑，迫使主角采用不同策略（军事、政治、外交）。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "激进派军官（嗤笑，猛地拍桌）：公平？小姐，你是睡醒了吗？我们缺的是粮食，不是你的天书！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从第1集的逃亡到第12集的烧印信，再到第30集的法典起草，每一步都压缩了主角的选择空间并扩大了后果。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "伯莎：从现在起，伯莎·布卢埃尔内尔已死。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过宴会和逃亡迅速确立了主角的困境、性格和核心冲突（阶级压迫与个人自由）。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伯爵（猛拍桌面）：住口！你所谓的家人，不过是会下蛋的母鸡。若母鸡生出臭蛋，我有权直接宰杀。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标（获取物资、建立法典、政治博弈）和小高潮（沼泽伏击、法庭审判）推进，后段完成充分升级与收束（处决与遗产）。",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-2",
+        "quote": "诺米诺埃（猛然扣动扳机，火枪轰鸣）：死！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫。蒂娜之死（第15-16集）作为情感低谷，有效铺垫了后续诺米诺埃的暴走和伯莎的决绝，高潮处（第59集）兑现了主要情绪承诺（牺牲与觉醒）。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "蒂娜（用尽最后力气塞给伯莎一枚染血护身符）：拿着这个……替我活下去！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化（生存、情感、政治、道德），并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "斥候（剧烈喘息，跪倒在地）：报……报告！伯爵的巡逻队封锁了所有通往港口的道路。而且……他们正在焚烧中立区的粮仓！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡节奏快，中期政治博弈节奏适中，后期高潮密集。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "伯莎（从怀中掏出一本破旧的账本，重重拍在桌上）：这是我从守夜人手里偷来的，伯爵伪造的账目。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。例如第25-26集的舆论压力为后续的政治孤立和法庭审判做了铺垫。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-3",
+        "quote": "伯莎：既然我是鬼魂，那就让你们在地狱里见鬼。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（如诺米诺埃的仇恨、萨隆的生存策略、激进派的分裂）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线（如诺米诺埃的死亡直接导致主线进入最终阶段）。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "激进派首领（猛拍桌子）：这女人是毒瘤！她的存在让弟兄们畏缩不前，看看那个军官！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从个人逃亡到集体反抗，再到制度建立与最终牺牲，主线悬念与阶段目标严密递进。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "伯莎（声音不大，却字字如刀穿透死寂）：你们听见了吗？你们的父亲饿死时，法律在替伯爵举杯；你们的姐妹被像牲口一样割去耳朵时，法律在替伯爵磨刀。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伯莎的人物弧光完整且极具说服力，起点缺陷（贵族特权与冷漠）、关键转折（蒂娜之死、诺米诺埃之死）和终点变化（殉道者与思想启蒙者）均有充分证据，每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "reason": "符合S级锚点：起点缺陷或信念、至少两个关键转折和终点变化均有证据；每次变化都由强驱动事件逼出主动选择并产生不可逆后果，显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伯爵（冷笑，举杯）：怜悯？伯莎，怜悯是留给有骨血之人的。那是垃圾，需要清理。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-1",
+        "contrast_quote": "伯莎（大声）：你们扔过来的，是你们的恐惧，不是正义！"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伯莎的内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "reason": "符合S级锚点：内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-2",
+        "quote": "伯莎（痛苦地捂住脸）：我知道你很生气……我也知道你很害怕。",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-2",
+        "contrast_quote": "伯莎（看着那跳动的火光，眼神中最后一丝光芒熄灭）：你不是革命者，诺米诺埃……你只是个报复的疯子。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲；配角、反派和群像持续制造推进力与人物层次。",
+      "reason": "符合A级锚点：主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "萨隆（突然站起来）：她在用脑子，而你们在用命。这就是为什么我是萨隆，而你们是平民。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（伯莎与诺米诺埃）同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "符合S级锚点：核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "诺米诺埃（逼近，将护身符拍在伯莎胸口）：她相信的是你所谓的“救赎”！是你那虚伪的贵族慈悲害死了她！",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "诺米诺埃（用尽最后力气，将护身符塞入伯莎掌心，手指僵硬）：我在火海里……捡到了。我想把它还给你……作为最后的……和解。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "符合S级锚点：核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-1",
+        "quote": "诺米诺埃（沉默良久，猛地抓起钱袋，手指用力到指节发白）：如果你敢骗我，伯莎。我会亲手把你挂在你父亲设立的绞刑架上。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "诺米诺埃（眼神逐渐涣散，嘴角却上扬）：那就好。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "reason": "符合A级锚点：人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伯莎（低声）：清理垃圾……好，那我就做一只咬死主人的畜生。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "符合A级锚点：核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "公爵代表VO（画外）：那丫头必须消失，彻底消失！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "符合A级锚点：多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "蒂娜（突然用尽全力将伯莎向外推开）：伯莎，活下去！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词人物辨识度低",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "个别角色台词与人设、身份或情境略有脱节，但未造成整体混同。",
+      "reason": "符合B级锚点：个别角色台词与人设、身份或情境略有脱节，但未造成整体混同。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-1",
+        "quote": "村民乙：权利是什么？能嚼不动的烂石头。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "reason": "符合B级锚点：局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "伯莎：我在思考政治制度建设。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E011",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "reason": "符合A级锚点：有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "△ 纯金在高温下发出扭曲的悲鸣，黑烟瞬间升腾而起，吞噬了那些繁复的贵族纹章。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E012",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "符合A级锚点：设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "伯莎：每一笔入项都有记录。伯爵不仅收我们的盐税，他还把布列塔尼多余的羊毛和木材，偷偷转运给邻国的港口。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

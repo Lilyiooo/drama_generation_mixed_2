@@ -1,0 +1,140 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体构建了完整的悬疑惊悚闭环，核心因果链（发现尸体->追踪信号->揭露阴谋->最终决战）逻辑严密，角色状态与认知变化符合心理逻辑。主要逻辑瑕疵集中在资源状态（星形令牌/芯片的归属与功能前后矛盾）和规则时空（时间线压缩与空间位移不合理）上。伏笔回收基本到位，但部分关键道具（如死者手指、录音笔）的获取过程存在缺失。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "星形令牌/芯片的归属与功能在后期发生硬性矛盾，影响关键剧情成立。",
+      "reason": "第17集梅莉安将令牌交给伊莱亚斯，称其记录脑波数据；第21集伊莱亚斯使用死者手指和录音笔解锁芯片；第28集伊莱亚斯将令牌还给梅莉安作为写入代码的钥匙；第44集梅莉安捏碎令牌切断信号；第47集伊莱亚斯使用“从首领手中夺回的星形薄片”（实为第21集芯片或第41集首领把玩的令牌）解锁机械室。令牌/芯片/薄片三者混用，且“捏碎”后伊莱亚斯仍能使用“薄片”解锁，存在资源状态断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "记忆闪回，那是从首领手中夺回的星形薄片，他以为是装饰品，随手塞入。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "随着一声清脆的金属碎裂声，令牌内部的微型发射元件被捏爆。红光瞬间熄灭。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第21集解锁芯片所需的“死者手指”和“死者录音”来源缺失。",
+      "reason": "第2集伊莱亚斯将尸体拖入酒窖，第3集仅提取了绿色结晶。第21集突然使用“半截干枯、发黑的人皮手指”和“死者临死前浑浊、扭曲的呻吟声”录音解锁芯片。前文未交代伊莱亚斯何时截取了手指，也未交代何时录制了死者声音（死者已死，无法录音，除非是生前录音，但前文无铺垫）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "他剥开纱布，露出半截干枯、发黑的人皮手指——那是第2集冰湖死者的遗骸部分。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "伊莱亚斯捡起令牌，指尖摩挲过星芒的边缘。他的眼神复杂，既有深藏的恐惧，也有复仇的杀意。随后，他将令牌塞进贴胸口袋，转身拉紧固定尸体的绳索。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第16集至第24集的时间跨度与事件密度存在压缩矛盾。",
+      "reason": "第16集设定“24小时倒计时”，伊莱亚斯计划“明天午夜”行动。第17-22集发生在“深夜/黎明前”，第23-24集发生在“黎明/清晨”。然而，第22集伊莱亚斯说“还有十五分钟”，第23集西拉斯在广场制造混乱，第24集伊莱亚斯在广场使用喷雾剂。从第16集深夜到第24集清晨，时间流逝过快，且“明天午夜”的计划被提前至“黎明”执行，与倒计时逻辑冲突。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "计划很简单。明天午夜，我会去主厅切断他们的总控。",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-2",
+        "contrast_quote": "广场喷泉边缘 黎明（浓雾） 人物：伊莱亚斯·索恩、西拉斯·瓦恩、暴民、无人机"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第29集西拉斯从庄园外墙攀爬至塔楼二层，时间过短且缺乏合理路径。",
+      "reason": "第29-3集西拉斯在“庄园外墙/钟楼侧翼”攀爬，第29-3集末尾他进入“塔楼二层”。第30集梅莉安在“客房隐蔽密室”听到“滴”声，第31集西拉斯在“控制塔升降梯内”。从外墙攀爬到塔楼内部，再到升降梯，空间转换过快，且未交代如何避开地面巡逻和无人机。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-3",
+        "quote": "西拉斯像一只壁虎，紧贴着湿滑的石墙，利用绳索和镁合金钩爪向上攀爬。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-1",
+        "contrast_quote": "幽闭的铁皮轿厢内，应急红灯疯狂闪烁，将西拉斯苍白的脸切割成明暗两半。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心阴谋（神经控制/净化计划）的揭露层层铺垫，因果严密。",
+      "reason": "从第1集的“星形”线索，到第3集的“绿色结晶”，第10集的“神经桥”芯片，第21集的“净化协议”文件，再到第35集首领揭露“红星计划”和梅莉安母亲之死，每一步都有前文铺垫，最终在第44集通过梅莉安捏碎令牌切断信号，逻辑闭环完整。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "梅莉安的母亲，萨拉。她死于意外？不。她死于你的一次“必要牺牲”。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "一个……发光的物体。他嘴里一直在念叨……“星形”。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "伊莱亚斯从“冷酷保护者”到“道德困境中的赎罪者”的转变有充分事件驱动。",
+      "reason": "第1-10集伊莱亚斯表现为冷酷、控制欲强的保护者；第21-24集他为了生存不择手段，引发道德冲突；第35集首领揭露其过去罪行，导致其信仰崩塌；第36集他在墓园崩溃后重新振作，动机从“保护”转为“赎罪”和“终结”。转变过程有明确的事件（揭露真相、梅莉安的信任、西拉斯的牺牲）支撑，符合逻辑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "萨拉的死是我的责任。我花了十年逃避，今天我在你这里找到了停止逃跑的理由。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "警察来不了，或者不该来。现在，没有人能联系到这里，除了我们。"
+      }
+    }
+  ]
+}

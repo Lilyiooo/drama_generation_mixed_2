@@ -1,0 +1,446 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伊莱亚斯具有完整的S级人物弧光，起点缺陷、关键转折和终点变化均有充分证据，且每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "伊莱亚斯（猛地举起麦克风，如同握着一把匕首）：这幅画，是假的。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伊莱亚斯（声音极冷）：那是……实验性介质。"
+      },
+      "reason": "三位评审均指出主角弧光完整。R01评为A，R02/R03评为S。依据标准，S级要求起点缺陷、至少两个关键转折、终点变化均有证据，且变化由强驱动事件逼出主动选择并产生不可逆后果。剧本中：起点（第1集掩盖赝品）、转折1（第4集威胁妻子/第13集折断SIM卡切断联系）、转折2（第42/45集直播揭露/第49集电锯开画）、终点（第56集接受判决/第59集重建信念）。证据充分，符合S级锚点。R01的A级评价偏低，采纳R02/R03的S级判断。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾（艺术信仰 vs 生存恐惧）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "伊莱亚斯（突然发力，指甲盖撬开芯片，用力一折）：咔嚓。",
+        "contrast_episode": "第6集",
+        "contrast_scene": "6-1",
+        "contrast_quote": "伊莱亚斯（OS）：只要发出去，一切就合法了。"
+      },
+      "reason": "三位评审均确认主角深度。R01评为A，R02/R03评为S。依据标准，S级要求内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。剧本中：第6集两难（是否发邮件）、第7集脆弱（醉酒自我欺骗）、第13集犯错与代价（折断SIM卡）、第44集价值选择（犹豫揭露）。证据链完整，符合S级锚点。采纳R02/R03的S级判断。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "朱利安（冷静吐烟）：让它受伤。",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-1",
+        "contrast_quote": "克拉拉：他疯了。他在烧掉所有的证据，还销毁了自己的手机卡。他正在掩盖真相。"
+      },
+      "reason": "三位评审均确认角色功能质量。R01/R02/R03均评为A。依据标准，A级要求主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。剧本中朱利安（操控）、克拉拉（道德锚点/调查）、维克多（资本压力/弃子）功能区分明显，推动主线。符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分配角（如维克多、董事会成员）功能化较重，主要围绕帮助、伤害主角或解释信息运转，个人目标、mini弧光或独立情感价值不足。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "主席（拍桌打断）：不需要需要！董事会刚开了紧急会议。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出维克多和董事会成员功能化。依据标准，B级表示角色能局部推动剧情，但主要围绕帮助、伤害主角或解释信息运转，个人目标、mini弧光或独立情感价值不足。维克多虽有破产线，但主要作为资本压力具象化；董事会成员多为背景板。符合B级问题锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E005",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（伊莱亚斯与朱利安、伊莱亚斯与克拉拉）同时存在多类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-1",
+        "quote": "朱利安：因为你是天才，伊莱亚斯。天才总是最后的牺牲品。",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-2",
+        "contrast_quote": "克拉拉：沉默？我宁愿生活在贫穷的真相里，也不愿呼吸你给的谎言。"
+      },
+      "reason": "三位评审均确认关系张力。R01/R03评为A，R02评为S。依据标准，S级要求核心关系同时存在至少三类相互咬合的张力来源（如身份立场、目标利益、情感依赖、秘密误会和价值冲突），且移除该关系会使主线情感逻辑明显坍塌。伊莱亚斯-朱利安：身份（受害者/操控者）、利益（生存/控制）、情感（恐惧/利用）、秘密（共犯/囚徒）。伊莱亚斯-克拉拉：情感（夫妻/决裂）、价值（谎言/真相）、秘密（隐瞒/揭露）。张力来源超过三类且相互咬合，符合S级锚点。采纳R02的S级判断。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "克拉拉（冷冷地注视他）：你依然有协助洗钱和伪造报告的记录。但有了这些，你将从“主犯”降格为“胁从”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02确认关系推进。依据标准，A级要求核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。剧本中伊莱亚斯-克拉拉关系从婚姻到决裂再到合作，里程碑清晰（第4集决裂、第13集切断、第48集合作）。符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E007",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯（OS，颤抖）：我在骗自己。如果它是假的，我也完了。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02/R03确认开篇吸引力。依据标准，A级要求人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。第1集迅速建立赝品发现、利益捆绑和道德困境，符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E008",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "朱利安（低声）：你的违约金，够你坐牢十年。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02/R03确认矛盾建立。依据标准，A级要求核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。剧本中核心矛盾（赝品真相vs生存）明确，阻力（朱利安、维克多、董事会）有效，风险（坐牢、身败名裂）可感知，形成生存危机和道德抉择两类期待。符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "技术专家（急促地，几乎是从齿缝里挤出的声音）：他们进来了。三个男人。穿黑西装的。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02确认集间承接。依据标准，A级要求多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。剧本中集末悬念（如大卫遇袭、黑客拦截）清楚，承接自然，符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "直播揭露情节存在结构性重复，缺乏新变量。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "伊莱亚斯（机械地按键）：滋滋。△ 一道细瘦苍白的红点突兀地亮起，刺破了画布上的宁静。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "伊莱亚斯（无视耳麦声）：这不符合十九世纪的生理逻辑。"
+      },
+      "reason": "R01指出直播揭露情节重复。依据标准，等级2映射A级问题，表示持续套用桥段，只替换人物、地点或表层目标，推进和结果功能高度同质。剧本中第41-47集与第53-54集多次出现“激光笔指向瑕疵”、“揭露真相”的情节，且动作和台词高度相似（如第45集与第53集），缺乏新变量。符合A级问题锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中段（第25-40集）存在明显停滞，重复展示囚禁与威胁，缺乏新的阻力或局面变化。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-2",
+        "quote": "伊莱亚斯（声音极度疲惫）：最后一份。这是博物馆的流动资金授权。",
+        "contrast_episode": "第32集",
+        "contrast_scene": "32-1",
+        "contrast_quote": "伊莱亚斯（机械地敲击键盘，屏幕上的光标疯狂跳动）：如果……如果我被打死在这里……"
+      },
+      "reason": "R01/R03指出中段停滞。依据标准，等级2映射A级问题，表示存在持续停滞或重复解释，明显推迟阶段目标和主线结果。剧本中第25-40集伊莱亚斯被囚禁，剧情主要围绕“威胁-签字-崩溃”循环，缺乏新目标或局面变化，符合A级问题锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "plot_emotion",
+      "kind": "issue",
+      "category": "中后段节奏",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "第25-40集存在明显的“平淡段”和“前高后低”风险，伊莱亚斯被囚禁后的心理折磨过程过于冗长，缺乏有效的情绪积累或新目标。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "伊莱亚斯（颓然松开手，整个人瘫软在真皮椅背上）：连不上……根本连不上……",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "伊莱亚斯（面色惨白，死死抓着讲台边缘）：外面像是要塌了。我找不到克拉拉。"
+      },
+      "reason": "R03指出中后段节奏问题。依据标准，等级2映射A级问题，表示存在明显平淡段、前高后低或高潮失力，需要重排多个阶段才能修复。剧本中第25-40集情绪曲线平缓，缺乏新目标或有效情绪积累，导致高潮前张力被稀释，符合A级问题锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处台词存在非情境化的说明性表达，破坏真实感。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "伊莱亚斯OS：我在用真相做筹码。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-3",
+        "contrast_quote": "伊莱亚斯OS：我把自己锁在了笼子里，还以为自己成了驯兽师。"
+      },
+      "reason": "R01评为A，R03评为B。依据标准，A级要求多个重要场景有明显剧情复述、情绪自我解释、背景硬塞或抽象结论，显著破坏真实感与张力。剧本中第3集、第12集、第16集等多处OS台词存在抽象概括（如“我在用真相做筹码”、“我把自己锁在了笼子里”），且贯穿多个重要场景，符合A级问题锚点。采纳R01的A级判断。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008",
+        "quality-R02-E010",
+        "quality-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现过度打磨痕迹，台词工整对仗或金句连发，影响真实感。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯（冷漠）：光会撒谎。阴影才能显真。",
+        "contrast_episode": "第16集",
+        "contrast_scene": "16-2",
+        "contrast_quote": "朱利安（轻笑）：你是脑子，我是剪刀。"
+      },
+      "reason": "三位评审均确认台词过度打磨。R01/R02/R03均评为B。依据标准，B级表示局部出现过度打磨痕迹，不影响整体。剧本中第1集、第10集、第16集、第28集等存在工整对仗或金句（如“光会撒谎。阴影才能显真”、“你是脑子，我是剪刀”），但主体对话仍完成人物、信息或情绪功能，符合B级问题锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "跨集承接断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "克拉拉被威胁/绑架的情节逻辑存在断裂，后续未有效回收。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "朱利安（按下按钮，巨大的屏幕瞬间亮起）：不，她在法庭门口。或者说，在死者的行列里。",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-1",
+        "contrast_quote": "克拉拉（屏幕中，疲惫地）：我想睡一会儿，别烦我。"
+      },
+      "reason": "R01指出克拉拉情节断裂。依据标准，B级表示承接基本存在，但推进偏慢，或重复大量已知信息后才继续。剧本中第29-31集克拉拉被威胁，第34集后其行动显得突兀，且朱利安的控制手段缺乏后续有效回收，符合B级问题锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A016",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "心理活动或内心独白过多",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "少量不可拍心理活动，局部影响画面表达。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-2",
+        "quote": "伊莱亚斯（OS）：这是痛苦，大师在晚年失去了控制。对，一定这样。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出心理活动过多。依据标准，B级表示少量不可拍心理活动，局部影响画面表达。剧本中大量使用OS展现心理状态，部分OS过于抽象（如“这是痛苦，大师在晚年失去了控制”），难以通过画面直接呈现，符合B级问题锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A017",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E012"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "朱利安（举起另一份文档，轻轻抛下）：不，这是给你的一份“人生回顾”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02确认设定释放节奏。依据标准，A级要求设定释放有层次，整体节奏良好，没有明显信息过载。剧本中核心设定（赝品、洗钱、监控）分阶段释放，与剧情高潮或关键行动绑定，符合A级亮点锚点。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 31,
+  "covered_count": 31
+}

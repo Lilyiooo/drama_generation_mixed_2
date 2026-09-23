@@ -1,0 +1,168 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角托伊内特·里夫具有完整且深刻的人物弧光，从极端的理性防御到最终的情感接纳，转变过程有充分的事件驱动和内在逻辑支撑。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "托伊内特·里夫：记录已存档。如果您坚持认为这是“限制”，我建议您在未来的互动中保持距离，以避免进一步的数据污染。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "托伊内特原本笔挺的西装肩部线条此刻完全松弛。她迈开步子，步伐不再像以前那样经过精密测量以符合‘得体’标准，而是有些随意，甚至略带迟疑。"
+      },
+      "reason": "三位评审均指出主角弧光显著。证据显示起点为极度理性/情感隔离（第1集），经历第11集发现沉默即顺从、第26集海伦崩溃、第39集普雷斯顿质问、第59集断绝关系等关键转折，终点为情感接纳与真实存在（第60集）。变化由强驱动事件逼出主动选择（如烧毁协议、拒绝签署认罪书），并产生不可逆后果（失去安全感、获得自由）。符合S级亮点标准：起点缺陷明确，至少两个关键转折，终点变化显著支撑主线情感。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角托伊内特·里夫具有深刻的人物深度，内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "托伊内特（声音低微，带着沙哑）：我一直以为……只要掌控足够的变量，我就能掌控命运。我害怕如果停止计算……我就什么都不是。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "托伊内特：不再计算。"
+      },
+      "reason": "三位评审均确认主角深度。证据显示内在矛盾（理性vs情感、控制vs自由）在第12集崩溃、第26集旁观海伦、第39集自我剖析、第47集伪造评估被揭穿等多个节点通过两难选择、脆弱暴露和犯错承担后果被戏剧化。符合S级亮点标准：内在矛盾在多个关键节点充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角海伦和露丝功能明确，分别承担了情感共鸣和冲突激化的作用，与主角形成了有效的关系张力。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "海伦：这是斯通夫人办公室的通风管道图。监控每隔周四凌晨两点会重启三十秒，这是盲区。",
+        "contrast_episode": "第27集",
+        "contrast_scene": "27-1",
+        "contrast_quote": "露丝·戈登：（轻笑，逼近一步）别装了。你的右手一直在发抖，指关节发白。你是怕听见哭声，还是怕看见眼泪？"
+      },
+      "reason": "三位评审均确认配角功能明确。海伦提供关键情报（通风管道图）并代表被压迫的共情，露丝代表混乱中的真实并激化冲突。角色层级清晰，重要角色功能明确并推动主线。符合A级亮点标准：主角配置清晰，重要角色功能明确并推动主线。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（托伊内特与海伦、露丝）存在至少两类明确张力来源，能够稳定支撑主线或重要副线。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "海伦：如果你是想证明你比我优越，恭喜你，里夫小姐。你做到了。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-2",
+        "contrast_quote": "海伦：（低声，带着哽咽的笑意）谢谢。这次，我们是一伙的了。"
+      },
+      "reason": "三位评审均确认关系张力。托伊内特与海伦的关系存在阶级差异和情感依赖两类张力；与露丝的关系存在规则vs混乱和信任vs利用两类张力。R02评为S级，但证据主要展示两类张力（身份/情感），未充分证明三类相互咬合且移除即坍塌。因此纠正为A级。符合A级亮点标准：核心关系存在至少两类明确张力来源，能够稳定支撑主线。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "托伊内特合上笔记本，掩盖住那个墨水黑点。她的眼神不再平静，目光在海伦佝偻的背影和讲台上斯通夫人挺拔的侧影之间游移。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "露丝自然地靠在她肩上，海伦合上书，三人相视而笑，无需言语。"
+      },
+      "reason": "三位评审均确认关系推进。核心关系从冷漠旁观（第9集）到主动帮助（第14集）、共同对抗（第48集）到最终和解（第60集），有清晰起点、关键里程碑和阶段变化。R02评为S级，但证据显示里程碑虽存在，但“因果紧密”和“连续叙事动力”的强度略逊于S级标准（需至少两个因果紧密的关键里程碑且关系推进本身构成连续动力）。因此纠正为A级。符合A级亮点标准：核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派斯通夫人动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-2",
+        "quote": "斯通夫人：（对着黑暗轻声说道）游戏开始了。",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-3",
+        "contrast_quote": "斯通夫人（尖叫）：你会后悔的！你和你那个冷血的父亲一样！"
+      },
+      "reason": "两位评审均指出反派塑造问题。斯通夫人的动机（控制欲/秩序）可识别，但缺乏更深层的创伤或价值冲突支撑，主要依赖口头设定（如“只有功能是有价值的”）。与主角的对照和升级过程存在，但关键压迫场面的深度和复杂性略逊于主角。符合B级问题标准：动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 17,
+  "covered_count": 17
+}

@@ -1,0 +1,559 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "艾琳与霍拉肖、霍默的亲属关系及称谓前后存在硬性矛盾，影响核心情感逻辑。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "我的儿子在编号409监狱，女儿在橡树庄园。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-1",
+        "contrast_quote": "你绑架自己的嫂子，就为了这点可笑的复仇快感？"
+      },
+      "reason": "审核成立。第2集霍拉肖称艾琳为“女儿”，暗示其为霍拉肖之女；但第33集霍拉肖称艾琳为“嫂子”（暗示艾琳是霍默之妻，霍拉肖是霍默之弟），且第33集霍拉肖又称艾琳为“我的妻子”（“只是不想让你误伤了我的妻子”）。同一角色对同一人物的身份定义在“女儿”、“嫂子”、“妻子”之间剧烈摇摆，且直接驱动了霍默绑架艾琳的动机（复仇/羞辱）及霍拉肖的救援行动，属于核心身份硬性矛盾，定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E004",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "金怀表在第47集被明确遗留在墓地，但在第54、58、60集再次出现在霍拉肖手中并被使用，道具状态断裂。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "只留下那座墓前，那封遗书上的金怀表反射着微弱却坚定的光芒。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-3",
+        "contrast_quote": "霍拉肖抬起另一只手，从大衣内袋中掏出那块金怀表。"
+      },
+      "reason": "审核成立。第47集明确描写霍拉肖将怀表压在遗书上留在墓前，且镜头特写“只留下...金怀表”，暗示其永久留存。然而第54集霍拉肖从怀中掏出怀表，第58集再次掏出，第60集亦出现。关键道具在已明确处置（安葬/遗留）后无回收过程再次出现，属于严重的道具归属与状态矛盾，定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍默在发现霍拉肖设陷阱后，未采取有效追捕措施，反而让霍拉肖轻易逃脱，存在反派降智嫌疑。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-2",
+        "quote": "霍默：（低声，对部下）这不是逃犯的慌乱挣扎。这是陷阱。",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-2",
+        "contrast_quote": "霍拉肖·帕斯福德静静地看着下方的混乱...转身无声地融入了更深的夜色中"
+      },
+      "reason": "审核成立。霍默作为高智商反派，在识破陷阱后仅下令“小心头顶和死角”，未组织有效搜索或封锁出口，导致霍拉肖在众目睽睽下无声消失。虽然可解释为霍默被心理战震慑或部队混乱，但作为关键转折的因果支撑略显薄弱，属于危机解决中依赖反派反应迟钝/降智，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004"
+      ],
+      "status": "rejected",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "战后时间线跳跃与重复，珀西的受伤与康复时间不合理。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "珀西坐在折叠椅上，左腿打着厚重的白色石膏绷带，一直延伸到大腿根部。",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-1",
+        "contrast_quote": "珀西穿着一身洗得发白但洁净的工作服，蹲在三号船台旁。"
+      },
+      "reason": "审核驳回。第42集明确标注“一年后”，第46集珀西在造船厂工作，第50集救孩子，第53集获奖。从第40集（石膏）到第46集（工作）之间跨越了“一年后”的时间节点，且第46集珀西已能蹲下工作，符合骨折康复后的状态。剧本通过“一年后”的时间标记合理解释了康复过程，不存在时间线矛盾或康复时间不合理的问题。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "霍拉肖提前知道霍默会在排水系统中等待，但缺乏合理来源。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "灰隼：你有一件事可以做。绕过主防线，有一条废弃的地下排水系统直通主监狱下方。",
+        "contrast_episode": "第21集",
+        "contrast_scene": "21-1",
+        "contrast_quote": "霍拉肖·帕斯福德（低声自语，声音颤抖）：他在等我。"
+      },
+      "reason": "审核成立。灰隼仅提供地图和路线，未提及霍默会在此设伏。霍拉肖进入排水系统后，仅凭脚印和抓痕就断定“他在等我”，并据此调整策略（放弃主通道走支线）。虽然可推断为霍拉肖的直觉或经验，但作为关键行动依据，缺乏明确的信息来源或逻辑推导过程，属于信息提前泄露或知识来源缺失，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍默的“名单”伏笔未充分回收。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "“霍拉肖，当你看到这封信时，我已无路可退。我没有背叛你，我只是为了保护那份名单……联邦激进派要清洗所有知情者，我必须留下做饵。",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-2",
+        "contrast_quote": "灰隼（冷笑，轻蔑地）：财产？那点钱在战争局势面前不值一提。霍默想要的，是这份账本。"
+      },
+      "reason": "审核成立。第20集和第37集均提及“名单”或“账本”是霍默行动的核心动机，但后文未再提及该名单的具体内容、去向或对主线的影响。虽然霍默死亡后名单可能已无实际威胁，但作为重要伏笔，缺乏明确的回收或交代，影响完整感，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007"
+      ],
+      "status": "rejected",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "珀西的“英雄”事件重复，缺乏新增信息。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-2",
+        "quote": "珀西：（咬着牙，青筋暴起，对汤米大吼）汤米！腿绷直！数到三，用力！一、二、三！",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "珀西（大喊）：绳子！给我绳子！"
+      },
+      "reason": "审核驳回。第46集珀西在造船厂救汤米，展示其技术能力和冷静；第50集珀西在河堤救朱利安，展示其克服心理阴影和公众形象；第53集获奖，第58集剪彩。这些事件虽都涉及“救人/展示能力”，但场景、对象、心理状态和社会意义均不同，且推动了珀西从“逃亡者”到“建设者”的身份转变，不属于缺乏新增信息的重复。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "霍默的死亡与霍拉肖的和解因果链清晰。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "霍默被另一根巨大的橡木梁死死压在身下。那只刚才按下开关的手无力地抽搐了几下，随后彻底归于静止",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "霍拉肖：（极轻，近乎呢喃）安息吧，霍默。"
+      },
+      "reason": "审核成立。霍默死亡（第36集）直接导致霍拉肖发现遗书（第37集），进而引发霍拉肖的和解与释然（第47集、第59集），因果链清晰，前因充分支撑后果，定为A级亮点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E001"
+      ],
+      "status": "rejected",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第24集中，霍拉肖在地下排水井，克里斯蒂在正上方的牢房，两者仅隔一层铁皮盖板，但声音传播逻辑严重违背物理常识。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1 & 24-2",
+        "quote": "霍拉肖：克里斯蒂！... 那声音穿透了厚重的石板，带着诡异的金属质感，像是风声，又像是幻听。",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-1",
+        "contrast_quote": "镜头透过通风管道内部狭窄的缝隙向下俯拍。下方，漆黑的竖井中，霍拉肖正拼命向上攀爬，他的头顶距离克里斯蒂脚底所在的检修口盖板，仅隔着一层薄薄的、布满铁锈的铁皮。"
+      },
+      "reason": "审核驳回。剧本中明确描写声音“穿透厚重的石板”、“带着诡异的金属质感”、“像是风声，又像是幻听”，且克里斯蒂因巡逻队逼近而不敢回应。这种声音失真和微弱是剧本有意为之的戏剧化处理，旨在表现父子错身而过的悲剧性，并非物理逻辑错误。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E002"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第37集场景标题时间标注混乱，导致叙事时间逻辑不清。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "37-1. 乱石滩 深夜 下午 人物：霍拉肖·帕斯福德、克里斯蒂·帕斯福德、艾琳·帕斯福德、珀西·皮尔森",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "审核成立。场景标题同时标注“深夜”和“下午”，且正文描述为“乱石滩 深夜 下午”，这在单一场景内是矛盾的。结合前文第36集塔楼爆炸发生在深夜，此处应为深夜或凌晨，标注“下午”属于明显的文本错误，虽不影响主线理解，但破坏了时空严谨性，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E003"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第15集克里斯蒂对艾琳被转移至“橡树庄园”及“灰鹦鹉”号的信息获取缺乏合理来源。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "克里斯蒂心中警铃大作，艾琳还在哪里？他必须试探。... 珀西（不屑地撇嘴）：那是“战利品”。父亲说那样更有价值，也更安全。具体地点他没透露，但我截获了后勤部的一角文件。接收船的名字叫“灰鹦鹉”。",
+        "contrast_episode": "第28集",
+        "contrast_scene": "28-2",
+        "contrast_quote": "霍拉肖：艾琳不在监狱。霍默把她转移到了那里，作为挑衅联邦军的筹码。"
+      },
+      "reason": "审核成立。克里斯蒂在牢中，仅通过与珀西的有限对话获知“大清洗”和“灰鹦鹉”号。但他随后在内心独白中明确知道“艾琳还在哪里？他必须试探”，并在第28集通过霍拉肖之口确认艾琳在橡树庄园。然而，在第15集他并未从珀西处直接获知艾琳的具体位置，珀西仅提到“带着家属的俘虏”是“战利品”。克里斯蒂如何从“战利品”这一模糊概念精准推断出艾琳的具体去向并以此作为后续行动的核心驱动力，缺乏中间的信息传递或逻辑推导过程，属于信息提前泄露或来源缺失，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第13集霍拉肖在已暴露真实身份的情况下，仍使用虚假身份“范德比尔特”进行贿赂，行为逻辑与情境不符。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-1",
+        "quote": "巡逻队长...：停船！... 我是亚历山大-范德比尔特，这艘船是受莱顿银行委托... 巡逻队长（冷笑）：莱顿银行？... 别逗我了。",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-1",
+        "contrast_quote": "巡逻队长...：...帕斯福德先生——或者该叫你那个刚破产的荷兰商人？"
+      },
+      "reason": "审核成立。在第13集，巡逻队长已直接称呼霍拉肖为“帕斯福德先生”，说明对方已识破其真实身份。然而，霍拉肖在随后的对话中仍坚持自称“亚历山大-范德比尔特”，并以此身份进行贿赂。在对方已知晓其真实身份且处于敌对/审查状态时，继续使用一个无关的虚假身份不仅无效，反而显得愚蠢或刻意混淆，缺乏合理的战术动机，属于行为逻辑的轻微不吻合，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第19集霍拉肖利用酒精溶剂和打火机制造爆炸脱身，但前文未铺垫船上携带高浓度易燃溶剂及打火机作为战术道具。",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-2",
+        "quote": "理查兹踉跄后退，脚后跟重重踢翻身旁一只盖着油污布的金属桶。... 桶内高浓度的酒精清洗溶剂倾泻而出... 霍拉肖另一手中握着的防风打火机“意外”滑落。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "审核成立。霍拉肖在贿赂失败后，突然推倒装有“高浓度酒精清洗溶剂”的桶，并“意外”掉落防风打火机引发爆炸。虽然船上可能有清洁用品，但将其作为预设的脱身武器缺乏前文铺垫。前文主要强调其伪装和贿赂策略，此处突然转为暴力破坏，且道具（大量易燃溶剂）的出现略显突兀，属于危机解决中依赖未充分铺垫的资源，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A014",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "霍默的“H”签名与遗书内容的伏笔回收完整，解释了兄弟反目的真相。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "特写：信纸上几行被破译出的文字清晰可见——“艾琳：莫比尔湾，橡树庄园，H.监督”；“克里斯蒂：联邦监狱，编号409，H.批准”。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "“霍拉肖，当你看到这封信时，我已无路可退。我没有背叛你，我只是为了保护那份名单……联邦激进派要清洗所有知情者，我必须留下做饵。原谅我的疯狂，但我不能看着你和孩子成为政治祭品。恨我吧，带着恨活下去。”"
+      },
+      "reason": "审核成立。第1集霍拉肖发现信纸上的“H.”，第17集克里斯蒂发现图纸上的“H.P.”签名，第37集霍拉肖在霍默手中发现遗书，揭示了霍默并非单纯背叛，而是为了保护名单和家族。这一线索贯穿全剧，最终在结局前完成闭环，逻辑自洽，情感冲击力强，定为A级亮点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A015",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "身份阵营断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "珀西从邦联军官到联邦造船厂工人的身份转变缺乏过渡期的法律/社会逻辑解释。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "霍拉肖：在那里的工牌上，你叫珀西·帕斯福德。只要你不说，没人会问。也没有人会在意。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "珀西·皮尔森身着一套剪裁合体的深灰色西装... 胸前别着一枚金色的“最佳和平利用奖”徽章"
+      },
+      "reason": "审核成立。珀西作为邦联上校之子，参与越狱并杀害/协助杀害邦联士兵，战后直接以“珀西·帕斯福德”身份在联邦造船厂工作，甚至获得“最佳和平利用奖”。虽然剧本强调“名字不重要”，但在战后清算背景下，珀西作为战犯/叛徒之子能如此顺利融入并获得荣誉，缺乏对战争罪责豁免或身份洗白的具体情节支撑，显得过于理想化，逻辑支撑偏弱，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A016",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "霍拉肖在第20集将'一半黄金'交给灰隼，但在第28集计划引爆贝尔维特号时，马尔科姆提到'还有最后五十磅'，且第20集马尔科姆称那是'最后一块家底'，数量与消耗逻辑冲突。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "马尔科姆（惊恐）：那还有最后五十磅？那是最后的金锭，也是我们从查尔斯顿带出来的最后一块家底！",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-2",
+        "contrast_quote": "霍拉肖缓缓解开皮袋，取出包裹严实的沉重金块，重重地砸在桌面上。"
+      },
+      "reason": "审核成立。第20集马尔科姆说'那还有最后五十磅？那是最后的金锭'，霍拉肖随后交给灰隼'一半黄金'。若总共只有50磅，一半即25磅。但第28集霍拉肖计划引爆贝尔维特号，此时船上应无大量黄金（第11集已扔入压载舱，第20集又给了灰隼）。第20集霍拉肖给灰隼的是'包裹严实的沉重金块'，若只剩50磅，给一半后剩25磅，但第28集并未提及船上还有黄金用于配重或交易，且第20集马尔科姆的台词暗示50磅是全部剩余，与'给一半'后的剩余量及后续剧情中黄金的消失/存在状态存在模糊地带。更严重的是，第13集霍拉肖用金锭贿赂巡逻队长，第19集又用金锭贿赂理查兹，第20集又给灰隼一半，黄金来源与存量在多次消耗后是否足够支撑'最后五十磅'的说法存疑，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A017",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "克里斯蒂越狱与霍拉肖救援的时间线存在物理不可能。霍拉肖在第21-24集穿越地下排水系统，第24集在井底呼喊，第26集才从下水道出口出来并设陷阱，第27集才与克里斯蒂汇合。但克里斯蒂在第24集已离开监狱，第25集在港口巷战，第27集在码头等待。霍拉肖从下水道出来（第26集）到码头（第27集）的时间极短，且第24集霍拉肖在井底时，克里斯蒂已在通风管道中，两人垂直距离极近却未汇合，随后霍拉肖独自行动数集才汇合，时间跨度不合理。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "镜头透过通风管道内部狭窄的缝隙向下俯拍。下方，漆黑的竖井中，霍拉肖正拼命向上攀爬，他的头顶距离克里斯蒂脚底所在的检修口盖板，仅隔着一层薄薄的、布满铁锈的铁皮。",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-1",
+        "contrast_quote": "霍拉肖双手死死扣住生锈井盖边缘，肌肉因极度疲惫而剧烈颤抖。他咬紧牙关，用尽最后力气将井盖推开半寸，随即像一条泥鳅般从黑暗中挤了出来"
+      },
+      "reason": "审核成立。第24集霍拉肖在竖井中，克里斯蒂在上方通风管道，盖板闭合。第25集克里斯蒂已逃出监狱进入港口。第26集霍拉肖才从下水道出口出来，此时克里斯蒂已在码头附近。第27集霍拉肖才赶到码头汇合。从第24集到第27集，霍拉肖需要穿越整个地下排水系统、设陷阱、战斗，而克里斯蒂也在同时逃亡。剧本未交代霍拉肖如何从第24集的竖井位置移动到第26集的出口，且第24集两人近在咫尺却因盖板错过，随后霍拉肖独自行动多集，时间线压缩严重，缺乏合理过渡，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A018",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "霍默在第33-34集从冷酷的绑架者突然转变为被克里斯蒂一句话吓破胆的崩溃者，心理转变缺乏足够铺垫。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "霍默：（声音嘶哑，带着哭腔）不……不，他不能……我是为了邦联……",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-1",
+        "contrast_quote": "霍默：（轻声，带着愉悦的颤音）准时。我欣赏你的效率，哥哥。"
+      },
+      "reason": "审核成立。霍默在前文一直表现出极度的自负、冷酷和控制欲。在第33集，他持枪挟持艾琳，态度嚣张。第34集，克里斯蒂仅说了一句'皮尔森会原谅你的失控吗？你只是他棋盘上的一枚弃子'，霍默便瞬间从嚣张转为极度恐慌，甚至出现哭腔。虽然霍默确实有被皮尔森利用的背景，但如此剧烈的心理崩溃仅凭一句话触发，缺乏中间的心理挣扎或更充分的铺垫，显得降智，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A019",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第35集霍默手中的'简易引爆器'来源不明，前文未交代其如何获得或携带。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "霍默的另一只手从桌角抓起一个连着红色导火索的简易引爆器，那是一团杂乱的黑火药，旁边还插着几根未燃的引信。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "审核成立。霍默在第35集突然拿出一个'连着红色导火索的简易引爆器'，声称要炸死所有人。前文未提及霍默携带爆炸物，也未交代其来源。虽然可以推断为霍默预谋，但作为改变主线结果（塔楼爆炸）的关键道具，其出现缺乏铺垫，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A020",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍拉肖与艾琳在船上的和解/启航场景在第48、54、57、58、59、60集多次重复，缺乏新增信息。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "霍拉肖VO：仇恨是锁，宽恕是钥匙。而现在……",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-3",
+        "contrast_quote": "霍拉肖OS（沉稳而深远）：战争会结束，仇恨会消散。唯有爱与记忆，如灯塔般永恒。"
+      },
+      "reason": "审核成立。多个集数中，霍拉肖与艾琳在'夜莺号'上通过对话、动作（如看罗盘、怀表、贝壳）表达和解与启航，场景和情绪高度相似，缺乏新的情节推进或关系变化，造成有效剧情停滞，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A021",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第15集珀西知道'老渔夫送来信件'导致皮尔森上校要搞大清洗，但第14集老渔夫只是插旗和放飞信鸽，未明确送信，且珀西如何得知信件内容存疑。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "珀西：他像个发疯的疯子。自从那个老渔夫送来信件，认定监狱里有内应，他就要搞一次“大清洗”。",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-2",
+        "contrast_quote": "士兵甲动作一顿。他犹豫片刻，放下了铜号，改为抓起桌上的信鸽笼，迅速放飞了一只绑着脚踝的鸽子。"
+      },
+      "reason": "审核成立。第14集老渔夫放飞信鸽，第15集珀西说'自从那个老渔夫送来信件'，暗示信鸽带了信。但第14集未明确信鸽送信，且珀西作为看守，如何得知信件内容并转述给克里斯蒂，缺乏明确过程，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A022",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "珀西从皮尔森之子到克里斯蒂盟友的转变有充分的事件驱动（目睹处决、父亲压迫、与克里斯蒂的互动），因果清晰。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "珀西（声音破碎）：我做不到……我再也不想看那种场面了。父亲不是人，他是怪物。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "审核成立。珀西的转变通过第6集（监视）、第7-8集（共谋开锁）、第16集（目睹处决崩溃）、第17集（偷图纸）等事件层层铺垫，动机（逃离父亲、求生、良知）明确，因果链完整，定为A级亮点。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 24,
+  "covered_count": 24
+}

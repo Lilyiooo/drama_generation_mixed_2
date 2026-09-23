@@ -1,0 +1,184 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体构建了较为完整的因果链条，角色动机（伯莎的赎罪与觉醒、诺米诺埃的仇恨与爱）有迹可循，时空转换基本合理。主要逻辑问题集中在：1. 关键道具（地图、账本、密信）的来源与获取过程存在“知识来源缺失”或“资源消耗矛盾”；2. 部分角色（如萨隆、诺米诺埃）在极端压力下的行为动机（如自杀式冲锋、默许暴行）存在强度不足或性格突变；3. 伏笔（如母亲死因、间谍身份）的回收略显仓促或依赖巧合。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伯莎在酒馆向村民展示伯爵私盐仓地图副本，但该道具来源不明。",
+      "reason": "第6集伯莎掏出“从书房夹缝中带出的半张羊皮纸——那是伯爵私盐仓的地图副本”。前文第2集伯莎逃离书房时仅提到“取出那枚象征家族权力的金印和剩余的金路易”，并未提及获取地图。作为核心情报道具，其获取路径缺失，属于A级证据线索断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第6集",
+        "scene": "6-2",
+        "quote": "伯莎艰难地从怀中掏出那张从书房夹缝中带出的半张羊皮纸——那是伯爵私盐仓的地图副本。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "她迅速爬上书架梯子，从最高处的格子里抽出一个锦盒。撬开盒盖，取出那枚象征家族权力的金印和剩余的金路易，紧紧攥在怀里。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伯莎在集市上通过细微动作识别出皇家密探，其专业侦查能力缺乏铺垫。",
+      "reason": "第9集伯莎通过观察渔贩的手指、礼仪和反应速度断定其为“乌鸦”（密探）。虽然伯莎是贵族，但剧本未交代她受过反间谍训练或具备如此敏锐的战术观察力。前文仅展示其礼仪和逃跑能力，此处突然展现高阶侦查技能，属于A级知识来源缺失。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "伯莎：那是“乌鸦”。快走。",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-2",
+        "contrast_quote": "特写：男人向一位路过的老妇人致意，身体前倾，左手抚胸。虽然刻意做得歪歪扭扭，显得笨拙且滑稽，但他头颈倾斜的角度精准得可怕，完美遵循了宫廷礼仪的规范。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "诺米诺埃在蒂娜死后对伯莎的极端排斥与暴力行为，情感积累略显不足。",
+      "reason": "第17集诺米诺埃因蒂娜之死将伯莎视为“瘟疫”并驱逐。虽然蒂娜之死与伯莎在场有关，但诺米诺埃此前已多次接受伯莎的帮助（如第5集、第13集），且两人有深厚情感基础。从“爱”到“彻骨厌恶”的转折主要依赖蒂娜之死这一单一事件，缺乏更深层的心理铺垫或伯莎在此前是否有重大过失的明确交代，导致动机强度稍显不足，定为A级。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "诺米诺埃（咆哮，声音如野兽）：别碰她！你的手是肮脏的，你的血是肮脏的！",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-2",
+        "contrast_quote": "诺米诺埃将那枚银子弹郑重地装入自己的子弹带，指尖轻轻划过那处粗糙的接缝，动作庄重得如同在举行某种神圣的婚礼。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "伯莎在拉罗克府邸被识破后，仍能携带核心火药样品和物资清单逃脱。",
+      "reason": "第23集伯莎被老管家识破并抓获，第24集她在混乱中逃脱。剧本提到她“从货仓带出的核心火药样品和物资清单”，但在被按跪、搜身、押送的过程中，这些关键道具如何未被搜出并成功带出，过程交代偏薄，属于B级资源消耗/归属矛盾。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "萨隆拆开油布一角，确认火药干燥完好。",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-2",
+        "contrast_quote": "伯莎被两名侍卫粗暴地按跪在冰冷的石板上，双手被反绑。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伯爵谋杀伯莎母亲的真相揭示缺乏前文铺垫。",
+      "reason": "第39集伯莎通过解密母亲密信得知母亲死于伯爵谋杀。前文从未提及伯莎母亲的存在、死因或伯爵与母亲的关系。这一重大真相直接改变了伯莎的行动逻辑（从政治斗争转向个人复仇与揭露），但缺乏足够的伏笔支撑，属于A级揭底无铺垫。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "伯莎（念出解码后的词句，声音干涩）：“药已调包”……“午夜钟声”……“守夜僧侣改换为黑衣死士”。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "（全剧前38集未提及伯莎母亲）"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "诺米诺埃在最终决战中自杀式引爆火药的行为，与其此前“生存优先”的战术风格略有冲突。",
+      "reason": "诺米诺埃在前文多次强调“活着”、“生存”（如第5集、第18集），并在第48集被伯莎劝阻过。但在第49-50集，他选择引爆火药与敌人同归于尽。虽然可以解释为绝望下的疯狂，但与其一贯的冷静战术风格相比，转变略显突兀，属于B级性格动机突变。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "诺米诺埃：我不为布列塔尼而战！我只为埋葬它而战！",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-2",
+        "contrast_quote": "诺米诺埃（低声，声音沙哑）：不扎营。撤到那片枯树丛后面。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E007",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "伯莎从贵族小姐到革命领袖再到政治家的转变，因果链条清晰。",
+      "reason": "剧本通过一系列事件（逃亡、结识诺米诺埃、蒂娜之死、法典失败、被囚禁）层层递进地塑造了伯莎的性格转变。每个阶段的行为都有前因后果，逻辑自洽，属于A级因果链设计。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "伯莎（喃喃自语）：不是为了生存，是为了活着。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "伯莎张了张嘴，没有声音，却清晰地对伯爵做了一个口型：杀了我吧。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E008",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第53集诺米诺埃“还活着”与第50-51集“死亡”的确认存在时间/认知错位。",
+      "reason": "第50-51集萨隆和伯莎都确认诺米诺埃已死（“他没了”、“火药桶里塞满了铁蒺藜”）。第53集诺米诺埃突然出现在洞穴中。虽然萨隆解释是“冲击波卷入岩缝”，但前文对爆炸威力和诺米诺埃伤势的描述（“断骨”、“焦黑”）与第53集他能说话、行动的状态相比，恢复过程过于迅速且缺乏医疗交代，属于B级时间线/状态矛盾。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "诺米诺埃·还活着。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "萨隆：他没了！那些该死的火药桶里塞满了铁钉和石块，没人能活下来！"
+      }
+    }
+  ]
+}

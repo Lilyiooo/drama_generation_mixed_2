@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_2643/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 83.86,
+      "ledger_subdimension_mean": 81.43,
+      "holistic_subdimension_mean": 86.29,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        },
+        "character_state": {
+          "ledger_score": 67.0,
+          "holistic_score": 86.0,
+          "fused_score": 76.5
+        },
+        "knowledge_state": {
+          "ledger_score": 84.0,
+          "holistic_score": 86.0,
+          "fused_score": 85.0
+        },
+        "resource_state": {
+          "ledger_score": 72.0,
+          "holistic_score": 86.0,
+          "fused_score": 79.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 80.0,
+          "holistic_score": 86.0,
+          "fused_score": 83.0
+        },
+        "foreshadowing": {
+          "ledger_score": 91.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.5
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 90.0,
+          "fused_score": 90.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "character_state": {
+          "issues": 4,
+          "highlights": 1,
+          "total": 5
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 84.4,
+      "ledger_subdimension_mean": 88.8,
+      "holistic_subdimension_mean": 80.0,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 88.0,
+          "holistic_score": 82.0,
+          "fused_score": 85.0
+        },
+        "hooks": {
+          "ledger_score": 93.0,
+          "holistic_score": 84.0,
+          "fused_score": 88.5
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 78.0,
+          "fused_score": 84.0
+        },
+        "episode": {
+          "ledger_score": 82.0,
+          "holistic_score": 76.0,
+          "fused_score": 79.0
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 80.0,
+          "fused_score": 85.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 3.33,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如法庭戏、对峙戏）通过新变量（如证据类型、对手反应、亚瑟的伪装状态）形成有效变奏，避免了简单的重复。",
+          "evidence": {
+            "episode": "第18集",
+            "scene": "18-1",
+            "quote": "法官（举起法槌，重重落下）：准了。封存仓库所有权证及底单。并对被告方处以五万法郎的无理异议罚款，以儆效尤。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如亚瑟装疯、霍克斯施压）大多承担不同功能，通过新变量（如从法庭到仓库，从物理封锁到心理博弈）形成有效变奏，推进了剧情。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-3",
+            "quote": "亚瑟（对着破碎的花瓶，声音低沉而沙哑，仿佛来自深渊）：既然你们想看疯子，那我就演给你们看直到把这牢狱砸烂。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "剧本中多次出现“亚瑟装疯/崩溃”以获取信息或脱身的桥段（如第9集仓库、第11集书房、第19集法庭、第22集书房、第26集论坛、第27集洗手间、第31集浴室、第33集主卧），虽然每次具体情境不同，但核心机制（通过表演精神失常来降低对手警惕或制造混乱）高度同质，导致后期观众疲劳，缺乏新鲜感。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "亚瑟：法官？不，是幽灵！... 亚瑟：深夜。三点。海神公司的账户流水像呕吐物一样涌出来..."
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 3.33,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "霍克斯（法律/程序压迫）、维恩（商业/暴力威胁）、弗罗格（内部背叛/执行）代表了不同的资源与压力类型，迫使主角采取不同策略。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-1",
+            "quote": "维恩（冷笑一声）：霍克斯？他在法庭上只会拖泥带水。如果没有了亚瑟这个提线木偶，他就会变成下一个被清算的目标。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：霍克斯代表法律与程序压迫，维恩代表资本与暴力威胁，迫使主角采用不同策略（取证、反制、谈判）。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "亚瑟（冷静）：所以我提议联手。我提供这些证据，让霍克斯在法庭上自爆欺诈，丧失执业资格。作为交换，你撤诉，停止对我的商业围剿。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "主要对手霍克斯、维恩、弗罗格在目标（榨干亚瑟/获利）、手段（法律威胁、资金冻结、舆论抹黑）上高度重叠。霍克斯和维恩之间的冲突（第30集）虽然存在，但更多是利益分配不均，而非价值观或手段的根本差异。弗罗格作为中间人，功能单一，缺乏独立的压迫方式。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-1",
+            "quote": "霍克斯：尼古拉斯，你是在挑战我的耐心！海神那边的资金缺口是三百万... 弗罗格：我的账户已经见底了！..."
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从发现账本到利用账本，再到最终法庭对决，层层递进。",
+          "evidence": {
+            "episode": "第9集",
+            "scene": "9-1",
+            "quote": "亚瑟（声音嘶哑）：这就是对冲……每一天的延期申请，维恩就付一百万的‘咨询手续费’。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从发现账本到利用账本，再到销毁账本换取信任，每一步都压缩了选择空间。",
+          "evidence": {
+            "episode": "第36集",
+            "scene": "36-1",
+            "quote": "亚瑟双手举起厚重的皮革账簿，狠狠塞入碎纸机的进料口。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "场景基本能推动剧情，从被控制到反击再到重建，逻辑链条完整。但部分场景（如多次的法庭戏、多次的宅邸对峙）在情绪和信息增量上存在重复，递进感不够强烈，尤其是中后段，亚瑟的“装疯”场景未能带来显著的局面升级，更多是维持现状。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-2",
+            "quote": "霍克斯（语气诚恳且悲天悯人）：法官大人，被告目前处于极度崩溃的边缘..."
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集即通过银行危机和律师介入，迅速确立了主角的困境和核心矛盾。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "银行经理（冷漠）：合同第十二条，全额担保。您的时代结束了，先生。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集即通过银行危机和公章移交，确立了主角的困境和反派的威胁，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "银行经理（冷漠）：合同第十二条，全额担保。您的时代结束了，先生。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "开篇迅速建立危机（银行冻结、资产被夺），人物目标明确（保住公司/复仇），异常状态（被律师和合伙人背叛）清晰，叙事方向明确，能有效吸引观众。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "银行经理：两小时内补齐五千万保证金，否则启动个人连带清算。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标（取证、反制、联合维恩）和小高潮（论坛爆发、数据窃取）推进，后段完成充分升级与收束。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "亚瑟（手抓着衣领，声音嘶哑却异常清晰）：深夜。三点。海神公司的账户流水像呕吐物一样涌出来，你们没有签合同！只有转账记录！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进（如论坛爆发、维恩结盟），后段完成充分升级与收束（法庭审判、资产追回），节奏张弛有序。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "法官（愤怒地举起右手）：鉴于被告人朱利安·霍克斯涉嫌严重的职务犯罪、洗钱以及妨碍司法公正，证据确凿。我现在代表大英帝国法律，当场宣布逮捕令你！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "中段依靠“装疯”和“取证”推进，节奏尚可，但后期（第43集后）进入重建阶段，节奏明显放缓，冲突减弱，更多是商业谈判和内部改革，缺乏前段的紧张感，高潮（霍克斯被捕）后的余波处理较为平淡。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-1",
+            "quote": "亚瑟：我不需要你们去起诉，我要你们立刻解雇他们。这不是诉讼，这是清洗。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫。从压抑、绝望到愤怒、反击，情绪积累充分，高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "亚瑟（居高临下地俯视他）：为了胜利？不，你只是为了你那填不满的贪婪。现在，你的迷宫塌了。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫。从压抑、愤怒到复仇的快感，再到重建的平静，高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-1",
+            "quote": "亚瑟（冷笑）：那是地狱的迎宾仪式。他终于尝到了被他自己设计的规则吞噬的滋味。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "情绪曲线基本贯穿，从绝望到愤怒再到复仇的快感，最后归于平静。但“装疯”段落的情绪张力在多次重复后有所衰减，复仇高潮（法庭审判）的情绪爆发力受限于前期铺垫的重复性，未能达到极致。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "亚瑟：放屁！用物理货物掩盖资金黑洞，却想在法庭上用虚拟术语混淆视听！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化（悬念、危机、反转），并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第31集",
+            "scene": "31-1",
+            "quote": "前任助理（压低声音）：演一个彻底放弃的疯子。把自己锁在浴室里，割动脉。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化（悬念、危机、情感），并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-3",
+            "quote": "霍克斯OS：亚瑟……你不是疯了，你是把我的后路也烧了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "集末悬念设置基本有效，如“亚瑟发现了什么”、“霍克斯会如何反击”等。但部分悬念（如亚瑟的下一步计划）在揭晓时缺乏足够的意外性，期待感在后期有所减弱。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-3",
+            "quote": "霍克斯OS：亚瑟……你不是疯了，你是把我的后路也烧了。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期铺垫密集，中期行动密集，后期收束平稳。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "技术员：数据碎片化打包完成。契约原件被拆解成了三百万段乱码，掺杂在集装箱的海运温湿度传感器日志里。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期密集建立危机，中期展开反击，后期收束并拓展新视野。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-1",
+            "quote": "亚瑟（大步走向桌前，双手撑桌）：我不需要你们去起诉，我要你们立刻解雇他们。这不是诉讼，这是清洗。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "信息分布基本均衡，前期密集，后期舒缓。但中后段（第30-40集）信息密度较高，涉及多方势力和复杂交易，部分细节（如离岸信托的具体操作）对非专业观众可能略显晦涩。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-1",
+            "quote": "埃莉诺（指着地图上最后一条被切断的虚线）：资金流到了这里就消失了。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水段落。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-1",
+            "quote": "亚瑟（抓起桌上的放大镜，重重压在地图的一块区域上）：如果是诱饵，他就不会把名字起得这么直白。他在炫耀。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水段落。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-2",
+            "quote": "亚瑟OS：维恩和霍克斯终于坐到同一张桌子上了。这一次，我不再是被他们肢解的尸体，我是那个拿着手术刀的人。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主线推进总体有效，无明显注水。但部分场景（如亚瑟与埃莉诺的多次私下对话）在信息增量上有限，可进一步压缩。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-1",
+            "quote": "亚瑟：在很久以前，有个富有的父亲，被一个满口仁义道德的管家骗走了整个家族。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（如玛丽安线、老金线）稳定补充人物、信息、冲突，并在关键节点反哺主线（提供证据、协助逃脱）。",
+          "evidence": {
+            "episode": "第38集",
+            "scene": "38-1",
+            "quote": "亚瑟（指了指她身后的控制台）：交出“海神基金”的原始契约以及霍克斯洗钱的具体证据。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线（如玛丽安线、老金线）稳定补充人物、信息、冲突，并在关键节点反哺主线（提供证据、资金）。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-2",
+            "quote": "埃莉诺（电话音）：亚瑟后窗有直升机信号，五秒后到达窗口。快！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "副线（如玛丽安的故事、老金的协助）基本服务于主线，但在整合上略显生硬，如玛丽安的突然出现和转变缺乏更充分的铺垫。",
+          "evidence": {
+            "episode": "第38集",
+            "scene": "38-1",
+            "quote": "玛丽安（声音尖锐颤抖）：他说过会保护我……他说只要我乖乖听话，那些钱就是给我的养老费！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第49集",
+            "scene": "49-1",
+            "quote": "维恩（缓缓抽出钢笔，笔尖悬在文件上方）：五亿打到你的指定账户，这笔账就一笔勾销？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-1",
+            "quote": "埃莉诺（指着屏幕上滚动的绿色数字）：法庭的裁决书生效了。那套被霍克斯非法抵押的别墅，产权已经变更登记回彭哈利根公司名下。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线清晰，从“被背叛”到“复仇”再到“重建”，阶段目标明确且有效兑现。霍克斯的倒台、维恩的妥协、公司的重生，均符合预期，结构完整。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-1",
+            "quote": "亚瑟：这确实是一堆废墟。但废墟上如果没有石头，我们就用钢筋盖。"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_18579/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 85.07,
+      "ledger_subdimension_mean": 86.14,
+      "holistic_subdimension_mean": 84.0,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 87.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.5
+        },
+        "character_state": {
+          "ledger_score": 82.0,
+          "holistic_score": 84.0,
+          "fused_score": 83.0
+        },
+        "knowledge_state": {
+          "ledger_score": 90.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.0
+        },
+        "resource_state": {
+          "ledger_score": 78.0,
+          "holistic_score": 84.0,
+          "fused_score": 81.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 91.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.5
+        },
+        "foreshadowing": {
+          "ledger_score": 85.0,
+          "holistic_score": 84.0,
+          "fused_score": 84.5
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "resource_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "rules_spacetime": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "foreshadowing": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 80.2,
+      "ledger_subdimension_mean": 88.8,
+      "holistic_subdimension_mean": 71.6,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 100.0,
+          "holistic_score": 74.0,
+          "fused_score": 87.0
+        },
+        "hooks": {
+          "ledger_score": 90.0,
+          "holistic_score": 76.0,
+          "fused_score": 83.0
+        },
+        "plot": {
+          "ledger_score": 86.0,
+          "holistic_score": 68.0,
+          "fused_score": 77.0
+        },
+        "episode": {
+          "ledger_score": 77.0,
+          "holistic_score": 62.0,
+          "fused_score": 69.5
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 78.0,
+          "fused_score": 84.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_dialogue": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "episode_visual": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如越狱、海上逃亡）通过新变量（如珀西的加入、霍默的背叛真相）形成有效变奏，非简单重复。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-1",
+            "quote": "霍拉肖（大喊）：克里斯蒂听我说！走通风管！别停下！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如越狱、海上逃亡）通过新变量（如珀西的加入、霍默的背叛真相）形成有效变奏，非简单重复。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-2",
+            "quote": "克里斯蒂（熟练地划燃火柴，扔向铁盒）。霍默的部下A：小心！他们在那儿！准备射……"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如越狱、海上逃亡）通过新变量（如珀西的加入、霍默的背叛真相）和结果升级（从单纯逃亡到身份反转）形成了有效变奏，避免了简单的重复。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-1",
+            "quote": "霍拉肖（大喊）：克里斯蒂听我说！走通风管！别停下！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "霍默（家族/情感阻力）、皮尔森（制度/暴力阻力）、海关/巡逻队（物理阻力）代表不同压力类型，迫使主角采用不同策略（欺骗、暴力、潜行）。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-1",
+            "quote": "霍拉肖（微笑，递出一根精致的雪茄）：暴发户？也许吧。但黄金永远有它存在的价值，长官，抽烟吗？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "对手体系清晰：皮尔森代表体制暴力，霍默代表家族仇恨与政治野心，海关/巡逻队代表外部封锁。不同对手迫使主角采取不同策略（贿赂、潜行、暴力）。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-1",
+            "quote": "霍拉肖（微笑，递出一根精致的雪茄）：暴发户？也许吧。但黄金永远有它存在的价值，长官，抽烟吗？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "对手体系层级清晰：皮尔森代表僵化的体制暴力，霍默代表扭曲的家族执念，海关/巡逻队代表外部生存压力。不同对手迫使主角采用不同的策略（欺骗、潜入、强攻）。",
+          "evidence": {
+            "episode": "第9集",
+            "scene": "9-1",
+            "quote": "皮尔森上校（冷笑）：霍拉肖？那个躲在后方搞航海的懦夫？别拿你和你哥哥那点陈芝麻烂蒜的家族恩怨来混淆视听。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择增量，顺序具有明显因果。例如从买船到改装，再到逃亡，每一步都压缩了选择空间。",
+          "evidence": {
+            "episode": "第4集",
+            "scene": "4-2",
+            "quote": "霍拉肖：我想让它看起来像个挥霍无度的贵族坟墓。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从改装船到通过封锁线，再到最终决战，层层递进。",
+          "evidence": {
+            "episode": "第19集",
+            "scene": "19-1",
+            "quote": "霍拉肖（突然发力，一脚踹翻溶剂桶）：那就让风带我们走吧。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景（如改装船、越狱、决战）带来了明确的信息、关系和情绪增量，顺序具有强因果性，每一步都压缩了主角的选择空间。",
+          "evidence": {
+            "episode": "第4集",
+            "scene": "4-2",
+            "quote": "霍拉肖：我想让它看起来像个挥霍无度的贵族坟墓。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物（霍拉肖的困境）、情境（家人被囚）、核心问题（夺回家人），叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "霍拉肖：如果他敢动艾琳一根头发，我会亲自送他下地狱。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集即通过怀表和信件建立核心冲突（家人被囚），叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "霍拉肖（拆开夹层，取出信封）：玫瑰……艾琳。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "开篇高效建立了人物（霍拉肖的决绝）、情境（家族危机）和核心问题（救家人），通过“烧毁过去”的行动迅速确立了叙事方向。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "霍拉肖：既然法律保护不了家人，那就让战争来裁决。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主体节奏成立，但第40-50集部分日常场景（如珀西救小孩、霍拉肖买种子）节奏偏慢，蓄力感略弱，但服务于人物弧光。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-1",
+            "quote": "珀西（脱下沾满油污的上衣，大喊）：别慌！都给我让开！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从海上逃亡到堡垒渗透，节奏紧凑。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "克里斯蒂（嘴角微扬，拇指按下）：是上帝在敲门，伙计。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段依靠阶段目标（越狱、潜入）和小高潮（珀西的背叛、霍默的真相）推进，后段完成了充分的情感升级与收束（和解、新生）。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-1",
+            "quote": "霍拉肖（跪在废墟中，将信件死死贴在胸口，发出野兽般的哀嚎）：是我错了！我错杀了对抗黑暗的所有希望！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，从压抑、紧张到爆发（霍默之死），再到释然（结尾），高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-1",
+            "quote": "霍拉肖（跪倒在地，将信件死死贴在胸口，发出野兽般的哀嚎）：是我错了！我错杀了对抗黑暗的所有希望！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。霍默之死的反转和霍拉肖的悔恨是情绪高点。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-1",
+            "quote": "霍拉肖（跪倒在地，将信件死死贴在胸口，发出野兽般的哀嚎）：是我错了！我错杀了对抗黑暗的所有希望！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，从压抑、紧张到爆发（决战），再到释然（结局），关键峰谷有铺垫，高潮兑现了“救赎与宽恕”的情绪承诺。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-1",
+            "quote": "霍拉肖：被碾碎过的秩序，需要血肉来粘合。我不需要再当那个高高在上的贵族老爷，我现在只是个修补匠。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定，类型有变化（悬念、情感、动作），并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "特工：我们想要的是那艘船上的金库，确切地说，是里面的内容。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如珀西的背叛、霍默的阴谋等悬念逐步揭开。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-2",
+            "quote": "珀西OS：单人牢房？那就像把他扔进坟墓！但我必须让他活过今晚。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定，类型有变化（生存悬念、情感悬念、真相悬念），并在合理时点有效兑现，如霍默的遗书在关键时刻揭示了真相。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-1",
+            "quote": "霍拉肖（快速阅读，眉头逐渐纠结，声音带着难以置信）：霍默写……他被迫留下的……？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（逃亡、决战）密度高，结尾阶段密度降低以配合情绪沉淀。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "霍默（暴怒，另一只手高高举起引爆器，声嘶力竭）：三分钟后，整座塔都会塌！谁也别想走！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期铺垫，中期高潮，后期收束，分布合理。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "珀西（将工具包扣紧，指节因用力而泛白）：霍拉肖先生，我以前一直在偷听、在逃跑、在犹豫。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（如海上逃亡、堡垒潜入）有意识地增加了密度，而结局阶段则有意放缓以进行情感沉淀。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-1",
+            "quote": "霍拉肖：后悔？那是懦夫在深夜里的自我折磨。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 3.67,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主线总体推进，但第46-48集部分场景（如珀西与实习生对话）存在可压缩的重复或低增量，但服务于人物成长。",
+          "evidence": {
+            "episode": "第46集",
+            "scene": "46-1",
+            "quote": "珀西：少爷救不了任何人，但这双手，能拧住泄压阀。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-2",
+            "quote": "克里斯蒂（轻笑）：别看我，看海。海不记仇，海只向前。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫（如珀西的心理变化）服务后续结果，几乎没有无功能段落。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-1",
+            "quote": "珀西（剧烈喘息，后退半步）：父亲，这太重了……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（珀西的救赎、克里斯蒂的宽恕）稳定补充人物、主题，并在关键节点（越狱、结尾）反哺主线。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "珀西（握紧手帕，眼神逐渐变得决绝）：我会把守卫引开。克里斯蒂，如果你死了……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。珀西的副线最终成为越狱的关键。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "珀西（从袖中抖出一张泛黄纸卷）：地下掩体的通风井和卫兵换岗路线，刚画的。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线（珀西的觉醒、克里斯蒂的成长）稳定补充人物层次，并在关键节点（越狱、决战）反哺主线，形成互文。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "珀西（握紧手帕，眼神逐渐变得决绝）：我会把守卫引开。克里斯蒂，如果你死了……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力，阶段看点有效兑现（救克里斯蒂、救艾琳、揭露霍默真相）。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-1",
+            "quote": "霍拉肖（快速阅读，眉头逐渐纠结，声音带着难以置信）：霍默写……他被迫留下的……？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从救家人到揭露真相，主线清晰。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-2",
+            "quote": "霍拉肖（死死抓住霍默乱挥的手臂）：命运是由我们掌握的，而不是由你这身该死的理智！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线（救家人）持续产生新目标、新阻力，阶段看点（如烧毁海关、炸毁信号塔）有效兑现，最终改变了局面并产生了新意义（宽恕）。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "克里斯蒂（嘴角微扬，拇指按下）：是上帝在敲门，伙计。"
+          }
+        }
+      ]
+    }
+  ]
+}

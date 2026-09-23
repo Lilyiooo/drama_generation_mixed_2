@@ -1,0 +1,306 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上呈现出明显的“强功能、弱逻辑”特征。主角沈小满与萧烈的人设标签鲜明（泼辣悍妻与隐忍将军），但人物弧光与深度严重依赖外部事件推动，内在动机（如沈小满的身世、萧烈的复仇）在文本中多次出现逻辑断裂与前后矛盾（如第20集与第41集关于身世与解药的重复且冲突的揭示）。配角功能单一，反派（庞氏、国师）塑造扁平，主要作为主角“撒泼”与“武力”的靶子存在。人物关系虽在后期（第42集后）有情感升温，但前期长期停留在利益交换与工具化利用层面，缺乏有机的信任建立过程。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 2,
+      "reason": "全剧大量重复“沈小满撒泼/造谣/演戏”与“萧烈/大熊武力震慑”的桥段。例如第1集、第2集、第10集、第13集、第14集、第21集、第22集、第34集、第36集、第44集、第56集，核心模式均为“沈小满用言语/证据施压+萧烈/大熊武力/身份背书”，缺乏新的变量或关系升级，导致叙事疲劳。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-1",
+        "quote": "沈小满：（深吸一口气，对着铜管高声）各位街坊邻里，且听真！庞氏不仅私通外男，更在将军府库房暗账中转移军饷三万两！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 2,
+      "reason": "主要对手庞氏、赵家、国师/权臣在功能上高度同质，均表现为“贪婪、愚蠢、被主角轻易击溃”。庞氏与赵家公子的对抗方式几乎一致（被沈小满当众揭短/撒泼），国师/权臣虽设定为高智商，但在第45-50集的高潮中，其抵抗主要依赖“摄魂箫”等单一手段，且最终被主角团通过简单的“机关+火油”解决，缺乏差异化压迫。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "国师：萧烈，你赢不了。前朝势力已然复苏，我不过是在掌控局势。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 3,
+      "reason": "场景基本完成叙事任务，从青石镇到京城，从将军府到地宫，空间转换清晰。但部分场景（如第16-18集的商业线）与主线复仇线的递进感不强，更多是平行推进，缺乏对核心人物关系的深度挖掘。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-2",
+        "quote": "沈小满：各位父老乡亲，且看过来！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇第1-2集迅速建立了“落魄将军+泼辣女子”的强反差人设，并通过“买妻”这一核心冲突快速切入主线，节奏紧凑，人物动机（复仇与生存）明确，有效建立了阅读期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "沈小满：（伸出一根手指）我要你买我。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 3,
+      "reason": "中段（第15-30集）商业线与复仇线交织，节奏尚可，但第31-40集的天牢线与地宫线略显拖沓，部分情节（如阿笙偷账本、大熊拆墙）重复使用“声东击西”套路，情绪积累不足。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "大熊：（深吸一口气，肌肉紧绷如铁）放心，我拿捏得住。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 3,
+      "reason": "整体情绪曲线以“爽感”为主，高潮点（如第13集宗祠、第45集阅兵）有爆发力，但低谷期（如第25-27集萧烈毒发）的情感铺垫略显生硬，沈小满的“牺牲”更多是剧情需要而非情感自然流露。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "沈小满：忍住了，这是“血引”，我给你续命！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 3,
+      "reason": "集末悬念设置基本有效（如第20集身世揭秘、第36集萧烈入狱），但部分悬念（如“钥匙”的具体含义）在后续集中反复解释，缺乏新的信息增量，导致期待感衰减。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九：（从袖中抽出一张泛黄羊皮卷）这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "信息分布基本均衡，但“龙脉之血”与“前朝宝藏”的设定在第20集、第29集、第33集、第41集、第49集多次重复揭示，信息冗余度高，影响叙事效率。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "顾九：解药有，但不是凡间的药材。而是你的血。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "第16-18集的商业线（卖粗布）与主线复仇关联较弱，存在一定程度的注水嫌疑，但通过引入黑风煞帮等角色，勉强维持了剧情推进。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "沈小满：大熊，量体要准。这衣服是给军属穿的，不是给官家小姐看的。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 3,
+      "reason": "副线（商业、旧部）基本服务于主线，但整合度不高。例如第58集旧部赵铁柱的回归，对主线（萧烈与沈小满的关系、复仇结局）的推动力有限，更多是情感点缀。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "旧部：（从怀里掏出一张皱巴巴的皇榜，声音发颤）小的不成器，但这几年，小的儿子考上了乡试，成了秀才！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 3,
+      "reason": "主线（复仇+解毒）推进清晰，阶段目标（夺回将军府、扳倒赵家、击败国师）基本兑现，但兑现方式过于依赖主角的“金手指”（撒泼、武力、身世），缺乏对反派有效反制的描写，导致主线张力不足。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "沈小满：那就让这腐朽的皇城，一起埋了你吧！"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角沈小满的内在信念变化缺乏驱动，主要依赖外部事件（如萧烈中毒、身世揭秘）被动改变，缺乏主动选择与不可逆后果。",
+      "reason": "沈小满从“利益交换”到“生死相依”的转变，主要发生在第42集萧烈撕毁密旨后，但此前她多次表现出“利用萧烈”的态度（如第19集“救你，是因为你还有利用价值”），这种转变缺乏足够的铺垫与内在挣扎，显得突兀。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-2",
+        "quote": "沈小满：（抽回手，站起身，恢复了冷淡的模样）别自作多情。救你，是因为你还有利用价值。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-1",
+        "contrast_quote": "沈小满（崩溃大哭，死死抱住萧烈的腰）：那你……你别死……"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角萧烈长期只承担“武力威慑”与“复仇工具”功能，缺乏内在矛盾与脆弱面的戏剧化展现，关键决策始终正确且无需付出代价。",
+      "reason": "萧烈在剧中几乎从未犯错，其“隐忍”与“爆发”均精准服务于剧情需要（如第23集震飞护卫、第45集阅兵大典）。他的痛苦（业火寒）更多是生理设定，而非心理层面的两难选择，缺乏深度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "萧烈（低吼）：滚。△ 一股无形的杀气爆发，震得护卫甲手中兵刃脱手飞出。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "配角大熊、阿笙、顾九功能单一，主要围绕帮助主角或解释信息运转，缺乏个人目标与独立情感价值。",
+      "reason": "大熊仅承担“物理说服”功能，阿笙仅承担“情报收集”功能，顾九仅承担“医疗/解说”功能。他们的台词与行为高度模式化（如大熊的“嘿嘿”、阿笙的“满姐”），缺乏个人弧光。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-1",
+        "quote": "沈小满：他是前朝暗卫统领，杀人如麻，只是不想再沾血，才装疯卖傻。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "反派庞氏、国师动机停留在单一恶意或贪婪，缺乏可追溯的利益、价值或创伤支撑，且后期明显降智。",
+      "reason": "庞氏的“守活寡”人设与“通奸贪墨”行为缺乏心理动机支撑，仅作为主角“撒泼”的靶子。国师在第50集地宫对峙中，其“掌控局势”的台词与最终被主角团轻易击败的结局形成反差，缺乏高智商反派的压迫感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-1",
+        "quote": "庞氏：（歇斯底里）就算有！那又怎样！我是明媒正娶的继室，你们是后到的小字辈！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角与沈小满的关系前期主要靠利益与任务推进，缺乏关键行动、代价和后果证明真正绑定，情感进阶证据少。",
+      "reason": "第1-20集，两人关系主要围绕“买妻”、“解毒”、“复仇”等利益交换，沈小满多次强调“利用价值”（第19集），萧烈也将其视为“刀”（第2集）。直到第26集“血引”事件，才出现情感转折，但此前缺乏足够的信任建立过程。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "萧烈：我说的是你。沈小满（冷笑）：将军好大的口气，你用什么聘我？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系存在身份立场（将军与泼妇）、目标利益（复仇与生存）、情感依赖（解毒与牺牲）等多类张力来源，能够稳定支撑主线。",
+      "reason": "尽管前期情感绑定不足，但“龙脉之血”与“业火寒”的设定将两人命运紧密绑定，形成了强烈的戏剧张力。第42集萧烈撕毁密旨、第45集阅兵大典的默契配合，均体现了这种张力的有效运用。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "沈小满（OS：频率干扰成功，他能保持清醒了。萧烈，接下来交给你，别死。）",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主角沈小满性格基本清晰且部分场景可辨，但专属语言、标志行为或独特决策方式不足，部分台词与同题材模板人物可替换。",
+      "reason": "沈小满的“撒泼”、“精明”标签鲜明，但部分台词（如第10集“精神损失费，一百万两”、第14集“庞氏，你的好戏，彻底杀青了”）与常见“悍妻”或“女强人”模板高度相似，缺乏独特的语言习惯或行为模式。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "沈小满：赖不掉也得赖，精神损失费，一百万两！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色配置合理性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "配角配置基本可读，但局部功能重叠、角色略冗余或分工不够清楚。",
+      "reason": "阿笙与顾九在“情报/解说”功能上存在一定重叠，大熊与萧烈在“武力”功能上高度重叠，导致配角群像缺乏层次感。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第6集",
+        "scene": "6-1",
+        "quote": "阿笙：（指了指还在打瞌睡的隔壁酒客）刚才闲聊时，酒客甲抱怨酒贵，酒客乙叹气米贵。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

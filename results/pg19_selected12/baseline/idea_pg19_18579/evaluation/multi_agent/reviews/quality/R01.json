@@ -1,0 +1,306 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角霍拉肖的弧光完整且极具张力，从绅士到“怪物”再到“修补匠”的转变有充分的事件驱动和代价支撑。配角珀西的觉醒与救赎、克里斯蒂的宽恕之路均逻辑自洽。反派霍默的动机在结尾通过遗书反转，虽略显套路但有效提升了主题深度。人物关系（父子、兄弟、敌对）张力十足，情感绑定紧密。主要问题在于部分台词存在“金句化”和“说明性”倾向，以及中后段部分场景（如珀西的造船厂日常）节奏略显拖沓，但整体人物质量属于S级水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如越狱、海上逃亡）通过新变量（如珀西的加入、霍默的背叛真相）形成有效变奏，非简单重复。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "霍拉肖（大喊）：克里斯蒂听我说！走通风管！别停下！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "霍默（家族/情感阻力）、皮尔森（制度/暴力阻力）、海关/巡逻队（物理阻力）代表不同压力类型，迫使主角采用不同策略（欺骗、暴力、潜行）。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-1",
+        "quote": "霍拉肖（微笑，递出一根精致的雪茄）：暴发户？也许吧。但黄金永远有它存在的价值，长官，抽烟吗？"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择增量，顺序具有明显因果。例如从买船到改装，再到逃亡，每一步都压缩了选择空间。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-2",
+        "quote": "霍拉肖：我想让它看起来像个挥霍无度的贵族坟墓。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物（霍拉肖的困境）、情境（家人被囚）、核心问题（夺回家人），叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "霍拉肖：如果他敢动艾琳一根头发，我会亲自送他下地狱。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 3,
+      "reason": "主体节奏成立，但第40-50集部分日常场景（如珀西救小孩、霍拉肖买种子）节奏偏慢，蓄力感略弱，但服务于人物弧光。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "珀西（脱下沾满油污的上衣，大喊）：别慌！都给我让开！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，从压抑、紧张到爆发（霍默之死），再到释然（结尾），高潮兑现了主要情绪承诺。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "霍拉肖（跪倒在地，将信件死死贴在胸口，发出野兽般的哀嚎）：是我错了！我错杀了对抗黑暗的所有希望！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定，类型有变化（悬念、情感、动作），并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "特工：我们想要的是那艘船上的金库，确切地说，是里面的内容。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段（逃亡、决战）密度高，结尾阶段密度降低以配合情绪沉淀。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "霍默（暴怒，另一只手高高举起引爆器，声嘶力竭）：三分钟后，整座塔都会塌！谁也别想走！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但第46-48集部分场景（如珀西与实习生对话）存在可压缩的重复或低增量，但服务于人物成长。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-1",
+        "quote": "珀西：少爷救不了任何人，但这双手，能拧住泄压阀。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（珀西的救赎、克里斯蒂的宽恕）稳定补充人物、主题，并在关键节点（越狱、结尾）反哺主线。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "珀西（握紧手帕，眼神逐渐变得决绝）：我会把守卫引开。克里斯蒂，如果你死了……"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力，阶段看点有效兑现（救克里斯蒂、救艾琳、揭露霍默真相）。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "霍拉肖（快速阅读，眉头逐渐纠结，声音带着难以置信）：霍默写……他被迫留下的……？"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角霍拉肖的弧光完整，从绅士到怪物再到修补匠，变化由强驱动事件逼出主动选择并产生不可逆后果。",
+      "reason": "起点缺陷（过度依赖秩序/财富），转折1（卖船/烧船，放弃过去），转折2（杀海关主管/杀士兵，道德底线突破），终点变化（接受一无所有，追求自由/爱）。每次变化都有证据支撑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-1",
+        "quote": "霍拉肖（冷漠地）：在战争中，仁慈就是慢性毒药。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-1",
+        "contrast_quote": "霍拉肖：被碾碎过的秩序，需要血肉来粘合。我不需要再当那个高高在上的贵族老爷，我现在只是个修补匠。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾（亲情vs复仇/道德）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "reason": "霍拉肖在救人过程中不断突破道德底线（烧船、杀人），并在结尾通过霍默遗书揭示其“守护者”身份，形成巨大的情感反差和深度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "霍拉肖（眼泪突然涌出，重重砸在信纸上，晕开了墨迹）：为了保护我的情报库……他不惜变成魔鬼……",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-1",
+        "contrast_quote": "霍拉肖（冷漠地）：在战争中，仁慈就是慢性毒药。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角珀西和克里斯蒂功能明确，推动主线，且各自有独立的弧光。",
+      "reason": "珀西从傀儡到觉醒者，克里斯蒂从复仇者到宽恕者，两人不仅服务主线，还丰富了主题层次。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "珀西（握紧手帕，眼神逐渐变得决绝）：我会把守卫引开。克里斯蒂，如果你死了……",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-1",
+        "contrast_quote": "克里斯蒂：复仇很容易，只要扣动扳机。但重建很难，需要一生去缝补。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（霍拉肖-霍默）同时存在身份立场、目标利益、情感依赖、秘密误会和价值冲突等多类张力。",
+      "reason": "兄弟关系从对立到误解再到真相大白，张力贯穿全剧，移除该关系主线情感逻辑坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "霍默（暴怒，双眼充血）：荣耀？你懂什么！是你夺走了我的一切！你拿着家族的财富，站在高处嘲笑我的无能！",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-1",
+        "contrast_quote": "霍拉肖（快速阅读，眉头逐渐纠结，声音带着难以置信）：霍默写……他被迫留下的……？"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（霍拉肖-珀西）有清晰起点、关键里程碑和阶段变化，增强主线情感投入。",
+      "reason": "从利用到信任再到救赎，关系推进构成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-3",
+        "quote": "珀西：所以我只是一枚棋子？",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "珀西（忽然用力拥抱了霍拉肖，双臂僵硬却极度用力）：谢谢您没有把我当作余烬丢弃。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个位置出现工整对仗或金句连发，重场戏口语颗粒明显不足并影响真实感。",
+      "reason": "如“仇恨不能换回黄金，只能让人活得像地狱里的鬼”、“公平是战后用来安慰穷人的药方”等台词过于书面化，缺乏口语的自然停顿和修正。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "霍拉肖（把手搭在儿子僵硬的肩膀上）：公平是战后用来安慰穷人的药方。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "霍拉肖（低头看着儿子，眼神中透着悲凉的智慧）：仇恨不能换回黄金，只能让人活得像地狱里的鬼。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "reason": "如珀西在造船厂的对话中，部分台词直接点明主题（“痛苦是生命的锚点”），略显说教。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "珀西：痛苦是生命的锚点，没有它，船会飘进虚无里。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "局部有可压缩的重复、过渡或低增量集数。",
+      "reason": "第46-48集珀西的日常场景（如与实习生对话、救小孩）虽然服务于人物弧光，但情节推进力较弱，存在注水嫌疑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-1",
+        "quote": "珀西：少爷救不了任何人，但这双手，能拧住泄压阀。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-1",
+        "contrast_quote": "艾琳：风暴可以历练骨骼，贪婪可以磨砺锋芒。我要跟着您，不是为了被保护，是为了成为您的眼睛。"
+      }
+    }
+  ]
+}

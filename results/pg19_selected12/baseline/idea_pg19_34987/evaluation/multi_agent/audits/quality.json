@@ -1,0 +1,317 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伯莎的人物弧光完整，起点（贵族小姐/冷漠）、关键转折（烧印信、蒂娜之死、诺米诺埃之死）与终点（殉道者/思想启蒙）均有强驱动事件支撑，变化不可逆且显著支撑主线情感。",
+      "evidence": {
+        "episode": "第1集, 第12集, 第16集, 第59集",
+        "scene": "1-1, 12-1, 16-1, 59-2",
+        "quote": "伯爵：怜悯？伯莎，怜悯是留给有骨血之人的... / 伯莎：从现在起，伯莎·布卢埃尔内尔已死。 / 蒂娜：拿着这个……替我活下去！ / 伯莎：父亲，您怕的不是我死，是您活。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出主角弧光完整。证据显示：第1集确立起点（冷漠/被物化）；第12集烧印信是主动选择与过去决裂（不可逆）；第16集蒂娜之死导致信念动摇与关系破裂（强驱动）；第59集断头台牺牲完成终点转变。符合S级锚点：起点、至少两个关键转折、终点均有证据，且由强驱动事件逼出主动选择并产生不可逆后果。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伯莎的内在矛盾（贵族身份vs革命理想、理想主义vs现实残酷）在多个关键节点通过两难选择、脆弱暴露和承担后果被充分戏剧化。",
+      "evidence": {
+        "episode": "第12集, 第16集, 第31集, 第49集",
+        "scene": "12-1, 16-1, 31-1, 49-2",
+        "quote": "伯莎：从现在起，伯莎·布卢埃尔内尔已死。 / 伯莎（撕心裂肺）：蒂娜——！！！ / 伯莎：如果我们变成了屠夫，那我们就证明了伯爵是对的。 / 伯莎：你不是革命者，诺米诺埃……你只是个报复的疯子。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均确认人物深度。证据显示：第12集烧印信是身份认同的两难；第16集蒂娜之死暴露脆弱并引发对诺米诺埃的指责（内在冲突外化）；第31集法典争议体现理想与暴力的价值冲突；第49集面对诺米诺埃的极端行为，伯莎的无力感与坚持体现深度。符合S级锚点：内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色（诺米诺埃、萨隆、伯爵、激进派）各有不可替代的专属功能，分工形成有效协作或对冲，推动主线并增加人物层次。",
+      "evidence": {
+        "episode": "第30集, 第31集, 第41集",
+        "scene": "30-1, 31-1, 41-1",
+        "quote": "萨隆：她在用脑子，而你们在用命。 / 激进派军官：公平？小姐，你是睡醒了吗？我们缺的是粮食，不是你的天书！ / 激进派首领：这女人是毒瘤！她的存在让弟兄们畏缩不前。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01和R03评为A级，R02评为S级。审核认为：虽然角色功能明确（诺米诺埃-暴力/仇恨，萨隆-理智/生存，伯爵-制度压迫，激进派-内部极端化），但部分配角（如激进派首领）在后期功能略显单一，主要作为反派工具人出现，缺乏更深层的个人弧光或独立情感价值，未达到S级“持续制造推进力与人物层次”的最高标准。因此纠正为A级。符合A级锚点：主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（伯莎与诺米诺埃）同时存在身份立场、目标利益、情感依赖、秘密误会和价值冲突等多类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第16集, 第20集, 第48集",
+        "scene": "16-2, 20-1, 48-1",
+        "quote": "诺米诺埃：她相信的是你所谓的“救赎”！是你那虚伪的贵族慈悲害死了她！ / 诺米诺埃：共犯……哼。 / 诺米诺埃：逃？萨隆带走的只是我们的烂命。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均评为S级。证据显示：身份立场（贵族vs水手）、目标利益（法典/秩序vs暴力/复仇）、情感依赖（爱恨交织）、秘密误会（蒂娜之死责任）、价值冲突（理想主义vs复仇主义）均存在且相互咬合。该关系是主线情感核心，移除后故事逻辑确实坍塌。符合S级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（伯莎与诺米诺埃）贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑（蒂娜之死、风雪和解、最终牺牲）和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第4集, 第16集, 第18集, 第53集",
+        "scene": "4-1, 16-1, 18-2, 53-1",
+        "quote": "诺米诺埃：大小姐？那个在晚宴上看着农民掉耳朵还要摆姿势的女人？ / 诺米诺埃：我会记住她的。哪怕拼上性命。 / 诺米诺埃：拿着。 / 诺米诺埃：我在火海里……捡到了。我想把它还给你……作为最后的……和解。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均评为S级。证据显示：关系从敌对（第4集）到决裂（第16集）到和解（第18集）到牺牲与传承（第53集），里程碑清晰，因果紧密，护身符作为信物贯穿始终，回收明确。符合S级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伯莎（低声）：清理垃圾……好，那我就做一只咬死主人的畜生。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。第1集通过宴会羞辱和逃亡迅速建立人物（伯莎的反抗意识）、情境（阶级压迫）和核心问题（生存与反抗）。虽然高效，但相比S级“高度经济”和“强后续期待”，A级更为稳妥。符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "公爵代表VO（画外）：那丫头必须消失，彻底消失！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。核心矛盾（伯莎vs伯爵/制度）明确，阻力（追兵、社会压迫）有效，风险（死亡）可感知。后续期待包括生存、复仇、建立新秩序等。符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "蒂娜（突然用尽全力将伯莎向外推开）：伯莎，活下去！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。集间承接自然，如第15集蒂娜之死直接导致第16集关系破裂，悬念兑现有效，情感投入累积。符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词人物辨识度低",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "个别角色台词与人设、身份或情境略有脱节，但未造成整体混同。",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-1",
+        "quote": "村民乙：权利是什么？能嚼不动的烂石头。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为B级。第32集村民台词“权利是什么？能嚼不动的烂石头”略显说教和抽象，与底层农民的直接生存诉求（粮食、复仇）略有脱节，但整体村民群像的粗粝感和愤怒感仍成立，未造成整体混同。符合B级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "伯莎：我在思考政治制度建设。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为B级。第30集伯莎台词“我在思考政治制度建设”略显抽象和说明性，但在与诺米诺埃、萨隆的冲突语境中，服务于表达其理想主义立场，主体仍与人物目标相关。符合B级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "△ 纯金在高温下发出扭曲的悲鸣，黑烟瞬间升腾而起，吞噬了那些繁复的贵族纹章。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。第12集烧印信场景具有强烈的视觉冲击力（纯金扭曲、黑烟吞噬纹章），是可记忆画面，但整体视觉设计在部分场景（如日常对话）中不够突出，符合A级锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E012"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "伯莎：每一笔入项都有记录。伯爵不仅收我们的盐税，他还把布列塔尼多余的羊毛和木材，偷偷转运给邻国的港口。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级。设定（盐税、政治阴谋、法典）随剧情推进逐步释放，如第36集通过账本揭示伯爵勾结外邦，信息量适中，服务于剧情冲突，符合A级锚点。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 22,
+  "covered_count": 22
+}

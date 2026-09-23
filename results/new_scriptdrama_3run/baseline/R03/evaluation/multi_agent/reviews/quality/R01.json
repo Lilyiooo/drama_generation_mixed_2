@@ -1,0 +1,350 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角顾长风与沈晚晴的人物弧光清晰，从利益结盟到生死相托，情感递进自然且充满张力。配角阿四、铁蛋、白叔功能明确，性格鲜明，有效支撑了主线。反派赵氏与赵显的动机与威胁感建立充分，最终结局符合逻辑。在情节规划上，剧本节奏紧凑，桥段设计巧妙（如“鬼魂吓退债主”、“期货收购滞销粮”），情绪曲线起伏有致，高潮与收束有力。台词风格化明显，符合人物身份与情境。视觉化描写基本可拍，但部分心理活动与总结性陈述略显生硬。整体而言，剧本质量较高，具备较强的戏剧吸引力与商业潜力。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段大多承担不同功能，通过新变量、关系变化或结果升级形成有效变奏。例如，多次“下毒/解毒”情节，从最初的寒酥散发作，到接风宴的假死局，再到矿洞的血液解毒，每次都有新的因果和局面变化。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "顾长风（仰头，一饮而尽）：好！痛快！... 顾长风（七窍渗出黑血，身体如抽鞭般扭曲倒向一边）：沈……沈晚晴……我没力……"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手代表不同资源、价值立场与压力类型，迫使主角采用不同策略。赵氏代表后宅与财产，李傲代表商业与朝堂，赵显代表皇权与通敌，副将代表边境军事，阻力层层递进。",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-1",
+        "quote": "李傲：各位请看，这便是极品燕山大燕麦，色泽金黄，颗粒饱满。我李傲愿以一两五钱高价竞投，只求这京郊粮草的承包权！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。从破庙结盟到京城夺权，再到边境决战，场景转换紧密，每一步都推动主线。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "沈晚晴（一把拉住顾长风，娇笑）：哟，我说各位爷，怎么个讲理法？这位可是朝廷诰命亲定的将军，你们就算想查，也得拿出皇商的阵仗来啊！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。第1集通过顾长风的落魄与沈晚晴的泼辣，迅速建立核心冲突与人物关系。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "沈晚晴（叉腰蹲地）：三斗米？我说老头，你睁大眼睛看看，这米是陈年的还是新收的？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从京城夺权到边境决战，节奏紧凑，高潮迭起。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "沈晚晴（从怀中掏出一枚生锈的古铜钱，高举过头）：慢着！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。从压抑到爆发，从绝望到希望，情绪曲线起伏有致。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "沈晚晴（咬破嘴唇，眼中闪过一丝决绝）：厉鬼？顾长风，你听好！你不是孤魂野鬼，你是我的丈夫！你想回不回去？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。每集结尾都留有悬念，如“接风宴”、“黑石矿洞”等，有效驱动叙事。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-2",
+        "quote": "沈晚晴（冷笑）：请君入瓮。他们是要借太子的刀，直接把长风剁碎。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。京城夺权与边境决战部分情节密集，过渡部分节奏舒缓，整体结构合理。",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "太监甲：奉天承运皇帝诏曰，顾长风虽有平乱之能，然私刑诰命，目无尊卑。免去总兵之职，即刻离京，赴北境督粮。钦此！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水情节，每集都有新的目标、阻力或信息。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "沈晚晴（手指轻叩案几，冷笑）：赵显好手段。粮没了，买药干什么？给那帮吃不上饭的士兵续命？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。沈晚晴的身世副线在边境决战中成为关键转折点，有效整合主线。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-3",
+        "quote": "沈晚晴（单膝跪地，直视他的双眼，字字泣血）：我是前朝遗孤沈晚晴，也是你顾长风此生唯一的妻子！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从夺回财产到扳倒赵家，再到边境自治，主线推进清晰有力。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "顾长风（冷笑一声，毫不退让）：臣非嫌赏赐少，是嫌这京城的水太浑，臣一身戾气入不得殿门。再者，边关苦寒，百姓流离失所，臣不愿享此清福。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "顾长风从落魄将军到边境自治者，弧光完整，关键转折由事件驱动。",
+      "reason": "起点缺陷（中毒、落魄）、关键转折（接风宴假死、边境决战）、终点变化（放弃兵权、追求民生）均有证据，变化链条成立。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "顾长风（冷笑一声，毫不退让）：臣非嫌赏赐少，是嫌这京城的水太浑，臣一身戾气入不得殿门。再者，边关苦寒，百姓流离失所，臣不愿享此清福。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "顾长风的内在矛盾（复仇与守护）在多个关键节点被戏剧化。",
+      "reason": "在接风宴、边境决战等关键节点，顾长风的复仇欲望与守护沈晚晴、士兵的责任感形成两难，通过行动与选择展现深度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-3",
+        "quote": "顾长风（盯着那封降书，忽然大笑起来，笑声凄厉）：赵显以为我怕死？我这一条烂命早就悬在剑尖上吊了十年！你想让我投降，做梦！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角阿四、铁蛋、白叔功能明确，性格鲜明，有效支撑主线。",
+      "reason": "阿四负责情报与执行，铁蛋负责武力与侦察，白叔负责医疗与策略，分工清晰，不可替代。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-1",
+        "quote": "阿四（压低声音，顺着山风向上传来）：顾爷，姐，这哨卡的步法很熟，全是赵府精锐，但我在东侧发现了一个排污渠，直通地下控制室。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "顾长风与沈晚晴的关系存在身份立场、目标利益、情感依赖等多重张力。",
+      "reason": "从利益结盟到生死相托，关系推进清晰，张力来源多样，移除该关系会使主线情感逻辑坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-3",
+        "quote": "沈晚晴（单膝跪地，直视他的双眼，字字泣血）：我是前朝遗孤沈晚晴，也是你顾长风此生唯一的妻子！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇高效建立人物、情境与核心问题，信息组织流畅。",
+      "reason": "第1集通过顾长风的落魄与沈晚晴的泼辣，迅速建立核心冲突与人物关系，形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "沈晚晴（叉腰蹲地）：三斗米？我说老头，你睁大眼睛看看，这米是陈年的还是新收的？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，形成稳定后续期待。",
+      "reason": "顾长风夺回财产与兵权的目标清晰，赵氏与赵显的阻力有效，风险（中毒、死亡）可感知，后续期待（接风宴、边境决战）稳定。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-2",
+        "quote": "沈晚晴（冷笑）：请君入瓮。他们是要借太子的刀，直接把长风剁碎。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键边界问题清楚，承接自然，主要悬念和冲突有效兑现。",
+      "reason": "每集结尾都留有悬念，如“接风宴”、“黑石矿洞”等，承接及时，兑现带来新的因果、关系和情绪增量。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "太监甲：奉天承运皇帝诏曰，顾长风虽有平乱之能，然私刑诰命，目无尊卑。免去总兵之职，即刻离京，赴北境督粮。钦此！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定。",
+      "reason": "沈晚晴的泼辣与算计、顾长风的冷峻与深情、阿四的市井与机灵，台词风格稳定，增强角色辨识度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-2",
+        "quote": "沈晚晴（站起身，居高临下）：安稳饭？这新城里的每一块砖，都是汗珠子摔八瓣换来的。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "心理活动或内心独白过多",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分场景使用OS替代可见动作，影响分镜落地。",
+      "reason": "如第1集顾长风的OS“这就是结局吗？十年沙场，竟落得债台高筑、任人宰割的下场。”，虽能表达情绪，但缺乏可见动作支撑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "顾长风（OS）：这就是结局吗？十年沙场，竟落得债台高筑、任人宰割的下场。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定分阶段释放，与剧情高潮或关键行动精准绑定。",
+      "reason": "寒酥散、前朝遗孤、黑石矿洞等设定在关键节点释放，信息量可吸收，推动剧情发展。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-3",
+        "quote": "沈晚晴（单膝跪地，直视他的双眼，字字泣血）：我是前朝遗孤沈晚晴，也是你顾长风此生唯一的妻子！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "拉尔夫在沼泽中“救下”的上尉勋章，其来源逻辑自相矛盾（昏迷中救人），且后续作为关键证据被游击队指控通敌，缺乏合理的转移和保管逻辑。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-2",
+        "quote": "拉尔夫（在梦中发出痛苦的喘息）：别扔下他……他是……是法国人……",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-1",
+        "contrast_quote": "游击队负责人VO：收到了。“外籍间谍携带叛徒证据，私通被处决的上尉”。"
+      },
+      "reason": "合并R01、R02、R03关于勋章来源与归属的指控。第17集拉尔夫处于昏迷/高烧状态，梦中提及救人，但无清醒时的救援过程描写，导致勋章来源（S级：关键道具来源不明/逻辑断裂）成立。第18集该勋章直接成为指控其叛变的铁证，且拉尔夫对此毫不知情或解释牵强，符合S级“关键道具已明确由一方控制，后文无转移过程却由另一方用于推动主线”或“来源解释矛盾”的锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "拉尔夫在第16集遭受严重烧伤和毒气休克昏迷，但在第17集仅经过短暂时间后便恢复行动能力（持枪、说话），缺乏医疗救治或时间跨度的合理说明。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "蒂姆·多伊尔（冲过去按住拉尔夫的额头，脸色惨白）：烧得太烫了！这是毒气引起的休克！...拉尔夫彻底昏死过去。",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-1",
+        "contrast_quote": "拉尔夫（声音嘶哑，惊恐地尖叫）：站住！我是第戎抵抗军，放下武器！"
+      },
+      "reason": "合并R01和R03关于拉尔夫烧伤恢复过快的指控。第16集明确描写“皮肤赤红”、“毒气休克”、“彻底昏死”，属于重伤濒死状态。第17集开头拉尔夫虽仍有幻觉，但已能持枪、尖叫并参与互动，中间缺乏医疗介入或足够的时间跨度说明，符合S级“重伤、濒死...未经治疗...便完全恢复”或A级“恢复过快”的边界。鉴于“毒气休克”通常伴随严重生理损伤，直接恢复行动能力在逻辑上断裂严重，定为S级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "坦普少校在第35集明确被描写为断后并爆炸身亡，但在第37集及后续剧情中，其部队仍受其指挥或影响，且第38集拉尔夫提及“告诉坦普的人”，暗示其影响力持续存在，缺乏合理解释。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "坦普少校（拉开引信，回头看了一眼）：走啊！...巨大的爆炸声从入口炸响，冲击波夹杂着烈焰吞没了通道口。",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-2",
+        "contrast_quote": "拉尔夫：（走出掩体，背影融入黑暗）狩猎。我们要去把开炮的人的头颅拧下来。...告诉坦普的人，今晚没有“炸兵工厂的行动”。"
+      },
+      "reason": "合并R01、R02、R03关于坦普少校生死的指控。第35集坦普少校在修道院断后并爆炸身亡，拉尔夫目睹其死亡。然而第37集拉尔夫成为代理指挥，第38集拉尔夫说“告诉坦普的人”，暗示坦普的部队仍在运作且受其意志影响。虽然可以解释为部队惯性，但剧本未交代坦普死后指挥权的正式移交或部队对坦普之死的反应，导致因果链薄弱。R02和R03声称坦普在37/38集“以活人身份出现”，经核对原文，37-1中坦普并未直接出场，而是拉尔夫在指挥；38-2中拉尔夫提及“坦普的人”。因此，R02/R03关于“坦普复活”的S级指控证据不足（原文无坦普复活描写），但R01指出的“影响力持续存在且缺乏解释”成立。然而，仔细检查第37集原文，37-1中确实没有坦普出场，只有拉尔夫和军官。第38集拉尔夫说“告诉坦普的人”，这在逻辑上可以理解为“坦普的部下”，并不必然意味着坦普活着。但是，R01的claim是“坦普少校在第35集明确死亡...第38集拉尔夫提及‘告诉坦普的人’，暗示其影响力持续存在，缺乏合理解释”。这属于A级“关键转折因果断裂”或B级“因果基本成立，仅有局部跳跃”。但是，R02和R03的claim是“坦普少校...再次出现并指挥作战”，这与原文不符（原文37-1是拉尔夫指挥，38-2是拉尔夫下令）。因此，R02和R03的S级指控因证据错误（幻觉）而被驳回。R01的指控较为温和，指出“缺乏合理解释”，但“告诉坦普的人”在军事语境下通常指“坦普的部队”，并不构成逻辑断裂。因此，该条目整体应标记为rejected，因为核心指控（坦普复活/指挥）与原文不符，且R01的指控过于牵强。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第44集蒂姆死后，拉尔夫身上突然多出一张“指挥部后门结构图”，声称是蒂姆引爆前塞进通风管的，但前文无蒂姆获取该图或塞入过程的铺垫，且拉尔夫在爆炸中幸存并立即获得该图，逻辑牵强。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "珀西（从拉尔夫被撕破的衣领处，掏出一张沾满血水和火药渣的手绘地图，递给拉尔夫）：那是他引爆前塞进通风管的。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01和R02关于地图来源的指控。第44集蒂姆牺牲，地图突然出现在拉尔夫衣领处，解释为“塞进通风管”，但前文无蒂姆获取地图或塞入过程的铺垫。第45集珀西解释为“蒂姆以前打扫通风井时偷偷记下的”，这属于事后补完。该情报直接解决了后续潜入普军指挥部的核心危机，属于A级“来源有模糊铺垫，但获取、转移或保存状态缺少关键支撑”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005"
+      ],
+      "status": "rejected",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "身份阵营断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "蒂姆·多伊尔在第44集明确死亡，但在第45集及后续剧情中，其遗留物品（地图、子弹）被反复使用，且第51集拉尔夫与疤脸交易时提及“蒂姆活着的时候说过”，暗示其死亡未被完全接受或存在逻辑模糊。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "△ 尘土翻滚中，并没有蒂姆的身影，只有无尽的火光和坍塌的岩层吞噬了一切。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-1",
+        "contrast_quote": "拉尔夫（向前逼近一步，声音低沉而充满压迫感）：我们不要猪肉。我要黑市的情报。现在普军正在清洗后方，我需要知道哪条路能绕过他们的“屠村连坐法”。"
+      },
+      "reason": "R01指控蒂姆死亡后逻辑模糊。经核对原文，第44集蒂姆确实死亡。第45集整理遗物逻辑成立。第51集拉尔夫与疤脸交易时，原文并未出现“蒂姆活着的时候说过”这句话，R01引用的证据（51-1）中拉尔夫的台词是“我们不要猪肉...”，与claim不符。因此，该指控基于错误的证据引用，且“蒂姆的遗产持续发挥作用”属于正常叙事手段（纪念/利用遗物），不构成逻辑断裂。故标记为rejected。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "核心规则空降",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第59集珀西使用信鸽传递伪造情报，利用普军“雷达”检测信鸽的设定，前文未铺垫普军拥有此类技术，属于临时规则解决危机。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "珀西：（轻轻解开布囊，指尖熟练地抚弄信鸽的翅膀）风够大了。一旦飞出去，它就会被普鲁士人的雷达当成活物。",
+        "contrast_episode": "第21集",
+        "contrast_scene": "21-1",
+        "contrast_quote": "坦普少校：（逼近一步，压低声音）普军的行动高度依赖这套乡村信鸽和跑腿网络。只要切断这条链，他们就只是一群聋子瞎子。"
+      },
+      "reason": "R01指控普军“雷达”检测信鸽的设定前文未铺垫。第21集仅提及普军依赖信鸽网络，未提及雷达技术。第59集突然提出“雷达”概念，并以此为基础制定陷阱计划，该规则首次出现即用于解决核心危机，缺乏前期世界观铺垫。符合A级“前文仅弱暗示，作用机制、限制、代价或范围不足以支撑后文使用”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第47集揭示法军高层与普军勾结的“傀儡”计划，前文仅有模糊暗示，缺乏具体铺垫，导致反转力度不足。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "珀西（猛地翻过一页厚重的皮革封面，瞳孔骤然收缩）：找到了。代号“傀儡”，这是最高级别的机密，也就是坦普一直怀疑的那个清单。",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-1",
+        "contrast_quote": "坦普少校：（脸色变得紫涨，双手微微颤抖）他们疯了……连我的人都敢清洗？"
+      },
+      "reason": "合并R01和R03关于“傀儡”计划揭底无铺垫的指控。前文多次提及内部叛徒和法军高层的嫌疑（如第8集珀西发现暗号被改，第20集坦普提及巴黎高层清洗），但从未具体铺垫“傀儡”计划的存在或其细节。第47集通过档案室文件直接揭示该计划，虽有一定逻辑基础，但缺乏更具体的伏笔（如特定人物、事件或对话）来支撑这一重大反转，导致揭底过程略显生硬。符合A级“只有少量模糊暗示，不足以支撑反转级别”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E008",
+        "logic-R02-E008",
+        "logic-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "拉尔夫从莽撞冲动到冷酷理性的性格转变，通过多次关键事件（如老杰克之死、老李之死、修女之死）层层铺垫，因果清晰。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-2",
+        "quote": "拉尔夫（抹去脸上的血污，眼神中最后一丝犹豫与温情在火焰的映谢下彻底消散，变得冷酷如冰）：在这里，同情心是奢侈品。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-2",
+        "contrast_quote": "拉尔夫：（双眼充血，理智断线，猛地探头出灌木）住手！！"
+      },
+      "reason": "合并R01、R02、R03关于拉尔夫性格转变的亮点。剧本通过一系列死亡事件和背叛经历，逐步塑造拉尔夫的性格转变。每次事件都对其心理产生冲击，并推动其采取更极端或更冷静的行动。例如，第3集老杰克之死导致拉尔夫被质疑，第7集老李之死导致兄弟关系紧张，第57集修女之死导致拉尔夫彻底黑化。这些事件之间的因果链较为严密，支撑了角色弧光的完成。符合A级“主要转折因果清晰，前因充分支撑后果”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E003"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第24集拉尔夫通过检查站时，依靠检查官“没收到换岗通知”的失误和拉尔夫的挑衅成功过关，属于依靠反派降智/失误化解危机。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "普军检查官：（愣了一瞬，随即眼神闪烁不定）等等……是“钉子”吧？……该死的换岗表……我都还没收到通知……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指控第24集检查站过关依靠反派降智。原文中检查官确实因“没收到换岗通知”而放行，且拉尔夫的挑衅加剧了检查官的慌乱。这属于B级“核心危机依靠未铺垫的新规则、新能力、新证据、天降救援或反派降智化解并改变主线”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第50集珀西准确预测普军重炮将在十分钟后覆盖高坡，并指出撤退路线是直线靶子，但前文未交代其如何获取普军炮击计划或进行如此精确的弹道计算，属于知识来源缺失。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "珀西：（猛地抬头，眼神锐利如刀，死死盯着副官）胡话？如果不按这个点位部署，普军的重炮将在十分钟后覆盖这片高坡。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指控珀西的预测缺乏知识来源。原文中珀西突然提出精确的炮击时间和路线分析，前文未交代其如何获取普军炮击计划或进行弹道计算。这属于A级“角色依靠未交代来源的专业知识、隐秘情报或技能完成关键判断与行动”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "剧本中多次出现“拉尔夫/珀西通过检查站/关卡”的情节，且模式高度相似（出示证件/威胁/利用对方弱点），如第24集、第42集、第53集，造成有效剧情停滞。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "拉尔夫：（深吸一口气，脑海中闪过蒂姆的警告，嘴角闪过一丝不易察觉的轻蔑）今天的早班，可不是那种傻瓜都能记住的词。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-2",
+        "contrast_quote": "拉尔夫：（停下脚步，轻蔑地扫了一眼哨兵，嘴角勾起一丝残忍的笑）封锁？我是来检查封锁线有没有漏洞的。"
+      },
+      "reason": "R02指控检查站情节重复。第24集、第42集、第53集均出现通过检查站的情节，且模式相似（利用证件/威胁/对方弱点）。虽然每次的具体情境和结果略有不同，但核心信息和结果（成功过关）相同，且占据多个节点，造成有效剧情停滞。符合A级“两个重要事件重复，或一个重要事件被多次复述；虽有少量措辞、场景或反应差异，核心信息和结果仍相同”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "后果无回响",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第57集修女为掩护兄弟俩牺牲，但后续剧情中（58-60集）对其牺牲的社会、组织或主线格局反应较弱，仅作为情感转折点，未对游击队或法军产生实质性影响。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "修女（在烈火前的剪影中平静地回头，声音穿透火光）：活下去……替我记着……",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-1",
+        "contrast_quote": "拉尔夫：（声音沙哑而冰冷）都看清楚了。这不是游戏，也不是为了向坦普那个死鬼交代。这是普军指挥部的后门结构图。"
+      },
+      "reason": "R02指控修女牺牲后回响较弱。第57集修女牺牲，但第58-60集中，其牺牲主要作为拉尔夫性格转变的情感触发点，未对游击队或法军产生实质性的社会、组织或主线格局影响。符合B级“回响偏弱，但不影响主线理解”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "拉尔夫声称从哨兵口袋搜出地图，但该地图在后续多次行动中反复出现且内容未变，缺乏合理转移与更新逻辑。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "是我在突围时，从那个哨兵口袋里搜出来的。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-1",
+        "contrast_quote": "坦普少校：（从腰间抽出一张沾满泥污、血迹斑斑的地图，轻蔑地扔在拉尔夫脚边的泥水里）"
+      },
+      "reason": "R03指控地图归属混乱。第2集坦普给过地图，第5集拉尔夫称从哨兵口袋搜出地图，第13集又用地图换情报，第20集坦普又拿出新地图。同一张地图在不同集数中承担不同功能且无明确来源变更，属于关键道具归属混乱。符合S级“关键道具、证据、武器或权限已明确由一方控制，后文无转移过程却由另一方用于推动主线”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A014",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "rejected",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "蒂姆·多伊尔在第44集明确死亡，但在第45集及后续多集中再次出现并参与行动，无复活解释。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "△ 尘土翻滚中，并没有蒂姆的身影，只有无尽的火光和坍塌的岩层吞噬了一切。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-1",
+        "contrast_quote": "疤脸：（独眼微眯，身体紧绷，手缓缓摸向腰间的匕首）英国佬，你们手里拿的可是能炸掉半个第戎的炸弹。"
+      },
+      "reason": "R03指控蒂姆复活。经核对原文，第44集蒂姆死亡，第45集整理遗物，第51集拉尔夫与疤脸交易，蒂姆并未出场。R03引用的证据（51-1）中并无蒂姆出场，claim与证据不符。因此，该指控基于错误的证据引用，标记为rejected。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A015",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第8集发现的石板暗号被篡改伏笔，后续未充分回收，仅作为内部叛徒的暗示。",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-3",
+        "quote": "珀西（将那一小团带字的蜡块捏在指尖，眼神变得冰冷而锐利）：不。说明有人篡改了原本的指令。原来的字母不是“C”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03指控石板暗号伏笔未充分回收。第8集珀西发现石板暗号被篡改，暗示内部有叛徒，但后续未明确揭示谁篡改及具体影响，伏笔回收不充分。符合B级“次要伏笔回收不足，只影响完整感”。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 24,
+  "covered_count": 24
+}

@@ -1,0 +1,438 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角迪克通过“木工/结构”这一核心意象，构建了极具辨识度的行为模式与语言风格，其人物弧光（从冷酷的生存机器到重建秩序与信任的领袖）逻辑严密且情感饱满。配角罗杰与梅休的弧光清晰，与主角形成了有效的张力与互补。反派拉斯克尔虽戏份有限，但动机与压迫感明确。主要问题在于部分配角（如科瓦）在后期功能化倾向明显，以及个别场景（如法庭戏）的台词存在轻微的“说明性”和“过度打磨”痕迹，但整体人物质量显著高于常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如迪克用凿子/结构知识解决危机）大多承担不同功能，通过新变量（如从救人到修复图腾，再到破坏火炮）形成有效变奏，避免了机械重复。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-2",
+        "quote": "一个复杂的、带有倒钩设计的‘燕尾榫’雏形逐渐显现。这不仅需要极高的精度，更需要对木材纹理走向的绝对掌控。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（苏族、雇佣兵、拉斯克尔）代表不同资源与压力类型，迫使主角采用不同策略（如用技艺换取苏族信任，用结构破坏对抗火力）。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "我不需要炸毁它，只需要让它“站不稳”。找准那个销钉，那是它的脚踝。断其足，则其自倾。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从黄石求生到苏族营地，再到贸易站决战，每一步都压缩了人物选择空间。",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-1",
+        "quote": "迪克瞳孔微缩。他看着科瓦那毫无波澜的背影，心中最后一丝对“盟友”的幻想彻底粉碎。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过信使死亡和地契丢失迅速建立危机，第2集通过迪克的冷静与罗杰的冲动确立人物关系。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "迪克：（捡起戒指，指节发白）贾斯珀……跑了吗？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。恶魔之谷的生存考验和贸易站的决战节奏紧凑。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "罗杰僵住。他低头看向手中的石片，又看向那头受伤的鹿。独吞是生路，但那是野狗的食物；遵循规则是死路，但那是人的尊严。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。梅休之死和迪克的血印契约是强烈的情绪高点。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-2",
+        "quote": "梅休浑身冰冷，双眼因失血过多而涣散，但他用尽最后一点力气，抬起沾满鲜血的手，狠狠推在迪克的胸口，将他推开。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。地契的寻找、罗杰的成长、梅休的背叛与牺牲等悬念相互咬合。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "迪克突然上前一步，速度快得让梅休来不及反应。他猛地伸出手，一把扯下了梅休胸前的皮套。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。黄石求生阶段密度适中，贸易站决战阶段密度高，符合戏剧规律。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "轰——！一声震耳欲聋的巨响撕裂晨雾。然而，预想中的流星并未划出天际。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。没有明显的无功能段落。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "迪克：下面有空腔。水脉还在，只是被压住了。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。苏族线不仅提供援助，还通过图腾修复和最终审判深化了主题。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "科瓦：力量不在于砸碎，而在于懂得何时放手。你证明了，白人的手也能听懂大地的语言。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从寻找地契到揭露真相，主线推进清晰有力。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "法官：阿姆斯特朗家族拥有完整土地所有权。即日起，对弗朗索瓦·拉斯克尔发布全域通缉。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角迪克具有极高的辨识度，其“木工/结构”的行为模式和冷峻的语言风格贯穿全剧，无法被其他角色替换。",
+      "reason": "迪克在多个关键场景中通过木工凿子、结构力学知识（如敲击听音、榫卯修复）解决问题，语言简洁冷硬，与罗杰的冲动、梅休的敏感形成鲜明对比。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "迪克：木头不会撒谎，罗杰。只要找到共振点，就能找到空心处。而地下牢房，通常是最大的空心处。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "迪克的人物弧光完整且深刻，从冷酷的生存机器转变为重建秩序与信任的领袖，变化由强驱动事件逼出并产生不可逆后果。",
+      "reason": "起点是迪克对罗杰的冷酷（第30集），转折是梅休之死（第43集）和苏族图腾修复（第14集），终点是迪克用血印契约和重建社区（第60集）。每次变化都有明确的事件驱动和后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "迪克（冷笑）：在这个谷里，姓氏毫无价值。只有猎物有价值。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "迪克：根基需互锁。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "迪克的内在矛盾（冷酷与人性、生存与道德）在多个关键节点被充分戏剧化，提高了人物真实感。",
+      "reason": "迪克在恶魔之谷对罗杰的冷酷（第30集）与在苏族营地对老战俘的救助（第33集）形成强烈对比，梅休之死（第43集）更是让他面临情感崩溃的边缘，最终通过血印契约（第56集）将个人命运与证据绑定，展现了极深的内在冲突。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "迪克（声音低沉而冰冷）：现在，这上面写的是我的血。你想拿走，就得连我的手一起砍下来。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作。",
+      "reason": "罗杰代表冲动与成长，梅休代表敏感与牺牲，科瓦代表外部力量与道德审视，贾斯珀代表真相与救赎。每个角色都在主线中发挥了关键作用。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "罗杰发出一声嘶吼，扔掉了藏在夹层的猎弩。他没有冲向武器，而是冲向图腾柱底部那个正在滑移的巨大木质杠杆结构。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "科瓦在后期功能化倾向明显，主要作为外部力量和道德审视者出现，个人目标和mini弧光不足。",
+      "reason": "科瓦在苏族营地修复图腾后，其角色功能逐渐简化为提供援助和最终审判，缺乏更深层的个人动机或情感变化。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "科瓦：力量不在于砸碎，而在于懂得何时放手。你证明了，白人的手也能听懂大地的语言。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "迪克与罗杰的关系同时存在身份立场、目标利益、情感依赖等多类张力，移除该关系会使主线情感逻辑坍塌。",
+      "reason": "迪克与罗杰的关系从雇佣（第1集）到冲突（第30集）再到生死与共（第15集、第46集），张力来源丰富且相互咬合，是主线情感的核心。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "迪克没有说话，只是伸出满是木屑和松脂的双手，一把抓住罗杰满是鲜血的手腕，用力将他从地上拉起。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "迪克与梅休的关系贯穿全剧，有清晰起终点和多个关键里程碑，关系推进本身构成连续叙事动力。",
+      "reason": "从雇佣（第2集）到信任（第5集）到背叛（第28集）再到牺牲（第43集），关系推进因果紧密，回收明确，是主线情感的重要支柱。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-2",
+        "quote": "梅休发出一声撕心裂肺的嘶吼，不顾一切地扑向迪克，用肩膀猛力撞击迪克的背部，将迪克向前推去。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景建立核心人物、异常情境和戏剧问题，信息清晰，形成强后续期待。",
+      "reason": "第1集通过信使死亡和地契丢失迅速建立危机，第2集通过迪克的冷静与罗杰的冲动确立人物关系，开篇节奏紧凑，吸引力强。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "迪克：（捡起戒指，指节发白）贾斯珀……跑了吗？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "地契的寻找、罗杰的成长、梅休的背叛等矛盾相互咬合，风险（死亡、失去土地）明确，后续期待稳定。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "迪克：贾斯珀在黄石。我要人，你要命。跟紧我，你就不用再面对那群法国混蛋。这不叫雇佣，这叫共生。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键边界持续由人物选择、局面变化或高价值信息自然产生期待；承接及时，兑现带来新的因果、关系和情绪增量。",
+      "reason": "集末问题（如罗杰闯入恶魔之喉、梅休的背叛）在下一集得到相称推进，兑现带来新的局面和情绪增量，连续叙事驱动力强。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "罗杰：麻烦？你连自己的表亲都照顾不好，还谈什么麻烦？迪克，你教不了我怎么走，你自己都路痴。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E011",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分场景（如法庭戏）存在轻微的说明性表达，角色交流功能略有削弱。",
+      "reason": "在法庭戏中，迪克和拉斯克尔的对话有时过于直接地解释剧情和主题，缺乏更自然的口语颗粒。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "迪克（声音低沉而冰冷）：现在，这上面写的是我的血。你想拿走，就得连我的手一起砍下来。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E012",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分重场戏台词存在过度打磨痕迹，读感接近书面警句串联。",
+      "reason": "迪克和拉斯克尔的对峙台词工整对仗，缺乏停顿、重复和自我修正，真实感略有不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "迪克（声音低沉，如凿击木头般笃定）：你的契约建立在掠夺之上。而我的，建立在重建之上。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E013",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有明确的视觉设计意识和可记忆画面，如血印契约、图腾修复等。",
+      "reason": "血印契约（第56集）和图腾修复（第14集）等场景具有强烈的视觉冲击力，色彩、道具和动作构图组合有效。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "特写镜头：鲜红的血液与滚烫的蜡油在古老粗糙的羊皮纸纹理中交融、渗透。血液渗入纤维，蜡油凝固边缘，形成了一道惊心动魄的、带有强烈生物印记的红色封印。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E014",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "黄石的环境设定（如恶魔之喉、硫磺洼地）分阶段释放，与剧情高潮和关键行动精准绑定，信息量始终可吸收。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "梅休：他……他闯入了“恶魔之喉”地带。那是连印第安人都不敢涉足的地方……据说……连风都带着毒素。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

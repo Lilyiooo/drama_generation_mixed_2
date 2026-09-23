@@ -1,0 +1,262 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上呈现出强烈的“功能化”与“标签化”特征。主角苏半夏与陆离的设定极具反差，但人物弧光主要依赖外部事件（如失忆、解毒）推动，内在信念的转变缺乏足够的心理铺垫。配角（骗神、医神等）功能单一，主要作为主角的“工具人”或“解说员”存在，缺乏独立的情感逻辑。人物关系在前期建立迅速，但中后期因剧情节奏过快（如失忆、商盟建立）导致情感积累不足，部分关系推进显得突兀。整体而言，人物辨识度较高，但深度与弧光的完整性存在明显短板。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 2,
+      "reason": "剧本中多次出现“苏半夏撒泼/舆论战”与“陆离武力/解毒”的重复模式。例如第9集、第10集、第33集、第44集均使用类似的“当众揭露/撒泼”桥段，且解决方式高度同质化（靠舆论或武力压制），缺乏新的变量或升级。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "苏半夏（顺势滚地，扬起灰尘）：大家看看！这就是她伪善的面具！还我将军府！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 3,
+      "reason": "对手从继母（内部/道德）到债主（经济）再到王爷/天罗（政治/武力），层级有所递进，但具体压迫方式多为“威胁+武力”，差异化主要体现在身份上，手段上缺乏足够的独特性。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "公主（冷哼一声，居高临下）：陆离，交出你的兵权。否则，满朝文武谁敢保你？"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 3,
+      "reason": "场景基本完成叙事任务，但部分场景（如第55集、第58集）在主线冲突未完全解决时突然转向日常或商业扩张，递进感在情感高潮后出现断裂。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "陆离：这花枝长得太乱，剪了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇通过“肉铺撒泼”迅速建立苏半夏的人设，并通过“契约”快速绑定陆离，核心问题（还债/解毒/夺权）建立高效，吸引力强。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 2,
+      "reason": "中后段（第40集后）节奏过快，从复仇到失忆、再到商盟建立，情绪曲线出现断层。第53集陆离失忆后，前文积累的仇恨情绪被强行重置，导致后续情感爆发缺乏基础。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 3,
+      "reason": "目标情绪（爽感/复仇/温情）基本贯穿，但“失忆”这一转折导致情绪基调从“复仇爽剧”突然转为“治愈甜宠”，缺乏平滑过渡，部分高潮（如第52集救人）的情绪铺垫略显不足。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "苏半夏：（猛地转身，将陆离死死护在身后，眼神中透着一股疯狂的血色）要血？给啊！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 3,
+      "reason": "集末悬念设置较多，但部分悬念（如天罗身世）在后期被“失忆”和“和解”消解，期待兑现的力度减弱，连续驱动力在中后期有所分散。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "医神：（叹一口气）组织早已隐退多年。但这件信物，足以说明您和骗神、武神、我，甚至智囊，我们都背负着同一个姓氏，同一个宿命的因果。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "前期信息密度高（设定、人物关系），中后期情节量分布不均，部分集数（如第55-58集）情节量偏少，主要依靠对话和日常填充。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "苏半夏（接过会长递来的令牌，随手抛起又接住，清脆的金属撞击声让所有人一颤）：很好。只要你们听话，这京城最大的肉，我苏半夏带你们一块吃。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但第55-57集存在明显的“注水”嫌疑，通过日常互动和重复的“打脸”桥段延缓主线（王爷/天罗）的最终解决。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-1",
+        "quote": "继母（轻摇团扇，眼中闪过一丝阴狠）：哎呀，这将军府的摆局，倒是比那戏台上的唱念做打还热闹，就是少了些正室夫人的母仪之气。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 3,
+      "reason": "副线（如骗神的身世、苏半夏的天罗背景）基本有功能，但在后期与主线的整合略显生硬，主要通过“信物”和“对话”揭示，缺乏行动上的深度联动。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "苏半夏：（擦去眼泪，眼神从迷茫瞬间变得如刀锋般锐利）她不让我用天罗的身份杀人。那我就用苏半夏的身份，把天罗连根拔起。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 3,
+      "reason": "主线（还债/解毒/复仇）基本清楚，阶段目标大多成立，但“解毒”和“复仇”的最终兑现方式（失忆/和解）略显平淡，缺乏足够的戏剧张力。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "陆离（低头看着自己的双手，掌心那股常年不散的阴冷终于消失）：我好像……能感觉到阳光的温度了。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角苏半夏的内在信念变化缺乏足够的驱动事件，主要依赖外部处境（如陆离失忆）改变行为模式。",
+      "reason": "苏半夏从“复仇/生存”到“守护/日常”的转变，主要发生在陆离失忆后（第53集起），缺乏内在心理挣扎的铺垫。她的“狠”与“柔”的切换有时显得突兀，未充分展现内在信念的冲突与整合。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "苏半夏（死死攥着陆离的衣袖，指节发白）：忘了也好。忘了那些脏东西，说不定能活得长久点。",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "苏半夏：（拿起桌上的令牌和长命锁，紧紧攥在掌心）既然他们是冲着这个来的，那我就带着这个，杀回去。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离的内在矛盾（毒/血/身份）虽有展现，但缺乏两难选择的深度戏剧化。",
+      "reason": "陆离的“毒”设定主要作为剧情工具（杀人/救人/解毒），其内在的恐惧与自我厌恶虽有台词表达，但缺乏通过具体两难选择（如牺牲他人或自我毁灭）来深度展现的场面。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-3",
+        "quote": "陆离：（绝望地闭上眼）你养我十年，我让你陪葬。不如我现在划了，落得个清净。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "配角（骗神、医神、武神）功能单一，主要作为主角的“工具人”或“解说员”，缺乏个人目标与情感立场。",
+      "reason": "骗神主要负责搞笑和情报，医神负责医疗和设定解释，武神负责武力。他们在剧情中缺乏独立的动机和成长，可替换性较高。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "医神：（冷笑，银针瞬间扎入婆子手腕）怕？怕就对了。这汤里加了“透骨草”，没病的人喝了提神，有病的人喝了解锁。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "苏半夏与陆离的情感绑定在前期依赖利益（契约），中后期虽有心意，但缺乏关键行动与代价证明深层绑定。",
+      "reason": "两人的关系推进较快，从“雇佣”到“夫妻”再到“失忆后的守护”，情感积累略显不足。部分关键节点（如第52集救人）虽有牺牲，但更多是剧情需要，缺乏长期的情感铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "苏半夏：（猛地转身，将陆离死死护在身后，眼神中透着一股疯狂的血色）要血？给啊！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏的语言风格与行为模式极具辨识度，形成强烈的角色标签。",
+      "reason": "苏半夏的“撒泼”、“商业头脑”与“狠辣”形成鲜明对比，其台词（如“撒泼美学”、“商业艺术”）和行为（如滚地、算账）具有高度可辨识性，有效支撑了角色形象。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "苏半夏（冷声道）：只要她敢露头，我就拧断她的脖子。这才是真正的撒泼美学。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏与陆离的关系存在“利益/情感”与“毒/解药”的双重张力，支撑主线情感。",
+      "reason": "两人的关系不仅基于契约，还基于“毒”与“解药”的生理绑定，以及“复仇”与“守护”的情感冲突，形成了多层次的张力来源。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "苏半夏（眼神坚定如铁，语气不容置疑）：你是我的夫君，这命早就绑在一起了。你要自救，我就陪你救；你要杀人，我就给你递刀。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

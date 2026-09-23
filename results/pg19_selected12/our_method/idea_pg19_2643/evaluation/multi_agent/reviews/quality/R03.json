@@ -1,0 +1,240 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角亚瑟·彭哈利根的人物弧光完整且深刻，从被动的受害者到主动的复仇者，再到理性的重建者，其内在信念的转变有充分的事件驱动和代价支撑。配角与反派（霍克斯、维恩、埃莉诺）功能明确，动机清晰，与主角形成了有效的张力与对冲。人物关系（尤其是亚瑟与埃莉诺）从疏离到同盟的演进逻辑严密，情感绑定通过具体行动（如传递情报、共同策划）得以确立。整体人物质量显著高于常规商业剧本水平，具备强烈的戏剧张力和情感共鸣。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如亚瑟伪装疯癫、传递信息）大多承担不同功能，通过新变量（如从纸片到集装箱数据）形成有效变奏，避免了简单的重复。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "把每一段代码打散，混进未来十二小时内离港的三百个集装箱的温度波动记录里。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手代表不同资源与压力类型：霍克斯代表法律与程序压迫，维恩代表资本与暴力威胁，迫使主角采用不同的应对策略（伪装、谈判、技术反击）。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "如果三十天内，我没看到亚瑟·彭哈利根破产的新闻登上头版，这份录音和相关的通讯记录，就会出现在联邦调查局的收件箱里。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从法庭受辱到仓库发现账本，再到论坛反击，每一步都压缩了主角的选择空间并扩大了后果。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "这不是巧合，这是处刑书。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过账户冻结和印章被夺，迅速确立了主角的困境和反派的威胁，叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "现在，您公司账户的可用余额是——零。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进（如获取证据、论坛反击），后段完成充分升级与收束（法庭定罪、商业重建），节奏张弛有序。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "本庭下令，立即逮捕朱利安·霍克斯。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫。从绝望（第1-6集）到隐忍（第7-19集）到反击（第20-42集）到重建（第43-60集），高潮兑现了主要情绪承诺。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-2",
+        "quote": "你的口袋……有声音。叮叮咚咚……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化。法律战、商业战、情感线相互咬合，并在合理时点有效兑现，如霍克斯被捕、维恩妥协等。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-2",
+        "quote": "密码是……维恩企业成立的日期，倒序。这是我全部能给的。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。前期密集建立危机，中期铺垫反击，后期收束并开启新阶段，信息密度与戏剧阶段匹配。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "这意味着，霍克斯不仅在利用法律漏洞，还在利用情感的破裂。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。例如第12集埃莉诺的转变，为后续合作奠定了基础，并非无功能段落。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "如果你死了，我就烧掉这房子，连灰都不剩。如果你赢了……分我一半。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（如玛丽安线、维恩线）稳定补充人物、信息、冲突，并在关键节点反哺主线。玛丽安提供的信托契约成为法庭定罪的关键证据。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "我要提交这份文件。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从保公司到复仇再到重建，每次兑现都改变了局面。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "这些钱，已经回到我们的账户！这意味着什么？意味着公司不仅活着，而且活得比任何时候都要强劲！"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角亚瑟·彭哈利根具有完整且深刻的人物弧光，从被动受害者转变为主动复仇者，最终成为理性重建者。",
+      "reason": "起点缺陷（依赖法律、被动）明确；至少两个关键转折（第9集发现账本、第26集论坛反击）均有强驱动事件逼出主动选择并产生不可逆后果；终点变化（第43集起）显著支撑主线情感，符合S级锚点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "真相赤裸裸地摆在眼前。这不是商业竞争，这是一场精心策划的抢劫。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-2",
+        "contrast_quote": "清理废墟，是为了重建。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "reason": "亚瑟在复仇与道德、生存与尊严之间面临持续两难（如第36集销毁账簿、第43集丢弃弗罗格硬盘）；脆弱面（如第25集被注射镇静剂后的痛苦）和犯错代价（如第13集被迫签署股权转移）共同提高人物真实感，符合S级锚点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "赌徒不赌命，只赌心跳。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "他也是泥潭。霍克斯进去了，弗罗格死了。这些东西是赃物，是脏钱流的痕迹。拿起来，你的手就洗不净了。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "reason": "霍克斯（法律压迫）、维恩（资本威胁）、埃莉诺（内部同盟/情报）、弗罗格（中间人/背叛）功能明确并推动主线；反派威胁稳定，群像分配合理，符合A级锚点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "我的耐心，和我的现金流一样，已经见底了。",
+        "contrast_episode": "第12集",
+        "contrast_scene": "12-2",
+        "contrast_quote": "我一直在算账。你以为我在保护那个家，其实我在保护剩下的筹码。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（亚瑟与埃莉诺）存在至少两类明确张力来源，能够稳定支撑主线。",
+      "reason": "亚瑟与埃莉诺的关系同时存在情感依赖（夫妻）与目标利益（复仇/生存）的张力，移除该关系会使主线情感逻辑明显坍塌，符合A级锚点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "对外，我还是那个随时会崩溃的废物。对你，我是你的合伙人。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-2",
+        "contrast_quote": "你是真的变了一个人，亚瑟。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个关键里程碑和明确回收。",
+      "reason": "亚瑟与埃莉诺的关系从疏离（第2集）到同盟（第12集）再到重建（第53集），有清晰起点、关键里程碑（第12集结盟、第25集共同策划）和阶段变化，能够增强主线情感投入，符合A级锚点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "你把我们的家，毫无保留地交到了一个唯利是图的律师手里。那不是保护，那是自杀。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-2",
+        "contrast_quote": "不，我只是找回了自己。走吧，咖啡凉了，再去续一杯。"
+      }
+    }
+  ]
+}

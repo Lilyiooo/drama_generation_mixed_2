@@ -1,0 +1,289 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "工业强酸瓶从马克西米娜手中转移到米格尔手中的过程存在物理空间与时间线矛盾，且来源交代不清。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-2",
+        "quote": "她深吸一口气，强压下胸腔中翻涌的杀意。手腕一转，迅速将强酸瓶塞入宽大外套深处的内袋，随即整理好衣领，遮住所有痕迹。……她拉开门，外面走廊的冷风灌入……门再次关上。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-2",
+        "contrast_quote": "马克西米娜从枕头下摸出一个用厚布紧紧包裹的圆柱体。她解开布条，露出一个深色玻璃瓶。"
+      },
+      "reason": "合并R01、R02、R03关于强酸瓶归属与转移的指控。R01指出第23集马克西米娜将强酸瓶塞入外套内袋并离开公寓，而第36集她从枕头下摸出强酸瓶交给米格尔，两处证据在道具物理位置与角色行为上存在直接冲突（若带走则无法在枕头下，若未带走则第23集行为无意义）。R02和R03也指出了转移过程的模糊性。该问题属于关键道具（复仇核心工具）的归属与转移过程缺失或矛盾，影响后续高潮动作的物理支撑，符合A级“重要资源发生转移，但缺少交接、盗取、赠予或夺取过程”或“归属顺序略跳跃”的定义，鉴于直接冲突，定为A级合理。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "米格尔在第28集超市中试图用失效凭证购买面粉并抱走的行为，动机与当前生存状态及认知不符，且后续处理突兀。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "米格尔（声音沙哑，近乎乞求）：这是……这是之前的特许凭证。我只是买点吃的，给孩子和……",
+        "contrast_episode": "第27集",
+        "contrast_scene": "27-2",
+        "contrast_quote": "米格尔：我愿意……自愿降低我的声誉等级。以我之名，谢罪。"
+      },
+      "reason": "合并R01和R02关于米格尔超市行为的指控。米格尔在第27集已公开自降等级至5级，信用破产，第28集仍试图使用失效凭证并抱走未付款面粉，行为逻辑跳跃，缺乏合理的绝望本能或系统漏洞解释，且面粉在后续剧情中消失。该问题属于角色在极端高压下的行为缺乏足够的心理过渡或动机支撑，符合B级“动机可推断，但缺少触发情绪或决策过程，需要观众自行补全”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "米格尔在废弃档案馆成功上传萨瓦德拉罪证的过程缺乏技术可行性支撑，属于天降证据式解决危机。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "他发现了一处矛盾：屏幕上显示的萨瓦德拉空壳公司资金流向，与手中一份被篡改的税务报表签名不符。……屏幕上的文档字数飞速攀升，标题赫然写着：《贵族特权的阴影：萨瓦德拉犯罪网络全景》。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-1",
+        "contrast_quote": "萨瓦德拉：我知道你在想什么。你觉得你在乞求施舍，不，米格尔，这是等价交换。……那份情报足以让阿尔法出版社的董事会瞬间破产，数千人失业。但对你来说，它只是一串数据。"
+      },
+      "reason": "R01指出米格尔作为前编辑而非黑客，在信用破产、被通缉状态下，使用旧式设备突破萨瓦德拉严密监控并上传核心罪证，缺乏技术路径和信息来源交代。前文强调萨瓦德拉数据加密高级，此处突然成功，属于关键转折因果断裂，符合A级“有触发因，但机制、资源、人物选择或信息来源支撑明显不足”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "声誉系统在结尾处的失效缺乏合理解释，导致世界观规则自毁。",
+      "evidence": {
+        "episode": "第57集",
+        "scene": "57-2",
+        "quote": "老鼠（压低声音，剧烈喘息）：滚！立刻滚！……老鼠飞快地从货架下扫出三袋过期面包和一小包营养膏，扔到老陈怀里。……老鼠看着手中扭曲的芯片，嘴角勾起一丝嗜血的冷笑。他手指飞速在终端上敲击，将音频文件切片，加密，标记为“.WTF”格式，上传至底层匿名网络节点。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "老汤姆：他没了。从系统里，从记忆里，都没了。为了你自己，别再找他。"
+      },
+      "reason": "合并R01和R02关于声誉系统失效的指控。前文强调系统绝对监控、即时清除（如门多萨被删除），结尾处米格尔通过物理破坏和上传数据成功让真相在底层网络传播，系统未能有效阻止，缺乏对“为何此时失效”的合理解释。该问题属于规则边界模糊，符合B级“规则表达不清，使边界情况产生理解障碍，但未形成明确违反”的定义，因为系统可能因混乱而暂时失效，但未明确说明。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R02-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "关系突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "胡莉亚在第34集突然解除与米格尔的亲属关系，情感过渡不足。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-2",
+        "quote": "胡莉亚：（机械般地重复，声音冰冷）检测到单方强制解除申请。因关联方债务违约及信誉污染，无需对方确认。是否继续？……她毫不犹豫地按下了红色的“确认”键。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-2",
+        "contrast_quote": "胡莉亚：（尖叫，带着哭腔却更似愤怒）哦！天哪……是他！"
+      },
+      "reason": "合并R01和R02关于胡莉亚解除亲属关系的指控。胡莉亚从第33集的厌恶到第34集的彻底切割，缺乏足够的情感积累或事件驱动，转变过于仓促。该问题属于关系突变，符合B级“变化可推断，但情绪过渡偏弱或表达偏薄”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "马克西米娜的“尊严”主题与强酸瓶的伏笔回收紧密，增强了悲剧色彩。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "米格尔低头看着手心。那两个稚拙却沉重的字：尊严。……他将瓶子紧紧攥在手中，贴在最贴近心脏的内袋里。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "屏幕上的数据流不断刷新，直到最后定格在一行字：尊严源于内心。"
+      },
+      "reason": "合并R01和R03关于强酸瓶与尊严主题伏笔回收的亮点。第23集马克西米娜留下强酸瓶，第36集交给米格尔并写下“尊严”，第55集米格尔使用强酸瓶复仇，最终定格“尊严源于内心”，形成完整闭环，逻辑自洽且情感冲击力强。符合A级“主要转折因果清晰，前因充分支撑后果”的亮点定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007",
+        "logic-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "米格尔的堕落过程层层铺垫，因果严密。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "米格尔：（低声）我是编辑，不是奴隶。我拒绝。……萨瓦德拉的代表（轻笑一声，毫无波澜）：如您所愿。冻结程序，启动。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-1",
+        "contrast_quote": "萨瓦德拉：那份情报足以让阿尔法出版社的董事会瞬间破产，数千人失业。但对你来说，它只是一串数据。用别人的毁灭，买你妻子的命。很划算，不是吗？"
+      },
+      "reason": "合并R01和R02关于米格尔堕落因果链的亮点。从担保门多萨到负债、被迫签署协议、写黑稿、出卖情报，每一步均有明确的外部压力和内部心理变化，因果链清晰，无跳跃。符合A级“主要转折因果清晰，前因充分支撑后果”的亮点定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E002"
+      ],
+      "status": "rejected",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "米格尔在第55集已明确死亡，但第53集却出现他搬运马克西米娜遗体的情节，时间线与生命状态存在严重矛盾。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "米格尔将马克西米娜打横抱起，转身走向门口。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "枪口火光骤亮，画面瞬间陷入漆黑。"
+      },
+      "reason": "R03指控米格尔在第55集死亡，但第53集搬运遗体，存在时间线矛盾。然而，剧本中第52集米格尔被枪击后画面黑屏，第53集他出现在医院搬运遗体，第55集自焚死亡。集数顺序为52->53->55，米格尔在第53集时并未死亡，第55集才死亡，因此不存在“已死亡角色后续参与剧情”的S级生命状态断裂。R03可能混淆了集数顺序或剧情时间线，该指控不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "门多萨在第47集突然对米格尔使用高压电击器，缺乏前置动机铺垫，行为突兀。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "他的右手迅速探入雨衣内侧，掏出了一把改装过的高压电击器。那黑洞洞的枪口，直指米格尔的心脏。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "老汤姆：他没了。从系统里，从记忆里，都没了。为了你自己，别再找他。"
+      },
+      "reason": "R03指出门多萨作为“被删除者”持有高压电击器且能轻易使用，缺乏对其生存状态与武器来源的铺垫。虽然可推断为自保，但门多萨此前被系统删除，其生存状态和武器来源未交代，导致行为突兀。该问题属于关键转折因果断裂，符合A级“有触发因，但机制、资源、人物选择或信息来源支撑明显不足”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "萨瓦德拉在第30集突然出现在医院外，并精准掌握米格尔的困境与阿尔法出版社情报，缺乏前置铺垫。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "萨瓦德拉：我知道你在想什么。你觉得你在乞求施舍，不，米格尔，这是等价交换。",
+        "contrast_episode": "第29集",
+        "contrast_scene": "29-2",
+        "contrast_quote": "米格尔口袋里的旧式通讯器微弱地闪烁了一下幽蓝的光，那是黑市频道唯一的信号。"
+      },
+      "reason": "R03指出萨瓦德拉此前主要通过管家或全息通讯出现，第30集他直接通过旧式通讯器联系米格尔，并出示阿尔法出版社证据，显示其对米格尔行踪与心理的精准把控，但前文未交代其监控手段或情报来源。该问题属于信息提前泄露，符合B级“来源交代偏薄，但前后文可拼合或很快补充”的定义，因为萨瓦德拉作为反派，其监控能力可推断，但具体手段未明确。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "米格尔在第54集从医院迅速抵达市中心广场钟楼，位移速度过快，缺乏合理交通方式交代。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "米格尔蜷缩在集装箱阴影中……他缓缓走出阴影，步伐僵硬。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-2",
+        "contrast_quote": "米格尔转身面向浴室门外漆黑的客厅，背影挺直如刀锋。"
+      },
+      "reason": "R03指出米格尔从城市边缘公寓到市中心广场的距离，在深夜且系统混乱的情况下，缺乏明确的交通或移动时间交代。该问题属于空间位移矛盾，符合B级“位移偏快或路线交代不足，但仍在合理推断范围”的定义，因为系统混乱可能提供移动机会，但未明确说明。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 18,
+  "covered_count": 18
+}

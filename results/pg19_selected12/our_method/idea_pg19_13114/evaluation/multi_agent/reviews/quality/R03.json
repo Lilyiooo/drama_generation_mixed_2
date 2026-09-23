@@ -1,0 +1,372 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角伊莱亚斯的人物弧光完整且深刻，从傲慢的鉴定师到被胁迫的共犯，再到最终觉醒并反击，其内在信念的崩塌与重建均有强事件驱动。配角克拉拉和反派朱利安塑造立体，功能明确，与主角形成了强烈的戏剧张力。人物关系（尤其是伊莱亚斯与克拉拉、朱利安）的演进是主线情感的核心动力。在情节规划上，桥段设计紧凑，情绪节奏张弛有度，主线推进清晰，副线（克拉拉的调查）与主线（伊莱亚斯的困境）有效整合。台词风格化明显，符合人物身份与情境。视觉化描写具有强烈的电影感，名场面设计出色。整体质量显著高于同题材常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如签字、威胁、发现真相）大多承担不同功能，通过新变量（如从职业威胁到家庭威胁，再到法律威胁）形成有效变奏。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-2",
+        "quote": "他拿起桌上的钢笔，笔尖悬在文件名上。停顿一秒。墨水洇开，他写下了自己的名字：“Elias Thorne”。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（朱利安、维克多、董事会）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（如面对朱利安是恐惧与顺从，面对维克多是冷漠与利用）。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "伊莱亚斯（冷笑一声，向前逼近半步，声音轻如耳语）：你以为你在掌舵？维克多，朱利安早就备好了你的档案。你不是在等待救援，你是在等待被献祭。别逼我成为那个点燃引信的人。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "手指落下。探针笔尖精准地刺入木纹缝隙的阴影中，利用角度的折射隐藏了金属光泽。沙沙。极其细微的声音，被窗外吹过的风声和空调的低鸣完美掩盖。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯·索恩（喃喃自语）：如果……如果是环境因素导致的氧化异常呢？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-1",
+        "quote": "一道鲜红、凝实的激光束瞬间穿过舞台弥漫的尘埃，无视了画作正面华丽的色彩与构图，径直穿透画框底部的缝隙，死死钉在背板那处显眼的十字划痕上。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "克拉拉站在那里，双手紧握成拳，指节发白。她看着伊莱亚斯，没有逃跑，也没有慌乱地喊叫。她的眼神中没有责备，只有深不见底的悲伤与坚定的守候。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "“三天。”这两个字如同重锤，狠狠砸在伊莱亚斯的太阳穴上。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "他的手指在虚拟键盘上飞速敲击，代码如瀑布般滚落。他在寻找防火墙的盲区，试图绕过局域网，建立一条通往外部数据库的加密隧道。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "马库斯：（摘下眼镜，揉了揉眉心，语气变得冷硬）我们需要物理证据。数字记录可以被删除、被篡改、被掩盖。但物理痕迹不会说谎。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "克拉拉：（颤抖着按下快门，连拍三张）找到了。伊莱亚斯，我找到了。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "伊莱亚斯（转身，直视斯特拉，目光如刀）：这是CMYK四色印刷的半调网点（Halftone Dots）。这种精度，只有在二十一世纪的高分辨率喷墨打印机上才能做到。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伊莱亚斯的人物弧光完整且深刻，起点缺陷（傲慢、贪婪）、关键转折（发现真相、被胁迫、觉醒）和终点变化（放弃权威、重建诚实）均有强证据支持。",
+      "reason": "起点缺陷或信念、至少两个关键转折和终点变化均有证据；每次变化都由强驱动事件逼出主动选择并产生不可逆后果，显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-2",
+        "quote": "他写道：“诚实是建立长期信任的唯一捷径。提供材料清单，解释创作意图，甚至公开成本结构。在信息透明的时代，‘神秘感’往往是中间商牟利的工具，而‘透明’才是艺术家最坚固的护甲。”",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伊莱亚斯·索恩（语气恢复自信，甚至带着一丝傲慢）：看见了吗？光线才是最好的显影剂。在正确的温度下，真相才会显现。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角伊莱亚斯的内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "reason": "内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "如果砸了终端，朱利安会认为他在销毁关键证据，或者在进行毁灭性的报复。朱利安会以此为借口，立刻对克拉拉采取更极端的措施。那笔巨额离岸信托里的钱，足够克拉拉在监狱里度过余生，或者... 更糟。保护她。哪怕是以背叛自己的方式。",
+        "contrast_episode": "第12集",
+        "contrast_scene": "12-2",
+        "contrast_quote": "他选中那行记录，按下删除键。键盘敲击声在寂静的房间里被无限放大。他在新的一栏中快速输入代码：`MAINT-SRV-2024`。备注修改为：常规维护费用（年度服务器升级）。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "角色层级清晰、重要角色各有不可替代的专属功能，分工形成有效协作或对冲；配角、反派和群像持续制造推进力与人物层次。",
+      "reason": "角色层级清晰、重要角色各有不可替代的专属功能，分工形成有效协作或对冲；配角、反派和群像持续制造推进力与人物层次。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "马库斯：（摘下眼镜，揉了揉眉心，语气变得冷硬）我们需要物理证据。数字记录可以被删除、被篡改、被掩盖。但物理痕迹不会说谎。如果那幅画的背面有结构性的伪造痕迹，比如拼接、修补，或者……某种人为的标记。那是无法被防火墙阻挡的铁证。",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-1",
+        "contrast_quote": "克拉拉从包里掏出一台屏幕碎裂的备用手机。她快速操作，登录了一个未绑定真实姓名的临时邮箱账号。她调出云端备份中一张模糊的截图：那是伊莱亚斯醉酒后扔在桌角的匿名信附件，光谱分析图上显示着刺眼的红色警示线。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（伊莱亚斯与克拉拉、朱利安）同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-2",
+        "quote": "克拉拉（眼神逐渐冷却，恐惧褪去，取而代之的是深沉的失望）：原来这就是你所谓的“大局”。在你的大局里，没有道德，只有输赢。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-2",
+        "contrast_quote": "朱利安（OS）：你以为她在救人？不，她在被问询。警方认为她是你的财务联络人，是你洗钱网络的关键节点。因为你的“不配合”，他们冻结了她的所有资产，并准备将她移交国际刑警。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "克拉拉：这能帮我争取到两周的缓冲期。谢谢。伊莱亚斯点点头，嘴角极其轻微地抽动了一下，那不是笑，而是一种如释重负的松弛。",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-1",
+        "contrast_quote": "克拉拉（冷漠）：索恩先生，您的表演昨晚已经很精彩了。至于安保，那是警察的事，不是妻子的责任。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "reason": "以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯·索恩（喃喃自语）：如果……如果是环境因素导致的氧化异常呢？他拧动了旋钮。灯光由刺眼的冷白光（5600K）逐渐过渡到柔和的暖黄光（3200K）。在暖黄的包裹下，那道诡异的平滑感隐去了，裂纹显得更加深邃、古老，仿佛岁月自然的吻痕。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "目标、核心阻力、风险代价和首次局面变化高度清楚，多条后续期待相互咬合并持续驱动叙事。",
+      "reason": "目标、核心阻力、风险代价和首次局面变化高度清楚，多条后续期待相互咬合并持续驱动叙事。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "朱利安·维恩（打断，声音骤然压低）：完美不是真相的副产品，伊莱亚斯。完美是共识。朱利安忽然注意到伊莱亚斯左手边手机屏幕亮了一下，上面显示着银行发来的“余额不足”警告。朱利安嘴角的笑意加深，带着一种捕食者的怜悯。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "关键边界持续由人物选择、局面变化或高价值信息自然产生期待；承接及时，兑现带来新的因果、关系和情绪增量，形成稳定递进。",
+      "reason": "关键边界持续由人物选择、局面变化或高价值信息自然产生期待；承接及时，兑现带来新的因果、关系和情绪增量，形成稳定递进。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "董事会秘书（OS）：伊莱亚斯博士，紧急变更。由于社交媒体热度超出预期，赞助商和全球媒体强烈要求，揭幕仪式提前至三天后的下午两点。地点不变，直播通道已就绪。请确认最终鉴定报告已在昨晚提交。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E009",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "reason": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-2",
+        "quote": "伊莱亚斯：这是大局，克拉拉。有些真相是有毒的，一旦释放，就会杀死我们所有人。在这个层级，诚实是一种奢侈品，而生存是义务。",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-1",
+        "contrast_quote": "克拉拉：（对着衣领处的微型麦克风，气声）阿德里安，信号怎么样？"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E010",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "有明确的色彩、道具、空间或动作构图组合，并以完整可拍描写在关键场景形成高度可辨识的视觉组织。",
+      "reason": "有明确的色彩、道具、空间或动作构图组合，并以完整可拍描写在关键场景形成高度可辨识的视觉组织。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-1",
+        "quote": "一道鲜红、凝实的激光束瞬间穿过舞台弥漫的尘埃，无视了画作正面华丽的色彩与构图，径直穿透画框底部的缝隙，死死钉在背板那处显眼的十字划痕上。红点周围粗糙的伪造笔触在红光照射下无所遁形。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E011",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "他按下开关，一束幽蓝的紫外光在空气中划出一道轨迹。光束首先扫过画布边缘的基底，那是典型的19世纪亚麻布与动物胶混合层，在UV灯下呈现出暗淡、均匀的棕黄色荧光，符合年代特征。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

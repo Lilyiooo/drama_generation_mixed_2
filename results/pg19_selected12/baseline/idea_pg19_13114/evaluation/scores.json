@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_13114/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 63.71,
+      "ledger_subdimension_mean": 86.0,
+      "holistic_subdimension_mean": 41.43,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 87.0,
+          "holistic_score": 40.0,
+          "fused_score": 63.5
+        },
+        "character_state": {
+          "ledger_score": 86.0,
+          "holistic_score": 60.0,
+          "fused_score": 73.0
+        },
+        "knowledge_state": {
+          "ledger_score": 90.0,
+          "holistic_score": 50.0,
+          "fused_score": 70.0
+        },
+        "resource_state": {
+          "ledger_score": 78.0,
+          "holistic_score": 30.0,
+          "fused_score": 54.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 90.0,
+          "holistic_score": 40.0,
+          "fused_score": 65.0
+        },
+        "foreshadowing": {
+          "ledger_score": 91.0,
+          "holistic_score": 50.0,
+          "fused_score": 70.5
+        },
+        "repetition": {
+          "ledger_score": 80.0,
+          "holistic_score": 20.0,
+          "fused_score": 50.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "knowledge_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "resource_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "rules_spacetime": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 78.2,
+      "ledger_subdimension_mean": 84.8,
+      "holistic_subdimension_mean": 71.6,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 96.0,
+          "holistic_score": 78.0,
+          "fused_score": 87.0
+        },
+        "hooks": {
+          "ledger_score": 89.0,
+          "holistic_score": 72.0,
+          "fused_score": 80.5
+        },
+        "plot": {
+          "ledger_score": 72.0,
+          "holistic_score": 65.0,
+          "fused_score": 68.5
+        },
+        "episode": {
+          "ledger_score": 76.0,
+          "holistic_score": 68.0,
+          "fused_score": 72.0
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 75.0,
+          "fused_score": 83.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "plot_scenes": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_emotion": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_structure": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "episode_dialogue": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "episode_visual": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "第41-47集与第53-54集反复出现“伊莱亚斯在直播中试图揭露真相但被朱利安压制/最终揭露”的情节，且多次使用“激光笔指向瑕疵”这一相同动作，缺乏新的变量或升级，属于结构性重复。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-1",
+            "quote": "伊莱亚斯（机械地按键）：滋滋。△ 一道细瘦苍白的红点突兀地亮起，刺破了画布上的宁静。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "剧本中存在多次“签字/胁迫”场景（第10、14、15、18、19、26、27、28集），虽然每次签字的内容和背景略有不同，但“朱利安威胁-伊莱亚斯颤抖-被迫签字”的模式复用较多，导致中后段部分情节推进感减弱，存在一定程度的结构性重复。",
+          "evidence": {
+            "episode": "第14集",
+            "scene": "14-2",
+            "quote": "伊莱亚斯（笔尖再次落下，这一次没有任何拖泥带水，一笔成型）：这就是我的墓志铭。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "中后段（25-40集）大量重复“朱利安威胁-伊莱亚斯签字/崩溃”的桥段，仅替换威胁内容（如克拉拉、维克多、监控），缺乏新的变量或局面升级，导致叙事停滞。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "朱利安：我在等你做一个理智的成年人。伊莱亚斯（颤抖着伸出手，指尖触碰到冰冷的笔杆）：这就是我的卖身契吗？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "朱利安（操控/心理压迫）、维克多（资金/贪婪）、董事会（体制/利益）代表了不同的阻力来源，但维克多在后期功能减弱，主要阻力集中在朱利安一人身上，差异化尚可但升级感不足。",
+          "evidence": {
+            "episode": "第18集",
+            "scene": "18-1",
+            "quote": "朱利安（冷静吐烟）：让它受伤。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要阻力来源清晰且差异化明显：朱利安代表心理操控与信息垄断，维克多代表资本压力与破产威胁，董事会代表体制性冷漠，克拉拉代表道德审判。不同对手迫使主角采取不同的应对策略（对朱利安是恐惧与顺从，对维克多是周旋，对克拉拉是逃避，对体制是伪装）。",
+          "evidence": {
+            "episode": "第18集",
+            "scene": "18-1",
+            "quote": "朱利安（冷静吐烟）：让它受伤。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主要阻力集中在朱利安一人身上，维克多和董事会更多是背景板或工具人。朱利安的压迫方式（心理操控、物理囚禁、证据威胁）虽有变化，但本质单一，缺乏不同维度的对手（如法律、道德、同行）的差异化对抗。",
+          "evidence": {
+            "episode": "第19集",
+            "scene": "19-1",
+            "quote": "朱利安：这就是铁证。洗钱罪的充分必要条件。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 2.67,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "第25-33集伊莱亚斯被囚禁在俱乐部，场景高度单一，且多次重复“朱利安威胁-伊莱亚斯签字/崩溃”的循环，缺乏有效的局面变化或信息增量，导致中段停滞。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-2",
+            "quote": "伊莱亚斯（声音极度疲惫）：最后一份。这是博物馆的流动资金授权。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "场景递进逻辑严密，从博物馆暗室到私人俱乐部，再到拘留所和法庭，空间转换伴随着主角处境的不断恶化与最终反转。关键场景（如第42集直播揭露、第49集电锯开画）具有强烈的因果推动力，删除任一关键节点都会破坏结构完整性。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-1",
+            "quote": "独立学者（语速极快）：结构伪造的求救暗号。十字划痕！那是伊莱亚斯·索恩多年前教过我的。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "第25集至第40集，场景多在俱乐部套房内循环，缺乏空间转换和新的信息增量。伊莱亚斯的状态在“崩溃-签字-短暂平静-再次崩溃”中循环，递进感弱，直到第41集直播前才出现明显升级。",
+          "evidence": {
+            "episode": "第32集",
+            "scene": "32-1",
+            "quote": "伊莱亚斯（机械地敲击键盘，屏幕上的光标疯狂跳动）：如果……如果我被打死在这里……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "第1-3集高效建立了核心矛盾（赝品发现、利益捆绑、道德困境），信息组织紧凑，迅速将主角推入绝境，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯（OS，颤抖）：我在骗自己。如果它是假的，我也完了。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "开篇迅速建立核心矛盾（赝品发现与利益冲突），通过第1-3集快速确立主角的困境和反派的威胁，信息组织紧凑，情绪张力建立高效。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯（OS，颤抖）：我在骗自己。如果它是假的，我也完了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "第1-3集高效建立了核心矛盾（赝品发现、利益捆绑、道德困境），信息组织紧凑，人物关系迅速确立，形成了强烈的阅读期待。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯（OS，颤抖）：我在骗自己。如果它是假的，我也完了。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "第25-40集节奏严重拖沓，大量篇幅用于重复展示伊莱亚斯的绝望和朱利安的威胁，缺乏新目标或有效的情绪积累，导致高潮前的蓄力不足，观众疲劳感强。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-1",
+            "quote": "伊莱亚斯（颓然松开手，整个人瘫软在真皮椅背上）：连不上……根本连不上……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "中后段（第25-35集）主角被囚禁在俱乐部，场景相对封闭，情绪主要依赖内心独白和朱利安的言语压迫，虽然张力持续，但外部事件变化较少，节奏略显单一，存在一定程度的情绪疲劳风险。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-1",
+            "quote": "朱利安（递过一份文件）：签了它。证明画作没有瑕疵。这样就没有欺诈，克拉拉就能安全回家。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "第25-40集存在明显的“平淡段”和“前高后低”风险。伊莱亚斯被囚禁后的心理折磨过程过于冗长，缺乏有效的情绪积累或新目标，导致高潮（直播揭露）前的张力被稀释。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-1",
+            "quote": "伊莱亚斯（颓然松开手，整个人瘫软在真皮椅背上）：连不上……根本连不上……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "整体情绪走向清晰（压抑-崩溃-反抗-解脱），但中段情绪长期处于单一的“绝望/恐惧”状态，缺乏起伏和变化，导致关键高潮（直播揭露）的情绪爆发力被前文的重复削弱。",
+          "evidence": {
+            "episode": "第31集",
+            "scene": "31-1",
+            "quote": "伊莱亚斯（空洞地重复）：索恩……伊莱亚斯·索恩。我是……我是谁？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪曲线清晰，从焦虑、恐惧、绝望到最终的决绝与解脱，关键节点（如克拉拉离开、大卫遇袭、直播揭露）的情绪爆发点铺垫充分，高潮兑现了主要的情绪承诺。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-1",
+            "quote": "伊莱亚斯（声音低沉而决绝）：她早就死了。就在你让我按下第一个删除键的时候。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "整体情绪走向清晰（压抑-爆发-释放），但中段蓄力不足，部分情绪转折（如伊莱亚斯决定反抗）缺乏足够的铺垫，显得略微突兀。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "伊莱亚斯（猛地举起麦克风，如同握着一把匕首）：这幅画，是假的。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "集末悬念设置基本有效（如克拉拉的行动、朱利安的下一步），但部分期待（如克拉拉被救、伊莱亚斯逃脱）在中段被反复搁置或重置，导致期待链不够紧密。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-4",
+            "quote": "伊莱亚斯（绝望地抱住头，指甲深深陷入头皮）：朱利安，你到底什么时候才肯收手！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "集末悬念设置有效，如第9集碎纸机销毁证据、第21集大卫遇袭、第33集黑客拦截等，持续驱动观众期待。期待类型多样，包括生存危机、道德抉择、真相揭露等。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-1",
+            "quote": "伊莱亚斯（惨然一笑）：反抗是徒劳的，朱利安。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "集末悬念设置基本有效，但中段（25-40集）的期待类型单一（主要是“他能否逃脱/反抗”），缺乏关系或信息层面的新变量，导致期待感疲劳。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-2",
+            "quote": "朱利安：我想让你在明天的大幕拉开时，心无旁骛。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "前10集信息密度高，推进快；第25-40集信息密度极低，大量篇幅用于重复已知信息（伊莱亚斯被囚禁、朱利安威胁），导致中段塌陷，整体结构失衡。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-1",
+            "quote": "朱利安（按下按钮，巨大的屏幕瞬间亮起）：不，她在法庭门口。或者说，在死者的行列里。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "整体信息分布基本均衡，但中后段（第25-35集）信息密度偏低，主要依赖重复的威胁和签字情节，部分集数（如第28、29集）情节推进缓慢，存在注水嫌疑。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-2",
+            "quote": "伊莱亚斯（声音极度疲惫）：最后一份。这是博物馆的流动资金授权。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "前10集信息密度高，情节紧凑；25-40集信息密度骤降，大量篇幅用于重复的心理描写和威胁场景，导致结构失衡，中段塌陷明显。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-2",
+            "quote": "伊莱亚斯（声音极度疲惫）：最后一份。这是博物馆的流动资金授权。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 2.33,
+      "minimum": 2,
+      "maximum": 3,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 2,
+          "reason": "第25-33集存在明显的停滞，伊莱亚斯被囚禁后，剧情主要围绕“威胁-签字-崩溃”循环，缺乏新的阻力或局面变化，删除部分集数对主线影响不大。",
+          "evidence": {
+            "episode": "第32集",
+            "scene": "32-1",
+            "quote": "伊莱亚斯（机械地敲击键盘，屏幕上的光标疯狂跳动）：如果……如果我被打死在这里……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主线总体推进，但第25-35集主角被囚禁期间，外部事件（克拉拉的行动、维克多的破产）与内部事件（签字、威胁）交替出现，部分场景（如第28集连续签字）可压缩，存在局部停滞。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-3",
+            "quote": "朱利安（俯身，用冰冷的笔杆触碰伊莱亚斯的鼻尖）：不，你是共犯。这是唯一的身份。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "第25-40集存在持续停滞，伊莱亚斯的状态和处境没有实质性变化，只是重复被威胁和签字。这些集数删除后对主线影响较小，属于明显的注水。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "朱利安（俯视着他）：她在打听你的生死。多么感人的忠诚，伊莱亚斯。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "克拉拉的调查线（副线）与主线（伊莱亚斯的困境）有互动，但整合度不够紧密，克拉拉的行动有时显得突兀（如第29集撞车），且对主线局面的改变不够直接，主要起到情感支撑作用。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-2",
+            "quote": "私调（对耳麦，大喊）：警报响了，你们最好祈祷他们没看到我的脸！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "克拉拉的调查线（副线）与主线紧密咬合，她的行动（联系检察官、获取证据、营救维克多）直接推动了主线的高潮和反转。副线不仅补充了人物关系，更在关键时刻改变了主线局面。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-1",
+            "quote": "克拉拉（滑动屏幕，将一张高清照片投在玻璃前的反光板上）：这是原始证据。完整，清晰，无删改。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "克拉拉的调查线和维克多的破产线基本服务于主线，但在中段（25-40集）与主线的互动较少，直到第41集后才重新紧密咬合。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-1",
+            "quote": "克拉拉：他疯了。他在烧掉所有的证据，还销毁了自己的手机卡。他正在掩盖真相。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 3,
+          "reason": "主线目标（揭露赝品、摆脱控制）基本清楚，阶段目标（签字、囚禁、直播）大多成立，但兑现力度不稳定，尤其是直播揭露部分重复过多，削弱了最终高潮的冲击力。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-1",
+            "quote": "独立学者（语速极快）：结构伪造的求救暗号。十字划痕！那是伊莱亚斯·索恩多年前教过我的。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线目标（揭露赝品真相）持续产生新阻力（朱利安的监控、维克多的破产、体制的切割），阶段看点（直播揭露、法庭审判）有效兑现，每次兑现都改变了局面并产生了新的意义。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "鉴定组长（举起防弹玻璃挡板，声音发颤）：停。这是二十一世纪的高分辨率喷墨打印纹理。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主线目标（揭露赝品/自保）清晰，但阶段兑现力度不稳定。中段缺乏新的阻力或结果，导致主线推进缓慢，直到直播事件才有效兑现。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-1",
+            "quote": "独立学者：那是他留给我们的，唯一的真实。"
+          }
+        }
+      ]
+    }
+  ]
+}

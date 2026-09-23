@@ -1,0 +1,140 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体构建了完整的因果闭环，角色动机（亲情、复仇、救赎）清晰，时空逻辑在宏观上自洽。主要逻辑瑕疵集中在：1. 关键道具（怀表）的功能设定前后矛盾（单向信标 vs 情报载体）；2. 霍默死亡真相的揭示缺乏前期铺垫，依赖临终信件强行反转；3. 部分角色（珀西）在极端高压下的心理转变节奏过快，缺乏足够的中间过渡场景。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱/资源消耗矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "金怀表的功能设定前后矛盾，从‘单向信标’变为‘情报载体’，且物理状态（夹层）描述不一致。",
+      "reason": "第3集明确设定怀表为‘单向信标，指引我回家’，暗示其具有导航或通讯功能；第1集提到‘夹层里有邀请函’，第37集又变成‘藏着家族的耻辱/情报库证据’。同一道具在不同阶段承担完全不同的核心逻辑功能（导航 vs 存储证据），且未解释功能变更或技术原理，属于关键道具逻辑断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "霍拉肖：不需要。它是单向的信标，指引我回家。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-1",
+        "contrast_quote": "霍拉肖（快速阅读，眉头逐渐纠结，声音带着难以置信）：霍默写……他被迫留下的……？"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "霍默‘被迫背叛以保护家人/情报’的真相缺乏前期铺垫，依赖死后信件强行反转。",
+      "reason": "全剧前36集，霍默的行为均表现为纯粹的贪婪、复仇和权力欲（如第10集雇佣兵、第34集挟持艾琳）。直到第37集通过尸体手中的信件才揭示其‘守护者’身份。虽然第20集特工提到‘情报金库’，但并未暗示霍默是‘被迫’或‘保护者’，反而强调其贪婪。这一核心反转缺乏足够的前置线索（如霍默的犹豫、对家人的特殊态度等），导致反转显得突兀，削弱了前期反派塑造的可信度。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "霍拉肖（快速阅读，眉头逐渐纠结，声音带着难以置信）：霍默写……他被迫留下的……？",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "霍默：我要你们今晚出海，带上那些从走私犯那搞来的简易鱼雷。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "珀西从‘恐惧服从’到‘主动背叛/合作’的心理转变节奏过快，缺乏足够的中间过渡。",
+      "reason": "第6-7集珀西表现为典型的恐惧与服从，第16集目睹父亲杀人后开始动摇，第17集即主动交出布防图并达成‘契约’。虽然第16集的杀人场景提供了触发点，但从‘恐惧’到‘主动策划越狱并交出核心机密’的转变仅用了一集，且中间缺乏珀西内心挣扎、试探或逐步建立信任的详细过程，使得其背叛行为略显仓促，主要依赖克里斯蒂的言语诱导。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "珀西（咬着牙，将托盘推入铁栏缝隙）：拿去。如果这上面有陷阱，我会第一个把父亲拖下水。",
+        "contrast_episode": "第6集",
+        "contrast_scene": "6-1",
+        "contrast_quote": "珀西：我不敢说不害怕，但我理解这是命令。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "霍拉肖在下水道听到克里斯蒂声音并指引其方向，但两人最终未汇合，且克里斯蒂对声音来源的确认缺乏逻辑支撑。",
+      "reason": "第24集霍拉肖在排水井大喊‘克里斯蒂！我在这里！’，克里斯蒂听到后坚信是父亲并据此改变路线（往西走）。然而，第25集两人并未在约定地点汇合，而是各自逃生后在码头才相遇。克里斯蒂在极度混乱和恐惧中，仅凭模糊的声音就完全信任并改变既定逃生路线（放弃图纸上的路），这一决策缺乏足够的验证过程，且后续剧情未解释为何声音指引未能直接导致汇合，存在逻辑跳跃。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "霍拉肖（大喊）：克里斯蒂听我说！走通风管！别停下！",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-2",
+        "contrast_quote": "克里斯蒂（回头看了一眼，迅速拉下破斗笠）：前面路断了，往左！上屋顶！"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "highlight",
+      "category": "时空逻辑设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "莫比尔湾的地理空间调度（海上、下水道、堡垒内部）清晰，时间线紧凑，无明显矛盾。",
+      "reason": "剧本在复杂的空间转换（如从海上到下水道，再到堡垒内部）中保持了较好的逻辑连贯性。例如，第21-24集霍拉肖通过下水道接近监狱，与第23-25集克里斯蒂从内部逃出的时间线基本吻合（虽未完全同步，但符合‘擦肩而过’的戏剧设定）。规则（如封锁线、声呐、伪装）的使用前后一致。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "霍拉肖（抬头）：这结构不对……这不是普通排水沟，这是通往地下通风井的入口。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色（霍拉肖、克里斯蒂）的行动动机（救家人）贯穿始终，关键转折（如烧毁海关、引爆信号塔）均有明确的前因后果。",
+      "reason": "霍拉肖的每一步行动（卖债券、改装船、贿赂、杀人）都直接服务于‘救回艾琳和克里斯蒂’这一核心目标，动机链条完整。克里斯蒂的越狱行动也基于对珀西的利用和对地形的熟悉，逻辑自洽。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-1",
+        "quote": "霍拉肖（冷漠地）：在战争中，仁慈就是慢性毒药。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

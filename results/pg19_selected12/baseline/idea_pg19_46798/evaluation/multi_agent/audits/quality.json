@@ -1,0 +1,525 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角迪克·阿姆斯特朗具有极高的辨识度，其“结构修复师”的职业视角、冷峻的语言习惯（木工/结构隐喻）和独特的决策方式贯穿全剧，替换成其他角色后关键台词与决策将完全失效。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "迪克：我不救木头，我救结构。结构碎了，我们都得死。",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-2",
+        "contrast_quote": "迪克：我在缝合尊严。"
+      },
+      "reason": "三位评审均指出迪克通过“木工/结构”隐喻建立了独特的语言和行为模式。证据显示其台词（如“结构不稳”、“榫卯”）和决策逻辑（用物理原理解决生存问题）具有高度专属性和稳定性，符合S级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "迪克的人物弧光完整，从“冷血规则维护者”到“情感驱动的复仇者”再到“秩序重建者”，关键转折由梅休牺牲、罗杰成长等强驱动事件逼出主动选择，并产生不可逆后果。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "迪克：这把凿子，不再修木头了。... 迪克：修拉斯克尔的命。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-1",
+        "contrast_quote": "迪克：我会把它嵌进去，嵌在最高的那个支撑点上。"
+      },
+      "reason": "评审一致认为迪克有清晰的起点（理性/控制）、转折（同伴牺牲/情感爆发）和终点（共存/重建）。虽然部分转折（如复仇）带有被动色彩，但整体链路完整，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "迪克具有明确的内在矛盾（冷血理性 vs 对家人/同伴的责任），并通过两难选择（流放罗杰、牺牲梅休仪器、血印地契）和脆弱暴露被充分戏剧化。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "迪克（举起木工凿子，毫不犹豫地刺向自己的左手掌心）：结构不稳，就得用最强的楔子。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-1",
+        "contrast_quote": "迪克（背对他，声音没有任何起伏）：明天太阳升起时，你从这里滚出去。"
+      },
+      "reason": "迪克在理性生存与人性情感之间的挣扎通过具体情节（如第30集流放罗杰、第56集自残盖章）得到展现，存在有效的两难选择和代价承担，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E003",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角罗杰和梅休功能明确且不可替代。罗杰承担“情感锚点/成长”功能，梅休承担“信息/牺牲”功能，反派拉斯克尔承担“结构破坏者”功能，群像分配合理，共同推动主线。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-4",
+        "quote": "罗杰（哽咽）：我偷吃了你的肉。... 迪克（沉默）：你差点就死了。",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-1",
+        "contrast_quote": "梅休（冷笑）：废物死了。活下来的，是梅休。"
+      },
+      "reason": "主要配角各有清晰的成长弧线和功能定位，与主角形成有效互补。罗杰从废物到猎人，梅休从恐惧到牺牲，功能边界清晰，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "配角贾斯珀在中期主要承担“信息载体/受害者”功能，个人目标和选择逻辑较弱，主要围绕帮助或解释信息运转，独立情感价值不足，直到后期才展现主动性。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "贾斯珀（颤抖）：地契……这还真的是真的？... 迪克：快，没时间了！拿住它！",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-2",
+        "contrast_quote": "贾斯珀：（捂着肩膀，大口喘息，眼神中再无恐惧）不……我是在保护证人。"
+      },
+      "reason": "贾斯珀前期确实主要作为被动角色提供信息和证词，缺乏独立的行动逻辑，符合B级问题描述。后期虽有转变，但整体独立价值仍弱于主角和核心配角。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "迪克与罗杰、梅休的关系存在“控制/反抗”、“亲情/工具”、“利用/信任”等多类张力，能够稳定支撑主线情感。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "迪克（背对他，声音没有任何起伏）：明天太阳升起时，你从这里滚出去。... 罗杰（瘫坐在地上，面如死灰）：你真的……要抛弃我？",
+        "contrast_episode": "第29集",
+        "contrast_scene": "29-1",
+        "contrast_quote": "梅休（眼眶通红，咬牙切齿）：你把我当什么？工具吗？"
+      },
+      "reason": "核心关系中存在身份立场、情感依赖和价值冲突等多重张力来源，这些张力在剧情中反复碰撞并推动人物变化，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "迪克与罗杰、梅休的关系有清晰起点、关键里程碑（如流放、牺牲）和阶段变化，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "罗杰（满脸决绝，咧嘴一笑）：你们先走，只要我还有口气，他们就进不来半步！",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-3",
+        "contrast_quote": "罗杰（苦笑）：现在知道了，是因为你把我们当成最坚固的承重柱，所以才把我们修得那么狠。"
+      },
+      "reason": "关系从敌对/控制到信任/牺牲，有明确的阶段变化和因果逻辑，增强了主线的情感投入，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008",
+        "quality-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景（酒馆冲突、牢房对话）同时建立核心人物、异常情境（地契丢失）和戏剧问题，信息清晰，并通过人物行动形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "迪克：地契丢了。... 罗杰（瞬间安静）：什么？... 迪克：信使被杀，贾斯珀被囚。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第1-2集迅速确立了主角目标（夺回地契）、核心冲突（法国人掠夺）和人物关系，叙事方向清晰，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾（夺回地契/审判拉斯克尔）明确，阻力（法国人、苏族、荒野）有效，风险（死亡、失去家园）可感知，并形成“生存”与“正义”两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "梅休（虚弱地）：迪克……... 迪克：为了我们都能活下去。纸没了，家就没了。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "核心矛盾清晰，阻力来源多样且有效，风险代价明确，形成了稳定的叙事期待，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010",
+        "quality-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "跨集承接断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "罗杰和梅休的死亡与复活存在逻辑断裂，连续叙事链结构性断裂。第42集罗杰被飞镖扎死，第45集罗杰在牢房中存活；第43集梅休被匕首刺死，第49集梅休在担架上存活。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "罗杰（剧烈抽搐，视线模糊）：迪克……替我……报仇……",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-2",
+        "contrast_quote": "罗杰（嘶哑）：迪克？"
+      },
+      "reason": "剧本中明确描写了罗杰和梅休的死亡（第42、43集），但在后续集数（第45、49集）中两人再次出现且未解释复活原因，导致关键集末问题被重置，连续叙事链断裂，符合A级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011",
+        "quality-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "S",
+      "behavior_rating": 1,
+      "points": 10.0,
+      "claim": "第39集和第40集出现了高度重复的“破坏炮台”桥段，起因、过程、结果与角色功能均无新增量，形成全剧结构性重复。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "迪克：听着，罗杰！那门炮不是铁打的，是木做的！... 迪克（拍了拍手上的灰）：他们失去了最大的獠牙。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "迪克：听着，罗杰！那门炮不是铁打的，是木头搭的！... 迪克：他们失去了最大的獠牙。"
+      },
+      "reason": "对比第39集和第40集原文，两集在场景、台词（如“那门炮不是铁打的”、“他们失去了最大的獠牙”）、动作和结果上几乎完全一致，仅对手称呼略有不同，属于严重的结构性重复，符合S级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E012",
+        "quality-R02-E012"
+      ],
+      "status": "confirmed",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "S",
+      "behavior_rating": 1,
+      "points": 10.0,
+      "claim": "第39集和第40集存在明显的停滞与注水，两集内容高度雷同，缺乏新的目标、阻力或结果，删除其中一集对主线影响极小。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "罗杰（站起身，满脸烟尘）：我们……赢了？... 迪克（拍了拍手上的灰）：他们失去了最大的獠牙。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "罗杰（满脸烟尘）：我们……赢了？... 迪克：他们失去了最大的獠牙。"
+      },
+      "reason": "由于第39集和第40集内容高度重复，导致叙事停滞，没有产生新的剧情增量，属于典型的注水行为，符合S级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E010"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "场景递进结构",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "第42集与第45集关于“牢房救援”的情节重复，场景递进停滞。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "罗杰（嘶哑）：迪克？",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-2",
+        "contrast_quote": "罗杰（嘶哑）：迪克？"
+      },
+      "reason": "第42集罗杰“死亡”后，第45集又出现类似的牢房重逢场景，且台词和情境高度相似，导致场景递进停滞，缺乏新的信息或关系增量，符合A级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E011"
+      ],
+      "status": "confirmed",
+      "unit": "plot_emotion",
+      "kind": "issue",
+      "category": "中后段节奏",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中后段存在明显平淡段和重复，高潮与收束失去基础。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "迪克：就是现在，跑！",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "迪克：就是现在，跑！"
+      },
+      "reason": "第39-40集的重复以及第42-45集的情节断裂导致中后段节奏平淡，高潮前的蓄力不足，需要重排多个阶段才能修复，符合A级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E013",
+        "quality-R02-E013"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，迪克的“结构/木工”比喻、罗杰的“直白/情绪化”表达、梅休的“恐惧/敏锐”表达与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "迪克：结构不稳，强行拉拽只会一起掉下去。... 罗杰：是你懦弱！你怕死！所以故意慢半拍！",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-1",
+        "contrast_quote": "梅休（冷笑）：废物死了。活下来的，是梅休。"
+      },
+      "reason": "主要角色的台词风格稳定且差异明显，迪克的理性/专业、罗杰的情绪化、梅休的冷峻/敏锐形成了鲜明的对比，增强了角色辨识度，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A016",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E014"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如第14集修图腾柱的“琥珀光泽”、第43集梅休挡刀的“鲜血喷洒”、第56集迪克血印地契的“暗红湿润”，在关键场景形成高度可辨识的视觉组织。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-1",
+        "quote": "△ 阳光透过修补处，透出琥珀般的光泽。... 科瓦（走近，伸手触碰，未掉落）：确实……没塌。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "剧本中多处关键场景具有明确的视觉意象（色彩、道具、动作），形成了可记忆的视觉画面，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A017",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E015",
+        "quality-R02-E015"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定（黄石地质、苏族文化、法国人阴谋）分阶段释放，每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定，信息量始终可吸收。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-1",
+        "quote": "迪克（举起木工凿子，用力敲击面前的地面）：听好了。... 迪克：浮土太厚，下面是空洞。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "设定释放有层次，黄石地质、苏族文化等设定与剧情发展紧密结合，没有明显信息过载，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A018",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E004",
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "反派拉斯克尔后期明显降智，威胁功能减弱。前期展现高智商威胁，但后期多次出现降智行为（如被物理卡死、被徒手掰断手臂），动机停留在单一恶意。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "法官（绝望挣扎，身体悬空）：救命！我要被这椅子杀死了！",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-1",
+        "contrast_quote": "迪克：结构一旦错位，你就再也没法站直。"
+      },
+      "reason": "拉斯克尔前期作为高智商反派，后期在法庭戏和决战中多次出现不合逻辑的降智行为（如被椅子卡住、被徒手掰断手臂），削弱了戏剧张力，符合A级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A019",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "issue",
+      "category": "阻力与对立关系不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "反派拉斯克尔后期阻力不足，首次交锋未改变局面。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "法官（绝望挣扎，身体悬空）：救命！我要被这椅子杀死了！",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-1",
+        "contrast_quote": "迪克：结构一旦错位，你就再也没法站直。"
+      },
+      "reason": "拉斯克尔后期多次被迪克轻易击败，能力、立场、资源或行动不足以支撑预期强度，首次交锋未改变局面，符合A级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A020",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E014"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "描写行可拍摄密度低",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分关键动作或情感节点只有事件标注，缺少身体动作、空间调度、表情状态或道具互动。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "迪克（嘶吼声震碎了凝固的烟尘）：梅休！！！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "第43集梅休死亡的关键情感节点，描写较为简略，缺少具体的身体动作和空间调度，影响局部表演或分镜，符合B级问题标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 38,
+  "covered_count": 38
+}

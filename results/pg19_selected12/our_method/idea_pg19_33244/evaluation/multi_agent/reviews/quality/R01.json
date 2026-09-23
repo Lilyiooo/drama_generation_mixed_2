@@ -1,0 +1,372 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角米格尔的人物弧光完整且极具张力，从试图维护尊严到被迫妥协，再到彻底黑化与毁灭，每一步转变都有强烈的戏剧事件驱动，且代价沉重。配角马克西米娜和胡莉亚分别承担了道德锚点与欲望反面的功能，与主角形成了有效的镜像与对冲。反派萨瓦德拉的压迫感稳定，通过系统性的剥夺而非单纯的暴力来摧毁主角，符合反乌托邦题材的调性。人物关系（特别是米格尔与马克西米娜、胡莉亚）的张力贯穿全剧，情感绑定与断裂均有充分的文本证据支撑。在情节规划方面，桥段递进清晰，情绪节奏紧凑，主线推进有力，副线（胡莉亚线）与主线（米格尔线）形成了良好的互文与因果联动。整体质量显著高于同题材常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如被系统拒绝、被羞辱）大多承担不同功能，通过新变量（如从债务到诽谤，从社会排斥到物理隔离）形成有效变奏，推进了主角的堕落过程。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-2",
+        "quote": "保安甲（语气冰冷，不带一丝波澜）：退后。低信誉人员禁止进入一级医疗区。出示你的三级以上医疗通行证。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（系统/银行、萨瓦德拉、胡莉亚、门多萨）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（乞求、出卖、逃避、毁灭）。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "门多萨面无表情，眼神中没有一丝愧疚，只有为了自保而清除障碍的冷酷。他拇指按下开关。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从公寓的封闭空间到沙龙的公开羞辱，再到医院的生死抉择，层层递进。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-1",
+        "quote": "侍者（语调平缓却充满压迫感）：米格尔先生。萨瓦德拉唐的宽恕是有规格的。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1-2集迅速建立了米格尔的困境（债务、贫困）和核心矛盾（尊严与生存），叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "HR主管（OS）：签字，米格尔先生。合同期十年，绩效挂钩声誉币浮动。违约者，即刻清退并列入信用黑名单。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进（如写黑稿、被逐出家门），后段完成充分升级与收束（如自杀式袭击、真相揭露），节奏紧凑。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "米格尔的眼神冰冷而专注，仿佛在撰写一部自己的墓志铭。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。从压抑、屈辱到绝望、愤怒，最后到毁灭性的释放，情绪曲线完整。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "米格尔的嘴角扯出一丝惨烈而解脱的微笑。那是马克西米娜曾拥有的微笑。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如门多萨的生死、马克西米娜的病情、胡莉亚的背叛等悬念持续驱动叙事。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "老汤姆（气声，颤抖）：闭嘴！你想死吗？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。前期铺垫充分，中期冲突密集，后期高潮集中，信息分布合理。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "马克西米娜的目光扫过第一行，身体瞬间僵住。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。没有明显的无功能段落，每个阶段都改变了人物选择、关系、信息或局面。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "马克西米娜（声音冷硬，没有起伏）：这是你用尊严换来的钱。从现在起，你将永远背着它。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（胡莉亚线）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。胡莉亚的背叛与堕落直接加剧了米格尔的孤立无援，推动了主线的高潮。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-2",
+        "quote": "胡莉亚：（机械般地重复，声音冰冷）检测到单方强制解除申请。因关联方债务违约及信誉污染，无需对方确认。是否继续？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从生存到尊严，再到复仇，主线目标清晰且不断升级。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "米格尔OS：如果救赎不存在……那就让这一切烧成灰。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角米格尔的人物弧光完整且极具张力，起点缺陷（对尊严的执念）、关键转折（担保、写黑稿、出卖情报）和终点变化（毁灭性复仇）均有证据，每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "reason": "符合S级亮点定义：起点缺陷或信念、至少两个关键转折和终点变化均有证据；每次变化都由强驱动事件逼出主动选择并产生不可逆后果，显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "米格尔OS：如果救赎不存在……那就让这一切烧成灰。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "米格尔盯着那串数字，瞳孔微微放大。那不仅仅是钱，那是尊严，是他在乡村被轻蔑的眼神中夺回的筹码。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角米格尔的内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "reason": "符合S级亮点定义：内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "米格尔闭上了眼睛。在那一刻，他仿佛听到了自己良知的脊梁骨折断的声音，清脆而绝望。",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-2",
+        "contrast_quote": "米格尔（声音干涩）：我去趟卫生间。有点冷风灌进来……我想吐。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能，分工形成有效协作或对冲；配角、反派和群像持续制造推进力与人物层次。",
+      "reason": "符合A级亮点定义：主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "马克西米娜（声音冷硬，没有起伏）：这是你用尊严换来的钱。从现在起，你将永远背着它。",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-2",
+        "contrast_quote": "胡莉亚：（机械般地重复，声音冰冷）检测到单方强制解除申请。因关联方债务违约及信誉污染，无需对方确认。是否继续？"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（米格尔与马克西米娜、胡莉亚）同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "符合S级亮点定义：核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-2",
+        "quote": "马克西米娜（冷笑）：用另一个人的名誉流血，来保全我们的体面？这就是你誓死守护的尊严吗，米格尔？",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-2",
+        "contrast_quote": "胡莉亚：（冷笑，带着居高临下的轻蔑）一家人？你在医院门口跪着像个乞丐的时候，想过这层关系吗？你在出卖灵魂的时候，想过这会玷污我的血统吗？"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "符合S级亮点定义：核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-2",
+        "quote": "马克西米娜（冷淡）：我不想听任何解释，米格尔。我们之间，已经完了。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-2",
+        "contrast_quote": "米格尔：（哽咽，几乎无声）……对不起。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "reason": "符合A级亮点定义：人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "HR主管（OS）：签字，米格尔先生。合同期十年，绩效挂钩声誉币浮动。违约者，即刻清退并列入信用黑名单。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "符合A级亮点定义：核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "门多萨（用一种近乎圣洁的悲哀语调）：看啊，这就是出卖朋友的下场。米格尔，你是城里最有前途的编辑，你是光。你只需要签个字，以你的名义做担保。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "符合A级亮点定义：多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-1",
+        "quote": "米格尔（迅速将信纸折好，塞进上衣口袋，心跳如雷）：那是门多萨……那是给阿祖尔的借款收据。我想着，既然他那么惨，先给他一个名义上的凭证，让他安安心心去办事。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "reason": "符合A级亮点定义：关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "萨瓦德拉（轻笑）：我看过很多温顺的猎物，她们太完美，完美得像塑料。但你不同。你的眼睛里有一种未被驯服的野性，那是贫穷留给你的最后一点瑕疵，也是最迷人的地方。",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-1",
+        "contrast_quote": "马克西米娜（声音冷硬，没有起伏）：这是你用尊严换来的钱。从现在起，你将永远背着它。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "reason": "符合A级亮点定义：有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "【特写】高温瞬间引发剧烈的化学反应。白色的纸张遇热焦黑、卷曲，冒出刺鼻的黄绿色青烟。液态金属迅速冷却，凝固成一块丑陋、扭曲的金属疙瘩，将那些曾经不可一世的谎言与罪证死死封印其中。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E011",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "符合A级亮点定义：设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "银行职员（全息）：根据《紧急救济法案》第7条修正案：当被担保人状态连续24小时未更新定位或信用交互时，系统自动判定为“恶意逃废债”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

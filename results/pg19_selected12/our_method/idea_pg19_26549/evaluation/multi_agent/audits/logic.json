@@ -1,0 +1,216 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "集末与下一集开头重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第34集结尾与第35集开头大段重复了听证会斯通夫人质问露丝及托伊内特准备反击的情节，且台词高度雷同，导致剧情停滞。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "斯通夫人（推了推眼镜，声音平稳却带着金属般的冷硬）：露丝·戈登，我们要确立事实。请看着我的眼睛，回答我的问题。……家长代表乙（皱眉，低声对身旁人抱怨）：这孩子看起来像个提线木偶。连话都说不利索，那天在校长室里到底干了什么？",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "斯通夫人（语调平稳，带着金属般的冷硬）：露丝·戈登，我们要确立事实。请看着我的眼睛，回答我的问题。……家长代表乙（皱眉，低声对身旁人抱怨）：这孩子看起来像个提线木偶。连话都说不利索，那天在校长室里到底干了什么？"
+      },
+      "reason": "三位评审均指出第34集与第35集存在严重重复。经核对原文，第34集结尾（34-1）与第35集开头（35-1）在场景、人物动作、核心台词（斯通夫人质问、家长代表抱怨）上几乎完全一致，属于典型的“集末与下一集开头重复”。虽然第35集后续有托伊内特起身反击的新情节，但开头大段复演上一集结尾，符合A级“至少两处高度重复...主体仍复用上一集结尾”的标准。原分类“事件重复”虽可接受，但“集末与下一集开头重复”更为精准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第51集斯通夫人获取并公开雷夫先生威胁邮件的手段（前校工备份）略显突兀，因果链存在局部跳跃。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-2",
+        "quote": "前校工（声音颤抖，额头满是冷汗）：斯通老师，我真的只是无意中备份的……那天雷夫先生的秘书来清理缓存，我……我想保住我的工作。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出第51集斯通夫人获取关键证据（雷夫先生邮件）的方式依赖一个突然出现的“前校工”角色及其“无意中备份”的巧合。虽然剧本通过插叙解释了来源，但该角色前文无铺垫，且“校工主动上交敏感邮件以保工作”的动机在高压环境下显得薄弱，属于因果链的局部跳跃。符合B级“因果基本成立，仅有局部跳跃或铺垫偏薄”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R02-E003",
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第16集托伊内特使用的“改装过的便携式光谱分析笔”来源未交代，属于关键道具突然出现。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "托伊内特从笔袋深处摸出一支改装过的便携式光谱分析笔。笔身粗糙，缠绕着绝缘胶布，显然是她自制的简易工具。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出第16集出现的关键道具“光谱分析笔”缺乏前文铺垫。虽然托伊内特的人设包含“极客/侦探”元素，且文中提到是“自制”，但作为推动剧情（发现隐藏编码）的关键工具，其获取或制作过程完全缺失，属于资源/道具来源的轻微逻辑漏洞。符合B级“归属顺序略跳跃，但可由前后文推断”或“出现略便利”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第56集托伊内特突然转向“资本逻辑”（ROI）对抗斯通夫人，与其此前“反数据化”的觉醒弧光存在轻微冲突。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "托伊内特（抬起眼睛，目光平静得近乎冷酷）：斯通夫人的语言是‘惩罚’与‘监控’。保守派家长听不懂‘同理心’，他们只听得懂‘ROI’——投资回报率。如果我想保住阳光银行的理念，我就必须用他们的逻辑打败他们。",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-2",
+        "contrast_quote": "托伊内特：（低声）如果你不完美，就不值得被爱……那这爱也太廉价了。……“自我评价：状态极不稳定。感到恐惧，愤怒，以及……对他人的愧疚。我不再追求无瑕疵的平静。我承认我的软弱。”"
+      },
+      "reason": "R02指出第56集托伊内特使用“ROI”等商业逻辑，与第49集刚完成的“承认脆弱、拒绝完美数据化”的心理转变存在张力。虽然剧本解释为“用敌人的逻辑打败敌人”，且后续第58集有反思和回归，但这一策略转变在情感逻辑上略显生硬，属于局部行为与设定轻微不吻合，不影响整体稳定性。符合B级标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E004"
+      ],
+      "status": "rejected",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第41集与第42集关于潜入时间的计划存在轻微逻辑跳跃。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "托伊内特（对着窗外的夜色）：01:15。物理潜入。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "托伊内特：而2:15分，是供暖系统从高负荷切换到低负荷的时刻。"
+      },
+      "reason": "R03认为第41集计划的01:15与第43集强调的2:15存在混淆。经核对，第41集托伊内特最初计划01:15潜入，但在第42集发现“周三凌晨大型吸尘器作业”是掩护后，将计划改为“下周三凌晨”。第43集是制定最终详细计划，确定利用2:15的气流扰动。这是一个合理的计划修正过程，而非时间线矛盾或逻辑跳跃。01:15是供暖开启时间，2:15是切换时刻，两者在剧本中均有明确区分和解释，不构成逻辑错误。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第41-44集潜入实验室及第53-55集火灾事件的因果链设计严密，层层递进，逻辑闭环完整。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "托伊内特（盯着屏幕上的数据峰值，眼神锐利）：没有洗掉。这是高敏温变染料，只有在特定温度和酸碱度下才会显影。斯通夫人以为倒掉就消失了，但她忘了化学反应是不可逆的标记。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-2",
+        "contrast_quote": "斯通夫人OS（录音中，冷漠而命令式）：绕过保险丝，制造过载。我要让他们亲眼看到，当结构消失时，混乱是如何吞噬一切的。这是必要的矫正。"
+      },
+      "reason": "R01和R02分别指出了潜入实验室（41-44集）和火灾事件（53-55集）的因果链质量。经核对，潜入部分利用了温变染料、能耗曲线和监控盲区，逻辑自洽；火灾部分从电路过载铺垫到证据收集，闭环完整。两者均符合A级“主要转折因果清晰，前因充分支撑后果”的标准。合并为一条亮点记录。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "托伊内特从“冷漠记录者”到“主动介入者”的转变有充分的情感积累和事件驱动，符合逻辑。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "托伊内特缓缓放下了举着手机的左手。她没有按下载入键，而是将右手掌心的纸团攥得更紧。尖锐的纸角刺破皮肤，渗出一滴殷红的血珠，顺着掌纹滑落。疼痛让她从麻木中惊醒。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-2",
+        "contrast_quote": "托伊内特：我不完美，但我真实；我不控制，但我负责。这就是我想建立的秩序。"
+      },
+      "reason": "R01和R03均指出托伊内特的性格转变有充分铺垫。经核对，从第9集海伦受辱、第14集首次帮助、第25-26集目睹海伦崩溃，到第31集听证会反击，事件驱动层层递进，情感积累充分。符合A级亮点标准。注意：此处kind为highlight，category虽为“性格动机突变”（通常用于问题），但在此处作为正面评价，即“性格转变合理”，故保留。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006",
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "“沉默即顺从”的教案伏笔在后续听证会和主角觉醒中多次回响，形成有效的主题闭环。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "特写：纸张上的铅字清晰而冰冷。“观察学生在高压情境下的自然反应。非语言信号（如沉默、回避眼神、肢体僵硬）是衡量服从潜质的核心指标。注：沉默不等于中立，而是最高级别的顺从确认。”",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "托伊内特（向前迈了一步，直视斯通夫人）：阳光银行宣称没有“明确规则”，依靠的是“社区共识”。但在主席台上，当我们对他人的沉默直接解读为恶意，当我们对他人的恐惧直接解读为心虚——"
+      },
+      "reason": "R02和R03均指出“沉默即顺从”的伏笔回收有力。经核对，第11集（R02引用）或第9集（R03引用，实际教案内容在第11集特写中更清晰，但第9集已有斯通夫人言论铺垫）的伏笔在第35-36集听证会上被托伊内特反向利用，形成主题闭环。符合A级“伏笔回收充分”的标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 17,
+  "covered_count": 17
+}

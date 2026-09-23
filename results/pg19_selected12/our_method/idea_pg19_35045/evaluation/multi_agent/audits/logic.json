@@ -1,0 +1,263 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "保险单在已被赎回变现后，后续剧情中再次作为‘未兑现存单’出现，存在资源状态矛盾。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-2",
+        "quote": "露丝：这是命！这是我的命！你又要抢走我的命！... 那是她用保单赎回的现金",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-2",
+        "contrast_quote": "布包吃力地展开。里面不是现金，而是一张泛黄的、未兑现的高额定期存单。"
+      },
+      "reason": "第4集明确交代露丝持有的是‘用保单赎回的现金’，且被描述为‘唯一的救命稻草’。第9集弗洛拉从露丝手中抠出的却是‘未兑现的高额定期存单’。若第4集的现金已用于支付房租或生活（第4集开头提到房东下最后通牒需交租），则第9集的存单来源不明；若存单一直存在，则第4集‘唯一的救命稻草’表述与第9集‘全家最后的底线’存在资源层级冲突，且未交代为何之前未动用。属于重要资源转移/状态变化缺少关键支撑，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "露丝在审查员面前泼洒高浓度工业清洁剂的行为缺乏直接触发动机。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-2",
+        "quote": "露丝出现了... 她双手死死抱着一个巨大的白色塑料桶，那是未稀释的高浓度工业清洁剂。... 露丝（尖啸...）：脏！你们都是脏的！别过来！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "露丝的精神状态在前文（如第16集对漂白粉气味的恐惧、第28集对光线的恐惧）已有铺垫，其‘脏’的执念是核心性格特征。虽然‘主动攻击’而非‘逃避’略显突兀，且清洁剂来源未详述，但基于其精神失常的设定，这种应激反应在逻辑上可推断，属于动机链条局部跳跃，不影响主线理解，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "弗洛拉对乔少校花园布局及警报机制的熟悉程度缺乏来源交代。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "她熟知这些布局，步伐轻盈，像是一只在黑暗中捕猎的猫。... 避开地上散落的枯枝——那是乔少校布置的简易警报。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "弗洛拉此前在乔少校花园工作过（第5-7集），且乔少校曾要求她监视哈里并汇报行踪（第6集），这暗示她对该区域有较高的熟悉度和观察机会。虽然‘熟知警报机制’略显便利，但可由其职业经历和之前的接触推断，属于弱暗示支撑，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004"
+      ],
+      "status": "rejected",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源突增失衡",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "医院急救押金数额与角色经济状况存在轻微失衡。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "医生... 立刻缴纳三千块押金，否则无法使用高级抢救设备。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "价值微薄，抵不过一顿晚餐。"
+      },
+      "reason": "‘三千块’的具体数额是否合理属于世界观设定或经济体系细节，剧本中未提供当地物价基准，无法判定为逻辑矛盾。且该情节主要服务于制造危机，而非展示资源获取逻辑。此条属于对数值设定的主观质疑，缺乏文本内部的硬性冲突证据，故拒绝。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R02-E005",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "‘J’字袖扣与乔少校过往的伏笔铺设与回收逻辑严密。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "特写：袖扣背面刻着一个精致但已磨损的徽记——橡叶环绕着字母“J”。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-2",
+        "contrast_quote": "弗洛拉·黑兹利：（从怀中掏出那枚‘J’字袖扣，重重拍在桌上）露丝在发烧时说起了‘乔的朋友’，还有这个徽章。"
+      },
+      "reason": "三位评审均指出袖扣伏笔的闭环质量。第15集发现，第25集使用，第27集引发连锁反应，逻辑链条完整，有效推动主线。符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "弗洛拉从‘秩序维护者’到‘反抗者’的性格转变有充分的事件驱动。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "弗洛拉：（声音不大，却异常清晰）你们总是害怕犯错，害怕被除名。但今天，我要告诉你们，是谁在定义你们的清白。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "弗洛拉的手指停顿了一秒。她缓缓放下手帕，蹲下身，握住抹布，用力擦拭着地板上的污迹。"
+      },
+      "reason": "弗洛拉的性格转变由驱逐、母亲病重、社区排斥、发现秘密等一系列事件层层递进驱动，逻辑链条完整，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "rejected",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "乔少校提供的地下档案馆地图和钥匙在后续剧情中未被使用，属于闲置的关键资源。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-2",
+        "quote": "乔·本森少校：（压低声音，语气中带着紧迫与愤怒）你母亲露丝撞破了真相，所以她必须死——在社会层面。……他从抽屉里拿出那把黑铁钥匙，郑重地递到弗洛拉面前。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-2",
+        "contrast_quote": "她根据地图的指引，推开一扇生锈的铁门。……弗洛拉迅速将拓印好的证据折叠，塞进贴身的口袋里。"
+      },
+      "reason": "R02和R03均认为地图和钥匙未使用。但第36集明确写道‘她根据地图的指引，推开一扇生锈的铁门’，说明地图被使用了。至于钥匙，第25集乔少校已给过一把钥匙，第26集又给了一把，第36集进入档案馆可能使用了其中一把或无需钥匙（暗格入口）。即使钥匙未明确展示使用，地图已被使用，且‘资源闲置’并非严格的逻辑断裂，而是叙事效率问题。R03的证据引用第36集‘根据地图指引’直接反驳了其claim。故拒绝。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "哈里从‘通过噪音折磨母亲’到‘在广场主动自曝罪行’的转变缺乏足够的心理铺垫。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "哈里突然从阴影中站起，面无表情地将手中的铁勺高高举起，用尽全身力气掷向对面的墙壁。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-2",
+        "contrast_quote": "哈里：不用拖！我就是你们说的怪物！我是弗洛拉的哥哥，哈里·黑兹利。……我偷过邻居的鸡，我在酒馆酗酒闹事，我打过我母亲……都是真的！"
+      },
+      "reason": "哈里从破坏性反抗到牺牲性自白的跨度较大。虽然第31集‘看着我’刻痕和第34集码头搏斗提供了部分动机，但第39集广场自曝前的心理转折过程描写不足，缺乏关键的情感爆发点或决策场景，导致行为逻辑跳跃。属于A级问题。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E003",
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "存单抵押后的赎回期限与银行强制划扣的时间点存在逻辑冲突。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "银行职员：现在。……弗洛拉接过单子，走向等待区。",
+        "contrast_episode": "第11集",
+        "contrast_scene": "11-1",
+        "contrast_quote": "银行职员：（公事公办）……合约规定赎回期限为昨天下午五点。由于账户缺乏对应资金，自动扣款失败。根据条例第四节，该资产已被强制划扣……"
+      },
+      "reason": "第9集深夜抵押，银行职员说‘现在’到账。第11集（次日或稍后）银行职员说‘赎回期限为昨天下午五点’。如果第9集是‘昨天’，则抵押发生在期限之后，逻辑不通；如果第9集是‘今天’，则‘昨天下午五点’的期限在抵押前已过期，也不合理。存在轻微时间线矛盾，但不影响主线成立，定为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E004",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "弗洛拉从‘清洁工’到‘反抗者’再到‘社区领袖’的转变因果清晰，层层递进。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-2",
+        "quote": "乔·本森少校：你懂得区分什么是该留的，什么是该去的。这在这个社区，比黄金还难得。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "弗洛拉：看，光就在尘埃里。只要我们愿意擦拭。"
+      },
+      "reason": "弗洛拉的每一次能力升级或地位提升都有明确的前置事件支撑，动机一致，因果链严密。符合A级亮点标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 16,
+  "covered_count": 16
+}

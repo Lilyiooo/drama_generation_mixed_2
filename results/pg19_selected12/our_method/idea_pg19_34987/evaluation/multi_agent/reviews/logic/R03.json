@@ -1,0 +1,184 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了较为完整的因果链条，角色动机（伯莎的赎罪与觉醒、诺米诺埃的仇恨与爱）有明确的事件驱动。主要逻辑问题集中在：1. 关键道具（地图、账本）的来源与获取过程存在缺失或矛盾；2. 角色能力（伯莎的军事/生存技能）在前期铺垫不足，后期表现过于全能；3. 部分情节转折（如诺米诺埃的假死、伯爵的突然现身）依赖巧合或信息泄露，缺乏严密的时空或规则支撑。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伯莎在6-2场向村民展示伯爵私盐仓地图副本，但前文未交代其获取过程。",
+      "reason": "第2集伯莎从书房偷出金印和信笺，未提及地图。第6集突然拿出地图副本，属于关键证据来源缺失，影响其后续谈判筹码的合理性。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第6集",
+        "scene": "6-2",
+        "quote": "伯莎艰难地从怀中掏出那张从书房夹缝中带出的半张羊皮纸——那是伯爵私盐仓的地图副本。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "她迅速爬上书架梯子，从最高处的格子里抽出一个锦盒。撬开盒盖，取出那枚象征家族权力的金印和剩余的金路易，紧紧攥在怀里。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伯莎在5-1场准确判断追兵阵型并指挥诺米诺埃利用地形反击，缺乏前期铺垫。",
+      "reason": "伯莎此前被描绘为被圈养的贵族小姐，无军事训练背景。此处突然展现专业战术素养，属于能力状态断裂，虽可解释为观察力，但强度超出常理。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "注意听……左前方，间隔三步，沉重的金属撞击声。那是三角掩护阵型。他们在收缩包围圈，左侧是盲区，右侧有两名持火枪的火力手。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伯莎手中的水晶酒杯微微颤抖。她放下酒杯，试图用淑女礼仪掩饰厌恶"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第35集伯莎潜入伯爵书房偷取账本，但第36集伯爵似乎早已知晓并启动‘净化’计划，缺乏中间的信息传递或发现过程。",
+      "reason": "伯爵在36-2场通过信使得知‘账本丢了’，但信使来源不明，且伯爵反应过于迅速和具体（启动黑鸦小队），暗示其可能早有防备或监控，但前文未铺垫伯爵对书房的安全措施或监控手段。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "信使（声音恐惧）：大人……那些农民传开了一些话。说……说您与荷兰人有私情，用他们的钱来镇压自己的子民。起义军营地里有风声，说账本丢了。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-2",
+        "contrast_quote": "她熟练地撬开一扇未被完全锁死的侧窗，无声滑入伯爵的私人办公室。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "诺米诺埃在第50集爆炸中看似死亡，第53集却奇迹生还，缺乏合理的医学或物理解释。",
+      "reason": "爆炸威力巨大，且萨隆在50-2场明确断言‘没人能活下来’。53集的生还依赖‘暗河缓冲’这一未铺垫的地理细节，属于典型的‘天降救援’或‘假死’逻辑漏洞，影响角色死亡重量。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "萨隆（声音沙哑，带着难以察觉的颤抖）：别过去。那是从暗河里冲出来的。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "萨隆：他没了！那些该死的火药桶里塞满了铁钉和石块，没人能活下来！走！现在不走，我们都得死在这！"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第45集伯莎从起义军营地（沼泽/黑石村）迅速抵达伯爵城堡，且被守卫队长认出并移交，缺乏路程与时间交代。",
+      "reason": "前文显示伯爵军队封锁严密，伯莎作为通缉犯，穿越封锁线抵达城堡的过程被省略，导致其‘自首’或‘被俘’的转折略显突兀。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "暮色如血，浸透了护城河边的枯草。伯莎跌坐在泥淖中，粗布长裙被荆棘撕扯得支离破碎",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-2",
+        "contrast_quote": "她转身，向着浓雾更深、危险更甚的南方，迈出了坚定的步伐。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "蒂娜的护身符作为情感纽带，贯穿全剧，最终在诺米诺埃临终时归还，完成了情感闭环。",
+      "reason": "护身符在第16集蒂娜死亡时出现，第19集诺米诺埃佩戴，第53集诺米诺埃临终归还，逻辑清晰，情感递进合理，增强了角色关系的深度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-2",
+        "quote": "诺米诺埃看着伯莎手中的护身符，嘴角极其缓慢地扯动了一下，那是一个比哭还难看的苦笑。他没有指责，没有质问，只是用尽最后力气，将护身符塞进伯莎紧握的掌心，轻轻合拢她的手指。",
+        "contrast_episode": "第16集",
+        "contrast_scene": "16-1",
+        "contrast_quote": "蒂娜用尽全身力气，将护身符强行塞入伯莎紧攥的右手中。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E007",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第27集亨利·德·瓦尔吉轻易向伯莎泄露军事命令，动机仅为‘父亲磨坊’，缺乏足够的利益权衡铺垫。",
+      "reason": "亨利作为皇家军官，泄露军情属叛国重罪。仅凭伯莎提及其父亲财产，不足以支撑其背叛风险，动机强度不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-1",
+        "quote": "亨利（沉默片刻，从怀中掏出一张被汗水浸湿又冻硬的羊皮纸，手在发抖）：今晚子时。北境三村。那是切断你们补给线的命令……也是烧毁无辜者的命令。",
+        "contrast_episode": "第27集",
+        "contrast_scene": "27-1",
+        "contrast_quote": "伯爵的“净化”之火，烧得掉我的异端之名，烧得掉你父亲在朗代诺的三座磨坊吗？"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E008",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第41集间谍在萨隆仓库放置伪造信件，第42集诺米诺埃从‘后勤箱’取出，但前文未明确该箱为诺米诺埃可随意取用的位置。",
+      "reason": "间谍放置信件的位置（萨隆仓库）与诺米诺埃取信的位置（后勤箱）存在空间模糊，且诺米诺埃如何确知信件在此处缺乏逻辑支撑，疑似巧合。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "诺米诺埃从后勤箱中取出那封伪造的信件。",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-2",
+        "contrast_quote": "间谍从怀中取出一封折叠的信，信封上盖着粗糙模仿的伯爵家族纹章。他将信件塞入箱子最上层"
+      }
+    }
+  ]
+}

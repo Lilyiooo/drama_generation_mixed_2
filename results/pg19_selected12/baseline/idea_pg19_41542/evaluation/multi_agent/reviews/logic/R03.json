@@ -1,0 +1,162 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了较为完整的复仇与救赎闭环，核心因果链（罗斯发现假死->潜入调查->获取证据->法庭反转）逻辑自洽，角色动机（保护孩子、复仇）贯穿始终。主要逻辑缺陷集中在：1. 关键道具（录音笔）在火灾中幸存且能播放出此前未提及的坐标信息，存在证据来源断裂；2. 罗斯作为审计员，其黑客技术（反向污染数据流、植入逻辑炸弹）超出职业常识，存在能力状态断裂；3. 第19-21集存在明显的场景与对话重复，导致剧情停滞；4. 部分配角（如中年妇女、管家）的行为逻辑在特定情境下略显工具化。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "录音笔中突然出现的坐标信息缺乏前文铺垫",
+      "reason": "第8集罗斯在通风管录制了爱德华关于'清障计划'的对话，第9集罗斯冒死从火场中抢救出该录音笔。然而在第10集，录音笔播放出的内容却是'旧码头3号仓库'的坐标。前文从未交代文森特或罗斯曾将坐标录制在此设备中，该关键线索（坐标）的出现缺乏获取路径和保存状态的支撑，属于A级证据线索断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "录音笔VO（失真）：...坐标...锁定... 录音笔VO（夹杂爆炸声）：...旧码头...3号...仓库...",
+        "contrast_episode": "第8集",
+        "contrast_scene": "8-3",
+        "contrast_quote": "罗斯（通过OS传达内心的嘶吼）：文森特还在……你是他们的囚徒！我要带你们出去，我发誓，就算把整个地狱搅得天翻地覆，我也要救你们出来！"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "罗斯的黑客能力远超其'审计员'身份设定",
+      "reason": "第4集罗斯自述'我曾是审计员'，第14集格特鲁德也确认其'曾是顶级的审计员'。但在第5集，罗斯能进行'反向污染数据流'、'挂载伪IP'、'烧掉追踪节点'等高阶黑客操作；第26集能'植入逻辑炸弹'威胁瘫痪通风锁死系统。这些能力远超普通财务审计员的技能边界，且缺乏学习或获取该技能的铺垫，属于A级能力状态断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "罗斯（眼神锐利）：我不防。我要反向污染数据流。 罗斯（单手操作，语速极快）：我在本地挂载一个伪IP，把病毒包伪装成正常请求发回去。这会烧掉他们的追踪节点，给我们争取断网时间。",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-1",
+        "contrast_quote": "罗斯：我曾是审计员。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第19集与第21集场景及对话高度重复",
+      "reason": "第19集19-1与第21集21-1几乎完全重复：安保推搡拾荒妇女、踢翻药瓶、罗斯尾随。第19集19-2与第21集21-2也高度重复：地下通道、妇女掏钥匙牌、罗斯现身、对话内容（'迷了路'、'盯着口袋'、'跟在我后面'）几乎一致。这种重复没有新增信息或情节升级，导致剧情停滞，属于A级事件重复。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "安保甲（大声呵斥）：滚远点！这地方也是你能窥探的？ 安保甲：把手里的袋子扔了！立刻滚出富人区！ 中年妇女（蜷缩颤抖）：别抢……里面是我女儿的药……",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-1",
+        "contrast_quote": "安保甲（大声呵斥）：滚远点！这地方也是你能窥探的？ 安保甲：把手里那袋垃圾扔了！这是医疗禁区，立刻滚出富人区！ 中年妇女（蜷缩颤抖）：别抢我的袋子……里面是我女儿的救命药……"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "中年妇女帮助罗斯的动机略显突兀",
+      "reason": "第20集和第21集中，中年妇女从警惕、威胁到最终主动将钥匙/工牌交给罗斯并让其离开，转变过程较快。虽然可以推断为'同病相怜'或'对体制的反抗'，但缺乏具体的情感触发点或决策过程铺垫，需要观众自行补全，属于B级行动动机缺失。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-3",
+        "quote": "中年妇女（突然塞给罗斯一把生锈的机械钥匙）：拿着。这是后门通风管的备用锁。 中年妇女（眼神躲闪却异常坚定）：快滚。他们十秒后就会封死侧门。",
+        "contrast_episode": "第20集",
+        "contrast_scene": "20-1",
+        "contrast_quote": "中年妇女（死死盯着她）：那就跟在我后面，别发出声音。跟丢了，我就把你扔进焚化炉。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "圣心疗养院安保规则在罗斯多次潜入中逐渐失效",
+      "reason": "前文强调疗养院安保严密（'连只苍蝇都飞不进去'、'C级权限'、'生物识别'）。但罗斯先后通过伪造工牌、利用火灾混乱、利用停电、利用内部人员（护士、保安）的疏忽或合作多次进入核心区域。虽然每次都有具体原因，但整体安保系统的可靠性在剧情推进中不断被削弱，规则边界变得模糊，属于B级规则自毁。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "保安：这种伪装在这里行不通。 保安：我是这一区的巡逻长。 保安：我闻到了生人味。",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-1",
+        "contrast_quote": "罗斯OS：大门的自动扫描机制无懈可击，强行突破等于自杀。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "罗斯利用'精神病'标签进行反杀的逻辑闭环",
+      "reason": "第37集爱德华律师利用伪造病历申请强制监护，第38-39集罗斯利用媒体和警方暴力制造'疯子'人设以隐身，第51-52集罗斯在法庭上利用声纹比对和录音证据反转，证明'疯子'才是清醒者。这一系列操作因果清晰，前因（被污名化）支撑后果（利用污名化反杀），属于A级因果链设计质量。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "精神科医生（点头，打开终端）：可以进行实时声纹比对。 多莉（惊慌）：没必要！她肯定是被人洗脑了！ 罗斯：怕了？多莉阿姨，你怕的是真相，还是你那层体面的金漆？",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "爱德华律师（冷笑，眼神阴鸷）：一个带着私生子、满身伤痕、在泥地里打滚的女人，只要我说她疯了，全城都会信。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E007",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "罗斯从'求生'到'复仇'再到'救赎'的性格弧光完整",
+      "reason": "罗斯的性格变化有明确的事件驱动：第1-3集为保护孩子求生；第4-10集为获取真相复仇；第11-20集为深入虎穴营救文森特；第21-30集为利用混乱反击；第31-40集为建立联盟；第41-50集为最终决战；第51-60集为法律胜利与社会救赎。每个阶段的变化都有充分的情节支撑，属于A级性格动机稳定性。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "罗斯（抬头望向远处的城市天际线，阳光正好）：活着就好。为了每一个在暗夜中独自前行、却依然选择仰望星空的母亲。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-3",
+        "contrast_quote": "罗斯OS：等我拿到真相，我会让这一切付出代价。"
+      }
+    }
+  ]
+}

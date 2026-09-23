@@ -1,0 +1,350 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本人物塑造整体完成度较高，主角苏半夏与陆离的辨识度、弧光及关系张力均达到A级标准，配角功能明确且服务于主线。主要问题在于反派（继母、王爷）动机相对单一，部分配角（如骗神）在后期存在功能重叠或降智倾向，以及陆离失忆后的行为逻辑在部分场景（如第54集）略显突兀。情节规划方面，桥段递进清晰，情绪节奏紧凑，但中后段（第40-50集）存在部分信息重复和节奏放缓迹象。台词风格化明显，但部分场景存在过度打磨和说明性表达。视觉化描写基本合格，但部分关键动作指示模糊。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如苏半夏的舆论战、陆离的毒发危机）大多承担不同功能，通过新变量（如从京城到北境，从继母到王爷）形成有效变奏。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "苏半夏（高声，带着夸张的哭腔却字正腔圆）：哟，继母说得对！我们陆将军是病中胡言。可这满街的‘大雍好百姓’，难道是瞎子不成？"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（黑虎、继母、王爷、天罗）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（武力、舆论、政治、身份）。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "继母（站起身，手中丝帕掩鼻，语调尖酸刻薄）：离儿，既然来了，就跪下谢罪。或许看在你父亲曾为帝国流血流汗的份上，娘能留你全尸，让你死得痛快些。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "医神（声音微颤，目光死死盯着木雕背面）：苏姑娘，这木雕……你随身携带多久了？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "苏半夏：大家快来看呐！这黑心屠户欺压老弱病残啊！光天化日，杀人放火！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 3,
+      "reason": "主体节奏成立，但部分阶段（如第40-50集）偏慢，蓄力不足，存在重复解释和过渡。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "苏半夏（低声，严厉）：松手。现在出去，你就是众矢之的。他们不需要真相，只需要一个发泄口。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "陆离：你愿意……嫁给我吗？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-2",
+        "quote": "苏半夏（极低声音，对着沉睡的陆离）：睡吧。等你醒来，我们去北境尽头，看看是谁杀了你爹。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "分布基本可接受，但部分集数（如第40-50集）过密或过疏，稳定性有限。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "智囊（手指点在几行红色朱批上）：更糟糕的是，资金流向显示，这笔钱并非来自国库，而是通过京城几大钱庄洗钱后，秘密汇入西郊废庙的一个私人账户。幕后指使者……正是王爷。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但局部有可压缩的重复、过渡或低增量集数。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "苏半夏（声音清冷，穿透嘈杂）：统领大人，手中的枪，是用来杀敌报国，还是用来屠戮忠良遗孤？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "智囊（深吸一口气，单膝跪地，将残片双手奉上）：晚辈是苏姑娘母亲当年的书童。这位是骗神，姑娘母亲义子；这位是武神，姑娘母亲救命恩人之子；医神则受师命守护姑娘至今。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "陆离（睁开眼，眼中泪光未干，却是一片清明）：父亲留给我的，从来不是复仇的兵权，而是活下去的底气。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "陆离的弧光完整，从复仇者到守护者，关键转折具有事件驱动和主动选择。",
+      "reason": "起点缺陷（仇恨驱动）、关键转折（第56集记忆恢复与契约撕毁）、终点变化（建立孤儿院）均有证据，且变化由强驱动事件逼出主动选择。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "陆离：这张纸，是你救我的证明。那时候，我只为了活着，为了复仇。我以为有了它，就有了存在的意义。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏的内在矛盾（算计与深情）在多个关键节点被充分戏剧化。",
+      "reason": "存在明确内在矛盾及实质剧情展现，如第20集咬血、第52集以血为引，有效两难、脆弱呈现或犯错承担后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "苏半夏：以血为引，生死同命。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "继母和王爷的动机支撑较薄，主要依赖口头设定，与主角的对照、升级过程或关键压迫场面不足。",
+      "reason": "动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "继母（低声自语，语气轻柔却渗人心脾）：老爷，您的好儿子，终于肯认命了。这祠堂里的肮脏，正好配你们陆家百年的脊梁。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系存在至少两类明确张力来源，能够稳定支撑主线或重要副线。",
+      "reason": "核心关系存在至少两类明确张力来源（身份立场、情感依赖、秘密误会），能够稳定支撑主线或重要副线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "陆离：你是我的。契约是假的，但我是真的。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "reason": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "陆离：我是镇国将军。我要买你的命，做我的夫人。为期一年，负责清理门户。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "陆离：军资欠条，共八十七张，总额一百二十万两。明日辰时，黑虎帮若收不到钱，就收我的命。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "情感投入度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "已有基本情感连接，但重要选择的代价、关系回收或情绪持续性不足。",
+      "reason": "已有基本情感连接，但重要选择的代价、关系回收或情绪持续性不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "陆离：你喝酒的样子，很丑。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现过度打磨痕迹，不影响整体。",
+      "reason": "局部出现过度打磨痕迹，不影响整体。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "陆离：你要是总怀疑别人要跑，那你不如信一回我。我不跑，因为你长得……像个大核桃，虽然不好看，但是没有咬过我。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E009",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "动作指示模糊或缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "个别关键动作模糊，影响局部表演或分镜。",
+      "reason": "个别关键动作模糊，影响局部表演或分镜。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "苏半夏：以血为引，生死同命。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E010",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "医神（压低声音，语速极快）：“千机毒”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

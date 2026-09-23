@@ -1,0 +1,372 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角罗斯具有鲜明的“审计员/猎人”人设，其从被动逃亡到主动布局、利用规则反杀的反派过程构成了完整且有力的人物弧光。配角格特鲁德与反派爱德华、多莉的功能定位清晰，反派动机（永生计划/资产转移）与主角行动形成有效对冲。人物关系（罗斯-格特鲁德、罗斯-文森特）在危机中建立了深厚的情感绑定。主要问题在于部分情节推进依赖巧合（如中年妇女恰好提供钥匙、录音笔恰好留下坐标），以及部分配角（如中年妇女、前会计师）的工具人属性较强，缺乏独立弧光。整体人物质量处于高水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "剧本通过“潜入-反杀-布局”的变奏避免了简单重复。例如第1集钻管道逃生，第8集钻管道窃听，第29集钻管道躲避，虽然场景相似，但每次的功能（生存、取证、脱身）和结果（受伤、获得证据、暴露位置）均有不同增量，且随着剧情推进，罗斯的手段从物理躲避升级为心理战和技术战。",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-2",
+        "quote": "罗斯OS（声音带颤）：清障……消除记忆……他们要把他变成怪物！不只是多莉，还有爱德华！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "多莉代表法律与社会性死亡（强制监护、精神病鉴定），爱德华代表暴力与物理消灭（杀手、海上堡垒），格特鲁德代表生存资源与道德灰色地带。三种阻力迫使罗斯采取不同策略：对抗多莉靠舆论和法律漏洞，对抗爱德华靠潜入和证据，依赖格特鲁德靠利益交换和情感羁绊。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "爱德华律师：我要让法官在他们看到那些脏水之前，先给罗斯扣上“精神鉴定”的帽子。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "场景从封闭空间（公寓、地下室）逐步扩展到半开放（街道、码头）再到极端环境（海上豪宅、法庭），空间的变化映射了罗斯掌控力的提升。每个关键场景都带来了新的信息（如第8集听到永生计划，第15集拿到账本）或关系变化（如第18集与格特鲁德决裂又和解）。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-3",
+        "quote": "罗斯（快速翻阅，瞳孔收缩）：圣心疗养院……地下资产转移……全是真的！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "第1集开篇即高潮，罗斯在警察破门和媒体围堵下带着婴儿钻入下水道，迅速建立了“绝境求生”的核心情境和“文森特假死”的核心悬念。信息组织紧凑，人物目标（保护孩子、查明真相）清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯OS：警察、记者，还有多莉的私生女...这是清算。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段（10-30集）通过“寻找文森特”和“建立情报网”两条线交替推进，避免了单一追逐的疲劳。第33集揭示“永生计划”真相是一个重要的情绪转折点，将单纯的复仇升华为对抗非人化实验的道德战争。后段（40-50集）节奏加快，高潮迭起。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "前会计师：他是个活体金库。文森特的脑子里，装着整个家族几代人的财富密钥。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪从开篇的惊恐、中段的压抑与愤怒、到后期的决绝与释然，曲线清晰。第59集罗斯在深夜痛哭释放了长期压抑的情绪，为第60集的平静结局做了充分铺垫。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "罗斯（无声痛哭，身体剧烈颤抖）：啊……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "每集结尾通常留有悬念或危机。例如第10集结尾罗斯决定前往旧码头，第18集结尾罗斯独自前往疗养院，第43集结尾罗斯驾船冲向海上豪宅。这些节点有效驱动了观众的连续观看欲望。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-3",
+        "quote": "罗斯（眼神狠厉，加速冲向前方）：地狱，我来了。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "整体分布较为均衡，但部分集数（如19-21集）在罗斯潜入疗养院的过程中，信息密度略低，主要依靠动作和对话推进，缺乏新的核心信息增量，稍显拖沓。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "中年妇女：镜头和刀子一样，防不住。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线推进总体流畅，但第19-21集罗斯跟踪中年妇女进入疗养院的过程，与第22集直接抢夺管家文件相比，显得铺垫过长且手段单一（依赖他人失误），存在轻微的注水感。",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-2",
+        "quote": "中年妇女：跟丢了，我就把你扔进焚化炉。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（格特鲁德的酒馆、互助网络）不仅丰富了人物形象，还在关键时刻提供了支持（如第34集格特鲁德掩护罗斯，第40集互助网络提供情报）。副线与主线形成了有效的互文和因果联动。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "罗斯：我要建立一张网。一张没有名字、没有身份的“影子情报网”。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线“查明文森特真相并复仇”贯穿始终，每个阶段（逃亡、潜入、反击、审判）都有明确的看点和兑现。第51-54集的法庭戏是对前期所有证据收集的集中兑现，逻辑闭环完整。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "法官：被告爱德华·V。经查，你犯有谋杀、非法拘禁及巨额洗钱罪。罪证据确凿，足以定你死罪。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角罗斯具有完整且有力的人物弧光，从被动逃亡的受害者转变为主动布局的复仇者。",
+      "reason": "起点是保护孩子和查明真相的被动防御（第1集），转折点是第8集听到“永生计划”后决定主动出击，以及第18集切断与格特鲁德联系独自行动，终点是第54集在法庭上公开真相并建立互助网络。每次变化都有强驱动事件（如第9集火场救录音笔）和不可逆后果（如第18集失去安全屋）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "罗斯（按下了删除键，屏幕显示操作成功）：时间不多了。圣心疗养院的安保图我已经拿到了，那是虎穴。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "罗斯OS：警察、记者，还有多莉的私生女...这是清算。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角罗斯展现了复杂的内在矛盾，在道德底线与生存需求之间挣扎。",
+      "reason": "罗斯多次面临两难选择：第4集为生存接受格特鲁德的非法交易，第38集为胜利牺牲隐私尊严，第40集利用弱势女性的不幸建立情报网。这些选择体现了她“为了孩子无所不能”的信念与道德良知的冲突，增加了人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "罗斯（眼眶含泪，却无比坚硬）：把尊严撕碎，是为了把刀磨得更锋利。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-3",
+        "contrast_quote": "格特鲁德：你是在利用她们的不幸。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角格特鲁德功能明确，与主角形成有效互补，反派爱德华威胁稳定。",
+      "reason": "格特鲁德提供了生存资源和道德灰色地带的视角，其“冷血外表下的温情”与罗斯的“理性外表下的感性”形成对照。爱德华作为反派，其“永生计划”的动机和手段（脑波提取）具有持续威胁性，且与主角的行动形成有效对冲。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "格特鲁德（将一把干净的外套扔在罗斯身上，遮住伤口）：因为你那股不要命的劲儿，让我这个老寡妇觉得自己的命也不算太长。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-2",
+        "contrast_quote": "前会计师：他是个活体金库。文森特的脑子里，装着整个家族几代人的财富密钥。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "罗斯与格特鲁德的关系存在多重张力，情感绑定深厚。",
+      "reason": "两人关系包含利益交换（第4集）、信任危机（第18集罗斯切断联系）、情感依赖（第36集格特鲁德照顾罗斯）和价值观冲突（第40集格特鲁德质疑罗斯利用女性）。这些张力使关系具有深度，且对主线推进至关重要。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "格特鲁德（眼中闪过一丝痛色，但随即掩饰）：那就去送死好了。反正你也留不住。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "格特鲁德（沉默片刻，叹息一声）：这世界本来就不值得被爱，尤其是在它露出獠牙的时候。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分配角（如中年妇女、前会计师）功能单一，缺乏独立弧光。",
+      "reason": "中年妇女主要作为罗斯进入疗养院的工具（提供钥匙），前会计师主要作为信息提供者（提供密码和真相），他们的个人目标和情感立场较弱，可替换性较高。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-3",
+        "quote": "中年妇女（突然塞给罗斯一把生锈的机械钥匙）：拿着。这是后门通风管的备用锁。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-2",
+        "contrast_quote": "前会计师：所有的资金最终都流入了一家地下实验室。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇高效建立核心人物、异常情境和戏剧问题，形成强后续期待。",
+      "reason": "第1集通过罗斯在警察和媒体围堵下带着婴儿钻入下水道，迅速建立了“绝境求生”的情境和“文森特假死”的悬念。信息组织紧凑，人物目标清晰，有效驱动了观众的阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "罗斯OS：通风管道直通地下排水系统，这是我唯一的生路。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，形成稳定后续期待。",
+      "reason": "主角目标（查明真相、保护孩子）与阻力（多莉的法律追杀、爱德华的暴力清除）清晰，风险（失去孩子、死亡）明确。第2集发现文森特假死，进一步增强了矛盾的复杂性和后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "罗斯（声音发颤）：文森特七岁时烧烫伤，左手虎口有疤。这人……没有。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分悬念兑现依赖巧合，削弱了逻辑严密性。",
+      "reason": "例如第10集录音笔恰好留下坐标，第19-21集中年妇女恰好提供钥匙，第44集爱德华恰好发送假照片。这些巧合虽然推动了剧情，但缺乏充分铺垫，影响了冲突兑现的说服力。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "录音笔VO（微弱断续）：...我在那...等着...",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-2",
+        "contrast_quote": "中年妇女：多亏那个看门的保安肯收我的贿赂，我才有机会进这一区。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格高度绑定。",
+      "reason": "罗斯的台词冷静、理性，常使用审计和逻辑术语（如“反向污染数据流”、“元数据篡改”）；格特鲁德的台词粗粝、直接，带有市井气息（如“贱命”、“老寡妇”）；爱德华的台词傲慢、冷酷，强调控制和权力（如“提线木偶”、“系统升级”）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "罗斯（眼神锐利）：我不防。我要反向污染数据流。",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-1",
+        "contrast_quote": "格特鲁德（吞云吐雾）：命？你那贱命不值钱。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "场景与动作描写质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "场景描写清晰，动作精准可执行，画面感强。",
+      "reason": "剧本对场景的空间、氛围和细节描写具体，如第1集“警笛声尖锐刺耳，混合着楼下挖掘机的轰鸣”，第29集“恶臭扑鼻，积水瞬间没过头顶”。动作指示明确，如第15集“罗斯如鬼魅般从横梁滑落，落地无声”，便于导演和演员执行。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "恶臭扑鼻，积水瞬间没过头顶。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E011",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定分阶段释放，与剧情高潮精准绑定，信息量可吸收。",
+      "reason": "“永生计划”和“脑波提取”等核心设定在第33集通过前会计师之口揭示，此时罗斯已掌握部分证据，观众对真相的期待达到高点，设定释放时机恰当。其他设定（如多莉的法律手段、爱德华的暴力手段）随剧情逐步展开，避免了信息过载。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "前会计师：你看这个子文件夹的名字……“永生计划”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

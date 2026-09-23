@@ -1,0 +1,372 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角顾长风与沈晚晴的人物弧光完整，从利益结盟到生死相托，情感递进自然且充满张力。配角阿四、铁蛋、白叔功能明确，性格鲜明，有效支撑了主线。反派赵氏与赵显的动机清晰，压迫感强。情节规划方面，桥段设计巧妙，情绪节奏紧凑，主副线交织紧密，高潮与收束有力。台词风格化明显，视觉化描写具备较强的可执行性。整体质量显著高于同题材常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如智斗、危机）通过新变量（如从市集到军营，从口头到实物证据）形成有效变奏，推进了人物关系和主线局面。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "沈晚晴（端起碗，舀起一勺递到一名消瘦士兵嘴边）：吃！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（赵氏、李傲、赵副将、赵显）代表不同资源与压力类型，迫使主角采用不同策略（如舆论、商业、军心、武力）。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "副将（斜倚在账案旁，摇着折扇，一脸轻蔑）：顾督粮官，眼拙了？这便是库房。空荡荡的，因为都被老子拿去“练兵”了。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果，如从京城宅斗到边境军争，层层递进。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "沈晚晴（从怀中掏出一枚生锈的古铜钱，高举过头）：慢着！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，通过顾长风中毒与沈晚晴的“招夫”迅速形成戏剧张力。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-3",
+        "quote": "沈晚晴（微笑）：做我丈夫的借口。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段依靠阶段目标（夺权、查毒）和小高潮（招标、接风宴）推进，后段完成充分升级（边境危机、身份揭露）与收束。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "沈晚晴（猛地将匕首划破手腕，殷红的鲜血顺着指尖滴落，带着滚烫的温度）：回！只要你跟我回去，这毒，我替你挡！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷（如假死、身份揭露、解毒）有铺垫，高潮兑现了“复仇与守护”的主要情绪承诺。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-3",
+        "quote": "沈晚晴（单膝跪地，直视他的双眼，字字泣血）：我是前朝遗孤沈晚晴，也是你顾长风此生唯一的妻子！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定，类型有变化（悬疑、动作、情感），并在合理时点有效兑现，如“寒酥散”的解药之谜贯穿全剧。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "白叔（猛然抬头，脸色惨白，声音干涩）：姑娘，您没听错。顾长风体内的毒素，与他母亲当年服用的毒药，同源同宗！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段（如京城夺权、边境决战）有意识地增加密度，铺垫与高潮匹配。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "赵氏（眼底闪过一丝得逞的快意）：长风果然豪迈。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫（如阿四截获密信）服务后续结果，无明显注水。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-2",
+        "quote": "阿四（走到桌前，将蜡纸展开）：这是赵显书房里的通敌密信拓印，虽然没拿到原件，但这上面的内容，够他掉脑袋了！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（如沈晚晴身世、李傲商业局）稳定补充人物与冲突，并在关键节点（边境停战、解毒）反哺主线。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "沈晚晴（深吸一口气，声音凄厉且坚定）：吾乃前朝遗孤，受命护北境！此物为证，谁敢伤她身后之人，便是与整个前朝死士为敌！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力，阶段看点（夺回兵权、揭露通敌、解毒）有效兑现，每次兑现都改变局面。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "顾长风（从怀中取出诏书，猛然一撕）：这封侯诏书，臣撕了！"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角顾长风与沈晚晴的弧光完整，起点缺陷、关键转折与终点变化均有强证据支撑。",
+      "reason": "顾长风从“落魄将军”到“守护新城的普通人”，沈晚晴从“利益算计者”到“前朝遗孤/守护者”，每次变化都由强驱动事件（中毒、身份揭露、解毒）逼出主动选择并产生不可逆后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "顾长风（走到火盆旁，毫不犹豫地将那块象征无上权力的金印也扔了进去）：好烫！但我心里凉快多了。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-3",
+        "contrast_quote": "顾长风（OS）：这就是结局吗？十年沙场，竟落得债台高筑、任人宰割的下场。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "reason": "顾长风在复仇与守护之间的挣扎（如第25集欲血洗赵府被沈晚晴阻止），沈晚晴在身份暴露与保护顾长风之间的抉择（第45集），均体现了深层的人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "沈晚晴（突然发力，将顾长风手中的剑尖强行按在自己手背上，鲜血瞬间渗出，滴落在青砖上）：你想杀，也得先把你自己的命保住。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-3",
+        "contrast_quote": "沈晚晴（单膝跪地，直视他的双眼，字字泣血）：我是前朝遗孤沈晚晴，也是你顾长风此生唯一的妻子！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角功能明确，各有不可替代的专属功能，分工形成有效协作。",
+      "reason": "阿四负责情报与执行，铁蛋负责武力与警戒，白叔负责医疗与化学分析，三人性格鲜明（阿四的市井、铁蛋的冷峻、白叔的理智），有效支撑了主角的行动。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-1",
+        "quote": "阿四（咧嘴一笑，眼神狡黠）：捉活人？那得看运气。但把他吓出胆裂，我有十成把握。顾爷放心，我这不仅是去探路，更是去送“大礼”。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-2",
+        "contrast_quote": "铁蛋（落地，脚踏碎石，一步步逼近）：死人不需要问名字。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系存在多类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "顾长风与沈晚晴的关系包含利益（解毒/夺权）、身份（将军/前朝遗孤）、情感（依赖/牺牲）等多重张力，且随着剧情推进不断升级，最终通过“血解毒”和“身份揭露”达到高潮。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "沈晚晴（猛地将匕首划破手腕，殷红的鲜血顺着指尖滴落，带着滚烫的温度）：回！只要你跟我回去，这毒，我替你挡！这命，我替你救！",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-3",
+        "contrast_quote": "沈晚晴（微笑）：做我丈夫的借口。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收。",
+      "reason": "从“契约婚姻”（第5集）到“生死同盟”（第17集），再到“身份揭露与情感升华”（第45集），关系推进本身构成连续叙事动力，最终在“解毒”和“建城”中完成回收。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "沈晚晴（将文书卷起甩进怀中，大声）：从今日起，顾长风是我沈晚晴的男人！谁要是敢动他，先问问我手里的刀答不答应！",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-1",
+        "contrast_quote": "顾长风（单膝跪地，从怀中取出一枚粗糙却打磨光滑的铁戒）：晚晴，这戒指是当年战场上的废铁片，是我身经百战的见证。如今铸成戒指，许你余生安稳。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，形成强后续期待。",
+      "reason": "第1集通过顾长风中毒倒地与沈晚晴的“招夫”提议，迅速建立了“落魄将军”与“泼妇”的人物形象，以及“解毒/夺权”的核心问题，信息清晰且题材一致。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-3",
+        "quote": "沈晚晴（蹲下，直视顾长风）：我要钱，要命，还要一个能让我在这乱世站住脚的借口。你，正好有一个。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "目标（解毒/夺权）、核心阻力（赵氏/赵显）、风险代价（死亡/身败名裂）高度清楚，且“寒酥散”的解药之谜与“通敌”阴谋形成相互咬合的期待链。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "白叔（把脉，摇头）：寒酥散深入骨髓，寻常草药如杯水车薪。",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-1",
+        "contrast_quote": "白叔（猛然抬头，脸色惨白，声音干涩）：姑娘，您没听错。顾长风体内的毒素，与他母亲当年服用的毒药，同源同宗！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键边界持续由人物选择、局面变化或高价值信息自然产生期待；承接及时，兑现带来新的因果、关系和情绪增量。",
+      "reason": "如第34集接风宴的“假死”悬念，在第35-37集通过“茶盏显影”和“顾长风暴起”有效兑现，并引出“皇帝警告”的新局面，情感投入持续累积。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "顾长风（七窍渗出黑血，身体如抽鞭般扭曲倒向一边）：沈……沈晚晴……我没力……",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-1",
+        "contrast_quote": "顾长风：休得放肆！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E009",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "reason": "沈晚晴的台词充满市井智慧与狠厉（如“情绪补偿费”），顾长风的台词从冷硬到温柔（如“余生，请多指教”），阿四的市井气、铁蛋的冷峻、白叔的理智均通过台词清晰呈现。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "沈晚晴（冷笑）：我没抢钱，我只是在遵循契约精神。当然，若觉得钱贵，我们可以折现成劳务。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "顾长风（回头，低头在沈晚晴额头上落下一个轻吻）：余生，就麻烦夫人指教了。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E010",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如“火盆烧密诏”、“血解毒”等，意象描写完整。",
+      "reason": "第56集“火盆烧密诏与金印”、第52集“血解毒”等场景，通过色彩（火光、鲜血）、道具（密诏、金印、匕首）和动作（扔、划破手腕）形成了高度可辨识的视觉组织。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "沈晚晴（看也不看那飞起的密诏，手腕猛地一拍，将其狠狠拍入火盆之中）：从今往后，世间无皇室，只有沈晚晴！",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "沈晚晴（猛地将匕首划破手腕，殷红的鲜血顺着指尖滴落，带着滚烫的温度）：回！只要你跟我回去，这毒，我替你挡！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E011",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "“寒酥散”的设定从第2集提出，到第24集揭示与顾母之死的关联，再到第52集通过“血解毒”完成闭环，分阶段释放并与剧情高潮精准绑定。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "白叔（把脉，摇头）：寒酥散深入骨髓，寻常草药如杯水车薪。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-3",
+        "contrast_quote": "沈晚晴（站起身，将虚弱的顾长风护在身后，眼神冷冽如刀）：赵显，你错了。寒酥散是前朝用来清除异己的剧毒，但我沈晚晴的血，是唯一的解药！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角埃德蒙的弧光主要由外部事件驱动，缺乏内在信念或行为模式的主动转变，变化链条单薄。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "埃德蒙：一无所有，才无所畏惧。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-2",
+        "contrast_quote": "埃德蒙：三十换一，这笔账，你算不过来？"
+      },
+      "reason": "三位评审均指出主角缺乏内在成长。证据显示埃德蒙从第1集到第60集，核心行为模式（利用感官、心理施压、冷酷计算）未发生本质改变。虽然处境从囚禁到掌权，但内在信念（复仇/生存）始终如一，缺乏两难选择带来的信念重塑。符合A级“变化可识别，但主要由外部结果被动带来”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角埃德蒙缺乏可见的内在矛盾、脆弱面或错误代价，关键决策始终正确且无需付出情感代价。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "埃德蒙：三十换一，这笔账，你算不过来？",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-1",
+        "contrast_quote": "埃德蒙：我在疼。但我把疼折叠起来，变成了这一记敲门的节奏。"
+      },
+      "reason": "R02和R03评为S级，R01评为A级。审核认为定为A级更合理。虽然埃德蒙极少犯错，但第49集明确展示了他的痛苦（“我在疼”），且第47-48集牺牲汉斯等旧部对他造成了心理冲击（通过艾德里安的崩溃侧面反映，以及他后续的冷静压制）。他并非完全无情感波动，而是将情感压抑为工具。S级要求“长期只承担单一剧情功能...关键决策始终正确且无需付出代价”，而埃德蒙的决策（如牺牲汉斯）付出了巨大的道德和情感代价（尽管他试图理性化），且其“盲人全知”设定虽强，但并非全知全能（如第54集伯爵牺牲才换来情报）。因此，存在局部内在冲突和脆弱面，但未稳定影响重要决定，符合A级“文本声明创伤或复杂性，却很少通过两难选择...将其戏剧化”或B级偏上。鉴于其冷酷程度极高，A级扣分更贴切，S级过重。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "rejected",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角埃德蒙的语言和行为模式高度同质化，缺乏独特的情感层次，主要依赖“感官描述+冷酷指令”的单一模式。",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-1",
+        "quote": "埃德蒙：你的手在抖，像刚跑完急行军，还是刚做了什么亏心事。",
+        "contrast_episode": "第21集",
+        "contrast_scene": "21-1",
+        "contrast_quote": "埃德蒙：我在闻你。你的袖口有一股令人作呕的红泥味，那是你祖产边界的泥土。"
+      },
+      "reason": "该条目被拒绝。剧本中埃德蒙的“盲人感官”设定（听觉、嗅觉、触觉）是其核心辨识度来源，这种独特的语言习惯（描述气味、声音、触感）和行为模式（盲杖敲击节奏）在同类题材中极具区分度。虽然情感层次单一，但这属于“人物深度”或“弧光”的问题，而非“辨识度”缺失。相反，这种高度风格化的语言增强了其辨识度。S/A/B级辨识度问题通常指“替换成其他角色无需改变台词”，而埃德蒙的台词若替换给其他角色（如冯·克莱斯特）会完全违和。因此，不构成辨识度问题。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多数重要配角（奥古斯汀、汉斯、伯爵、管家）只承担递线索、制造误会或衬托主角功能，缺少个人目标与情感立场。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "汉斯：我会签。为了活命。但你也别想掌控我的一切！",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "奥古斯汀：我交出去……我都交出去……只求别让我死……"
+      },
+      "reason": "三位评审一致指出配角功能单一。汉斯、管家、奥古斯汀的行为逻辑主要围绕“恐惧”和“求生”，缺乏独立的Mini弧光或复杂动机。伯爵虽有背叛/忠诚的摇摆，但主要服务于主角的计划。符合A级“多数重要角色只承担...单一功能，缺少个人目标、选择逻辑与情感立场”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派奥古斯汀的动机主要依赖口头设定（嫉妒、权力欲），缺乏深层的创伤或价值支撑，与主角的对照不足。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "奥古斯汀：我想要的……只不过是被承认的地位……为什么这么难……",
+        "contrast_episode": "第32集",
+        "contrast_scene": "32-1",
+        "contrast_quote": "冯·克莱斯特：你获得了权柄？你只获得了我的疑心。"
+      },
+      "reason": "R02评为B级，R03评为A级。审核认为定为B级更合理。奥古斯汀的动机（嫉妒、渴望地位）在剧中通过多次对峙有所展现，并非完全停留在口头。他确实构成了威胁（如第39集投毒、第40集椅子陷阱），但后期确实出现降智和被动。A级要求“动机停留在单一恶意”或“明显降智降格”。奥古斯汀的动机虽薄，但有一定心理逻辑（伪善下的自卑），且前期威胁有效。后期降智是为了剧情推进，但整体塑造未达到A级“严重”程度，更符合B级“动机或威胁功能可识别，但支撑较薄...关键压迫场面不足”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角与重要配角的关系主要靠利益与任务推进，缺少关键行动、代价和后果证明真正的情感绑定。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "埃德蒙：同志？在那个仓库里，他们只是计算概率里的牺牲品。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "艾德里安：执行者……好的，陛下。我会成为那把刀，最冰冷的那把。"
+      },
+      "reason": "三位评审均指出关系缺乏情感深度。埃德蒙与艾德里安的关系虽有忠诚基础，但埃德蒙将其视为工具（“刀”），缺乏平等的情感交流。与奥古斯汀、汉斯、伯爵的关系更是纯粹的利用与胁迫。符合A级“最重要关系或多条重要关系主要靠利益与任务推进...缺少关键行动、代价和后果证明真正绑定”的标准。S级“没有任何关系...进阶”过于绝对，因为艾德里安对埃德蒙有旧部忠诚，且埃德蒙对艾德里安有教导/保护行为，虽冷酷但非纯利益。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E007",
+        "quality-R03-E007"
+      ],
+      "status": "rejected",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "核心关系（埃德蒙-奥古斯汀、埃德蒙-艾德里安）的张力来源单一，主要依赖“控制与反抗”，缺乏身份立场、目标利益、情感依赖、秘密误会和价值冲突等多类张力的咬合。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "艾德里安：三十条命换来的是宰相的软肋，而你只想把它变成你的裹尸布。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "奥古斯汀：我交出去……我都交出去……只求别让我死……"
+      },
+      "reason": "该条目被拒绝。首先，“关系设计与张力”在标准中属于“亮点”检查项，而非“问题”检查项。问题项中只有“情感绑定缺失”。其次，埃德蒙与奥古斯汀的关系存在身份立场（国王vs神甫）、目标利益（复仇vs权力）、价值冲突（冷酷vs伪善）等多重张力，并非单一。埃德蒙与艾德里安的关系也存在情感依赖（旧部忠诚）与价值冲突（冷酷vs人性）的咬合。因此，该问题不成立，且分类错误。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中后段大量重复“感官识破->心理施压->配角屈服”的桥段，缺乏新变量或关系升级。",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "埃德蒙：我在闻你。你的袖口有一股令人作呕的红泥味，那是你祖产边界的泥土。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-1",
+        "contrast_quote": "埃德蒙：我知道每一滴混入契约里的脏水，和你为了掩盖它付出的代价。"
+      },
+      "reason": "R01、R02、R03均给出行为等级2。证据显示第21-24集（汉斯）、第33-35集（伯爵）、第43-46集（奥古斯汀）确实重复了“埃德蒙通过感官发现秘密->心理施压->配角崩溃/屈服”的模式。虽然对象不同，但叙事结构和解决方式高度同质，缺乏新的变量或功能升级。符合等级2“持续套用桥段...推进和结果功能高度同质”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中后段存在持续停滞或重复解释，明显推迟阶段目标和主线结果。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "汉斯：清醒？我现在觉得自己像个在死人堆里跳舞的疯子！",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-1",
+        "contrast_quote": "汉斯：我什么都知道了。你那张名单，全是陷阱。我根本就是个死人。"
+      },
+      "reason": "R01、R02、R03均给出行为等级2或3，R01和R03为2。第21-24集对汉斯的反复施压、第33-35集对伯爵的反复谈判，存在大量重复对话和心理描写，缺乏实质性的外部事件推进，导致主线节奏放缓。符合等级2“存在持续停滞或重复解释，明显推迟阶段目标和主线结果”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词人物辨识度低",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "配角语言风格相近，身份、性格或关系差异没有体现在台词中。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "汉斯：我会签。为了活命。但你也别想掌控我的一切！",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "伯爵：好。我把黑木堡外围的所有地契都交给您保管。这是忠诚的最高形式。"
+      },
+      "reason": "R01评为B级。汉斯、伯爵、奥古斯汀在面临威胁时，台词均表现出恐惧、求饶、辩解的特征，语言风格高度相似，缺乏基于身份（贵族、商人、神甫）和性格的差异化表达。符合B级“个别角色台词与人设、身份或情境略有脱节，但未造成整体混同”或A级偏下。鉴于主角辨识度极高，配角混同感相对较弱，定为B级合理。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "心理活动或内心独白过多",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处以非OS/VO的“心想、意识到、内心崩溃”等不可拍信息替代可见动作，明显影响分镜落地。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "埃德蒙OS：回声延迟0.3秒，左侧墙后有两人。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "埃德蒙OS：他的心跳在加速，他在害怕被识破贪婪。"
+      },
+      "reason": "R01评为A级。剧本中大量使用埃德蒙的OS来解释感官感知和心理活动（如“回声延迟0.3秒”、“心跳加速”），这些内容无法通过画面直接呈现，依赖声音或字幕，增加了拍摄难度，且削弱了视觉叙事的张力。符合A级“多处以非OS/VO的...不可拍信息替代可见动作，明显影响分镜落地”的标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "issue",
+      "category": "设定与剧情脱节",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "设定在部分情节中有推动作用，但整体效率偏低；或少量说明外露，大量情节无需该设定也能成立。",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "埃德蒙：我在闻你。你的袖口有一股令人作呕的红泥味，那是你祖产边界的泥土。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-1",
+        "contrast_quote": "埃德蒙：我知道每一滴混入契约里的脏水，和你为了掩盖它付出的代价。"
+      },
+      "reason": "R01评为B级。“盲人感官”是核心设定，但在中后段被过度使用，沦为展示主角全知全能的工具，而非推动剧情的关键变量。许多心理博弈情节即使没有感官设定，仅靠对话也能成立，设定的独特性被稀释。符合B级“设定在部分情节中有推动作用，但整体效率偏低”的标准。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 23,
+  "covered_count": 23
+}

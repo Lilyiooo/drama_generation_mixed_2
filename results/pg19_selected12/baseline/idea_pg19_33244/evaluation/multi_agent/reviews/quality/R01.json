@@ -1,0 +1,416 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本构建了一个基于“声誉币”的强反乌托邦社会，核心冲突清晰（底层编辑米格尔对抗权贵萨瓦德拉）。人物塑造方面，主角米格尔的堕落弧光完整且极具张力，从坚守规则到被迫作恶，再到最终复仇，逻辑链条严密；配角胡莉亚的虚荣与背叛、马克西米娜的隐忍与决绝均服务于主题。反派萨瓦德拉虽略显脸谱化，但压迫感强。情节规划上，前中期节奏紧凑，矛盾层层递进，但中后段（第39-40集）存在明显的逻辑断层与情绪注水，主角精神状态转变缺乏充分铺垫，导致后续复仇行动的动机略显突兀。台词方面，部分场景（如第23集熔戒指、第55集自焚）具有强烈的视觉隐喻和戏剧张力，但部分对话存在过度说教和“金句堆砌”的问题，削弱了真实感。整体而言，剧本具备较高的戏剧吸引力，但在细节逻辑和人物心理过渡上仍有打磨空间。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如被羞辱、被剥夺权利）大多承担不同功能，通过新变量（从经济制裁到社会性死亡，再到物理隔离）形成有效变奏。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "收银员：（推回代币，冷漠地）您的等级只有“基础配给权”。这些药品属于医疗级优待商品，禁止向丁级以下公民售卖。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 3,
+      "reason": "主要对手萨瓦德拉及其代理人（律师、管家）在手段上高度同质化（法律威胁、经济封锁、舆论抹黑），缺乏不同维度的阻力类型，主要依赖同一套系统逻辑。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "律师：如果此刻，全城的屏幕都播放出你伪造门多萨还款流水的记录，结果会怎样？"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从公寓内的争吵到沙龙的公开羞辱，再到医院的生死抉择，层层递进。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "萨瓦德拉（张开手臂，做出邀请的姿态）：那就坐下吧，美丽的小姐。让我们看看，贫穷的亲戚和富贵的命运，究竟哪个更诱人。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1-2集迅速确立米格尔的“规则信徒”人设及声誉币世界观，第2集末的担保事件直接引爆核心矛盾。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "门多萨（突然抓住米格尔的手，力道极大）：你需要我！我是你最好的朋友，是你唯一的兄弟！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 2,
+      "reason": "存在明显平淡段或高潮失力。第39-40集米格尔的精神崩溃与黑化过程过于仓促且缺乏具体事件驱动，导致第41集后的复仇行动显得突兀，情绪积累断裂。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "米格尔（颤抖，指着虚空）：你也在这儿……萨瓦德拉？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。从压抑、绝望到最终的爆发与毁灭，情绪曲线完整。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-2",
+        "quote": "米格尔（在烈焰中闭上双眼，低声呢喃）：别怕，萨瓦德拉。这是编辑最后的排版……把你的虚伪撕开。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。每集结尾通常留有悬念（如债务增加、亲人危机、新威胁出现）。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-2",
+        "quote": "律师（微笑）：这是教育。在这个城市，贫穷不仅是数字，更是物理上的隔离。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "分布基本可接受，但部分集数过密或过疏。前20集信息密度极高，后10集（特别是39-40集）情节量骤减，主要靠内心独白填充。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "米格尔（内心独白，充满虚无）：是你吗？萨瓦德拉？还是我自己？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 2,
+      "reason": "存在持续停滞或重复解释，明显推迟阶段目标和主线结果。第39-40集米格尔的“发疯”状态缺乏外部事件推动，属于无效注水，阻碍了复仇主线的推进。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "米格尔（对着空无一人的空气惨笑）：这次，是我推倒了最后那一张牌。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。胡莉亚的堕落线直接导致米格尔的彻底孤立，马克西米娜的病情线是米格尔黑化的直接催化剂。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "胡莉亚：（冷酷地）系统提示，亲属认证链接已永久切断。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从还债到保命，再到复仇，主线目标清晰且不断升级。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "米格尔（对着虚空中的萨瓦德拉冷笑）：你拥有金钱，你拥有权力，你拥有所有的生杀大权。但你没有防住一个只会写字的编辑。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角米格尔具有完整的堕落与复仇弧光，起点（规则信徒）、转折（被迫作恶、亲人背叛）、终点（毁灭性复仇）均有强驱动事件支撑。",
+      "reason": "符合S级亮点定义：起点缺陷或信念、至少两个关键转折和终点变化均有证据；每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "米格尔：我会证明，勤奋与规则足以战胜一切。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-2",
+        "contrast_quote": "米格尔（在烈焰中闭上双眼，低声呢喃）：别怕，萨瓦德拉。这是编辑最后的排版……把你的虚伪撕开。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角内在矛盾通过两难选择（救妻vs出卖良心）被充分戏剧化，展现了脆弱面与道德挣扎。",
+      "reason": "符合A级亮点定义：有明确内在矛盾及实质剧情展现，至少存在一处有效两难、脆弱呈现或犯错承担后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "米格尔（看着那扇发光的门，又看着妻子枯槁的脸，喉咙里发出野兽般的悲鸣）：灵魂……能换回你的心跳吗？马克西米娜，对不起……真的对不起。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派萨瓦德拉动机主要依赖口头设定（权力快感），缺乏更深层的创伤或复杂价值支撑，且部分行为（如公开处刑）略显刻意。",
+      "reason": "符合B级问题定义：动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-2",
+        "quote": "萨瓦德拉（轻笑一声）：看？不，他们是在参与这场处刑。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "米格尔与胡莉亚的关系存在身份立场、目标利益、情感依赖等多重张力，移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "符合A级亮点定义：核心关系存在至少两类明确张力来源，能够稳定支撑主线或重要副线。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "胡莉亚（从镜中瞥向米格尔，眼神轻蔑而残忍）：没死呢，哥哥。我是第一次真正活过来。而你……才是那个已经入土为安的行尸走肉。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇高效建立人物、情境、核心问题和目标情绪，叙事方向清晰，迅速形成阅读动机。",
+      "reason": "符合A级亮点定义：人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "米格尔：（闭眼，猛地落下笔尖）为了过去的门多萨。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待（生存危机、道德危机）。",
+      "reason": "符合A级亮点定义：核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "银行职员（冷漠地念出标签含义）：负债者。永久标记。在这个城市，它比你的脸更容易被识别。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "跨集承接断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第39-40集米格尔的精神状态突变缺乏前文铺垫，导致第41集复仇行动的承接断裂，上一集的紧张感未获得相称推进。",
+      "reason": "符合A级问题定义：多处承接延迟、转向或降格，上一集的紧张、选择或信息没有获得相称推进。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "米格尔（惊恐）：别……别过来……我不卖了……我笔都已经停了……",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "米格尔（僵立如石）：这是……怎么回事？"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "对手与阻力的差异化",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "主要对手萨瓦德拉及其代理人手段高度同质化，缺乏不同维度的阻力类型。",
+      "reason": "符合B级问题定义：对手与阻力基本可区分，但部分阶段存在功能或解决方式重复。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "律师：如果此刻，全城的屏幕都播放出你伪造门多萨还款流水的记录，结果会怎样？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_emotion",
+      "kind": "issue",
+      "category": "中后段节奏",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "第39-40集存在明显平淡段，主角精神状态转变缺乏具体事件驱动，导致高潮失力。",
+      "reason": "符合A级问题定义：存在明显平淡段、前高后低或高潮失力，需要重排多个阶段才能修复。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "米格尔（颤抖，指着虚空）：你也在这儿……萨瓦德拉？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "第39-40集存在持续停滞或重复解释，明显推迟阶段目标和主线结果。",
+      "reason": "符合A级问题定义：存在持续停滞或重复解释，明显推迟阶段目标和主线结果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "米格尔（对着空无一人的空气惨笑）：这次，是我推倒了最后那一张牌。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E011",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分台词存在过度打磨痕迹，如排比复现、工整对仗，读感接近书面警句串联，影响真实感。",
+      "reason": "符合B级问题定义：局部出现过度打磨痕迹，不影响整体。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "马克西米娜：我在融化你的体面。看啊，米格尔，金属也会流脓。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E012",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如熔戒指、自焚等场景，意象描写完整且有效。",
+      "reason": "符合A级亮点定义：有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "△ 马克西米娜手很稳，将银白色的金属液倾倒在纸张上。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E013",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。声誉币、等级制度等设定随剧情推进逐步揭示。",
+      "reason": "符合A级亮点定义：设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "银行职员（头也不抬，慢条斯理）：担保人？先生，请查阅《紧急救济法案》第42条修正案。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

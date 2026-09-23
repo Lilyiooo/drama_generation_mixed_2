@@ -1,0 +1,262 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角罗斯具备鲜明的职业特征（审计员/黑客）与强烈的母性动机，人物弧光从“被动逃亡”到“主动布局”再到“社会正义”的升华清晰且有力。配角格特鲁德与反派爱德华、多莉均具备独立的行为逻辑与成长/堕落轨迹，角色功能分工明确，无冗余。人物关系（罗斯-格特鲁德、罗斯-文森特）张力充足，情感绑定通过具体事件（火场救录音、法庭对峙）得到充分验证。主要问题在于部分情节推进依赖巧合（如中年妇女恰好提供钥匙、黑客恰好破解），以及反派爱德华在后期为配合主角胜利而出现的逻辑降智（如轻易被烟雾干扰、引爆器失效），但整体人物质量显著高于常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（潜入、黑客、逃亡）通过新变量（不同地点、不同对手、不同目的）形成有效变奏，未出现结构性重复。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "罗斯紧贴着高处一根生锈的横梁...利用集装箱作为掩体，快速向纸袋掉落的方向狂奔。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "多莉（法律/舆论）、爱德华（暴力/科技）、格特鲁德（资源/庇护）代表不同压力类型，迫使主角采用不同策略（伪装、黑客、谈判）。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "爱德华律师：我要让法官在他们看到那些脏水之前，先给罗斯扣上“精神鉴定”的帽子。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择增量，顺序具有明显因果，如从地下酒馆到圣心疗养院再到海上豪宅，风险逐级升级。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-3",
+        "quote": "罗斯（眼神狠厉，加速冲向前方）：地狱，我来了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "第1集高效建立人物（单亲妈妈/审计员）、情境（被追杀）、核心问题（文森特生死），叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯OS：警察、记者，还有多莉的私生女...这是清算。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段依靠阶段目标（获取证据、建立联盟）和小高潮（火场、法庭）推进，后段完成充分升级（海上决战）与收束（审判、新生）。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "罗斯（举起U盘，直视爱德华）：爱德华，你刚才说你赢了？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，从压抑恐惧到愤怒反击，再到法庭的宣泄与结尾的宁静，关键峰谷有铺垫。",
+      "evidence": {
+        "episode": "第59集",
+        "scene": "59-1",
+        "quote": "罗斯（无声痛哭，身体剧烈颤抖）：啊……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定，类型有变化（生存、真相、情感），并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "罗斯（对着空气嘶吼）：你说你在哪！3号仓库？！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段（潜入、决战）密度高，过渡阶段（互助网络建立）密度适中，服务理解与蓄力。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "罗斯：我要建立一张网。一张没有名字、没有身份的“影子情报网”。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，无明显注水。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "罗斯：不是纵火，是制造混乱。爱德华每周三晚上都会在那里召开核心安全会议。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（互助网络、格特鲁德背景）稳定补充人物、信息、冲突，并在关键节点（提供情报、掩护）反哺主线。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-3",
+        "quote": "格特鲁德（被推搡着往外走，面容扭曲却带着决绝）：滚！你越跑，他们越追不上！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点（救文森特、揭发爱德华）有效兑现。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "法官：被告爱德华·V。经查，你犯有谋杀、非法拘禁及巨额洗钱罪。罪证据确凿，足以定你死罪。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角罗斯具有完整且有力的人物弧光，从被动逃亡的受害者转变为主动布局的复仇者，最终升华为社会正义的倡导者。",
+      "reason": "起点缺陷（被追杀、失去家庭）、关键转折（第9集火场救录音、第38集利用隐私反击、第54集法庭胜利）均有证据，每次变化都由强驱动事件逼出主动选择并产生不可逆后果，显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "罗斯（挺直腰背，迎上所有镜头，眼神坚定锐利）：我不会走。我会留在这里，用这笔信托基金去帮那些连呼吸都在挨骂的母亲。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-3",
+        "contrast_quote": "罗斯OS：等我拿到真相，我会让这一切付出代价。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角罗斯具有明确的内在矛盾（母性保护欲 vs 复仇冷酷性），并通过两难选择（如第38集交出隐私）被充分戏剧化。",
+      "reason": "内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "罗斯（眼眶含泪，却无比坚硬）：把尊严撕碎，是为了把刀磨得更锋利。",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-1",
+        "contrast_quote": "罗斯（嘶吼，抱紧婴儿）：不！我的录音笔！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角格特鲁德与反派爱德华、多莉功能明确，分工形成有效协作或对冲，持续制造推进力与人物层次。",
+      "reason": "主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。格特鲁德提供资源与情感支撑，爱德华提供核心阻力，多莉提供法律/舆论阻力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-3",
+        "quote": "格特鲁德（被推搡着往外走，面容扭曲却带着决绝）：滚！你越跑，他们越追不上！",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "爱德华（看着越来越远的城市，眼神阴鸷）：多莉那个蠢货早就死在了过去。而我，正在未来。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "罗斯与格特鲁德的关系存在至少两类明确张力来源（利益交换 vs 情感依赖），能够稳定支撑主线或重要副线。",
+      "reason": "核心关系存在至少两类明确张力来源，能够稳定支撑主线或重要副线。从最初的利益交换（第4集）到后来的情感依赖与牺牲（第46集），关系演进清晰。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-3",
+        "quote": "格特鲁德（转过头，死死盯着二楼的阴影）：听着，你这条烂命是借来的。活着还给我！",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-1",
+        "contrast_quote": "格特鲁德（转身走向暗处）：拿去吧。记住，这里只有利益，没有同情。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "反派爱德华在后期为让主角获胜而明显降智降格，威胁功能减弱。",
+      "reason": "前期强威胁、高智商，后期为让主角获胜而明显降智降格。例如第45集被烟雾轻易干扰，第49集引爆器轻易被切断信号，缺乏合理的逻辑支撑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "罗斯（一脚踢飞引爆器）：这就是你们这些人，总以为躲在高高在上的堡垒里就能操控生死。",
+        "contrast_episode": "第8集",
+        "contrast_scene": "8-2",
+        "contrast_quote": "爱德华：我不只要他活着，我还要他变得听话，像一个没有过去、只属于“V”家族的提线木偶。这是最后的清障计划。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主角罗斯在部分场景中的语言习惯与行为模式略显通用，专属语言不足。",
+      "reason": "性格基本清晰且部分场景可辨，但专属语言、标志行为或独特决策方式不足。例如在紧张场景中，台词多为通用的威胁或陈述，缺乏独特的修辞或口头禅。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "罗斯（镇定下来，赌徒心态）：您在躲避检查吗？",
+        "contrast_episode": "第16集",
+        "contrast_scene": "16-2",
+        "contrast_quote": "罗斯（冷漠地）：一份足够让多莉和爱德华互相撕咬的“盛宴”。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "experiment": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1",
+  "generated_at": "2026-09-23T11:05:52.039904+00:00",
+  "comparison": "PG19 candidate structured-state hybrid gate minus matched direct-outline all-history baseline",
+  "pairing": {
+    "comparison": "paired by sample_id; identical world, roles, story outline and episode outlines",
+    "dataset": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/pg19_k10_length_samples_5x_20260922_062857/selected_chinese_12/pipeline_inputs_zh.jsonl",
+    "dataset_sha256": "dff1530a6e55df4600ac980362b6fb24c7857228108ffa409e2accfe87ba2376",
+    "candidate_root": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1",
+    "candidate_protocol": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/protocol.json",
+    "candidate_protocol_sha256": "a02cabb700b633164d208a1b2c6028550ba5fe639592ca7cfe7546b0c5a1b98c",
+    "baseline_root": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1",
+    "samples": [
+      {
+        "sample_id": "idea_pg19_13114",
+        "length_group": "30k_40k",
+        "cluster_id": 2,
+        "topic": "心理惊悚、艺术界",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/input.json",
+        "candidate_input_sha256": "53a3bb4046ed5af7e28e1f96f9574a72f20f2e3b411856b8dfd1d5ec2f44800a",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/candidate/generation_assets.json",
+        "generation_assets_sha256": "08d51d9649cbdb5345ead24d774d0a48e2590af47053fdb5c07cf3c388414ecb"
+      },
+      {
+        "sample_id": "idea_pg19_26549",
+        "length_group": "30k_40k",
+        "cluster_id": 6,
+        "topic": "心理剧、成长、制度批判",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/input.json",
+        "candidate_input_sha256": "b9934df3e9c0412bc26a36595aa81b5d8557e18b734b8be875d4fb991a31051b",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/generation_assets.json",
+        "generation_assets_sha256": "dcc94052c8b71c07a00d5840156d045a25f8eb08c63a7ddd4bb66ea1a5462bff"
+      },
+      {
+        "sample_id": "idea_pg19_2643",
+        "length_group": "30k_40k",
+        "cluster_id": 8,
+        "topic": "商战、法律惊悚、讽刺",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/input.json",
+        "candidate_input_sha256": "b8bc3f7465d602d613165345a3e5c90cba89786862c59effc98bbc49dee4f4a6",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/candidate/generation_assets.json",
+        "generation_assets_sha256": "0726615b6cddce776be62d90e23cf5b32e1cfad662358dcea4198ee4f04f2305"
+      },
+      {
+        "sample_id": "idea_pg19_35045",
+        "length_group": "30k_40k",
+        "cluster_id": 9,
+        "topic": "家庭、现实主义",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/input.json",
+        "candidate_input_sha256": "d8ecd1bf1bc63ffde4efcef9336f9ae14239e3adf16ff798b1a98d97be5c0a01",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/candidate/generation_assets.json",
+        "generation_assets_sha256": "a017012bdd05b7b813326d98db35bc032eace1ff69e0db7f1e06a2f663580a69"
+      },
+      {
+        "sample_id": "idea_pg19_34987",
+        "length_group": "60k_80k",
+        "cluster_id": 0,
+        "topic": "历史剧、政治惊悚、悲剧爱情",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/input.json",
+        "candidate_input_sha256": "0af652fb1cc1d9240971d8b36d9fbc4d0b2859cea0fabd0c809027e61ca5be66",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/candidate/generation_assets.json",
+        "generation_assets_sha256": "6bc707b3365bae820735736e195e34112e0e13bf4cad6ca752dd8879674c7989"
+      },
+      {
+        "sample_id": "idea_pg19_18579",
+        "length_group": "60k_80k",
+        "cluster_id": 1,
+        "topic": "历史、冒险、战争",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/input.json",
+        "candidate_input_sha256": "e62bb8bdc024db9b50d053e400718c5b35d7d66bb677e4173fc96eee57f8205f",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/candidate/generation_assets.json",
+        "generation_assets_sha256": "4f0c653068310f281f3632e9e8ad29d1a9ee8dca685039aeb76511cca6e50eef"
+      },
+      {
+        "sample_id": "idea_pg19_46798",
+        "length_group": "60k_80k",
+        "cluster_id": 5,
+        "topic": "历史冒险、生存剧",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/input.json",
+        "candidate_input_sha256": "42484986fae97988484db3f30813ab81c6442102c727b34a6cc37923f8c7aae1",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/candidate/generation_assets.json",
+        "generation_assets_sha256": "cb47c88c4fb0b8e917abb768b39a383d71f93ea12ee0eb12bec4cc980858406b"
+      },
+      {
+        "sample_id": "idea_pg19_38169",
+        "length_group": "60k_80k",
+        "cluster_id": 7,
+        "topic": "心理惊悚、悬疑、爱情",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/input.json",
+        "candidate_input_sha256": "4d101acd47a43c5d492efa556a8e2937e313849c91c65129e1fad4170f2b2e7a",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/candidate/generation_assets.json",
+        "generation_assets_sha256": "5cbe775881cacac6106388056766d4a1ec73765761568d18c125f1e1397088d0"
+      },
+      {
+        "sample_id": "idea_pg19_37724",
+        "length_group": "90k_120k",
+        "cluster_id": 3,
+        "topic": "历史剧、政治惊悚",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/input.json",
+        "candidate_input_sha256": "d7b7ea26fc9733260896154c85b359afcb4e29c996362c6db4c8132fa30b79c4",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/candidate/generation_assets.json",
+        "generation_assets_sha256": "7b351b8180819b24dcd90c010d78d6035ffec672725e4e72598f40c137ac86e2"
+      },
+      {
+        "sample_id": "idea_pg19_41542",
+        "length_group": "90k_120k",
+        "cluster_id": 4,
+        "topic": "家庭、悬疑、心理惊悚",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/input.json",
+        "candidate_input_sha256": "cfed70f5630cc45c5f1d8fa4225a421dd458551e2aab281eea0a263d8377df04",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/candidate/generation_assets.json",
+        "generation_assets_sha256": "dc906f06b5d42b69409c0b300257e8f60215a4d5371bd14821ed49bcaddf49f0"
+      },
+      {
+        "sample_id": "idea_pg19_22060",
+        "length_group": "90k_120k",
+        "cluster_id": 6,
+        "topic": "历史战争、成长、惊悚",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/input.json",
+        "candidate_input_sha256": "6b343d8c61f9a3b2e59a6effb07fa65a9aa1f64e20d9cd68e1dde81e8e184ec1",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/candidate/generation_assets.json",
+        "generation_assets_sha256": "c024067e937e127e45c3abe75dd81faf7172fcd63041bda9bc6605ec0fa21449"
+      },
+      {
+        "sample_id": "idea_pg19_33244",
+        "length_group": "90k_120k",
+        "cluster_id": 9,
+        "topic": "社会现实主义、悲剧爱情",
+        "candidate_input": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/input.json",
+        "candidate_input_sha256": "a589909f94f8eba2d439e6acbe9349b664aa0505e6ef883948bcd16ea55bf487",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/candidate/generation_assets.json",
+        "generation_assets_sha256": "a27f03c0d1f3412737ca99aaa1bece0c5c5c90ed95f449e09fa27934cabb997a"
+      }
+    ]
+  },
+  "baseline_protocol": {
+    "protocol_version": "pg19-selected12-matched-outline-direct-all-history-v1",
+    "description": "Per-run matched direct episode-outline baseline; every episode receives all prior scripts from its own baseline trajectory verbatim.",
+    "source_experiment": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922",
+    "paired_sources": {
+      "idea_pg19_13114": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/candidate/generation_assets.json",
+        "generation_assets_sha256": "08d51d9649cbdb5345ead24d774d0a48e2590af47053fdb5c07cf3c388414ecb",
+        "world_view_empty": false
+      },
+      "idea_pg19_26549": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/generation_assets.json",
+        "generation_assets_sha256": "dcc94052c8b71c07a00d5840156d045a25f8eb08c63a7ddd4bb66ea1a5462bff",
+        "world_view_empty": false
+      },
+      "idea_pg19_2643": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/candidate/generation_assets.json",
+        "generation_assets_sha256": "0726615b6cddce776be62d90e23cf5b32e1cfad662358dcea4198ee4f04f2305",
+        "world_view_empty": false
+      },
+      "idea_pg19_35045": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/candidate/generation_assets.json",
+        "generation_assets_sha256": "a017012bdd05b7b813326d98db35bc032eace1ff69e0db7f1e06a2f663580a69",
+        "world_view_empty": false
+      },
+      "idea_pg19_34987": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/candidate/generation_assets.json",
+        "generation_assets_sha256": "6bc707b3365bae820735736e195e34112e0e13bf4cad6ca752dd8879674c7989",
+        "world_view_empty": false
+      },
+      "idea_pg19_18579": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/candidate/generation_assets.json",
+        "generation_assets_sha256": "4f0c653068310f281f3632e9e8ad29d1a9ee8dca685039aeb76511cca6e50eef",
+        "world_view_empty": false
+      },
+      "idea_pg19_46798": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/candidate/generation_assets.json",
+        "generation_assets_sha256": "cb47c88c4fb0b8e917abb768b39a383d71f93ea12ee0eb12bec4cc980858406b",
+        "world_view_empty": false
+      },
+      "idea_pg19_38169": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/candidate/generation_assets.json",
+        "generation_assets_sha256": "5cbe775881cacac6106388056766d4a1ec73765761568d18c125f1e1397088d0",
+        "world_view_empty": false
+      },
+      "idea_pg19_37724": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/candidate/generation_assets.json",
+        "generation_assets_sha256": "7b351b8180819b24dcd90c010d78d6035ffec672725e4e72598f40c137ac86e2",
+        "world_view_empty": false
+      },
+      "idea_pg19_41542": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/candidate/generation_assets.json",
+        "generation_assets_sha256": "dc906f06b5d42b69409c0b300257e8f60215a4d5371bd14821ed49bcaddf49f0",
+        "world_view_empty": false
+      },
+      "idea_pg19_22060": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/candidate/generation_assets.json",
+        "generation_assets_sha256": "c024067e937e127e45c3abe75dd81faf7172fcd63041bda9bc6605ec0fa21449",
+        "world_view_empty": false
+      },
+      "idea_pg19_33244": {
+        "candidate_directory": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/candidate",
+        "generation_assets": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/candidate/generation_assets.json",
+        "generation_assets_sha256": "a27f03c0d1f3412737ca99aaa1bece0c5c5c90ed95f449e09fa27934cabb997a",
+        "world_view_empty": false
+      }
+    },
+    "episodes": 60,
+    "runs": [
+      "idea_pg19_13114",
+      "idea_pg19_26549",
+      "idea_pg19_2643",
+      "idea_pg19_35045",
+      "idea_pg19_34987",
+      "idea_pg19_18579",
+      "idea_pg19_46798",
+      "idea_pg19_38169",
+      "idea_pg19_37724",
+      "idea_pg19_41542",
+      "idea_pg19_22060",
+      "idea_pg19_33244"
+    ],
+    "run_seeds": {
+      "idea_pg19_13114": 882013,
+      "idea_pg19_26549": 735956,
+      "idea_pg19_2643": 795206,
+      "idea_pg19_35045": 835891,
+      "idea_pg19_34987": 818111,
+      "idea_pg19_18579": 825146,
+      "idea_pg19_46798": 777159,
+      "idea_pg19_38169": 867827,
+      "idea_pg19_37724": 804744,
+      "idea_pg19_41542": 820474,
+      "idea_pg19_22060": 754885,
+      "idea_pg19_33244": 702050
+    },
+    "model": "Qwen3.6-27B",
+    "generation": {
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "top_k": 50,
+      "max_tokens": 8192,
+      "enable_thinking": false,
+      "max_context_tokens": 131072
+    },
+    "inputs_each_episode": [
+      "world_view",
+      "role_info",
+      "story_outline",
+      "current_episode_outline",
+      "all_previous_baseline_episode_scripts_verbatim"
+    ],
+    "excluded": [
+      "scene_outline_agent",
+      "narrative_memory",
+      "state_lifecycle_memory",
+      "obligation_memory",
+      "hybrid_retrieval",
+      "strategy_cards",
+      "state_gate",
+      "plot_library_retrieval",
+      "post_generation_rewrite_or_polish"
+    ],
+    "system_prompt_sha256": "1083eb791faddaa1ac144aa01d1c0fc8797908eef30d60119c89695ec147ccfa",
+    "script_format_source": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/service/drama_by_creativity/prompts/script_format.py",
+    "script_format_source_sha256": "36b7c24267498809fc3a2b503271721c9741de118f6cce22f449596268006ea6",
+    "frozen_script_format_sha256": "4222fd9b0ee23ec9fed058bfefb06ed788226a2469797f48915e309119d71028"
+  },
+  "samples": [
+    {
+      "sample_id": "idea_pg19_13114",
+      "length_group": "30k_40k",
+      "cluster_id": 2,
+      "topic": "心理惊悚、艺术界",
+      "baseline": {
+        "logic": 63.71,
+        "quality": 78.2
+      },
+      "candidate": {
+        "logic": 83.86,
+        "quality": 89.1
+      },
+      "candidate_minus_baseline": {
+        "logic": 20.15,
+        "quality": 10.9
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_13114/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_13114/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_26549",
+      "length_group": "30k_40k",
+      "cluster_id": 6,
+      "topic": "心理剧、成长、制度批判",
+      "baseline": {
+        "logic": 82.36,
+        "quality": 81.5
+      },
+      "candidate": {
+        "logic": 86.79,
+        "quality": 89.3
+      },
+      "candidate_minus_baseline": {
+        "logic": 4.43,
+        "quality": 7.8
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_26549/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_2643",
+      "length_group": "30k_40k",
+      "cluster_id": 8,
+      "topic": "商战、法律惊悚、讽刺",
+      "baseline": {
+        "logic": 83.86,
+        "quality": 84.4
+      },
+      "candidate": {
+        "logic": 85.79,
+        "quality": 89.9
+      },
+      "candidate_minus_baseline": {
+        "logic": 1.93,
+        "quality": 5.5
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_2643/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_35045",
+      "length_group": "30k_40k",
+      "cluster_id": 9,
+      "topic": "家庭、现实主义",
+      "baseline": {
+        "logic": 78.93,
+        "quality": 85.0
+      },
+      "candidate": {
+        "logic": 85.5,
+        "quality": 87.3
+      },
+      "candidate_minus_baseline": {
+        "logic": 6.57,
+        "quality": 2.3
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_35045/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_35045/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_34987",
+      "length_group": "60k_80k",
+      "cluster_id": 0,
+      "topic": "历史剧、政治惊悚、悲剧爱情",
+      "baseline": {
+        "logic": 78.14,
+        "quality": 85.7
+      },
+      "candidate": {
+        "logic": 82.0,
+        "quality": 88.1
+      },
+      "candidate_minus_baseline": {
+        "logic": 3.86,
+        "quality": 2.4
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_34987/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_18579",
+      "length_group": "60k_80k",
+      "cluster_id": 1,
+      "topic": "历史、冒险、战争",
+      "baseline": {
+        "logic": 85.07,
+        "quality": 80.2
+      },
+      "candidate": {
+        "logic": 81.07,
+        "quality": 88.1
+      },
+      "candidate_minus_baseline": {
+        "logic": -4.0,
+        "quality": 7.9
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_18579/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_18579/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_46798",
+      "length_group": "60k_80k",
+      "cluster_id": 5,
+      "topic": "历史冒险、生存剧",
+      "baseline": {
+        "logic": 71.57,
+        "quality": 76.3
+      },
+      "candidate": {
+        "logic": 78.86,
+        "quality": 88.1
+      },
+      "candidate_minus_baseline": {
+        "logic": 7.29,
+        "quality": 11.8
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_46798/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_46798/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_38169",
+      "length_group": "60k_80k",
+      "cluster_id": 7,
+      "topic": "心理惊悚、悬疑、爱情",
+      "baseline": {
+        "logic": 70.21,
+        "quality": 68.7
+      },
+      "candidate": {
+        "logic": 85.0,
+        "quality": 87.7
+      },
+      "candidate_minus_baseline": {
+        "logic": 14.79,
+        "quality": 19.0
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_38169/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_37724",
+      "length_group": "90k_120k",
+      "cluster_id": 3,
+      "topic": "历史剧、政治惊悚",
+      "baseline": {
+        "logic": 81.21,
+        "quality": 76.8
+      },
+      "candidate": {
+        "logic": 82.79,
+        "quality": 90.9
+      },
+      "candidate_minus_baseline": {
+        "logic": 1.58,
+        "quality": 14.1
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_37724/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_37724/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_41542",
+      "length_group": "90k_120k",
+      "cluster_id": 4,
+      "topic": "家庭、悬疑、心理惊悚",
+      "baseline": {
+        "logic": 82.93,
+        "quality": 83.5
+      },
+      "candidate": {
+        "logic": 80.57,
+        "quality": 89.0
+      },
+      "candidate_minus_baseline": {
+        "logic": -2.36,
+        "quality": 5.5
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_41542/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_41542/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_22060",
+      "length_group": "90k_120k",
+      "cluster_id": 6,
+      "topic": "历史战争、成长、惊悚",
+      "baseline": {
+        "logic": 79.21,
+        "quality": 85.3
+      },
+      "candidate": {
+        "logic": 78.21,
+        "quality": 87.1
+      },
+      "candidate_minus_baseline": {
+        "logic": -1.0,
+        "quality": 1.8
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_22060/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    },
+    {
+      "sample_id": "idea_pg19_33244",
+      "length_group": "90k_120k",
+      "cluster_id": 9,
+      "topic": "社会现实主义、悲剧爱情",
+      "baseline": {
+        "logic": 81.64,
+        "quality": 80.2
+      },
+      "candidate": {
+        "logic": 83.86,
+        "quality": 86.6
+      },
+      "candidate_minus_baseline": {
+        "logic": 2.22,
+        "quality": 6.4
+      },
+      "baseline_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_matched_history_baseline_v1/idea_pg19_33244/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json",
+      "candidate_score_file": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_33244/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/scores.json"
+    }
+  ],
+  "overall": {
+    "baseline": {
+      "logic": {
+        "count": 12,
+        "mean": 78.23666666666666,
+        "sample_std": 6.460384640017164,
+        "min": 63.71,
+        "max": 85.07
+      },
+      "quality": {
+        "count": 12,
+        "mean": 80.48333333333333,
+        "sample_std": 4.968781327326438,
+        "min": 68.7,
+        "max": 85.7
+      }
+    },
+    "candidate": {
+      "logic": {
+        "count": 12,
+        "mean": 82.85833333333333,
+        "sample_std": 2.7698730963163256,
+        "min": 78.21,
+        "max": 86.79
+      },
+      "quality": {
+        "count": 12,
+        "mean": 88.43333333333334,
+        "sample_std": 1.2448682539517895,
+        "min": 86.6,
+        "max": 90.9
+      }
+    },
+    "candidate_minus_baseline": {
+      "logic": {
+        "count": 12,
+        "mean": 4.621666666666666,
+        "sample_std": 6.960941463667544,
+        "min": -4.0,
+        "max": 20.15,
+        "standard_error": 2.009450713930842,
+        "mean_95_percent_ci": [
+          0.19889578706559075,
+          9.04443754626774
+        ],
+        "candidate_wins": 9,
+        "ties": 0,
+        "baseline_wins": 3,
+        "two_sided_exact_sign_test_p": 0.14599609375
+      },
+      "quality": {
+        "count": 12,
+        "mean": 7.95,
+        "sample_std": 5.208646657242167,
+        "min": 1.8,
+        "max": 19.0,
+        "standard_error": 1.503606774836205,
+        "mean_95_percent_ci": [
+          4.640584042687135,
+          11.259415957312864
+        ],
+        "candidate_wins": 12,
+        "ties": 0,
+        "baseline_wins": 0,
+        "two_sided_exact_sign_test_p": 0.00048828125
+      }
+    }
+  },
+  "by_length_group": {
+    "30k_40k": {
+      "count": 4,
+      "baseline": {
+        "logic": {
+          "count": 4,
+          "mean": 77.215,
+          "sample_std": 9.236761698055583,
+          "min": 63.71,
+          "max": 83.86
+        },
+        "quality": {
+          "count": 4,
+          "mean": 82.275,
+          "sample_std": 3.1170231525180134,
+          "min": 78.2,
+          "max": 85.0
+        }
+      },
+      "candidate": {
+        "logic": {
+          "count": 4,
+          "mean": 85.485,
+          "sample_std": 1.2161277345191475,
+          "min": 83.86,
+          "max": 86.79
+        },
+        "quality": {
+          "count": 4,
+          "mean": 88.9,
+          "sample_std": 1.11952370824978,
+          "min": 87.3,
+          "max": 89.9
+        }
+      },
+      "candidate_minus_baseline": {
+        "logic": {
+          "count": 4,
+          "mean": 8.27,
+          "sample_std": 8.143823835684724,
+          "min": 1.93,
+          "max": 20.15,
+          "standard_error": 4.071911917842362,
+          "mean_95_percent_ci": [
+            -4.688639795289754,
+            21.22863979528975
+          ],
+          "candidate_wins": 4,
+          "ties": 0,
+          "baseline_wins": 0,
+          "two_sided_exact_sign_test_p": 0.125
+        },
+        "quality": {
+          "count": 4,
+          "mean": 6.625,
+          "sample_std": 3.6344417269598184,
+          "min": 2.3,
+          "max": 10.9,
+          "standard_error": 1.8172208634799092,
+          "mean_95_percent_ci": [
+            0.8417927319018164,
+            12.408207268098185
+          ],
+          "candidate_wins": 4,
+          "ties": 0,
+          "baseline_wins": 0,
+          "two_sided_exact_sign_test_p": 0.125
+        }
+      }
+    },
+    "60k_80k": {
+      "count": 4,
+      "baseline": {
+        "logic": {
+          "count": 4,
+          "mean": 76.2475,
+          "sample_std": 6.82516117025818,
+          "min": 70.21,
+          "max": 85.07
+        },
+        "quality": {
+          "count": 4,
+          "mean": 77.725,
+          "sample_std": 7.146269423039316,
+          "min": 68.7,
+          "max": 85.7
+        }
+      },
+      "candidate": {
+        "logic": {
+          "count": 4,
+          "mean": 81.7325,
+          "sample_std": 2.545471469099586,
+          "min": 78.86,
+          "max": 85.0
+        },
+        "quality": {
+          "count": 4,
+          "mean": 88.0,
+          "sample_std": 0.19999999999999574,
+          "min": 87.7,
+          "max": 88.1
+        }
+      },
+      "candidate_minus_baseline": {
+        "logic": {
+          "count": 4,
+          "mean": 5.484999999999999,
+          "sample_std": 7.798437877763297,
+          "min": -4.0,
+          "max": 14.79,
+          "standard_error": 3.8992189388816487,
+          "mean_95_percent_ci": [
+            -6.924053715168148,
+            17.89405371516815
+          ],
+          "candidate_wins": 3,
+          "ties": 0,
+          "baseline_wins": 1,
+          "two_sided_exact_sign_test_p": 0.625
+        },
+        "quality": {
+          "count": 4,
+          "mean": 10.275,
+          "sample_std": 6.978717647247236,
+          "min": 2.4,
+          "max": 19.0,
+          "standard_error": 3.489358823623618,
+          "mean_95_percent_ci": [
+            -0.8296960308056889,
+            21.37969603080569
+          ],
+          "candidate_wins": 4,
+          "ties": 0,
+          "baseline_wins": 0,
+          "two_sided_exact_sign_test_p": 0.125
+        }
+      }
+    },
+    "90k_120k": {
+      "count": 4,
+      "baseline": {
+        "logic": {
+          "count": 4,
+          "mean": 81.2475,
+          "sample_std": 1.5424736626600846,
+          "min": 79.21,
+          "max": 82.93
+        },
+        "quality": {
+          "count": 4,
+          "mean": 81.45,
+          "sample_std": 3.75099986670221,
+          "min": 76.8,
+          "max": 85.3
+        }
+      },
+      "candidate": {
+        "logic": {
+          "count": 4,
+          "mean": 81.3575,
+          "sample_std": 2.506090913487914,
+          "min": 78.21,
+          "max": 83.86
+        },
+        "quality": {
+          "count": 4,
+          "mean": 88.4,
+          "sample_std": 1.961292091114092,
+          "min": 86.6,
+          "max": 90.9
+        }
+      },
+      "candidate_minus_baseline": {
+        "logic": {
+          "count": 4,
+          "mean": 0.1100000000000001,
+          "sample_std": 2.15607668385581,
+          "min": -2.36,
+          "max": 2.22,
+          "standard_error": 1.078038341927905,
+          "mean_95_percent_ci": [
+            -3.320798809115093,
+            3.5407988091150937
+          ],
+          "candidate_wins": 2,
+          "ties": 0,
+          "baseline_wins": 2,
+          "two_sided_exact_sign_test_p": 1.0
+        },
+        "quality": {
+          "count": 4,
+          "mean": 6.95,
+          "sample_std": 5.165591285935554,
+          "min": 1.8,
+          "max": 14.1,
+          "standard_error": 2.582795642967777,
+          "mean_95_percent_ci": [
+            -1.2696076627802304,
+            15.16960766278023
+          ],
+          "candidate_wins": 4,
+          "ties": 0,
+          "baseline_wins": 0,
+          "two_sided_exact_sign_test_p": 0.125
+        }
+      }
+    }
+  }
+}

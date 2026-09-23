@@ -1,0 +1,328 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极强的戏剧张力和心理深度，主角伊莱亚斯在极端压力下的崩溃与觉醒过程刻画细腻，配角克拉拉与反派朱利安的功能定位清晰且有效。然而，在情节规划与分集执行层面存在严重问题：第41-47集与第53-54集存在大篇幅的“直播揭露”情节重复，导致叙事节奏严重拖沓；第29-31集克拉拉被绑架/威胁的情节逻辑存在断裂，且后续未有效回收；台词方面存在大量非情境化的说明性表达和过度打磨的书面语，削弱了真实感。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 2,
+      "reason": "第41-47集与第53-54集反复出现“伊莱亚斯在直播中试图揭露真相但被朱利安压制/最终揭露”的情节，且多次使用“激光笔指向瑕疵”这一相同动作，缺乏新的变量或升级，属于结构性重复。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "伊莱亚斯（机械地按键）：滋滋。△ 一道细瘦苍白的红点突兀地亮起，刺破了画布上的宁静。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 3,
+      "reason": "朱利安（操控/心理压迫）、维克多（资金/贪婪）、董事会（体制/利益）代表了不同的阻力来源，但维克多在后期功能减弱，主要阻力集中在朱利安一人身上，差异化尚可但升级感不足。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "朱利安（冷静吐烟）：让它受伤。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 2,
+      "reason": "第25-33集伊莱亚斯被囚禁在俱乐部，场景高度单一，且多次重复“朱利安威胁-伊莱亚斯签字/崩溃”的循环，缺乏有效的局面变化或信息增量，导致中段停滞。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-2",
+        "quote": "伊莱亚斯（声音极度疲惫）：最后一份。这是博物馆的流动资金授权。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "第1-3集高效建立了核心矛盾（赝品发现、利益捆绑、道德困境），信息组织紧凑，迅速将主角推入绝境，叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯（OS，颤抖）：我在骗自己。如果它是假的，我也完了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 2,
+      "reason": "第25-40集节奏严重拖沓，大量篇幅用于重复展示伊莱亚斯的绝望和朱利安的威胁，缺乏新目标或有效的情绪积累，导致高潮前的蓄力不足，观众疲劳感强。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "伊莱亚斯（颓然松开手，整个人瘫软在真皮椅背上）：连不上……根本连不上……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 3,
+      "reason": "整体情绪走向清晰（压抑-崩溃-反抗-解脱），但中段情绪长期处于单一的“绝望/恐惧”状态，缺乏起伏和变化，导致关键高潮（直播揭露）的情绪爆发力被前文的重复削弱。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "伊莱亚斯（空洞地重复）：索恩……伊莱亚斯·索恩。我是……我是谁？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 3,
+      "reason": "集末悬念设置基本有效（如克拉拉的行动、朱利安的下一步），但部分期待（如克拉拉被救、伊莱亚斯逃脱）在中段被反复搁置或重置，导致期待链不够紧密。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-4",
+        "quote": "伊莱亚斯（绝望地抱住头，指甲深深陷入头皮）：朱利安，你到底什么时候才肯收手！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 2,
+      "reason": "前10集信息密度高，推进快；第25-40集信息密度极低，大量篇幅用于重复已知信息（伊莱亚斯被囚禁、朱利安威胁），导致中段塌陷，整体结构失衡。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "朱利安（按下按钮，巨大的屏幕瞬间亮起）：不，她在法庭门口。或者说，在死者的行列里。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 2,
+      "reason": "第25-33集存在明显的停滞，伊莱亚斯被囚禁后，剧情主要围绕“威胁-签字-崩溃”循环，缺乏新的阻力或局面变化，删除部分集数对主线影响不大。",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-1",
+        "quote": "伊莱亚斯（机械地敲击键盘，屏幕上的光标疯狂跳动）：如果……如果我被打死在这里……"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 3,
+      "reason": "克拉拉的调查线（副线）与主线（伊莱亚斯的困境）有互动，但整合度不够紧密，克拉拉的行动有时显得突兀（如第29集撞车），且对主线局面的改变不够直接，主要起到情感支撑作用。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-2",
+        "quote": "私调（对耳麦，大喊）：警报响了，你们最好祈祷他们没看到我的脸！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 3,
+      "reason": "主线目标（揭露赝品、摆脱控制）基本清楚，阶段目标（签字、囚禁、直播）大多成立，但兑现力度不稳定，尤其是直播揭露部分重复过多，削弱了最终高潮的冲击力。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "独立学者（语速极快）：结构伪造的求救暗号。十字划痕！那是伊莱亚斯·索恩多年前教过我的。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角伊莱亚斯具有完整的人物弧光，从道德妥协到精神崩溃，最终觉醒反抗。",
+      "reason": "起点（第1集发现赝品但选择掩盖）、转折（第13集精神崩溃、第42集直播揭露）、终点（第56集接受惩罚并重生）均有证据。关键转折由强驱动事件（朱利安的威胁、克拉拉的离开）逼出主动选择（签字、揭露），并产生不可逆后果（失去婚姻、名誉、自由）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "伊莱亚斯（看着混乱的人群，嘴角不受控制地微微抽动）：终于结束了。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伊莱亚斯（OS，颤抖）：我在骗自己。如果它是假的，我也完了。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角具有明确的内在矛盾（艺术信仰 vs 生存欲望），并通过两难选择和犯错承担后果被戏剧化。",
+      "reason": "伊莱亚斯在“保护博物馆/自己”与“维护艺术真相”之间反复挣扎，多次面临两难（如第6集是否发送邮件、第14集是否签字）。他犯下严重错误（掩盖赝品、洗钱），并承担了沉重代价（精神崩溃、入狱），内在矛盾充分影响了重要决定。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-1",
+        "quote": "伊莱亚斯（惨然一笑）：好吧。只要这个假象不破灭，我的灵魂去哪都行。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-1",
+        "contrast_quote": "伊莱亚斯（声音低沉而决绝）：她早就死了。就在你让我按下第一个删除键的时候。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角克拉拉和反派朱利安功能明确，推动主线并制造有效张力。",
+      "reason": "克拉拉作为道德标杆和外部阻力，有效反衬主角的堕落与觉醒；朱利安作为核心反派，持续制造压迫和威胁，其操控手段（监控、威胁、心理战）稳定且有效，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "克拉拉（冷笑，眼神变得陌生而警惕）：赢？你连保护自己的能力都没有，还想赢什么？",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-1",
+        "contrast_quote": "朱利安（走近屏幕）：看清楚了，那个指纹是你的，那个敲击节律也是你的。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "伊莱亚斯与克拉拉的关系存在多重张力（情感依赖、价值冲突、秘密误会），支撑主线情感。",
+      "reason": "两人关系从夫妻到决裂，再到最后的和解/合作，存在情感依赖（克拉拉是伊莱亚斯最后的道德锚点）、价值冲突（真相 vs 生存）、秘密误会（克拉拉调查、伊莱亚斯掩盖）等多重张力，移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-2",
+        "quote": "克拉拉：沉默？我宁愿生活在贫穷的真相里，也不愿呼吸你给的谎言。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-1",
+        "contrast_quote": "克拉拉（微微一笑，眼神中多了一丝复杂的情绪）：谢谢。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "直播揭露情节存在结构性重复，缺乏新变量。",
+      "reason": "第41-47集与第53-54集反复出现“伊莱亚斯在直播中试图揭露真相但被朱利安压制/最终揭露”的情节，且多次使用“激光笔指向瑕疵”这一相同动作，缺乏新的变量或升级，属于结构性重复，降低新鲜感和升级感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "伊莱亚斯（机械地按键）：滋滋。△ 一道细瘦苍白的红点突兀地亮起，刺破了画布上的宁静。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "伊莱亚斯（无视耳麦声）：这不符合十九世纪的生理逻辑。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中段（第25-33集）存在明显停滞，重复展示囚禁与威胁。",
+      "reason": "第25-33集伊莱亚斯被囚禁在俱乐部，剧情主要围绕“朱利安威胁-伊莱亚斯签字/崩溃”循环，缺乏新的阻力或局面变化，大量篇幅用于重复已知信息，导致中段塌陷，删除部分集数对主线影响不大。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-2",
+        "quote": "伊莱亚斯（声音极度疲惫）：最后一份。这是博物馆的流动资金授权。",
+        "contrast_episode": "第32集",
+        "contrast_scene": "32-1",
+        "contrast_quote": "伊莱亚斯（机械地敲击键盘，屏幕上的光标疯狂跳动）：如果……如果我被打死在这里……"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处台词存在非情境化的说明性表达，破坏真实感。",
+      "reason": "多个重要场景出现剧情复述、情绪自我解释或抽象结论，如“我在用真相做筹码”、“我把自己锁在了笼子里”等，角色交流功能失效，主要替作者概括剧情或解释情绪。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "伊莱亚斯OS：我在用真相做筹码。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-3",
+        "contrast_quote": "伊莱亚斯OS：我把自己锁在了笼子里，还以为自己成了驯兽师。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分台词存在过度打磨痕迹，读感接近书面警句。",
+      "reason": "局部出现工整对仗或金句连发，如“光会撒谎。阴影才能显真”、“机器不懂灵魂”等，重场戏口语颗粒不足，影响真实感，但未贯穿全剧。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯（冷漠）：光会撒谎。阴影才能显真。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伊莱亚斯（转身）：机器不懂灵魂。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "跨集承接断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "克拉拉被威胁/绑架的情节逻辑存在断裂，后续未有效回收。",
+      "reason": "第29-31集克拉拉被朱利安威胁/绑架，但后续（第34集后）克拉拉的行动显得突兀，且朱利安对她的控制手段（如第30集展示视频）缺乏后续有效回收，导致连续叙事链出现断裂。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "朱利安（按下按钮，巨大的屏幕瞬间亮起）：不，她在法庭门口。或者说，在死者的行列里。",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-1",
+        "contrast_quote": "克拉拉（屏幕中，疲惫地）：我想睡一会儿，别烦我。"
+      }
+    }
+  ]
+}

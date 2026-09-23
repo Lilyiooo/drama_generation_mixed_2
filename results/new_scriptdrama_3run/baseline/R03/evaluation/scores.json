@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_matched_direct_history_baseline_v1/R03/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 76.5,
+      "ledger_subdimension_mean": 80.14,
+      "holistic_subdimension_mean": 72.86,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 79.0,
+          "holistic_score": 80.0,
+          "fused_score": 79.5
+        },
+        "character_state": {
+          "ledger_score": 74.0,
+          "holistic_score": 70.0,
+          "fused_score": 72.0
+        },
+        "knowledge_state": {
+          "ledger_score": 90.0,
+          "holistic_score": 80.0,
+          "fused_score": 85.0
+        },
+        "resource_state": {
+          "ledger_score": 74.0,
+          "holistic_score": 70.0,
+          "fused_score": 72.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 74.0,
+          "holistic_score": 70.0,
+          "fused_score": 72.0
+        },
+        "foreshadowing": {
+          "ledger_score": 84.0,
+          "holistic_score": 80.0,
+          "fused_score": 82.0
+        },
+        "repetition": {
+          "ledger_score": 86.0,
+          "holistic_score": 60.0,
+          "fused_score": 73.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "resource_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "foreshadowing": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 87.3,
+      "ledger_subdimension_mean": 92.8,
+      "holistic_subdimension_mean": 81.8,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 100.0,
+          "holistic_score": 82.0,
+          "fused_score": 91.0
+        },
+        "hooks": {
+          "ledger_score": 93.0,
+          "holistic_score": 85.0,
+          "fused_score": 89.0
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 78.0,
+          "fused_score": 84.0
+        },
+        "episode": {
+          "ledger_score": 90.0,
+          "holistic_score": 80.0,
+          "fused_score": 85.0
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段大多承担不同功能，通过新变量、关系变化或结果升级形成有效变奏。例如，多次“下毒/解毒”情节，从最初的寒酥散发作，到接风宴的假死局，再到矿洞的血液解毒，每次都有新的因果和局面变化。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "顾长风（仰头，一饮而尽）：好！痛快！... 顾长风（七窍渗出黑血，身体如抽鞭般扭曲倒向一边）：沈……沈晚晴……我没力……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如智斗、危机）大多承担不同功能，通过新变量（如从京城宅斗到边境战场）形成有效变奏。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "沈晚晴：涨价是表象。你同时要在西市放出风声，说是前朝留下的一个废弃草场，积压了上万斤“特级燕麦”……"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如智斗、危机）通过新变量（如从市集到军营，从口头到实物证据）形成有效变奏，推进了人物关系和主线局面。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-2",
+            "quote": "沈晚晴（端起碗，舀起一勺递到一名消瘦士兵嘴边）：吃！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手代表不同资源、价值立场与压力类型，迫使主角采用不同策略。赵氏代表后宅与财产，李傲代表商业与朝堂，赵显代表皇权与通敌，副将代表边境军事，阻力层层递进。",
+          "evidence": {
+            "episode": "第27集",
+            "scene": "27-1",
+            "quote": "李傲：各位请看，这便是极品燕山大燕麦，色泽金黄，颗粒饱满。我李傲愿以一两五钱高价竞投，只求这京郊粮草的承包权！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手（赵氏、李傲、赵显、副将）代表不同资源与压力类型，迫使主角采用不同策略（如舆论战、商业战、军事战）。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-1",
+            "quote": "副将（斜倚在账案旁，摇着折扇，一脸轻蔑）：顾督粮官，眼拙了？这便是库房。空荡荡的，因为都被老子拿去“练兵”了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手（赵氏、李傲、赵副将、赵显）代表不同资源与压力类型，迫使主角采用不同策略（如舆论、商业、军心、武力）。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-1",
+            "quote": "副将（斜倚在账案旁，摇着折扇，一脸轻蔑）：顾督粮官，眼拙了？这便是库房。空荡荡的，因为都被老子拿去“练兵”了。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。从破庙结盟到京城夺权，再到边境决战，场景转换紧密，每一步都推动主线。",
+          "evidence": {
+            "episode": "第10集",
+            "scene": "10-1",
+            "quote": "沈晚晴（一把拉住顾长风，娇笑）：哟，我说各位爷，怎么个讲理法？这位可是朝廷诰命亲定的将军，你们就算想查，也得拿出皇商的阵仗来啊！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果，如从破庙结盟到京城夺权再到边境决战。",
+          "evidence": {
+            "episode": "第10集",
+            "scene": "10-1",
+            "quote": "沈晚晴（趁势提高嗓门）：顾将军这是遭了小人暗算，文牒被盗！但他可是兵部尚书大人的亲侄子！……"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果，如从京城宅斗到边境军争，层层递进。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "沈晚晴（从怀中掏出一枚生锈的古铜钱，高举过头）：慢着！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。第1集通过顾长风的落魄与沈晚晴的泼辣，迅速建立核心冲突与人物关系。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-2",
+            "quote": "沈晚晴（叉腰蹲地）：三斗米？我说老头，你睁大眼睛看看，这米是陈年的还是新收的？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，通过顾长风中毒与沈晚晴的“招夫”迅速形成戏剧张力。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-3",
+            "quote": "沈晚晴（微笑）：做我丈夫的借口。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，通过顾长风中毒与沈晚晴的“招夫”迅速形成戏剧张力。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-3",
+            "quote": "沈晚晴（微笑）：做我丈夫的借口。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从京城夺权到边境决战，节奏紧凑，高潮迭起。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "沈晚晴（从怀中掏出一枚生锈的古铜钱，高举过头）：慢着！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束，如边境危机与最终决战。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-1",
+            "quote": "副将（高声）：顾督粮官，敌国大军压境，已合围营地。但我已下令，先锋营原地待命，不得轻举妄动！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段依靠阶段目标（夺权、查毒）和小高潮（招标、接风宴）推进，后段完成充分升级（边境危机、身份揭露）与收束。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "沈晚晴（猛地将匕首划破手腕，殷红的鲜血顺着指尖滴落，带着滚烫的温度）：回！只要你跟我回去，这毒，我替你挡！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。从压抑到爆发，从绝望到希望，情绪曲线起伏有致。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "沈晚晴（咬破嘴唇，眼中闪过一丝决绝）：厉鬼？顾长风，你听好！你不是孤魂野鬼，你是我的丈夫！你想回不回去？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺，如沈晚晴身份揭露与顾长风解毒。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-3",
+            "quote": "沈晚晴（单膝跪地，直视他的双眼，字字泣血）：我是前朝遗孤沈晚晴，也是你顾长风此生唯一的妻子！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷（如假死、身份揭露、解毒）有铺垫，高潮兑现了“复仇与守护”的主要情绪承诺。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-3",
+            "quote": "沈晚晴（单膝跪地，直视他的双眼，字字泣血）：我是前朝遗孤沈晚晴，也是你顾长风此生唯一的妻子！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。每集结尾都留有悬念，如“接风宴”、“黑石矿洞”等，有效驱动叙事。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-2",
+            "quote": "沈晚晴（冷笑）：请君入瓮。他们是要借太子的刀，直接把长风剁碎。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现，如赵显的阴谋与顾长风的生死。",
+          "evidence": {
+            "episode": "第31集",
+            "scene": "31-2",
+            "quote": "阿四：对，密信里写了，赵显要在那里交接一批火器，并安排兵力接应赵氏姐妹逃离京城。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定，类型有变化（悬疑、动作、情感），并在合理时点有效兑现，如“寒酥散”的解药之谜贯穿全剧。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-1",
+            "quote": "白叔（猛然抬头，脸色惨白，声音干涩）：姑娘，您没听错。顾长风体内的毒素，与他母亲当年服用的毒药，同源同宗！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。京城夺权与边境决战部分情节密集，过渡部分节奏舒缓，整体结构合理。",
+          "evidence": {
+            "episode": "第38集",
+            "scene": "38-1",
+            "quote": "太监甲：奉天承运皇帝诏曰，顾长风虽有平乱之能，然私刑诰命，目无尊卑。免去总兵之职，即刻离京，赴北境督粮。钦此！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度，如京城夺权与边境决战的节奏把控。",
+          "evidence": {
+            "episode": "第27集",
+            "scene": "27-1",
+            "quote": "顾长风（轻叩桌面，将一卷泛黄的图纸拍在桌上）：此乃《北境山地输送改良策》。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（如京城夺权、边境决战）有意识地增加密度，铺垫与高潮匹配。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "赵氏（眼底闪过一丝得逞的快意）：长风果然豪迈。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水情节，每集都有新的目标、阻力或信息。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "沈晚晴（手指轻叩案几，冷笑）：赵显好手段。粮没了，买药干什么？给那帮吃不上饭的士兵续命？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "沈晚晴（凑近张伯耳畔，低声）：那天的药，不是治病的，是要命的。您不是亲眼看那军医把管子塞进老夫人喉咙里推药吗？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫（如阿四截获密信）服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第31集",
+            "scene": "31-2",
+            "quote": "阿四（走到桌前，将蜡纸展开）：这是赵显书房里的通敌密信拓印，虽然没拿到原件，但这上面的内容，够他掉脑袋了！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。沈晚晴的身世副线在边境决战中成为关键转折点，有效整合主线。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-3",
+            "quote": "沈晚晴（单膝跪地，直视他的双眼，字字泣血）：我是前朝遗孤沈晚晴，也是你顾长风此生唯一的妻子！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线，如沈晚晴身世与顾长风解毒。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-1",
+            "quote": "卖唱老者（低语）：真相在血中，别找了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线（如沈晚晴身世、李傲商业局）稳定补充人物与冲突，并在关键节点（边境停战、解毒）反哺主线。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "沈晚晴（深吸一口气，声音凄厉且坚定）：吾乃前朝遗孤，受命护北境！此物为证，谁敢伤她身后之人，便是与整个前朝死士为敌！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从夺回财产到扳倒赵家，再到边境自治，主线推进清晰有力。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "顾长风（冷笑一声，毫不退让）：臣非嫌赏赐少，是嫌这京城的水太浑，臣一身戾气入不得殿门。再者，边关苦寒，百姓流离失所，臣不愿享此清福。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现，如从夺权到复仇再到建设。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "顾长风（冷笑一声，毫不退让）：臣非嫌赏赐少，是嫌这京城的水太浑，臣一身戾气入不得殿门。……"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力，阶段看点（夺回兵权、揭露通敌、解毒）有效兑现，每次兑现都改变局面。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "顾长风（从怀中取出诏书，猛然一撕）：这封侯诏书，臣撕了！"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "核心角色“伯爵”与“维克多”、“艾德里安”的身份指代存在硬性矛盾，导致人物关系与阵营逻辑崩塌。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-1",
+        "quote": "人物：埃德蒙、奥古斯汀、伯爵（艾德里安）",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-2",
+        "contrast_quote": "维克多：合作愉快，陛下。"
+      },
+      "reason": "合并R01、R02、R03关于身份混乱的意见。剧本中“伯爵”这一称谓指向不明：第14集明确标注“伯爵（艾德里安）”，暗示伯爵即艾德里安；但第18集出现独立角色“维克多”作为债主/金融家，第29集埃德蒙称呼“伯爵”为“维克多”（“闭气，维克多”），且第25集艾德里安被囚禁时伯爵仍在活动（第29集参与密谋），第54集伯爵死亡后第56集艾德里安仍存活。若伯爵=艾德里安，则第29集囚禁者参与密谋逻辑不通，且第54集死后艾德里安复活无解释；若伯爵=维克多，则第14集标注错误且第18集维克多身份与伯爵重叠。这种核心盟友/反派身份的硬性矛盾影响了后续所有合作、背叛及死亡情节的逻辑基础，属于S级人物身份矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002",
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "埃德蒙从黑木堡到首都的逃亡路线存在严重的空间与时间逻辑悖论，特别是伯爵尸体位置与埃德蒙发现地点的矛盾。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "砰！一声枪响撕裂夜空。柜台被击中背部……埃德蒙……爬入卡车敞开的后车厢。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "边境荒原，废弃走私卡车旁……埃德蒙翻身跃下卡车……他蹲下身……那是伯爵的血。"
+      },
+      "reason": "合并R01、R02、R03关于时空矛盾的意见。第54集伯爵在“废弃工业区”被枪杀，埃德蒙随即上车逃离。第55集开头卡车停在“边境荒原”，埃德蒙下车发现伯爵尸体。逻辑漏洞在于：1. 伯爵在埃德蒙上车前死亡，尸体应留在工业区，除非被运走，但剧本未交代转移过程；2. 埃德蒙作为盲人，在车内无法感知尸体是否被转移，但第55集他直接发现尸体，暗示尸体随车移动或埃德蒙下车地点即死亡地点，这与“边境荒原”和“工业区”的空间距离矛盾；3. 从黑木堡到首都的位移时间线（第53集夜至第57集凌晨）对于盲人徒步+卡车逃亡而言过于紧凑，且缺乏合理的交通工具或路线支撑。这些矛盾直接影响了逃亡情节的可信度，属于S级空间位移矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "埃德蒙通过气味和听觉获取了超出物理限制的具体历史细节和实时位置信息，属于全知视角作弊。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "三小时前，你回到庄园。你去了地下室，走了东侧的密道。墙上的第四块砖是松动的……砖后藏着你祖父伪造的地契副本。",
+        "contrast_episode": "第21集",
+        "contrast_scene": "21-1",
+        "contrast_quote": "十年前，那片皇家猎场还是我的私产……地契换了主人，猎场变成了林地，再后来，是官署的仓库。"
+      },
+      "reason": "合并R01、R02关于能力神化的意见。第21集埃德蒙仅凭气味推断出十年前皇家猎场的行政变迁（地契换主、林地变仓库），第23集通过汗液气味推断出汉斯三小时前的具体行动轨迹（地下室、东侧密道、第四块砖松动、地契水渍、靴底划痕）。这些细节超出了“高灵敏度嗅觉”的合理范畴，属于通过感官直接获取具体历史行政记录和实时物理细节，缺乏合理的知识来源或推理过程铺垫，导致角色能力突破物理限制，属于S级信息提前泄露/知识来源缺失。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "“名单”及“真核”等关键道具的流转过程存在逻辑断裂，奥古斯汀持有已销毁或已转移道具的状态矛盾。",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-2",
+        "quote": "奥古斯汀（彻底崩溃……）：“大人！杀了埃德蒙！……我还有……我还有其他线人……”",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-1",
+        "contrast_quote": "冯·克莱斯特（将名单随手丢在桌角……）……他将名单扔进火盆，火焰瞬间吞噬了纸张。"
+      },
+      "reason": "合并R01、R03关于道具归属的意见。第31集冯·克莱斯特将名单扔进火盆销毁，第32集奥古斯汀在地牢中仍声称拥有名单或线人，且第36集奥古斯汀在地牢中拿出“被篡改的财务顾问证词副本”，第45集交出“真核”。这些文件的关系、来源及内容变化缺乏清晰交代，特别是名单已销毁后奥古斯汀仍试图利用其进行心理操控，以及“真核”在奥古斯汀和档案官之间重复出现且定义模糊，导致关键证据的逻辑基础薄弱，属于A级道具归属混乱。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第60集士兵集体放下枪口的转折缺乏充分的因果支撑，依赖主角光环而非具体心理或外部干预。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "第一把步枪垂下。紧接着是第二把，第三把。如同多米诺骨牌倒塌，五十支枪口同步下沉，指向地面。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "冯·克莱斯特：（对着随身通讯器……）开火！我命令你们开火！……通讯器中传来滋滋的电流声……没有回应。"
+      },
+      "reason": "合并R01、R02关于转折因果的意见。第60集埃德蒙通过吟诵誓词和敲击盲杖，使50名全副武装的士兵集体放下枪口。虽然前文铺垫了埃德蒙的威望，但士兵们处于“刑场阵列”的高压状态，受宪兵队长指挥，仅凭一段誓词和节奏就瞬间放弃抵抗，缺乏对士兵个体心理转变或外部干预（如内应、通讯干扰）的具体铺垫，导致转折显得突兀且依赖“天降正义”式的集体顿悟，属于A级关键转折因果断裂。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006",
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "埃德蒙的“听觉/嗅觉”能力在后期被过度神化，突破物理限制，且奥古斯汀对特定气味的识别缺乏铺垫。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "埃德蒙对着风向轻轻吹了一口气。气味扩散，顺着地表的气流飘向西侧。",
+        "contrast_episode": "第58集",
+        "contrast_scene": "58-2",
+        "contrast_quote": "奥古斯汀的鼻子猛地抽动了一下……那是廉价薄荷牙膏中特有的、令人牙酸的涩味，混合着只有在最高规格的修道院密室中才允许的、干燥鼠尾草的冷香。"
+      },
+      "reason": "合并R01、R03关于能力神化的意见。第58集埃德蒙通过气味标记让奥古斯汀在“广场对面暗巷深处”感知到他的存在，但两者之间有距离且存在障碍物，气味能否精准传达存疑。更关键的是，奥古斯汀能识别出“廉价薄荷牙膏”和“最高规格修道院密室”的鼠尾草，这要求他对埃德蒙的私人习惯有极其细致的了解，但前文未充分铺垫这种熟悉程度，导致能力表现突破物理限制且缺乏合理支撑，属于A级能力状态断裂。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007",
+        "logic-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第13-16集“忏悔演讲”带来的政治红利及奥古斯汀作为“听众”的伏笔后续未充分展开或回收。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "一名身着陈旧铠甲的老贵族猛地站起……对着埃德蒙的背影，郑重地鞠了一躬。",
+        "contrast_episode": "第17集",
+        "contrast_scene": "17-1",
+        "contrast_quote": "冯·克莱斯特：（冷笑……）消散？不，奥古斯汀。沉默比喧哗更危险。"
+      },
+      "reason": "合并R01、R03关于伏笔回收的意见。第13集埃德蒙邀请奥古斯汀作为“听众”参与演讲重构，第15-16集演讲成功扭转舆论，获得旧贵族支持。但第17集后，剧情迅速转向财务危机和审计，演讲带来的政治红利（如旧贵族支持、民心提升）在后续剧情中几乎未被提及或利用，奥古斯汀作为“听众”的即时反馈或互动也未体现，导致这一关键转折点的后续回响不足，属于B级遗忘伏笔。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "埃德蒙通过“气味/听觉”识破对手并施加心理压力的情节模式多次重复，缺乏新的叙事维度。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "埃德蒙（眉头微不可察地皱起）：苦杏仁味。这是用于溶解火漆的强酸残留。",
+        "contrast_episode": "第21集",
+        "contrast_scene": "21-1",
+        "contrast_quote": "埃德蒙：（声音平静……）北境的黑胶土，味道总是这么独特。"
+      },
+      "reason": "R01指出第4、6、8、21、23、33、35集等多处，埃德蒙均通过“闻到/听到”对手身上的特定气味或声音，识破其身份、意图或秘密，并以此施加心理压力。虽然每次具体细节不同，但核心模式（气味/听觉→识破→心理压制→屈服）高度重复，缺乏新的叙事维度或升级，导致后期情节显得套路化，属于B级事件重复。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E003"
+      ],
+      "status": "rejected",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "埃德蒙对奥古斯汀的“假死”计划及具体细节的知晓缺乏合理来源。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "包括让你的脉搏停止跳动的那一刻，真实可信。",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-1",
+        "contrast_quote": "他心中冷笑：真是谨慎的蝼蚁。原件未动，只给了一个精心制作的“空壳”。"
+      },
+      "reason": "R02认为埃德蒙在第44集指导奥古斯汀“脉搏停止”，第46集对“空壳”感到意外，存在逻辑矛盾。但仔细审视剧本，第44集埃德蒙提出的是“假死”计划，要求奥古斯汀配合表演，而第46集埃德蒙发现的是奥古斯汀交出的“真核”文件是空壳，这与“假死”表演本身并不矛盾。埃德蒙可以预设奥古斯汀会尝试保留底牌（如空壳文件），而第46集的“冷笑”表明他早已预料到这种谨慎行为，并非意外。因此，该条意见对剧本逻辑的解读存在偏差，不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E005"
+      ],
+      "status": "rejected",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "“真核”/原始账本的归属与传递过程存在逻辑漏洞。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "奥古斯汀...掏出一个油污斑斑的油布包裹...那是真核",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-1",
+        "contrast_quote": "石板下是一个暗格，里面躺着一个用油布严密包裹的皮革卷轴...这卷轴里装的是宰相大人的良心。"
+      },
+      "reason": "R02认为第45集奥古斯汀交出“真核”，第59集又取出“宰相的良心”存在矛盾。但第45集奥古斯汀交出的是“真核”（原始账目），第46集埃德蒙发现是空壳，说明真核并未真正转移。第59集奥古斯汀从地下室取出的“皮革卷轴”是“宰相的良心”，即非法征粮记录等罪证，这与第45集的“真核”（账目）可能是不同的文件，或者是奥古斯汀保留的另一份关键证据。剧本中“真核”和“宰相的良心”的定义虽有模糊，但并非硬性矛盾，且第59集奥古斯汀的行为符合其试图反击的动机。因此，该条意见证据不足，不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "艾德里安从“医官”到“战士”的身份转换缺乏过渡，影响角色可信度。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "根据皇家卫生院的记录，您的行医执照似乎是在三个月前才颁发的？",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "艾德里安趴在数十米外的瓦砾堆后，手中紧握着步枪"
+      },
+      "reason": "R02指出艾德里安第2集是医官，第47集执行军事任务，身份转换缺乏过渡。虽然第2集提到他曾是军人（“旧军团通讯”），但第2集明确提到行医执照三个月前颁发，且奥古斯汀质疑他“在敌营救治伤员”，暗示他近期才成为医官。从医官到特种战士的快速切换缺乏训练或背景交代，影响了角色可信度，属于B级性格动机突变/身份矛盾。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "rejected",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "埃德蒙在宗教法庭上通过“呼吸同步”证明非异端，逻辑牵强。",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-2",
+        "quote": "托马斯复述着一段段往事，他的呼吸变得绵长而深沉。与此同时，坐在轮椅上的埃德蒙，肩膀极其轻微地起伏，他的呼吸节奏竟然与十米外的老仆完全同步。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03认为“呼吸同步”与“非异端”之间的因果联系过于主观。但第38集埃德蒙的辩护核心是“秩序”与“冷静”，呼吸同步是这种内在秩序的外在表现，旨在证明他并非“异端狂热”的躁动者，而是坚守秩序的信徒。这一行为与前文埃德蒙的冷静性格及托马斯的忠诚铺垫一致，逻辑上可以成立，不属于因果断裂。因此，该条意见不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E005"
+      ],
+      "status": "rejected",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第54集伯爵死亡与第55集埃德蒙发现尸体的时间线存在矛盾。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "砰！一声枪响撕裂夜空。柜台被击中背部，身体剧烈抽搐，随即重重倒在埃德蒙脚边。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "埃德蒙蜷缩在阴影中，瞳孔在黑暗中剧烈收缩后重新适应。他屏住呼吸，侧耳倾听。"
+      },
+      "reason": "R03认为埃德蒙在车内应能听到枪声或闻到血腥味，但未察觉。但第54集埃德蒙在伯爵死亡后迅速上车，车厢内充斥发霉麻袋和廉价地毯的气味，且埃德蒙作为盲人，在紧张逃亡状态下可能未立即察觉血腥味，或血腥味被其他气味掩盖。第55集他下车后才发现尸体，符合逻辑。因此，该条意见证据不足，不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A014",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E008",
+        "logic-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第14-15集“盲文拓印”与“演讲反转”的因果链设计精巧，前因充分支撑后果。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-2",
+        "quote": "奥古斯汀以为他在加固牢笼，其实他是在打造模具。这些凹痕，比任何文字都清晰。",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "埃德蒙：（低沉，颗粒感极强）我……曾仰望……那转瞬即逝的……虚荣。"
+      },
+      "reason": "合并R02、R03关于因果链亮点的意见。第14集奥古斯汀用刻刀加深盲文凹槽，本意是让埃德蒙读出“臣服”的重量，结果埃德蒙利用这些凹槽进行拓印，制造出“罪证”副本，并在演讲中利用物理触感（停顿、重音）反转了文本含义。这一过程逻辑严密，前因（刻刀加深）直接导致后果（拓印成功、演讲效果），且利用了“盲人”这一核心设定，具有惊喜感，属于A级因果链设计质量亮点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A015",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 0.0,
+      "claim": "艾德里安从愤怒到服从的转变，有事件驱动但过渡偏薄，整体逻辑可推断。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "埃德蒙：不，艾德里安。我让你活着，是为了让你在每一个深夜，都能闻到这些血的味道。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "艾德里安（声音沙哑，毫无起伏）：下一步是什么？"
+      },
+      "reason": "R03指出艾德里安从愤怒到服从的转变有事件驱动（屠杀、勋章），但埃德蒙的驯化手段（如冰水、石墙）略显刻意，情绪过渡偏薄，但整体逻辑可推断。这一转变符合角色在极端压力下的心理变化，属于B级性格动机突变亮点（不加分）。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 26,
+  "covered_count": 26
+}

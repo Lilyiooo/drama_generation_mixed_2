@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_2643/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 85.79,
+      "ledger_subdimension_mean": 85.86,
+      "holistic_subdimension_mean": 85.71,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 87.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.5
+        },
+        "character_state": {
+          "ledger_score": 78.0,
+          "holistic_score": 86.0,
+          "fused_score": 82.0
+        },
+        "knowledge_state": {
+          "ledger_score": 82.0,
+          "holistic_score": 86.0,
+          "fused_score": 84.0
+        },
+        "resource_state": {
+          "ledger_score": 90.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 83.0,
+          "holistic_score": 86.0,
+          "fused_score": 84.5
+        },
+        "foreshadowing": {
+          "ledger_score": 91.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.5
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 90.0,
+          "fused_score": 90.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "knowledge_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "resource_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 89.9,
+      "ledger_subdimension_mean": 93.4,
+      "holistic_subdimension_mean": 86.4,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 99.0,
+          "holistic_score": 88.0,
+          "fused_score": 93.5
+        },
+        "hooks": {
+          "ledger_score": 93.0,
+          "holistic_score": 92.0,
+          "fused_score": 92.5
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.0
+        },
+        "episode": {
+          "ledger_score": 94.0,
+          "holistic_score": 84.0,
+          "fused_score": 89.0
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 82.0,
+          "fused_score": 86.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如亚瑟的伪装、霍克斯的施压）大多承担不同功能，通过新变量（如从法律施压转为物理监控、从资金冻结转为舆论操控）形成有效变奏，避免了简单的重复。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-1",
+            "quote": "根据昨天法官的裁定，为了防止你伤害自己或他人，法院批准引入“安全观察员”。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如亚瑟伪装疯癫、霍克斯施压）大多承担不同功能，通过新变量（如从法律施压到物理监控，再到舆论战）形成有效变奏，避免了简单的重复。",
+          "evidence": {
+            "episode": "第19集",
+            "scene": "19-2",
+            "quote": "亚瑟：（嘶吼，语无伦次）别动！袖子里！它们在爬行！它们在听我的心跳！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如亚瑟伪装疯癫、传递信息）大多承担不同功能，通过新变量（如从纸片到集装箱数据）形成有效变奏，避免了简单的重复。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-2",
+            "quote": "把每一段代码打散，混进未来十二小时内离港的三百个集装箱的温度波动记录里。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：霍克斯代表法律与程序暴力，维恩代表资本与暴力威胁，弗罗格代表内部背叛与监控。迫使主角采用不同策略（伪装、取证、结盟）。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-1",
+            "quote": "如果三十天内，我没看到亚瑟·彭哈利根破产的新闻登上头版，这份录音和相关的通讯记录，就会出现在联邦调查局的收件箱里。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：霍克斯代表法律与程序暴力，维恩代表资本与暴力威胁，弗罗格代表内部背叛与监控。迫使主角采用不同策略（伪装、取证、结盟）。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-1",
+            "quote": "维恩：（缓缓转身，面容冷酷，眼神如濒死的狼）安静？弗罗格先生，沉默不是顺从，是暴风雨前的窒息。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：霍克斯代表法律与程序压迫，维恩代表资本与暴力威胁，迫使主角采用不同的应对策略（伪装、谈判、技术反击）。",
+          "evidence": {
+            "episode": "第15集",
+            "scene": "15-1",
+            "quote": "如果三十天内，我没看到亚瑟·彭哈利根破产的新闻登上头版，这份录音和相关的通讯记录，就会出现在联邦调查局的收件箱里。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从法庭受辱到被软禁，再到策划反击，每一步都压缩了主角的选择空间。",
+          "evidence": {
+            "episode": "第19集",
+            "scene": "19-2",
+            "quote": "鉴于被申请人目前的极端应激状态，以及医疗专家的即时评估，本人裁定：驳回强制住院申请。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从法庭受辱到仓库取证，再到论坛反击，每一步都压缩了主角的选择空间并扩大了后果。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "亚瑟：我为什么要和你合作？因为我们是同一条船上的老鼠，只是霍克斯想把我们两个都淹死。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从法庭受辱到仓库发现账本，再到论坛反击，每一步都压缩了主角的选择空间并扩大了后果。",
+          "evidence": {
+            "episode": "第9集",
+            "scene": "9-2",
+            "quote": "这不是巧合，这是处刑书。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过账户冻结迅速建立危机，第2-3集通过律师介入和媒体曝光确立核心矛盾，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "现在，您公司账户的可用余额是——零。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过账户冻结和印章被夺，迅速确立了主角的困境和反派的威胁，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "银行经理：现在，您公司账户的可用余额是——零。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过账户冻结和印章被夺，迅速确立了主角的困境和反派的威胁，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "现在，您公司账户的可用余额是——零。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进（如获取账本、转移资金、法庭对峙），后段完成充分升级与收束（霍克斯被捕、公司重建），节奏紧凑。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "鉴于证据确凿，且被告涉嫌妨碍司法公正与欺诈。本庭下令，立即逮捕朱利安·霍克斯。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进（取证、结盟、反击），后段完成充分升级与收束（法庭审判、资产回收、重建）。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "法官：鉴于证据确凿，且被告涉嫌妨碍司法公正与欺诈。本庭下令，立即逮捕朱利安·霍克斯。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进（如获取证据、论坛反击），后段完成充分升级与收束（法庭定罪、商业重建），节奏张弛有序。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "本庭下令，立即逮捕朱利安·霍克斯。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫。从绝望（被软禁）到压抑（伪装）到爆发（法庭反击）再到释然（重建），高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-2",
+            "quote": "亚瑟（对着红西装代表，咧嘴傻笑，口水拉丝）：你的口袋……有声音。叮叮咚咚……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫。从绝望（第1-2集）到隐忍（第3-10集）到反击（第11-20集）到高潮（第41-42集）到释然（第52集），高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "亚瑟（轻声，声音沙哑）：结束了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫。从绝望（第1-6集）到隐忍（第7-19集）到反击（第20-42集）到重建（第43-60集），高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-2",
+            "quote": "你的口袋……有声音。叮叮咚咚……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化。法律困境、生存危机、复仇计划、商业重建等多条期待链相互咬合，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "他需要那份签字。那个东西，现在一定在霍克斯身上。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化（悬念、危机、情感），并在合理时点有效兑现。例如第7集晚宴的期待在第8-9集通过仓库取证兑现。",
+          "evidence": {
+            "episode": "第7集",
+            "scene": "7-2",
+            "quote": "亚瑟（低声自语，声音在空寂的走廊里显得格外清晰）：四十五万……好，朱利安，既然你要玩，我们就换个玩法。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化。法律战、商业战、情感线相互咬合，并在合理时点有效兑现，如霍克斯被捕、维恩妥协等。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-2",
+            "quote": "密码是……维恩企业成立的日期，倒序。这是我全部能给的。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期密集建立危机，中期铺垫反击，后期集中爆发与收束，信息密度与戏剧阶段匹配。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-2",
+            "quote": "这些钱，已经回到我们的账户！这意味着什么？意味着公司不仅活着，而且活得比任何时候都要强劲！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期密集建立危机，中期平稳推进反击，后期高潮与收束节奏得当。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-1",
+            "quote": "霍克斯（轻笑，语气平静得令人毛骨悚然）：开枪，尼古拉斯。只要你的手指动一下，这里的火警和自动封锁系统就会启动。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期密集建立危机，中期铺垫反击，后期收束并开启新阶段，信息密度与戏剧阶段匹配。",
+          "evidence": {
+            "episode": "第37集",
+            "scene": "37-2",
+            "quote": "这意味着，霍克斯不仅在利用法律漏洞，还在利用情感的破裂。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。例如第21-23集的软禁戏份虽长，但为后续逃脱和取证提供了关键的情报和机会。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-2",
+            "quote": "他的手指看似在整理叶片，实则指尖灵巧地捏住纸片，顺势翻折，将其滑入厚实的帆布袖口夹层。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。例如第12集埃莉诺的觉醒为后续合作奠定基础。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-2",
+            "quote": "埃莉诺：我一直在算账。你以为我在保护那个家，其实我在保护剩下的筹码。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。例如第12集埃莉诺的转变，为后续合作奠定了基础，并非无功能段落。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-2",
+            "quote": "如果你死了，我就烧掉这房子，连灰都不剩。如果你赢了……分我一半。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。维恩的背叛、玛丽安的证词、雷诺兹的合作等副线均直接推动了主线的高潮与结局。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-2",
+            "quote": "玛丽安（声音虽颤，却字字清晰）：我确定，法官大人。我要提交这份文件。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线（如玛丽安线、维恩线）稳定补充人物、信息、冲突，并在关键节点反哺主线。玛丽安线直接提供了法庭关键证据。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-2",
+            "quote": "玛丽安（声音虽颤，却字字清晰）：我确定，法官大人。我要提交这份文件。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线（如玛丽安线、维恩线）稳定补充人物、信息、冲突，并在关键节点反哺主线。玛丽安提供的信托契约成为法庭定罪的关键证据。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-2",
+            "quote": "我要提交这份文件。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从保公司到复仇再到重建，每次兑现都改变了局面并产生了新的意义。",
+          "evidence": {
+            "episode": "第53集",
+            "scene": "53-1",
+            "quote": "以前我觉得，要把他从商业世界上抹去才算胜利。现在我发现，让他活着，但必须按照我的规则呼吸，这才是真正的掌控。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从保公司到复仇再到重建，每次兑现都改变了局面。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-2",
+            "quote": "亚瑟（大声）：这些钱，已经回到我们的账户！这意味着什么？意味着公司不仅活着，而且活得比任何时候都要强劲！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从保公司到复仇再到重建，每次兑现都改变了局面。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-2",
+            "quote": "这些钱，已经回到我们的账户！这意味着什么？意味着公司不仅活着，而且活得比任何时候都要强劲！"
+          }
+        }
+      ]
+    }
+  ]
+}

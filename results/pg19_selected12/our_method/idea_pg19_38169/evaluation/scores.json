@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_38169/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 85.0,
+      "ledger_subdimension_mean": 85.14,
+      "holistic_subdimension_mean": 84.86,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 87.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.5
+        },
+        "character_state": {
+          "ledger_score": 87.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.5
+        },
+        "knowledge_state": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        },
+        "resource_state": {
+          "ledger_score": 74.0,
+          "holistic_score": 84.0,
+          "fused_score": 79.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 81.0,
+          "holistic_score": 84.0,
+          "fused_score": 82.5
+        },
+        "foreshadowing": {
+          "ledger_score": 91.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.5
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 90.0,
+          "fused_score": 90.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 87.7,
+      "ledger_subdimension_mean": 90.4,
+      "holistic_subdimension_mean": 85.0,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 92.0,
+          "holistic_score": 84.0,
+          "fused_score": 88.0
+        },
+        "hooks": {
+          "ledger_score": 90.0,
+          "holistic_score": 86.0,
+          "fused_score": 88.0
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 82.0,
+          "fused_score": 86.0
+        },
+        "episode": {
+          "ledger_score": 90.0,
+          "holistic_score": 85.0,
+          "fused_score": 87.5
+        },
+        "setting": {
+          "ledger_score": 90.0,
+          "holistic_score": 88.0,
+          "fused_score": 89.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 4,
+          "total": 4
+        },
+        "character_support": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如梅莉安受神经干扰、伊莱亚斯战斗）大多承担不同功能，通过新变量（如干扰源变化、敌人升级）形成有效变奏。",
+          "evidence": {
+            "episode": "第18集",
+            "scene": "18-1",
+            "quote": "梅莉安猛地捂住双耳，身体剧烈痉挛，瞳孔因强光刺激而涣散。她视线前方的虚空中，无数扭曲的银色星形光斑疯狂旋转，仿佛要将她的意识撕裂。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如梅莉安受神经干扰、伊莱亚斯战斗）大多承担不同功能，通过新变量（如干扰源变化、敌人升级）形成有效变奏。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-1",
+            "quote": "梅莉安（尖叫，跪倒在地）：不！它们在看着我！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如梅莉安受神经干扰、伊莱亚斯战斗）大多承担不同功能，通过新变量（如干扰源变化、敌人升级）形成有效变奏。",
+          "evidence": {
+            "episode": "第18集",
+            "scene": "18-1",
+            "quote": "梅莉安猛地捂住双耳，身体剧烈痉挛，瞳孔因强光刺激而涣散。她视线前方的虚空中，无数扭曲的银色星形光斑疯狂旋转，仿佛要将她的意识撕裂。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手（无人机、守卫、首领）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（物理破坏、战术规避、心理对抗）。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-2",
+            "quote": "三个拇指大小的黑色圆盘状无人机从头顶的阴影中无声滑出，悬停在伊莱亚斯面前三米处。它们的旋翼几乎静止，却散发着危险的低频震动。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手（无人机、守卫、首领）代表不同资源与压力类型，迫使主角采用不同策略（物理破坏、潜行、心理对抗）。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-2",
+            "quote": "三个拇指大小的黑色圆盘状无人机从头顶的阴影中无声滑出"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手（无人机、守卫、首领）代表不同资源与压力类型，迫使主角采用不同策略（物理破坏、战术规避、心理博弈）。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-2",
+            "quote": "三个拇指大小的黑色圆盘状无人机从头顶的阴影中无声滑出，悬停在伊莱亚斯面前三米处。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "首领（VO）：梅莉安的母亲，萨拉。她死于意外？不。她死于你的一次“必要牺牲”。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果，如从庄园到矿井再到深层机械室的推进。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "梅莉安：五年？二战防空洞？伊莱亚斯，你刚才撒谎了，对吗？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果，如从庄园到矿井再到深层机械室的推进。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "梅莉安环顾四周，目光落在墙角一本摊开的日志上，日期赫然印着五年前。她猛地转头看向伊莱亚斯，眼中怒火中烧。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯：（眼神一凛，放下枪）"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，暴雨、尸体、神经干扰迅速建立紧张感。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯：（眼神一凛，放下枪）"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰，第一集即通过梅莉安求救和伊莱亚斯反应建立紧张感。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伊莱亚斯：（眼神一凛，放下枪）"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-1",
+            "quote": "首领拇指按下。滋——！蓝紫色的高压电弧如毒蛇般从首领袖口窜出，瞬间击中伊莱亚斯的后颈脊椎。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束，如第35集真相揭露后的情感爆发。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "伊莱亚斯：（喃喃自语，声音沙哑如砂纸摩擦）红星计划……是以那个名字命名的。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束，如第35集真相揭露后的情感爆发。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "伊莱亚斯：（喃喃自语，声音沙哑如砂纸摩擦）红星计划……是以那个名字命名的。他不是疯子，他是我的导师……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "伊莱亚斯张开双臂，整个人猛地扑在喷口上，双手死死扣住断裂的金属边缘，身体紧贴滚烫的管道，用人肉作为唯一的缓冲垫。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺，如伊莱亚斯牺牲自我时的悲壮感。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "伊莱亚斯张开双臂，整个人猛地扑在喷口上，双手死死扣住断裂的金属边缘"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺，如伊莱亚斯牺牲时的悲壮感。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-2",
+            "quote": "伊莱亚斯张开双臂，整个人猛地扑在喷口上，双手死死扣住断裂的金属边缘，身体紧贴滚烫的管道，用人肉作为唯一的缓冲垫。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-1",
+            "quote": "梅莉安：他给的是诱饵坐标。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现，如集末悬念与下集承接紧密。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-2",
+            "quote": "梅莉安（嘴角勾起一丝苦涩而疯狂的冷笑）：既然你们想玩游戏……那就看看谁才是真正的猎手。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现，如每集结尾的悬念设置。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-2",
+            "quote": "梅莉安（嘴角勾起一丝苦涩而疯狂的冷笑）：既然你们想玩游戏……那就看看谁才是真正的猎手。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-1",
+            "quote": "一份名为“净化协议”的文件自动展开：显示全镇供水系统注入微量神经抑制物，配合特定频率灯光即可诱发集体幻觉或暴动。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度，如前期铺垫与后期高潮的对比。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-1",
+            "quote": "伊莱亚斯（眼神冷冽）：常规解码进不去。这是军用级隔离。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度，如高潮前的铺垫和爆发。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "伊莱亚斯停下撞击。他闭上眼，胸腔剧烈起伏。片刻后，他睁开眼，眼中的惊恐与慌乱褪去，只剩下一片冰冷的死寂。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "梅莉安（极轻地，对昏迷的西拉斯）：现在不需要警察，只需要一个能让我们活下去的人。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-1",
+            "quote": "伊莱亚斯：记住分工。我在正面吸引，西拉斯潜入，梅莉安守株待兔。谁也不能死。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-1",
+            "quote": "伊莱亚斯：记住分工。我在正面吸引，西拉斯潜入，梅莉安守株待兔。谁也不能死。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "梅莉安（喃喃自语）：他不是帮不了……他是选择了沉默。他用父母的命，换了我的命。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线，如西拉斯的独立行动与主线汇合。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-1",
+            "quote": "西拉斯（对着无线电，声音虚弱但清晰）：算术题的第二步来了。如果你不想让他们变成一锅粥，就现在动手。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线，如西拉斯的过去与伊莱亚斯的愧疚。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "梅莉安（极轻地，对昏迷的西拉斯）：现在不需要警察，只需要一个能让我们活下去的人。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "梅莉安：我不属于这里。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现，如从寻找信号源到摧毁核心。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "伊莱亚斯（低沉而坚定）：如果我不走……所有人都死。我会到的。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现，如从寻找信号源到摧毁基地。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "伊莱亚斯（低沉而坚定）：如果我不走……所有人都死。我会到的。"
+          }
+        }
+      ]
+    }
+  ]
+}

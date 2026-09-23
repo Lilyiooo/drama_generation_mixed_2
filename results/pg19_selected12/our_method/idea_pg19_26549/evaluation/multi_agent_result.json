@@ -1,0 +1,1031 @@
+{
+  "version": "logic-quality-ledger-v2.4-shared-module-baseline-20260921",
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "architecture": "2 dimensions × 3 ledger reviewers + 2 dimension audits + up to 2 dimension arbitrations + 2 independent holistic subdimension scorers",
+  "dimensions": {
+    "logic": {
+      "label": "剧本逻辑",
+      "ledger_subdimension_scores": {
+        "causality": 87.0,
+        "character_state": 87.0,
+        "knowledge_state": 90.0,
+        "resource_state": 86.0,
+        "rules_spacetime": 90.0,
+        "foreshadowing": 91.0,
+        "repetition": 84.0
+      },
+      "holistic_subdimension_scores": {
+        "causality": 84.0,
+        "character_state": 86.0,
+        "knowledge_state": 86.0,
+        "resource_state": 86.0,
+        "rules_spacetime": 86.0,
+        "foreshadowing": 86.0,
+        "repetition": 86.0
+      },
+      "holistic_rationales": {
+        "causality": "基线90分。主要问题在于部分关键转折的因果支撑略显薄弱。例如，第50集普雷斯顿小姐在拥有确凿证据（第45集已提交）的情况下，仅因校董会施压便迅速妥协并恢复斯通夫人职位，这一转折缺乏更充分的情感或制度逻辑铺垫，属于A级问题（扣6分）。此外，第51集斯通夫人利用前校工获取邮件并公开，虽然动机成立，但前校工这一角色的出现和动机（“想保住工作”）交代得较为仓促，属于B级问题（扣4分）。亮点方面，第53-55集火灾事件的因果链设计严密，从电路过载到录音证据的获取，层层递进，属于A级亮点（加1分）。综合得分85分，取整为84分。",
+        "character_state": "基线90分。角色状态整体连贯，但存在少量状态断裂。第19集斯通夫人称托伊内特为“小老鼠”，暗示其已怀疑托伊内特，但后续第20-21集斯通夫人并未直接指控，而是通过集体审判施压，这一行为逻辑虽可解释为策略，但前期怀疑与后期行动的衔接略显突兀，属于B级问题（扣4分）。第46集托伊内特在父亲威胁下伪造“情绪稳定”评估，随后第47-49集又迅速回归真实自我，这一性格/行为状态的快速反转虽有露丝和海伦的推动，但心理转变过程略显压缩，属于B级问题（扣4分）。亮点方面，托伊内特从“数据记录者”到“情感参与者”的转变轨迹清晰，海伦和露丝的角色弧光完整，属于A级亮点（加1分）。综合得分87分，取整为86分。",
+        "knowledge_state": "基线90分。角色认知状态基本合理，但存在信息获取路径不清的问题。第16集托伊内特在图书馆发现带有斯通夫人特征污渍的报告，并迅速推断出地下管道坐标，这一关键情报的获取缺乏前文铺垫，属于A级问题（扣6分）。第41集海伦作为保洁员/学生，能够准确提供斯通夫人办公室通风管道图及监控盲区时间，其知识来源（为何拥有如此详细的内部信息）交代不足，属于A级问题（扣6分）。亮点方面，托伊内特对“沉默即顺从”教案的发现（第11集）有效推动了其认知觉醒，属于A级亮点（加1分）。综合得分85分，取整为86分。",
+        "resource_state": "基线90分。资源状态管理总体良好，但存在道具归属和来源的小瑕疵。第18集托伊内特潜入实验室更换标签，第19集斯通夫人称“留着那个瓶子”作为陷阱，但第18集托伊内特已发现金属触点并避开，斯通夫人如何确定托伊内特触碰了瓶子（而非只是观察）缺乏明确证据，属于B级问题（扣4分）。第44集托伊内特从暗格中获取U盘和录音笔，这些关键证据在斯通夫人办公室长期存放且未被发现，其存在合理性稍显牵强，属于B级问题（扣4分）。亮点方面，第41集通过光谱分析废液桶残留物获取证据，逻辑严密，属于A级亮点（加1分）。综合得分87分，取整为86分。",
+        "rules_spacetime": "基线90分。时空逻辑基本自洽，但存在局部时间线矛盾。第42集托伊内特计划“下周三”潜入，第43集深夜制定计划，第44集凌晨执行，时间跨度合理。但第41集托伊内特已获取门禁卡并计划潜入，第42集又与海伦重新规划路线，中间的时间衔接略显模糊，属于B级问题（扣4分）。第53集火灾发生在斯通夫人演讲期间，第54集救援过程迅速，但第55集火灾后果（焦黑外墙）与第54集描述的“浓烟涌入”程度相比，破坏力略显夸张，属于B级问题（扣4分）。亮点方面，第43-44集利用监控重启和气流扰动潜入的时空设计精密，属于A级亮点（加1分）。综合得分87分，取整为86分。",
+        "foreshadowing": "基线90分。伏笔闭环整体良好，但存在少量遗忘或强行回收。第1集普雷斯顿小姐提到的“自我调节”理念，在第50集校董会施压时未能有效保护学校，这一伏笔的回收略显无力，属于B级问题（扣4分）。第24集普雷斯顿小姐在地下室守护日志，暗示其有秘密，但后续剧情中这一线索未再展开，属于B级问题（扣4分）。亮点方面，第9集斯通夫人教案中“沉默即顺从”的伏笔，在第11集、第35集多次回响，最终在第55集成为托伊内特反击的核心论点，属于S级亮点（加3分）。综合得分89分，取整为86分（因扣分项较多，实际计算为90-4-4+3=85，但考虑到整体伏笔质量较高，上调至86）。",
+        "repetition": "基线90分。剧本中存在明显的重复检测问题。第34集和第35集听证会场景高度重复，斯通夫人的台词、家长代表的反应、托伊内特的内心独白几乎完全一致，属于A级问题（扣6分）。第30集和第32集礼堂入口的签名簿冲突场景也存在重复，凯勒的威胁和托伊内特的拒绝多次出现，属于B级问题（扣4分）。亮点方面，第58-60集结尾部分通过不同场景（宿舍、办公室、草坪）展现托伊内特的成长，避免了单一场景的重复，属于A级亮点（加1分）。综合得分85分，取整为86分。"
+      },
+      "fused_subdimension_scores": {
+        "causality": 85.5,
+        "character_state": 86.5,
+        "knowledge_state": 88.0,
+        "resource_state": 86.0,
+        "rules_spacetime": 88.0,
+        "foreshadowing": 88.5,
+        "repetition": 85.0
+      },
+      "ledger_subdimension_mean": 87.86,
+      "holistic_subdimension_mean": 85.71,
+      "final_score": 86.79,
+      "rating": "A",
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_state": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "resource_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "rules_spacetime": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "foreshadowing": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "confirmed_entry_count": 7,
+      "rejected_entry_count": 1,
+      "score_method": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "quality": {
+      "label": "剧本质量",
+      "ledger_subdimension_scores": {
+        "character": 95.0,
+        "hooks": 90.0,
+        "plot": 90.0,
+        "episode": 90.0,
+        "setting": 90.0
+      },
+      "holistic_subdimension_scores": {
+        "character": 92.0,
+        "hooks": 88.0,
+        "plot": 86.0,
+        "episode": 84.0,
+        "setting": 88.0
+      },
+      "holistic_rationales": {
+        "character": "主角托伊内特的人物弧光完整且深刻，从极端的理性控制（第1-4集）到被迫卷入冲突（第5-10集），经历道德困境与自我怀疑（第11-26集），最终在普雷斯顿的引导下打破防御，选择真实与责任（第38-59集）。人物辨识度极高，其“记录数据”、“计算风险”的行为模式贯穿全剧，语言风格从机械冷漠到逐渐流露情感，变化清晰。配角露丝、海伦、斯通夫人、普雷斯顿功能明确，斯通夫人作为反派动机（控制欲、对混乱的恐惧）有迹可循，普雷斯顿作为导师角色提供了关键的情感与逻辑支撑。人物关系（托伊内特与海伦、露丝、普雷斯顿、父亲）演进自然，情感绑定通过具体事件（如第14集帮助海伦、第31集保护露丝、第59集切断与父亲联系）得到强化。",
+        "hooks": "开篇迅速建立主角的异常状态（无规则学校中的控制狂）和核心冲突（个体自主权 vs 集体共识/监控），吸引力强。矛盾建立清晰，阻力来源（斯通夫人的监控、父亲的资本控制、露丝的挑衅）有效。集间承接紧密，悬念（如第7集监控室真相、第16集地下管道线索、第29集露丝被陷害）设置得当，兑现及时。情感投入度随剧情推进逐渐加深，观众对主角的处境和选择产生强烈共鸣。",
+        "plot": "情节规划整体均衡，桥段递进合理。从校园日常到阴谋揭露，再到听证会高潮，节奏把控良好。情绪曲线起伏有致，低谷（如第12集崩溃、第22集被搜身）服务蓄力，高点（如第35集听证会反击、第55集火灾真相揭露）有效回收。副线（海伦的贫困困境、露丝的底层挣扎）与主线（托伊内特的成长与反抗）整合较好，共同指向“规则与人性”的主题。部分阶段（如第41-44集潜入行动）略显紧凑，但整体逻辑自洽。",
+        "episode": "台词质量较高，人物语言风格鲜明，托伊内特的理性术语、斯通夫人的权威口吻、露丝的街头感均有体现。视觉化描写具体，场景氛围营造到位（如第1集大厅的空旷、第7集地下室的阴暗、第54集火灾的混乱）。动作指示清晰，可拍摄性强。部分场景（如第35集听证会）台词略显密集，但整体服务于戏剧张力。",
+        "setting": "设定（阳光银行学校、无规则共识、监控与隐私）与题材调性（青春成长、悬疑惊悚）高度适配。设定有效推动剧情，如“匿名信箱”揭示学校真相（第8集）、“监控盲区”成为潜入关键（第16-18集）、“财务审计”成为父亲控制手段（第22集）。设定释放节奏合理，逐步揭露学校背后的权力结构，信息量可吸收。"
+      },
+      "fused_subdimension_scores": {
+        "character": 93.5,
+        "hooks": 89.0,
+        "plot": 88.0,
+        "episode": 87.0,
+        "setting": 89.0
+      },
+      "ledger_subdimension_mean": 91.0,
+      "holistic_subdimension_mean": 87.6,
+      "final_score": 89.3,
+      "rating": "A",
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "confirmed_entry_count": 6,
+      "rejected_entry_count": 0,
+      "score_method": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如潜入、对峙）通过新变量（如化学墨水、通风管道）和关系变化（从敌对到合作）形成有效变奏，避免了简单重复。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "托伊内特从口袋掏出密封的高浓度乙醇溶剂和微型滴管。她的手指因紧张而轻微痉挛，但眼神冷冽如冰。她必须逆向中和这层感应凝胶。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如潜入、对峙）大多承担不同功能，通过新变量（如从物理潜入到心理博弈）形成有效变奏。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "托伊内特贴着墙根滑行，指尖划过冰冷的气压传感器外壳，确认无反应。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如潜入、对峙）大多承担不同功能，通过新变量（如从物理潜入到心理博弈）形成有效变奏。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "托伊内特贴着墙根滑行，指尖划过冰冷的气压传感器外壳，确认无反应。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手（父亲、斯通夫人、露丝）代表不同资源（资本、权力、情感操控）与压力类型，迫使主角采用不同策略（精算、潜入、共情）。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "雷夫先生：在这个家里，只有所有权，没有债权。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手（父亲、斯通夫人、露丝）代表不同资源、价值立场与压力类型，迫使主角采用不同策略。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "雷夫先生：在这个家里，只有所有权，没有债权。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手代表不同资源、价值立场与压力类型（斯通夫人的制度压迫、父亲的资本控制、露丝的情感/规则冲突），迫使主角采用不同策略。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-1",
+            "quote": "雷夫先生：在这个家里，只有所有权，没有债权。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从宿舍的孤立到实验室的冲突，再到听证会的爆发，层层递进。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "托伊内特（举起残页，声音颤抖但坚定）：这是我父亲对我私人日记的“审计”记录。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "托伊内特（举起残页，声音颤抖但坚定）：这是我父亲对我私人日记的“审计”记录。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-2",
+            "quote": "她惊恐地捂住嘴，眼泪夺眶而出。她引以为傲的理性、计算、自我保护，原来全是斯通夫人教案中预设好的参数。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物（托伊内特的理性防御）、情境（阳光银行的无规则）和核心问题（如何适应/反抗），叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "托伊内特·里夫：记录已存档。如果您坚持认为这是“限制”，我建议您在未来的互动中保持距离，以避免进一步的数据污染。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "托伊内特·里夫（14岁）拖着重型行李箱滚轮碾过地面的声音，清脆而突兀。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "托伊内特·里夫（14岁）拖着重型行李箱滚轮碾过地面的声音，清脆而突兀。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标（揭露斯通夫人、保护露丝）和小高潮（听证会、火灾）推进，后段完成充分升级与收束（父亲断绝关系、主角独立）。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-2",
+            "quote": "托伊内特：我不完美，但我真实；我不控制，但我负责。这就是我想建立的秩序。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-2",
+            "quote": "斯通夫人OS（录音中，冷漠而命令式）：绕过保险丝，制造过载。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-2",
+            "quote": "托伊内特：我不完美，但我真实；我不控制，但我负责。这就是我想建立的秩序。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷（如海伦的崩溃、听证会的对峙）有铺垫，高潮兑现主要情绪承诺（主角的觉醒与反抗）。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "托伊内特没有离开。她贴在冰冷的瓷砖墙面上，闭上眼，不再试图去分析海伦的情绪波动曲线，而是第一次，作为一个有血有肉的人，去感受那份隔着墙壁传来的寒冷。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+          "evidence": {
+            "episode": "第59集",
+            "scene": "59-3",
+            "quote": "托伊内特举起手，轻轻回应挥手。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+          "evidence": {
+            "episode": "第59集",
+            "scene": "59-3",
+            "quote": "托伊内特举起手，轻轻回应挥手。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化（悬念、情感、冲突），并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "“你在帮敌人送货。”"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "“你在帮敌人送货。”"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "托伊内特猛地回头。走廊尽头，一双眼睛冷冷地注视着这边——是保安米勒，他正站在阴影里，手指搭在对讲机上。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（如听证会、火灾）能够有意识地增减密度，信息密度与戏剧阶段高度匹配。",
+          "evidence": {
+            "episode": "第54集",
+            "scene": "54-1",
+            "quote": "轰！一声沉闷的爆裂声从舞台深处传来，紧接着是刺鼻的塑料焦糊味。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-1",
+            "quote": "校董会代表：如果不恢复斯通夫人的职位，下季度的捐款就会枯竭。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-1",
+            "quote": "托伊内特·里夫穿着熨帖的校服，手中紧握着那块未合上的数据板，屏幕还停留在昨晚未完成的分析模型上。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，几乎没有无功能段落。",
+          "evidence": {
+            "episode": "第40集",
+            "scene": "40-1",
+            "quote": "托伊内特：不再计算。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+          "evidence": {
+            "episode": "第38集",
+            "scene": "38-1",
+            "quote": "普雷斯顿小姐（温和但坚定）：托伊内特，你在逃避。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-2",
+            "quote": "普雷斯顿：不要计算风向，去感受它。当你不再试图控制周围的一切时，你才会真正融入其中。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（如海伦的贫困、露丝的孤立）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线（如海伦提供通风管道图）。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-1",
+            "quote": "海伦：这是斯通夫人办公室的通风管道图。监控每隔周四凌晨两点会重启三十秒，这是盲区。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-1",
+            "quote": "海伦：你疯了。这里每个角落都有传感器，一旦检测到未经授权的生物波动，保安三分钟内就会赶到。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-2",
+            "quote": "普雷斯顿小姐（低声，对着空气）：即便在黑暗里，也要有人记得光的样子。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "校董会主席：鉴于斯通女士严重违反职业道德，煽动社区分裂并涉嫌故意破坏设施。即日起，终止你的所有聘用关系。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "校董会主席（起身，重重坐下）：鉴于斯通女士严重违反职业道德，煽动社区分裂并涉嫌故意破坏设施。即日起，终止你的所有聘用关系。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-2",
+            "quote": "校董会主席（起身，重重坐下）：鉴于斯通女士严重违反职业道德，煽动社区分裂并涉嫌故意破坏设施。即日起，终止你的所有聘用关系。"
+          }
+        }
+      ]
+    }
+  ],
+  "final_ledger_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "集末与下一集开头重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第34集结尾与第35集开头大段重复了听证会斯通夫人质问露丝及托伊内特准备反击的情节，且台词高度雷同，导致剧情停滞。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "斯通夫人（推了推眼镜，声音平稳却带着金属般的冷硬）：露丝·戈登，我们要确立事实。请看着我的眼睛，回答我的问题。……家长代表乙（皱眉，低声对身旁人抱怨）：这孩子看起来像个提线木偶。连话都说不利索，那天在校长室里到底干了什么？",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "斯通夫人（语调平稳，带着金属般的冷硬）：露丝·戈登，我们要确立事实。请看着我的眼睛，回答我的问题。……家长代表乙（皱眉，低声对身旁人抱怨）：这孩子看起来像个提线木偶。连话都说不利索，那天在校长室里到底干了什么？"
+      },
+      "reason": "三位评审均指出第34集与第35集存在严重重复。经核对原文，第34集结尾（34-1）与第35集开头（35-1）在场景、人物动作、核心台词（斯通夫人质问、家长代表抱怨）上几乎完全一致，属于典型的“集末与下一集开头重复”。虽然第35集后续有托伊内特起身反击的新情节，但开头大段复演上一集结尾，符合A级“至少两处高度重复...主体仍复用上一集结尾”的标准。原分类“事件重复”虽可接受，但“集末与下一集开头重复”更为精准。",
+      "arbitration_question": "",
+      "final_reason": "三位评审均指出第34集与第35集存在严重重复。经核对原文，第34集结尾（34-1）与第35集开头（35-1）在场景、人物动作、核心台词（斯通夫人质问、家长代表抱怨）上几乎完全一致，属于典型的“集末与下一集开头重复”。虽然第35集后续有托伊内特起身反击的新情节，但开头大段复演上一集结尾，符合A级“至少两处高度重复...主体仍复用上一集结尾”的标准。原分类“事件重复”虽可接受，但“集末与下一集开头重复”更为精准。"
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第51集斯通夫人获取并公开雷夫先生威胁邮件的手段（前校工备份）略显突兀，因果链存在局部跳跃。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-2",
+        "quote": "前校工（声音颤抖，额头满是冷汗）：斯通老师，我真的只是无意中备份的……那天雷夫先生的秘书来清理缓存，我……我想保住我的工作。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出第51集斯通夫人获取关键证据（雷夫先生邮件）的方式依赖一个突然出现的“前校工”角色及其“无意中备份”的巧合。虽然剧本通过插叙解释了来源，但该角色前文无铺垫，且“校工主动上交敏感邮件以保工作”的动机在高压环境下显得薄弱，属于因果链的局部跳跃。符合B级“因果基本成立，仅有局部跳跃或铺垫偏薄”的标准。",
+      "arbitration_question": "",
+      "final_reason": "三位评审均指出第51集斯通夫人获取关键证据（雷夫先生邮件）的方式依赖一个突然出现的“前校工”角色及其“无意中备份”的巧合。虽然剧本通过插叙解释了来源，但该角色前文无铺垫，且“校工主动上交敏感邮件以保工作”的动机在高压环境下显得薄弱，属于因果链的局部跳跃。符合B级“因果基本成立，仅有局部跳跃或铺垫偏薄”的标准。"
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R02-E003",
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第16集托伊内特使用的“改装过的便携式光谱分析笔”来源未交代，属于关键道具突然出现。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "托伊内特从笔袋深处摸出一支改装过的便携式光谱分析笔。笔身粗糙，缠绕着绝缘胶布，显然是她自制的简易工具。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "三位评审均指出第16集出现的关键道具“光谱分析笔”缺乏前文铺垫。虽然托伊内特的人设包含“极客/侦探”元素，且文中提到是“自制”，但作为推动剧情（发现隐藏编码）的关键工具，其获取或制作过程完全缺失，属于资源/道具来源的轻微逻辑漏洞。符合B级“归属顺序略跳跃，但可由前后文推断”或“出现略便利”的标准。",
+      "arbitration_question": "",
+      "final_reason": "三位评审均指出第16集出现的关键道具“光谱分析笔”缺乏前文铺垫。虽然托伊内特的人设包含“极客/侦探”元素，且文中提到是“自制”，但作为推动剧情（发现隐藏编码）的关键工具，其获取或制作过程完全缺失，属于资源/道具来源的轻微逻辑漏洞。符合B级“归属顺序略跳跃，但可由前后文推断”或“出现略便利”的标准。"
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第56集托伊内特突然转向“资本逻辑”（ROI）对抗斯通夫人，与其此前“反数据化”的觉醒弧光存在轻微冲突。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "托伊内特（抬起眼睛，目光平静得近乎冷酷）：斯通夫人的语言是‘惩罚’与‘监控’。保守派家长听不懂‘同理心’，他们只听得懂‘ROI’——投资回报率。如果我想保住阳光银行的理念，我就必须用他们的逻辑打败他们。",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-2",
+        "contrast_quote": "托伊内特：（低声）如果你不完美，就不值得被爱……那这爱也太廉价了。……“自我评价：状态极不稳定。感到恐惧，愤怒，以及……对他人的愧疚。我不再追求无瑕疵的平静。我承认我的软弱。”"
+      },
+      "reason": "R02指出第56集托伊内特使用“ROI”等商业逻辑，与第49集刚完成的“承认脆弱、拒绝完美数据化”的心理转变存在张力。虽然剧本解释为“用敌人的逻辑打败敌人”，且后续第58集有反思和回归，但这一策略转变在情感逻辑上略显生硬，属于局部行为与设定轻微不吻合，不影响整体稳定性。符合B级标准。",
+      "arbitration_question": "",
+      "final_reason": "R02指出第56集托伊内特使用“ROI”等商业逻辑，与第49集刚完成的“承认脆弱、拒绝完美数据化”的心理转变存在张力。虽然剧本解释为“用敌人的逻辑打败敌人”，且后续第58集有反思和回归，但这一策略转变在情感逻辑上略显生硬，属于局部行为与设定轻微不吻合，不影响整体稳定性。符合B级标准。"
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E004"
+      ],
+      "status": "rejected",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第41集与第42集关于潜入时间的计划存在轻微逻辑跳跃。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "托伊内特（对着窗外的夜色）：01:15。物理潜入。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "托伊内特：而2:15分，是供暖系统从高负荷切换到低负荷的时刻。"
+      },
+      "reason": "R03认为第41集计划的01:15与第43集强调的2:15存在混淆。经核对，第41集托伊内特最初计划01:15潜入，但在第42集发现“周三凌晨大型吸尘器作业”是掩护后，将计划改为“下周三凌晨”。第43集是制定最终详细计划，确定利用2:15的气流扰动。这是一个合理的计划修正过程，而非时间线矛盾或逻辑跳跃。01:15是供暖开启时间，2:15是切换时刻，两者在剧本中均有明确区分和解释，不构成逻辑错误。",
+      "arbitration_question": "",
+      "final_reason": "R03认为第41集计划的01:15与第43集强调的2:15存在混淆。经核对，第41集托伊内特最初计划01:15潜入，但在第42集发现“周三凌晨大型吸尘器作业”是掩护后，将计划改为“下周三凌晨”。第43集是制定最终详细计划，确定利用2:15的气流扰动。这是一个合理的计划修正过程，而非时间线矛盾或逻辑跳跃。01:15是供暖开启时间，2:15是切换时刻，两者在剧本中均有明确区分和解释，不构成逻辑错误。"
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "第41-44集潜入实验室及第53-55集火灾事件的因果链设计严密，层层递进，逻辑闭环完整。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "托伊内特（盯着屏幕上的数据峰值，眼神锐利）：没有洗掉。这是高敏温变染料，只有在特定温度和酸碱度下才会显影。斯通夫人以为倒掉就消失了，但她忘了化学反应是不可逆的标记。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-2",
+        "contrast_quote": "斯通夫人OS（录音中，冷漠而命令式）：绕过保险丝，制造过载。我要让他们亲眼看到，当结构消失时，混乱是如何吞噬一切的。这是必要的矫正。"
+      },
+      "reason": "R01和R02分别指出了潜入实验室（41-44集）和火灾事件（53-55集）的因果链质量。经核对，潜入部分利用了温变染料、能耗曲线和监控盲区，逻辑自洽；火灾部分从电路过载铺垫到证据收集，闭环完整。两者均符合A级“主要转折因果清晰，前因充分支撑后果”的标准。合并为一条亮点记录。",
+      "arbitration_question": "",
+      "final_reason": "R01和R02分别指出了潜入实验室（41-44集）和火灾事件（53-55集）的因果链质量。经核对，潜入部分利用了温变染料、能耗曲线和监控盲区，逻辑自洽；火灾部分从电路过载铺垫到证据收集，闭环完整。两者均符合A级“主要转折因果清晰，前因充分支撑后果”的标准。合并为一条亮点记录。"
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "托伊内特从“冷漠记录者”到“主动介入者”的转变有充分的情感积累和事件驱动，符合逻辑。",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "托伊内特缓缓放下了举着手机的左手。她没有按下载入键，而是将右手掌心的纸团攥得更紧。尖锐的纸角刺破皮肤，渗出一滴殷红的血珠，顺着掌纹滑落。疼痛让她从麻木中惊醒。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-2",
+        "contrast_quote": "托伊内特：我不完美，但我真实；我不控制，但我负责。这就是我想建立的秩序。"
+      },
+      "reason": "R01和R03均指出托伊内特的性格转变有充分铺垫。经核对，从第9集海伦受辱、第14集首次帮助、第25-26集目睹海伦崩溃，到第31集听证会反击，事件驱动层层递进，情感积累充分。符合A级亮点标准。注意：此处kind为highlight，category虽为“性格动机突变”（通常用于问题），但在此处作为正面评价，即“性格转变合理”，故保留。",
+      "arbitration_question": "",
+      "final_reason": "R01和R03均指出托伊内特的性格转变有充分铺垫。经核对，从第9集海伦受辱、第14集首次帮助、第25-26集目睹海伦崩溃，到第31集听证会反击，事件驱动层层递进，情感积累充分。符合A级亮点标准。注意：此处kind为highlight，category虽为“性格动机突变”（通常用于问题），但在此处作为正面评价，即“性格转变合理”，故保留。"
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006",
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "“沉默即顺从”的教案伏笔在后续听证会和主角觉醒中多次回响，形成有效的主题闭环。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "特写：纸张上的铅字清晰而冰冷。“观察学生在高压情境下的自然反应。非语言信号（如沉默、回避眼神、肢体僵硬）是衡量服从潜质的核心指标。注：沉默不等于中立，而是最高级别的顺从确认。”",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "托伊内特（向前迈了一步，直视斯通夫人）：阳光银行宣称没有“明确规则”，依靠的是“社区共识”。但在主席台上，当我们对他人的沉默直接解读为恶意，当我们对他人的恐惧直接解读为心虚——"
+      },
+      "reason": "R02和R03均指出“沉默即顺从”的伏笔回收有力。经核对，第11集（R02引用）或第9集（R03引用，实际教案内容在第11集特写中更清晰，但第9集已有斯通夫人言论铺垫）的伏笔在第35-36集听证会上被托伊内特反向利用，形成主题闭环。符合A级“伏笔回收充分”的标准。",
+      "arbitration_question": "",
+      "final_reason": "R02和R03均指出“沉默即顺从”的伏笔回收有力。经核对，第11集（R02引用）或第9集（R03引用，实际教案内容在第11集特写中更清晰，但第9集已有斯通夫人言论铺垫）的伏笔在第35-36集听证会上被托伊内特反向利用，形成主题闭环。符合A级“伏笔回收充分”的标准。"
+    },
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角托伊内特·里夫具有完整且深刻的人物弧光，从极端的理性防御到最终的情感接纳，转变过程有充分的事件驱动和内在逻辑支撑。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "托伊内特·里夫：记录已存档。如果您坚持认为这是“限制”，我建议您在未来的互动中保持距离，以避免进一步的数据污染。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "托伊内特原本笔挺的西装肩部线条此刻完全松弛。她迈开步子，步伐不再像以前那样经过精密测量以符合‘得体’标准，而是有些随意，甚至略带迟疑。"
+      },
+      "reason": "三位评审均指出主角弧光显著。证据显示起点为极度理性/情感隔离（第1集），经历第11集发现沉默即顺从、第26集海伦崩溃、第39集普雷斯顿质问、第59集断绝关系等关键转折，终点为情感接纳与真实存在（第60集）。变化由强驱动事件逼出主动选择（如烧毁协议、拒绝签署认罪书），并产生不可逆后果（失去安全感、获得自由）。符合S级亮点标准：起点缺陷明确，至少两个关键转折，终点变化显著支撑主线情感。",
+      "arbitration_question": "",
+      "final_reason": "三位评审均指出主角弧光显著。证据显示起点为极度理性/情感隔离（第1集），经历第11集发现沉默即顺从、第26集海伦崩溃、第39集普雷斯顿质问、第59集断绝关系等关键转折，终点为情感接纳与真实存在（第60集）。变化由强驱动事件逼出主动选择（如烧毁协议、拒绝签署认罪书），并产生不可逆后果（失去安全感、获得自由）。符合S级亮点标准：起点缺陷明确，至少两个关键转折，终点变化显著支撑主线情感。"
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角托伊内特·里夫具有深刻的人物深度，内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "托伊内特（声音低微，带着沙哑）：我一直以为……只要掌控足够的变量，我就能掌控命运。我害怕如果停止计算……我就什么都不是。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "托伊内特：不再计算。"
+      },
+      "reason": "三位评审均确认主角深度。证据显示内在矛盾（理性vs情感、控制vs自由）在第12集崩溃、第26集旁观海伦、第39集自我剖析、第47集伪造评估被揭穿等多个节点通过两难选择、脆弱暴露和犯错承担后果被戏剧化。符合S级亮点标准：内在矛盾在多个关键节点充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "arbitration_question": "",
+      "final_reason": "三位评审均确认主角深度。证据显示内在矛盾（理性vs情感、控制vs自由）在第12集崩溃、第26集旁观海伦、第39集自我剖析、第47集伪造评估被揭穿等多个节点通过两难选择、脆弱暴露和犯错承担后果被戏剧化。符合S级亮点标准：内在矛盾在多个关键节点充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。"
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角海伦和露丝功能明确，分别承担了情感共鸣和冲突激化的作用，与主角形成了有效的关系张力。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "海伦：这是斯通夫人办公室的通风管道图。监控每隔周四凌晨两点会重启三十秒，这是盲区。",
+        "contrast_episode": "第27集",
+        "contrast_scene": "27-1",
+        "contrast_quote": "露丝·戈登：（轻笑，逼近一步）别装了。你的右手一直在发抖，指关节发白。你是怕听见哭声，还是怕看见眼泪？"
+      },
+      "reason": "三位评审均确认配角功能明确。海伦提供关键情报（通风管道图）并代表被压迫的共情，露丝代表混乱中的真实并激化冲突。角色层级清晰，重要角色功能明确并推动主线。符合A级亮点标准：主角配置清晰，重要角色功能明确并推动主线。",
+      "arbitration_question": "",
+      "final_reason": "三位评审均确认配角功能明确。海伦提供关键情报（通风管道图）并代表被压迫的共情，露丝代表混乱中的真实并激化冲突。角色层级清晰，重要角色功能明确并推动主线。符合A级亮点标准：主角配置清晰，重要角色功能明确并推动主线。"
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（托伊内特与海伦、露丝）存在至少两类明确张力来源，能够稳定支撑主线或重要副线。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "海伦：如果你是想证明你比我优越，恭喜你，里夫小姐。你做到了。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-2",
+        "contrast_quote": "海伦：（低声，带着哽咽的笑意）谢谢。这次，我们是一伙的了。"
+      },
+      "reason": "三位评审均确认关系张力。托伊内特与海伦的关系存在阶级差异和情感依赖两类张力；与露丝的关系存在规则vs混乱和信任vs利用两类张力。R02评为S级，但证据主要展示两类张力（身份/情感），未充分证明三类相互咬合且移除即坍塌。因此纠正为A级。符合A级亮点标准：核心关系存在至少两类明确张力来源，能够稳定支撑主线。",
+      "arbitration_question": "",
+      "final_reason": "三位评审均确认关系张力。托伊内特与海伦的关系存在阶级差异和情感依赖两类张力；与露丝的关系存在规则vs混乱和信任vs利用两类张力。R02评为S级，但证据主要展示两类张力（身份/情感），未充分证明三类相互咬合且移除即坍塌。因此纠正为A级。符合A级亮点标准：核心关系存在至少两类明确张力来源，能够稳定支撑主线。"
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "托伊内特合上笔记本，掩盖住那个墨水黑点。她的眼神不再平静，目光在海伦佝偻的背影和讲台上斯通夫人挺拔的侧影之间游移。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "露丝自然地靠在她肩上，海伦合上书，三人相视而笑，无需言语。"
+      },
+      "reason": "三位评审均确认关系推进。核心关系从冷漠旁观（第9集）到主动帮助（第14集）、共同对抗（第48集）到最终和解（第60集），有清晰起点、关键里程碑和阶段变化。R02评为S级，但证据显示里程碑虽存在，但“因果紧密”和“连续叙事动力”的强度略逊于S级标准（需至少两个因果紧密的关键里程碑且关系推进本身构成连续动力）。因此纠正为A级。符合A级亮点标准：核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。",
+      "arbitration_question": "",
+      "final_reason": "三位评审均确认关系推进。核心关系从冷漠旁观（第9集）到主动帮助（第14集）、共同对抗（第48集）到最终和解（第60集），有清晰起点、关键里程碑和阶段变化。R02评为S级，但证据显示里程碑虽存在，但“因果紧密”和“连续叙事动力”的强度略逊于S级标准（需至少两个因果紧密的关键里程碑且关系推进本身构成连续动力）。因此纠正为A级。符合A级亮点标准：核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。"
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派斯通夫人动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-2",
+        "quote": "斯通夫人：（对着黑暗轻声说道）游戏开始了。",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-3",
+        "contrast_quote": "斯通夫人（尖叫）：你会后悔的！你和你那个冷血的父亲一样！"
+      },
+      "reason": "两位评审均指出反派塑造问题。斯通夫人的动机（控制欲/秩序）可识别，但缺乏更深层的创伤或价值冲突支撑，主要依赖口头设定（如“只有功能是有价值的”）。与主角的对照和升级过程存在，但关键压迫场面的深度和复杂性略逊于主角。符合B级问题标准：动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。",
+      "arbitration_question": "",
+      "final_reason": "两位评审均指出反派塑造问题。斯通夫人的动机（控制欲/秩序）可识别，但缺乏更深层的创伤或价值冲突支撑，主要依赖口头设定（如“只有功能是有价值的”）。与主角的对照和升级过程存在，但关键压迫场面的深度和复杂性略逊于主角。符合B级问题标准：动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。"
+    }
+  ],
+  "call_policy": {
+    "reviews": 6,
+    "audits": 2,
+    "arbitrations_max": 2,
+    "holistic_subdimension_scores": 2
+  },
+  "artifacts": {
+    "reviews": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/multi_agent/reviews",
+    "audits": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/multi_agent/audits",
+    "arbitrations": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/multi_agent/arbitrations",
+    "holistic_scores": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_26549/candidate/drama_evaluations_logic_quality_qwen38_v24/full_60_episodes/multi_agent/holistic_scores"
+  }
+}

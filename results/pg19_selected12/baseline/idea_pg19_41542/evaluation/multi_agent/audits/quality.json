@@ -1,0 +1,415 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角罗斯具有完整且有力的人物弧光，从被动逃亡的受害者转变为主动布局的复仇者，最终升华为社会正义的倡导者。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "罗斯（挺直腰背，迎上所有镜头，眼神坚定锐利）：我不会走。我会留在这里，用这笔信托基金去帮那些连呼吸都在挨骂的母亲。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "罗斯OS：警察、记者，还有多莉的私生女...这是清算。"
+      },
+      "reason": "R01与R03均指出主角弧光完整。证据显示罗斯从第1集的被动防御（'这是清算'）到第10集主动出击（'我是复仇者'），再到第54集的社会责任（'帮那些...母亲'）。变化由强驱动事件（第9集火场救录音、第33集真相揭露）推动，且产生了不可逆后果（切断联系、建立网络）。符合A级亮点标准：主链路完整，关键转折具有事件驱动和主动选择。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角罗斯展现了复杂的内在矛盾，在道德底线与生存需求之间挣扎，通过两难选择被戏剧化。",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-1",
+        "quote": "罗斯（眼眶含泪，却无比坚硬）：把尊严撕碎，是为了把刀磨得更锋利。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-3",
+        "contrast_quote": "格特鲁德：你是在利用她们的不幸。"
+      },
+      "reason": "R01与R03均确认主角深度。证据显示罗斯面临'保护孩子'与'保持尊严/道德'的两难（第38集交出隐私、第40集利用弱势女性）。这些选择有实质剧情展现（记者威胁、格特鲁德质疑），且体现了内在冲突。符合A级亮点标准：有明确内在矛盾及实质剧情展现，存在有效两难。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角罗斯的专业能力（黑客、法律、战术）被过度神化，缺乏合理的代价与限制，导致人物真实感受损。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "罗斯（眼神锐利）：我不防。我要反向污染数据流。",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-2",
+        "contrast_quote": "罗斯：不止。我要在这视频的底层代码里，织进去那个追踪芯片的残留信号。"
+      },
+      "reason": "R02指出主角能力神化。证据显示罗斯作为前审计员，多次在绝境中完美解决技术难题（第5集反向污染、第38集元数据篡改、第45集黑入内网），且缺乏失败或重大代价。这符合A级问题标准：文本声明复杂性（审计员背景），但很少通过犯错、后果或关系冲突将其戏剧化，反而通过'完美解决'削弱了真实感。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E002"
+      ],
+      "status": "rejected",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主角罗斯的内在信念变化较弱，主要依赖外部处境变化推动。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-3",
+        "quote": "罗斯OS：从这一刻起，我不再是猎物。我是复仇者。",
+        "contrast_episode": "第54集",
+        "contrast_scene": "54-2",
+        "contrast_quote": "罗斯（挺直腰背，迎上所有镜头，眼神坚定锐利）：我不会走。我会留在这里，用这笔信托基金去帮那些连呼吸都在挨骂的母亲。"
+      },
+      "reason": "R02认为弧光主要依赖外部事件。然而，证据显示罗斯的内在信念发生了显著变化：从第10集的'复仇者'（个人恩怨）到第54集的'社会正义倡导者'（利他主义）。这种从'为自己/孩子'到'为群体'的信念升华，是内在价值观的重构，而非单纯的能力或处境变化。因此，'弧光不足'的判断不成立，且与A01确认的弧光亮点冲突。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角格特鲁德与反派爱德华、多莉功能明确，分工形成有效协作或对冲，持续制造推进力与人物层次。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-3",
+        "quote": "格特鲁德（被推搡着往外走，面容扭曲却带着决绝）：滚！你越跑，他们越追不上！",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "爱德华（看着越来越远的城市，眼神阴鸷）：多莉那个蠢货早就死在了过去。而我，正在未来。"
+      },
+      "reason": "R01与R03均确认配角功能明确。格特鲁德提供资源与情感支撑（第34集掩护、第46集牺牲），爱德华提供核心阻力（暴力/科技），多莉提供法律/舆论阻力。角色层级清晰，功能互补，推动了主线发展。符合A级亮点标准：主角配置清晰，重要角色功能明确并推动主线。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E007",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "罗斯与格特鲁德的关系存在多重张力（利益交换、信任危机、情感依赖、价值观冲突），能够稳定支撑主线。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "格特鲁德（眼中闪过一丝痛色，但随即掩饰）：那就去送死好了。反正你也留不住。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "格特鲁德（沉默片刻，叹息一声）：这世界本来就不值得被爱，尤其是在它露出獠牙的时候。"
+      },
+      "reason": "三位评审均确认该关系张力充足。证据显示关系包含利益交换（第4集）、信任危机（第18集切断联系）、情感依赖（第36集照顾）和价值观冲突（第40集利用女性）。这些张力来源相互咬合，且对主线推进至关重要（格特鲁德的牺牲推动了罗斯的最终决意）。符合A级亮点标准：核心关系存在至少两类明确张力来源，能够稳定支撑主线。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E003"
+      ],
+      "status": "needs_arbitration",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "配角格特鲁德功能单一，主要作为'安全屋提供者'和'情感缓冲垫'存在，缺乏独立的成长线；部分配角（中年妇女、前会计师）功能单一。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "格特鲁德（吐出一口烟圈）：好极了。这酒楼的暗流比下水道还脏，我正好缺个能洗黑账的白手套。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-2",
+        "contrast_quote": "格特鲁德（沉默良久，声音沙哑）：点亮路？那要是前面还是悬崖呢？"
+      },
+      "reason": "R01认为中年妇女、前会计师功能单一（B级），R02认为格特鲁德功能单一（A级）。争议点在于格特鲁德是否具备独立弧光。R02证据显示格特鲁德从'利益交换'（第4集）到'情感支撑'（第55集）有变化，但R02认为这仍服务于主角。R01/R03则认为格特鲁德功能明确且有效。若格特鲁德被视为'重要配角'，其缺乏独立目标（如个人复仇或事业）可能构成A级问题；若视为'功能性配角'，则可能仅为B级或基线。需裁定格特鲁德的'独立性'是否足以支撑A级扣分，还是应降级为B级（局部功能重叠/冗余）。",
+      "arbitration_question": "格特鲁德作为重要配角，其'缺乏独立成长线'是否构成A级问题（多数重要角色只承担单一功能）？还是因其对主线的情感支撑作用显著，应视为B级（局部功能重叠）或基线成立？"
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E004",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "反派爱德华在后期为让主角获胜而明显降智降格，威胁功能减弱。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "罗斯（一脚踢飞引爆器）：这就是你们这些人，总以为躲在高高在上的堡垒里就能操控生死。",
+        "contrast_episode": "第8集",
+        "contrast_scene": "8-2",
+        "contrast_quote": "爱德华：我不只要他活着，我还要他变得听话，像一个没有过去、只属于“V”家族的提线木偶。这是最后的清障计划。"
+      },
+      "reason": "R02（B级）和R03（A级）均指出反派降智。证据显示爱德华前期高智商、强威胁（第8集清障计划），但后期出现逻辑漏洞：第44集发送假绑架信息（被罗斯轻易识破）、第45集被烟雾干扰、第49集引爆器轻易被切断信号。这些行为不符合其前期建立的高智商形象，属于'为让主角获胜而明显降智降格'。符合A级问题标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E005"
+      ],
+      "status": "rejected",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "罗斯与格特鲁德、罗斯与文森特的情感绑定主要依靠危机时刻的救援与牺牲，缺乏日常互动的细腻铺垫。",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "格特鲁德：（抱着婴儿，眼眶微红，强忍泪水）别再废话了。你这种为了目标不要命的疯子，我才不想收尸。",
+        "contrast_episode": "第48集",
+        "contrast_scene": "48-1",
+        "contrast_quote": "罗斯（握住他的手，将其拉向栅栏缝隙）：你还活着，只要活着，那些死人就见鬼去吧。"
+      },
+      "reason": "R02认为情感绑定缺乏铺垫。然而，证据显示罗斯与格特鲁德的关系经历了从利益交换（第4集）到信任危机（第18集）再到情感依赖（第36集、第46集）的完整演进，且有具体事件支撑（火场救援、暗道逃亡、牺牲）。罗斯与文森特的关系虽较短，但通过'救赎'主题（第28集留工牌、第48集重逢）建立了强烈的情感连接。'缺乏日常互动'在悬疑/动作题材中并非致命缺陷，且现有证据不足以证明'情感绑定缺失'。因此，该问题不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E006",
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格高度绑定，增强角色辨识度。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "罗斯（眼神锐利）：我不防。我要反向污染数据流。",
+        "contrast_episode": "第4集",
+        "contrast_scene": "4-1",
+        "contrast_quote": "格特鲁德（吞云吐雾）：命？你那贱命不值钱。"
+      },
+      "reason": "R01与R02均确认台词风格化。罗斯使用专业术语（'数据流'、'元数据'），格特鲁德使用市井语言（'贱命'、'老寡妇'），爱德华使用傲慢控制性语言（'提线木偶'）。语言风格与身份、性格高度绑定，且在不同场景中保持一致。符合A级亮点标准：关键角色台词风格稳定，人物间表达差异清楚。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E006"
+      ],
+      "status": "rejected",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主角罗斯在部分场景中的语言习惯与行为模式略显通用，专属语言不足。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "罗斯（镇定下来，赌徒心态）：您在躲避检查吗？",
+        "contrast_episode": "第16集",
+        "contrast_scene": "16-2",
+        "contrast_quote": "罗斯（冷漠地）：一份足够让多莉和爱德华互相撕咬的“盛宴”。"
+      },
+      "reason": "R03认为主角辨识度不足。然而，证据显示罗斯的语言具有鲜明的职业特征（审计员/黑客）和性格特征（冷静、理性、冷酷）。第25集的'您在躲避检查吗？'是情境化的策略性对话，并非通用台词。第16集的'盛宴'体现了其隐喻性表达习惯。整体而言，罗斯的辨识度较高，与A10确认的亮点一致。因此，'辨识度不足'的判断不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇高效建立核心人物、异常情境和戏剧问题，形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "罗斯OS：通风管道直通地下排水系统，这是我唯一的生路。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01确认开篇吸引力。第1集通过罗斯在警察和媒体围堵下带着婴儿钻入下水道，迅速建立了'绝境求生'的情境和'文森特假死'的悬念。信息组织紧凑，人物目标清晰，有效驱动了观众的阅读动机。符合A级亮点标准：人物与情境建立有效，核心问题清楚，信息组织流畅。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，形成稳定后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "罗斯（声音发颤）：文森特七岁时烧烫伤，左手虎口有疤。这人……没有。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01确认矛盾建立。主角目标（查明真相、保护孩子）与阻力（多莉的法律追杀、爱德华的暴力清除）清晰，风险（失去孩子、死亡）明确。第2集发现文森特假死，进一步增强了矛盾的复杂性和后续期待。符合A级亮点标准：核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分悬念兑现依赖巧合，削弱了逻辑严密性。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "录音笔VO（微弱断续）：...我在那...等着...",
+        "contrast_episode": "第19集",
+        "contrast_scene": "19-2",
+        "contrast_quote": "中年妇女：多亏那个看门的保安肯收我的贿赂，我才有机会进这一区。"
+      },
+      "reason": "R01指出部分悬念依赖巧合。证据显示第10集录音笔恰好留下坐标、第19-21集中年妇女恰好提供钥匙、第44集爱德华恰好发送假照片。这些巧合虽然推动了剧情，但缺乏充分铺垫，影响了冲突兑现的说服力。符合B级问题标准：主要问题得到回答，但个别兑现过快、过轻或后果回收不足。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "场景与动作描写质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "场景描写清晰，动作精准可执行，画面感强。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "恶臭扑鼻，积水瞬间没过头顶。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01确认视觉化质量。剧本对场景的空间、氛围和细节描写具体（如第1集警笛声、第29集恶臭），动作指示明确（如第15集'如鬼魅般从横梁滑落'），便于导演和演员执行。符合A级亮点标准：描写清晰、画面感强，关键动作和情绪状态可由导演与演员直接执行。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A016",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定分阶段释放，与剧情高潮精准绑定，信息量可吸收。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "前会计师：你看这个子文件夹的名字……“永生计划”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01确认设定释放节奏。'永生计划'和'脑波提取'等核心设定在第33集通过前会计师之口揭示，此时罗斯已掌握部分证据，观众对真相的期待达到高点，设定释放时机恰当。其他设定随剧情逐步展开，避免了信息过载。符合A级亮点标准：设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 24,
+  "covered_count": 24
+}

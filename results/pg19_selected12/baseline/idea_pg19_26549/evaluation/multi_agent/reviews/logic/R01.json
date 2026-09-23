@@ -1,0 +1,206 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体构建了“理性计算”与“感性共识”的对抗主题，但在执行层面存在严重的逻辑断裂。主要问题集中在：1. 核心道具（日记残页）的归属与物理状态前后矛盾；2. 关键证据（录音笔）的出现缺乏前置铺垫，属于典型的“天降神兵”；3. 角色行为逻辑（如托伊内特在火灾中的表现）与前期建立的高风险规避人设存在未解释的突变；4. 斯通夫人的阴谋手段（如伪造文件、纵火）缺乏合理的动机支撑和过程展示，导致反派降智。此外，部分集数存在明显的剧情重复（如第47集与第50集）。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "日记残页在父亲手中与托伊内特手中反复横跳，物理归属逻辑断裂。",
+      "reason": "第23集明确父亲拿走了日记本，托伊内特只偷回了带红字的残页。第35集托伊内特从鞋底取出残页展示，随后被保安强行抢走，斯通夫人将其扔在桌角。然而第38集托伊内特又从口袋里掏出该残页，第49集再次出现该残页。关键道具在“被没收”后无解释地重新回到主角手中，且多次重复使用同一道具推动剧情，严重破坏逻辑自洽。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "保安强行抢过了残页...斯通夫人（一把夺过残页，冷冷地审视了一番，随手扔在桌角）",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-2",
+        "contrast_quote": "她从口袋里掏出那张被父亲审计过的日记残页，紧紧攥在手心。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "露丝的录音笔作为决定性证据突然出现，缺乏前置铺垫。",
+      "reason": "在第34集听证会上，托伊内特突然拿出露丝手机里的录音文件证明斯通夫人设局。前文（第27-29集）仅描写斯通夫人诱导露丝偷窃，未提及露丝有录音习惯或托伊内特曾要求录音。该证据直接扭转了听证会局势，属于未铺垫的新证据解决核心危机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-2",
+        "quote": "托伊内特·里夫（将露丝的手机连上投影，点开一条音频文件）：这是她回家后录制的一段备忘录。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "托伊内特在火灾中逆行救人的行为与其核心人设（极度风险规避）冲突，缺乏足够的心理转变铺垫。",
+      "reason": "全剧前50多集，托伊内特的核心特征是“计算风险”、“规避危险”、“不做亏本买卖”。第54集她在火灾中“逆着恐慌逃窜的人群，独自冲向起火最猛烈的配电箱区域”并救出学生。虽然第39-40集有撕毁免责协议的心理铺垫，但直接从“计算式自保”转变为“自杀式英雄主义”缺乏具体的触发事件或渐进过程，显得突兀。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "托伊内特逆着恐慌逃窜的人群，独自冲向起火最猛烈的配电箱区域。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "信任是风险最高的投资，而我，不做亏本买卖。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "斯通夫人办公室潜入行动的时间窗口与人物作息逻辑矛盾。",
+      "reason": "第41集托伊内特通过数据推演出“每周三凌晨两点，斯通夫人会开启加热设备来制造墨水”，并据此制定潜入计划。第44集行动发生在“两点十五分”。然而，如果斯通夫人此时正在实验室合成墨水（第41集提到“去实验室合成墨水”），她为何会在办公室留下未锁的抽屉和伪造文件底稿？且第44集提到斯通夫人“突然折返”，若她正在实验室，折返办公室的时间线过于紧凑且缺乏动机解释（为何要折返查看一个她认为安全的陷阱？）。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "每周三凌晨两点，斯通夫人会开启加热设备来制造墨水。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-2",
+        "contrast_quote": "露丝·戈登（急得快要哭出来）：斯通老师！她突然折返了！我看见她往这边过来了！"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第47集与第50集剧情高度重复，露丝与托伊内特关于“高分清单”的冲突场景几乎完全复演。",
+      "reason": "第47集露丝在图书馆撞翻托伊内特的笔记，指责她为了父亲的高分清单撒谎。第50集开头，露丝再次在图书馆（或类似场景）撞翻笔记，台词和冲突逻辑（“还在写那些漂亮的谎话吗”、“那是生存的资源”）与第47集高度雷同。两次事件核心信息相同，缺乏新的情节推进或关系变化，属于无效重复。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "露丝·戈登（推门而入，眼神戏谑）：还在写怎么撒谎吗，侦探小姐？...露丝·戈登（突然伸手，将托伊内特整理好的笔记扫落一地）",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "露丝·戈登（双手撑桌，眼神锐利）：还在写那些漂亮的谎话吗，里夫？...露丝·戈登（一把扫开旁边的草稿纸，纸页如雪花般散落）"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "斯通夫人纵火并嫁祸托伊内特的动机不足，且手段过于极端，缺乏合理逻辑支撑。",
+      "reason": "斯通夫人作为教师，其目标是“秩序”和“控制”。在第53-54集，她通过助手制造火灾并封锁出口，意图“证明自由就是混乱”。然而，这种自杀式/同归于尽的手段与其“理性控制者”的人设不符。更关键的是，她为何要在此时（听证会前夕）采取如此极端的物理破坏，而不是继续利用舆论和规则？前文未铺垫她对“无规则”的仇恨已升级到不惜犯罪的程度，导致反派行为降智。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "助手（嘴角扯出一丝怪笑）：临界值……那种数字只有你们这些旁观者才在乎。...她在证明‘自由’就是混乱，而混乱需要被驯服。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E007",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "托伊内特对斯通夫人“特殊墨水”配方的掌握缺乏来源解释。",
+      "reason": "第41集托伊内特声称通过“逆向推演”和“化学键”锁定了斯通夫人使用的特殊墨水配方，并据此潜入。然而，前文未展示托伊内特如何获取该墨水的样本或进行化学分析的过程。作为化学老师，斯通夫人的墨水配方属于专业机密，托伊内特仅凭“数据流”和“模拟程序”就能逆向推演出具体配方，超出了其学生身份的能力边界，属于知识来源缺失。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "托伊内特·里夫（冷笑一声，手指在键盘上飞速敲击）：物理日志可以销毁，但数字痕迹无法被彻底抹去。...我在逆向推演。数据流不会骗人，只要找到那个唯一的配方，我们就能锁定她。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E008",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "雷夫先生与斯通夫人的勾结关系揭示过于突然。",
+      "reason": "第51集斯通夫人公开投影雷夫先生的邮件，指控托伊内特是“花钱买来的特权”。此前剧情中，雷夫先生主要作为“冷漠的父亲”出现，斯通夫人主要作为“严厉的老师”出现。两者之间的利益交换（捐赠换秩序/包庇）缺乏前文铺垫。直到第51集才通过邮件截图揭示这一核心矛盾，使得之前的冲突显得单薄，且雷夫先生的“施压”行为缺乏具体的利益驱动展示。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "斯通夫人（指着屏幕）：谁制定规则？是你们的捐款人，而不是普雷斯顿那种天真的理想主义者。...托伊内特·里夫（声音颤抖）：他没有干预学术，他只是……他在施压。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E009",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "托伊内特从“记录者”到“行动者”的转变逻辑基本成立。",
+      "reason": "尽管存在突变，但剧本通过第10集（沉默的共犯）、第15集（海伦的求助）、第26集（海伦的崩溃）、第39集（撕毁协议）等节点，逐步构建了托伊内特内心防线崩塌的过程。普雷斯顿小姐的多次点拨（第38、39集）为她的最终行动提供了合理的心理触发点，使得结局的“拥抱不确定性”具有一定的因果支撑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "托伊内特·里夫（猛地睁开眼，从桌角抽出一把精致的剪刀）：我不需要计算了。...去他的风险阻断。去他的免责条款。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

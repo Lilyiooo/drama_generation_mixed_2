@@ -1,0 +1,228 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了以“听觉/嗅觉”为核心的盲人国王反杀逻辑，因果链在微观层面（如气味识别、盲文拓印）设计精巧，但在宏观层面存在多处严重的逻辑断裂与设定冲突。主要问题集中在：1. 核心设定（埃德蒙的感官能力）前后矛盾，时而全知全能，时而依赖他人；2. 关键角色（伯爵/维克多/艾德里安）身份混乱，导致阵营与动机断裂；3. 资源与道具（如名单、地契、毒药）的流转缺乏合理路径或存在凭空出现/消失；4. 时间线与空间位移存在明显悖论（如深夜到黎明的行动、地下通道的物理可行性）。这些问题削弱了剧本的逻辑自洽性，部分关键转折依赖巧合或角色降智。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "核心角色“伯爵”与“维克多”身份混淆，导致阵营与动机断裂。",
+      "reason": "第18集明确出现“维克多”作为债主/合作者，第29集埃德蒙称呼伯爵为“维克多”，但第4集、第5集等前文“伯爵”是独立角色，且第14集明确“伯爵（艾德里安）”。这种身份重叠与混乱导致后续合作、背叛、死亡等情节的逻辑基础不成立。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-2",
+        "quote": "维克多：合作愉快，陛下。",
+        "contrast_episode": "第29集",
+        "contrast_scene": "29-1",
+        "contrast_quote": "埃德蒙：“闭气，维克多。光会招致危险，声音则会招致死亡。”"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "人物身份矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "“艾德里安”身份混乱，时而为医官，时而为伯爵，时而为战士。",
+      "reason": "第2集艾德里安是医官，第14集标注“伯爵（艾德里安）”，第25集艾德里安是军官/护卫。这种身份跳跃缺乏过渡，导致其在不同场景中的行为动机（如第47集执行屠杀命令）缺乏一致性支撑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "那是艾德里安。他没有回头，也不敢发出声音。",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-1",
+        "contrast_quote": "伯爵（艾德里安）隐于窗后阴影，看似整理药箱，实则目光紧锁桌面。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "埃德蒙在宗教法庭上通过“呼吸同步”证明非异端，逻辑牵强。",
+      "reason": "第38集埃德蒙与老仆托马斯的呼吸同步被作为核心证据，但这一行为缺乏前文铺垫，且“呼吸同步”与“非异端”之间的因果联系过于主观，依赖法官的即时心理反应，缺乏更坚实的逻辑支撑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第38集",
+        "scene": "38-2",
+        "quote": "托马斯复述着一段段往事，他的呼吸变得绵长而深沉。与此同时，坐在轮椅上的埃德蒙，肩膀极其轻微地起伏，他的呼吸节奏竟然与十米外的老仆完全同步。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "奥古斯汀在地牢中持有的“名单”来源不明，且内容前后矛盾。",
+      "reason": "第31集奥古斯汀向冯·克莱斯特呈交名单，第36集奥古斯汀在地牢中又拿出“被篡改的财务顾问证词副本”，第45集奥古斯汀交出“真核”。这些文件的关系、来源及内容变化缺乏清晰交代，导致后续埃德蒙利用其进行心理操控的逻辑基础薄弱。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-1",
+        "quote": "奥古斯汀（声音嘶哑，带着哭腔）：“大人！罪证！这都是……盲眼国王的阴谋！他们勾结外人，试图颠覆朝纲！”",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-1",
+        "contrast_quote": "奥古斯汀迟缓地站起身……他颤抖着手，从贴身长袍的内层掏出一个油污斑斑的油布包裹。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第54集伯爵死亡与第55集埃德蒙发现尸体的时间线存在矛盾。",
+      "reason": "第54集伯爵在埃德蒙离开前中枪死亡，第55集埃德蒙在卡车停下后才发现尸体。但第54集描述埃德蒙“迅速起身，顺着车身阴影，熟练地爬入卡车敞开的后车厢”，而第55集描述“卡车底盘狠狠磕在硬物上，惯性将埃德蒙从货堆中抛起”，暗示埃德蒙在车内。若伯爵在埃德蒙上车前死亡，埃德蒙应能听到枪声或闻到血腥味，但剧本未交代其为何未察觉，导致时间线与感知逻辑冲突。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "砰！一声枪响撕裂夜空。柜台被击中背部，身体剧烈抽搐，随即重重倒在埃德蒙脚边。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "埃德蒙蜷缩在阴影中，瞳孔在黑暗中剧烈收缩后重新适应。他屏住呼吸，侧耳倾听。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "埃德蒙通过排污管道潜入广播站并逃脱，物理可行性存疑。",
+      "reason": "第51集埃德蒙计划通过排污管道潜入，第52集艾德里安执行，第53集埃德蒙进入管道，第54集埃德蒙从排污口逃出。但剧本未交代管道长度、宽度、埃德蒙的体力状况及逃脱所需时间，且第54集描述“污水没过大腿”，埃德蒙作为盲人且年长，在如此恶劣环境下完成长距离移动并逃脱，缺乏合理支撑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "埃德蒙：我要看排污口的管道截面图。伯爵，帝国的电子眼很亮，但它闻不到下水道里的腐烂味。",
+        "contrast_episode": "第54集",
+        "contrast_scene": "54-1",
+        "contrast_quote": "污水飞溅声中，埃德蒙从半开的铁栅下艰难挤出。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E007",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "埃德蒙对奥古斯汀的“罪盐”气味过于敏感，缺乏铺垫。",
+      "reason": "第58集奥古斯汀因闻到埃德蒙的“薄荷牙膏+鼠尾草”气味而暴露，但前文未明确交代奥古斯汀对这一特定气味组合的熟悉程度及记忆深度，导致其反应略显突兀。",
+      "confidence": "低",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "奥古斯汀的鼻子猛地抽动了一下。他的动作瞬间凝固，瞳孔剧烈收缩，仿佛被针扎了一般。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E008",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第13集埃德蒙要求奥古斯汀“在场”见证演讲，后续未充分回收。",
+      "reason": "第13集埃德蒙邀请奥古斯汀作为“听众”参与演讲重构，但第15-16集演讲过程中，奥古斯汀的反应主要集中在物理干扰失败和文本被反转，未体现其作为“听众”对演讲节奏、语调的即时反馈或互动，导致这一伏笔回收不充分。",
+      "confidence": "低",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "埃德蒙：我不希望我的‘忏悔’听起来像是在认输。奥古斯汀，你应当在场。不是作为监工，而是作为听众。",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "奥古斯汀眯起眼，手指在袖中无意识地攥紧。物理干扰无效。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E009",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "埃德蒙利用盲文拓印制造“罪证”副本，因果链清晰。",
+      "reason": "第14集埃德蒙利用奥古斯汀刻下的深痕进行拓印，第15集演讲中利用这些深痕改变语调，第16集利用钟声缺失进行讽刺。这一系列行动因果明确，前因（刻痕）充分支撑后果（语调变化、听众反应），逻辑自洽。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-2",
+        "quote": "埃德蒙：奥古斯汀以为他在加固牢笼，其实他是在打造模具。这些凹痕，比任何文字都清晰。",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "埃德蒙：（低沉，颗粒感极强）我……曾仰望……"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E010",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 0.0,
+      "claim": "艾德里安从愤怒到服从的转变，有事件驱动但过渡偏薄。",
+      "reason": "第47-50集艾德里安因执行屠杀命令而愤怒，埃德蒙通过“勋章”和“石墙”进行心理驯化，最终艾德里安服从。这一转变有事件驱动（屠杀、勋章），但埃德蒙的驯化手段（如冰水、石墙）略显刻意，情绪过渡偏薄，但整体逻辑可推断。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "埃德蒙：不，艾德里安。我让你活着，是为了让你在每一个深夜，都能闻到这些血的味道。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "艾德里安（声音沙哑，毫无起伏）：下一步是什么？"
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体构建了严密的“囚徒困境”与“反杀”逻辑闭环，因果链条在前期（1-10集）铺垫扎实，中期（11-30集）通过多重反转维持张力，后期（31-60集）完成商业与法律的双重清算。主要逻辑瑕疵集中在：1. 关键道具（账簿）的销毁与后续证据链的衔接存在轻微断裂；2. 部分角色（如埃莉诺）在特定场景下的信息获取路径略显“全知”；3. 个别时间线（如维恩的破产速度与亚瑟的反击节奏）存在压缩感。整体逻辑自洽性较高，无S级致命硬伤。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "亚瑟销毁账簿后，后续法庭证据链的完整性依赖录音与玛丽安证词，但账簿作为核心物证的缺失未在后续法律程序中得到充分解释或替代。",
+      "reason": "第36集亚瑟当众销毁账簿，第41-42集法庭审判主要依赖玛丽安的证词和录音。虽然录音和证词足以定罪，但账簿作为“原始交易记录”的缺失，使得霍克斯在法庭上可能提出的“证据链不完整”抗辩未被有效回应，属于B级轻微逻辑跳跃。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "亚瑟将整本厚重的账簿塞入碎纸机的入口。……亚瑟面无表情地站立着，任由纸屑从入口飞溅而出。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-1",
+        "contrast_quote": "亚瑟：数据是虚的，法官大人。但船是实的。……亚瑟：既然霍克斯律师坚持认为这些行为是‘意外’，那么让我们听听他在上周三，于酒店走廊里对这位‘意外’的解释。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "埃莉诺在亚瑟被囚禁期间，对霍克斯团队监控手段（如心率手环、步态分析）的了解过于精准，缺乏明确的信息来源交代。",
+      "reason": "第24集埃莉诺准确指出霍克斯使用了“步态分析”和“心率手环”构建清醒模型，并据此制定策略。此前剧本未交代埃莉诺如何获取这些具体的技术细节，属于B级信息获取路径模糊。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "埃莉诺：……那个心率手环是医疗级的，能读取肌肉微颤和皮肤电反应。配合门口压力传感器的步态数据，他们构建了一个‘清醒模型’。",
+        "contrast_episode": "第24集",
+        "contrast_scene": "24-1",
+        "contrast_quote": "匿名分析师：他们不再依赖摄像头了。那个心率手环是医疗级的，能读取肌肉微颤和皮肤电反应。配合门口压力传感器的步态数据，他们构建了一个‘清醒模型’。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "维恩在亚瑟反击后迅速破产并被迫签署和解协议，其资金链断裂的速度与前期建立的“帝国”体量相比略显仓促。",
+      "reason": "第34集维恩因稀土被扣而焦虑，第45集亚瑟仅用一封邮件和五十万现金就迫使维恩交出密钥并签署免责协议。维恩作为大型集团掌门人，其资产冻结和破产清算过程被极度压缩，缺乏中间的法律或财务缓冲期，属于B级因果铺垫偏薄。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-2",
+        "quote": "塞拉斯·维恩（面目狰狞）：海关？谁动的手？……生产线每停止一小时，他的现金流就会蒸发六位数。",
+        "contrast_episode": "第45集",
+        "contrast_scene": "45-2",
+        "contrast_quote": "维恩（声音低沉而疲惫）：密码是……维恩企业成立的日期，倒序。这是我全部能给的。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "亚瑟从“复仇者”到“建设者”的转变在结局部分略显突兀，缺乏足够的心理过渡场景。",
+      "reason": "第48集亚瑟在员工大会上宣布重建，第52集直接开始研发引擎。虽然第43集有扔垃圾桶的情节暗示心态变化，但从“冷酷复仇”到“温情建设”的性格跨度较大，中间缺乏对亚瑟内心创伤愈合或价值观重塑的细腻刻画，属于B级性格转变铺垫不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "亚瑟：他不配。……他站起身，拍了拍手上并不存在的灰尘，那种商人的掌控感缓缓回归，但少了一份偏执。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "亚瑟：通知米勒，明早八点开始技术评审。我要他带上最新的固件测试数据。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "highlight",
+      "category": "时空逻辑设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "亚瑟利用集装箱温度传感器数据隐藏信托契约的桥段，逻辑严密且符合技术设定。",
+      "reason": "第40集亚瑟将数据打散混入冷链温度波动记录，利用霍克斯团队对“噪音”数据的忽视完成传输。这一设计既利用了前文建立的“霍克斯精通法律但不懂技术”的人设，又符合现实中的数据隐蔽传输逻辑，属于A级亮点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-2",
+        "quote": "亚瑟：不要塞。要‘散’。……把每一段代码打散，混进未来十二小时内离港的三百个集装箱的温度波动记录里。对于霍克斯来说，冷链运输中的温度传感器数据，永远充斥着随机噪音。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "霍克斯前妻玛丽安作为“海神”信托受益人的伏笔，在前期通过霍克斯的傲慢性格和资产转移路径进行了有效铺垫。",
+      "reason": "第37集揭示玛丽安身份时，前文已多次提及霍克斯利用离岸信托和“不可撤销”条款，且霍克斯对前妻的冷漠态度（第29集电话中提及）为玛丽安的背叛和证词提供了合理动机。伏笔回收自然，属于A级亮点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "埃莉诺：……所有经过霍克斯洗钱的通道，最终都汇入了玛丽安名下的一个不可追索信托。霍克斯把自己变成了空壳，却把赃款藏在了一个他认为已经‘死心’的女人手里。",
+        "contrast_episode": "第29集",
+        "contrast_scene": "29-2",
+        "contrast_quote": "朱利安·霍克斯（打断）：别说话，听着。我不需要你的建议，也不要你的那些废话。如果你还想要那笔还没到账的佣金，我就必须问你一个问题。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_structured_hybrid_gate_R02/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 85.29,
+      "ledger_subdimension_mean": 86.57,
+      "holistic_subdimension_mean": 84.0,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 82.0,
+          "holistic_score": 84.0,
+          "fused_score": 83.0
+        },
+        "character_state": {
+          "ledger_score": 88.0,
+          "holistic_score": 84.0,
+          "fused_score": 86.0
+        },
+        "knowledge_state": {
+          "ledger_score": 84.0,
+          "holistic_score": 84.0,
+          "fused_score": 84.0
+        },
+        "resource_state": {
+          "ledger_score": 90.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        },
+        "foreshadowing": {
+          "ledger_score": 86.0,
+          "holistic_score": 84.0,
+          "fused_score": 85.0
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 2,
+          "highlights": 2,
+          "total": 4
+        },
+        "character_state": {
+          "issues": 1,
+          "highlights": 2,
+          "total": 3
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "rules_spacetime": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "foreshadowing": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 85.1,
+      "ledger_subdimension_mean": 85.2,
+      "holistic_subdimension_mean": 85.0,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 90.0,
+          "holistic_score": 88.0,
+          "fused_score": 89.0
+        },
+        "hooks": {
+          "ledger_score": 89.0,
+          "holistic_score": 86.0,
+          "fused_score": 87.5
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 82.0,
+          "fused_score": 86.0
+        },
+        "episode": {
+          "ledger_score": 66.0,
+          "holistic_score": 85.0,
+          "fused_score": 75.5
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "episode_visual": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如解毒、战斗、舆论战）通过新变量（不同毒种、不同对手、不同舆论手段）形成有效变奏，未出现结构性重复。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-1",
+            "quote": "苏半夏（打断，递过去一张刚写好的清单）：将军，慈善是假，流水是真。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如苏半夏的舆论战、陆离的毒发危机）大多承担不同功能，通过新变量（如从京城到北境，从继母到王爷）形成有效变奏。",
+          "evidence": {
+            "episode": "第9集",
+            "scene": "9-1",
+            "quote": "苏半夏（高声，带着夸张的哭腔却字正腔圆）：哟，继母说得对！我们陆将军是病中胡言。可这满街的‘大雍好百姓’，难道是瞎子不成？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如苏半夏的舆论战、陆离的毒发危机）大多承担不同功能，通过新变量（如从京城到北境，从继母到王爷）形成有效变奏。",
+          "evidence": {
+            "episode": "第9集",
+            "scene": "9-1",
+            "quote": "苏半夏（高声，带着夸张的哭腔却字正腔圆）：哟，继母说得对！我们陆将军是病中胡言。可这满街的‘大雍好百姓’，难道是瞎子不成？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "对手从黑虎帮（武力/债务）到继母（宅斗/舆论）再到王爷/天罗（政治/阴谋/血脉），代表不同资源与压力类型，迫使主角采用不同策略。",
+          "evidence": {
+            "episode": "第43集",
+            "scene": "43-2",
+            "quote": "老卒（闭上眼，两行浊泪滑落）：天罗。天罗首领……贪生怕死，卖主求荣。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手（继母、黑虎、王爷、天罗）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（舆论、武力、政治、身份）。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-1",
+            "quote": "继母（站起身，手中丝帕掩鼻，语调尖酸刻薄）：离儿，既然来了，就跪下谢罪。或许看在你父亲曾为帝国流血流汗的份上，娘能留你全尸，让你死得痛快些。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手（黑虎、继母、王爷、天罗）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（武力、舆论、政治、身份）。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-1",
+            "quote": "继母（站起身，手中丝帕掩鼻，语调尖酸刻薄）：离儿，既然来了，就跪下谢罪。或许看在你父亲曾为帝国流血流汗的份上，娘能留你全尸，让你死得痛快些。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从夺府到查账，再到北境，每一步都压缩了主角的选择空间。",
+          "evidence": {
+            "episode": "第11集",
+            "scene": "11-2",
+            "quote": "智囊（声音干涩）：将军，夫人，看来我们中计了。这是继母留下的‘遗产’。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-2",
+            "quote": "苏半夏（瞳孔放大，嘶吼）：不！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-1",
+            "quote": "医神（声音微颤，目光死死盯着木雕背面）：苏姑娘，这木雕……你随身携带多久了？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物（苏半夏的泼辣与算计、陆离的落魄与隐忍）、情境（债务与毒）和核心问题（如何进京立足），叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-2",
+            "quote": "陆离：我是镇国将军。我要买你的命，做我的夫人。为期一年，负责清理门户。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "苏半夏：大家快来看呐！这黑心屠户欺压老弱病残啊！光天化日，杀人放火！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "苏半夏：大家快来看呐！这黑心屠户欺压老弱病残啊！光天化日，杀人放火！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段依靠阶段目标（夺府、查账、北境战）和小高潮推进，后段完成充分升级（记忆恢复、身份反转）与收束（孤儿院、和解）。",
+          "evidence": {
+            "episode": "第53集",
+            "scene": "53-1",
+            "quote": "苏半夏（低声，一字一顿）：不是将军。只是陆离。我们回家了。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主体节奏成立，但部分阶段（如第40-50集）偏慢，蓄力不足，存在重复解释和过渡。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-2",
+            "quote": "苏半夏（冷静分析）：统领站位居中，两侧是轻步兵，后方有弓弩手。百姓被当枪使。硬拼，我们出不去，还会坐实‘暴戾’罪名，让皇帝顺理成章抄家。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主体节奏成立，但部分阶段（如第40-50集）偏慢，蓄力不足，存在重复解释和过渡。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-1",
+            "quote": "苏半夏（低声，严厉）：松手。现在出去，你就是众矢之的。他们不需要真相，只需要一个发泄口。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷（如陆离毒发、苏半夏身世揭露）有铺垫，高潮兑现了“复仇与救赎”的主要情绪承诺。",
+          "evidence": {
+            "episode": "第48集",
+            "scene": "48-3",
+            "quote": "苏半夏（声音沙哑，却字字清晰）：天罗已死。但我娘没死。她为了护我清白，亲手毁了半壁江山。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+          "evidence": {
+            "episode": "第56集",
+            "scene": "56-2",
+            "quote": "陆离：你愿意……嫁给我吗？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+          "evidence": {
+            "episode": "第56集",
+            "scene": "56-2",
+            "quote": "陆离：你愿意……嫁给我吗？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定，类型有变化（悬念、情感、危机），并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-2",
+            "quote": "苏半夏（极低声音，对着沉睡的陆离）：睡吧。等你醒来，我们去北境尽头，看看是谁杀了你爹。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-2",
+            "quote": "苏半夏（极低声音，对着沉睡的陆离）：睡吧。等你醒来，我们去北境尽头，看看是谁杀了你爹。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-2",
+            "quote": "苏半夏（极低声音，对着沉睡的陆离）：睡吧。等你醒来，我们去北境尽头，看看是谁杀了你爹。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（如赏花宴、北境决战）有意识地增加密度，过渡阶段（如日常互动）适当疏密。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-3",
+            "quote": "赵尚书（惊恐尖叫）：啊！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "分布基本可接受，但部分集数（如第40-50集）过密或过疏，稳定性有限。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-2",
+            "quote": "智囊（戴上单片眼镜，仔细翻阅）：这账本记录的并非寻常货物……这些特殊符号，是黑市通用的暗语。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "分布基本可接受，但部分集数（如第40-50集）过密或过疏，稳定性有限。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-2",
+            "quote": "智囊（手指点在几行红色朱批上）：更糟糕的是，资金流向显示，这笔钱并非来自国库，而是通过京城几大钱庄洗钱后，秘密汇入西郊废庙的一个私人账户。幕后指使者……正是王爷。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "陆离（满意点头）：整齐了。下一个！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主线总体推进，但局部有可压缩的重复、过渡或低增量集数。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-2",
+            "quote": "苏半夏（急促）：凝神！不要抵抗毒性，引导它流向四肢。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主线总体推进，但局部有可压缩的重复、过渡或低增量集数。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-1",
+            "quote": "苏半夏（声音清冷，穿透嘈杂）：统领大人，手中的枪，是用来杀敌报国，还是用来屠戮忠良遗孤？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（如骗神的身世、苏半夏的天罗背景）稳定补充人物、信息、冲突，并在关键节点（第47集）反哺主线，改变主角立场。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-2",
+            "quote": "智囊（深吸一口气，单膝跪地，将残片双手奉上）：晚辈是苏姑娘母亲当年的书童。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-2",
+            "quote": "智囊（深吸一口气，单膝跪地，将残片双手奉上）：晚辈是苏姑娘母亲当年的书童。这位是骗神，姑娘母亲义子；这位是武神，姑娘母亲救命恩人之子；医神则受师命守护姑娘至今。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。",
+          "evidence": {
+            "episode": "第47集",
+            "scene": "47-2",
+            "quote": "智囊（深吸一口气，单膝跪地，将残片双手奉上）：晚辈是苏姑娘母亲当年的书童。这位是骗神，姑娘母亲义子；这位是武神，姑娘母亲救命恩人之子；医神则受师命守护姑娘至今。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点（夺府、解毒、复仇、和解）有效兑现。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "陆离（睁开眼，眼中泪光未干，却是一片清明）：父亲留给我的，从来不是复仇的兵权，而是活下去的底气。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "陆离（睁开眼，眼中泪光未干，却是一片清明）：父亲留给我的，从来不是复仇的兵权，而是活下去的底气。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "陆离（睁开眼，眼中泪光未干，却是一片清明）：父亲留给我的，从来不是复仇的兵权，而是活下去的底气。"
+          }
+        }
+      ]
+    }
+  ]
+}

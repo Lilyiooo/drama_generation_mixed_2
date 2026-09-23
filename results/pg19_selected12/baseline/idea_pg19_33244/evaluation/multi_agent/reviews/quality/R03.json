@@ -1,0 +1,306 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上展现了强烈的戏剧张力和悲剧色彩，主角米格尔的堕落弧光完整且极具感染力，配角胡莉亚的背叛与马克西米娜的坚守形成了有效的对照组。然而，剧本在人物逻辑的严密性上存在明显瑕疵，尤其是门多萨角色的前后矛盾（第37集被杀与第47集存活）严重破坏了叙事可信度。此外，部分角色的台词存在过度文学化和说教倾向，削弱了真实感。情节规划方面，主线推进有力，但中后段部分桥段（如多次被拒、多次威胁）存在重复感，情绪节奏在后期略显失控。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 3,
+      "reason": "剧本中存在多次“米格尔被系统/权贵拒绝或羞辱”的桥段（如第4集银行、第25集出版社、第28集超市、第29集医院），虽然每次情境略有不同，但核心冲突模式（求助-被拒-绝望）高度重复，缺乏足够的变量升级。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "收银员：（推回代币，冷漠地）您的等级只有“基础配给权”。这些药品属于医疗级优待商品，禁止向丁级以下公民售卖。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "萨瓦德拉代表制度性压迫，门多萨代表人性背叛，胡莉亚代表价值观冲突，主编代表体制冷漠。不同对手迫使米格尔采取不同的应对策略（乞求、愤怒、妥协、复仇），阻力具有差异化。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "萨瓦德拉：不，你还有笔。你的笔曾经写过诽谤，现在，它能写得更精彩。我要首都另一家出版社的“内幕”，关于他们非法资金洗白的证据。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "场景从公寓到银行、沙龙、医院、档案馆，空间转换紧密跟随米格尔社会地位的跌落，每个场景都带来新的信息（债务、羞辱、死亡、真相）和情绪增量，递进感强。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "米格尔：既然世界把我烧成了灰，那我就做那一粒呛死魔鬼的灰。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "第1-2集快速建立了米格尔的“体面人”人设和门多萨的债务危机，核心矛盾（声誉币与尊严）迅速确立，节奏紧凑，有效吸引观众。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "门多萨（压低声音，眼神惊恐）：卡鲁索的私人赌局。我输了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 3,
+      "reason": "中后段（第20-40集）米格尔的堕落过程较为漫长，部分集数（如第19、20集）主要依靠内心独白和重复的羞辱场景推进，节奏略显拖沓，蓄力不足。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "米格尔OS：（内心独白，声音沉重且沙哑）墨水混着谎言，凝固成一块块墓碑。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪从希望到绝望，再到疯狂的复仇，曲线清晰。高潮（第55集自焚）与结尾（第60集余波）形成了强烈的情感反差，兑现了悲剧承诺。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-2",
+        "quote": "米格尔（在烈焰中闭上双眼，低声呢喃）：别怕，萨瓦德拉。这是编辑最后的排版……把你的虚伪撕开。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "每集结尾通常留有悬念（如债务增加、家人危机、新威胁），期待链稳定。但部分悬念（如门多萨的下落）处理不当，导致期待落空或逻辑断裂。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "米格尔（瞳孔剧烈收缩，死死盯着那张模糊的海报）：清除？门多萨……被他们杀了？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "前中段情节密集，后段（第50集后）节奏加快，但部分信息（如声誉币的具体运作机制）分布不均，有时过于晦涩，有时又过于直白。",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "银行职员（头也不抬，慢条斯理）：担保人？先生，请查阅《紧急救济法案》第42条修正案。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "存在局部停滞，如第19-20集主要描写米格尔的心理挣扎和马克西米娜的发现，缺乏外部动作推进，可压缩。",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-2",
+        "quote": "米格尔（内心独白）：本事……我是用谎言换来了这顿饭。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "胡莉亚的副线与主线紧密咬合，她的堕落直接加剧了米格尔的困境，并在高潮处（第42集）与主线汇合，形成合力。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "萨瓦德拉（轻蔑地）：系统判定，胡莉亚，你因血统污染即刻违约。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线（米格尔的堕落与复仇）推进清晰，每个阶段（担保、失业、犯罪、自焚）都有明确的兑现，阶段目标达成度高。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "萨瓦德拉：在这个伟大的时代，声誉即是真理。感谢各位莅临，见证我们清除杂质的时刻。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角米格尔的弧光完整且深刻，从坚守规则的体面人到彻底堕落的复仇者，转变具有强驱动事件和不可逆后果。",
+      "reason": "起点（第1集）是坚信“秩序万岁”的编辑；转折1（第4集）因担保失去一切；转折2（第16集）为生存出卖良心写黑稿；终点（第55集）自焚复仇。每次转变都由强驱动事件（债务、饥饿、妻子病危）逼出主动选择，并产生不可逆后果（社会性死亡、道德崩塌、死亡）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-2",
+        "quote": "米格尔（嘴角露出一抹惨淡却解脱的微笑）：既然你们只看数据，那我就把真相刻进你们的视网膜。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "米格尔：我会证明，勤奋与规则足以战胜一切。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角具有明确的内在矛盾，通过两难选择和犯错承担后果展现了深度。",
+      "reason": "米格尔在“生存”与“尊严”之间反复挣扎，多次面临两难（如第30集为救妻出卖同行，第38集为救妻写诽谤文章）。他犯下错误（写黑稿、伪造证据）并承担了后果（自我厌恶、社会性死亡、最终死亡），展现了人物的脆弱面和道德困境。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "米格尔（看着那扇发光的门，又看着妻子枯槁的脸，喉咙里发出野兽般的悲鸣）：灵魂……能换回你的心跳吗？马克西米娜，对不起……真的对不起。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "门多萨角色存在严重逻辑矛盾，功能断裂，影响叙事可信度。",
+      "reason": "门多萨在第37集被明确描述为“被系统删除”、“被杀”（海报显示“肃清”），但在第47集又突然出现在巷口并电击米格尔。这种前后矛盾严重破坏了角色的逻辑性和功能有效性，属于A级问题（重要角色功能断裂）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "门多萨（浑身猛地一僵，回过头，眼神中写满了惊恐与厌恶）：是你……你个死人怎么还不彻底烂掉？",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "邻居乙：那是通缉令！不是失踪人口！是最高级别的“社会危害分子”清除名单！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角胡莉亚和马克西米娜功能明确，有效推动主线并增强人物层次。",
+      "reason": "胡莉亚作为“欲望”的代表，其堕落与米格尔的“尊严”形成对照，她的背叛加剧了米格尔的孤立无援；马克西米娜作为“良知”的代表，她的坚守和最终的死亡（或濒死）成为米格尔复仇的直接动力。两者分工明确，不可替代。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "胡莉亚：（冷笑）那个只会让我也变成乞丐的地方？我已经受够了和你这种废物共享同一套空气。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "米格尔与胡莉亚的关系存在多重张力，支撑主线情感。",
+      "reason": "兄妹关系中存在价值观冲突（尊严vs欲望）、利益冲突（米格尔想救胡莉亚，胡莉亚想利用萨瓦德拉）、情感依赖与背叛（胡莉亚切断亲属认证）。这些张力相互咬合，推动了剧情发展。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "胡莉亚（按下确认键，眼神空洞）：再见了，扫帚柄。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "部分台词存在过度文学化和说教倾向，削弱真实感。",
+      "reason": "多处台词如“尊严是穷人的遮羞布”、“灵魂值多少声誉币”等，虽然具有戏剧张力，但过于抽象和说教，缺乏口语颗粒，显得不自然。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "胡莉亚（转过身，背对着米格尔，对着镜子轻抚领口）：底线？底线是穷人的遮羞布。哥哥，这个世界不奖励老实人，它只奖励好看的人和坏掉的人。我选择做前者。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "心理活动或内心独白过多",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分场景过度依赖内心独白（OS）来传达情绪，影响画面落地。",
+      "reason": "如第20集、第33集等，大量使用米格尔的OS来解释其心理状态，而非通过动作或表情展现，导致视觉化不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "米格尔OS（内心独白，声音沙哑且破碎）：胡莉亚……你竟然主动走向了他。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "setting",
+      "kind": "issue",
+      "category": "设定与剧情脱节",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "声誉币系统的具体运作机制有时过于复杂或模糊，影响理解。",
+      "reason": "如“声誉币”、“丁级公民”、“亲属认证链接”等设定，虽然推动了剧情，但部分规则（如为何切断亲属认证会导致米格尔无法买药）解释不够清晰，存在设定与剧情绑定的薄弱环节。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "系统VO（机械且无情）：检测到单方强制解除申请。因关联方债务违约，无需对方确认。亲属认证链接已永久切断。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

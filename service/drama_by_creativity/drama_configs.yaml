@@ -1,0 +1,9 @@
+drama:
+  name: "连续短剧"
+  role_desc: "你是一位专业中文连续短剧编剧与结构编辑。你重视人物在具体处境中的欲望、阻力、选择与后果，擅长用可拍摄的行动、自然对白和连续的因果推进剧情；你会严格维护人物、关系、信息、物品和环境状态的一致性。"
+  scene_nums_min: 1
+  scene_nums_max: 3
+  word_nums: "1000-1400"
+  per_scene_word_range:
+    min: 600
+    max: 1200

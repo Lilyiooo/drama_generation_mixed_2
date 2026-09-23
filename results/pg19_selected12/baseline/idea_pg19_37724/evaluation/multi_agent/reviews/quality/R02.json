@@ -1,0 +1,284 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R02",
+  "rationale": "本剧本在人物塑造上呈现出极端的“功能化”与“工具化”倾向。主角埃德蒙被塑造为一个全知全能、缺乏情感波动的“黑暗棋手”，其“盲人”设定被过度神化为一种超自然的全知能力（如通过气味、心跳、回声精准定位和预判），导致人物缺乏真实的人性弱点与内在矛盾，弧光表现为从“隐忍”到“冷酷”的单向度黑化，缺乏情感共鸣。配角（如艾德里安、奥古斯汀、汉斯等）几乎完全沦为主角意志的延伸或待宰的猎物，缺乏独立的主体性和动机逻辑，关系建立在纯粹的恐惧与操控之上，缺乏情感深度。虽然反派冯·克莱斯特和奥古斯汀具有一定的威胁性，但整体人物群像服务于“权谋爽文”的叙事功能，牺牲了人物的真实感与复杂性。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 2,
+      "reason": "剧本中大量场景重复使用“埃德蒙通过感官（气味/声音）识破谎言/阴谋”的桥段，且解决方式高度同质（通过心理施压或信息差操控），缺乏新的变量或升级。例如第8集管家、第21-24集汉斯、第36-38集法庭、第43-46集奥古斯汀，均为“埃德蒙指出对方破绽-对方崩溃-埃德蒙提出交易/威胁-对方屈服”的循环。",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "埃德蒙：我在闻你。你的袖口有一股令人作呕的红泥味，那是你祖产边界的泥土。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 3,
+      "reason": "主要对手（奥古斯汀、冯·克莱斯特、汉斯、伯爵）在功能上有所区分（宗教/政治/贵族/情报），但压迫方式均依赖于“恐惧”和“把柄”，缺乏手段和立场上的显著差异化，导致阻力感趋同。",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-1",
+        "quote": "冯·克莱斯特：你获得了权柄？你只获得了我的疑心。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 3,
+      "reason": "场景大多完成了基本的信息传递或冲突升级任务，但部分场景（如多次的寝室对话）在情绪和关系状态上缺乏显著增量，存在重复解释已知信息的情况。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "汉斯：清醒？我现在觉得自己像个在死人堆里跳舞的疯子！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇迅速建立了“盲人国王被囚禁”的异常情境，并通过埃德蒙的感官能力展示了核心冲突（与冯·克莱斯特的对抗），叙事方向清晰，建立了较强的阅读期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "埃德蒙：右边第三个人，你袖口夹着怀表，别擦了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 3,
+      "reason": "中段依靠不断的“识破-操控”小高潮推进，但情绪曲线较为单一，长期维持在“冷酷-恐惧”的基调，缺乏情感起伏和蓄力，导致后期高潮（第60集）的情感爆发略显突兀。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "埃德蒙：哒。哒。哒。这是第一声尖叫。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 3,
+      "reason": "目标情绪（权谋的快感、复仇的冷酷）基本贯穿，但缺乏铺垫和变化，关键高潮（如牺牲汉斯）未能产生预期的情感冲击，反而因主角的过度冷静而削弱了情绪张力。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "埃德蒙：三十换一，这笔账，你算不过来？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "集末通常留有悬念（如新的阴谋、新的把柄），期待分布稳定，能够驱动读者继续阅读，但期待类型较为单一，主要依赖“埃德蒙如何再次反杀”。",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "埃德蒙：来吧，刻刀在我手上。您怕的不是我刻错字，而是我刻得太深了。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "情节量分布基本均衡，但部分集数（如第9集、第23集）信息密度偏低，主要依靠对话和心理描写推进，缺乏实质性的情节进展。",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "埃德蒙：享受它，直到你爱上它。它比忠诚更长久。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但局部存在重复的“心理战”场景，如多次对管家、汉斯、奥古斯汀的类似审讯/操控，存在可压缩的重复内容。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "汉斯：我什么都知道了。你那张名单，全是陷阱。我根本就是个死人。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 3,
+      "reason": "副线（如艾德里安的愤怒、伯爵的背叛）基本服务于主线，但整合度一般，部分副线（如艾德里安的心理崩溃）未能有效反哺主线，反而显得游离。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-1",
+        "quote": "艾德里安：我要把这勋章吞下去，让它烂在肚子里，陪着他们！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线（埃德蒙复仇/夺权）持续产生新目标和新阻力，阶段看点（如演讲、法庭、广播）有效兑现，推动了局势的变化。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "埃德蒙：那不是诅咒！那是历史的回声！"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R02-E001",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角埃德蒙的语言和行为模式高度同质化，缺乏独特的情感层次，主要依赖“感官描述+冷酷指令”的单一模式。",
+      "reason": "埃德蒙在绝大多数场景中表现出相同的冷静、算计和冷酷，缺乏情绪波动或性格的多面性。其台词多为对他人感官的精准描述和命令，缺乏个性化的情感表达或幽默感，导致人物形象扁平。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-1",
+        "quote": "埃德蒙：你的手在抖，像刚跑完急行军，还是刚做了什么亏心事。",
+        "contrast_episode": "第21集",
+        "contrast_scene": "21-1",
+        "contrast_quote": "埃德蒙：我在闻你。你的袖口有一股令人作呕的红泥味，那是你祖产边界的泥土。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E002",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角的弧光表现为从“隐忍”到“冷酷”的单向度黑化，缺乏内在信念的冲突或转变，变化主要由外部事件驱动。",
+      "reason": "埃德蒙从第1集的隐忍到第47集的冷酷牺牲，其内在动机（复仇/夺权）始终未变，缺乏对自我道德的质疑或挣扎。其“成长”仅体现在手段的升级，而非人格的深化，弧光缺乏情感深度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "埃德蒙：计算？不，这是投名状。只有死人的血，才能让活人交出灵魂。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "埃德蒙：一无所有，才无所畏惧。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E003",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "主角缺乏可见的内在矛盾、脆弱面或错误代价，关键决策始终正确且无需付出情感代价，人物真实感严重缺失。",
+      "reason": "埃德蒙在剧中几乎从未犯错，其“盲人”设定被神化为全知能力，使其能够轻松识破所有阴谋。他缺乏恐惧、犹豫或情感波动，甚至对牺牲战友（汉斯）表现出极度的冷静，缺乏人性弱点，导致人物沦为“工具人”或“神”，缺乏深度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "埃德蒙：三十换一，这笔账，你算不过来？",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "埃德蒙VO：听见了吗？这不是审讯，这是一次灵魂的清洗。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E004",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多数重要角色（如管家、汉斯、奥古斯汀）仅承担“被操控者”或“信息提供者”的单一功能，缺乏个人目标与独立情感价值。",
+      "reason": "配角的行为逻辑完全围绕埃德蒙的意志展开，其恐惧、崩溃和屈服均服务于埃德蒙的计划。他们缺乏独立的动机或成长，如汉斯仅因恐惧而签署信托，奥古斯汀仅因嫉妒而背叛，角色可替换性强。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "汉斯：我会签。为了活命。但你也别想掌控我的一切！",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "奥古斯汀：我交出去……我都交出去……只求别让我死……"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E005",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派奥古斯汀的动机主要依赖口头设定（嫉妒、权力欲），缺乏深层的创伤或价值支撑，与主角的对照不足。",
+      "reason": "奥古斯汀的威胁功能可识别，但其行为逻辑较为简单，主要依赖“伪善”和“恐惧”的标签。其动机（嫉妒埃德蒙、渴望权力）缺乏具体的事件驱动或深层心理挖掘，导致反派形象较为单薄。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "奥古斯汀：我想要的……只不过是被承认的地位……为什么这么难……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E006",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "主角与重要配角（艾德里安、伯爵）的关系整体停留在利益交换与任务协作，缺乏信任、依赖或价值认同的情感进阶。",
+      "reason": "埃德蒙与艾德里安的关系基于“命令-服从”和“冷酷-愤怒”的冲突，缺乏情感共鸣。埃德蒙将艾德里安视为“刀”，艾德里安将埃德蒙视为“怪物”，双方缺乏情感绑定。与伯爵的关系更是纯粹的利用与背叛，无任何情感深度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "埃德蒙：同志？在那个仓库里，他们只是计算概率里的牺牲品。",
+        "contrast_episode": "第54集",
+        "contrast_scene": "54-1",
+        "contrast_quote": "伯爵：被记住是活人的事。我现在只想看着你……变成那只老鼠。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E007",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "核心关系（埃德蒙-奥古斯汀）的张力主要来源于“操控-反操控”的单一来源，缺乏身份、价值或情感的多维咬合。",
+      "reason": "埃德蒙与奥古斯汀的关系虽然具有强烈的戏剧冲突，但张力主要依赖于埃德蒙的信息优势和心理施压，缺乏更深层的价值冲突或情感纠葛。奥古斯汀的“伪善”与埃德蒙的“冷酷”形成对照，但缺乏情感上的共鸣或悲剧性。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "埃德蒙：信仰是留给弱者的安慰剂。而你，现在是我的武器。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

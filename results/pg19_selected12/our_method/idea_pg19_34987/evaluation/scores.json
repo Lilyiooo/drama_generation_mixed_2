@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_34987/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 82.0,
+      "ledger_subdimension_mean": 79.14,
+      "holistic_subdimension_mean": 84.86,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 75.0,
+          "holistic_score": 84.0,
+          "fused_score": 79.5
+        },
+        "character_state": {
+          "ledger_score": 72.0,
+          "holistic_score": 84.0,
+          "fused_score": 78.0
+        },
+        "knowledge_state": {
+          "ledger_score": 80.0,
+          "holistic_score": 84.0,
+          "fused_score": 82.0
+        },
+        "resource_state": {
+          "ledger_score": 70.0,
+          "holistic_score": 84.0,
+          "fused_score": 77.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 82.0,
+          "holistic_score": 84.0,
+          "fused_score": 83.0
+        },
+        "foreshadowing": {
+          "ledger_score": 85.0,
+          "holistic_score": 84.0,
+          "fused_score": 84.5
+        },
+        "repetition": {
+          "ledger_score": 90.0,
+          "holistic_score": 90.0,
+          "fused_score": 90.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 3,
+          "highlights": 1,
+          "total": 4
+        },
+        "character_state": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "knowledge_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "resource_state": {
+          "issues": 4,
+          "highlights": 0,
+          "total": 4
+        },
+        "rules_spacetime": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "foreshadowing": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "repetition": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 88.1,
+      "ledger_subdimension_mean": 91.2,
+      "holistic_subdimension_mean": 85.0,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 88.0,
+          "holistic_score": 88.0,
+          "fused_score": 88.0
+        },
+        "hooks": {
+          "ledger_score": 93.0,
+          "holistic_score": 86.0,
+          "fused_score": 89.5
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 82.0,
+          "fused_score": 86.0
+        },
+        "episode": {
+          "ledger_score": 94.0,
+          "holistic_score": 84.0,
+          "fused_score": 89.0
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 85.0,
+          "fused_score": 88.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 1,
+          "highlights": 2,
+          "total": 3
+        },
+        "character_support": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如逃亡、审讯、战斗）大多承担不同功能，通过新变量（如从物理逃亡到心理博弈，从个人复仇到政治审判）形成有效变奏。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-2",
+            "quote": "她将布片狠狠拍在左侧通往北方山脉的小径入口泥地上...随后，她故意在泥地上踩出几串慌乱、凌乱且方向明确的脚印，指向北方。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如逃亡、战斗、对峙）大多承担不同功能，通过新变量（如从物理逃亡到政治博弈，从个人复仇到集体生存）形成有效变奏。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-1",
+            "quote": "伯莎（声音极冷）：停下所有动作。后退十步。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "相似桥段（如逃亡、谈判、战斗）大多承担不同功能，通过新变量（如从物理逃亡到心理博弈，从军事战斗到政治审判）形成有效变奏。",
+          "evidence": {
+            "episode": "第22集",
+            "scene": "22-2",
+            "quote": "伯莎（不退反进，直视拉罗克，声音平静得令人心悸）：我在救您。三天后，伯爵的税吏会带着军队到达码头。如果您那时手里只有空荡的仓库，您不仅是叛徒，更是弃子。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：伯爵代表制度暴力，戈弗雷代表内部激进派分裂，拉罗克代表中立贵族的投机，迫使主角采用不同策略（武力、政治、谈判）。",
+          "evidence": {
+            "episode": "第35集",
+            "scene": "35-1",
+            "quote": "侯爵：自治权？这是一个昂贵的承诺，伯莎。我的中立不是基于野心，而是基于安全。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手（伯爵、戈弗雷、村民、禁军）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（如用贵族礼仪对付管家，用战术对付禁军，用思想对付村民）。",
+          "evidence": {
+            "episode": "第24集",
+            "scene": "24-1",
+            "quote": "伯莎（指着老管家，高声厉喝）：我是布卢埃尔内尔的血液！即便身为阶下囚，在封建法度之下，你作为长辈与管家，竟敢在主人眷属面前跪地哭嚎，污了伯爵的仪仗？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "不同对手代表不同资源与压力类型：伯爵代表制度暴力，拉罗克代表利益交换，戈弗雷代表内部激进派，神父代表宗教道德绑架，迫使主角采用不同策略。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "神父（厉声，声音在空旷的广场回荡）：说！为何要将神圣的食物，施舍给魔鬼的爪牙？"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从第1集的宴会羞辱到第12集的烧毁印信，再到第59集的断头台，层层递进。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-2",
+            "quote": "她将印信紧紧攥在手中，指节泛白...猛地抓起火盆中两块烧得通红的木炭，连同那枚金质印信，一起狠狠砸进火堆中心。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从第12集烧毁印信到第13集熔铸子弹，再到第30集撰写法典，场景递进清晰。",
+          "evidence": {
+            "episode": "第13集",
+            "scene": "13-2",
+            "quote": "伯莎粗暴地将风箱拉到底。由于缺乏煤炭，她抓起枯枝败叶塞入炉膛，点燃。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从集市识破间谍到沼泽伏击，再到法庭审判，层层递进。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-1",
+            "quote": "伯莎（声音极冷）：停下所有动作。后退十步。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过农民被杀和伯莎被许配，迅速建立阶级矛盾和主角的绝望与反抗动机。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伯爵猛地伸手按住农民的头顶，将其强行按入旁边的红色葡萄酒杯中...伯莎僵在原地，看着污渍晕开，手指深深掐入掌心。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。第1集通过宴会厅的残酷场景迅速建立伯爵的暴虐和伯莎的绝望，第2集立即转入逃亡行动。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伯爵猛地伸手按住农民的头顶，将其强行按入旁边的红色葡萄酒杯中。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过宴会厅的暴力场景迅速确立伯爵的残暴和伯莎的处境，叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "伯爵猛地伸手按住农民的头顶，将其强行按入旁边的红色葡萄酒杯中。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从沼泽伏击到法庭审判，情绪张力持续累积。",
+          "evidence": {
+            "episode": "第29集",
+            "scene": "29-1",
+            "quote": "诺米诺埃的弯刀在空中划出一道冷冽的弧线，精准地斩断了工兵握火把的手腕。鲜血喷溅在灰色的木板桥上。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从沼泽伏击到法庭审判，情绪逐级增强。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-2",
+            "quote": "伯莎：法官大人，您手中的木槌，是用来敲击罪恶，还是为了掩盖饥饿的哀鸣？"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从军事斗争转向政治与思想斗争，高潮（断头台）充分回收前文情感。",
+          "evidence": {
+            "episode": "第59集",
+            "scene": "59-1",
+            "quote": "民众合唱（渐强）：潮水退去，骨头归于泥土……灵魂归于大海……但誓言不被遗忘……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。蒂娜之死、诺米诺埃之死、伯莎之死构成了强烈的情感冲击。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-1",
+            "quote": "蒂娜眼神瞬间涣散，身体软绵绵地滑落。伯莎（非人的尖叫）：蒂娜——！！！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。蒂娜之死（第16集）和诺米诺埃之死（第50集）是两大情绪高峰，铺垫充分。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-1",
+            "quote": "蒂娜（嘴唇翕动，无声地吐出两个字）：对……不……起……"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。蒂娜之死、诺米诺埃之死、伯莎之死构成情感三部曲，强度逐级增强。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-1",
+            "quote": "蒂娜（嘴唇翕动，无声地吐出两个字）：对……不……起……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如第22集拉罗克的背叛，第39集母亲死因的揭露，均有效推动剧情。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-1",
+            "quote": "伯莎（念出解码后的词句，声音干涩）：“药已调包”……“午夜钟声”……“守夜僧侣改换为黑衣死士”。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如第22集拉罗克的背叛，第39集母亲密信的发现，均有效驱动后续情节。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-1",
+            "quote": "伯莎（念出解码后的词句，声音干涩）：“药已调包”……“午夜钟声”……“守夜僧侣改换为黑衣死士”。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。悬念从生存、爱情、政治阴谋到最终的思想胜利，相互咬合。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-1",
+            "quote": "伯莎（念出解码后的词句，声音干涩）：“药已调包”……“午夜钟声”……“守夜僧侣改换为黑衣死士”。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡节奏快，中期建设节奏稳，后期审判节奏沉。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "伯莎写下：“土地归耕者所有”。她盯着这行字，眉头紧锁...她拿起炭笔，狠狠划掉那行字。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡节奏紧凑，中期建设节奏放缓，后期决战节奏加快。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "伯莎写下：“土地归耕者所有”。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡紧凑，中期战争与政治斗争密集，后期审判与结局庄重。",
+          "evidence": {
+            "episode": "第55集",
+            "scene": "55-1",
+            "quote": "伯莎（嘴唇微动，无声）：权力……源于暴力。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-2",
+            "quote": "伯莎：伯爵封锁了主干道，是因为他要向巴黎展示铁腕。但他忘了，布列塔尼的海岸线全是走私犯的眼泪铺成的。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-2",
+            "quote": "伯莎：伯爵封锁了主干道，是因为他要向巴黎展示铁腕。但他忘了，布列塔尼的海岸线全是走私犯的眼泪铺成的。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数，每集均有情节推进或人物关系变化。",
+          "evidence": {
+            "episode": "第30集",
+            "scene": "30-2",
+            "quote": "伯莎写下：“土地归耕者所有”。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。如蒂娜的副线最终成为诺米诺埃与伯莎关系破裂的关键。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-1",
+            "quote": "诺米诺埃（咆哮，声音如野兽）：别碰她！你的手是肮脏的，你的血是肮脏的！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。如《农民法典》的演变副线，最终成为伯莎在法庭上反击的核心武器。",
+          "evidence": {
+            "episode": "第52集",
+            "scene": "52-1",
+            "quote": "伯莎：这不是给诺米诺埃的情话，这是给全布列塔尼的审判书。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。如蒂娜线、母亲密信线、拉罗克线均有效整合进主线。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-1",
+            "quote": "伯莎（指着信纸上的一处标记）：去年母亲死于那场所谓的“高热”，根本不是病。伯爵伪造了医疗记录……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从逃亡到起义再到审判，主线清晰。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-2",
+            "quote": "伯莎：法官大人，您手中的木槌，是用来敲击罪恶，还是为了掩盖饥饿的哀鸣？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从逃亡到起义，再到思想启蒙，主线推进清晰。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-3",
+            "quote": "少女将腰带残片贴近胸口，站起身，走向窗边，用力推开窗户。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从逃亡到起义，从军事胜利到政治失败再到思想胜利，主线清晰。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-2",
+            "quote": "伯莎（声音渐强，字字铿锵）：若法律仅保护剥削，若秩序仅服务于掠夺，那么它是否还配称为法？还是说，它只是强者手中的鞭子，弱者脚下的枷锁？"
+          }
+        }
+      ]
+    }
+  ]
+}

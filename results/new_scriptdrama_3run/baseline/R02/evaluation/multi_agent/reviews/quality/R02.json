@@ -1,0 +1,460 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R02",
+  "rationale": "本剧本人物塑造呈现明显的“强主角、弱配角、浅反派”特征。主角苏半夏与陆离的弧光完整，人物关系张力强，但配角功能高度重叠且缺乏独立深度，反派动机单薄且后期降智。情节规划上，中后段存在明显的注水与重复，情绪曲线在后期因主角失忆而断裂，导致高潮缺乏足够的因果支撑。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 2,
+      "reason": "中后段大量重复“舆论战”与“撒泼”桥段，如第9集、第14集、第33集、第42集、第44集，均通过散布谣言、当众撒泼、利用百姓情绪来击溃对手，手段与结果高度同质，缺乏新变量。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "苏半夏（冷笑一声，将显字粉末的瓶子收回袖中）：既然觉得晦气，那就把吃进去的银子，原封不动地还回来。否则，明年的今日，咱们就在这儿办白事。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 2,
+      "reason": "继母、二叔、礼部亲戚、权贵首领、王爷等反派在功能上高度重叠，均表现为“贪婪、愚蠢、被主角舆论战轻易击溃”，缺乏不同层次的压迫感与差异化手段。",
+      "evidence": {
+        "episode": "第14集",
+        "scene": "14-1",
+        "quote": "礼部亲戚（冷汗直流，被人群推搡得险些摔倒）：你……你这是道德绑架！你是在拿钱收买人心！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 3,
+      "reason": "场景基本完成叙事任务，但部分场景（如第55集、第56集）在主角失忆后陷入日常琐碎，缺乏对主线危机的有效递进，导致节奏停滞。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "陆离：这花枝长得太乱，剪了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇通过赵家肉铺事件快速建立苏半夏“撒泼”人设与陆离“落魄将军”处境，核心矛盾（债务、继母、毒）建立高效，吸引力强。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "苏半夏：天理何在！赵屠户，你卖人肉充数，还要打断街坊的手指，你缺德啊！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 2,
+      "reason": "第53集陆离失忆后，剧情从高强度的权谋斗争突然转向平淡的日常与情感修复，导致前期积累的紧张感断裂，高潮（第57集）缺乏足够的危机铺垫，显得突兀。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 3,
+      "reason": "前期“爽感”与“紧张感”交替较好，但后期因失忆设定导致情绪曲线出现断层，最终结局的“圆满”缺乏足够的情感爆发点支撑。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "陆离（转头看向在草地上奔跑的孩子们，嘴角勾起一抹释然的弧度）：就建孤儿院。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 3,
+      "reason": "集末悬念设置基本有效，但中后段部分集数（如第55集）缺乏强烈的后续驱动力，主要依赖情感线而非剧情线推动。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-2",
+        "quote": "苏半夏（埋在陆离胸口，听着他沉稳有力的心跳，在心中暗暗对自己说道：记忆或许会消失，但爱不会。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "前期信息密度高，中后期因失忆导致信息释放节奏放缓，整体分布尚可，但后期略显松散。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "皇帝（拿起案上的奏折，漫不经心）：隐患？一个没了脾气、没了过去的烂摊子，还能成什么气候？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 2,
+      "reason": "第55集至第56集存在明显的注水嫌疑，通过日常琐事（剪花、喂狗、擦泥）填充篇幅，缺乏对主线（天罗、王爷）的实质推进。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "苏半夏（气极反笑，随手将土里的泥点甩在陆离洁白的袖子上）：行啊陆大奉直大夫，这就是你的“管草”经验？连根都要管死是吧？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 3,
+      "reason": "天罗身世副线在后期整合较好，但前期铺垫不足，导致第47集揭示时略显突兀。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "医神：（叹一口气）组织早已隐退多年。但这件信物，足以说明您和骗神、武神、我，甚至智囊，我们都背负着同一个姓氏，同一个宿命的因果。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 3,
+      "reason": "主线（复仇、夺权、解毒）基本推进，但阶段兑现力度不均，部分高潮（如第33集赏花宴）手段重复，缺乏新意。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "苏半夏（慢条斯理地整理着衣摆，眼神冰冷）：不是符咒，是各位大人平日里签下的“投名状”。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R02-E001",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏的弧光完整，从“撒泼求生”到“商盟盟主”的转变有事件驱动。",
+      "reason": "起点（第1集撒泼）清晰，转折（第14集利用舆论、第47集接受身世）有铺垫，终点（第58集商盟加冕）明确。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "苏半夏（将黑金令牌拍在桌案上，发出一声巨响，对着全场狂呼）：现在我宣布，“半夏商盟”正式成立！从今往后，京城的天，就是我们说了算！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E002",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏的内在矛盾（狠辣与深情）通过关键选择被戏剧化。",
+      "reason": "第16集为救陆离不惜动用母亲遗物，第47集面对身世真相选择“不逃了”，展现了脆弱面与主动选择。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "苏半夏：（拿起桌上的令牌和长命锁，紧紧攥在掌心）既然他们是冲着这个来的，那我就带着这个，杀回去。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E003",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离的语言习惯与行为模式在失忆前后缺乏足够的区分度，部分台词可替换。",
+      "reason": "陆离在失忆前多为“冷峻、简短”，失忆后变为“天真、依赖”，但中间过渡期（第24集、第31集）的台词风格与苏半夏的“泼辣”相比，辨识度略弱，部分场景下更像是一个标准的“深情男主”模板。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "陆离（缓缓凑近，额头抵住苏半夏的额头，声音低沉而坚定）：从今往后，这军中的风浪，家中的风雨，还有那该死的毒，我陆离一人扛。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E004",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "配角（骗神、医神、武神、智囊）功能高度重叠，缺乏个人目标与独立弧光。",
+      "reason": "骗神、医神、武神、智囊在剧中主要承担“递线索、制造笑点、衬托主角”的功能，缺乏各自的困境与成长。例如，骗神在第1集、第4集、第13集、第32集等多次出现，但行为模式均为“插科打诨+执行任务”，可替换性强。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-1",
+        "quote": "骗神：（摇着破蒲扇，阴阳怪气）哎哟，先生这话大不敬！将军府的门槛都被那些债主踩出坑了，您倒在这儿泼脏水？",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-1",
+        "contrast_quote": "骗神（身穿青色长衫，头戴乌纱帽，手拿教鞭，俨然一副城管模样）：退后！排队！别乱挤！"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E005",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "反派（继母、王爷）动机单薄，后期明显降智。",
+      "reason": "继母在第9集、第10集、第11集连续被苏半夏用“撒泼”和“铁券”轻易击溃，缺乏有效的反击手段。王爷作为最终BOSS，在第42集、第44集被舆论战轻易逼退，缺乏与其身份匹配的智谋与压迫感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "继母（看着陆离决绝的眼神，面如土色）：你……你别后悔！",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-2",
+        "contrast_quote": "禁军统领（面色惨白，看着失控的局势，咬牙）：这……"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E006",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏与陆离的关系存在多重张力（利益、情感、秘密），支撑主线。",
+      "reason": "两人从“雇佣”到“夫妻”再到“生死与共”，关系推进有明确里程碑（第2集签约、第18集装死、第47集身世揭示），张力来源包括利益绑定、情感依赖与秘密共享。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "苏半夏（凄厉哭嚎）：医神不是说压制住了吗？你怎么能……陆离！你不能丢下我啊！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E007",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇高效建立人物与核心问题，吸引力强。",
+      "reason": "第1集通过赵家肉铺事件快速展示苏半夏的“撒泼”能力与陆离的“落魄”处境，核心矛盾（债务、继母、毒）在第2集明确，信息组织流畅。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "陆离：（眉头微挑，抛出筹码）我乃大雍镇北将军陆离。需要你以将军夫人身份，替我坐镇京城。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E008",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_conflict",
+      "kind": "issue",
+      "category": "阻力与对立关系不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派阻力不足，首次交锋缺乏力度。",
+      "reason": "继母在第9集、第10集的交锋中，主要依靠“撒泼”和“铁券”被击溃，缺乏实质性的威胁与反击，导致冲突结构松散。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "继母（彻底瘫坐在地上，绝望地尖叫）：啊！来人！开门！快给他开门！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E009",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "情感投入度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "中后段情感投入度因失忆设定而减弱。",
+      "reason": "第53集陆离失忆后，观众对主线危机的关注度下降，情感投入主要转向“甜宠”日常，导致前期积累的紧张感与危机感被稀释。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（摸索着握住苏半夏粗糙的手）：虽然不知道发生了什么，但我知道，不能让你受一点点伤，也不能让你离开我的视线。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E010",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "中后段“舆论战”桥段重复，缺乏新变量。",
+      "reason": "第9集、第14集、第33集、第42集、第44集均使用“散布谣言+当众撒泼+利用百姓情绪”的手段，结果均为“反派狼狈逃窜”，缺乏升级与变化。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "苏半夏：（站起身，指着心腹的鼻子大声叫屈）诸位！连个瞎子都对付不了，这就是王爷派来压架子的护院？我看不是护院，是来这儿讨饭的吧！",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-1",
+        "contrast_quote": "苏半夏（声音陡然拔高，字字泣血）：将军府被夺，无数老仆流落街头，京城孤儿院也因断了粮而人心惶惶！我卖这些珠子，不是为了还债，是为了给那些无依无靠的孩子一口饭吃！"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E011",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "plot_emotion",
+      "kind": "issue",
+      "category": "中后段节奏",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "失忆设定导致中后段节奏断裂，高潮缺乏铺垫。",
+      "reason": "第53集陆离失忆后，剧情从高强度的权谋斗争突然转向平淡的日常，导致第57集的高潮（庆功宴）缺乏足够的危机铺垫，显得突兀。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "陆离（歪头，目光灼灼地盯着苏半夏，嘴角泛起一抹纯真的笑）：你是谁？",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-1",
+        "contrast_quote": "陆离（猛地一锤定音，将文书重重拍在桌上，震飞了酒杯）：架空？若无夫人这铁壁铜墙般的后勤，我陆离早就成了一具毒发的枯骨！"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E012",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "A",
+      "behavior_rating": 2,
+      "points": 6.0,
+      "claim": "第55集至第56集存在明显注水，缺乏主线推进。",
+      "reason": "第55集通过“剪花”、“喂狗”等日常琐事填充篇幅，缺乏对主线（天罗、王爷）的实质推进，导致节奏停滞。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "陆离（看着袖子上的泥点，眼神并未责怪，反而宠溺地看向苏半夏，伸手轻轻替她拂去脸颊上沾着的一根草叶）：半夏，别气。这泥土弄脏了你手，我帮你擦干净。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E013",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词人物辨识度低",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "配角台词风格相近，缺乏辨识度。",
+      "reason": "骗神、医神、武神、智囊的台词多为“插科打诨”或“冷静分析”，缺乏各自独特的语言习惯，遮掉角色名后难以辨认。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-1",
+        "quote": "骗神（挥动教鞭）：本官乃是京城“公平交易厅”特聘专员，谁敢插队，挨顿板子！",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "骗神（立正）得令！保证让那婆娘出门都被扔烂菜叶。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E014",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "心理活动或内心独白过多",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分场景使用OS/VO替代可见动作，影响分镜落地。",
+      "reason": "第10集、第12集、第16集等多处使用“OS”或“VO”来解释人物心理或背景，缺乏可见的动作与表情支撑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "苏半夏OS：想赶人？先看看手里有没有这筹码。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E015",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "setting",
+      "kind": "issue",
+      "category": "设定与剧情脱节",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "“天罗”设定在前期铺垫不足，后期揭示略显突兀。",
+      "reason": "“天罗”作为核心设定，在第47集才正式揭示，前期缺乏足够的线索与铺垫，导致观众在理解苏半夏身世时缺乏情感共鸣。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "医神：（叹一口气）组织早已隐退多年。但这件信物，足以说明您和骗神、武神、我，甚至智囊，我们都背负着同一个姓氏，同一个宿命的因果。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体构建了以“木工技艺”为核心解决危机的独特逻辑体系，因果链在微观战术层面（如利用结构力学破局）设计严密，亮点突出。但在宏观叙事层面存在多处严重的逻辑断裂：1. 角色状态与认知管理混乱，如梅休的死亡与复活、罗杰的幻觉与清醒状态反复横跳；2. 关键道具（地契、地图、武器）的归属与状态在集与集之间频繁发生无解释的“瞬移”或“重置”；3. 时间线与空间位移存在明显悖论（如深夜行动与黎明结果的矛盾）。这些问题削弱了长篇剧本的可信度，需重点修复。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "梅休在第44集被明确描写死亡，但在第49集又从尸体状态复活并指引方向。",
+      "reason": "第44集科瓦探鼻息确认死亡，贾斯珀抱住“逐渐失去温度的身体”；第49集迪克探鼻息后梅休手指抽动并说话。无假死、复活或替身解释，直接推翻前文死亡事实，属于S级生命状态断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "梅休的脸色青灰如铁，双眼紧闭，瞳孔涣散，毫无生气。……梅休的手指突然抽动。那只原本无力垂落的手，艰难地、颤抖地抬起，指向侧方那片漆黑、布满诡异瘴气的荆棘密林。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "科瓦的手指停滞了一瞬，随即缓缓收回。……贾斯珀缓缓跪下，抱住梅休逐渐失去温度的身体，泪水无声地滴落在梅休满是血污的脸上。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "地契原件在第23集被迪克贴身保管，第54集却出现在拉斯克尔手中并被其撕毁，中间无转移过程。",
+      "reason": "第23集迪克将地契塞入贴身内袋；第54集拉斯克尔“一把抓起桌上那份……地契原件”并撕毁。期间迪克一直持有证据（第51集还在用其拓印），未发生任何交接、被盗或调包情节，关键道具归属发生硬性矛盾。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "他一把抓起桌上那份边缘焦黑、浸过血污的地契原件和账本，双臂发力，纸张发出刺耳的撕裂声，一分为二。",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-2",
+        "contrast_quote": "迪克迅速将焦黑的地契塞入贴身内袋，确保远离任何湿气或热源。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "罗杰的火枪在第11集落入泥浆，第12集被科瓦折断，但第17集罗杰又持有火枪并开枪。",
+      "reason": "第11集火枪掉进滚烫泥浆；第12集科瓦捡起折断枪管扔进泥浆。第17集罗杰“下意识地伸手摸向腰间……罗杰……举起火绳枪”。武器已明确损毁且被没收，后文无修复或替换说明，属于A级道具归属混乱。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-2",
+        "quote": "罗杰（愤怒地吼叫）：迪克！你让我去送死？！……罗杰（尖叫）：滚开！都给我滚！……砰！",
+        "contrast_episode": "第12集",
+        "contrast_scene": "12-2",
+        "contrast_quote": "科瓦捡起地上的火枪，用力折断枪管，发出清脆的断裂声。……他将折断的枪管扔进泥浆"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第39集深夜破坏火炮，第40集黎明火炮发射炸膛，但第39集描述雨滴稀疏，第40集描述浓雾潮湿，且破坏效果在数小时内未引发任何异常。",
+      "reason": "第39集深夜迪克撬裂榫头，炮身倾斜。第40集黎明拉斯克尔下令开炮。虽然时间跨度合理，但第39集提到“雨滴开始稀疏”，第40集开头却是“浓雾如铅灰色……潮湿的空气”，且拉斯克尔作为指挥官在炮架明显受损（倾斜、异响）的情况下未检查直接开炮，虽可解释为傲慢，但结合前文迪克强调“骨头已脆”，此处缺乏对受损状态被忽视的合理铺垫，且天气描述前后略有冲突（雨vs雾），定为A级。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "浓雾如铅灰色的幕布笼罩着荒野，潮湿的空气中弥漫着硫磺和腐烂泥土的气息。……雇佣兵炮手满脸油污，机械地拉动炮闩……点燃引信。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-3",
+        "contrast_quote": "雨滴开始稀疏地落下，敲打在炮管上发出清脆的“叮”声……左侧炮腿内侧的榫头崩裂，巨大的炮身发出危险的倾斜"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "迪克在第16集准确识破科瓦的谎言，依据是“初秋黄石谷地风向恒定”，但前文未建立迪克具备如此精确的气象知识。",
+      "reason": "迪克是律师/工匠背景，虽在荒野生存，但“风向恒定”属于专业气象或长期驻留经验。前文未交代迪克在黄石长期生活或具备气象专业知识，此处依靠未交代来源的专业知识完成关键判断，属于A级知识来源缺失。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "此时是初秋，黄石谷地风向恒定，上游绝不可能无端起雾。而且，科瓦说的“上游有风”，在苏语语境中常指代“埋伏”或“杀机”。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "迪克在第28集冷酷夺走梅休的仪器并抛弃他，第31集又对罗杰展现温情（盖毯子），第32集主动分肉给梅休，态度转变过快且缺乏心理过渡。",
+      "reason": "第28集迪克行为极度冷酷，梅休崩溃；第29集迪克冷漠离开；第31集罗杰猎鹿归来，迪克盖毯子；第32集迪克主动分肉给梅休。从“视人命如草芥”到“团队凝聚”的转变仅隔两集，且中间无重大事件驱动（如共同生死考验的深入描写），性格稳定性受损，属于A级性格动机突变。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-1",
+        "quote": "迪克抓起石板上的那块肉，手臂一挥，肉块在空中划出一道弧线，稳稳落在梅休脚边的泥地上。",
+        "contrast_episode": "第28集",
+        "contrast_scene": "28-1",
+        "contrast_quote": "迪克突然上前一步……猛地伸出手，一把扯下了梅休胸前的皮套。……迪克（压低声音，语气如铁）：闭嘴。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E007",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第52集法官被座椅卡住，导致拉斯克尔分心，但座椅卡住的原因（迪克预埋木楔）在前文无铺垫，且法官被卡住后拉斯克尔未立即搜查迪克，逻辑支撑不足。",
+      "reason": "迪克在第52集开头混入杂工并预埋木楔，但前文（第51集）迪克在地下印刷室，第52集开头直接出现在法庭旁听席，中间无潜入过程描写。且法官被卡住后，拉斯克尔仅踢椅子，未立即对全场进行武器搜查或锁定迪克，给迪克留下操作空间，危机解决依赖反派降智，属于A级因果断裂。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "迪克·阿姆斯特朗身着一件沾满油污的粗布工装，提着一个旧木工工具箱，低着头混在搬运木料的杂工中。……迪克迅速将木楔精准嵌入滑轮轴心的关键卡槽。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-3",
+        "contrast_quote": "迪克眼神肃穆，抱起一摞刚印好的传单，递给罗杰。……罗杰接过沉重的纸捆，眼中重新燃起光芒"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E008",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第1集提到的“贾斯珀手里有我们需要的东西”具体为何物，直到第23集才揭示为地契，中间长达20集无明确指向，且第9集迪克展示的地契复印件签名栏空白，与第23集获取的原件签名完整存在逻辑断层。",
+      "reason": "第9集迪克展示地契复印件，签名栏空白，暗示需要补签或寻找真迹；第23集从贾斯珀处搜出地契，签名在列。中间未交代为何复印件空白而原件完整，或贾斯珀为何持有完整原件。伏笔回收略显仓促，属于B级遗忘伏笔。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "迪克展开一角，确认签名在列，眼中刚闪过一丝松动的微光",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-1",
+        "contrast_quote": "图纸上代表家族权益的签名栏是一片刺眼的空白。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E009",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "第39-40集利用木工结构知识破坏火炮榫卯，导致火炮炸膛，因果严密且符合角色技能设定。",
+      "reason": "迪克通过观察炮架湿气腐蚀，找到榫卯弱点，利用杠杆原理破坏，最终在火炮发射时因结构失效导致炸膛。这一过程层层铺垫，利用角色核心技能（木工）解决军事危机，因果链严密且有惊喜感，属于S级亮点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "炮架底部那根昨夜被迪克精心计算的朽木榫头，在巨大的后坐力下瞬间崩碎。……炮弹在炮膛内炸膛。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-3",
+        "contrast_quote": "迪克（冷笑一声，摇头）：那是莽夫的做法。木头和铁器虽然坚硬，但在湿气面前都会腐烂。你看那炮架，浸了几个月的雨水，榫卯连接处早已松动。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E010",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "highlight",
+      "category": "时空逻辑设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "黄石公园的地热、硫磺、雾气等环境规则在剧中被一致性地用于制造障碍和辅助行动，无明显矛盾。",
+      "reason": "从第3集到第30集，黄石的地热、毒气、雾气等环境特征被反复利用，且角色对这些环境的反应（如窒息、灼伤、视线受阻）保持一致，规则边界清晰，无明显矛盾，属于A级亮点。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "空气中漂浮着细碎的粉尘，混合着浓烈的硫磺臭气，吸入肺腑令人作呕。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-2",
+        "contrast_quote": "空气中弥漫着一股刺鼻的硫磺味，像是地狱深处的叹息。脚下的土地变得松软湿滑，呈现出诡异的焦黑色"
+      }
+    }
+  ]
+}

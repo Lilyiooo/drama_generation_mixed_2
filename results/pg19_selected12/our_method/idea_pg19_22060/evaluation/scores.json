@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/pg19_selected12_state_hybrid_gate_v1/idea_pg19_22060/candidate/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 78.21,
+      "ledger_subdimension_mean": 79.29,
+      "holistic_subdimension_mean": 77.14,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 79.0,
+          "holistic_score": 80.0,
+          "fused_score": 79.5
+        },
+        "character_state": {
+          "ledger_score": 70.0,
+          "holistic_score": 70.0,
+          "fused_score": 70.0
+        },
+        "knowledge_state": {
+          "ledger_score": 84.0,
+          "holistic_score": 80.0,
+          "fused_score": 82.0
+        },
+        "resource_state": {
+          "ledger_score": 74.0,
+          "holistic_score": 70.0,
+          "fused_score": 72.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 84.0,
+          "holistic_score": 80.0,
+          "fused_score": 82.0
+        },
+        "foreshadowing": {
+          "ledger_score": 78.0,
+          "holistic_score": 70.0,
+          "fused_score": 74.0
+        },
+        "repetition": {
+          "ledger_score": 86.0,
+          "holistic_score": 90.0,
+          "fused_score": 88.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "character_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "knowledge_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "resource_state": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "rules_spacetime": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "foreshadowing": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 87.1,
+      "ledger_subdimension_mean": 92.4,
+      "holistic_subdimension_mean": 81.8,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 96.0,
+          "holistic_score": 82.0,
+          "fused_score": 89.0
+        },
+        "hooks": {
+          "ledger_score": 93.0,
+          "holistic_score": 85.0,
+          "fused_score": 89.0
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 78.0,
+          "fused_score": 84.0
+        },
+        "episode": {
+          "ledger_score": 92.0,
+          "holistic_score": 80.0,
+          "fused_score": 86.0
+        },
+        "setting": {
+          "ledger_score": 91.0,
+          "holistic_score": 84.0,
+          "fused_score": 87.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "character_relationship": {
+          "issues": 0,
+          "highlights": 2,
+          "total": 2
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_continuity": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "episode_visual": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "setting": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如突围、潜入、爆炸）大多承担不同功能。例如第3集果园突围是被动求生，第14集纺织厂是主动反击，第44集峡谷是牺牲与复仇。通过新变量（如回声壁、沼气、假情报）形成有效变奏，避免了机械重复。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-2",
+            "quote": "巨大的冲击波裹挟着烈火与尘埃，以肉眼可见的环状向外扩散。头顶的岩层如豆腐般崩塌，巨石滚落，瞬间掩埋了整个峡谷入口。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "相似桥段（如突围、潜入、战斗）大多承担不同功能，通过新变量（如沼泽火攻、通风管道、假情报）形成有效变奏，避免了简单的重复。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-2",
+            "quote": "他将火把裹满油脂的引信，用尽全身力气扔向漂浮在沼泽表面的那层蓝色气体。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "剧本中多次出现“潜入-暴露-突围”或“任务-失败-反思”的结构，但每次事件都引入了新的变量（如从游击队内部叛变到普军外部清洗，从物理战斗到心理博弈），且结果对人物关系和主线局势产生了不可逆的影响，形成了有效变奏。",
+          "evidence": {
+            "episode": "第3集",
+            "scene": "3-2",
+            "quote": "拉尔夫像一头被激怒的野兽，猛地甩开珀西。他的身体前倾，双手端着左轮手枪从草丛中伸出。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "对手体系层级清晰。普军从初期的巡逻队（物理威胁）到猎手军官（心理/战术威胁），再到法军内部的清洗（政治/信任威胁）。不同对手迫使主角采用不同策略（如第24集利用官僚主义骗过检查站，第42集利用心理战反杀猎手）。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "猎手军官（VO）：若你们交出武器，并在十分钟后独自走出洞口举旗示意，我们将允许车队安全通过。这是文明对野蛮的最后施舍。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "不同对手（普军正规军、游击队内部叛徒、法军清洗势力）代表不同资源与压力类型，迫使主角采用不同策略（如伪装、欺骗、暴力）。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "坦普（一把抓起勋章，指尖触碰到那些尚未完全干透的血迹，手指微微颤抖）：这不可能……V团的上尉？那是被秘密处决的名单上的人！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "阻力来源多样且层级清晰：普军（外部军事压力）、坦普/游击队内部（信任危机与政治清洗）、黑市/法军残部（生存资源与道德困境）。不同对手迫使主角采取不同策略（如对抗普军靠战术，对抗坦普靠证据与牺牲，对抗法军靠情报与伪装）。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-2",
+            "quote": "坦普（一把抓起勋章，指尖触碰到那些尚未完全干透的血迹，手指微微颤抖）：这不可能……V团的上尉？那是被秘密处决的名单上的人！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量。例如第8集教堂地下室发现内奸线索，直接导致第9集北山小队覆灭，进而引发第10集拉尔夫的崩溃与觉醒。场景间因果紧密，删除任一环节都会破坏结构。",
+          "evidence": {
+            "episode": "第8集",
+            "scene": "8-3",
+            "quote": "珀西（声音冷得像冰）：如果我们按照‘分散’的指令行动，正好落入普军的包围圈。马塞尔的死，乙的伤，丙的死……都不是因为战术失误。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果，如从营地被驱逐到独立行动，再到最终决战，层层递进。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-1",
+            "quote": "坦普：从这一刻起，你们不再是游击队，也不是法国人。出了这片林子，你们是死人，或者英雄。别指望回头。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "场景之间因果紧密，每一步都压缩了人物的选择空间或扩大了后果。例如从教堂地下室发现内奸，到被游击队驱逐，再到被迫独立行动，场景转换直接推动了人物关系的破裂和主角立场的孤立。",
+          "evidence": {
+            "episode": "第18集",
+            "scene": "18-2",
+            "quote": "游击队负责人：驱赶他们。如果他们踏入雷区，格杀勿论。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过母亲锁门、铁丝网逃亡迅速建立“生存”主题和兄弟关系，第2集引入游击队任务，核心矛盾（身份与生存）清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "母亲：（逼近一步，声音压低却如冰锥）在这里，你们英国血统的标签比子弹更致命。想活命，就把自己变成老鼠。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "高效建立人物（拉尔夫的傲慢、珀西的冷静）、情境（战争背景）和核心问题（生存与身份），叙事方向清晰。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "母亲：（逼近一步，声音压低却如冰锥）在这里，你们英国血统的标签比子弹更致命。想活命，就把自己变成老鼠。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "开篇迅速建立人物（拉尔夫的傲慢、珀西的谨慎）、情境（战争逃亡）和核心问题（生存与身份认同），信息组织流畅，通过铁丝网逃亡和营地受辱高效建立了戏剧张力。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-2",
+            "quote": "拉尔夫：（拔出贴身携带的折叠小刀，手抖得厉害）剪开它，我们钻过去。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进（如第13集黑市交易、第25集通讯中心潜入），后段完成充分升级与收束（第44集蒂姆牺牲、第59集最终决战）。节奏张弛有序，低谷（如第10集崩溃）服务蓄力。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-2",
+            "quote": "拉尔夫转过头，看向珀西。眼中已无泪水，只有一片死寂的寒潭。拉尔夫（声音沙哑破碎，却异常清晰）：……走。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标（获取情报、救人、复仇）和小高潮（沼泽火攻、修道院防守）推进，后段完成充分升级与收束。",
+          "evidence": {
+            "episode": "第33集",
+            "scene": "33-3",
+            "quote": "拉尔夫站在祭坛前的高台上，背对着深渊般的暗道。他戴上钢盔，拉动步枪枪栓，清脆的金属声在寂静的大殿中回荡。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "中段通过内奸揭露、游击队驱逐、普军清洗等事件持续升级冲突，后段通过修道院保卫战、鹰嘴崖决战完成充分升级与收束。节奏张弛有度，低谷（如拉尔夫崩溃）服务于蓄力。",
+          "evidence": {
+            "episode": "第34集",
+            "scene": "34-1",
+            "quote": "老游击队员马塞尔张开双臂，死死挡在拉尔夫身前。密集的子弹瞬间击穿他的胸膛，鲜血如雾喷洒在拉尔夫脸上。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫。从初期的惊恐、中期的愤怒与绝望、后期的冰冷与复仇，情绪曲线与人物弧光高度契合。高潮（第42集平民屠杀）兑现了主要情绪承诺（理想破灭）。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-2",
+            "quote": "珀西（低声，声音沙哑如砂纸摩擦）：理想死了，拉尔夫。现在，只剩下我们。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷（如马塞尔之死、蒂姆之死、最终胜利）有铺垫，高潮兑现了主要情绪承诺（复仇与解脱）。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-2",
+            "quote": "拉尔夫（疯狂挣扎，拳头如雨点般砸向珀西的手臂和肩膀）：放开我！他还在里面！我能听见……！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "情绪走向清晰，从初期的紧张恐惧，到中期的愤怒绝望，再到后期的冷酷决绝，关键峰谷（如马塞尔之死、蒂姆之死）有充分铺垫，高潮兑现了主要情绪承诺。",
+          "evidence": {
+            "episode": "第44集",
+            "scene": "44-2",
+            "quote": "拉尔夫（疯狂挣扎，拳头如雨点般砸向珀西的手臂和肩膀）：放开我！他还在里面！我能听见……！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化。既有生存悬念（能否逃脱），又有情感悬念（兄弟关系变化），还有信息悬念（内奸是谁、母亲的态度）。期待链持续递进，并在合理时点有效兑现。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "拉尔夫的手微微颤抖，随即强行稳住。他抬起头，眼中的最后一丝光亮熄灭，化为彻底的死寂。拉尔夫：（低声，自嘲）原来……我一直是被遗弃的筹码。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化（悬念、危机、情感），并在合理时点有效兑现，如叛徒身份的揭露、最终决战的胜利。",
+          "evidence": {
+            "episode": "第8集",
+            "scene": "8-3",
+            "quote": "珀西（声音冷得像冰）：如果我们按照‘分散’的指令行动，正好落入普军的包围圈。马塞尔的死，乙的伤，丙的死……都不是因为战术失误。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "后续期待分布稳定，类型有变化（生存、复仇、真相、救赎），并在合理时点有效兑现。例如内奸身份的揭露、坦普的死亡、普军清洗名单的获取等，均形成了有效的叙事动力。",
+          "evidence": {
+            "episode": "第8集",
+            "scene": "8-3",
+            "quote": "珀西（声音冷得像冰）：如果我们按照‘分散’的指令行动，正好落入普军的包围圈。马塞尔的死，乙的伤，丙的死……都不是因为战术失误。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度。前期逃亡节奏快，中期潜伏与调查节奏稍缓以积累张力，后期决战节奏紧凑。信息密度与戏剧阶段高度匹配。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-1",
+            "quote": "蒂姆·多伊尔趴在控制台下方，满头大汗。他的手指颤抖着，将一枚改装过的铜质干扰器压在墙壁粗糙的水泥面上。指示灯微弱地从红转为绿。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（如修道院防守、最终决战）能够有意识地增减密度，信息释放与剧情高潮绑定。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-1",
+            "quote": "坦普（从柜子深处抽出一本厚重的黑色皮革日志和一枚铜制密码盘）：游击队与英国情报处早年的联络中枢。既然你们带来了这个……"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段（如修道院保卫战、鹰嘴崖决战）有意识地增加密度，铺垫阶段（如教堂地下室）适当放缓以积累情绪。信息释放与戏剧阶段匹配。",
+          "evidence": {
+            "episode": "第21集",
+            "scene": "21-1",
+            "quote": "坦普（从柜子深处抽出一本厚重的黑色皮革日志和一枚铜制密码盘）：游击队与英国情报处早年的联络中枢。既然你们带来了这个……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量。即使是过渡集（如第17集疗伤），也通过发现勋章和地图推进了主线秘密。必要铺垫和过渡服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-2",
+            "quote": "珀西（喃喃自语）：正规军上尉……V……"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，几乎没有无功能段落。",
+          "evidence": {
+            "episode": "第28集",
+            "scene": "28-1",
+            "quote": "珀西：（冷静地按住拉尔夫的手腕，力道不大，却不容挣脱）那是个十二岁的男孩，拉尔夫。每天傍晚路过，被普军拿着鞭子赶着送口信。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。例如第10集拉尔夫的崩溃与珀西的安抚，为后续拉尔夫的冷酷转变提供了心理基础，并非注水。",
+          "evidence": {
+            "episode": "第10集",
+            "scene": "10-1",
+            "quote": "拉尔夫（颤抖，声音嘶哑）：我杀了他们……是我……是我命令冲锋的……"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线（如蒂姆的过去、修女的牺牲、法军内部清洗）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。例如修女的牺牲直接促成了拉尔夫最终的黑化与决绝。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-1",
+            "quote": "修女转身面向涌入的特勤队。她张开双臂，展开破碎的长袍，如同拥抱死亡。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "副线（如蒂姆的牺牲、修女的死亡）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线，如蒂姆留下的地图成为最终胜利的关键。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-1",
+            "quote": "珀西（冷淡）：这是他的计划。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "副线（如蒂姆的间谍身份、艾琳修女的牺牲）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。蒂姆的死亡直接推动了拉尔夫的最终黑化，艾琳的牺牲提供了关键情报。",
+          "evidence": {
+            "episode": "第45集",
+            "scene": "45-1",
+            "quote": "珀西（冷淡）：这是他的计划。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面。从生存到复仇，再到揭露真相，阶段看点有效兑现。每次兑现都改变局面并产生超出表层答案的新意义（如母亲信件的揭露）。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "拉尔夫松开珀西的手，走向公文包。他在泥水中摸索，手指触碰到一封泛黄的信封。上面是母亲熟悉的、工整却冷漠的笔迹。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现，如从生存到复仇再到最终胜利。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-1",
+            "quote": "拉尔夫：（爬起，抹去嘴角血迹，对着山谷怒吼）退后！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从生存到复仇再到救赎，主线悬念与阶段目标严密递进，每次兑现都改变局面并产生超出表层答案的新意义。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "拉尔夫：（低声，自嘲）原来……我一直是被遗弃的筹码。"
+          }
+        }
+      ]
+    }
+  ]
+}

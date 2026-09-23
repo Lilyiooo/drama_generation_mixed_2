@@ -1,0 +1,372 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R02",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角霍拉肖与克里斯蒂的人物弧光完整，从仇恨驱动到宽恕与重建的转变有充分的事件支撑（如霍默之死、遗书发现、战后重建）。配角珀西的“叛徒之子”身份与成长线极具张力，反派霍默的动机（保护名单/政治投机）与悲剧性结局处理得当。人物关系（父子、兄弟、敌对双方）的演进逻辑严密，情感绑定通过具体行动（如珀西的越狱协助、霍拉肖的牺牲）得到强化。主要问题在于部分配角（如艾琳、马尔科姆）在后期功能化倾向明显，以及部分台词在战后阶段略显说教。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如越狱、海上逃亡、战后重建）通过新变量（如珀西的加入、霍默的死亡、身份转换）形成有效变奏，避免了简单重复。",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-2",
+        "quote": "克里斯蒂点燃引信，迅速转身，将燃烧的鞭炮用力掷向下方那堆充满易燃物的死角。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "对手体系清晰：皮尔森（体制暴力）、霍默（家族背叛/政治投机）、维克托（利益交换）、联邦清算官（战后官僚）。不同对手迫使主角采取不同策略（暴力、智取、妥协、重建）。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "灰隼：坐吧，帕斯福德船长。或者我该叫你，叛徒的哥哥？"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从监狱对峙到越狱，再到海上逃亡，最后到战后和解，每一步都压缩人物选择或扩大后果。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "霍拉肖：（极轻，近乎呢喃）安息吧，霍默。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过怀表秘密和家族背叛迅速建立霍拉肖的动机和危机感。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "霍拉肖：我的儿子在编号409监狱，女儿在橡树庄园。我没有什么可失去的了，马尔科姆。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从越狱到营救艾琳，再到战后重建，节奏张弛有序。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "霍拉肖：（声音嘶哑，不容置疑）别管他！走！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。仇恨到宽恕的情绪转变有充分铺垫，高潮（霍默之死）带来强烈情感冲击。",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "霍拉肖的瞳孔震颤，呼吸变得粗重而艰难。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。如珀西的立场转变、霍默的动机揭示、战后身份重建等。",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "珀西：我选你。我帮你越狱，我帮你搞定守卫，我帮你拿到钥匙。只求你带我走，离开我的父亲，离开这该死的地方。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。战争阶段密集，战后阶段舒缓，符合叙事逻辑。",
+      "evidence": {
+        "episode": "第40集",
+        "scene": "40-1",
+        "quote": "霍拉肖：你父亲是个军官，而你曾祖父是个水手。但在查尔斯顿造船厂，他们不关心你的曾祖父是谁，也不关心你父亲是死是活。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水段落。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-2",
+        "quote": "克里斯蒂：杀人是容易的，活着并原谅，才需要力气。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。如珀西的造船线、克里斯蒂的人道主义救援线均与主线主题（宽恕与重建）紧密相连。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "珀西：每个人都可以在关键时刻成为英雄，只要不害怕伸出双手。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从救子到救女，再到家族和解与战后重建，主线清晰且不断升级。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "霍拉肖VO：仇恨是锁，宽恕是钥匙。而现在……"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R02-E001",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "霍拉肖的人物弧光完整，从仇恨驱动到宽恕与重建的转变有充分的事件支撑。",
+      "reason": "起点缺陷（仇恨霍默）、关键转折（发现霍默遗书、霍默之死）、终点变化（战后重建、宽恕）均有证据。每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "霍拉肖：（极轻，近乎呢喃）安息吧，霍默。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "霍拉肖：我的儿子在编号409监狱，女儿在橡树庄园。我没有什么可失去的了，马尔科姆。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E002",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "霍拉肖的内在矛盾（仇恨与亲情）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "reason": "有明确内在矛盾及实质剧情展现，至少存在一处有效两难、脆弱呈现或犯错承担后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-2",
+        "quote": "霍拉肖的瞳孔震颤，呼吸变得粗重而艰难。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E003",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "珀西的角色功能明确，从敌对到盟友的转变推动主线，其“叛徒之子”身份与成长线极具张力。",
+      "reason": "主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-2",
+        "quote": "珀西：我选你。我帮你越狱，我帮你搞定守卫，我帮你拿到钥匙。只求你带我走，离开我的父亲，离开这该死的地方。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E004",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "霍拉肖与霍默的兄弟关系同时存在身份立场、目标利益、情感依赖、秘密误会和价值冲突等多类张力，移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-1",
+        "quote": "霍默：看看你现在的样子。像个被追捕的老鼠，缩在阴影里。而你曾经是这个家族的王。父亲的眼睛，从来都只看着我。是你窃取了属于我的荣耀，霍拉肖。你带着你的北方佬旗帜，偷走了帕斯福德的名字。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E005",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "霍拉肖与克里斯蒂的父子关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-2",
+        "quote": "霍拉肖：（厉声）哭够了吗？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E006",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "reason": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "霍拉肖嘴唇微动，无声地念诵着家族世代相传的暗语口诀：“铁砧之下……鹰折翼……”",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E007",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "目标、核心阻力、风险代价和首次局面变化高度清楚，多条后续期待相互咬合并持续驱动叙事。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "霍拉肖：我的儿子在编号409监狱，女儿在橡树庄园。我没有什么可失去的了，马尔科姆。除了这条命，和这笔钱所代表的最后机会。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E008",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "关键边界持续由人物选择、局面变化或高价值信息自然产生期待；承接及时，兑现带来新的因果、关系和情绪增量，形成稳定递进。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第8集",
+        "scene": "8-1",
+        "quote": "珀西：（声音沙哑，带着不易察觉的颤抖）睡觉。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E009",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分台词在战后阶段略显说教，存在非情境化说明性表达。",
+      "reason": "局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "霍拉肖VO：仇恨是锁，宽恕是钥匙。而现在……",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E010",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如霍拉肖在墓前祭奠、战后重建等场景。",
+      "reason": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "霍拉肖：（声音极低，沙哑而平静，近乎耳语）我曾以为恨你是为了守护，后来才明白，只有原谅你，我才能真正活下去。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E011",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "设定分阶段释放，每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定，信息量始终可吸收。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "灰隼：你有一件事可以做。绕过主防线，有一条废弃的地下排水系统直通主监狱下方。那是皮尔森防御网的盲区，也是他们不敢久留的死角。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

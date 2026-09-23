@@ -1,0 +1,206 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体逻辑存在严重断裂，主要问题集中在：1. 核心资产（保单/存单）前后矛盾，导致破产逻辑不成立；2. 关键剧情（哈里被绑架、码头冲突）存在明显的重复与时间线悖论；3. 角色认知状态混乱（如弗洛拉对乔少校底牌的掌握缺乏合理来源）；4. 伏笔（袖扣、信件）回收生硬且缺乏铺垫。尽管部分情感转折有铺垫，但硬逻辑错误严重影响了主线可信度。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "核心资产“保单/存单”前后矛盾，导致破产逻辑崩塌。",
+      "reason": "第2-3集明确是“五十英镑保单”，第9集突然变成“一万英镑定期存单”并抵押，第11集银行称“保单存单”无效。金额从50变1万，性质从保单变存单，且第11集称资产冻结，但第19集弗洛拉又拿出“古董烛台”去换钱，逻辑混乱。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-2",
+        "quote": "这是露丝藏了一辈子的定期存单。一万英镑现值。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-1",
+        "contrast_quote": "生命险保单……受益人是黑兹利……金额……五十英镑"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "第25集与第26集内容高度重复，且第26集内部逻辑自相矛盾。",
+      "reason": "第25集25-3与第26集26-1几乎完全重复（对话、动作、道具一致）。更严重的是，第26集26-1中乔少校说“我不记得今晚有访客”，但26-3中他又说“你的脸色很难看……档案室的风很大？”，暗示他已知晓弗洛拉去过档案室，但26-1中他似乎不知情或刚见面，时间线和认知状态混乱。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第26集",
+        "scene": "26-1",
+        "quote": "我不记得今晚有访客。这扇门不是留给乞讨者的，弗洛拉。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-3",
+        "contrast_quote": "我不记得我今晚有访客。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "哈里被绑架与解救的时间线存在悖论。",
+      "reason": "第32-33集弗洛拉得知哈里被带到码头，第34集弗洛拉和乔少校去码头救哈里，哈里被铁链锁住。但第35集开头，乔少校背着昏迷的哈里回家，说“他肋骨断了三根”。然而在第39集集会中，哈里又出现在广场，并声称自己“计划抢劫”，且身上有“码头的血”。第34集码头冲突中哈里是受害者，第39集他却成了主动自爆的“罪犯”，且第34集后他应重伤昏迷，第39集却精神亢奋地演讲，状态断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "他肋骨断了三根，脾脏可能有出血。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "哈里（推开乔，声音嘶哑却异常清晰）：你们争的这些东西，都是基于我撒谎！"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "弗洛拉对乔少校和莎拉底牌的掌握缺乏合理来源。",
+      "reason": "第25集弗洛拉突然知道“莎拉还藏了一批违禁的禁忌书籍，是乔先生年轻时与所谓‘学者’的私交记录”，并以此威胁乔。前文仅提到袖扣和信件，未交代她如何得知“违禁书籍”和“学者私交”这一具体且致命的秘密。第39集她又拿出“透明微缩胶卷”，声称是“从档案室中获得的真正底牌”，但第26集她只拿了“几封密封的信函”，未提及胶卷，来源不明。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-3",
+        "quote": "莎拉还藏了一批违禁的禁忌书籍，是乔先生年轻时与所谓“学者”的私交记录吧。",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-2",
+        "contrast_quote": "弗洛拉（抽出抽屉，取出几封密封的信函）：这就是乔少校的“污秽”？"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "露丝的精神状态在“清醒”与“疯癫”之间切换缺乏医学或剧情支撑，且第28集“短暂清醒”后迅速回归疯癫，逻辑牵强。",
+      "reason": "第28集露丝突然清醒认出弗洛拉，但看到哈里就尖叫“怪物”，随后又陷入疯癫。第35集露丝在哈里受伤时突然爆发情感，第44集又突然能平静地触摸木勺。这种状态切换过于随意，缺乏明确的触发机制或治疗过程，更像是为了剧情需要而强行安排。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "露丝（瞳孔瞬间剧烈收缩，原本清明的理智如冰雪消融般崩塌，表情从错愕瞬间扭曲为极度的惊骇，发出一声凄厉的尖叫）：怪物！那是谁！",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "露丝（低语）：这里有沟壑……很深……像大地的皱纹……"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "莎拉与乔少校的“风流账簿”及“革命者私通”真相缺乏铺垫。",
+      "reason": "第27集乔少校公开信纸，揭露莎拉“年轻时的风流账簿”和“与革命者私通”。前文仅提到袖扣和信件，未交代这些信件的具体内容或莎拉与乔的过往关系。这一反转直接改变了主线（莎拉被驱逐），但缺乏足够的铺垫，显得突兀。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-1",
+        "quote": "那不是你年轻时的风流账簿吗？当年那个在泥泞中求欢的贵族小姐，如今变成了满口道德的审判者？",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "这不是市井的造作。这种花纹……我在乔少校的书房里见过类似的纹路。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E007",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "哈里在集会上的“自爆”行为缺乏充分动机和铺垫。",
+      "reason": "第39集哈里突然在集会上自爆“计划抢劫”，以保护弗洛拉。前文哈里虽有PTSD和愤怒，但并未表现出“愿意牺牲自己”的动机。这一行为直接导致莎拉被驱逐，是主线关键转折，但哈里的动机（保护妹妹）缺乏情感积累和决策过程，显得突兀。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "哈里（猛地将那份被弗洛拉藏起的“抢劫计划草图”抛向半空，任由其随风飘散）：没有社区长老的腐败，只有我的贪婪与懦弱。是我计划抢劫，是我想靠非法的手段洗白我们的名字！",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-1",
+        "contrast_quote": "哈里（咬牙，将匕首狠狠插进门框的木缝中）：父亲是个懦夫！我不会像他一样把脖子伸出去等绞索！"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E008",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "“袖扣”作为关键道具，其归属和用途前后不一致。",
+      "reason": "第15集弗洛拉从露丝箱子里发现袖扣，认为是“乔的圈子”的。第25集弗洛拉用袖扣威胁乔。第37集弗洛拉又拿出袖扣威胁乔。但第44集乔少校送“标本盒”时，并未提及袖扣的归还或处理。袖扣作为关键证据，其最终去向不明，且多次被用于威胁，缺乏合理的道具流转逻辑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第37集",
+        "scene": "37-1",
+        "quote": "弗洛拉（从怀中掏出那枚泛黄的袖扣，狠狠捏紧，青筋暴起）：那你更该看看这个。这是你“旧友”留下的最后念想。",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-1",
+        "contrast_quote": "弗洛拉（拿起袖扣，指腹轻轻摩挲着上面雕刻的繁复纹路，那是一个陌生的徽记，却透着某种熟悉的冷硬感。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E009",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "弗洛拉在封锁期间多次出入乔少校庄园，缺乏合理解释。",
+      "reason": "第21集黑兹利家被“紧急卫生封锁”，切断所有外来援助。但第25集弗洛拉仍能潜入乔少校庄园，第26集、第36集、第37集多次出入。封锁令的效力和乔少校的权限边界不清，导致空间位移不合理。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "紧急卫生封锁。切断所有外来援助。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-2",
+        "contrast_quote": "弗洛拉（避开巡逻守卫的视线，攀上墙头）：这里只有乔少校能对抗那个女人。"
+      }
+    }
+  ]
+}

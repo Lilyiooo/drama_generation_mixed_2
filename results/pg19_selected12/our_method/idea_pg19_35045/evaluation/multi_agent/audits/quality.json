@@ -1,0 +1,269 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角弗洛拉的人物弧光完整且深刻，从“强迫性控制/清洁”到“接纳不完美/共生”的转变由强驱动事件逼出，并产生不可逆后果。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "她缓缓直起身，转身走回厨房，将水盆轻轻放在远离门口的阴影角落里。",
+        "contrast_episode": "第12集",
+        "contrast_scene": "12-1",
+        "contrast_quote": "她开始擦拭桌面。第一下，带走大部分积水。第二下，擦去残留的水痕。第三下，抛光，直到木纹重新显露，光亮如新。"
+      },
+      "reason": "三位评审均指出主角弧光显著高于常规水平。证据链完整：起点（第1-2集机械清洁掩盖创伤）、转折1（第30集因邻居审视和哈里破坏，主动选择切割哈里，导致关系断裂）、转折2（第42集泼水后哈里指责其像莎拉，信念崩塌）、终点（第43集不再擦拭污渍，第56集撕毁邀请函，第60建立互助中心）。每次变化均有事件驱动、主动选择和不可逆后果，符合S级亮点锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角弗洛拉的内在矛盾（生存本能 vs 道德底线、控制欲 vs 爱）在多个关键节点通过两难、脆弱暴露和犯错承担后果被充分戏剧化。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "哈里：（伸手指着地上的露丝，又指向弗洛拉）泼水。羞辱。用冰冷的理性去浇灭活人的痛苦。你以为你在救她？不，你只是不喜欢她吵闹。",
+        "contrast_episode": "第6集",
+        "contrast_scene": "6-1",
+        "contrast_quote": "弗洛拉：我会只汇报……对他的人身安全构成威胁的行为。这是我的底线。"
+      },
+      "reason": "三位评审均确认主角深度显著。内在矛盾贯穿全剧：第6集接受监视条件（生存vs尊严两难）；第30集切割哈里（犯错及后果：哈里失踪、自我怀疑）；第42集泼水安抚露丝后被哈里指责（脆弱暴露、认知崩塌）；第56集撕毁邀请函（价值选择）。冲突欲望、恐惧和价值选择共同提高人物真实感，符合S级亮点锚点。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E003"
+      ],
+      "status": "rejected",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角弗洛拉具有鲜明的专属性格、语言习惯和行为模式，辨识度极高。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "弗洛拉：我不是来迷路的。我是来清理杂草的。",
+        "contrast_episode": "第7集",
+        "contrast_scene": "7-1",
+        "contrast_quote": "哈里（低声自语，眼神阴鸷）：修剪工具……你就这么想把自己变成乔家的盆景吗？"
+      },
+      "reason": "该条目将“人物辨识度”作为亮点项。根据标准，“人物辨识度”仅存在于“问题”分类中（S/A/B级均为扣分项），不存在“亮点：人物辨识度”这一检查项。虽然主角确实具有鲜明辨识度，但这属于基线成立或隐含在弧光/深度中，不能单独作为亮点加分。基线误报亮点，故拒绝。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E003",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角哈里和露丝功能明确，各有不可替代的专属功能，与主角形成有效协作或对冲。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "哈里：看见了吗？被修复过的地方，是整件家具最结实的地方。因为它记住了裂痕，所以它不会再断。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-2",
+        "contrast_quote": "弗洛拉：真正的洁净，不是让人看见白色的地板，而是让人睡得安稳。"
+      },
+      "reason": "三位评审均指出配角功能性强。哈里承担“破坏/修复”双重功能，推动主角极端化及社区重建；露丝承担“创伤/感官”功能，推动主角清洁行为及互助范例。反派与主角形成镜像对照。角色层级清晰，功能明确，符合A级亮点锚点（主角配置清晰，重要角色功能明确并推动主线）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E005"
+      ],
+      "status": "needs_arbitration",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（弗洛拉-哈里、弗洛拉-露丝）同时存在至少三类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "她猛地转身，一把抓住哈里的衣领。那不是拥抱，也不是责打，而是像清理一件沾满污垢的垃圾。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-2",
+        "contrast_quote": "哈里：你和那个老巫婆莎拉·马丁有什么区别？！你们一个用戒尺，一个用水盆！"
+      },
+      "reason": "R01和R03评为S级，认为存在身份立场、目标利益、情感依赖、价值冲突等多重张力，且移除关系会导致主线坍塌。R02评为A级，认为存在两类明确张力。争议点在于是否达到S级“至少三类相互咬合”且“移除即坍塌”的标准。虽然张力来源丰富，但“移除即坍塌”可能略显夸张，因为主线核心是主角自我救赎，关系是载体。需仲裁确认是S级（显著高于常规，多源咬合）还是A级（稳定支撑）。",
+      "arbitration_question": "核心关系的张力来源是否达到S级标准的“至少三类相互咬合”且“移除该关系会使主线情感逻辑明显坍塌”？还是仅满足A级标准的“至少两类明确张力来源，能够稳定支撑主线”？"
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E006"
+      ],
+      "status": "needs_arbitration",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-2",
+        "quote": "弗洛拉（哽咽，却坚定）：我带你回家。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-2",
+        "contrast_quote": "弗洛拉：下次动手前，问问她想活在什么样的空气里。互助组不是来改造家的，是来安放人的。"
+      },
+      "reason": "R01和R03评为S级，认为关系推进构成连续叙事动力，有清晰起终点和多个里程碑。R02评为A级，认为有清晰起点、至少一个关键里程碑和阶段变化。争议点在于关系推进是否“本身构成连续叙事动力”（S级）还是“增强主线情感投入”（A级）。鉴于剧本中关系变化（切割、救援、和解）确实是推动剧情和主角成长的核心动力，倾向于S级，但需仲裁确认其独立驱动力是否足够强。",
+      "arbitration_question": "核心关系的推进是否达到S级标准的“关系推进本身构成连续叙事动力”？还是仅满足A级标准的“能够增强主线情感投入”？"
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "个别场景存在主题升华腔，台词直接点明主题，削弱了戏剧张力。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "弗洛拉：看，光就在尘埃里。只要我们愿意擦拭。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "哈里：看见了吗？被修复过的地方，是整件家具最结实的地方。因为它记住了裂痕，所以它不会再断。"
+      },
+      "reason": "R01指出第50集和第52集存在主题升华腔。虽然台词贴合人物，但过于工整抽象，带有书面警句感。主体对话仍与人物目标相关，未造成大范围失效，符合B级问题锚点（局部出现说明性、概括性或非口语化表达）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R02-E007",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分次要配角（如玛莎、邻居）功能单一，主要围绕帮助或衬托主角运转，个人目标或mini弧光不足。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "玛莎：（大声）快！趁太阳好，把这些旧的、脏的都刷掉！只要擦得够白，就没人记得这里发生过什么！",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-1",
+        "contrast_quote": "玛莎（咬牙）：这木头像石头一样硬！它根本不听使唤。"
+      },
+      "reason": "三位评审均指出玛莎、邻居等次要配角功能单一，主要作为“被帮助者”或“见证者”，缺乏独立个人目标和情感深度，可替换性较高。但核心配角功能明确，整体配置基本可读，符合B级问题锚点（角色能局部推动剧情，但主要围绕帮助、伤害主角或解释信息运转，个人目标、mini 弧光或独立情感价值不足）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "总结性陈述",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分场景（如第50集）存在总结性陈述替代可见行为与互动的问题，影响画面表现力。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "她知道，家不再是逃避世界的堡垒，而是连接世界的桥梁。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02指出第50集结尾使用“象征着新生与希望”、“家不再是逃避世界的堡垒”等总结性陈述，而非通过具体动作呈现。这属于视觉化质量中的“总结性陈述”问题，局部影响画面表达，符合B级问题锚点（少量总结性陈述需要改为动作或台词呈现）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E008"
+      ],
+      "status": "rejected",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主角弗洛拉在中后段（第51-52集）的“互助组”情节中，部分行为（如指导玛莎锯木）略显刻意，弧光推进的内在驱动力稍弱。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "弗洛拉（轻声）：木头没长好，是因为手在抖。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-2",
+        "contrast_quote": "弗洛拉拿起一把宽刃的平口凿……轻轻放在哈里手边触手可及的地方。动作缓慢，无声，确保不带着任何命令的意味。"
+      },
+      "reason": "R03认为第52集指导玛莎锯木的情节略显功能化，弧光推进内在驱动力稍弱。然而，结合前文（第42集信念崩塌、第43集接纳不完美），弗洛拉指导玛莎“顺着力道走”、“不要试图改变它的形状”正是其内在信念转变（从控制到接纳/共生）的具体外化，并非单纯服务于社区愈合主题。该行为与人物弧光紧密相关，证据不足以支持“弧光不足”的B级问题判定，属于主观感受偏差，故拒绝。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 22,
+  "covered_count": 22
+}

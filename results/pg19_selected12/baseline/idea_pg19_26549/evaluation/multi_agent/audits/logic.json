@@ -1,0 +1,270 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "日记残页在第35集被保安强行没收并扔在桌角，但在第38集托伊内特又从口袋中掏出该残页，且后续多次使用，物理归属逻辑断裂。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "保安强行抢过了残页...斯通夫人（一把夺过残页，冷冷地审视了一番，随手扔在桌角）",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-2",
+        "contrast_quote": "她从口袋里掏出那张被父亲审计过的日记残页，紧紧攥在手心。"
+      },
+      "reason": "合并R01、R02、R03关于日记残页归属的指控。R01证据最确凿，直接指出第35集被没收与第38集重新出现的矛盾。R02和R03混淆了第55集的“成绩单”与“日记残页”，但核心问题在于日记残页作为关键道具在被没收后无解释地重新回到主角手中，符合S级道具归属混乱定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "露丝的录音笔作为决定性证据突然出现，缺乏前置铺垫，属于未铺垫的新证据解决核心危机。",
+      "evidence": {
+        "episode": "第34集",
+        "scene": "34-2",
+        "quote": "托伊内特·里夫（将露丝的手机连上投影，点开一条音频文件）：这是她回家后录制的一段备忘录。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01、R02、R03关于录音笔的指控。R01将其归类为“危机解决作弊”（B级），符合标准中“核心危机依靠未铺垫的新证据...化解”的定义。R02和R03将其归类为“信息提前泄露”或“知识来源缺失”，但本质上是证据出现的突兀性。鉴于该证据直接扭转听证会局势，且前文无露丝录音或托伊内特知晓录音存在的铺垫，定为B级危机解决作弊更为准确。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R02-E005",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "托伊内特在火灾中逆行救人的行为与其核心人设（极度风险规避）冲突，虽有前期铺垫，但转变过程略显仓促。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "托伊内特逆着恐慌逃窜的人群，独自冲向起火最猛烈的配电箱区域。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "信任是风险最高的投资，而我，不做亏本买卖。"
+      },
+      "reason": "合并R01、R02、R03关于托伊内特性格突变的指控。R01定为A级，R02和R03定为B级。考虑到第39-40集有撕毁免责协议、第53集有“不再计算风险”的内心独白，以及普雷斯顿的多次点拨，人物弧光有基本支撑，但直接从“计算式自保”到“自杀式英雄主义”的跨度依然较大，属于“变化有依据，但情绪过渡和支撑场景偏弱”，故纠正为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E004",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第44集潜入行动中，溶剂挥发时间与实际等待时间存在逻辑冲突，且斯通夫人折返的时间点与预设窗口矛盾。",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "托伊内特OS：该死，概率模型又失效了吗？不，那是心理战。……托伊内特·里夫（内心怒吼）：绝对不能动，一滴溶剂挥发需要足足三分钟。",
+        "contrast_episode": "第44集",
+        "contrast_scene": "44-1",
+        "contrast_quote": "△ 警报灯闪烁了一下，随即熄灭，变成了代表开启常态的柔和绿灯。托伊内特·里夫（长出一口浊气）：第一阶段，完成。"
+      },
+      "reason": "合并R01、R02、R03关于时间线的指控。R01定为A级，R02和R03定为B级。剧本中确实存在“三分钟”与“十秒”的矛盾，但这属于局部时间细节不一致，且可通过“心理战”或“加速叙事”解释，不影响主线成立，故纠正为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005"
+      ],
+      "status": "confirmed",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第47集与第50集剧情高度重复，露丝与托伊内特关于“高分清单”的冲突场景几乎完全复演。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "露丝·戈登（推门而入，眼神戏谑）：还在写怎么撒谎吗，侦探小姐？...露丝·戈登（突然伸手，将托伊内特整理好的笔记扫落一地）",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "露丝·戈登（双手撑桌，眼神锐利）：还在写那些漂亮的谎话吗，里夫？...露丝·戈登（一把扫开旁边的草稿纸，纸页如雪花般散落）"
+      },
+      "reason": "R01指出第47集与第50集存在高度重复。对比原文，两集场景、台词、动作（扫落纸张）和冲突逻辑（关于父亲的高分清单和撒谎）几乎完全一致，缺乏新的情节推进或关系变化，符合A级事件重复定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006",
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "斯通夫人纵火并嫁祸托伊内特的动机不足，且手段过于极端，缺乏合理逻辑支撑。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "助手（嘴角扯出一丝怪笑）：临界值……那种数字只有你们这些旁观者才在乎。...她在证明‘自由’就是混乱，而混乱需要被驯服。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01和R03关于斯通夫人纵火动机的指控。斯通夫人作为“理性控制者”，在听证会前夕采取自杀式/同归于尽的纵火手段，与其人设不符，且前文未铺垫其对“无规则”的仇恨已升级到不惜犯罪的程度，导致反派行为降智，符合A级行动动机缺失定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007",
+        "logic-R02-E003",
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "托伊内特对斯通夫人“特殊墨水”配方的掌握及黑客入侵后勤系统的能力缺乏来源解释，超出其学生身份的能力边界。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-1",
+        "quote": "托伊内特·里夫（冷笑一声，手指在键盘上飞速敲击）：物理日志可以销毁，但数字痕迹无法被彻底抹去。...我在逆向推演。数据流不会骗人，只要找到那个唯一的配方，我们就能锁定她。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01、R02、R03关于托伊内特能力来源的指控。R01关注墨水配方，R02和R03关注黑客能力。两者均指出托伊内特作为学生，突然具备高级化学分析和网络渗透能力，前文无铺垫，符合A级知识来源缺失定义（本项最高问题等级为A）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "雷夫先生与斯通夫人的勾结关系揭示过于突然，缺乏前文铺垫。",
+      "evidence": {
+        "episode": "第51集",
+        "scene": "51-1",
+        "quote": "斯通夫人（指着屏幕）：谁制定规则？是你们的捐款人，而不是普雷斯顿那种天真的理想主义者。...托伊内特·里夫（声音颤抖）：他没有干预学术，他只是……他在施压。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01指出雷夫先生与斯通夫人的勾结关系揭示过于突然。前文雷夫先生主要作为“冷漠的父亲”出现，斯通夫人主要作为“严厉的老师”出现，两者之间的利益交换缺乏前文铺垫，直到第51集才通过邮件截图揭示，符合B级揭底无铺垫定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E009",
+        "logic-R02-E007",
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "托伊内特从“记录者”到“行动者”的转变逻辑基本成立，斯通夫人利用露丝和托伊内特的因果链设计较为严密。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "托伊内特·里夫（猛地睁开眼，从桌角抽出一把精致的剪刀）：我不需要计算了。...去他的风险阻断。去他的免责条款。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R01、R02、R03关于因果链设计的亮点。三位评审均认可托伊内特的人物弧光和斯通夫人的阴谋因果链有基本支撑，符合A级因果链设计质量定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "遗忘伏笔",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "“夜影者”组织的具体成员构成、运作机制及托伊内特加入后的具体行动细节在后期被淡化，未充分回收其作为“反抗组织”的伏笔。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "露丝·戈登（吹了一声口哨，转身靠在积满灰尘的墙上）：在这里，规则只有一条。效忠‘夜影者’。交出你的底牌，别问为什么。",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-2",
+        "contrast_quote": "托伊内特·里夫（深吸一口气，拿起笔在露丝的名字上狠狠划掉）：通知海伦，今晚的“夜影者”行动取消。……托伊内特·里夫（眼神逐渐变得锐利，透着一股决绝的冷意）：证据缺口不在露丝那里。斯通夫人的办公室，今晚十点会有她离开的时间空窗。"
+      },
+      "reason": "R02指出“夜影者”组织伏笔回收不充分。前文详细铺垫了组织的存在和规则，但后期托伊内特宣布“单枪匹马”行动，组织成员几乎消失，未对主线产生持续影响，符合B级遗忘伏笔定义。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 23,
+  "covered_count": 23
+}

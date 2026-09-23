@@ -1,0 +1,140 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了完整的悬疑惊悚闭环，核心因果链（发现尸体->追踪信号->揭露阴谋->最终决战）逻辑严密，角色状态与认知变化符合心理逻辑。主要逻辑瑕疵集中在资源状态（星形令牌/薄片的多重归属与物理属性矛盾）以及部分关键道具（如死者手指、录音笔）的来源与使用缺乏前置铺垫。此外，第35集存在明显的中英混杂文本错误，影响阅读体验但不构成核心逻辑断裂。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "星形令牌/薄片在剧情中同时作为“证据”、“钥匙”和“武器”存在，且在不同角色间流转时缺乏明确的物理转移过程，导致同一时间点多枚关键道具同时存在或归属不清。",
+      "reason": "第17集梅莉安将“银色星形令牌”交给伊莱亚斯；第28集伊莱亚斯又将“银色星形令牌”交给梅莉安；第37集伊莱亚斯再次从“贴身内胆袋”掏出“磨损严重的银色星形令牌”交给梅莉安。然而在第47集，伊莱亚斯使用的是“暗红色星形薄片”开锁，梅莉安使用的是“幽蓝色金属薄片”。虽然剧本试图区分“令牌”和“薄片”，但在第44集梅莉安捏碎的是“星形令牌”，而在第55集结尾出现的又是“暗红色星形薄片”。关键道具的形态（令牌vs薄片）、颜色（银vs红vs蓝）和归属在多次交接中缺乏清晰的视觉或文本锚点，造成资源状态混乱。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-2",
+        "quote": "梅莉安（将令牌强行塞进伊莱亚斯的手心，合上他的手指）：拿着它。",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-1",
+        "contrast_quote": "指尖触碰到一个冰冷、坚硬、边缘锐利的六角形金属片。记忆闪回，那是从首领手中夺回的星形薄片，他以为是装饰品，随手塞入。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伊莱亚斯在第21集使用冰湖死者的“干枯人皮手指”进行指纹验证，但该手指的获取、保存过程在前文（第2-3集）完全缺失。",
+      "reason": "第2-3集伊莱亚斯将尸体拖入酒窖并检查，但未提及保留手指。第21集突然从战术背心夹层取出“半截干枯、发黑的人皮手指——那是第2集冰湖死者的遗骸部分”，并用于破解军用级生物锁。这一关键道具的出现缺乏前置铺垫（如切割、保存、携带的动机和过程），属于典型的“天降证据”解决危机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "伊莱亚斯从战术背心最里层的夹层中，取出一块用无菌纱布包裹的东西。他剥开纱布，露出半截干枯、发黑的人皮手指——那是第2集冰湖死者的遗骸部分。",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-2",
+        "contrast_quote": "伊莱亚斯捡起令牌，指尖摩挲过星芒的边缘。他的眼神复杂，既有深藏的恐惧，也有复仇的杀意。随后，他将令牌塞进贴胸口袋，转身拉紧固定尸体的绳索。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第21集西拉斯使用“死者临死前的呻吟声”录音进行声纹验证，但该录音的获取来源未交代。",
+      "reason": "西拉斯从口袋掏出录音笔播放死者声音，但前文未提及西拉斯或伊莱亚斯在尸体旁进行过录音，也未说明录音笔何时获得。虽然可推断为伊莱亚斯检查尸体时录制，但缺乏明确文本支撑，属于轻微的资源来源缺失。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第21集",
+        "scene": "21-1",
+        "quote": "西拉斯迅速从口袋里掏出一支录音笔，插入音频接口。他按下播放键，扬声器里传出死者临死前浑浊、扭曲的呻吟声，夹杂着电流底噪。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "前置信息缺口",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第35集剧本文本出现中英混杂错误，影响叙事连贯性。",
+      "reason": "第35集结尾出现英文句子“梅莉安 Alone in the light of the dying fire...”，属于明显的文本生成或编辑错误，破坏了剧本的中文语境统一性，虽不影响核心逻辑理解，但属于质量瑕疵。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "梅莉安 Alone in the light of the dying fire, looking at the retreating figure of Elias, and then at the unconscious Silas. The trust they built is cracking.",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "伊莱亚斯从冷酷保护者到道德困境中的挣扎者，再到最终牺牲自我的转变，动机链条完整。",
+      "reason": "伊莱亚斯的性格变化并非突兀，而是由“萨拉之死”的真相揭露（第35集）和“梅莉安作为容器”的认知（第41集）层层推动。他在第22集选择制造混乱时的冷酷，与第52集用人肉堵毒气喷口的牺牲，形成了强烈的道德对比，且均有充分的情感积累和事件驱动，符合A级亮点标准。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "首领（VO）：梅莉安的母亲，萨拉。她死于意外？不。她死于你的一次“必要牺牲”。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "伊莱亚斯张开双臂，整个人猛地扑在喷口上，双手死死扣住断裂的金属边缘，身体紧贴滚烫的管道，用人肉作为唯一的缓冲垫。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "highlight",
+      "category": "时空逻辑设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "地下迷宫、通风井和机械室的空间调度清晰，角色位移合理。",
+      "reason": "剧本对地下空间（酒窖、矿井、深层机械室）的描写具有明确的方向感和距离感（如“150米”、“左侧检修通道”）。角色在毒气、黑暗中的移动路径（如梅莉安爬通风井、伊莱亚斯爬行）符合物理限制和角色状态，无明显空间位移矛盾。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-2",
+        "quote": "西拉斯：唯一的路是正前方150米的机械室。那里有通往上层的通风竖井，但门是双重锁。你必须在那里撑住。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "西拉斯将伊莱亚斯沉重的双腿架在肩上...前方的路被坍塌的混凝土块截断，只留下一道垂直向上的通风井"
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R03",
+  "rationale": "剧本整体构建了完整的因果闭环，米格尔的堕落与反抗、马克西米娜的决裂、胡莉亚的背叛均有清晰的事件驱动与情感铺垫。主要逻辑断裂集中在：1. 关键道具（强酸瓶）的获取与转移过程缺失，导致后续高潮动作缺乏物理支撑；2. 角色生命状态（米格尔死亡）与后续剧情（搬运遗体）存在硬性矛盾；3. 部分关键转折（如门多萨电击、萨瓦德拉的突然现身）缺乏前置铺垫或动机支撑。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R03-E001",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "马克西米娜留给米格尔的工业强酸瓶，其获取来源与转移过程缺失，导致米格尔在后续复仇行动中持有该道具缺乏合理依据。",
+      "reason": "第23集马克西米娜从暗格取出强酸瓶并离开，第36集她将其塞入米格尔掌心。但第36集米格尔进入公寓时，马克西米娜已在床上，且第34集胡莉亚已搬空公寓。强酸瓶如何从马克西米娜手中转移到米格尔贴身口袋，且未被胡莉亚或系统发现，缺乏明确交代。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "马克西米娜从枕头下摸出一个用厚布紧紧包裹的圆柱体……强行将玻璃瓶塞进他的掌心。",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-1",
+        "contrast_quote": "家具早已搬空，墙壁斑驳……床上空空如也，连床单都被卷走。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E002",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "米格尔在第55集已明确死亡（化为灰烬），但第53集却出现他搬运马克西米娜遗体的情节，时间线与生命状态存在严重矛盾。",
+      "reason": "第55集描述米格尔在火海中“身影完全吞没”、“化为灰烬”，第56集确认“目标确认死亡”。然而第53集（按集数顺序在前）却详细描写米格尔在医院搬运马克西米娜遗体并回到公寓。若按剧情时间线，米格尔死亡应在最后，但第53集的行为（搬运遗体）发生在第55集（自焚）之前，且第53集米格尔状态为“活着”，与第55集死亡结局不冲突，但第53集标题为“市中心医院大厅/杂物间”，而第52集米格尔已在医院走廊被枪击（“枪口火光骤亮，画面瞬间陷入漆黑”）。第53集米格尔如何从枪击中幸存并搬运遗体，缺乏解释。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "米格尔将马克西米娜打横抱起，转身走向门口。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "枪口火光骤亮，画面瞬间陷入漆黑。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E003",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "门多萨在第47集突然对米格尔使用高压电击器，缺乏前置动机铺垫，行为突兀。",
+      "reason": "门多萨此前在第2集因债务求助米格尔，第37集被系统删除。第47集米格尔求助门多萨时，门多萨直接掏枪电击。虽然可推断为自保，但门多萨作为“被删除者”持有高压电击器且能轻易使用，缺乏对其生存状态与武器来源的铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-1",
+        "quote": "他的右手迅速探入雨衣内侧，掏出了一把改装过的高压电击器。那黑洞洞的枪口，直指米格尔的心脏。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-2",
+        "contrast_quote": "老汤姆：他没了。从系统里，从记忆里，都没了。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E004",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "萨瓦德拉在第30集突然出现在医院外，并精准掌握米格尔的困境与阿尔法出版社情报，缺乏前置铺垫。",
+      "reason": "萨瓦德拉此前主要通过管家或全息通讯出现。第30集他直接通过旧式通讯器联系米格尔，并出示阿尔法出版社证据，显示其对米格尔行踪与心理的精准把控，但前文未交代其监控手段或情报来源。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "萨瓦德拉：我知道你在想什么。你觉得你在乞求施舍，不，米格尔，这是等价交换。",
+        "contrast_episode": "第29集",
+        "contrast_scene": "29-2",
+        "contrast_quote": "米格尔口袋里的旧式通讯器微弱地闪烁了一下幽蓝的光，那是黑市频道唯一的信号。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E005",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "马克西米娜的“尊严”主题与强酸瓶的伏笔回收完整，强化了角色动机与结局的悲剧性。",
+      "reason": "第23集马克西米娜熔毁戒指并留下强酸瓶，第36集将强酸瓶交给米格尔并写下“尊严”，第55集米格尔使用强酸瓶复仇，第56集官方通稿将事件定性为“精神失常”，形成主题闭环。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "米格尔低头看着手心。那两个稚拙却沉重的字：尊严。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "强酸瓶精准地砸在投影仪底部的金属接口上。"
+      }
+    },
+    {
+      "entry_id": "logic-R03-E006",
+      "dimension": "logic",
+      "reviewer_id": "R03",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "空间位移矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "米格尔在第54集从医院迅速抵达市中心广场钟楼，位移速度过快，缺乏合理交通方式交代。",
+      "reason": "第53集米格尔在医院搬运遗体并回到公寓，第54集他出现在市中心广场物流区并攀爬钟楼。从城市边缘公寓到市中心广场的距离，在深夜且系统混乱的情况下，缺乏明确的交通或移动时间交代。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "米格尔蜷缩在集装箱阴影中……他缓缓走出阴影，步伐僵硬。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-2",
+        "contrast_quote": "米格尔转身面向浴室门外漆黑的客厅，背影挺直如刀锋。"
+      }
+    }
+  ]
+}

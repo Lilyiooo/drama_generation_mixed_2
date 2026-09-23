@@ -1,0 +1,350 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上具有极高的完成度。主角沈小满与萧烈的人物弧光清晰，从利益交换到生死相托，情感递进自然且充满张力。配角群像（顾九、阿笙、大熊）功能明确，性格鲜明，形成了有效的团队合力。反派庞氏、赵无极、国师等虽部分动机略显脸谱化，但作为阻力源有效推动了剧情。主要问题在于部分情节（如地宫机关、毒发频率）存在套路化重复，以及个别场景（如第10集与第11集）存在明显的文本重复错误，影响了阅读体验。整体而言，人物质量处于较高水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 3,
+      "reason": "剧本中存在明显的桥段重复。例如，沈小满多次使用“泼妇骂街/撒泼打滚”来化解危机（第1集、第10集、第56集），虽然每次情境不同，但核心手段高度同质。此外，萧烈毒发-顾九施针-沈小满照顾的模式在多个集数中反复出现（第3、4、9、12、25、26集），虽推动了情感，但作为事件本身缺乏新意。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-1",
+        "quote": "沈小满（撕心裂肺）：非礼！有人非礼！赵家公子光天化日之下调戏良家妇女！"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "对手体系层级清晰。地痞（物理威胁）、庞氏（内部权力/道德威胁）、赵无极（政治/经济威胁）、国师（终极/神秘威胁）。每个对手迫使主角采取不同的策略：对地痞用舆论，对庞氏用证据和舆论，对赵无极用军械丑闻，对国师用智斗和武力。阻力升级感强。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "国师（从丹墀下方缓步走出，手持一只紫檀木盒，神色悲悯而虚伪）：陛下，臣有一物，关乎社稷存亡，不得不奏。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "场景之间因果紧密，每一步都压缩了主角的选择空间或扩大了后果。从青石镇到京城，从将军府到地宫，场景转换服务于主线推进。例如，第13-15集宗祠戏，从被拒到反击再到夺权，层层递进，逻辑严密。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "沈小满（微笑，眼神冰冷）：庞姐姐，签了吧。签了，我不追究你偷情的罪过，最多算作和离。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇迅速建立了人物（萧烈的落魄、沈小满的泼辣）、情境（中毒、欠债）和核心问题（进京复仇/生存）。第1-2集通过一场冲突快速展示了主角的能力和性格，节奏紧凑，吸引力强。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "萧烈：想要命，拿着战功来取。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段依靠阶段目标（夺权、查账、解毒）和小高潮（射礼、天牢假死）推进。后段地宫决战和结局收束有力。虽然中段部分集数（如第40-42集）节奏稍显拖沓，但整体张弛有度。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-1",
+        "quote": "庞义：吹。最大声。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，从压抑（落魄）到扬眉吐气（射礼）到绝望（天牢）到爆发（地宫）到释然（隐居）。关键峰谷有铺垫，高潮兑现了主要情绪承诺。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-3",
+        "quote": "萧烈抬起颤抖的手，握住沈小满那只布满灰尘与伤痕的手，缓缓贴在自己胸口。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "集末悬念设置有效，如第2集末的合作提议、第12集末的庞氏阻挠、第33集末的官兵搜查等。期待链持续递进，不同类型相互咬合。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "官兵OS：里面的人听着！奉旨搜捕钦犯！立刻开门！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "信息密度与戏剧阶段匹配。前期信息释放较快（身世、毒、宝藏），中期通过行动展示，后期集中爆发。疏密变化服务理解、蓄力、高潮和回收。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（压低声音，语速极快）：这不是普通的毒。你觉不觉得奇怪？萧烈父亲战死沙场，尸骨无存；萧烈身中剧毒却十年不死。这‘业火寒’，根本不是用来杀人的，是用来‘锁’人的。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但局部有可压缩的重复。例如，第10集和第11集的内容几乎完全重复，属于明显的注水或错误。此外，部分集数中萧烈毒发-治疗的循环略显冗长。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-1",
+        "quote": "混乱的中心，沈小满依旧哭诉不休，赵无极气得胸口剧烈起伏，左右张望寻找突破口。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（锦绣阁生意、沈小满身世）稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。锦绣阁的生意为复仇提供了资金和情报，沈小满的身世是最终高潮的关键。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-3",
+        "quote": "掌柜（激动得不知所措）：夫人，三日销量竟抵得上往年三月！这粗布……粗布竟真成了抢手货！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从复仇到夺权，从查案到决战，每次兑现都改变了局面。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "萧烈：去死！"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "沈小满的人物弧光完整，从利益交换到生死相托，内在信念和行为模式发生显著变化。",
+      "reason": "起点是精明的市井女子，为了钱和自由与萧烈合作。转折点是萧烈在天牢假死，她被迫直面自己的恐惧和依赖。终点是愿意为萧烈牺牲自己，甚至放弃宝藏，选择平凡生活。变化由强驱动事件（天牢危机、地宫决战）逼出主动选择，并产生不可逆后果（放弃宝藏、隐居）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "沈小满（声音沙哑却坚定）：那我们就一起，把那场局，掀了。",
+        "contrast_episode": "第3集",
+        "contrast_scene": "3-1",
+        "contrast_quote": "沈小满：正妻？行啊。但我有个规矩，进了将军府，银子归我管，仇人归我揍。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "萧烈的人物深度通过内在矛盾和两难选择得到充分展现。",
+      "reason": "萧烈在复仇与生存、尊严与屈辱、个人情感与家国大义之间不断挣扎。例如，在天牢中，他必须在假死和反抗之间做出选择；在地宫中，他必须在杀国师和救沈小满之间做出选择。这些两难选择戏剧化了他的内在矛盾，提高了人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-2",
+        "quote": "萧烈咬破舌尖，刺激神经。他强行逆转体内暴走的毒气，将其压缩于右拳。右拳皮肤瞬间变得焦黑，青筋如蛇般隆起。",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-1",
+        "contrast_quote": "顾九（急促）：气沉丹田，阻断气机！我要让你体温骤降，脉象断绝！"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角群像功能明确，各有不可替代的专属功能，分工形成有效协作。",
+      "reason": "顾九（医官/智囊）、阿笙（情报/潜入）、大熊（武力/护卫）三人各司其职，性格鲜明。顾九的冷静与沈小满的泼辣形成互补，阿笙的狡黠与萧烈的刚直形成对比，大熊的憨厚与凶狠形成反差。他们的存在不仅推动了剧情，也丰富了人物层次。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-2",
+        "quote": "沈小满：（点头）顾九是你的药引，阿笙是你的耳朵，大熊，是替你挡刀的墙。而我……（她指了指自己）我是那个指引人。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-2",
+        "contrast_quote": "阿笙眼神骤变，原本浑浊恐惧的目光瞬间变得锐利如刀。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "沈小满与萧烈的核心关系存在多类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "两人的关系同时存在身份立场（将军与泼妇）、目标利益（复仇与生存）、情感依赖（互相取暖）、秘密误会（身世与毒）和价值冲突（复仇与平凡）等多类张力。这些张力贯穿全剧，推动了主线发展，并构成了连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "沈小满反握住他的手，指尖微颤，却未退缩。她抬眼，直视萧烈深邃的眼眸：将军若倒，我沈小满满盘皆输。我们是拴在一根绳上的蚂蚱，不，是战友。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-2",
+        "contrast_quote": "萧烈（一字一顿）：我是萧烈，你是沈小满。不是兵器，不是钥匙，是夫妻。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "关系从利益合作（第3集）到生死相托（第26集、第39集）再到灵魂伴侣（第52集、第60集），有清晰的起终点。关键里程碑包括破庙拜堂（第12集）、天牢假死（第38-39集）、地宫决战（第50集）。每次关系推进都改变了主线局面，并产生了新的情感增量。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "沈小满（唇语）：等着我。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-2",
+        "contrast_quote": "萧烈（声音哽咽，带着前所未有的轻松）：活了……真好。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "reason": "第1-2集通过一场集市冲突，迅速建立了萧烈的落魄将军身份、沈小满的泼辣性格、中毒的异常情境和进京复仇的戏剧问题。信息组织流畅，人物行动鲜明，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "萧烈：我是看客。现在，我想谈谈合作。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "核心矛盾是萧烈如何复仇并生存，阻力来自庞氏、赵家、国师等，风险是死亡和失去自由。后续期待包括复仇成功、解毒、身世揭秘等，相互咬合并持续驱动叙事。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "沈小满：五天后，我会让血刀门连本带利，把命都吐出来。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E008",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "跨集承接断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第10集与第11集存在明显的文本重复，导致跨集承接断裂。",
+      "reason": "第10集10-1和10-2的内容与第11集11-1的内容几乎完全重复，包括沈小满的哭诉、阿笙的谣言、大熊的绊倒、萧烈的威压等。这种重复不仅没有推进剧情，反而造成了叙事断裂，降低了阅读体验。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-1",
+        "quote": "混乱的中心，沈小满依旧哭诉不休，赵无极气得胸口剧烈起伏，左右张望寻找突破口。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-2",
+        "contrast_quote": "混乱的中心，沈小满依旧哭诉不休，赵无极气得胸口剧烈起伏，左右张望寻找突破口。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E009",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "沈小满多次使用“泼妇骂街”桥段，虽然情境不同，但核心手段高度同质。",
+      "reason": "第1集、第10集、第56集等场景中，沈小满都通过撒泼打滚、哭诉、煽动舆论来化解危机。这种桥段的重复使用，虽然有效，但缺乏新意，降低了新鲜感和升级感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-1",
+        "quote": "沈小满：（撒泼打滚，嘶吼）侯？什么侯？大人睁眼看看！将军府早在三年前就易主了！地契、宅子，全抵了债！",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "沈小满（撕心裂肺）：非礼！有人非礼！赵家公子光天化日之下调戏良家妇女！"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E010",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "停滞与注水",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "第10集与第11集的重复内容属于明显的注水。",
+      "reason": "两集内容几乎完全重复，没有新的信息、关系或情绪增量，删除后主线几乎不受影响。这种注水行为明显推迟了阶段目标和主线结果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-1",
+        "quote": "萧烈（声音沙哑，却如金石坠地）：动她一下。",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-2",
+        "contrast_quote": "萧烈（声音沙哑，却如金石坠地）：动她一下。"
+      }
+    }
+  ]
+}

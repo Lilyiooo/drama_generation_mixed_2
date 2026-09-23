@@ -1,0 +1,416 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角埃德蒙的“盲人”设定被深度转化为叙事与人物塑造的核心工具，其感官替代（听觉/嗅觉/触觉）不仅解决了行动逻辑，更构建了独特的心理压迫感与人物辨识度。人物弧光清晰，从被动防御到主动操控，再到道德困境（艾德里安事件）与最终的精神升华，逻辑链条完整。配角与反派（奥古斯汀、冯·克莱斯特、艾德里安）功能明确，与主角形成了有效的张力与对抗。主要问题在于部分配角（如伯爵、管家）的工具人属性较强，缺乏独立弧光，且部分情节中主角的“全知”能力略显过度，削弱了部分冲突的紧张感。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "剧本中多次出现“埃德蒙通过感官（嗅觉/听觉）识破谎言/陷阱”的桥段（如第4集识破伯爵、第6集识破冯·霍恩、第21集识破汉斯、第39集识破毒酒）。虽然模式相似，但每次识破的对象、手段（气味/声音/触觉）及后果（收买/处刑/反杀/揭露）均不同，且随着剧情推进，埃德蒙的主动性增强，从被动防御转为主动设局（如第29集伪造名单），形成了有效的变奏与升级。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "埃德蒙（平静得令人毛骨悚然）：大人，这水中为何有着死亡的气息？"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "对手体系层级清晰。奥古斯汀代表宗教/精神压迫，手段阴险（下毒、陷害、心理折磨）；冯·克莱斯特代表世俗/政治压迫，手段冷酷（经济封锁、军事镇压、清洗）；艾德里安代表内部/道德阻力，通过良知冲突对主角形成反噬。不同对手迫使埃德蒙采用不同策略（对奥古斯汀用心理战，对冯·克莱斯特用政治博弈，对艾德里安用情感/道德压制）。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "冯·克莱斯特：既然他的灵魂在演讲中找到了避难所，那我们就让他的肉体回归现实。冻结所有皇室津贴。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "场景递进逻辑严密。从北塔密室（封闭空间，心理博弈）到内殿大厅（半公开，权力展示）再到地下/外部（开放/危险，行动执行），空间变化对应着埃德蒙掌控力的提升。每个关键场景（如第15集演讲、第37集审判、第60集广场）都带来了信息、关系或局面的显著增量，且因果链条紧密。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "埃德蒙：（低沉，颗粒感极强）我……曾仰望……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "开篇（第1-3集）高效建立了人物（盲人国王）、情境（囚禁/监视）和核心问题（如何在失明状态下生存并反击）。通过盲杖敲击、气味识别等细节，迅速确立了埃德蒙的独特能力和性格，叙事方向清晰，悬念（奥古斯汀的威胁、艾德里安的身份）建立有效。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中后段（第17集后）节奏紧凑，通过经济封锁、舆论战、军事行动等多条线索交织，持续产生新的阻力和高潮。第47集艾德里安事件作为情感低谷/转折点，有效蓄力了后续埃德蒙的道德困境与最终决绝，高潮（第60集）回收了前文所有伏笔（誓词、枪口、灵魂），情绪曲线完整。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "艾德里安（声音沙哑，几乎破碎）：旺。烧得很干净。连骨头都没剩下。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "目标情绪（压抑、紧张、复仇、悲壮）贯穿全剧。关键峰谷（如第15集演讲的悲壮、第37集审判的冷静、第60集广场的肃穆）均有充分铺垫。埃德蒙的“冷静”与周围环境的“混乱/恐惧”形成强烈对比，有效强化了情绪张力。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "埃德蒙：（声音不大，却字字清晰）“吾等立誓，不为权杖折腰，不为利刃低头。吾之双手，仅用于守护无辜者之安宁……”"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "集末悬念设置有效。如第3集奥古斯汀的威胁、第13集演讲陷阱、第25集艾德里安被捕、第30集奥古斯汀的恐慌、第54集伯爵之死等，均能驱动读者继续阅读。期待类型多样（生存、复仇、道德、政治），且兑现及时。",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-1",
+        "quote": "奥古斯汀（牙齿打颤，声音嘶哑）：“别……别看着我……”"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "信息密度与戏剧阶段匹配。前期侧重人物关系与心理博弈，信息释放较慢但细腻；中期侧重政治斗争与行动，信息密度增加；后期侧重高潮与收束，信息集中爆发。没有明显的注水或塌陷。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "埃德蒙：“记住，维克多。这份名单不是为了揭露真相，而是为了制造内战。我要奥古斯汀相信，他的每一位亲信背后，都有一双正在注视的眼睛。”"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确的新增量（新盟友、新敌人、新策略、新危机）。过渡场景（如第12集、第24集）虽短，但服务于人物心理状态或关系确立，无明显注水。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-1",
+        "quote": "埃德蒙：记住，记忆需要守护者，但不需要旁观者。滚。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（艾德里安的道德困境、奥古斯汀的崩溃、伯爵的背叛/死亡）均与主线（埃德蒙的复国/复仇）紧密联动。艾德里安线不仅丰富了人物关系，更直接影响了埃德蒙的道德立场和最终行动；奥古斯汀线提供了主要反派压力；伯爵线提供了资源与牺牲。副线回收有效改变了主线局面。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "艾德里安（嘶吼，声音哽咽）：那是人！陛下，那是活生生的人！你让我们把他们送进火坑，看着他们烧成灰，这就是你想要的胜利？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线（埃德蒙从囚徒到领袖的转变）持续产生新目标（生存、反击、复国）和新阻力（教会、宰相、内部道德）。阶段看点（演讲、审判、广场）有效兑现，且每次兑现都改变了局面（获得支持、削弱敌人、确立合法性）。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-2",
+        "quote": "冯·克莱斯特：（对着随身通讯器，声音颤抖却极力维持威严）开火！我命令你们开火！那是叛乱！"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角埃德蒙具有极高的辨识度，其“盲人”设定被深度转化为独特的感官语言和行为模式，无法替换。",
+      "reason": "埃德蒙的语言习惯（冷静、简短、充满隐喻）、行为模式（盲杖敲击、嗅觉/听觉判断）和价值选择（秩序、记忆、牺牲）在全文中高度一致且独特。替换成其他角色后，关键台词与决策将完全失效。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角弧光完整，从被动防御到主动操控，再到道德困境与精神升华，变化链条清晰且由强驱动事件逼出。",
+      "reason": "起点：被囚禁的盲人国王，被动防御（第1-3集）。转折1：识破奥古斯汀陷阱，开始主动操控（第15集演讲）。转折2：艾德里安事件，面临道德困境，从“利用”转向“承担”（第47-50集）。终点：在广场接受“审判”，完成精神升华，从“复仇者”变为“象征”（第60集）。每次变化都有明确的事件驱动和不可逆后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "埃德蒙（声音无悲无喜）：血渍洗不掉。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角具有明确的内在矛盾（秩序/人性、复仇/救赎），并通过关键节点（艾德里安事件）被戏剧化。",
+      "reason": "埃德蒙的内在矛盾在于他为了“秩序”和“复国”不得不牺牲人性（如利用艾德里安、让旧部送死）。这一矛盾在第47-50集通过艾德里安的质问和埃德蒙的“冰水勋章”仪式被充分展现，体现了他的脆弱面（对死亡的恐惧/对记忆的执着）和选择压力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "埃德蒙：不，艾德里安。我让你活着，是为了让你在每一个深夜，都能闻到这些血的味道。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "部分配角（如伯爵、管家）功能单一，主要围绕帮助或伤害主角运转，缺乏个人目标与独立情感价值。",
+      "reason": "伯爵（维克多）和管家主要作为埃德蒙的工具或棋子出现，其个人动机（生存、利益）较为扁平，缺乏独立的mini弧光或情感深度。他们的存在主要服务于主线推进，而非自身的人物塑造。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "伯爵（跪倒在地，额头抵着冰冷的水渍石板）：陛下明鉴！这是为了……为了支持陛下复辟的必要手段！我愿意承担所有风险！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色（奥古斯汀、冯·克莱斯特、艾德里安）功能明确并推动主线，反派威胁稳定。",
+      "reason": "奥古斯汀（宗教/精神）、冯·克莱斯特（世俗/政治）、艾德里安（内部/道德）分别代表了不同维度的阻力，与埃德蒙形成了有效的张力与对抗。他们的行动直接推动了主线发展（如奥古斯汀的陷害、冯·克莱斯特的封锁、艾德里安的叛离/回归）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "奥古斯汀：不，是净化。以教会的名义，防止“精神污染”扩散。将他单独隔离审查，切断他与埃德蒙的联系。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（埃德蒙-艾德里安）存在多类相互咬合的张力来源（情感依赖、价值冲突、秘密误会），移除该关系会使主线情感逻辑坍塌。",
+      "reason": "埃德蒙与艾德里安的关系不仅是主仆/战友，更包含了情感依赖（艾德里安是埃德蒙的“眼睛”/“手”）、价值冲突（秩序/人性）、秘密误会（埃德蒙利用艾德里安送死）。这一关系贯穿全剧，是埃德蒙道德困境的核心，也是主线情感投入的关键。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "艾德里安（嘶吼，声音哽咽）：那是人！陛下，那是活生生的人！你让我们把他们送进火坑，看着他们烧成灰，这就是你想要的胜利？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（埃德蒙-奥古斯汀）有清晰起点、关键里程碑和阶段变化，能够增强主线情感投入。",
+      "reason": "埃德蒙与奥古斯汀的关系从监视/被监视（第1-3集），到心理博弈/反杀（第15集、第37集），再到最终的精神摧毁/利用（第43-45集），推进清晰，因果紧密。奥古斯汀的崩溃与埃德蒙的掌控形成了强烈的戏剧张力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "奥古斯汀（气声，极低极轻）：Corpus moritur, animus renascitur……（肉身死亡，灵魂复生……）",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境和戏剧问题，信息清晰，形成强后续期待。",
+      "reason": "第1集通过埃德蒙进入黑木堡的场景，迅速建立了“盲人国王”的人物特征、被囚禁的异常情境以及“如何在失明状态下生存”的戏剧问题。盲杖敲击、气味识别等细节增强了悬念和吸引力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E009",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "核心矛盾（埃德蒙 vs 教会/宰相）建立清晰，阻力（奥古斯汀的监视、冯·克莱斯特的封锁）有效，风险（死亡、流放、精神崩溃）可感知。后续期待（如何反击、如何生存、如何复国）稳定且多样。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "奥古斯汀：来人。守住门口。没有我的命令，任何人不得进入，任何人不得离开。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E010",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "集末悬念（如第3集奥古斯汀的威胁、第13集演讲陷阱）在下一集得到及时承接和兑现。情感投入（对埃德蒙的同情/敬畏、对奥古斯汀的厌恶）持续累积，没有断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第13集",
+        "scene": "13-2",
+        "quote": "埃德蒙：（嘴角上扬，眼神冰冷）因为我需要一位‘虔诚’的朋友，在我开口的那一刻，告诉我，这声音是否足够……震慑人心。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E011",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "reason": "埃德蒙的语言冷静、简短、充满隐喻（如“恐惧是有重量的”、“血渍洗不掉”）；奥古斯汀的语言虚伪、宗教化、充满威胁（如“主说”、“净化”）；艾德里安的语言激烈、情感化、充满质问（如“那是人！”）。语言风格与人物身份、性格高度一致，且对话节奏（如埃德蒙的停顿、奥古斯汀的急促）有效推动了张力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-2",
+        "quote": "埃德蒙：（低声自语，声音极轻，仅自可闻）……恐惧是有重量的。但当它被定义为‘宽恕’时，它就成了臣服的血肉。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E012",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，如盲杖敲击、气味可视化（通过反应）、冰水勋章等，在关键场景形成高度可辨识的视觉组织。",
+      "reason": "剧本中多次出现具有视觉冲击力的名场面，如第15集演讲时的盲杖敲击、第37集审判时的膝盖碰撞声、第50集冰水勋章、第60集广场上的张开双臂。这些场景通过动作、声音、光影等元素，形成了高度可辨识的视觉组织，增强了画面表现力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "埃德蒙将手抽出，水面在指缝间滴落。他捡起那枚湿漉漉的勋章，水珠顺着复杂的纹路滑落，滴在地板上，声音清晰可闻。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E013",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定（盲人感官、旧王朝记忆、政治博弈）分阶段释放，与剧情高潮或关键行动精准绑定，信息量始终可吸收。",
+      "reason": "剧本中的设定（如埃德蒙的感官能力、旧王朝的誓词、政治博弈规则）并非一次性抛出，而是随着剧情推进逐步释放。例如，埃德蒙的嗅觉能力在第4集首次展示，第6集深化，第39集成为关键武器；旧王朝誓词在第60集高潮时回收。设定与剧情绑定紧密，信息释放节奏良好。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "埃德蒙：（声音不大，却字字清晰）“吾等立誓，不为权杖折腰，不为利刃低头。吾之双手，仅用于守护无辜者之安宁……”",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

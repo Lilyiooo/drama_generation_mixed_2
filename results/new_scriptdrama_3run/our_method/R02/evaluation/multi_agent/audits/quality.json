@@ -1,0 +1,399 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角陆离与苏半夏的人物弧光完整，起点、转折与终点清晰，关键转折由事件驱动并产生不可逆后果。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "陆离：这张纸，是你救我的证明。那时候，我只为了活着，为了复仇。我以为有了它，就有了存在的意义。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-1",
+        "contrast_quote": "陆离（睁开眼，眼中泪光未干，却是一片清明）：父亲留给我的，从来不是复仇的兵权，而是活下去的底气。"
+      },
+      "reason": "合并R01、R02、R03关于主角弧光的亮点意见。证据显示陆离从复仇机器（第1-2集）到自我厌恶（第19-20集），再到失忆后的纯真（第53-55集），最后记忆恢复后选择放下仇恨建立孤儿院（第56-60集）。苏半夏从利益算计（第1集）到情感羁绊（第24集），再到身份认同与复仇（第48集），最后回归生活（第60集）。关键转折（第48集记忆恢复、第56集契约撕毁）均有强驱动事件和主动选择，符合A级亮点标准（主链路完整，至少一个关键转折具有事件驱动、铺垫和自然的主动选择）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角内在矛盾充分戏剧化，通过两难选择、脆弱暴露和犯错承担后果展现真实感。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-2",
+        "quote": "苏半夏（抬头，直视陆离的眼睛，眼神中满是倔强与深情）：陆离，你听着。这世上没人能从我身边抢走你，包括死亡，包括这该死的毒药！",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "苏半夏：以血为引，生死同命。"
+      },
+      "reason": "合并R01、R02、R03关于主角深度的亮点意见。陆离的“共生蛊”设定使其处于“救人”与“害人”的两难中，第19-20集多次试图自杀，苏半夏的阻止和接纳构成了有效的情感冲突。苏半夏在第48集选择揭开痛苦记忆，承担了走火入魔的风险，展现了脆弱与决绝。第52集以血为引更是极致的两难与牺牲。符合A级亮点标准（有明确内在矛盾及实质剧情展现，至少存在一处有效两难、脆弱呈现或犯错承担后果）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角团队功能明确，各有不可替代的专属功能，分工形成有效协作。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "智囊（深吸一口气，单膝跪地，将残片双手奉上）：晚辈是苏姑娘母亲当年的书童。这位是骗神，姑娘母亲义子；这位是武神，姑娘母亲救命恩人之子；医神则受师命守护姑娘至今。",
+        "contrast_episode": "第8集",
+        "contrast_scene": "8-2",
+        "contrast_quote": "苏半夏（低声）：骗神，听到了吗？‘战败’、‘欠债’。继母买通了说书人的嘴，我们要买下京城百姓的耳朵。"
+      },
+      "reason": "R01指出配角团队（骗神、武神、医神、智囊）功能明确，分别负责情报/舆论、武力、医疗、财务/逻辑，并在第47集揭示真实身份增加层次。证据支持其分工清晰且推动主线，符合A级亮点标准（主角配置清晰，重要角色功能明确并推动主线）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系（苏半夏与陆离）存在多类相互咬合的张力来源，稳定支撑主线。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "陆离：你是我的。契约是假的，但我是真的。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "苏半夏：以血为引，生死同命。"
+      },
+      "reason": "合并R01、R02、R03关于关系张力的亮点意见。关系张力包括：利益与情感（契约婚姻到真爱）、生死与恐惧（共生蛊的威胁）、秘密与信任（身世与仇恨）。第17集黑市救人、第24集晨光告白、第52集黑风谷救夫等场景均体现了这种张力。符合A级亮点标准（核心关系存在至少两类明确张力来源，能够稳定支撑主线或重要副线）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景建立核心人物、异常情境和戏剧问题，形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "苏半夏：大家快来看呐！这黑心屠户欺压老弱病残啊！光天化日，杀人放火！",
+        "contrast_episode": "第2集",
+        "contrast_scene": "2-1",
+        "contrast_quote": "陆离：我身中奇毒，负债百万，继母逼婚。我需要一个人，一个不要脸皮、不论手段的人。"
+      },
+      "reason": "合并R01、R02、R03关于开篇吸引力的亮点意见。第1集通过“肉铺闹剧”快速建立苏半夏的“泼辣/算计”人设和团队功能，第2集通过“客栈签约”建立陆离的“落魄/隐忍”人设和核心矛盾（债务/毒/继母），信息组织流畅，动机明确。符合A级亮点标准（人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006",
+        "quality-R02-E006",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，形成多类稳定后续期待。",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-1",
+        "quote": "黑虎（大笑，声音如破锣）：陆将军，别来无恙！听说你新婚大喜，在下特地来贺。",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-1",
+        "contrast_quote": "继母（泫然欲泣，声音却清晰传遍四周）：将军啊，你这一战十年，欠下百万军债，连累府中上下不敢出门。"
+      },
+      "reason": "合并R01、R02、R03关于矛盾建立的亮点意见。目标（进京立足/解毒/复仇）、阻力（黑虎帮/继母/王爷/天罗）、风险（死亡/身败名裂/失去爱人）清晰。第3集黑虎帮围堵、第9集长街对峙等场景有效建立了冲突结构。符合A级亮点标准（核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-2",
+        "quote": "苏半夏OS：原来所以如此。这哪里是戴罪立功，这分明是送他去地狱揭开家族覆灭的真相。",
+        "contrast_episode": "第47集",
+        "contrast_scene": "47-2",
+        "contrast_quote": "苏半夏（站起身，环视众人，气场突变）：既然都是天罗的人，那就没必要偷偷摸摸地逃了。"
+      },
+      "reason": "R01指出集末钩子（如第2集门外巨响、第16集陆离毒发、第22集发现地图）均在下集得到相称推进。悬念（如苏半夏身世、陆离父亲死因）在关键节点（第47集、第60集）有效兑现，带来新的因果和情绪增量。符合A级亮点标准（多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008",
+        "quality-R02-E008",
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个位置出现工整对仗或金句连发，重场戏口语颗粒明显不足，影响真实感。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "陆离：你是我的。契约是假的，但我是真的。",
+        "contrast_episode": "第56集",
+        "contrast_scene": "56-2",
+        "contrast_quote": "陆离：从前，我是为了生存，才走到你面前。现在，我记起了一切痛苦，也看清了唯一的光。我不做将军，也不做奉直大夫。我只做陆离，只做你的丈夫。"
+      },
+      "reason": "合并R01（A级）、R02（B级）、R03（B级）关于台词过度打磨的意见。R01指出苏半夏和陆离的台词常呈现“金句”特征，如“你的命是我的”、“契约是假的，但我是真的”等，缺乏停顿、重复或自我修正，读感接近书面警句串联。R02和R03也指出了类似现象（如第56集求婚台词、第54集大核桃比喻）。虽然R02/R03评为B级，但R01提供了更多跨集证据（第15、24集等），且这些金句确实贯穿主要情感重场戏，削弱了市井/江湖题材的粗粝感。综合判断为A级问题（多个位置出现工整对仗或金句连发，重场戏口语颗粒明显不足并影响真实感）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "医神（面色凝重）：这毒已侵入经脉深处。常人沾他一滴血便是万蚁噬心，但在特定条件下……他的血是剧毒，也是解药。",
+        "contrast_episode": "第15集",
+        "contrast_scene": "15-2",
+        "contrast_quote": "苏半夏：将军，经济学告诉我们，只要债务没还清，他们就是将军府最忠诚的员工。"
+      },
+      "reason": "R01指出部分台词直接解释设定或剧情，如医神解释“千机毒”、苏半夏解释“经济学”原理，虽服务于信息传递，但略显生硬，有“说明书”感。这些表达属于局部现象，主体对话仍与人物目标和场景行动相关，符合B级问题标准（局部出现说明性、概括性或非口语化表达，但主体仍与人物目标和场景行动相关）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "心理活动或内心独白过多",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处以非 OS/VO 的“心想、意识到、内心崩溃”等不可拍信息替代可见动作，明显影响分镜落地。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "他目光冷冽，嘴角微不可察地抽动，眼中闪过一丝玩味。",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-2",
+        "contrast_quote": "陆离看着苏半夏侧脸那抹得逞的笑意，心中涌起一股难以言喻的安全感。"
+      },
+      "reason": "R01指出剧本中频繁使用“眼中闪过一丝……”、“心中涌起……”、“意识到……”等描述，这些属于心理活动，难以直接通过镜头语言呈现，需转化为表情、动作或台词。例如第1集“眼中闪过一丝玩味”、第13集“心中涌起一股难以言喻的安全感”、第22集“苏半夏OS”（虽标注OS，但前文大量非OS心理描写）。这些描写在多集出现，明显影响分镜落地，符合A级问题标准（多处以非 OS/VO 的“心想、意识到、内心崩溃”等不可拍信息替代可见动作，明显影响分镜落地）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "上帝视角或作者议论",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "少量作者议论，局部出戏。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-2",
+        "quote": "镜头拉远，废弃驿站孤零零地立于茫茫北境荒原中，宛如一座待宰的孤岛。",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-1",
+        "contrast_quote": "那里是权力的中心，也是埋葬陆父与无数无辜者的坟墓。"
+      },
+      "reason": "R01指出部分叙述带有作者主观评价，如“宛如一座待宰的孤岛”、“仿佛无数冤魂在哀嚎”，虽增强氛围，但略显文学化，可能影响剧本的客观性。这些属于少量作者议论，局部出戏，符合B级问题标准（少量作者议论，局部出戏）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E012",
+        "quality-R02-E010",
+        "quality-R03-E010"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "医神（压低声音，语速极快）：“千机毒”。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-2",
+        "contrast_quote": "老卒（闭上眼，两行浊泪滑落）：天罗。天罗首领……贪生怕死，卖主求荣。"
+      },
+      "reason": "合并R01、R02、R03关于设定释放节奏的亮点意见。核心设定（共生蛊、九幽寒玉、天罗）分阶段释放：第5集揭示共生蛊，第17集引入九幽寒玉，第43集揭露天罗背景，第48集揭示苏半夏身世。每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定。符合A级亮点标准（设定释放有层次，整体节奏良好，没有明显信息过载）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E003",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "继母和王爷的动机支撑较薄，主要依赖口头设定，与主角的对照、升级过程或关键压迫场面不足。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-2",
+        "quote": "继母（低声自语，语气轻柔却渗人心脾）：老爷，您的好儿子，终于肯认命了。这祠堂里的肮脏，正好配你们陆家百年的脊梁。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R02、R03关于反派塑造的问题意见。继母和王爷的动机主要依赖口头设定（如继母的“认命”、王爷的“通敌”），缺乏更深层的创伤或价值冲突支撑。与主角的对照、升级过程或关键压迫场面相对不足，符合B级问题标准（动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E007",
+        "quality-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "情感投入度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "已有基本情感连接，但重要选择的代价、关系回收或情绪持续性不足。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "陆离：你喝酒的样子，很丑。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "合并R02、R03关于情感投入度不足的问题意见。R02指出陆离失忆后的行为逻辑在部分场景（如第54集）略显突兀，情绪结果弱于事件强度。R03也指出已有基本情感连接，但重要选择的代价、关系回收或情绪持续性不足。例如第54集陆离与皇帝的互动虽然有趣，但与其之前的将军身份和复仇背景相比，情感深度有所减弱。符合B级问题标准（已有基本情感连接，但重要选择的代价、关系回收或情绪持续性不足）。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E009",
+        "quality-R03-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "动作指示模糊或缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "个别关键动作模糊，影响局部表演或分镜。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-3",
+        "quote": "骗神（轻笑，手中磁石一引）：你的，是我的。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "苏半夏：以血为引，生死同命。"
+      },
+      "reason": "合并R02、R03关于动作指示模糊或缺失的问题意见。R02指出第17集骗神调包冰魄兰的动作描述过于简略，R03指出第52集苏半夏以血为引的动作细节不足。这些属于个别关键动作模糊，影响局部表演或分镜，符合B级问题标准（个别关键动作模糊，影响局部表演或分镜）。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 32,
+  "covered_count": 32
+}

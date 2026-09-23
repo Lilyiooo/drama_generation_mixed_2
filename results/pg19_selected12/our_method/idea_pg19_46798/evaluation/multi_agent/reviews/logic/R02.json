@@ -1,0 +1,228 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体构建了以‘木工技艺’为核心解决手段的生存与复仇逻辑，因果链条在微观战术层面（如利用结构力学破局）较为严密。但在宏观叙事层面存在多处严重的逻辑断裂：1. 角色状态与认知严重脱节（如梅休重伤后迅速恢复并参与高强度战斗，罗杰多次‘死亡’或‘重伤’后无解释复活）；2. 关键道具与证据来源不明或归属混乱（如地契的获取过程、伪造印章的突然出现）；3. 时间线与空间位移存在明显矛盾（如从黄石核心区到法官营地的路程与时间不符）；4. 伏笔回收生硬，部分关键转折依赖巧合或角色降智。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "梅休在第43集被刺穿腹部，第44集确认死亡，但在第49集却以活人状态出现并指引方向。",
+      "reason": "S级：角色已被明确写实确认死亡（第44集‘双眼失去了光泽，只剩死亡的空洞’），后续无假死、复活、替身、倒叙等解释却以活人参与关键剧情（第49集‘梅休的手指突然抽动...指向侧方’）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "梅休的手指最后抽搐了一下，像是试图抓住什么，然后彻底松弛，头无力地歪向一侧。双眼失去了光泽，只剩死亡的空洞。",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-2",
+        "contrast_quote": "就在这一刻，梅休的手指突然抽动。那只原本无力垂落的手，艰难地、颤抖地抬起，指向侧方那片漆黑、布满诡异瘴气的荆棘密林。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "生命状态断裂",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "罗杰在第42集被麻醉镖击中颈部昏迷并被拖走，第45集出现在牢房，第46集获救，但第48集又出现在仓库外围且无受伤描述，且第49集能正常行走奔跑。",
+      "reason": "S级：角色处于强限制状态（昏迷、被囚禁、受伤），后续无治疗、逃脱或时间说明便完全恢复并参与高强度行动。第42集‘麻醉镖狠狠扎入他的颈部侧方...失去意识的罗杰’，第46集‘迪克...稳稳接住下坠的罗杰’，第48集‘罗杰跟在身后三步远...紧紧攥着那把曾用来撬门的铁撬棍’，第49集‘罗杰紧握火枪断后’。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "麻醉镖狠狠扎入他的颈部侧方。罗杰闷哼一声，双眼瞬间涣散，身体失衡向后倒去。",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-1",
+        "contrast_quote": "科瓦在前方用刀尖拨开荆棘，罗杰紧握火枪断后，呼吸急促。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "地契原件在第23集被迪克从火中救出并贴身保管，第54集拉斯克尔手中却持有‘边缘焦黑、浸过血污的地契原件’并撕毁，第55集迪克手中又有‘地契原件’。",
+      "reason": "A级：重要资源发生转移，但缺少交接、盗取、赠予或夺取过程。第23集迪克‘将焦黑的地契塞入贴身内袋’，第54集拉斯克尔‘抓起桌上那份边缘焦黑、浸过血污的地契原件...一分为二’，第55集迪克‘右手已闪电般攥住了从对方袖口滑落的那半张地契原件’。中间缺乏迪克失去地契或拉斯克尔获得地契的合理过程。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "迪克迅速将焦黑的地契塞入贴身内袋，确保远离任何湿气或热源。",
+        "contrast_episode": "第54集",
+        "contrast_scene": "54-1",
+        "contrast_quote": "他一把抓起桌上那份边缘焦黑、浸过血污的地契原件和账本，双臂发力，纸张发出刺耳的撕裂声，一分为二。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第25集迪克在峡谷对峙中突然从靴筒中抽出木工凿子撬开物资箱，取出‘羊皮账本’和‘金属印章’，但前文未交代这些物品如何进入迪克手中或为何在箱中。",
+      "reason": "A级：有触发因，但机制、资源、人物选择或信息来源支撑明显不足。第25集‘迪克弯下腰，从靴筒中抽出那把伴随他一路的木工凿子...撬开...抓起一本厚重的羊皮账本和一枚沾满泥污的金属物件’。前文第21-24集迪克一直在逃亡和战斗，未提及搜刮到这些关键证据，且物资箱出现在峡谷出口缺乏铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第25集",
+        "scene": "25-1",
+        "quote": "迪克弯下腰，从靴筒中抽出那把伴随他一路的木工凿子...撬开...抓起一本厚重的羊皮账本和一枚沾满泥污的金属物件。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第30集迪克命令罗杰‘天亮前，带不回新鲜猎物，就别回来见我’，第31集罗杰在‘破晓前’返回，但第32集‘清晨’才进食，且第33集‘傍晚’才到达干涸河床，时间跨度与行程距离不符。",
+      "reason": "A级：跳跃、压缩或倒置使重要因果明显不合理。第30集深夜出发，第31集破晓前返回（约4-5小时），第32集清晨进食（约1-2小时），第33集傍晚到达河床（约6-8小时）。考虑到罗杰受伤、梅休虚弱、贾斯珀高烧，且需穿越‘恶魔之谷’，时间过于紧凑，且第33集提到‘还有整整两天的路程’，与后续快速到达法官营地（第50集）矛盾。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第30集",
+        "scene": "30-2",
+        "quote": "天亮前，带不回新鲜猎物，就别回来见我。",
+        "contrast_episode": "第33集",
+        "contrast_scene": "33-1",
+        "contrast_quote": "我们还有整整两天的路程才能到达间歇泉区。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第16集迪克通过科瓦的‘上游有风’判断出埋伏，但前文未交代迪克懂苏语或了解苏族语境，且科瓦作为副首领，其意图过于明显。",
+      "reason": "A级：提前获知重要信息，有弱来源暗示但路径不清。第16集‘科瓦说的“上游有风”，在苏语语境中常指代“埋伏”或“杀机”。迪克心中警铃大作’。迪克是白人律师/工匠，前文未显示其精通苏语或了解其隐喻，且科瓦作为盟友，直接给出错误路线并暗示埋伏，动机不足。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "科瓦说的“上游有风”，在苏语语境中常指代“埋伏”或“杀机”。迪克心中警铃大作，面上却不动声色。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E007",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "第33-34集年迈苏族战俘突然出现并指控贾斯珀伪造地契，但前文未交代战俘来源、如何被迪克团队捕获或为何知道贾斯珀的秘密。",
+      "reason": "A级：只有少量模糊暗示，不足以支撑反转级别。第33集‘迪克在一块背风的巨石后停下脚步...将搀扶着的年迈苏族战俘轻轻放下’。前文第27集迪克被驱逐，第28-32集在恶魔之谷，未提及捕获战俘的过程，且战俘对贾斯珀的指控过于具体，缺乏铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-1",
+        "quote": "迪克在一块背风的巨石后停下脚步，示意队伍停止。他将搀扶着的年迈苏族战俘轻轻放下。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E008",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第52集迪克通过预先在法官座椅滑轮处安装木楔，导致法官无法起身，从而拖延时间，但前文未交代迪克如何混入法庭并有机会安装机关。",
+      "reason": "B级：核心危机依靠未铺垫的新规则、新能力、新证据、天降救援或反派降智化解并改变主线。第52集‘迪克·阿姆斯特朗身着一件沾满油污的粗布工装，提着一个旧木工工具箱，低着头混在搬运木料的杂工中...手指滑过证人座椅底部的木质滑轮轴承...嵌入滑轮轴心的关键卡槽’。前文第51集迪克在报社地下，第52集突然出现在法庭并成功安装机关，缺乏过程铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "迪克·阿姆斯特朗身着一件沾满油污的粗布工装，提着一个旧木工工具箱，低着头混在搬运木料的杂工中...手指滑过证人座椅底部的木质滑轮轴承。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E009",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第35集迪克用木工凿子凿开坚硬的花岗岩岩层，但前文未交代凿子材质或迪克具备如此超常的体力/工具性能。",
+      "reason": "B级：变化有基本依据，但过程偏薄或节奏过快。第35集‘迪克连续猛击。一下，两下，三下...岩层终于崩开一道口子’。前文迪克使用凿子多为木工或撬锁，凿开花岗岩缺乏物理合理性，且未交代凿子特殊材质或迪克体力超常。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "迪克连续猛击。一下，两下，三下。他的手掌磨破，鲜血顺着凿柄流下，渗入石缝。每一次挥击，他的身体都像枯树般剧烈摇晃。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E010",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "迪克多次使用‘敲击/凿击’判断结构虚实或寻找弱点，且每次都以类似方式解决危机，缺乏新增信息或情节升级。",
+      "reason": "B级：一个事件重复，或重复段落新增量不足，删减后不影响主线理解。第3集‘迪克将凿子尖端轻轻插入漆黑的泥土中...敲击侧面’，第10集‘迪克走在最前方，手持木工凿子，不断敲击前方的岩石’，第19集‘迪克单膝跪地，手中的木工凿子轻轻敲击着不同位置的岩面’，第20集‘迪克将耳朵紧紧贴在靠近木箱的一截传音管上，右手持凿子，轻轻敲击琴弦’，第35集‘迪克捡起一根硬木棍，沿着巨石下方的岩层轻轻敲击’。多次重复类似动作，缺乏变化。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-2",
+        "quote": "迪克将凿子尖端轻轻插入漆黑的泥土中，然后举起凿子柄，敲击侧面。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "迪克捡起一根硬木棍，沿着巨石下方的岩层轻轻敲击。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "证据线索断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "克拉拉在警局探视时展示的“匿名信扫描件”及“紫外光荧光反应对比图”来源不明，缺乏获取路径。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "屏幕上弹出一个文件夹：“恢复备份节点_索恩_iCloud”。第一张图加载完毕：那张泛黄的匿名信高清扫描件。右下角，朱利安·维恩私人印章的特写，清晰得令人窒息。",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-2",
+        "contrast_quote": "他将信纸揉成一团……猛地塞进办公桌侧面的碎纸机入口。……真相已被销毁，而副本，藏在他的口袋里。"
+      },
+      "reason": "三位评审均指出该问题。第9集伊莱亚斯销毁了纸质匿名信，仅手机存有模糊照片；第20集手机摔坏；第24集朱利安没收终端。第48集克拉拉直接展示“恢复备份节点”中的高清扫描件和原始数据，剧本未交代克拉拉如何绕过朱利安的高科技监控（第34集展示其拦截能力）获取这些核心数字证据。属于关键证据来源缺失，影响主线反转的可信度，定为A级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "年轻学者在揭幕仪式现场识别出“十字划痕”为伊莱亚斯个人标记的依据不足。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "年轻学者：这不是自然老化！这是人为的十字划痕！我在索恩教授早期的研讨课讲义中见过这种标记，专门用于标注……背板结构的致命缺陷！",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-1",
+        "contrast_quote": "伊莱亚斯：那道十字划痕，米勒探员。在19世纪的修复行规里，它叫“静默标记”。"
+      },
+      "reason": "三位评审均指出该问题。第42集年轻学者瞬间识别出特定标记并关联到伊莱亚斯早期讲义，而第49集伊莱亚斯才向警方解释该标记的行业含义。虽然伊莱亚斯是知名专家，但一个年轻学者在混乱中瞬间精准关联并公开指认，缺乏前文铺垫（如该学者曾旁听或研究伊莱亚斯），属于B级轻微突兀，但不影响主线成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R02-E004",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第29集与第30集的时间衔接存在轻微逻辑跳跃。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-2",
+        "quote": "玛克斯跳下车，故意跌倒在积水中，大声呼救，引来路过车辆和巡逻警察的注意。红蓝警灯的光芒疯狂闪烁……",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-1",
+        "contrast_quote": "画面中，警车红蓝闪烁的光晕映照在积水中。克拉拉身穿深色风衣，正被两名警员引导着走向警车尾部的问询区。"
+      },
+      "reason": "三位评审均指出该问题。第29集克拉拉制造噪音（货车撞消防栓）是深夜，警方介入需要时间。第30集紧接着朱利安展示克拉拉在警局问询区的“实时”画面，且朱利安能实时调取并叠加字幕。从制造噪音到警方完成初步问询并接入监控，时间跨度极短，逻辑上略显仓促，属于B级局部时间细节不一致。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005",
+        "logic-R02-E003",
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "行动动机缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "维克多向警方举报朱利安及向克拉拉坦白交出录音笔的动机铺垫稍显不足。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-2",
+        "quote": "维克多：（对着电话，声音沙哑且急促）喂，我是维克多·克劳斯。我有朱利安·维恩洗钱的核心账目和海外账户密钥。我要污点证人保护。证据在这里……",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-2",
+        "contrast_quote": "维克多（深吸一口气，眼泪顺着指缝滴落）：合成树脂混合氧化铁粉……还要加一种特殊的酸液腐蚀底层……那是……那是现代工艺，根本不可能存在于一百年前……"
+      },
+      "reason": "三位评审分别指出了维克多在43集举报和51集坦白时的动机问题。虽然求生欲是合理动机，但维克多此前一直处于恐惧和被动状态，突然采取“污点证人保护”或彻底放弃抵抗配合克拉拉，缺乏更细腻的心理过渡或前文暗示（如他此前是否有过类似念头或利益交换过程），属于B级动机可推断但缺少触发情绪或决策过程。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E006",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心反转（十字划痕与激光笔揭示）层层铺垫，因果严密。",
+      "evidence": {
+        "episode": "第46集",
+        "scene": "46-1",
+        "quote": "一道鲜红、凝实的激光束瞬间穿过舞台弥漫的尘埃……死死钉在背板那处显眼的十字划痕上。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "笔尖在陈旧的木头上刻下一道极浅的竖痕，停顿半秒，再画下一道横痕。十字交叉。"
+      },
+      "reason": "三位评审均认可该亮点。伊莱亚斯在第35集刻下划痕，第37集调整灯光，第45集放置激光笔，第46集触发激光。这一系列动作与结果之间的因果链紧密，且每个环节都有前文铺垫。R01评为S级，R02/R03评为A级。考虑到闪电导致灯光偏移是外部偶然因素，虽增强了戏剧性，但核心因果链（刻痕-调光-激光）是人为设计的严密闭环，定为A级亮点更为稳妥。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006",
+        "logic-R02-E005",
+        "logic-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "“十字划痕”与“CMYK网点”伏笔从埋设到揭示的闭环设计优秀。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "笔尖在陈旧的木头上刻下一道极浅的竖痕，停顿半秒，再画下一道横痕。十字交叉。",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-2",
+        "contrast_quote": "伊莱亚斯：这是CMYK四色印刷的半调网点（Halftone Dots）。这种精度，只有在二十一世纪的高分辨率喷墨打印机上才能做到。"
+      },
+      "reason": "三位评审均认可该亮点。第35集伊莱亚斯在画框背面刻下十字划痕作为求救/证据，第37集通过灯光微调使其可见，第42集被年轻学者发现，第49集被警方拆解确认，第52集通过CMYK网点最终证实造假。这一伏笔贯穿全剧，层层递进，逻辑严密，是剧本的核心亮点。R01提到的“温度梯度”参数虽在第32集埋下，但在第52集法庭上并未直接作为关键证据提及，而是通过CMYK网点完成闭环，因此整体伏笔闭环质量定为A级。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 18,
+  "covered_count": 18
+}

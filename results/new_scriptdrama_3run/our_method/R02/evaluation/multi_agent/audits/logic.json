@@ -1,0 +1,365 @@
+{
+  "dimension": "logic",
+  "audited_entries": [
+    {
+      "audit_id": "logic-A001",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E001",
+        "logic-R02-E001",
+        "logic-R03-E001"
+      ],
+      "status": "rejected",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "九幽寒玉的获取与使用存在时间线矛盾。第36集陆离使用寒玉压制毒性，但此时寒玉尚未被完整获取。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "医神手持那枚镶嵌着九幽寒玉的珠钗，指尖微颤。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "她咬牙，迅速拔下鬓边寒玉珠钗，塞入陆广袖之下。"
+      },
+      "reason": "评审意见存在事实错误。根据剧本第35集35-1场，公主已将镶嵌九幽寒玉的珠钗塞给陆离。第36集36-1场医神使用该珠钗为陆离治病，道具来源明确，不存在“未获取”或“时间线矛盾”。第39集和41集获取的是另外两块寒玉碎片，用于后续拼合完整寒玉，不影响第36集珠钗的合法性。因此该逻辑问题不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A002",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E002",
+        "logic-R02-E002",
+        "logic-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "前置信息缺口",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "核心反派“王爷”在前期铺垫不足，其动机与行动缺乏充分背景支撑，后期突然成为主要威胁。",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "幕后指使者……正是王爷。",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-1",
+        "contrast_quote": "王爷勾结北狄，已兵临虎牢关。"
+      },
+      "reason": "王爷作为核心反派，在前30集几乎无具体行动或动机展示，仅在第41集通过账本被揭示为幕后指使者，第49集突然兵临城下。虽然第41集提供了部分动机线索（私吞军饷），但缺乏前期对其政治布局、军事准备及与北狄勾结过程的铺垫，导致其从背景人物跃升为绝对主导者的过程略显突兀，符合A级“信息驱动阶段剧情，却只有模糊背景或事后口述”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A003",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E003",
+        "logic-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离失忆后性格突变，恢复记忆过程缺乏足够的心理铺垫，显得突兀。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "现在的他，心智退回到了孩童时期。",
+        "contrast_episode": "第56集",
+        "contrast_scene": "56-1",
+        "contrast_quote": "陆离：我记得了。"
+      },
+      "reason": "陆离从失忆的孩童状态到第56集因刺客袭击瞬间恢复全部记忆，中间缺乏记忆碎片逐渐回涌、身体反应或心理挣扎的细腻描写。虽然刺客事件提供了触发点，但转变过程过于迅速和机械，符合B级“局部行为与设定轻微不吻合，不影响整体稳定性”或“变化可推断，但情绪过渡偏弱”的定义。R03评为A级略显过重，因为这一转折并未颠覆主线逻辑，且刺客触发是常见的叙事手段，故修正为B级。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A004",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E004",
+        "logic-R02-E005",
+        "logic-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "揭底无铺垫",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "苏半夏身世的揭示依赖集中口述与巧合，前期铺垫不足，略显生硬。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "晚辈是苏姑娘母亲当年的书童。这位是骗神，姑娘母亲义子……",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-2",
+        "contrast_quote": "他看到里面躺着一枚歪歪扭扭的木雕生肖——一只缺了耳朵的小狗。"
+      },
+      "reason": "苏半夏身世（天罗余孽）在第47集通过智囊、骗神等人的集中口述揭示。虽然第46集有木雕小狗作为伏笔，但前期缺乏更明确的渐进式铺垫（如苏半夏对天罗的熟悉、特殊能力展示等），导致揭示时信息量过大且依赖巧合（死士掉落包裹），符合B级“有明确铺垫，但数量或清晰度不足”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A005",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E005"
+      ],
+      "status": "rejected",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离中毒时间与寒玉获取时间存在矛盾。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "离经叛道之毒。经脉尽断，活不过三年。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "那是九幽寒玉！虽然只是残片……"
+      },
+      "reason": "该条目混淆了“寒玉”的不同形态。第2集陆离中毒，第35集获得公主的寒玉珠钗（用于压制毒性），第39集获得祠堂残片，第41集获得铁盒中的另一块。第36集使用珠钗时，寒玉已在手。评审认为“直到第39集才首次出现”是错误的，第35集已出现并使用了寒玉珠钗。因此，不存在长达37集无解药支撑的矛盾，该逻辑问题不成立。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A006",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E006",
+        "logic-R03-E007"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏的商战布局与陆离的军事行动形成双线并行，因果链清晰。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "我不仅是商盟盟主，更是京城皇商代表。今日之后，半夏商盟，便是京城的规矩。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-1",
+        "contrast_quote": "实则是您的断供令生效。"
+      },
+      "reason": "苏半夏通过商盟控制经济命脉，陆离通过军事行动稳定北境，两者相互支撑，形成完整的反击链条。第58集建立商盟，第59集利用商盟断供对抗赐婚，因果逻辑严密，前因充分支撑后果，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A007",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R01-E007"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "能力状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "陆离的共生蛊能力设定前后一致，使用代价明确。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "他的血是剧毒，也是解药。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-1",
+        "contrast_quote": "半个时辰后，经脉寸断，九死一生。"
+      },
+      "reason": "共生蛊能力在第5集揭示，后续每次使用均有明确代价（如第37集经脉寸断风险，第52集苏半夏以血为引导致手指青黑）。能力边界清晰，未出现无代价使用或能力突然升级的情况，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A008",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E003"
+      ],
+      "status": "rejected",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "骗神的能力边界模糊，从骗术扩展至情报收集、道具使用甚至近身格斗，缺乏明确的能力成长或背景交代。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-3",
+        "quote": "骗神（轻笑，手中磁石一引）：你的，是我的。",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-2",
+        "contrast_quote": "骗神迅速从袖中抛出一把石灰粉……"
+      },
+      "reason": "骗神的人设即为“不要脸皮、不论手段”的江湖人，且团队中其他成员（如武神、医神）也具备多种技能。骗神使用磁石、石灰粉等道具符合其“骗术”和“混乱制造者”的定位，且在第1集和第6集已有其使用道具和伪装的情节铺垫。这种能力扩展属于角色技能的正常展现，不构成逻辑断裂。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A009",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E004"
+      ],
+      "status": "confirmed",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "苏半夏对“共生蛊”和“寒玉”的医学/玄学知识来源不明。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-2",
+        "quote": "苏半夏：以血为引，生死同命。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "（苏半夏初始设定为“不要脸皮、不论手段”的江湖人，无医学/玄学背景）"
+      },
+      "reason": "苏半夏作为“商妇”或“江湖人”，在第52集准确提出“以血为引，生死同命”的救命方法，且在第20集准确判断陆离血液特性。虽然医神在场，但苏半夏的主动决策和知识展示超出了其身份设定，且缺乏前期铺垫（如师承、经历等），符合A级“角色依靠未交代来源的专业知识、隐秘情报或技能完成关键判断与行动”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A010",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第54集陆离失忆后的行为（与皇帝对话）与“心智退回到孩童时期”的设定存在轻微矛盾。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "陆离：你喝酒的样子，很丑。",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "现在的他，心智退回到了孩童时期。"
+      },
+      "reason": "第53集明确陆离心智退行至孩童，但第54集陆离与皇帝的对话（如“你喝酒的样子，很丑”、“像个大核桃”）虽然天真，但逻辑清晰且具有一定讽刺意味，略显成熟。这与“孩童”设定存在轻微偏差，但考虑到失忆后保留部分本能或直觉，且不影响主线理解，符合B级“局部时间细节不一致，修改成本低且不影响主线”的定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A011",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏与陆离的关系发展因果清晰，从雇佣到夫妻，情感积累充分。",
+      "evidence": {
+        "episode": "第24集",
+        "scene": "24-2",
+        "quote": "陆离：你是我的。契约是假的，但我是真的。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "陆离：我是镇国将军。我要买你的命，做我的夫人。"
+      },
+      "reason": "两人关系从第1集的雇佣契约开始，经过第4集生死相救、第17集黑市冒险、第24集情感确认，逐步发展至夫妻。每个阶段都有明确的事件驱动和情感积累，因果链清晰，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A012",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "陆离从复仇者到守护者的性格转变有事件驱动，情感积累充分。",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "陆离：我记得了。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "陆离：我身中奇毒，负债百万，继母逼婚。"
+      },
+      "reason": "陆离的性格转变从复仇者到守护者，经历了第24集的情感确认、第38集的生死相依、第53集的失忆与重建、第56集的记忆恢复与求婚。每个阶段都有事件驱动和情感积累，转变符合逻辑，符合A级亮点标准。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A013",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第54集陆离迷路遇皇帝，并成功化解危机，依赖“天降”与“巧合”，缺乏合理铺垫。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "陆离：你喝酒的样子，很丑。……皇帝（笑出泪来）：大核桃！哈哈哈！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "陆离在御花园迷路，恰好遇到醉酒皇帝，并因一句“大核桃”的童言无忌化解了皇帝的杀意，获得闲职。这一情节转折依赖高度巧合，且皇帝对陆离的态度转变缺乏足够心理铺垫，属于典型的“天降救援”式危机解决，符合B级定义。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "logic-A014",
+      "dimension": "logic",
+      "source_entry_ids": [
+        "logic-R03-E006"
+      ],
+      "status": "rejected",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "第60集“一年后”的时间跳跃与前期剧情节奏不匹配，导致部分角色状态（如陆离毒解）缺乏过程交代。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-2",
+        "quote": "一年后的深秋。阳光明媚，金黄的银杏叶铺满庭院。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-1",
+        "contrast_quote": "苏半夏（嘴角勾起一抹极淡的弧度，眼底却是冰冷的算计）：没那么轻松。"
+      },
+      "reason": "第60集开头明确标注“一年后的深秋”，这是常见的叙事时间跳跃手段，用于展示结局和角色状态变化。陆离毒解、经脉重塑等状态变化在时间跳跃中自然发生，无需在每一集中详细交代治疗过程。这种处理方式符合剧本逻辑，不构成时间线矛盾。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 22,
+  "covered_count": 22
+}

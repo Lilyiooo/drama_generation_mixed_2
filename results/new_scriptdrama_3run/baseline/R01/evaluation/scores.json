@@ -1,0 +1,624 @@
+{
+  "script": "/inspire/hdd/global_user/wangqiqi-CZXS25210124/ScriptPipeline_upstream_20260922/output/new_scriptdrama_matched_direct_history_baseline_v1/R01/drama_evaluator_logic_quality_input/full_60_episodes.txt",
+  "model": "Qwen3.8-27B",
+  "evaluation_mode": "logic_quality_shared_module_baseline_fusion_multi_agent_6_2_2_2",
+  "scores": {
+    "剧本逻辑总分": {
+      "final_score": 65.93,
+      "ledger_subdimension_mean": 69.0,
+      "holistic_subdimension_mean": 62.86,
+      "subdimensions": {
+        "causality": {
+          "ledger_score": 61.0,
+          "holistic_score": 60.0,
+          "fused_score": 60.5
+        },
+        "character_state": {
+          "ledger_score": 48.0,
+          "holistic_score": 70.0,
+          "fused_score": 59.0
+        },
+        "knowledge_state": {
+          "ledger_score": 76.0,
+          "holistic_score": 70.0,
+          "fused_score": 73.0
+        },
+        "resource_state": {
+          "ledger_score": 84.0,
+          "holistic_score": 60.0,
+          "fused_score": 72.0
+        },
+        "rules_spacetime": {
+          "ledger_score": 64.0,
+          "holistic_score": 60.0,
+          "fused_score": 62.0
+        },
+        "foreshadowing": {
+          "ledger_score": 64.0,
+          "holistic_score": 70.0,
+          "fused_score": 67.0
+        },
+        "repetition": {
+          "ledger_score": 86.0,
+          "holistic_score": 50.0,
+          "fused_score": 68.0
+        }
+      },
+      "audited_unit_entry_counts": {
+        "causality": {
+          "issues": 4,
+          "highlights": 1,
+          "total": 5
+        },
+        "character_state": {
+          "issues": 6,
+          "highlights": 0,
+          "total": 6
+        },
+        "knowledge_state": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "resource_state": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "rules_spacetime": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "foreshadowing": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "repetition": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        }
+      },
+      "formula": "每个逻辑子维度以90分为基线并按确认台账项加扣；每个子维度融合分=50%台账分+50%独立整体评分；剧本逻辑得分=七个子维度融合分的算术平均"
+    },
+    "剧本质量最终总分": {
+      "final_score": 76.8,
+      "ledger_subdimension_mean": 78.2,
+      "holistic_subdimension_mean": 75.4,
+      "subdimensions": {
+        "character": {
+          "ledger_score": 58.0,
+          "holistic_score": 78.0,
+          "fused_score": 68.0
+        },
+        "hooks": {
+          "ledger_score": 82.0,
+          "holistic_score": 82.0,
+          "fused_score": 82.0
+        },
+        "plot": {
+          "ledger_score": 90.0,
+          "holistic_score": 75.0,
+          "fused_score": 82.5
+        },
+        "episode": {
+          "ledger_score": 76.0,
+          "holistic_score": 72.0,
+          "fused_score": 74.0
+        },
+        "setting": {
+          "ledger_score": 85.0,
+          "holistic_score": 70.0,
+          "fused_score": 77.5
+        }
+      },
+      "audited_unit_entry_counts": {
+        "character_main": {
+          "issues": 2,
+          "highlights": 0,
+          "total": 2
+        },
+        "character_support": {
+          "issues": 3,
+          "highlights": 0,
+          "total": 3
+        },
+        "character_relationship": {
+          "issues": 1,
+          "highlights": 2,
+          "total": 3
+        },
+        "hooks_opening": {
+          "issues": 0,
+          "highlights": 1,
+          "total": 1
+        },
+        "hooks_conflict": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "hooks_continuity": {
+          "issues": 1,
+          "highlights": 0,
+          "total": 1
+        },
+        "plot_scenes": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_emotion": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "plot_structure": {
+          "issues": 0,
+          "highlights": 0,
+          "total": 0
+        },
+        "episode_dialogue": {
+          "issues": 2,
+          "highlights": 1,
+          "total": 3
+        },
+        "episode_visual": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        },
+        "setting": {
+          "issues": 1,
+          "highlights": 1,
+          "total": 2
+        }
+      },
+      "formula": "剧本质量五个模块各以90分为基线，模块内确认台账项直接加扣；每个模块融合分=50%台账分+50%独立整体评分；剧本质量得分=五个模块融合分的算术平均"
+    }
+  },
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "事件/桥段非重复性",
+      "mean": 2.67,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "相似桥段（如沈小满撒泼、萧烈武力震慑）大多承担不同功能，通过新变量（如从青石镇到京城，从地痞到权臣）和关系变化形成有效变奏，推进了主线。",
+          "evidence": {
+            "episode": "第10集",
+            "scene": "10-1",
+            "quote": "沈小满（假装脚下一滑）：啊！公子你长得太快，吓到我啦！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "全剧大量复用“沈小满撒泼/演戏-萧烈武力震慑-反派降智认输”的桥段模式。从青石镇到京城，从赵家到庞氏，从演武场到地宫，事件起因、过程和结果高度同质，仅替换了地点和反派名字，缺乏新的因果变量。",
+          "evidence": {
+            "episode": "第10集",
+            "scene": "10-1",
+            "quote": "沈小满（尖叫）：非礼啊！光天化日你也敢动手动脚！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "全剧大量重复“沈小满撒泼/造谣/演戏”与“萧烈/大熊武力震慑”的桥段。例如第1集、第2集、第10集、第13集、第14集、第21集、第22集、第34集、第36集、第44集、第56集，核心模式均为“沈小满用言语/证据施压+萧烈/大熊武力/身份背书”，缺乏新的变量或关系升级，导致叙事疲劳。",
+          "evidence": {
+            "episode": "第14集",
+            "scene": "14-1",
+            "quote": "沈小满：（深吸一口气，对着铜管高声）各位街坊邻里，且听真！庞氏不仅私通外男，更在将军府库房暗账中转移军饷三万两！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "对手与阻力的差异化",
+      "mean": 2.67,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "不同对手（地痞、庞氏、赵家、权臣/国师）代表不同资源、价值立场与压力类型，迫使主角采用不同策略（撒泼、查账、舆论战、武力+智谋）。",
+          "evidence": {
+            "episode": "第23集",
+            "scene": "23-1",
+            "quote": "阉党代表（拍案怒喝）：大胆刁民！竟敢在演武场造谣生事，扰乱国典！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "主要对手（赵家、庞氏、国师、权臣）在目标（夺权/夺宝）、手段（陷害/武力）和失败方式（被沈小满骂/被萧烈打）上高度同质。反派缺乏独立的行动逻辑，往往沦为主角展示能力的背景板。",
+          "evidence": {
+            "episode": "第36集",
+            "scene": "36-1",
+            "quote": "国师（满脸堆笑，高举一卷泛黄书信）：陛下，老臣有一桩谋逆惊天大案，不得不奏！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 2,
+          "reason": "主要对手庞氏、赵家、国师/权臣在功能上高度同质，均表现为“贪婪、愚蠢、被主角轻易击溃”。庞氏与赵家公子的对抗方式几乎一致（被沈小满当众揭短/撒泼），国师/权臣虽设定为高智商，但在第45-50集的高潮中，其抵抗主要依赖“摄魂箫”等单一手段，且最终被主角团通过简单的“机关+火油”解决，缺乏差异化压迫。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-1",
+            "quote": "国师：萧烈，你赢不了。前朝势力已然复苏，我不过是在掌控局势。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_scenes",
+      "unit_label": "情节规划/桥段质量",
+      "criterion": "场景递进结构",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果，如从青石镇到京城，从将军府到地宫，层层递进。",
+          "evidence": {
+            "episode": "第12集",
+            "scene": "12-2",
+            "quote": "沈小满：（环视四周，突然指着庞氏）哟，这是哪出折子戏呢？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "场景基本完成了信息传递和冲突展示的功能，但递进感不稳定。许多场景（如多次解毒、多次对峙）在情绪和局面上没有显著升级，存在重复已知信息的情况。",
+          "evidence": {
+            "episode": "第25集",
+            "scene": "25-2",
+            "quote": "沈小满（冷静如冰，瞥见案头医箱）：顾九留下的银针……找到了！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "场景基本完成叙事任务，从青石镇到京城，从将军府到地宫，空间转换清晰。但部分场景（如第16-18集的商业线）与主线复仇线的递进感不强，更多是平行推进，缺乏对核心人物关系的深度挖掘。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-2",
+            "quote": "沈小满：各位父老乡亲，且看过来！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "开篇阶段节奏",
+      "mean": 4,
+      "minimum": 4,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰，开篇即通过沈小满救萧烈建立核心关系与冲突。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "沈小满：（河东狮吼）住手！光天化日，朗朗乾坤，你们是想欺压良善吗？！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 4,
+          "reason": "开篇通过“救命-聘妻-组队”快速建立了核心人物关系和主要目标（进京复仇/夺权），信息组织紧凑，人物行动驱动叙事，形成了较强的阅读期待。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-1",
+            "quote": "沈小满：（河东狮吼）住手！光天化日，朗朗乾坤，你们是想欺压良善吗？！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 4,
+          "reason": "开篇第1-2集迅速建立了“落魄将军+泼辣女子”的强反差人设，并通过“买妻”这一核心冲突快速切入主线，节奏紧凑，人物动机（复仇与生存）明确，有效建立了阅读期待。",
+          "evidence": {
+            "episode": "第1集",
+            "scene": "1-2",
+            "quote": "沈小满：（伸出一根手指）我要你买我。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "中后段节奏",
+      "mean": 3,
+      "minimum": 2,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束，如地宫决战与最终解毒。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-2",
+            "quote": "沈小满：那就让这腐朽的皇城，一起埋了你吧！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 2,
+          "reason": "中后段（20集后）陷入“解毒-身世揭秘-再解毒-再揭秘”的循环，节奏拖沓。高潮部分（地宫决战）缺乏充分的情绪蓄力，主要依赖动作场面而非情感爆发，导致高潮失力。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-1",
+            "quote": "顾九：满姑娘，有句话我犹豫许久，如今不得不说了。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "中段（第15-30集）商业线与复仇线交织，节奏尚可，但第31-40集的天牢线与地宫线略显拖沓，部分情节（如阿笙偷账本、大熊拆墙）重复使用“声东击西”套路，情绪积累不足。",
+          "evidence": {
+            "episode": "第39集",
+            "scene": "39-2",
+            "quote": "大熊：（深吸一口气，肌肉紧绷如铁）放心，我拿捏得住。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "目标情绪曲线",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺，如萧烈中毒、沈小满献血、地宫坍塌等。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "沈小满（声音颤抖）：萧烈，你的命是我的，没我允许，你敢死试试！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "目标情绪（爽感/复仇/爱情）基本贯穿，但曲线较为平直。缺乏深层的情感转折（如信任危机、价值观冲突），主要依靠外部冲突的升级来维持情绪，蓄力和爆发较为常规。",
+          "evidence": {
+            "episode": "第42集",
+            "scene": "42-1",
+            "quote": "萧烈（下巴抵在她发顶，声音沙哑且坚定）：你的命，你自己守。我的毒，我自己抗。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "整体情绪曲线以“爽感”为主，高潮点（如第13集宗祠、第45集阅兵）有爆发力，但低谷期（如第25-27集萧烈毒发）的情感铺垫略显生硬，沈小满的“牺牲”更多是剧情需要而非情感自然流露。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "沈小满：忍住了，这是“血引”，我给你续命！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_emotion",
+      "unit_label": "情节规划/情绪节奏",
+      "criterion": "连续期待分布",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现，如庞氏倒台、赵家覆灭、权臣兵变等。",
+          "evidence": {
+            "episode": "第36集",
+            "scene": "36-1",
+            "quote": "国师（声音陡然拔高，尖细刺耳）：萧烈私通敌国，密谋造反！证据确凿，罪不容诛！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "大部分集末有明确的后续问题（如解毒、身世、复仇），但类型单一（多为“如何打败反派”或“如何解毒”），缺乏多线并行的期待链，兑现往往直接且缺乏余韵。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-1",
+            "quote": "顾九（从袖中抽出一张泛黄羊皮卷）：这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "集末悬念设置基本有效（如第20集身世揭秘、第36集萧烈入狱），但部分悬念（如“钥匙”的具体含义）在后续集中反复解释，缺乏新的信息增量，导致期待感衰减。",
+          "evidence": {
+            "episode": "第20集",
+            "scene": "20-1",
+            "quote": "顾九：（从袖中抽出一张泛黄羊皮卷）这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "情节量与信息分布",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "总体均衡，重点阶段能够有意识地增减密度，如京城篇信息密集，江南篇节奏放缓。",
+          "evidence": {
+            "episode": "第57集",
+            "scene": "57-1",
+            "quote": "顾九：（眼皮不抬）满姑娘大驾光临，不知有何贵干？是医馆风水不好，还是药费太贵？"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "情节量分布基本可接受，但部分集数（如16-19集的商业线）与主线（复仇/夺权）连接较松，信息密度在“身世揭秘”部分过于集中，而在“日常互动”部分过于稀疏。",
+          "evidence": {
+            "episode": "第16集",
+            "scene": "16-1",
+            "quote": "沈小满（嗤笑一声）：八十万？庞氏那点家底连个零头都凑不齐。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "信息分布基本均衡，但“龙脉之血”与“前朝宝藏”的设定在第20集、第29集、第33集、第41集、第49集多次重复揭示，信息冗余度高，影响叙事效率。",
+          "evidence": {
+            "episode": "第41集",
+            "scene": "41-1",
+            "quote": "顾九：解药有，但不是凡间的药材。而是你的血。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "停滞与注水",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，无明显注水。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-2",
+            "quote": "旧部：（从怀里掏出一张皱巴巴的皇榜，声音发颤）小的不成器，但这几年，小的儿子考上了乡试，成了秀才！"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主线总体推进，但存在局部注水。例如多次重复的“解毒-毒发”场景，以及沈小满与萧烈之间反复的“误会-解释-和好”循环，缺乏实质性的关系或局面变化。",
+          "evidence": {
+            "episode": "第26集",
+            "scene": "26-1",
+            "quote": "沈小满（咬牙忍耐剧痛）：我不怕！你听我说，顾九说过，至亲之血可暂时压制。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "第16-18集的商业线（卖粗布）与主线复仇关联较弱，存在一定程度的注水嫌疑，但通过引入黑风煞帮等角色，勉强维持了剧情推进。",
+          "evidence": {
+            "episode": "第17集",
+            "scene": "17-1",
+            "quote": "沈小满：大熊，量体要准。这衣服是给军属穿的，不是给官家小姐看的。"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "副线整合",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线，如旧部赵铁柱的副线在结尾回收。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-3",
+            "quote": "旧部之子：（一身崭新的青衫，气宇轩昂，拱手作揖）萧伯伯，今日一别，侄儿便将赴京赶考。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "副线（如绸缎庄经营、旧部赵铁柱）基本有功能，但部分内容可压缩。副线与主线的连接主要依靠“提供资金/情报”或“情感点缀”，缺乏深度的因果联动。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-2",
+            "quote": "旧部：（从怀里掏出一张皱巴巴的皇榜，声音发颤）小的不成器，但这几年，小的儿子考上了乡试，成了秀才！"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "副线（商业、旧部）基本服务于主线，但整合度不高。例如第58集旧部赵铁柱的回归，对主线（萧烈与沈小满的关系、复仇结局）的推动力有限，更多是情感点缀。",
+          "evidence": {
+            "episode": "第58集",
+            "scene": "58-2",
+            "quote": "旧部：（从怀里掏出一张皱巴巴的皇榜，声音发颤）小的不成器，但这几年，小的儿子考上了乡试，成了秀才！"
+          }
+        }
+      ]
+    },
+    {
+      "unit": "plot_structure",
+      "unit_label": "情节规划/情节结构",
+      "criterion": "主线推进与阶段兑现",
+      "mean": 3.33,
+      "minimum": 3,
+      "maximum": 4,
+      "samples": [
+        {
+          "reviewer_id": "R01",
+          "rating": 4,
+          "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现，如从复仇到守护的转变。",
+          "evidence": {
+            "episode": "第60集",
+            "scene": "60-2",
+            "quote": "萧烈：（低头轻吻沈小满的额头，目光越过她望向远方）从前以为活着是复仇，现在才知道，活着是陪你们晒太阳。"
+          }
+        },
+        {
+          "reviewer_id": "R02",
+          "rating": 3,
+          "reason": "主线（复仇/夺权/解毒）基本清楚，阶段目标大多成立，但升级和转折力度不稳定。例如“龙脉之血”的设定多次反转，导致主线逻辑出现断裂，阶段兑现往往依赖巧合或反派降智。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-2",
+            "quote": "沈小满：信不信由你。这滴血下去，你所有的算计都得跟着陪葬。"
+          }
+        },
+        {
+          "reviewer_id": "R03",
+          "rating": 3,
+          "reason": "主线（复仇+解毒）推进清晰，阶段目标（夺回将军府、扳倒赵家、击败国师）基本兑现，但兑现方式过于依赖主角的“金手指”（撒泼、武力、身世），缺乏对反派有效反制的描写，导致主线张力不足。",
+          "evidence": {
+            "episode": "第50集",
+            "scene": "50-2",
+            "quote": "沈小满：那就让这腐朽的皇城，一起埋了你吧！"
+          }
+        }
+      ]
+    }
+  ]
+}

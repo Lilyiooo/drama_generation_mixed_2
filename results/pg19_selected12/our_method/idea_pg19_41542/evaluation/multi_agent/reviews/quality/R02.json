@@ -1,0 +1,372 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R02",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角罗斯的人物弧光完整且深刻，从求生者到复仇者再到社会行动者的转变逻辑严密，内在矛盾（母性与复仇、生存与道德）被充分戏剧化。配角格特鲁德、文森特及反派爱德华、多莉均具有鲜明的辨识度和不可替代的功能。人物关系（罗斯与格特鲁德、罗斯与文森特）张力十足，情感绑定通过具体事件（火灾、囚禁、审判）得到有力证明。情节规划方面，桥段递进清晰，情绪节奏张弛有度，主线推进与阶段兑现有效，副线（社会互助）与主线（复仇/审判）形成良好的互文与整合。台词风格化设计明显，视觉化描写具备较强的可拍摄性。整体质量显著高于同题材常规水平。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（潜入、追踪、逃脱）大多承担不同功能，通过新变量（如从物理潜入到网络战，再到法律战）形成有效变奏。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-1",
+        "quote": "罗斯深吸一口气，将电击器对准门锁电路接口，狠狠按下。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手（多莉的家族势力、爱德华的暴力/科技控制、法律/社会偏见）代表不同资源与压力类型，迫使主角采用不同策略（伪装、黑客、舆论/法律）。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "首席精神科医生：（并未正眼瞧罗斯，翻看着文件）爱德华家族的诉求很明确。我们需要评估这位女性的认知功能是否受损..."
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择或风险增量，顺序具有明显因果。例如从发现文森特假死到潜入疗养院，再到最终审判，每一步都压缩选择或扩大后果。",
+      "evidence": {
+        "episode": "第27集",
+        "scene": "27-1",
+        "quote": "罗斯的瞳孔剧烈收缩。手中的推车把手被捏得咯吱作响，指节因用力过度而泛白。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物（罗斯的冷静与母性）、情境（被追杀）、核心问题（文森特假死/家族阴谋）和目标情绪（紧张/悬疑），叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯眼神如冰，手稳如铁，精准地锯断排油烟机下方连接主通风道的白色PVC管道接口。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标（获取证据、潜入、反击）和小高潮（火灾、海上豪宅对峙）推进，后段完成充分升级（审判、社会行动）与收束。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-2",
+        "quote": "爱德华猛地按下按钮。远处海面传来一声沉闷的闷响..."
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷（火灾、囚禁、审判）有铺垫，高潮兑现主要情绪承诺（复仇的快感与代价，最终的释然）。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-2",
+        "quote": "罗斯抬起头，阳光穿过树叶的缝隙，斑驳地洒在她脸上。她没有笑，但紧绷了数个日夜的肩膀，终于松弛下来。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化（悬疑、动作、情感、法律），并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-2",
+        "quote": "爱德华：（低声自语）让我们看看，是谁在救谁。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段（潜入、高潮对峙、审判）能够有意识地增减密度，信息释放与戏剧阶段匹配。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "屏幕上跳出的不是流水账，而是一连串复杂的医学图表、脑波频谱分析和神经元连接示意图。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果，几乎没有无功能段落。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "格特鲁德：（盯着罗斯的眼睛）我不需要烈士，我需要能活着把人救出来的战友。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（社会互助/基金建立）稳定补充人物（罗斯的成长）、信息（爱德华的后续影响）、冲突（长兄的威胁），并在关键节点反哺主线（提供法律/社会支持）。",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "罗斯：从今往后，爱德华留下的不再是毒药，而是盾牌。我们不再是等着被清理的垃圾，我们是守护者。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现（从假死真相到永生计划，再到法律审判）。",
+      "evidence": {
+        "episode": "第54集",
+        "scene": "54-1",
+        "quote": "法官：被告人爱德华·索恩，犯故意杀人罪、非法拘禁罪及巨额洗钱罪。证据确凿，情节特别恶劣，社会危害极大。判处无期徒刑..."
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R02-E001",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角罗斯具有完整且深刻的人物弧光，起点缺陷（创伤/孤立）、关键转折（发现假死、火灾、审判）和终点变化（社会行动者）均有证据，变化由强驱动事件逼出主动选择并产生不可逆后果。",
+      "reason": "符合S级锚点：起点缺陷或信念、至少两个关键转折和终点变化均有证据；每次变化都由强驱动事件逼出主动选择并产生不可逆后果，显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-1",
+        "quote": "罗斯：从今往后，爱德华留下的不再是毒药，而是盾牌。我们不再是等着被清理的垃圾，我们是守护者。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "罗斯擦去脸颊上的血迹与灰尘，眼中的惊恐褪去，取而代之的是一种冷酷的决绝。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E002",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角罗斯的内在矛盾（母性与复仇、生存与道德）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化。",
+      "reason": "符合S级锚点：内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-1",
+        "quote": "罗斯的眼神从瞬间的崩溃凝固为一种极度危险的冰冷。她猛地捏碎手机屏幕，将其塞回最内层贴身口袋，紧贴心脏位置。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-2",
+        "contrast_quote": "起初，喉咙里只有破碎的气音。紧接着，一种压抑到极致的呜咽从指缝间溢出。她没有尖叫，没有挣扎，只是浑身止不住地发抖，眼泪瞬间浸透了袖口，滴落在木地板上。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E003",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色（格特鲁德、文森特、爱德华、多莉）各有不可替代的专属功能，分工形成有效协作或对冲。",
+      "reason": "符合A级锚点：主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "格特鲁德：（盯着罗斯的眼睛）我不需要烈士，我需要能活着把人救出来的战友。如果你死了，这把钥匙就是一块废铁。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E004",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（罗斯与格特鲁德、罗斯与文森特）同时存在至少三类相互咬合的张力来源（身份立场、目标利益、情感依赖、秘密误会和价值冲突），移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "符合S级锚点：核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "格特鲁德：（按住罗斯的手，力道很大）我不走。我在老地方等你。这是命令。",
+        "contrast_episode": "第56集",
+        "contrast_scene": "56-2",
+        "contrast_quote": "文森特（耳语，气息拂过罗斯的发梢）：我们不再是一个人面对。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E005",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "符合S级锚点：核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第9集",
+        "scene": "9-1",
+        "quote": "罗斯：带着孩子，去安全屋。别回头！",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-1",
+        "contrast_quote": "格特鲁德：今天的苹果很甜。我想，你们需要一点甜味来抵消过去日子的苦涩。"
+      }
+    },
+    {
+      "entry_id": "quality-R02-E006",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境或戏剧问题，信息清晰、题材一致，并通过人物行动形成强后续期待。",
+      "reason": "符合A级锚点：人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "罗斯眼神如冰，手稳如铁，精准地锯断排油烟机下方连接主通风道的白色PVC管道接口。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E007",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "符合A级锚点：核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "她确认了：死者不是文森特。这是一个骗局。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E008",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "hooks_continuity",
+      "kind": "highlight",
+      "category": "集间承接与兑现整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "reason": "符合A级锚点：多数关键边界问题清楚，承接自然，主要悬念和冲突有效兑现，情感投入持续累积。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-2",
+        "quote": "爱德华VO（清晰，穿透噪音）：……旧码头。三号仓库。在那里，没人会找得到他。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E009",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "reason": "符合A级锚点：关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "格特鲁德：洗掉你身上的穷酸味和血腥气。我的地板和马桶受不了那个。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E010",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "场景与动作描写质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "描写清晰、画面感强，关键动作和情绪状态可由导演与演员直接执行。",
+      "reason": "符合A级锚点：描写清晰、画面感强，关键动作和情绪状态可由导演与演员直接执行。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-2",
+        "quote": "她趴在泥水中抽搐，喉咙里发出痛苦的呜咽。但她很快止住声音，颤抖着从裤腿撕下一块布料。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R02-E011",
+      "dimension": "quality",
+      "reviewer_id": "R02",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "符合A级锚点：设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "文档中描述了一种通过高精度电极侵入大脑皮层，将人类意识数据化并上传至云端的技术方案。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

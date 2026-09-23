@@ -1,0 +1,306 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "剧本在人物塑造上展现了极高的完成度。主角迪克通过“结构/木工”这一核心隐喻，建立了极具辨识度的语言体系与行为模式，其冷酷外表下的责任感与对“秩序”的坚守构成了清晰的人物弧光。配角罗杰与梅休的弧光设计精准，分别代表了“冲动/成长”与“恐惧/觉醒”，与主角形成有效的功能互补与情感张力。反派拉斯克尔虽戏份有限，但通过“掠夺/破坏”与主角的“修复/重建”形成鲜明对照。主要问题在于部分配角（如贾斯珀）前期功能单一，以及个别情节（如法庭机关）略显刻意，但整体人物关系与角色功能服务于主线，质量较高。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如迪克利用结构弱点破局）在不同场景（修图腾、拆炮架、破牢房）中承担了不同功能（建立信任、军事胜利、逃生），通过新变量（对象、环境、目的）形成有效变奏，避免了简单重复。",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "迪克（指着支架底部）：那一块销钉，就是它的脖子。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 3,
+      "reason": "对手体系基本可区分：苏族代表文化/信仰阻力，法国雇佣兵代表暴力/军事阻力，拉斯克尔代表法律/经济阻力。但部分阶段（如峡谷战）中，不同敌人的压迫方式（枪击、陷阱）存在一定功能重复。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-1",
+        "quote": "科瓦（从雾中走出，声音冷冽）：想死的话，他会先送你上路。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景（如第13-15集修图腾，第39-40集拆炮架）均带来明确的信息（拉斯克尔罪行）、关系（苏族信任）或局面（军事优势）增量，顺序具有明显因果，推动主线从逃亡转向反击。",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "科瓦（看着迪克）：不仅树站住了，人也站住了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "第1-2集高效建立了迪克的人物特征（冷静、工匠思维）、核心问题（地契丢失、家人受困）和异常情境（黄石荒野），叙事方向清晰，迅速进入逃亡与求生状态。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "迪克（冷冷）：让出一条路，否则我会拆了这扇门。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段依靠阶段目标（修图腾、获取地图、挖井）和小高潮（梅休觉醒、罗杰独立）推进，后段完成充分升级（法庭审判、最终决战）与收束（重建、纪念），节奏张弛有序。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-2",
+        "quote": "迪克（被泥水冲退，滑跪在地，却发出一声狂笑）：水！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，从初期的压抑/恐惧，到中期的紧张/希望，再到后期的悲壮/释然。关键峰谷（如梅休之死、罗杰被俘）有充分铺垫，高潮兑现了“牺牲与重生”的情绪承诺。",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "迪克（嘶吼声震碎了凝固的烟尘）：梅休！！！"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定，类型有变化（生存悬念、情感悬念、真相悬念），并在合理时点有效兑现（如地契真伪、梅休生死），形成持续的阅读动力。",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "迪克（捡起地图，展开看了一眼，嘴角微微上扬）：谢了，朋友。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段（如法庭戏、决战戏）有意识地增加密度，过渡阶段（如赶路、休整）适当疏缓，服务理解与蓄力。",
+      "evidence": {
+        "episode": "第52集",
+        "scene": "52-1",
+        "quote": "法官（猛然加力试图签字）：以……以法律之名……"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量（新信息、新关系、新目标），必要铺垫（如梅休的恐惧、罗杰的冲动）服务后续结果，无明显注水。",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-3",
+        "quote": "罗杰（闭眼，猛扑上前）：为了活着！"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线（苏族内部矛盾、记者线索）稳定补充人物、信息、冲突，并在关键节点（科瓦结盟、法庭证据）反哺主线，形成互文。",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-2",
+        "quote": "迪克（站起身，抹去脸上的木屑，直指科瓦）：这是谋杀。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线（夺回地契/正义）持续产生新目标、新阻力、新信息和新局面，阶段看点（生存、结盟、审判）有效兑现，每次兑现都改变局面。",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "法官（瘫软在座椅上，绝望低语）：舆论……民意沸腾了。我签不了这个字了！"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角迪克拥有极高的辨识度，其“结构/木工”隐喻贯穿语言、行为与价值观，形成独特的角色标识。",
+      "reason": "S级亮点：主角有稳定的专属性格（冷静、理性）、语言习惯（大量使用木工/结构术语比喻）、行为模式（观察、分析、修复）和价值选择（秩序高于暴力）。替换成其他角色后，关键台词与决策无法成立。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "迪克：我不救木头，我救结构。结构碎了，我们都得死。",
+        "contrast_episode": "第14集",
+        "contrast_scene": "14-2",
+        "contrast_quote": "迪克：我在缝合尊严。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "迪克的人物弧光完整，从“冷漠的秩序维护者”转变为“有温度的守护者”，关键转折由事件驱动。",
+      "reason": "A级亮点：起点（冷漠、控制欲强）、转折（梅休之死、罗杰成长）、终点（接纳团队、情感外露）可识别。关键转折（如第43集梅休死后）具有事件驱动和主动选择（复仇/守护），产生不可逆后果（团队凝聚力增强）。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-2",
+        "quote": "迪克（声音死寂，空洞得可怕）：路断了，贾斯珀。梅休把路修好了。",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-3",
+        "contrast_quote": "迪克（低声）：梅休。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "迪克具有内在矛盾（冷酷外表vs.保护欲），通过两难选择（如牺牲梅休的仪器、流放罗杰）戏剧化。",
+      "reason": "A级亮点：有明确内在矛盾（理性生存vs.人性情感），存在有效两难（第28集牺牲梅休仪器、第30集流放罗杰），并承担了后果（梅休怨恨、罗杰独立成长），提高了人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "迪克（抓起梅休胸前的仪器，猛地解下绳结）：别吵了。",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-1",
+        "contrast_quote": "迪克（背对他，声音没有任何起伏）：明天太阳升起时，你从这里滚出去。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "配角罗杰与梅休功能明确，分别承担“成长/冲动”与“觉醒/恐惧”功能，与主角形成有效协作与对冲。",
+      "reason": "A级亮点：主角配置清晰，重要角色功能明确并推动主线。罗杰从废物到独立猎人，梅休从懦夫到牺牲者，两人弧光清晰，反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第31集",
+        "scene": "31-3",
+        "quote": "罗杰（闭眼，猛扑上前）：为了活着！",
+        "contrast_episode": "第18集",
+        "contrast_scene": "18-1",
+        "contrast_quote": "梅休（冷笑）：废物死了。活下来的，是梅休。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "迪克与罗杰、梅休的关系存在多重张力（控制/反抗、冷漠/依赖、信任/背叛），支撑主线情感。",
+      "reason": "A级亮点：核心关系存在至少两类明确张力来源（情感依赖、价值冲突、秘密误会），能够稳定支撑主线或重要副线。例如迪克与梅休的“工具/人”张力，迪克与罗杰的“控制/自由”张力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "梅休（眼眶通红，咬牙切齿）：你把我当什么？工具吗？",
+        "contrast_episode": "第30集",
+        "contrast_scene": "30-1",
+        "contrast_quote": "罗杰（瘫坐在地上，面如死灰）：你真的……要抛弃我？"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点和关键里程碑（如梅休觉醒、罗杰独立），关系推进构成叙事动力。",
+      "reason": "A级亮点：核心关系有清晰起点（陌生人/囚徒）、至少一个关键里程碑（梅休牺牲、罗杰成长）和阶段变化，能够增强主线情感投入。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第43集",
+        "scene": "43-1",
+        "quote": "梅休（眼神变得异常清亮）：路……在这里……",
+        "contrast_episode": "第60集",
+        "contrast_scene": "60-3",
+        "contrast_quote": "罗杰（苦笑）：现在知道了，是因为你把我们当成最坚固的承重柱，所以才把我们修得那么狠。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "配角贾斯珀前期功能单一，主要承担“证人/受害者”功能，个人目标与选择逻辑较弱。",
+      "reason": "B级问题：角色能局部推动剧情（提供证词），但主要围绕帮助主角或解释信息运转，个人目标、mini弧光或独立情感价值不足，直到后期才有所转变。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "贾斯珀（颤抖）：地契……这还真的是真的？",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-2",
+        "contrast_quote": "贾斯珀：（捂着肩膀，大口喘息，眼神中再无恐惧）不……我是在保护证人。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "反派拉斯克尔动机可识别（贪婪/掠夺），但支撑较薄，主要依赖口头设定，与主角的对照、升级过程或关键压迫场面不足。",
+      "reason": "B级问题：动机或威胁功能可识别，但支撑较薄，主要依赖口头设定；与主角的对照、升级过程或关键压迫场面不足。拉斯克尔更多作为“障碍”存在，缺乏深层心理刻画。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-2",
+        "quote": "拉斯克尔（轻笑）：那是废纸，在这片无主的土地上。",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-1",
+        "contrast_quote": "拉斯克尔（站在高处安全台，狂笑）：看到了吗？这就是黄石的怒火！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本人物塑造整体完成度较高，主角沈小满与萧烈具备鲜明的性格标签、独特的语言习惯及清晰的行为模式，人物辨识度强。核心人物关系（沈萧）从利益绑定到生死相托的演进逻辑严密，情感张力足，具备S级亮点。配角团队（顾九、阿笙、大熊）功能分工明确，群像均衡。主要问题在于反派庞氏及国师在后期存在明显的“降智”与工具化倾向，为配合主角胜利而牺牲了逻辑自洽性；此外，部分配角（如阿笙）在关键剧情节点存在功能重叠或逻辑断裂。情节规划方面，主线推进清晰，阶段兑现有效，但中后段（30-40集）存在部分桥段重复（如多次潜入、多次毒发压制）及节奏拖沓现象。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 3,
+      "reason": "部分模式复用仍能产生一定信息、关系或情绪增量，但存在重复。",
+      "evidence": {
+        "episode": "第25集/第37集/第44集",
+        "scene": "萧烈毒发/假死/被控制",
+        "quote": "第25集萧烈毒发失控；第37集萧烈假死；第44集萧烈再次被药物控制假死。三次危机处理方式相似，均依赖沈小满/顾九的干预，缺乏新的变量。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 3,
+      "reason": "对手与阻力基本可区分，但部分阶段存在功能或解决方式重复。",
+      "evidence": {
+        "episode": "第10集/第36集/第45集",
+        "scene": "赵无极/国师/庞义",
+        "quote": "赵无极代表世俗权贵，国师代表神秘势力，庞义代表执行者。但后期国师与庞义的功能高度重叠，均作为“最终BOSS”的打手出现，缺乏独立的叙事价值。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。",
+      "evidence": {
+        "episode": "第12集/第13集/第14集",
+        "scene": "将军府入门/宗祠对峙/公开处刑",
+        "quote": "从破庙拜堂（确立名分）到宗祠揭发（掌握实权）再到街头公开处刑（社会性死亡），场景层层递进，每一步都压缩了庞氏的生存空间，结构紧凑。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪，叙事方向清晰。",
+      "evidence": {
+        "episode": "第1集/第2集",
+        "scene": "集市救人/结盟",
+        "quote": "第1集开场即展示萧烈中毒危机与沈小满的市井智慧，第2集迅速完成结盟，核心矛盾（复仇/解毒）与人物关系（利益/互补）在前三集内高效建立。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 3,
+      "reason": "主体节奏成立，但部分阶段偏慢、蓄力不足或收束偏急。",
+      "evidence": {
+        "episode": "第30集-第40集",
+        "scene": "潜入赵府/天牢营救",
+        "quote": "第30-32集潜入赵府获取账本，第37-39集天牢营救，两段剧情在“潜入-危机-脱身”的结构上高度相似，且中间穿插的锦绣阁经营线（16-19集）与主线复仇线存在割裂感，导致中后段节奏略显拖沓。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。",
+      "evidence": {
+        "episode": "第26集/第42集/第50集",
+        "scene": "血引解毒/烧密旨/地宫决战",
+        "quote": "第26集沈小满血引解毒（情感升温），第42集萧烈烧密旨（情感升华），第50集地宫决战（高潮爆发）。情绪曲线与情节升级配合良好，关键节点均有充分铺垫。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。",
+      "evidence": {
+        "episode": "第5集/第15集/第33集",
+        "scene": "进京/血刀门/通敌证据",
+        "quote": "第5集建立“进京复仇”期待，第15集引入“血刀门债务”新阻力，第33集揭露“通敌”真相。期待链持续递进，不同类型（情感/生存/政治）相互咬合。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 3,
+      "reason": "分布基本可接受，但部分集数过密或过疏，稳定性有限。",
+      "evidence": {
+        "episode": "第16集-第19集",
+        "scene": "锦绣阁经营",
+        "quote": "第16-19集集中描写锦绣阁从濒临破产到起死回生的过程，信息密度较高，但与主线复仇线的关联度较弱，导致这部分情节量显得过密且偏离核心。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 3,
+      "reason": "主线总体推进，但局部有可压缩的重复、过渡或低增量集数。",
+      "evidence": {
+        "episode": "第28集-第29集",
+        "scene": "密道陷阱/审讯刺客",
+        "quote": "第28集布置陷阱，第29集审讯刺客，两集内容在“设局-破局”的结构上重复，且审讯过程缺乏新的信息增量，可压缩。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 3,
+      "reason": "副线基本有功能，但部分内容可替换、可压缩或与主线连接较松。",
+      "evidence": {
+        "episode": "第16集-第19集",
+        "scene": "锦绣阁经营",
+        "quote": "锦绣阁经营线作为副线，主要功能是提供资金和情报，但与主线复仇线的连接较松，部分情节（如黑狗收编）可替换为其他资金来源，不影响主线逻辑。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。",
+      "evidence": {
+        "episode": "第12集/第22集/第36集/第50集",
+        "scene": "入门/射礼/入狱/地宫",
+        "quote": "主线从“入门立足”到“射礼反击”再到“入狱周旋”最后“地宫决战”，每个阶段都有明确的目标和阻力，且有效兑现，推动主线不断升级。"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角沈小满与萧烈具备鲜明的性格标签、独特的语言习惯及清晰的行为模式，人物辨识度极强。",
+      "reason": "沈小满的市井泼辣与精明算计（如“磕三个头，赔一百两封口费”）与萧烈的冷峻肃杀与隐忍（如“想要命，拿着战功来取”）形成强烈对比，语言风格与行为模式高度一致，替换成其他角色后关键台词与决策无法成立。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集/第1集",
+        "scene": "集市救人/地痞对峙",
+        "quote": "沈小满：磕三个头，赔一百两封口费，这事儿就算翻篇，否则我喊人铺满整条街！ / 萧烈：想要命，拿着战功来取。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角人物弧光完整，起点、转折与终点清晰，关键转折具有事件驱动和主动选择。",
+      "reason": "萧烈从“被仇恨驱动的将军”到“卸下重担的普通人”（第55集熔印），沈小满从“利益驱动的市井女子”到“生死相托的妻子”（第42集烧密旨）。关键转折（如第26集血引解毒、第42集烧密旨）均由强驱动事件逼出主动选择，并产生不可逆后果。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第55集/第42集",
+        "scene": "熔印/烧密旨",
+        "quote": "萧烈：如今，它该去犁地了。 / 萧烈：庞氏要的是国运，我要的只是你。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主角具备明确的内在矛盾及实质剧情展现，存在有效两难、脆弱呈现或犯错承担后果。",
+      "reason": "萧烈的内在矛盾（复仇与守护、将军身份与普通人渴望）通过第25集毒发失控、第42集烧密旨等场景充分戏剧化。沈小满的内在矛盾（利益与情感、生存与牺牲）通过第26集血引解毒、第41集试图逃离等场景展现。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第25集/第41集",
+        "scene": "毒发失控/试图逃离",
+        "quote": "萧烈：杀……杀光…… / 沈小满：我是钥匙，也是毒药。只要我不死，庞氏就会像饿狗一样咬住萧烈不放。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色功能明确并推动主线，反派威胁稳定，群像分配合理。",
+      "reason": "顾九（医官/情报）、阿笙（情报/潜入）、大熊（武力/护卫）分工明确，各有不可替代的专属功能。反派庞氏、赵无极、国师、庞义形成层级分明的阻力体系，持续制造推进力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第7集/第30集",
+        "scene": "大熊展示武力/阿笙潜入赵府",
+        "quote": "大熊：（结结巴巴，声音闷雷般滚过）萧……萧爷，我赔！这铁片子好硬，硌手，我、我不是故意的…… / 阿笙：（声音颤抖，带着哭腔）大……大人饶命。小人阿笙，太医院外的穷帮工。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主要反派庞氏及国师在后期存在明显的“降智”与工具化倾向，为配合主角胜利而牺牲了逻辑自洽性。",
+      "reason": "庞氏在第14集已被公开处刑，社会性死亡，但在第34集仍能组织官兵围堵将军府，且未采取更有效的反制措施（如直接刺杀或转移资产）。国师在第50集地宫决战中，面对萧烈的攻击，未采取更合理的防御或逃跑策略，而是选择同归于尽，动机停留在单一恶意，缺乏可追溯的利益或价值支撑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第34集/第50集",
+        "scene": "围堵将军府/地宫决战",
+        "quote": "庞氏：（突然扑通跪地，声音悲痛欲绝）大将军！沈氏是个克夫克家的妖女！ / 国师：既然……得不到宝藏……那就……一起下地狱！",
+        "contrast_episode": "第14集",
+        "contrast_scene": "公开处刑",
+        "contrast_quote": "庞氏躺在泥水中，听着周围如海浪般涌来的辱骂声，精神彻底崩溃，发出凄厉而绝望的嚎叫，双手无力地拍打地面，再也爬不起来。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系（沈萧）同时存在至少三类相互咬合的张力来源，移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "沈萧关系存在身份立场（将军与市井女子）、目标利益（复仇与生存）、情感依赖（互相利用到生死相托）、秘密误会（龙脉之血）等多重张力。这些张力相互咬合，推动主线情感逻辑不断升级。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集/第20集/第42集",
+        "scene": "结盟/身世揭露/烧密旨",
+        "quote": "沈小满：正妻？行啊。但我有个规矩，进了将军府，银子归我管，仇人归我揍。 / 顾九：你和萧烈，一阴一阳，或许只有你们二人的血，才能彻底解开‘业火寒’。 / 萧烈：我是萧烈，你是沈小满。不是兵器，不是钥匙，是夫妻。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "reason": "沈萧关系从第3集结盟（利益绑定）到第26集血引解毒（生死相托）再到第42集烧密旨（灵魂确认），关键里程碑因果紧密，关系推进本身构成连续叙事动力，增强主线情感投入。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集/第26集/第42集",
+        "scene": "结盟/血引解毒/烧密旨",
+        "quote": "萧烈：成交。 / 沈小满：引…… / 萧烈：庞氏要的是国运，我要的只是你。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机。",
+      "reason": "第1-2集高效建立萧烈中毒危机与沈小满的市井智慧，核心矛盾（复仇/解毒）与人物关系（利益/互补）清晰，信息组织流畅，形成继续阅读动机。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集/第2集",
+        "scene": "集市救人/结盟",
+        "quote": "萧烈：想要命，拿着战功来取。 / 沈小满：磕三个头，赔一百两封口费，这事儿就算翻篇，否则我喊人铺满整条街！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E009",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "reason": "核心矛盾（复仇/解毒）明确，阻力（庞氏/赵家/国师）有效，风险（死亡/通敌罪名）可感知，并形成情感（沈萧关系）与生存（解毒/复仇）两类稳定的后续期待。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集/第15集",
+        "scene": "结盟/血刀门债务",
+        "quote": "萧烈：成交。 / 阿笙：不止。不仅是抵押，还有赌约。若三日之内，萧家拿不出五千两现银赎当，这些产业连同萧将军的爵位诏书，都归血刀门所有。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E010",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "主要问题得到回答，但个别兑现过快、过轻或后果回收不足。",
+      "reason": "第33集揭露“通敌”真相后，第34集崔侍郎介入，第36集萧烈入狱，兑现过程较为迅速，且“通敌”罪名的后果（如朝堂震动、百姓反应）回收不足，缺乏更深层的因果影响。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第33集/第34集",
+        "scene": "揭露通敌/崔侍郎介入",
+        "quote": "沈小满：庞氏……赵无极将北境三关的布防图，通过庞氏的商队，卖给了敌国。 / 崔侍郎：封锁将军府！任何人不得出入。账本由本官贴身保管，明日晨时，三司会审。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E011",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "plot_scenes",
+      "kind": "issue",
+      "category": "事件/桥段非重复性",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "部分模式复用仍能产生一定信息、关系或情绪增量，但存在重复。",
+      "reason": "第25集、第37集、第44集三次萧烈毒发/假死/被控制，危机处理方式相似，均依赖沈小满/顾九的干预，缺乏新的变量，形成结构性重复。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第25集/第37集/第44集",
+        "scene": "萧烈毒发/假死/被控制",
+        "quote": "第25集萧烈毒发失控；第37集萧烈假死；第44集萧烈再次被药物控制假死。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E012",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "plot_emotion",
+      "kind": "issue",
+      "category": "中后段节奏",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "主体节奏成立，但部分阶段偏慢、蓄力不足或收束偏急。",
+      "reason": "第30-32集潜入赵府获取账本，第37-39集天牢营救，两段剧情在“潜入-危机-脱身”的结构上高度相似，且中间穿插的锦绣阁经营线（16-19集）与主线复仇线存在割裂感，导致中后段节奏略显拖沓。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第30集-第40集",
+        "scene": "潜入赵府/天牢营救",
+        "quote": "第30-32集潜入赵府获取账本，第37-39集天牢营救，两段剧情在“潜入-危机-脱身”的结构上高度相似。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E013",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "plot_structure",
+      "kind": "issue",
+      "category": "副线整合",
+      "severity": "B",
+      "behavior_rating": 3,
+      "points": 4.0,
+      "claim": "副线基本有功能，但部分内容可替换、可压缩或与主线连接较松。",
+      "reason": "锦绣阁经营线作为副线，主要功能是提供资金和情报，但与主线复仇线的连接较松，部分情节（如黑狗收编）可替换为其他资金来源，不影响主线逻辑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第16集-第19集",
+        "scene": "锦绣阁经营",
+        "quote": "沈小满：我不赎权，我赎“利”。我去锦绣阁收账盘货，只要产生现金流，血刀门那张网，就有漏洞。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E014",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度。",
+      "reason": "沈小满的台词充满市井智慧与泼辣（如“磕三个头，赔一百两封口费”），萧烈的台词冷峻肃杀（如“想要命，拿着战功来取”），顾九的台词专业冷静（如“阴煞入骨，业火焚心”），人物间表达差异清楚，增强角色辨识度。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第2集/第1集/第3集",
+        "scene": "集市救人/地痞对峙/结盟",
+        "quote": "沈小满：磕三个头，赔一百两封口费，这事儿就算翻篇，否则我喊人铺满整条街！ / 萧烈：想要命，拿着战功来取。 / 顾九：阴煞入骨，业火焚心。好毒。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E015",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "视觉名场面设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "有视觉设计意识和可记忆画面，但意象描写不完整或只在局部有效。",
+      "reason": "第12集破庙拜堂（红衣与破庙的对比）、第22集射礼断箭（空心箭的视觉冲击）、第50集地宫决战（青铜阵眼与血引）等场景具有视觉设计意识和可记忆画面，但部分意象描写（如龙脉之血的视觉呈现）不够完整。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集/第22集/第50集",
+        "scene": "破庙拜堂/射礼断箭/地宫决战",
+        "quote": "沈小满一身大红嫁衣，在夜色中如同一团燃烧的烈火，刺眼夺目。 / 沈小满：诸位看清楚了，这断口处，毛糙不堪。赵公子的箭，是纸糊的吗？ / 沈小满：以血为引，开门！",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R03-E016",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "reason": "“业火寒”毒、“龙脉之血”、前朝宝藏等设定分阶段释放，每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定，信息量始终可吸收。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集/第20集/第40集",
+        "scene": "结盟/身世揭露/禁书阁",
+        "quote": "顾九：阴煞入骨，业火焚心。好毒。 / 顾九：传说前朝宝藏开启，需至阴至阳交汇之血，也就是所谓的‘龙脉之血’。 / 顾九：庞氏权倾朝野，搜刮天下，并非为了金银。他们要的是开启前朝军布防图的权限。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    }
+  ]
+}

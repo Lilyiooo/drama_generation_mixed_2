@@ -1,0 +1,162 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R01",
+  "rationale": "剧本整体逻辑框架完整，主线清晰，角色动机与能力成长基本自洽。主要逻辑问题集中在：1. 关键道具（九幽寒玉）的获取与使用存在多处时空与因果矛盾（如第36集使用未获取的寒玉，第41集才获取完整寒玉）；2. 核心反派（王爷）的动机与行动存在断裂，前期铺垫不足，后期突然成为主要威胁；3. 部分角色状态（如陆离的失忆与恢复）处理略显仓促，缺乏足够的心理铺垫；4. 伏笔回收（如苏半夏身世）虽有铺垫，但揭示过程依赖巧合与集中口述，略显生硬。整体而言，剧本在商业类型片逻辑上表现良好，但在细节严谨性上仍有提升空间。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R01-E001",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "道具归属混乱",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "九幽寒玉的获取与使用存在时间线矛盾。第36集陆离使用寒玉压制毒性，但此时寒玉尚未被完整获取。",
+      "reason": "第36集陆离使用寒玉珠钗压制毒性，但根据前文，寒玉碎片在第39集才从祠堂牌位中获取，完整寒玉在第41集才从铁盒中获取。第36集的使用缺乏来源支撑。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "医神手持那枚镶嵌着九幽寒玉的珠钗，指尖微颤。他看向苏半夏，眼中闪过一丝决绝，随即深吸一口气，将珠钗尖端猛地抵住陆离眉心。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "牌位底座的夹层弹开，一块散发着幽幽蓝光的物体滑落出来，掉在秽物之中，竟未被沾染半分尘埃。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E002",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "前置信息缺口",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "王爷作为核心反派，其动机与行动缺乏充分铺垫。前期仅通过继母和赵尚书间接提及，后期突然成为主要威胁。",
+      "reason": "王爷在第41集才通过账本被确认为幕后指使者，但在此之前，其具体动机（如为何要切断北境防务、为何要谋反）缺乏明确交代。第49集王爷勾结北狄兵临虎牢关，但前文未充分铺垫其军事准备与政治布局。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第41集",
+        "scene": "41-2",
+        "quote": "智囊（手指点在几行红色朱批上）：更糟糕的是，资金流向显示，这笔钱并非来自国库，而是通过京城几大钱庄洗钱后，秘密汇入西郊废庙的一个私人账户。幕后指使者……正是王爷。",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-1",
+        "contrast_quote": "智囊（声音嘶哑，带着哭腔）：关外急报！黑石城破，镇远军全军覆没！王爷勾结北狄，已兵临虎牢关。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E003",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离失忆后性格突变，从冷酷将军变为孩童般天真，恢复过程缺乏足够的心理铺垫。",
+      "reason": "第53集陆离失忆后心智退回到孩童时期，第56集因刺客事件突然恢复记忆。虽然刺客事件提供了触发点，但记忆恢复的过程过于迅速，缺乏对陆离内心挣扎与情感重建的细腻描写。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第53集",
+        "scene": "53-1",
+        "quote": "医神（摇头，悲痛）：他忘了恩怨，忘了仇恨，甚至忘了如何杀敌。现在的他，心智退回到了孩童时期。但这空壳里，映出的只有你。",
+        "contrast_episode": "第56集",
+        "contrast_scene": "56-1",
+        "contrast_quote": "陆离：我记得了。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E004",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "foreshadowing",
+      "kind": "issue",
+      "category": "强行回收",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "苏半夏身世的揭示依赖集中口述与巧合，略显生硬。",
+      "reason": "第47集智囊、骗神、武神、医神集体揭示苏半夏身世，虽然前文有木雕小狗等伏笔，但揭示过程过于集中，缺乏分散的线索与角色互动，导致情感冲击力减弱。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "智囊（深吸一口气，单膝跪地，将残片双手奉上）：晚辈是苏姑娘母亲当年的书童。这位是骗神，姑娘母亲义子；这位是武神，姑娘母亲救命恩人之子；医神则受师命守护姑娘至今。",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-2",
+        "contrast_quote": "医神眼疾手快，捡起包裹，迅速打开。借着火光，他看到里面躺着一枚歪歪扭扭的木雕生肖——一只缺了耳朵的小狗。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E005",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "陆离中毒时间与寒玉获取时间存在矛盾。",
+      "reason": "陆离在第2集即被揭示身中奇毒，但寒玉作为解药的关键道具，直到第39集才首次出现。中间长达37集的时间跨度内，陆离的毒性压制与缓解缺乏合理解释。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "医神（低语）：离经叛道之毒。经脉尽断，活不过三年。",
+        "contrast_episode": "第39集",
+        "contrast_scene": "39-1",
+        "contrast_quote": "苏半夏快步上前，呼吸一滞。她看清了那物体的质地——那是九幽寒玉！虽然只是残片，但那股熟悉的极寒之气瞬间让周围燥热的空气凝固了一瞬。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E006",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "苏半夏的商战布局与陆离的军事行动形成双线并行，因果链清晰。",
+      "reason": "苏半夏通过商盟控制京城经济命脉，陆离在北境稳定军心，两者相互支撑，形成完整的反击链条。第58集苏半夏建立半夏商盟，第59集利用商盟断供对抗公主赐婚，因果逻辑严密。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第58集",
+        "scene": "58-2",
+        "quote": "苏半夏：我不仅是商盟盟主，更是京城皇商代表。今日之后，半夏商盟，便是京城的规矩。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-1",
+        "contrast_quote": "骗神（压低声音，嘴角微扬）：盟主，消息传出去了。京城‘锦绣坊’、‘翠玉楼’及三大酒肆，今日打烊。名义是‘内部盘点’，实则是您的断供令生效。"
+      }
+    },
+    {
+      "entry_id": "logic-R01-E007",
+      "dimension": "logic",
+      "reviewer_id": "R01",
+      "unit": "character_state",
+      "kind": "highlight",
+      "category": "能力状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "陆离的共生蛊能力设定前后一致，使用代价明确。",
+      "reason": "共生蛊能力在第5集首次揭示，后续每次使用均有明确代价（如第37集使用寒玉后经脉寸断，第52集苏半夏以血为引导致手指青黑）。能力边界清晰，未出现无代价使用或能力突然升级的情况。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "医神（面色凝重）：这毒已侵入经脉深处。常人沾他一滴血便是万蚁噬心，但在特定条件下……他的血是剧毒，也是解药。",
+        "contrast_episode": "第37集",
+        "contrast_scene": "37-1",
+        "contrast_quote": "医神（压低声音，语速极快）：陆将军，此针下去，千机毒与九幽寒玉会强行融合。半个时辰，你是修罗；半个时辰后，经脉寸断，九死一生。"
+      }
+    }
+  ]
+}

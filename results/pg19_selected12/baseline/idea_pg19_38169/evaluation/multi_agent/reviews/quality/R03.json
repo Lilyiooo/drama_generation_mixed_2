@@ -1,0 +1,306 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R03",
+  "rationale": "本剧本在人物塑造上存在严重的逻辑断裂与功能失调。主角伊莱亚斯的人设前后矛盾，从冷酷特工到自我牺牲的矛盾心理缺乏合理过渡；梅莉安作为核心受害者，其成长弧光被机械化的“被保护-被利用”循环所掩盖，缺乏主体性。配角西拉斯的功能定位模糊，在侦探与战士之间摇摆，且多次出现不合逻辑的受伤与恢复。人物关系缺乏深度，主要依赖利益与任务驱动，情感绑定薄弱。此外，剧本存在大量重复桥段（如摩斯电码、星形令牌、毒气室），导致人物在重复情境中缺乏新的反应与成长，严重影响了人物质量的评估。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 1,
+      "reason": "全剧大量重复使用摩斯电码、星形令牌、毒气室、神经干扰等桥段，且起因、过程、结果高度同质，缺乏新增量。",
+      "evidence": {
+        "episode": "第16集/第25集",
+        "scene": "16-1/25-1",
+        "quote": "摩斯电码解开了。坐标是地下军械库。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 2,
+      "reason": "主要对手“兄弟会”及其首领缺乏具体形象，阻力主要依赖单一的神经干扰和毒气，手段单一，缺乏差异化。",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "首领VO：伊莱亚斯，你看起来像个迷路的老狗。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 2,
+      "reason": "场景之间缺乏有效递进，多次在庄园书房、地下控制室之间反复横跳，信息增量低，导致叙事停滞。",
+      "evidence": {
+        "episode": "第20集/第32集",
+        "scene": "20-3/32-1",
+        "quote": "地下数据中枢 夜 人物：伊莱亚斯·索恩、梅莉安、西拉斯·瓦恩"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 3,
+      "reason": "开篇通过梅莉安被追杀和伊莱亚斯的冷漠建立基本情境，但核心问题（神经干扰）的建立稍显缓慢。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯（冷眼）：把伞收了。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 2,
+      "reason": "中后段存在明显的平淡段，大量篇幅用于重复的地下探索和毒气危机，高潮缺乏足够的蓄力。",
+      "evidence": {
+        "episode": "第40集-第50集",
+        "scene": "40-1",
+        "quote": "地下核心走廊 夜 人物：伊莱亚斯·索恩、梅莉安、西拉斯·瓦恩"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 2,
+      "reason": "目标情绪（恐惧、救赎）长期缺失铺垫，关键高潮（如伊莱亚斯牺牲）缺乏情感积累，导致情绪断裂。",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "伊莱亚斯OS：好重……但我终于……赢了……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 2,
+      "reason": "期待分布断档，多处集末问题（如摩斯电码）在下一集被重复或降格处理，连续叙事驱动力不足。",
+      "evidence": {
+        "episode": "第19集/第25集",
+        "scene": "19-1/25-1",
+        "quote": "是摩斯电码。短、短、长。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 2,
+      "reason": "情节量分布失衡，前段信息密集，后段大量重复地下探索，中段塌陷明显。",
+      "evidence": {
+        "episode": "第30集-第40集",
+        "scene": "30-1",
+        "quote": "庄园走廊 夜 人物：梅莉安、伊莱亚斯·索恩"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 1,
+      "reason": "大量集数（如第40-50集）没有新目标或结果，删除后主线几乎不受影响，存在严重注水。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "地下核心控制室 夜 人物：伊莱亚斯·索恩、梅莉安、西拉斯·瓦恩"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 2,
+      "reason": "副线（如西拉斯的调查、村民的觉醒）与主线连接松散，多次中断主线，回收较弱。",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "社区广场 / 庄园走廊 夜 人物：伊莱亚斯·索恩、梅莉安、村民甲"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 2,
+      "reason": "主线可识别，但多个阶段缺少新阻力或结果，阶段目标拖延且兑现不足，如“切断毒气”反复出现却未有效解决。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "地下阀门室 夜 人物：伊莱亚斯·索恩、梅莉安、西拉斯·瓦恩"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R03-E001",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物辨识度",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角伊莱亚斯的语言和行为模式缺乏稳定性，关键场景可替换性高。",
+      "reason": "伊莱亚斯在多数场景中表现为冷酷、命令式，缺乏独特的语言习惯或行为模式，与同题材特工模板人物高度重合。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "伊莱亚斯（冷眼）：把伞收了。",
+        "contrast_episode": "第35集",
+        "contrast_scene": "35-1",
+        "contrast_quote": "伊莱亚斯（握紧枪柄，指节发白）：首领。你终于肯现身了。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E002",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伊莱亚斯的人物弧光主要由外部事件驱动，缺乏内在信念的主动选择。",
+      "reason": "伊莱亚斯的变化（如从冷漠到牺牲）多由梅莉安的危机或首领的威胁被动引发，缺乏铺垫和主动选择，变化链条不成立。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第36集",
+        "scene": "36-1",
+        "quote": "伊莱亚斯（僵硬地伸出双手，缓缓将梅莉安拥入怀中）：对不起。",
+        "contrast_episode": "第55集",
+        "contrast_scene": "55-1",
+        "contrast_quote": "伊莱亚斯OS：好重……但我终于……赢了……"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E003",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伊莱亚斯的内在矛盾（愧疚与复仇）缺乏戏剧化展现，关键决策始终正确且无需付出代价。",
+      "reason": "剧本声明伊莱亚斯有创伤和愧疚，但很少通过两难选择、犯错或后果将其戏剧化，其决策始终导向“正确”结果，缺乏真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "伊莱亚斯（痛苦地抱住头，身体摇晃）：别说了……我承认……但我不会再犯。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-2",
+        "contrast_quote": "伊莱亚斯（怒吼）：去死吧！"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E004",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色配置合理性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "西拉斯与伊莱亚斯的功能重叠，主次分层不清，叙事重心分散。",
+      "reason": "西拉斯在侦探与战士之间摇摆，多次承担与伊莱亚斯相似的战术执行功能，导致角色分工模糊，叙事中心难以判断。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-2",
+        "quote": "西拉斯（眼神一凛，抽出匕首）：就是现在。",
+        "contrast_episode": "第31集",
+        "contrast_scene": "31-2",
+        "contrast_quote": "西拉斯（对着无线电急促喘息）：电梯门是被焊死的，我踹开了。现在我在顶层。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E005",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "首领动机停留在单一恶意，缺乏可追溯的利益、价值或创伤支撑。",
+      "reason": "首领的威胁主要依赖口头设定和神经干扰，缺乏具体的利益驱动或现实压力，动机单薄，且后期为让主角获胜而明显降智。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第35集",
+        "scene": "35-1",
+        "quote": "首领VO：我不需要现身。恐惧在阴影里才能生长。反抗总是徒劳的。",
+        "contrast_episode": "第43集",
+        "contrast_scene": "43-1",
+        "contrast_quote": "首领（轻蔑冷笑）：你以为你在救世界？不，你只是在延缓结局。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E006",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "核心关系主要靠利益与任务推进，缺乏关键行动、代价和后果证明真正绑定。",
+      "reason": "伊莱亚斯与梅莉安、西拉斯的关系多围绕“保护-被保护”和“任务执行”展开，缺乏通过具体事件进阶到信任、依赖或牺牲的深度情感绑定。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第28集",
+        "scene": "28-1",
+        "quote": "伊莱亚斯：（停顿片刻，从腰间的皮套中拔出一把战术匕首，刀锋在晨光下闪着寒光）听着，这不是商量，是命令。",
+        "contrast_episode": "第36集",
+        "contrast_scene": "36-1",
+        "contrast_quote": "伊莱亚斯（僵硬地伸出双手，缓缓将梅莉安拥入怀中）：对不起。"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E007",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "关系设计与张力",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "核心关系张力来源单一，主要依赖身份立场和目标利益。",
+      "reason": "伊莱亚斯与梅莉安、西拉斯的关系缺乏情感依赖、秘密误会或价值冲突等多类张力来源，移除该关系对主线情感逻辑影响有限。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-1",
+        "quote": "梅莉安：处刑？我看是你独断专行的借口！",
+        "contrast_episode": "第22集",
+        "contrast_scene": "22-1",
+        "contrast_quote": "西拉斯（看着伊莱亚斯，握紧拳头）：这就是你的赎罪？用更多人的恐惧来换取你的安宁？"
+      }
+    },
+    {
+      "entry_id": "quality-R03-E008",
+      "dimension": "quality",
+      "reviewer_id": "R03",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "关系推进",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "核心关系缺乏贯穿式演进，缺少强因果回收。",
+      "reason": "伊莱亚斯与梅莉安、西拉斯的关系推进多为局部变化节点，缺乏清晰的起终点和关键里程碑，关系推进本身未构成连续叙事动力。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-2",
+        "quote": "梅莉安（猛地睁开眼，神经质地盯着天花板）：他在骗我。",
+        "contrast_episode": "第59集",
+        "contrast_scene": "59-2",
+        "contrast_quote": "梅莉安（眼泪滑落，死死咬住嘴唇）：我不许你这么冷血……你是我唯一的亲人。"
+      }
+    }
+  ]
+}

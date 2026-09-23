@@ -1,0 +1,162 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体构建了较为完整的因果闭环，核心人物（伯莎、诺米诺埃）的动机与状态转换有明确的事件驱动（如蒂娜之死、诺米诺埃之死），伏笔（如护身符、金印、法典）回收基本到位。主要逻辑缺陷集中在：1. 关键道具（金印）的重复使用与销毁逻辑矛盾；2. 角色能力（伯莎的战术/情报能力）存在“知识来源缺失”与“能力状态断裂”（从文弱贵族到战术天才的突变缺乏合理铺垫）；3. 部分情节存在“危机解决作弊”（如伯爵轻易被油脂桶炸死/重伤后未交代后续）；4. 时间线与空间位移在部分逃亡/战斗场景中略显仓促。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "金印信在12集被明确烧毁，但在13集又出现金盘子被熔炼，且13集熔炼的似乎是同一批“贵族财富”，导致“金印已死”的符号意义被稀释，且13集熔炼金盘子做子弹的行为在物理与逻辑上过于儿戏（金太软，无法做子弹，且13集铁匠说“太脆会爆”却最后又成功，前后矛盾）。",
+      "reason": "12集明确“金印已死”，13集又熔炼金盘子，虽可解释为不同物品，但13集铁匠说“太脆会爆”后伯莎说“不会爆因为里面有灵魂”，随后又成功使用，属于典型的“危机解决作弊”与“资源状态矛盾”。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "伯莎：从现在起，伯莎·布卢埃尔内尔已死。",
+        "contrast_episode": "第13集",
+        "contrast_scene": "13-1",
+        "contrast_quote": "铁匠（递上布满气泡的粗糙子弹）：成了。但这玩意儿太脆，打出去会爆。伯莎（接过滚烫的子弹，放在掌心冷却）：不会爆。因为里面有灵魂。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "知识来源缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伯莎在逃亡初期（3-5集）展现出极高的战术素养（听声辨位、判断马匹负重、利用地形陷阱），但前文仅交代其为“贵族小姐”，虽有“贵族教育”的模糊暗示，但不足以支撑其具备如此专业的军事侦察与爆破知识，属于“知识来源缺失”。",
+      "reason": "A级：角色依靠未交代来源的专业知识完成关键判断与行动。贵族教育通常不包含沼泽爆破与骑兵战术侦察。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "伯莎（语速极快）：不止。那匹马上骑着的不是普通卫兵，他的盔甲有轻微晃动，说明左侧挂着重物——可能是火药桶或者重型弩箭。他们想定点爆破入口，逼我们出来。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-1",
+        "contrast_quote": "伯爵：那是荣耀！为了家族的政治豁免，你这点牺牲微不足道。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "能力状态断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "伯莎从“连鸡都杀不死”的娇弱贵族（4集）迅速转变为能指挥军队、制定复杂战术、甚至亲自开枪狙杀马匹的军事指挥官（38集），中间缺乏足够的训练或成长过程铺垫，能力升级过快。",
+      "reason": "A级：能力升级、觉醒或限制解除缺少关键过程、代价或触发条件。虽然中间有战斗经历，但从“文弱”到“战术天才”的跨度太大，且37集还在“学扣扳机”，38集就能精准狙击马鼻梁，逻辑跳跃明显。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "诺米诺埃（冷笑，刀刃微微用力，划破表皮）：大小姐？那个在晚宴上看着农民掉耳朵还要摆姿势的女人？",
+        "contrast_episode": "第38集",
+        "contrast_scene": "38-2",
+        "contrast_quote": "诺米诺埃（猛然扣动扳机，火枪轰鸣）：死！△ 子弹裹挟着白烟，精准地轰在联军先锋官坐骑的鼻梁上。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "伯爵在47集被油脂桶炸死/重伤，但51集又骑马出现，且未交代治疗过程。47集爆炸规模巨大（“恐怖的爆燃声如巨兽咆哮”），伯爵作为核心反派，其生死状态在后续集数中处理模糊，属于“危机解决作弊”或“生命状态断裂”。",
+      "reason": "B级：核心危机依靠未铺垫的新规则、新能力、新证据、天降救援或反派降智化解并改变主线。伯爵在爆炸中幸存且未受重伤，缺乏合理解释。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "△ 油脂遇火瞬间炸裂，恐怖的爆燃声如巨兽咆哮，热浪与油火瞬间吞没了走廊。",
+        "contrast_episode": "第51集",
+        "contrast_scene": "51-2",
+        "contrast_quote": "△ 伯爵骑马缓缓步入包围圈中心，猩红的披风在灰暗暮色中显得格外刺眼。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "时间线矛盾",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "55集伯莎在囚车中计算“还有八天七夜”到达巴黎，但56集直接出现在卢森堡监狱，58集直接审判，59集直接处决。从布列塔尼到巴黎的押送、审讯、审判、处决在极短时间内完成，且55集强调“八天七夜”的精神准备，后续却未体现这段时间的过渡，时间线被严重压缩。",
+      "reason": "B级：局部时间细节不一致，修改成本低且不影响主线。虽然可以解释为蒙太奇，但“八天七夜”的强调与后续的快速推进形成轻微矛盾。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第55集",
+        "scene": "55-1",
+        "quote": "伯莎：八天七夜，足够我在脑海里筑起一座比伯爵城堡更高的精神堡垒。",
+        "contrast_episode": "第56集",
+        "contrast_scene": "56-1",
+        "contrast_quote": "△ 冰冷的石室，阴风中摇曳的火把将两人的影子投射在满是霉斑的墙上。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "foreshadowing",
+      "kind": "highlight",
+      "category": "伏笔闭环",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "蒂娜的护身符作为核心情感道具，从15集蒂娜之死、16集诺米诺埃抢夺、18集诺米诺埃归还、53集诺米诺埃临终归还，形成了完整的情感闭环，有效推动了人物关系的变化。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。护身符的流转与人物情感变化紧密相连。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第15集",
+        "scene": "15-2",
+        "quote": "蒂娜（用尽最后力气塞给伯莎一枚染血护身符）：拿着这个……替我活下去！",
+        "contrast_episode": "第53集",
+        "contrast_scene": "53-1",
+        "contrast_quote": "诺米诺埃（用尽最后力气，将护身符塞入伯莎掌心，手指僵硬）：我在火海里……捡到了。我想把它还给你……作为最后的……和解。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E007",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "highlight",
+      "category": "因果链设计质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "诺米诺埃从“复仇者”到“自毁者”的转变，由蒂娜之死、伯莎的“法典”理想与现实的冲突、以及内部激进派的煽动共同驱动，因果链清晰，人物动机合理。",
+      "reason": "A级：主要转折因果清晰，前因充分支撑后果。诺米诺埃的极端化有充分的事件铺垫。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第16集",
+        "scene": "16-1",
+        "quote": "诺米诺埃（厉声）：是你！是你带来的一切！是你的傲慢把她推上了死路！",
+        "contrast_episode": "第49集",
+        "contrast_scene": "49-1",
+        "contrast_quote": "诺米诺埃（嘶吼着，眼中闪烁着狂热的光芒）：因为我以前太天真了！是你让我看到了人心有多烂，是这个世界教我要把仇恨烧得越旺越好！"
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "dimension": "logic",
+  "reviewer_id": "R02",
+  "rationale": "剧本整体逻辑存在严重断裂，主要问题集中在：1. 核心资产（保单/存单）前后矛盾且被银行无理没收，导致主角团陷入绝境缺乏合理依据；2. 关键剧情（哈里被绑架、莎拉倒台）依赖天降神兵（乔少校）和反派降智（莎拉自爆），缺乏因果铺垫；3. 角色状态（露丝的精神病、哈里的PTSD）在后期突然好转，缺乏治疗过程；4. 存在大量重复场景（乔少校求婚被拒、档案室潜入），严重影响叙事效率。",
+  "plot_behavior_ratings": [],
+  "ledger_entries": [
+    {
+      "entry_id": "logic-R02-E001",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "resource_state",
+      "kind": "issue",
+      "category": "资源消耗矛盾",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 10.0,
+      "claim": "核心资产（保单/存单）前后矛盾，且被银行无理没收，导致主角团陷入绝境缺乏合理依据。",
+      "reason": "第3集发现的是“生命险保单”，第9集变成“定期存单”，且金额从50英镑变为1万英镑。第11集银行以“精神鉴定”为由没收资产，但前文未建立此类规则，且没收后主角团仍无钱支付医疗费，逻辑断裂。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第3集",
+        "scene": "3-1",
+        "quote": "生命险保单……受益人是黑兹利……金额……",
+        "contrast_episode": "第9集",
+        "contrast_scene": "9-2",
+        "contrast_quote": "这是露丝藏了一辈子的定期存单。一万英镑现值。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E002",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "危机解决作弊",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "哈里被绑架危机依靠乔少校天降神兵解决，缺乏铺垫。",
+      "reason": "第33集乔少校突然出现并带枪，第34集利用预先布置的陷阱（松动车轮、油桶）解决打手，前文未交代乔少校有武器或预谋，属于天降救援。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第33集",
+        "scene": "33-2",
+        "quote": "乔·本森少校（拍了拍腰间的枪套，声音低沉）：武器很冷，但在这个肮脏的夜里，只有硬物才能说话。上车。",
+        "contrast_episode": "第34集",
+        "contrast_scene": "34-1",
+        "contrast_quote": "乔少校迅速踢开旁边一个隐蔽的松动车轮。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E003",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "character_state",
+      "kind": "issue",
+      "category": "性格动机突变",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "露丝的精神状态在后期突然好转，缺乏治疗过程。",
+      "reason": "前文露丝长期处于严重精神病状态（尖叫、抓挠、幻觉），第44集突然能平静地触摸木勺并表达情感，第50集甚至能微笑和编织花环，缺乏心理治疗或药物干预的铺垫。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-2",
+        "quote": "露丝（突然发出一声凄厉的尖叫，整个人僵直，仿佛灵魂出窍）：魔鬼！又是魔鬼的味道！",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "露丝（坐在轮椅上，眼神平和，甚至带着一丝温润的光泽）：最后一圈在头上呢，你要买得自己编。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E004",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "repetition",
+      "kind": "issue",
+      "category": "事件重复",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "乔少校求婚被拒场景重复，且档案室潜入情节重复。",
+      "reason": "第44集和第57-58集，乔少校两次求婚，弗洛拉两次用标本袋封存戒指，情节高度重复。第26集和第36集，弗洛拉两次潜入档案室，获取类似证据，缺乏新增信息。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第44集",
+        "scene": "44-2",
+        "quote": "弗洛拉（接过戒指，毫不犹豫地扔进那个薄薄塑料袋中）：用来封存腐烂。",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-1",
+        "contrast_quote": "弗洛拉（拿起戒指，仿佛在审视一件破损的餐具，指腹摩挲着冰冷的金属表面）：这是一份合同，乔先生。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E005",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "causality",
+      "kind": "issue",
+      "category": "关键转折因果断裂",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "莎拉倒台依靠哈里自爆和弗洛拉出示伪造档案，缺乏合理因果。",
+      "reason": "第39集哈里在广场自爆，第40集弗洛拉出示“伪造档案”导致莎拉被驱逐。但前文未交代莎拉为何会因哈里自爆而失去控制，且“伪造档案”如何能直接导致社区驱逐莎拉，缺乏逻辑支撑。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第39集",
+        "scene": "39-1",
+        "quote": "哈里（猛地将那份被弗洛拉藏起的“抢劫计划草图”抛向半空，任由其随风飘散）：没有社区长老的腐败，只有我的贪婪与懦弱。",
+        "contrast_episode": "第40集",
+        "contrast_scene": "40-1",
+        "contrast_quote": "弗洛拉（将厚厚一叠纸张摔在桌上）：这上面全是您的笔迹。看看这些日期，全是伪造的。"
+      }
+    },
+    {
+      "entry_id": "logic-R02-E006",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "knowledge_state",
+      "kind": "issue",
+      "category": "信息提前泄露",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "弗洛拉提前知道莎拉与乔少校的密谋，缺乏来源。",
+      "reason": "第10集弗洛拉从玛莎给的食品袋中发现纸条，记录着长老与乔少校之间大额金钱的密令转移路径。但前文未交代玛莎为何会提供此信息，且纸条内容过于具体，缺乏合理来源。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-2",
+        "quote": "纸条上赫然写着几行潦草字迹，记录着长老与乔少校之间大额金钱的密令转移路径。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "logic-R02-E007",
+      "dimension": "logic",
+      "reviewer_id": "R02",
+      "unit": "rules_spacetime",
+      "kind": "issue",
+      "category": "规则自毁",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "社区规则（精神污染驱逐）被随意打破，缺乏后果。",
+      "reason": "前文社区以“精神污染”为由驱逐黑兹利家，第40集后社区突然接纳黑兹利家并建立互助中心，缺乏规则变更的合理过程，且前文邻居的敌意突然消失，缺乏铺垫。",
+      "confidence": "中",
+      "evidence": {
+        "episode": "第18集",
+        "scene": "18-1",
+        "quote": "审查员（一脚踢开弗洛拉，踩碎了地上的白布，居高临下地咆哮）：这双鞋是伦敦定制的！你赔得起吗？黑兹利家！",
+        "contrast_episode": "第46集",
+        "contrast_scene": "46-1",
+        "contrast_quote": "邻居甲（探头探脑，眼神警惕）：黑兹利小姐？你们家真的……没有那种可怕的噪音了？"
+      }
+    }
+  ]
+}

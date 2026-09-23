@@ -1,0 +1,284 @@
+{
+  "dimension": "quality",
+  "reviewer_id": "R01",
+  "rationale": "本剧本在人物塑造上展现了极高的完成度。主角埃德蒙的“盲人”设定不仅是生理特征，更被转化为一种独特的感知系统（听觉/嗅觉）和权力工具，人物辨识度极高。人物弧光清晰，从被动防御到主动操控，再到道德困境（艾德里安事件）与最终的精神升华，逻辑严密。配角与反派（奥古斯汀、冯·克莱斯特）功能明确，反派塑造具有层次感，从伪善到崩溃的过程符合逻辑。人物关系（埃德蒙与艾德里安的裂痕与修复、埃德蒙与奥古斯汀的博弈）张力十足，情感绑定通过具体事件（如冰水勋章、地下牢房对峙）得到充分展现。整体人物质量显著高于常规水平，无明显硬伤。",
+  "plot_behavior_ratings": [
+    {
+      "unit": "plot_scenes",
+      "criterion": "事件/桥段非重复性",
+      "rating": 4,
+      "reason": "相似桥段（如埃德蒙通过气味/声音识破谎言）大多承担不同功能，通过新变量（管家、汉斯、奥古斯汀）和结果升级（从心理施压到政治清洗）形成有效变奏。",
+      "evidence": {
+        "episode": "第22集",
+        "scene": "22-1",
+        "quote": "埃德蒙：凑近点。别用眼睛看，用鼻子闻。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "对手与阻力的差异化",
+      "rating": 4,
+      "reason": "不同对手代表不同资源与压力类型：奥古斯汀代表宗教/道德审判，冯·克莱斯特代表世俗/政治清洗，汉斯代表旧贵族/经济利益，迫使主角采用不同策略（心理战、法律战、经济战）。",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-2",
+        "quote": "冯·克莱斯特：这不是魔法，这是愚蠢。"
+      }
+    },
+    {
+      "unit": "plot_scenes",
+      "criterion": "场景递进结构",
+      "rating": 4,
+      "reason": "主要场景带来信息、关系、选择、风险或情绪增量，顺序具有明显因果。例如从第8集管家试探到第11集管家崩溃，再到第12集管家臣服，层层递进。",
+      "evidence": {
+        "episode": "第11集",
+        "scene": "11-3",
+        "quote": "管家：（带着哭腔，对着空气磕头，额头撞击石板发出闷响）陛下……您都知道了……您不杀我……"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "开篇阶段节奏",
+      "rating": 4,
+      "reason": "高效建立人物、情境、核心问题和目标情绪。第1集通过埃德蒙的入场和冯·克莱斯特的羞辱，迅速确立了“盲人国王”的异常情境和核心冲突。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "中后段节奏",
+      "rating": 4,
+      "reason": "中段持续依靠阶段目标和小高潮推进，后段完成充分升级与收束。从政治博弈到道德困境，再到最终广场对峙，节奏张弛有度。",
+      "evidence": {
+        "episode": "第47集",
+        "scene": "47-2",
+        "quote": "艾德里安闭上眼睛，泪水无声地从眼角滑落，混合着脸上的灰尘。他却强行将枪口压低，没有开火。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "目标情绪曲线",
+      "rating": 4,
+      "reason": "情绪走向清晰，关键峰谷有铺垫，高潮兑现主要情绪承诺。埃德蒙的冷酷与艾德里安的痛苦形成强烈对比，最终在广场对峙中达到情感高潮。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "埃德蒙（声音无悲无喜）：血渍洗不掉。"
+      }
+    },
+    {
+      "unit": "plot_emotion",
+      "criterion": "连续期待分布",
+      "rating": 4,
+      "reason": "后续期待分布稳定、类型有变化，并在合理时点有效兑现。每一集末都留有悬念（如管家的求救信、奥古斯汀的名单），且后续集数有效回应。",
+      "evidence": {
+        "episode": "第10集",
+        "scene": "10-2",
+        "quote": "埃德蒙：（低声）去吧。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "情节量与信息分布",
+      "rating": 4,
+      "reason": "总体均衡，重点阶段能够有意识地增减密度。前期侧重心理博弈，中期侧重政治清洗，后期侧重道德与行动，信息分布合理。",
+      "evidence": {
+        "episode": "第17集",
+        "scene": "17-1",
+        "quote": "冯·克莱斯特：既然他的灵魂在演讲中找到了避难所，那我们就让他的肉体回归现实。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "停滞与注水",
+      "rating": 4,
+      "reason": "大多数集数都有明确新增量，必要铺垫和过渡服务后续结果。无明显注水集数，每集都推动主线或人物关系。",
+      "evidence": {
+        "episode": "第29集",
+        "scene": "29-1",
+        "quote": "埃德蒙：记住，维克多。这份名单不是为了揭露真相，而是为了制造内战。"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "副线整合",
+      "rating": 4,
+      "reason": "副线稳定补充人物、信息、冲突或主题，并在关键节点反哺主线。艾德里安的副线（道德困境）最终反哺主线（广场对峙），奥古斯汀的副线（宗教审判）也服务于主线。",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "艾德里安（嘶吼，声音哽咽）：那是人！陛下，那是活生生的人！你让我们把他们送进火坑，看着他们烧成灰，这就是你想要的胜利？"
+      }
+    },
+    {
+      "unit": "plot_structure",
+      "criterion": "主线推进与阶段兑现",
+      "rating": 4,
+      "reason": "主线持续产生新目标、新阻力、新信息和新局面，阶段看点有效兑现。从生存到反击，再到最终胜利，主线推进清晰。",
+      "evidence": {
+        "episode": "第60集",
+        "scene": "60-1",
+        "quote": "埃德蒙：（声音不大，却字字清晰）“吾等立誓，不为权杖折腰，不为利刃低头。吾之双手，仅用于守护无辜者之安宁……”"
+      }
+    }
+  ],
+  "ledger_entries": [
+    {
+      "entry_id": "quality-R01-E001",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "主角埃德蒙具有极高的辨识度，其“盲人”设定被转化为独特的感知系统（听觉/嗅觉）和权力工具，语言习惯（冷静、讽刺、精准）和行为模式（盲杖敲击、气味分析）贯穿全剧，替换成其他角色后关键台词与决策无法成立。",
+      "reason": "S级亮点：主角拥有稳定的专属性格、语言习惯、行为模式或价值选择，且这些特征在关键场景中不可替代。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第4集",
+        "scene": "4-1",
+        "quote": "埃德蒙：石头不会说话，但味道会。伯爵大人，你的雪茄太甜，盖过了铁锈的血腥气。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E002",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物弧光",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "埃德蒙的人物弧光完整，从被动防御（第1-3集）到主动操控（第8-12集），再到道德困境（第47-50集）与最终的精神升华（第56-60集），每次变化都由强驱动事件逼出主动选择并产生不可逆后果。",
+      "reason": "S级亮点：起点缺陷或信念、至少两个关键转折和终点变化均有证据；每次变化都由强驱动事件逼出主动选择并产生不可逆后果，显著支撑主线情感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "埃德蒙（声音无悲无喜）：血渍洗不掉。但热度没了。记住这种感觉，艾德里安。",
+        "contrast_episode": "第1集",
+        "contrast_scene": "1-2",
+        "contrast_quote": "埃德蒙（低声，平稳如冰）：只要我还站着，我就能听见。"
+      }
+    },
+    {
+      "entry_id": "quality-R01-E003",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物深度",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "埃德蒙的内在矛盾（冷酷与仁慈、权力与道德）在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，如第47集艾德里安事件中的道德困境，以及第56集面对难民时的自我反思。",
+      "reason": "S级亮点：内在矛盾在多个关键节点通过两难、脆弱暴露、犯错与承担后果被充分戏剧化，冲突欲望、恐惧和价值选择共同提高人物真实感。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第56集",
+        "scene": "56-2",
+        "quote": "埃德蒙：（轻笑，笑声干涩）所以我错了。我一直试图用法律去解释战争，用荣耀去抚慰创伤。但法律对断肢没有意义，荣耀填不饱肚子。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E004",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "角色功能整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "角色层级清晰，重要角色各有不可替代的专属功能。奥古斯汀代表宗教/道德审判，冯·克莱斯特代表世俗/政治清洗，汉斯代表旧贵族/经济利益，艾德里安代表道德困境与情感纽带，分工形成有效协作或对冲。",
+      "reason": "A级亮点：主角配置清晰，重要角色功能明确并推动主线；反派威胁稳定，群像分配合理。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第32集",
+        "scene": "32-2",
+        "quote": "冯·克莱斯特：这不是魔法，这是愚蠢。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E005",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_support",
+      "kind": "highlight",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "奥古斯汀的反派塑造具有层次感，从伪善的宗教审判者到崩溃的投机者，动机（权力、信仰、生存）可追溯，且与主角的对照、升级过程或关键压迫场面充分。",
+      "reason": "A级亮点：反派动机或威胁功能可识别，支撑较厚，与主角的对照、升级过程或关键压迫场面充分。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "奥古斯汀（气声，极低极轻）：Corpus moritur, animus renascitur……（肉身死亡，灵魂复生……）",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E006",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "埃德蒙与艾德里安的关系同时存在至少三类相互咬合的张力来源：身份立场（国王与臣子）、目标利益（政治胜利与道德底线）、情感依赖（信任与背叛），移除该关系会使主线情感逻辑明显坍塌。",
+      "reason": "S级亮点：核心关系同时存在至少三类相互咬合的张力来源，如身份立场、目标利益、情感依赖、秘密误会和价值冲突；移除该关系会使主线情感逻辑明显坍塌。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第48集",
+        "scene": "48-2",
+        "quote": "艾德里安（嘶吼，声音哽咽）：那是人！陛下，那是活生生的人！你让我们把他们送进火坑，看着他们烧成灰，这就是你想要的胜利？",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      }
+    },
+    {
+      "entry_id": "quality-R01-E007",
+      "dimension": "quality",
+      "reviewer_id": "R01",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "S",
+      "behavior_rating": null,
+      "points": 3.0,
+      "claim": "埃德蒙与艾德里安的关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑（第25集艾德里安被捕、第47集艾德里安违背命令）和明确回收（第50集冰水勋章、第56集广场对峙），关系推进本身构成连续叙事动力。",
+      "reason": "S级亮点：核心关系贯穿全剧，有清晰起终点、至少两个因果紧密的关键里程碑和明确回收，关系推进本身构成连续叙事动力。",
+      "confidence": "高",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-1",
+        "quote": "埃德蒙（声音无悲无喜）：血渍洗不掉。但热度没了。记住这种感觉，艾德里安。",
+        "contrast_episode": "第25集",
+        "contrast_scene": "25-2",
+        "contrast_quote": "埃德蒙：（低声，贴耳耳语）忍耐。记住我是谁。"
+      }
+    }
+  ]
+}

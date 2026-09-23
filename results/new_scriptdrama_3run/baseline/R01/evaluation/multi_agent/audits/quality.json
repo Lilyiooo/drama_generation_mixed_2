@@ -1,0 +1,519 @@
+{
+  "dimension": "quality",
+  "audited_entries": [
+    {
+      "audit_id": "quality-A001",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E001",
+        "quality-R03-E007"
+      ],
+      "status": "rejected",
+      "unit": "character_main",
+      "kind": "highlight",
+      "category": "人物辨识度",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 0.0,
+      "claim": "主角沈小满与萧烈具有鲜明的语言习惯、行为模式与价值选择，辨识度极高。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-1",
+        "quote": "沈小满：（尖叫）我是青石镇沈家沈大娘！你们收保护费，还要砍人？",
+        "contrast_episode": "第10集",
+        "contrast_scene": "10-1",
+        "contrast_quote": "沈小满：赖不掉也得赖，精神损失费，一百万两！"
+      },
+      "reason": "R01评为S级亮点，R03评为B级问题。经审核，沈小满的“撒泼”、“讹诈”、“精明”标签鲜明，萧烈的“冷峻”、“武力”标签清晰，符合基线要求。但R01声称“替换成其他角色后关键台词与决策需大幅修改”证据不足，部分台词（如“精神损失费”）具有通用性，未达到S级“显著高于同题材常规完成度”的标准。R03指出部分台词与模板相似，虽有一定道理，但整体辨识度已建立，不构成B级问题（B级要求“专属语言、标志行为不足”）。因此，该检查项处于基线成立状态，不建账。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A002",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E002",
+        "quality-R02-E001",
+        "quality-R03-E001"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物弧光不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角沈小满的弧光主要由外部事件（解毒、身世）被动带来，关键转折缺乏充分的内在信念主动转变铺垫。",
+      "evidence": {
+        "episode": "第19集",
+        "scene": "19-2",
+        "quote": "沈小满：（抽回手，站起身，恢复了冷淡的模样）别自作多情。救你，是因为你还有利用价值。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-1",
+        "contrast_quote": "沈小满（崩溃大哭，死死抱住萧烈的腰）：那你……你别死……"
+      },
+      "reason": "R01评为S级亮点，R02和R03评为A级问题。经审核，沈小满从“利益交换”到“生死相依”的转变主要发生在第42集萧烈撕毁密旨后。此前（如第19集）她多次强调“利用价值”，第41集决定离开也是基于“不想拖累”的被动选择，而非内在价值观的重塑。第42集的转变虽由强驱动事件（萧烈撕密旨）引发，但缺乏更长期的内在挣扎铺垫，符合A级问题“变化可识别，但主要由外部结果被动带来，关键转折缺少铺垫”的描述。R01的S级亮点评价过高，忽略了转变的突兀性。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A003",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E003",
+        "quality-R02-E002",
+        "quality-R03-E002"
+      ],
+      "status": "confirmed",
+      "unit": "character_main",
+      "kind": "issue",
+      "category": "人物深度不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角萧烈长期承担“武力担当”功能，内在矛盾（复仇vs生存）缺乏通过两难选择或犯错进行戏剧化展现，关键决策代价感弱。",
+      "evidence": {
+        "episode": "第23集",
+        "scene": "23-1",
+        "quote": "萧烈（低吼）：滚。△ 一股无形的杀气爆发，震得护卫甲手中兵刃脱手飞出。",
+        "contrast_episode": "第42集",
+        "contrast_scene": "42-1",
+        "contrast_quote": "萧烈：我要告诉这天下人，什么宝藏，什么前朝龙脉，在我萧烈眼里，都是狗屁！"
+      },
+      "reason": "R01评为S级亮点，R02和R03评为A级问题。经审核，萧烈的“复仇”动机贯穿全剧，但其内在矛盾（如第42集撕密旨）更多是情节推动的需要，缺乏更深层的心理两难或脆弱面的持续展现。他在多数场景中表现为“正确决策”和“武力解决”，缺乏因性格缺陷导致的错误及后果。符合A级问题“文本声明创伤或复杂性，却很少通过两难选择、犯错、后果或关系冲突将其戏剧化”。R01的S级亮点评价缺乏对萧烈内在挣扎的具体证据支持。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A004",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E004",
+        "quality-R02-E004",
+        "quality-R03-E003"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色功能有效性",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "配角（顾九、阿笙、大熊）功能单一，主要围绕帮助主角或解释信息运转，缺乏个人目标与独立情感价值。",
+      "evidence": {
+        "episode": "第7集",
+        "scene": "7-1",
+        "quote": "沈小满：他是前朝暗卫统领，杀人如麻，只是不想再沾血，才装疯卖傻。",
+        "contrast_episode": "第57集",
+        "contrast_scene": "57-1",
+        "contrast_quote": "顾九：（冷哼一声）治好了病人的腿，病人自然会在酒桌上把听到的瞎话都吐出来。"
+      },
+      "reason": "R01评为A级亮点，R02和R03评为A级问题。经审核，顾九主要承担“解说/医疗”功能，阿笙承担“情报”功能，大熊承担“武力/搞笑”功能。虽然第7集提到大熊的前朝背景，但后续极少展开其个人弧光或独立目标。他们的存在主要服务于主角团的行动，缺乏独立的戏剧冲突或情感深度。符合A级问题“多数重要角色只承担递线索、制造误会、衬托主角或推动转场等单一功能，缺少个人目标、选择逻辑与情感立场”。R01的亮点评价忽略了其功能单一性。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A005",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E003",
+        "quality-R03-E004"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "反派塑造",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主要反派（国师、权臣、庞氏）动机单一，后期明显降智，为让主角获胜而放弃基本逻辑。",
+      "evidence": {
+        "episode": "第49集",
+        "scene": "49-4",
+        "quote": "国师（被激怒，强压恐惧）：好，我念！",
+        "contrast_episode": "第50集",
+        "contrast_scene": "50-1",
+        "contrast_quote": "国师：萧烈，你赢不了。前朝势力已然复苏，我不过是在掌控局势。"
+      },
+      "reason": "R02和R03均评为A级问题。经审核，庞氏的动机仅为“守活寡/贪财”，缺乏心理深度；国师和权臣在关键节点（如地宫入口）轻易被主角团激怒或欺骗，做出不合逻辑的决策（如国师在众目睽睽下念咒），导致威胁感大幅下降。符合A级问题“前期强威胁、高智商，后期为让主角获胜而明显降智降格”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A006",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E005",
+        "quality-R03-E005"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "issue",
+      "category": "情感绑定缺失",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "主角与沈小满的关系前期主要靠利益与任务推进，缺乏关键行动和代价证明真正绑定，情感进阶证据少。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "萧烈：我说的是你。沈小满（冷笑）：将军好大的口气，你用什么聘我？",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-1",
+        "contrast_quote": "沈小满（声音颤抖）：萧烈，你的命是我的，没我允许，你敢死试试！"
+      },
+      "reason": "R02和R03均评为A级问题。经审核，第1-20集两人关系主要围绕“买妻”、“解毒”、“复仇”等利益交换，沈小满多次强调“利用价值”（第19集），萧烈也将其视为“刀”（第2集）。直到第26集“血引”事件，才出现情感转折，但此前缺乏足够的信任建立过程。符合A级问题“最重要关系或多条重要关系主要靠利益与任务推进，虽有情感表达，但缺少关键行动、代价和后果证明真正绑定”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A007",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E005",
+        "quality-R03-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系设计与张力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系存在身份立场、目标利益、情感依赖等多类张力来源，能够稳定支撑主线。",
+      "evidence": {
+        "episode": "第45集",
+        "scene": "45-1",
+        "quote": "沈小满（OS：频率干扰成功，他能保持清醒了。萧烈，接下来交给你，别死。）",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为S级亮点，R03评为A级亮点。经审核，核心关系确实存在身份（将军与泼妇）、利益（复仇与生存）、情感（解毒与牺牲）等多类张力。但R01声称“移除该关系会使主线情感逻辑明显坍塌”证据不足，主线更多依赖“复仇/夺权”的外部冲突。符合A级亮点“核心关系存在至少两类明确张力来源，能够稳定支撑主线或重要副线”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A008",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E006"
+      ],
+      "status": "confirmed",
+      "unit": "character_relationship",
+      "kind": "highlight",
+      "category": "关系推进",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心关系有清晰起点、关键里程碑和阶段变化，能够增强主线情感投入。",
+      "evidence": {
+        "episode": "第12集",
+        "scene": "12-1",
+        "quote": "沈小满：（起身，眼神突变凌厉）好，戏演完了。",
+        "contrast_episode": "第26集",
+        "contrast_scene": "26-1",
+        "contrast_quote": "沈小满（声音颤抖）：萧烈，你的命是我的，没我允许，你敢死试试！"
+      },
+      "reason": "R01评为S级亮点。经审核，关系从“利益契约”（第1-2集）到“夫妻名分”（第12集）再到“生死相依”（第26集、第42集），有清晰的阶段变化。但R01声称“关系推进本身构成连续叙事动力”证据不足，主线动力更多来自外部冲突。符合A级亮点“核心关系有清晰起点、至少一个关键里程碑和阶段变化，能够增强主线情感投入”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A009",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E007",
+        "quality-R02-E006"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_opening",
+      "kind": "highlight",
+      "category": "开篇整体叙事吸引力",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "开篇以高度经济的场景同时建立核心人物、异常情境和戏剧问题，形成强后续期待。",
+      "evidence": {
+        "episode": "第1集",
+        "scene": "1-2",
+        "quote": "沈小满：（伸出一根手指）我要你买我。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01和R02均评为A级亮点。经审核，第1集通过“救命-聘妻”的快速互动，确立了沈小满的泼辣性格和萧烈的落魄处境，并引出了“进京复仇”的核心目标。信息清晰，人物行动驱动叙事，有效激发了读者的阅读动机。符合A级亮点“人物与情境建立有效，核心问题清楚，信息组织流畅，能够稳定形成继续阅读动机”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A010",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "highlight",
+      "category": "矛盾建立整体质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-2",
+        "quote": "萧烈：我要你以“正妻”之名，撕烂他们的假面。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级亮点。经审核，目标（复仇、解毒）、核心阻力（庞氏、权臣）、风险代价（生命、自由）和首次局面变化（青石镇救场）高度清楚，多条后续期待相互咬合。符合A级亮点“核心矛盾明确，阻力有效，风险可感知，并形成至少两类稳定的后续期待”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A011",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E009",
+        "quality-R02-E008"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_continuity",
+      "kind": "issue",
+      "category": "悬念或冲突兑现不足",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多处兑现偏弱、偏迟，主要期待落空，没有产生相称的新信息、关系或局面变化。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-3",
+        "quote": "国师（绝望地向着无尽的黑暗坠落）：不——！",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "顾九：满姑娘，有句话我犹豫许久，如今不得不说了。"
+      },
+      "reason": "R01评为A级亮点，R02评为A级问题。经审核，“龙脉之血”的悬念多次被提出又搁置，直到最后才草草解决。地宫决战的兑现主要依赖动作场面，缺乏对前期情感积累的回收，导致高潮的情感冲击力不足。符合A级问题“多处兑现偏弱、偏迟或只回答表层问题，没有产生相称的新信息、关系或局面变化”。R01的亮点评价忽略了兑现的草率性。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A012",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E007"
+      ],
+      "status": "confirmed",
+      "unit": "hooks_conflict",
+      "kind": "issue",
+      "category": "核心矛盾清晰度不足",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "核心矛盾（复仇/夺权/解毒）建立迂回，信息效率低，关键要素出现较晚。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（从袖中抽出一张泛黄羊皮卷）：这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R02评为B级问题。经审核，虽然开篇建立了“进京复仇”的目标，但“龙脉之血”、“业火寒”等关键设定直到中后期才逐步揭示，且多次反转，导致核心矛盾的清晰度受到影响。读者需要自行拼接才能理解主角面临的真正阻力。符合B级问题“核心矛盾基本明确，但建立迂回、信息效率低或关键要素出现较晚”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A013",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E009"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "非情境化说明性表达",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个重要场景有明显剧情复述、情绪自我解释或背景硬塞，显著破坏真实感与张力。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（目光幽深）：不仅如此，他们正在满城搜捕拥有这种体质的人。烈儿身上的毒，是标记，也是诱饵。",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "顾九：没错。只有你的血能压制烈儿体内的寒气，但这并非简单的抹血引毒，而是需要进行繁复的“换血导引”仪式，将部分龙脉之血融入他的经脉。"
+      },
+      "reason": "R02评为A级问题。经审核，角色经常通过台词直接解释设定、动机或剧情进展，而非通过行动或互动来展现。例如顾九多次直接解释“业火寒”和“龙脉之血”的机制，沈小满也常直接说明自己的计划。符合A级问题“多个重要场景有明显剧情复述、情绪自我解释、背景硬塞或抽象结论，显著破坏真实感与张力”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A014",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "issue",
+      "category": "台词过度打磨",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "多个位置出现工整对仗或金句连发，重场戏口语颗粒明显不足并影响真实感。",
+      "evidence": {
+        "episode": "第42集",
+        "scene": "42-1",
+        "quote": "萧烈：你是余孽，我也是余孽。这大雍的规矩烂透了，咱们一起烂在泥里！",
+        "contrast_episode": "第52集",
+        "contrast_scene": "52-3",
+        "contrast_quote": "萧烈（轻声）：那就管一辈子。"
+      },
+      "reason": "R02评为A级问题。经审核，主角和反派的台词经常呈现为书面警句或金句，缺乏口语的自然停顿、重复和自我修正。例如萧烈和沈小满的对话常常过于工整，缺乏生活气息。符合A级问题“多个位置出现工整对仗或金句连发，重场戏口语颗粒明显不足并影响真实感”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A015",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "issue",
+      "category": "动作指示模糊或缺失",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "个别关键动作模糊，影响局部表演或分镜。",
+      "evidence": {
+        "episode": "第2集",
+        "scene": "2-1",
+        "quote": "大熊：哎呀。",
+        "contrast_episode": "第23集",
+        "contrast_scene": "23-1",
+        "contrast_quote": "萧烈（低吼）：滚。"
+      },
+      "reason": "R02评为B级问题。经审核，部分关键动作（如大熊的“物理说服”、萧烈的“杀气爆发”）缺乏具体的身体动作和调度描述，主要依赖形容词（如“如山崩般”、“杀气凛然”），难以直接转化为可执行的表演或分镜。符合B级问题“个别关键动作模糊，影响局部表演或分镜”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A016",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R02-E012"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "issue",
+      "category": "设定与剧情脱节",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 6.0,
+      "claim": "核心设定（龙脉之血、业火寒）只在极少关键节点推动剧情，多处说明与当前场景绑定弱，可替换性高。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（从袖中抽出一张泛黄羊皮卷）：这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。",
+        "contrast_episode": "第41集",
+        "contrast_scene": "41-1",
+        "contrast_quote": "顾九：解药有，但不是凡间的药材。而是你的血。"
+      },
+      "reason": "R02评为A级问题。经审核，“龙脉之血”和“业火寒”的设定多次被提出，但往往在关键时刻被搁置或反转，导致设定与剧情的绑定不紧密。许多情节（如撒泼、打脸）无需这些设定也能成立，设定的驱动力不足。符合A级问题“设定只在极少关键节点推动剧情，或多处说明与当前场景绑定弱，可替换性高”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A017",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E010"
+      ],
+      "status": "confirmed",
+      "unit": "episode_dialogue",
+      "kind": "highlight",
+      "category": "台词风格化设计",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "主要角色语言差异鲜明，表达习惯与身份、性格、关系高度绑定，对话节奏有设计并推动张力。",
+      "evidence": {
+        "episode": "第5集",
+        "scene": "5-1",
+        "quote": "沈小满（冷笑）：卖命？晚了。我现在给你个更好的方案。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为S级亮点。经审核，沈小满的泼辣、萧烈的冷峻、顾九的毒舌、阿笙的机敏、大熊的憨厚，均通过具体台词体现，增强角色辨识度。但R01声称“对话节奏有设计并推动张力”证据不足，部分对话仍显机械。符合A级亮点“关键角色台词风格稳定，人物间表达差异清楚，增强角色辨识度”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A018",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E011"
+      ],
+      "status": "confirmed",
+      "unit": "episode_visual",
+      "kind": "highlight",
+      "category": "场景与动作描写质量",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "描写清晰、画面感强，关键动作和情绪状态可由导演与演员直接执行。",
+      "evidence": {
+        "episode": "第50集",
+        "scene": "50-3",
+        "quote": "△ 巨石坠落的轰鸣声震耳欲聋，通道的一侧墙壁已经开始崩塌。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级亮点。经审核，场景描写具备空间、氛围与关键视觉信息，动作指示精准可执行，如地宫坍塌、阅兵大典等。符合A级亮点“描写清晰、画面感强，关键动作和情绪状态可由导演与演员直接执行”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A019",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R01-E012"
+      ],
+      "status": "confirmed",
+      "unit": "setting",
+      "kind": "highlight",
+      "category": "设定释放节奏",
+      "severity": "A",
+      "behavior_rating": null,
+      "points": 1.0,
+      "claim": "设定释放有层次，整体节奏良好，没有明显信息过载。",
+      "evidence": {
+        "episode": "第20集",
+        "scene": "20-1",
+        "quote": "顾九（从袖中抽出一张泛黄羊皮卷）：这是十年前的边关禁药名册。此毒需以龙脉之血为引，方能彻底化解。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R01评为A级亮点。经审核，前朝龙脉、业火寒等设定分阶段释放，每个新设定都在观众需要知道的时刻出现，并与剧情高潮或关键行动精准绑定。符合A级亮点“设定释放有层次，整体节奏良好，没有明显信息过载”。",
+      "arbitration_question": ""
+    },
+    {
+      "audit_id": "quality-A020",
+      "dimension": "quality",
+      "source_entry_ids": [
+        "quality-R03-E008"
+      ],
+      "status": "confirmed",
+      "unit": "character_support",
+      "kind": "issue",
+      "category": "角色配置合理性",
+      "severity": "B",
+      "behavior_rating": null,
+      "points": 4.0,
+      "claim": "配角配置基本可读，但局部功能重叠、角色略冗余或分工不够清楚。",
+      "evidence": {
+        "episode": "第6集",
+        "scene": "6-1",
+        "quote": "阿笙：（指了指还在打瞌睡的隔壁酒客）刚才闲聊时，酒客甲抱怨酒贵，酒客乙叹气米贵。",
+        "contrast_episode": "",
+        "contrast_scene": "",
+        "contrast_quote": ""
+      },
+      "reason": "R03评为B级问题。经审核，阿笙与顾九在“情报/解说”功能上存在一定重叠，大熊与萧烈在“武力”功能上高度重叠，导致配角群像缺乏层次感。符合B级问题“配置基本可读，但局部功能重叠、角色略冗余或分工不够清楚”。",
+      "arbitration_question": ""
+    }
+  ],
+  "source_count": 32,
+  "covered_count": 32
+}
