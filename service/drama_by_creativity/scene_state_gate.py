@@ -63,6 +63,7 @@ def bind_policy(root, mode):
 def state_catalog(view):
     if isinstance(view, list):
         field_map = {
+            'canon': 'confirmed_facts',
             'characters': 'character_state',
             'relationships': 'relationship_state',
             'assets': 'resources_and_evidence',
@@ -77,7 +78,7 @@ def state_catalog(view):
             catalog[f'M{len(catalog) + 1:04d}'] = {
                 'field': field_map[record['category']],
                 'text': f'{entity}｜{attribute}：{value}',
-                'source': 'structured_state_hybrid',
+                'source': record.get('source', 'structured_state_hybrid'),
                 'category': record['category'],
                 'entity': entity,
                 'attribute': attribute,

@@ -81,6 +81,12 @@ Baseline 不使用：场次大纲 Agent、叙事记忆、结构化状态记忆�
 - `results/pg19_selected12/reports/pg19_candidate_vs_matched_history_baseline_v24.json`
 - `results/pg19_selected12/reports/candidate_scores_v24.json`
 
+### Generalized V3：可选场次门控
+
+`conservative_v3` 在 V1 的结构化状态记忆与 hybrid 检索之上，为每个场次另行检索当前状态、终局历史和既定故事事实，再执行保守的场次检查与一次修订。V1 仍是默认策略；只有设置 `DRAMA_SCENE_GATE_POLICY=conservative_v3` 才启用 V3。实现位于 `service/drama_by_creativity/conservative_scene_gate_v3.py` 和 `service/drama_by_creativity/scene_gate_v3_retrieval.py`。
+
+`pg19_gate_v3_generalized_study.sh` 使用外部提供的冻结规划资产和初始 Future Map：每个 `<sample_id>/` 下需有 `input.json`、`assets/pipeline_result.json`、`assets/generation_background.json`、`assets/03_story_outline/outline.json`、`assets/04_episode_outline/*.json`，以及 `candidate/04_future_map/{future_map,episode_contributions}.json`。脚本只复用这些输入，不复用剧本、记忆或 gate 结果。本次上传**仅包含方法代码和运行入口**；未上传新的原始创意、大纲、Future Map、剧本或评分数据。
+
 ## 仓库结构
 
 ```text
@@ -137,6 +143,18 @@ bash pg19_selected12_baseline.sh evaluate --execute-api
 ```
 
 两套脚本默认对所有选中故事执行故事级全并发；每个故事内部按集顺序推进。失败后重跑同一命令即可恢复，已完成剧集与评分不会重复执行。
+
+Generalized V3 的运行命令（需自行提供冻结输入，并先启动相应的 Qwen3.6 生成服务或 Qwen3.8 评测服务）：
+
+```bash
+export PG19_V3_SOURCE_ROOT=/path/to/frozen_v1_source
+bash pg19_gate_v3_generalized_study.sh prepare
+bash pg19_gate_v3_generalized_study.sh generate --workers 0 --execute-api
+bash pg19_gate_v3_generalized_study.sh evaluate --workers 0 --execute-api
+python tools/report_pg19_stage_timing.py output/pg19_gate_v3_generalized_12_frozen_map_v1
+```
+
+生成脚本将输出写入忽略追踪的 `output/`，不会覆盖 V1；`DRAMA_STAGE_TIMING=1` 记录 gate 与剧本撰写阶段耗时。没有外部冻结输入时，请勿将本仓库已有的简化结果文件误当作原始八字段集大纲。
 
 更完整的命令和恢复语义见：
 

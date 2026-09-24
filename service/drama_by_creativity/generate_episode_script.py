@@ -41,6 +41,7 @@ from .plot_retrieval_control import is_plot_retrieval_disabled, select_prompt_re
 # 假设你有一个用于生成整集剧本的Prompt，如果没有，可以使用场次Prompt修改，或者新建一个
 from .prompts import GENERATE_SCENE_OUTLINE_PROMPT, GENERATE_SCENE_PLOT_PROMPT, GENERATE_WHOLE_EPISODE_PROMPT, SCRIPT_FORMAT_PROMPT, ADJUST_WORD_COUNT_PROMPT
 from .realtime_output import save_realtime
+from .stage_timing import StageTiming
 
 from drama_local.runtime import ScriptContentFile
 
@@ -237,14 +238,19 @@ async def generate_episode_script(
 ) -> pb.GenerateDramaRsp:
     scene_gate_mode = gate_mode()
     scene_gate_policy = os.environ.get("DRAMA_SCENE_GATE_POLICY", "legacy").strip().lower()
-    if scene_gate_policy not in {"legacy", "conservative_v1"}:
-        raise ValueError("DRAMA_SCENE_GATE_POLICY must be legacy or conservative_v1")
+    if scene_gate_policy not in {"legacy", "conservative_v1", "conservative_v3"}:
+        raise ValueError("DRAMA_SCENE_GATE_POLICY must be legacy, conservative_v1 or conservative_v3")
     configured_gate_factory = None
     if scene_gate_policy == "conservative_v1":
         if scene_gate_mode != "enforce":
             raise ValueError("conservative_v1 requires DRAMA_SCENE_STATE_GATE=enforce")
         from .conservative_scene_gate import ConservativeSceneGate
         configured_gate_factory = ConservativeSceneGate.factory
+    elif scene_gate_policy == "conservative_v3":
+        if scene_gate_mode != "enforce":
+            raise ValueError("conservative_v3 requires DRAMA_SCENE_STATE_GATE=enforce")
+        from .conservative_scene_gate_v3 import ConservativeSceneGateV3
+        configured_gate_factory = ConservativeSceneGateV3.factory
     if scene_gate_factory is not None and (scene_gate_mode != "off" or not state_lifecycle_enabled()):
         raise ValueError("Custom scene gate requires lifecycle memory and the legacy gate disabled")
     if scene_gate_factory is not None and configured_gate_factory is not None:
@@ -399,6 +405,10 @@ async def generate_episode_script(
     for episode_id in generating_episode_ids:
         logger.info_context(ctx, f"开始生成第 {episode_id+1} 集的剧情。")
         start_episode_plot_time = time.time()
+        stage_timing = (
+            StageTiming(os.environ["DRAMA_OUTPUT_DIR"], episode_id + 1)
+            if os.environ.get("DRAMA_STAGE_TIMING") == "1" else None
+        )
         if hasattr(ctx, "fields"):
             ctx.fields["episode_number"] = episode_id + 1
 
@@ -611,7 +621,13 @@ async def generate_episode_script(
         # 步骤2：生成剧情 (根据类型分叉)
         # ------------------------------------------------------------------
         if scene_gate is not None:
+            if stage_timing is not None:
+                stage_timing.start("gate")
             scene_outline_ret_json = await scene_gate.apply(ctx, scene_outline_ret_json)
+            if stage_timing is not None:
+                stage_timing.finish("gate")
+        if stage_timing is not None:
+            stage_timing.start("script")
         episode_plot = ""
         
         # 保留原 Prompt 参数名以兼容模板，但内容已替换为检索后的结构化叙事记忆。
@@ -919,6 +935,8 @@ async def generate_episode_script(
         # ------------------------------------------------------------------
         # 用最终剧本更新 Future Map 推动关联，并以补丁方式覆盖受影响的当前状态。
         # ------------------------------------------------------------------
+        if stage_timing is not None:
+            stage_timing.finish("script")
         if summary_baseline:
             await narrative_memory.update_from_episode(ctx, episode_id, episode_plot)
         elif not full_history_baseline:

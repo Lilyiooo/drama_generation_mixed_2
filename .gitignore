@@ -71,6 +71,7 @@ deploy.sh
 
 # Local generation artifacts and private configuration
 /output/*
+/results/generalized_v3/
 !/output/qwen36_27b_eight_fields_demo_20260916_060508_407704/
 /localization_backup/
 .env

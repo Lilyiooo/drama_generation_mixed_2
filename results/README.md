@@ -35,8 +35,8 @@ Rxx/
 
 | 项目 | 数量 |
 |---|---:|
-| 60 集完整剧本 | 30 |
-| `scores.json` | 30 |
+| 60 集完整剧本（V1 与 baseline） | 30 |
+| `scores.json`（V1 与 baseline） | 30 |
 | 多 Agent Markdown 报告 | 30 |
 | 独立 reviewer JSON | 180 |
 
