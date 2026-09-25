@@ -116,6 +116,8 @@ export DRAMA_LLM_MODEL="Qwen3.6-27B"
 export DRAMA_LLM_THINKING=0
 ```
 
+首版去重评测 Prompt（此前的评测 pipeline v2）及其 PG19 三轮配对结果归档于 `evaluation/prompt_profiles/given_setting_dedup/README.md`。该目录仅新增 Prompt 资料，不改动仓库默认的 v24 评测器和历史主结果。
+
 评测服务默认使用：
 
 ```bash
